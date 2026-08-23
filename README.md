@@ -54,10 +54,16 @@ Docker with at least 8 GB of memory is recommended.
 
 ```bash
 docker build -f environment/Dockerfile -t alder-ridge-sample-tasks:1.1.0 .
-docker run --rm -p 8765:8765 alder-ridge-sample-tasks:1.1.0
+docker run --rm \
+  --cap-add SYS_ADMIN \
+  --security-opt seccomp=unconfined \
+  --security-opt apparmor=unconfined \
+  --security-opt systempaths=unconfined \
+  -p 8765:8765 \
+  alder-ridge-sample-tasks:1.1.0
 ```
 
-The service listens on port `8765`. Each task receives an isolated `/workspace` and the `contractor_accounting` MCP capability. The agent cannot access the accounting database, gold values, rubric implementation or environment source code directly.
+The service listens on port `8765`. The listed Linux container permissions allow the environment to create its nested Bubblewrap sandbox; they do not expose the hidden evaluation files to the task agent. Each task receives an isolated `/workspace` and the `contractor_accounting` MCP capability. The agent cannot access the accounting database, gold values, rubric implementation or environment source code directly.
 
 ## Validate or grade locally
 
