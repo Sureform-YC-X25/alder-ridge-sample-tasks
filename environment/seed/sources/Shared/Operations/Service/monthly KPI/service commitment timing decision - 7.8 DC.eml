@@ -1,0 +1,43 @@
+From: Daniel Cho <dcho@alderridgemech.com>
+To: Senior Finance Analyst <finance.analysis@alderridgemech.com>
+Cc: Natalie Brooks <nbrooks@alderridgemech.com>; Sofia Alvarez <salvarez@alderridgemech.com>; service.operations@alderridgemech.com
+Date: Wed, 8 Jul 2026 07:08:00 -0700
+Subject: dispatcher hold decision before tomorrow's service commitments
+
+One more decision needs to be explicit before the operating review. The static service-flex table puts Bend commissioning plus the Portland PM closeout slightly ahead of the hospital SLA plus the PM closeout, but Service Operations cannot preserve both dispatcher paths until their stated deadlines.
+
+At 9:00 a.m. on July 9, Service Operations must either lock the hospital SLA dispatcher handoff or hold that handoff open until the Bend site-access call at 2:00 p.m. Use the action economics already documented in the July 7 allocation note; do not rebuild or add another contribution amount.
+
+For the timing decision:
+
+- Service Operations estimates a 70% probability that Bend site access will be confirmed by 2:00 p.m. This is a planning assumption, not a customer commitment.
+- If Service Operations waits and Bend access is confirmed, Bend commissioning plus the Portland PM closeout proceeds.
+- If Service Operations waits and Bend access is not confirmed, there is a 35% probability that the hospital SLA can still be placed by 4:00 p.m.
+- If the late hospital placement also fails, the Portland PM closeout proceeds alone. The unused eight-hour block has no incremental value in this decision. Do not insert a substitute action or double count the dispatcher handoff.
+- If Service Operations locks the hospital SLA at 9:00 a.m., the hospital SLA plus the Portland PM closeout proceeds.
+
+Compare the expected value of locking the hospital SLA at 9:00 a.m. with waiting for Bend access. Show the no-access branch, the expected-value difference between the policies, and the Bend access probability at which waiting becomes the better policy. Recommend the executable policy, not merely the portfolio with the highest static total.
+
+Dispatcher signal validation
+
+Sofia's team can also see the automated access-readiness signal at 8:45 a.m., before the 9:00 a.m. lock decision, at no incremental cost. The following 400 decisions were the development sample used to calibrate the signal under the current process:
+
+- Green signal and Bend access confirmed by 2:00 p.m.: 278 decisions.
+- Green signal and Bend access not confirmed by 2:00 p.m.: 1 decision.
+- Red signal and Bend access confirmed by 2:00 p.m.: 2 decisions.
+- Red signal and Bend access not confirmed by 2:00 p.m.: 119 decisions.
+
+The model owner then froze the logic and tested it on a separate 200-decision holdout that was not used for calibration. That holdout is the controlling evidence for a go-live recommendation:
+
+- Green signal and Bend access confirmed by 2:00 p.m.: 124 decisions.
+- Green signal and Bend access not confirmed by 2:00 p.m.: 6 decisions.
+- Red signal and Bend access confirmed by 2:00 p.m.: 4 decisions.
+- Red signal and Bend access not confirmed by 2:00 p.m.: 66 decisions.
+
+Use the joint counts, rather than treating either signal as a new unconditional access probability. Show the development and holdout results separately. For each sample and signal, update the access probability and compare the conditional value of waiting with the value of locking. Evaluate the policy that waits after green and locks after red, then compare it with both unconditional policies. Use the development sample as calibration/reference evidence only and the holdout as the controlling go-live test.
+
+For the operating review, Service Operations will accept no more than a 1.0% probability of ending with the PM-only outcome. For this screen, that downside occurs only when the policy waits, Bend access is not confirmed, and the late hospital placement also fails. If the signal is missing at 8:45 a.m., the dispatcher must use the 9:00 a.m. decision without it. Any paid manual escalation must be justified against the go-live policy's expected-value improvement over locking now. If the holdout does not support deployment, keep the signal in shadow mode for review or retraining and use the supported 9:00 a.m. policy without it.
+
+This is an internal planning decision. Service Operations owns the schedule and customer confirmations. It is not a customer commitment, booking, posted forecast, pricing or concession approval, or change to the Q2 KPI population.
+
+Daniel

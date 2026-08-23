@@ -1,0 +1,46 @@
+From: Daniel Cho <dcho@alderridgemech.com>
+To: Senior Finance Analyst <finance.analysis@alderridgemech.com>
+Cc: Natalie Brooks <nbrooks@alderridgemech.com>; Sofia Alvarez <salvarez@alderridgemech.com>; service.operations@alderridgemech.com
+Date: Tue, 7 Jul 2026 07:12:00 -0700
+Subject: one finance block before Friday - service follow-through
+
+We have one four-hour Finance Operations block left before Friday's operating review. It can be used for one of three things: finish the E-1063 sensor recovery package, finish the E-1054 control-board recovery package, or prepare the customer-retention concession package tied to E-1054 / WO-26-0030478. Use the callback action-window note for the claim amounts, case facts and original deadlines. I need the three choices on one comparable expected-value basis, the use you recommend, what stays queued, and the point at which you would switch the block to the next-best choice.
+
+Recovery timing and cost
+
+- If the sensor package uses the block, it can be filed on time and has an 85% expected acceptance rate. Without the block it will go in with the standard queue on July 13, when expected acceptance falls to 30%. The external filing and documentation cost is $180 either way.
+- If the control-board package uses the block, it can be filed on time and has a 90% expected acceptance rate. Without the block it will go in with the standard queue on July 15, when expected acceptance falls to 70%. The external filing and documentation cost is $120 either way.
+
+For each recovery choice, expected net value is the documented recoverable amount times the applicable acceptance probability, less the filing and documentation cost. Show the expected net value with the block, the expected net value in the standard queue, and the incremental value of using the block.
+
+Customer-retention package
+
+The affected customer's next twelve months of contribution margin is $6,800. Commercial's documented baseline renewal probability is 55%. An approved $1,500 concession is expected to move that probability to 78%. Treat the concession as the cost of the action: expected net contribution is renewal probability times contribution margin, less the concession. Without a package, use the baseline probability and no concession.
+
+Mike's original $2,000 credit request is outside the current authority. The block can prepare a package for up to $1,500, but no credit may be offered or booked until the Service GM confirms the renewal terms and the Controller approves the credit memo. The Q2 operating-value proxy is not customer loss, claim recovery or a substitute for the contribution-margin analysis.
+
+Keep the callback KPI unchanged and the review internal and conditional. If the primary use stops being the best use before its filing cutoff, give me a numerical fallback trigger and the next action rather than a generic statement that we should revisit it.
+
+July branch-flex planning
+
+We also have one 120-hour technician-flex block for July. Keep 32 hours in Portland and 72 hours in Bend for the service floors before deciding where the remaining 16 hours goes. Use each branch's adjusted Q2 operating value per billable hour as the run-rate. For this planning comparison only, use contribution conversions of 28% for Portland and 36% for Bend, with July realization probabilities of 90% and 85%, respectively. Expected contribution per hour is the Q2 operating-value run-rate times the planning conversion and realization probability.
+
+Show the branch calculation, allocate the full 120 hours, and tell me what Bend realization probability would make the discretionary hours indifferent to Portland. If Bend falls below that point, move only the discretionary hours; do not disturb the service floors.
+
+This is an internal capacity scenario. It is not GAAP revenue, a posted forecast, or authority for Finance to schedule technicians. Service Operations owns the final assignment.
+
+Service-commitment portfolio
+
+Use the 32-hour Portland and 72-hour Bend service floors above. The remaining 16 hours are two indivisible eight-hour blocks; do not assume overtime or a partial package. We need the best feasible two-action portfolio, not a branch-rate-only allocation.
+
+For a common comparison, start each action with eight hours times that branch's expected contribution per hour from the branch-flex calculation. Then add the expected protected contribution described below and subtract the stated outside cost. This is an expected management consequence, not GAAP revenue or a posted forecast.
+
+- Portland hospital SLA recovery uses one eight-hour Portland block. A complete recovery plan has a 50% probability of avoiding a $1,600 service credit. The outside diagnostic cost is $110. It needs the one dispatcher-handoff slot and must be placed on the schedule by 4:00 p.m. on July 9.
+- Bend controls commissioning uses one eight-hour Bend block. Timely commissioning has a 72% probability of protecting $1,050 of contribution. The outside coordination cost is $85. Customer site access must be confirmed by 2:00 p.m. on July 9. It also needs the one dispatcher-handoff slot, so it cannot be selected together with the hospital SLA action.
+- Portland PM retention closeout uses one eight-hour Portland block and does not need the dispatcher-handoff slot. The affected customer's next-twelve-month contribution is $1,300. The documented retention probability is 18% without the closeout and 62% with it. The closeout cost is $150. Customer consent is due by noon on July 10. This is service follow-through only; it does not authorize a concession or credit.
+
+Show the expected net consequence for all three actions, the feasible portfolio you recommend, the next-best feasible portfolio and the difference between them. Show the final Portland and Bend hours after the selected portfolio. If Bend site access is not confirmed by 2:00 p.m. on July 9, state the replacement action and the remaining deadline.
+
+Service Operations owns the schedule. Finance is providing an internal planning recommendation only; no action is a booking, pricing approval, customer concession, or change to the Q2 KPI population.
+
+Daniel

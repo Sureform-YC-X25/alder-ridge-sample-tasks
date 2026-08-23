@@ -29,7 +29,9 @@ environment/
   runtime/              runnable environment, accounting MCP and grading code
   seed/
     accounting.db       simulated company accounting system
-    sources/            shared company documents and starting artifacts
+    sources/            complete shared company document world
+    private_task_overlays/
+                        task-scoped seed retained for exact provenance
 
 tasks/
   <task-slug>/
@@ -40,11 +42,11 @@ tasks/
     source_manifest.json
 ```
 
-Open `tasks/` to review the 12 assignments. Open `environment/seed/sources/` to inspect the 71 spreadsheets, documents, presentations, PDFs, emails and operating extracts available to the agent. `environment/seed/accounting.db` supplies the company records exposed through the accounting MCP.
+Open `tasks/` to review the 12 assignments. Open `environment/seed/sources/` to inspect the complete 132-file shared company world: spreadsheets, documents, presentations, PDFs, emails and operating extracts. This is the same evidence universe used by the finalized 100-task environment, including relevant files, distractors, version history and conflicting working drafts. `environment/seed/accounting.db` is the unchanged full company accounting snapshot exposed through the accounting MCP.
 
 The `environment/runtime/grading/` directory is the executable verifier used for the tasks. It checks financial values, dates, formulas, document structure, source lineage and required deliverables deterministically. Semantic review is limited to criteria that allow professionally equivalent wording and cannot override failed deterministic finance checks.
 
-The repository does not contain task definitions, gold data, rubrics or exclusive source packages for the other 88 tasks. The shared accounting database is retained because it is the system of record used by the selected tasks.
+The repository does not contain task definitions, gold data, rubrics or graders for the other 88 tasks. It intentionally does contain the full shared company evidence universe and accounting system so reviewers can assess each sample task against the real navigation and reconciliation burden of the complete world. The canonical task-scoped seed overlay is retained for provenance inside `environment/seed/private_task_overlays/`, but it is not mounted into any of these 12 sample task workspaces.
 
 ## Run the environment
 
@@ -83,4 +85,4 @@ The repository is not open source and may not be redistributed, used for model t
 
 ## Provenance
 
-The sample was clean-room exported from canonical finalized commit `0202b6e1bf789a20d3770335922e4ee34f231408`. The selected task/source closure and accounting-seed digest are recorded in `environment/seed/sample_manifest.json`.
+The sample was clean-room exported from canonical finalized commit `0202b6e1bf789a20d3770335922e4ee34f231408`. The complete shared source inventory, selected task set, task-scoped overlay and accounting-seed digest are recorded in `environment/seed/sample_manifest.json`.
