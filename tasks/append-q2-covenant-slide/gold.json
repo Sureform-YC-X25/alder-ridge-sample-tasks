@@ -1,0 +1,90 @@
+{
+  "cash_interest": 72784.57,
+  "cash_taxes": 0.0,
+  "compliant_posted": true,
+  "compliant_pro_forma": true,
+  "covenant_test_review": [
+    {
+      "denominator": 2975294.87,
+      "metric": "Leverage",
+      "posted_headroom": 2.6264,
+      "posted_numerator": 1111666.5,
+      "posted_result": 0.3736,
+      "pro_forma_denominator": 4251620.57,
+      "pro_forma_headroom": 2.7385,
+      "pro_forma_numerator": 1111666.5,
+      "pro_forma_result": 0.2615,
+      "threshold": 3.0
+    },
+    {
+      "denominator": 557784.8,
+      "metric": "Fixed-charge coverage",
+      "posted_headroom": 3.6492,
+      "posted_numerator": 2704794.87,
+      "posted_result": 4.8492,
+      "pro_forma_denominator": 557784.8,
+      "pro_forma_headroom": 5.9374,
+      "pro_forma_numerator": 3981120.57,
+      "pro_forma_result": 7.1374,
+      "threshold": 1.2
+    },
+    {
+      "denominator": 1.0,
+      "metric": "Tangible net worth",
+      "posted_headroom": 6547638.53,
+      "posted_numerator": 9047638.53,
+      "posted_result": 9047638.53,
+      "pro_forma_denominator": 1.0,
+      "pro_forma_headroom": 7823964.23,
+      "pro_forma_numerator": 10323964.23,
+      "pro_forma_result": 10323964.23,
+      "threshold": 2500000
+    }
+  ],
+  "fccr_posted": 4.8492,
+  "fccr_pro_forma": 7.1374,
+  "funded_debt": 1111666.5,
+  "leverage_posted": 0.3736,
+  "leverage_pro_forma": 0.2615,
+  "ltm_adjusted_ebitda_posted": 2975294.87,
+  "ltm_adjusted_ebitda_pro_forma": 4251620.57,
+  "ltm_direct_equipment_financing": 600000.0,
+  "ltm_fixed_asset_additions": 870500.0,
+  "max_leverage": 3.0,
+  "min_fccr": 1.2,
+  "min_tangible_net_worth": 2500000,
+  "scheduled_principal": 485000.23,
+  "tangible_net_worth_posted": 9047638.53,
+  "tangible_net_worth_pro_forma": 10323964.23,
+  "unfunded_capex": 270500.0,
+  "wip_review": [
+    {
+      "close_etc": 218800,
+      "finance_adjustment": 45000,
+      "net_wip_position": 410042.95,
+      "pm_etc": 173800,
+      "project_id": "ARM-2318"
+    },
+    {
+      "close_etc": 769000,
+      "finance_adjustment": 185000,
+      "net_wip_position": 206179.78,
+      "pm_etc": 584000,
+      "project_id": "ARM-2409"
+    },
+    {
+      "close_etc": 3323000,
+      "finance_adjustment": 275000,
+      "net_wip_position": 288133.17,
+      "pm_etc": 3048000,
+      "project_id": "ARM-2417"
+    },
+    {
+      "close_etc": 4941000,
+      "finance_adjustment": 210000,
+      "net_wip_position": 241990.73,
+      "pm_etc": 4731000,
+      "project_id": "ARM-2506"
+    }
+  ]
+}

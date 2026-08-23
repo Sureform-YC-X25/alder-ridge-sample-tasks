@@ -1,0 +1,461 @@
+{
+  "criteria": [
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `current_contract` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__current_contract",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `posted_cost` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__posted_cost",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `billings` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__billings",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `pm_etc` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__pm_etc",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `required_etc_adjustment` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__required_etc_adjustment",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `close_etc` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__close_etc",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `eac` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__eac",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `earned_revenue` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__earned_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `contract_asset` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__contract_asset",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `contract_liability` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__contract_liability",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 WIP calculation chain is correct: `estimated_margin` is correct",
+      "failure_cap": null,
+      "id": "wip_chain__estimated_margin",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 percent complete is correct",
+      "failure_cap": null,
+      "id": "wip_chain__percent_complete",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "ARM-2409 total estimated margin rate is correct",
+      "failure_cap": null,
+      "id": "wip_chain__margin_percent",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_current_contract` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_current_contract",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_posted_cost` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_posted_cost",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_close_etc` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_close_etc",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_eac` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_eac",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_earned_revenue` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_earned_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_billings` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_billings",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_contract_asset` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_contract_asset",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_contract_liability` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_contract_liability",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 WIP position is correct: `may_estimated_margin` is correct",
+      "failure_cap": null,
+      "id": "may_position__may_estimated_margin",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 percent complete is correct",
+      "failure_cap": null,
+      "id": "may_position__percent_complete",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Final May ARM-2409 total estimated margin rate is correct",
+      "failure_cap": null,
+      "id": "may_position__margin_percent",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `current_contract_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__current_contract_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `posted_cost_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__posted_cost_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `close_etc_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__close_etc_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `eac_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__eac_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `percent_complete_change_bps` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__percent_complete_change_bps",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `earned_revenue_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__earned_revenue_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `billings_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__billings_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `contract_asset_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__contract_asset_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `contract_liability_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__contract_liability_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `estimated_margin_change` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__estimated_margin_change",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "May-to-June ARM-2409 bridge is correct: `margin_rate_change_bps` is correct",
+      "failure_cap": null,
+      "id": "month_bridge__margin_rate_change_bps",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The disputed draft change is correctly excluded from contract value",
+      "failure_cap": null,
+      "id": "decision__draft_change_contract_treatment",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The disputed recovery is correctly added back to PM ETC",
+      "failure_cap": null,
+      "id": "decision__disputed_recovery_etc_action",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The controller-review conclusion is correct",
+      "failure_cap": null,
+      "id": "decision__controller_review_required",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "integrity",
+      "description": "The controller sign-off memo is completed without template placeholders",
+      "failure_cap": null,
+      "id": "artifact__complete",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "controls",
+      "description": "The memo identifies ARM-2409, the project, and the June 30 cutoff",
+      "failure_cap": null,
+      "id": "identity__arm_2409",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "controls",
+      "description": "The memo retains all required review tables and row populations",
+      "failure_cap": null,
+      "id": "structure__review_tables",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "decision",
+      "description": "The recommendation states the policy-corrected close treatment and approval state",
+      "failure_cap": null,
+      "id": "recommendation__policy_corrected_close",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The memo connects controller review to the 334.78-basis-point margin decline",
+      "failure_cap": null,
+      "id": "decision__margin_review_trigger",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The memo connects controller review to the disputed recovery embedded in the PM estimate",
+      "failure_cap": null,
+      "id": "decision__disputed_estimate_review_trigger",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "provenance",
+      "description": "The evidence log ties current contract, posted cost, and billings to cutoff accounting records",
+      "failure_cap": null,
+      "id": "evidence__accounting_cutoff",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "provenance",
+      "description": "The evidence log identifies the final May WIP source and its comparison purpose",
+      "failure_cap": null,
+      "id": "evidence__prior_close",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "provenance",
+      "description": "The evidence log identifies the current PM forecast and the disputed-recovery condition",
+      "failure_cap": null,
+      "id": "evidence__pm_forecast",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "provenance",
+      "description": "The evidence log identifies both commercial sources and the unsupported $185,000 recovery",
+      "failure_cap": null,
+      "id": "evidence__commercial_authorization",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "provenance",
+      "description": "The evidence log identifies the signed WIP policy and its applicable treatment",
+      "failure_cap": null,
+      "id": "evidence__wip_policy",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The memo states the evidence needed before the recovery may enter contract value",
+      "failure_cap": null,
+      "id": "decision__future_commercial_evidence",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Finance owns the ETC correction, recalculation, and retained close support",
+      "failure_cap": null,
+      "id": "action__finance_correction",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The project team owns resolution of PCO-011 and the authorization evidence",
+      "failure_cap": null,
+      "id": "action__commercial_resolution",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The controller owns review and documented disposition before posting",
+      "failure_cap": null,
+      "id": "action__controller_disposition",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The memo remains a preparer sign-off and does not claim posting approval",
+      "failure_cap": null,
+      "id": "decision__not_approved_to_post",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "auditability",
+      "description": "Every required evidence-log row records a source, source fact, and status",
+      "failure_cap": null,
+      "id": "evidence__log_complete",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "controls",
+      "description": "The memo is organized as a usable controller review record",
+      "failure_cap": null,
+      "id": "usability__review_ready",
+      "semantic": false,
+      "weight": 5
+    }
+  ],
+  "deterministic_verifier": "graders/apex.py",
+  "grading_revision": "weighted-atomic-hybrid-v4",
+  "integrity_verifier": "graders/integrity.py",
+  "reward_policy": "graders/rubric.py",
+  "reward_type": "weighted_partial_credit",
+  "semantic_verifier": "graders/production_semantic.py",
+  "slug": "arm-2409-wip-backcharge",
+  "strict_pass": "all atomic criteria equal 1",
+  "task_id": "task_001"
+}

@@ -1,0 +1,16 @@
+{
+  "artifact": {
+    "edit": true,
+    "path": "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx",
+    "type": "xlsx"
+  },
+  "canonical_source_commit": "0202b6e1bf789a20d3770335922e4ee34f231408",
+  "difficulty": "expert-long-horizon",
+  "grading_revision": "weighted-atomic-hybrid-v12-executive-recovery-decision",
+  "output_mode": "spreadsheet_edit",
+  "prompt": "Please update the FY27 backlog burn and labor-capacity view before the next planning review.\n\nStart with the July FY27 planning correspondence and the controller's follow-up after the first steering review. Use the current controller-tied workpapers and operating extracts. Earlier working versions are only there to show what changed; resolve any conflicting figures from the dates, approval status, document status, and management correspondence. Tie posted Alder Ridge balances to the company accounting records.\n\nWork in `Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx`. Preserve `Contract Backlog`, `Capacity Inputs`, and `Execution Authority`, then complete monthly `Revenue Burn`, `Labor Capacity`, `Gap Analysis`, `Project Execution`, and `Checks`. Use the current planning definitions to keep backlog, pipeline, and delivery capacity clearly separated. Show monthly revenue, required hours, available hours, the capacity gap, and the first constrained month, with source, backlog, capacity, and roll-forward controls.\n\nFor each constrained month, stage the approved emergency-overtime increment before contingent subcontract surge. Show incremental cost, unresolved hours, and whether capacity is cleared or requires executive sequencing.\n\nConvert the 100%-execution case into a monthly project schedule using the approved customer-priority and contract-penalty terms. Roll unfinished hours forward and quantify completed and deferred revenue, gross profit, liquidated damages, and the resulting portfolio release decision.\n\nBridge the probability plan, gross commitment, and executable priority case into a monthly earnings-release view. Reconcile gross profit before and after approved remediation, realized net gross profit after contractual damages, deferred revenue at risk, and the management release status.\n\nClose with an executive recovery decision that quantifies the gross-commitment earnings shortfall, deferred gross profit, damages, required recovery, and the condition for release.\n\nDocument the controlling sources in the workbook, recalculate it, and save it back to the same path. Leave no spreadsheet errors, draft scripts, or temporary exports in the shared company workspace.",
+  "slug": "complete-backlog-capacity-model",
+  "task_id": "task_035",
+  "title": "Complete the backlog burn and capacity model",
+  "workflow": "fpa-operations"
+}

@@ -1,0 +1,52 @@
+{
+  "bridge": {
+    "billings_change": 79513.55,
+    "close_etc_change": 23107.87,
+    "contract_asset_change": -68625.38,
+    "contract_liability_change": 0.0,
+    "current_contract_change": 0.0,
+    "eac_change": 185000.0,
+    "earned_revenue_change": 10888.17,
+    "estimated_margin_change": -185000.0,
+    "margin_rate_change_bps": -334.78,
+    "percent_complete_change_bps": 19.7,
+    "posted_cost_change": 161892.13
+  },
+  "controller_review_required": true,
+  "disputed_recovery_etc_action": "add_back_to_pm_etc",
+  "draft_change_contract_treatment": "exclude",
+  "pm_etc": 584000,
+  "prior_month": {
+    "billings": 4296079.58,
+    "close_etc": 745892.13,
+    "contract_asset": 274805.16,
+    "contract_liability": 0.0,
+    "current_contract": 5526000.0,
+    "eac": 4315500.0,
+    "earned_revenue": 4570884.74,
+    "estimated_margin": 1210500.0,
+    "margin_percent": 0.21905537459283386,
+    "percent_complete": 0.827159742787626,
+    "posted_cost": 3569607.87
+  },
+  "project": {
+    "billings": 4375593.13,
+    "branch": "Portland",
+    "cost_to_date": 3731500.0,
+    "current_contract": 5526000,
+    "earned_revenue": 4581772.91,
+    "estimated_cost_at_completion": 4500500.0,
+    "estimated_cost_to_complete": 769000,
+    "estimated_margin": 850272.91,
+    "estimated_margin_percent": 0.185577,
+    "estimated_total_margin": 1025500.0,
+    "overbilling": 0,
+    "percent_complete": 0.8291300966559271,
+    "project_id": "ARM-2409",
+    "project_manager": "Priya Raman",
+    "project_name": "Northline Cold Storage Expansion",
+    "status": "Active",
+    "underbilling": 206179.78
+  },
+  "required_etc_adjustment": 185000
+}

@@ -1,0 +1,34 @@
+{
+  "accounting_mcp_required": true,
+  "data_group": "treasury",
+  "independent_fact_groups": [
+    "Credit policy",
+    "Credit population",
+    "Management instructions and decision rules",
+    "Current-versus-prior source authority and reconciliation"
+  ],
+  "mcp_anchor_types": [
+    "debt"
+  ],
+  "minimum_source_artifacts": [
+    "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+    "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+    "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+    "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+    "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+    "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+    "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+    "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+    "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+    "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+  ],
+  "native_fact_rows": 23,
+  "request_threads": [
+    "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+    "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+  ],
+  "shared_world_navigation": true,
+  "single_file_shortcut_designed_out": true,
+  "source_synthesis_task": true,
+  "standalone": true
+}

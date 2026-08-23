@@ -1,0 +1,3429 @@
+{
+  "criteria": [
+    {
+      "category": "structure",
+      "description": "Required worksheet 'Projects' is present",
+      "id": "structure__sheet_projects",
+      "semantic": false,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "Required worksheet 'Cash Flow Models' is present",
+      "id": "structure__sheet_cash_flow_models",
+      "semantic": false,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "Required worksheet 'Portfolio Selection' is present",
+      "id": "structure__sheet_portfolio_selection",
+      "semantic": false,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "Required worksheet 'Checks' is present",
+      "id": "structure__sheet_checks",
+      "semantic": false,
+      "weight": 1
+    },
+    {
+      "category": "integrity",
+      "description": "The submitted workbook contains no spreadsheet error values",
+      "id": "model_integrity__no_errors",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'selected_portfolio' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_selected_portfolio",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'selected_capex' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_selected_capex",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'portfolio_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_portfolio_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_portfolio_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_portfolio_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'selected_debt_eligible_basis' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_selected_debt_eligible_basis",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'selected_cash_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_selected_cash_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capex_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capex_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'mandatory_safety_projects_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_mandatory_safety_projects_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'portfolio_npv_selection_tie' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_portfolio_npv_selection_tie",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_portfolio_npv_selection_tie' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_portfolio_npv_selection_tie",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_constraint_check' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_constraint_check",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_constraint_check' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_constraint_check",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_constraint_check' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_constraint_check",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_01_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_01_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_02_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_02_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_05_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_05_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_06_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_06_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_07_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_07_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_irr' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_irr",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_payback_years' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_payback_years",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_1_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_1_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_2_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_2_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_3_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_3_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_4_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_4_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_5_base_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_08_year_5_downside_after_tax_cash_flow' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_08_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_selected_portfolio' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_selected_portfolio",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_selected_capex' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_selected_capex",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_selected_cash_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_selected_cash_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_selected_debt_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_selected_debt_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_base_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_base_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_base_npv_sacrifice' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_cash_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_cash_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_debt_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_debt_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_technician_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_technician_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_mandatory_safety_projects_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_mandatory_safety_projects_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_binding_constraint' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_binding_constraint",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_03_unavailable_committee_release_status' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_03_unavailable_committee_release_status",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_selected_portfolio' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_selected_portfolio",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_selected_capex' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_selected_capex",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_selected_cash_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_selected_cash_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_selected_debt_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_selected_debt_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_base_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_base_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_base_npv_sacrifice' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_cash_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_cash_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_debt_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_debt_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_technician_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_technician_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_mandatory_safety_projects_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_mandatory_safety_projects_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_binding_constraint' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_binding_constraint",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cp_04_unavailable_committee_release_status' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cp_04_unavailable_committee_release_status",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_selected_portfolio' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_selected_portfolio",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_selected_capex' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_selected_capex",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_selected_cash_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_selected_cash_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_selected_debt_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_selected_debt_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_base_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_base_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_base_npv_sacrifice' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_cash_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_cash_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_debt_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_debt_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_technician_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_technician_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_mandatory_safety_projects_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_mandatory_safety_projects_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_binding_constraint' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_binding_constraint",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'cash_capacity_down_20_percent_committee_release_status' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_cash_capacity_down_20_percent_committee_release_status",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_selected_portfolio' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_selected_portfolio",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_selected_capex' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_selected_capex",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_selected_cash_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_selected_cash_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_selected_debt_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_selected_debt_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_base_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_base_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_base_npv_sacrifice' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_cash_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_cash_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_debt_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_debt_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_technician_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_technician_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_mandatory_safety_projects_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_mandatory_safety_projects_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_binding_constraint' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_binding_constraint",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'debt_capacity_down_25_percent_committee_release_status' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_debt_capacity_down_25_percent_committee_release_status",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_selected_portfolio' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_selected_portfolio",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_selected_capex' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_selected_capex",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_selected_cash_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_selected_cash_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_selected_debt_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_selected_debt_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_base_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_base_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_base_npv_sacrifice' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_cash_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_cash_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_debt_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_debt_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_technician_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_technician_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_mandatory_safety_projects_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_mandatory_safety_projects_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_binding_constraint' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_binding_constraint",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'technician_capacity_down_25_percent_committee_release_status' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_technician_capacity_down_25_percent_committee_release_status",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_selected_portfolio' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_selected_portfolio",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_selected_capex' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_selected_capex",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_selected_cash_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_selected_cash_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_selected_debt_funding' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_selected_debt_funding",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_base_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_base_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_downside_npv' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_downside_npv",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_base_npv_sacrifice' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_cash_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_cash_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_debt_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_debt_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_technician_headroom' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_technician_headroom",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_mandatory_safety_projects_selected' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_mandatory_safety_projects_selected",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_binding_constraint' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_binding_constraint",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Headline output 'downside_npv_objective_committee_release_status' is formula-driven from workbook references",
+      "id": "formula_lineage__headline_downside_npv_objective_committee_release_status",
+      "semantic": false,
+      "weight": 5
+    },
+    {
+      "category": "auditability",
+      "description": "Required model worksheet 'Cash Flow Models' contains formulas",
+      "id": "formula_lineage__formula_sheet_cash_flow_models",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "Required model worksheet 'Portfolio Selection' contains formulas",
+      "id": "formula_lineage__formula_sheet_portfolio_selection",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "Required model worksheet 'Checks' contains formulas",
+      "id": "formula_lineage__formula_sheet_checks",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "Material calculations on worksheet 'Cash Flow Models' are linked to supporting schedule 'Projects'",
+      "id": "formula_lineage__link_cash_flow_models_from_projects",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "Material calculations on worksheet 'Portfolio Selection' are linked to supporting schedule 'Cash Flow Models'",
+      "id": "formula_lineage__link_portfolio_selection_from_cash_flow_models",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "Material calculations on worksheet 'Checks' are linked to supporting schedule 'Portfolio Selection'",
+      "id": "formula_lineage__link_checks_from_portfolio_selection",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `selected_portfolio` is correctly labeled and associated",
+      "id": "headline_values__selected_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `selected_capex` is correctly labeled and associated",
+      "id": "headline_values__selected_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `portfolio_npv` is correctly labeled and associated",
+      "id": "headline_values__portfolio_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_portfolio_npv` is correctly labeled and associated",
+      "id": "headline_values__downside_portfolio_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `selected_debt_eligible_basis` is correctly labeled and associated",
+      "id": "headline_values__selected_debt_eligible_basis",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `selected_cash_funding` is correctly labeled and associated",
+      "id": "headline_values__selected_cash_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `selected_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__selected_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capex_headroom` is correctly labeled and associated",
+      "id": "headline_values__cash_capex_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_headroom` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_headroom` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `mandatory_safety_projects_selected` is correctly labeled and associated",
+      "id": "headline_values__mandatory_safety_projects_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `portfolio_npv_selection_tie` is correctly labeled and associated",
+      "id": "headline_values__portfolio_npv_selection_tie",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_portfolio_npv_selection_tie` is correctly labeled and associated",
+      "id": "headline_values__downside_portfolio_npv_selection_tie",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_constraint_check` is correctly labeled and associated",
+      "id": "headline_values__cash_constraint_check",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_constraint_check` is correctly labeled and associated",
+      "id": "headline_values__debt_constraint_check",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_constraint_check` is correctly labeled and associated",
+      "id": "headline_values__technician_constraint_check",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_01_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_01_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_01_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_01_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_01_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_01_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_01_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_01_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_01_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_01_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_01_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_02_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_02_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_02_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_02_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_02_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_02_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_02_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_02_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_02_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_02_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_02_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_03_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_03_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_03_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_03_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_03_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_03_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_03_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_03_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_03_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_04_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_04_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_04_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_04_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_04_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_04_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_04_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_04_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_04_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_05_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_05_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_05_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_05_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_05_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_05_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_05_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_05_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_05_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_05_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_05_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_06_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_06_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_06_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_06_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_06_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_06_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_06_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_06_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_06_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_06_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_06_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_07_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_07_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_07_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_07_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_07_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_07_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_07_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_07_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_07_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_07_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_07_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_initial_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_08_initial_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_08_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_mandatory_safety_flag` is correctly labeled and associated",
+      "id": "headline_values__cp_08_mandatory_safety_flag",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_08_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_08_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_irr` is correctly labeled and associated",
+      "id": "headline_values__cp_08_irr",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_payback_years` is correctly labeled and associated",
+      "id": "headline_values__cp_08_payback_years",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_08_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_08_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_1_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_1_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_1_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_1_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_2_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_2_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_2_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_2_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_3_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_3_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_3_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_3_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_4_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_4_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_4_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_4_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_5_base_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_5_base_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_08_year_5_downside_after_tax_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__cp_08_year_5_downside_after_tax_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_selected_portfolio` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_selected_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_selected_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_selected_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_selected_cash_funding` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_selected_cash_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_selected_debt_funding` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_selected_debt_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_selected_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_selected_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_base_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_base_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_base_npv_sacrifice` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_debt_headroom` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_debt_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_technician_headroom` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_technician_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_mandatory_safety_projects_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_mandatory_safety_projects_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_binding_constraint` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_binding_constraint",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_03_unavailable_committee_release_status` is correctly labeled and associated",
+      "id": "headline_values__cp_03_unavailable_committee_release_status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_selected_portfolio` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_selected_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_selected_capex` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_selected_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_selected_cash_funding` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_selected_cash_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_selected_debt_funding` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_selected_debt_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_selected_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_selected_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_base_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_base_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_base_npv_sacrifice` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_debt_headroom` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_debt_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_technician_headroom` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_technician_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_mandatory_safety_projects_selected` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_mandatory_safety_projects_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_binding_constraint` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_binding_constraint",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cp_04_unavailable_committee_release_status` is correctly labeled and associated",
+      "id": "headline_values__cp_04_unavailable_committee_release_status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_selected_portfolio` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_selected_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_selected_capex` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_selected_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_selected_cash_funding` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_selected_cash_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_selected_debt_funding` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_selected_debt_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_selected_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_selected_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_base_npv` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_base_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_base_npv_sacrifice` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_debt_headroom` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_debt_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_technician_headroom` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_technician_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_mandatory_safety_projects_selected` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_mandatory_safety_projects_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_binding_constraint` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_binding_constraint",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `cash_capacity_down_20_percent_committee_release_status` is correctly labeled and associated",
+      "id": "headline_values__cash_capacity_down_20_percent_committee_release_status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_selected_portfolio` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_selected_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_selected_capex` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_selected_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_selected_cash_funding` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_selected_cash_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_selected_debt_funding` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_selected_debt_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_selected_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_selected_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_base_npv` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_base_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_base_npv_sacrifice` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_debt_headroom` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_debt_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_technician_headroom` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_technician_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_mandatory_safety_projects_selected` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_mandatory_safety_projects_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_binding_constraint` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_binding_constraint",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `debt_capacity_down_25_percent_committee_release_status` is correctly labeled and associated",
+      "id": "headline_values__debt_capacity_down_25_percent_committee_release_status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_selected_portfolio` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_selected_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_selected_capex` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_selected_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_selected_cash_funding` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_selected_cash_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_selected_debt_funding` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_selected_debt_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_selected_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_selected_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_base_npv` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_base_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_base_npv_sacrifice` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_debt_headroom` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_debt_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_technician_headroom` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_technician_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_mandatory_safety_projects_selected` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_mandatory_safety_projects_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_binding_constraint` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_binding_constraint",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `technician_capacity_down_25_percent_committee_release_status` is correctly labeled and associated",
+      "id": "headline_values__technician_capacity_down_25_percent_committee_release_status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_selected_portfolio` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_selected_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_selected_capex` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_selected_capex",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_selected_cash_funding` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_selected_cash_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_selected_debt_funding` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_selected_debt_funding",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_selected_technician_capacity` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_selected_technician_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_base_npv` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_base_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_downside_npv` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_downside_npv",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_base_npv_sacrifice` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_base_npv_sacrifice",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_debt_headroom` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_debt_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_technician_headroom` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_technician_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_mandatory_safety_projects_selected` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_mandatory_safety_projects_selected",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_binding_constraint` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_binding_constraint",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Every required headline output is labeled and correct: `downside_npv_objective_committee_release_status` is correctly labeled and associated",
+      "id": "headline_values__downside_npv_objective_committee_release_status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'after tax'",
+      "id": "model_content__after_tax",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'depreciation tax shield'",
+      "id": "model_content__depreciation_tax_shield",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'working capital'",
+      "id": "model_content__working_capital",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'terminal'",
+      "id": "model_content__terminal",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'npv'",
+      "id": "model_content__npv",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'irr'",
+      "id": "model_content__irr",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'constraint'",
+      "id": "model_content__constraint",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "auditability",
+      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'model status'",
+      "id": "model_content__model_status",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'contractor accounting mcp'",
+      "id": "sources__contractor_accounting_mcp",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
+      "id": "sources__controller_tied",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
+      "id": "sources__management_correspondence",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'policy'",
+      "id": "sources__policy",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'source'",
+      "id": "controls__source",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'period'",
+      "id": "controls__period",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'scenario'",
+      "id": "controls__scenario",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'unit'",
+      "id": "controls__unit",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'version'",
+      "id": "controls__version",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'check'",
+      "id": "controls__check",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'model status'",
+      "id": "controls__model_status",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "core_finance",
+      "description": "An independent zero control proves the headline portfolio values use exactly the selected project set",
+      "id": "selection_tie",
+      "semantic": false,
+      "weight": 10
+    }
+  ],
+  "deterministic_verifier": "graders/corporate_finance.py",
+  "grading_revision": "weighted-atomic-hybrid-v7-portfolio-resilience-decision",
+  "integrity_verifier": "graders/integrity.py",
+  "reward_policy": "graders/rubric.py",
+  "reward_type": "weighted_partial_credit",
+  "semantic_verifier": "graders/production_semantic.py",
+  "slug": "create-capital-portfolio-model",
+  "strict_pass": "all atomic criteria equal 1",
+  "task_id": "task_037"
+}

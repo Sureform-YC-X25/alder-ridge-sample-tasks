@@ -1,0 +1,181 @@
+{
+  "criteria": [
+    {
+      "category": "core_finance",
+      "description": "Ltm covenant ebitda is correctly derived from the shared company workpapers and controlling definitions: `ltm_covenant_ebitda` is correct",
+      "id": "ltm_covenant_ebitda__ltm_covenant_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Funded debt is correctly derived from the shared company workpapers and controlling definitions: `funded_debt` is correct",
+      "id": "funded_debt__funded_debt",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Unrestricted cash is correctly derived from the shared company workpapers and controlling definitions: `unrestricted_cash` is correct",
+      "id": "unrestricted_cash__unrestricted_cash",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Gross leverage is correctly derived from the shared company workpapers and controlling definitions: `gross_leverage` is correct",
+      "id": "gross_leverage__gross_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Net leverage is correctly derived from the shared company workpapers and controlling definitions: `net_leverage` is correct",
+      "id": "net_leverage__net_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Cash interest is correctly derived from the shared company workpapers and controlling definitions: `cash_interest` is correct",
+      "id": "cash_interest__cash_interest",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Fixed charges is correctly derived from the shared company workpapers and controlling definitions: `fixed_charges` is correct",
+      "id": "fixed_charges__fixed_charges",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Interest coverage is correctly derived from the shared company workpapers and controlling definitions: `interest_coverage` is correct",
+      "id": "interest_coverage__interest_coverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Fixed charge coverage is correctly derived from the shared company workpapers and controlling definitions: `fixed_charge_coverage` is correct",
+      "id": "fixed_charge_coverage__fixed_charge_coverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Tangible net worth headroom is correctly derived from the shared company workpapers and controlling definitions: `tangible_net_worth_headroom` is correct",
+      "id": "tangible_net_worth_headroom__tangible_net_worth_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Maximum debt at leverage limit is correctly derived from the shared company workpapers and controlling definitions: `maximum_debt_at_leverage_limit` is correct",
+      "id": "maximum_debt_at_leverage_limit__maximum_debt_at_leverage_limit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Leverage debt capacity is correctly derived from the shared company workpapers and controlling definitions: `leverage_debt_capacity` is correct",
+      "id": "leverage_debt_capacity__leverage_debt_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Fixed charge debt capacity is correctly derived from the shared company workpapers and controlling definitions: `fixed_charge_debt_capacity` is correct",
+      "id": "fixed_charge_debt_capacity__fixed_charge_debt_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Ratings guardrail debt capacity is correctly derived from the shared company workpapers and controlling definitions: `ratings_guardrail_debt_capacity` is correct",
+      "id": "ratings_guardrail_debt_capacity__ratings_guardrail_debt_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Maximum incremental debt is correctly derived from the shared company workpapers and controlling definitions: `maximum_incremental_debt` is correct",
+      "id": "maximum_incremental_debt__maximum_incremental_debt",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Binding constraint is correctly derived from the shared company workpapers and controlling definitions: `binding_constraint` is correct",
+      "id": "binding_constraint__binding_constraint",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Pro forma funded debt is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_funded_debt` is correct",
+      "id": "pro_forma_funded_debt__pro_forma_funded_debt",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Pro forma cash interest is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_cash_interest` is correct",
+      "id": "pro_forma_cash_interest__pro_forma_cash_interest",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Pro forma gross leverage is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_gross_leverage` is correct",
+      "id": "pro_forma_gross_leverage__pro_forma_gross_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Pro forma net leverage is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_net_leverage` is correct",
+      "id": "pro_forma_net_leverage__pro_forma_net_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Pro forma interest coverage is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_interest_coverage` is correct",
+      "id": "pro_forma_interest_coverage__pro_forma_interest_coverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Pro forma fixed charge coverage is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_fixed_charge_coverage` is correct",
+      "id": "pro_forma_fixed_charge_coverage__pro_forma_fixed_charge_coverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Remaining fixed charge capacity is correctly derived from the shared company workpapers and controlling definitions: `remaining_fixed_charge_capacity` is correct",
+      "id": "remaining_fixed_charge_capacity__remaining_fixed_charge_capacity",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Remaining ratings capacity is correctly derived from the shared company workpapers and controlling definitions: `remaining_ratings_capacity` is correct",
+      "id": "remaining_ratings_capacity__remaining_ratings_capacity",
+      "semantic": false,
+      "weight": 10
+    }
+  ],
+  "deterministic_verifier": "graders/corporate_finance.py",
+  "grading_revision": "weighted-atomic-hybrid-v5-pro-forma-credit-capacity",
+  "integrity_verifier": "graders/integrity.py",
+  "reward_policy": "graders/rubric.py",
+  "reward_type": "weighted_partial_credit",
+  "semantic_verifier": "graders/production_semantic.py",
+  "slug": "credit-metrics-debt-capacity",
+  "strict_pass": "all atomic criteria equal 1",
+  "task_id": "task_073"
+}

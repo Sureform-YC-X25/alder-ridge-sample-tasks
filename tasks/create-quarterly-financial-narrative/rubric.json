@@ -1,0 +1,356 @@
+{
+  "criteria": [
+    {
+      "category": "structure",
+      "description": "The memorandum contains a substantive 'Executive Summary' section",
+      "id": "structure__heading_executive_summary",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The memorandum contains a substantive 'Quarterly Performance' section",
+      "id": "structure__heading_quarterly_performance",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The memorandum contains a substantive 'Segment Performance' section",
+      "id": "structure__heading_segment_performance",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The memorandum contains a substantive 'Cash Flow and Liquidity' section",
+      "id": "structure__heading_cash_flow_and_liquidity",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The memorandum contains a substantive 'Credit Metrics' section",
+      "id": "structure__heading_credit_metrics",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The memorandum contains a substantive 'Outlook' section",
+      "id": "structure__heading_outlook",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The memorandum contains a substantive 'Appendix: KPI Definitions' section",
+      "id": "structure__heading_appendix_kpi_definitions",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The memorandum contains at least 1 real Word table(s)",
+      "id": "structure__tables",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "core_finance",
+      "description": "The controller-tied Q2 headline values are correct: `q2_revenue` is correctly labeled and associated",
+      "id": "controller_tie_headline_values__q2_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The controller-tied Q2 headline values are correct: `q2_organic_growth` is correctly labeled and associated",
+      "id": "controller_tie_headline_values__q2_organic_growth",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The controller-tied Q2 headline values are correct: `q2_adjusted_ebitda` is correctly labeled and associated",
+      "id": "controller_tie_headline_values__q2_adjusted_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The controller-tied Q2 headline values are correct: `q2_free_cash_flow` is correctly labeled and associated",
+      "id": "controller_tie_headline_values__q2_free_cash_flow",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The controller-tied Q2 headline values are correct: `maximum_revolver` is correctly labeled and associated",
+      "id": "controller_tie_headline_values__maximum_revolver",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The controller-tied Q2 headline values are correct: `latest_full_year_revenue_outlook` is correctly labeled and associated",
+      "id": "controller_tie_headline_values__latest_full_year_revenue_outlook",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_approved_plan_revenue` is correctly labeled and associated",
+      "id": "q2_plan_bridge_values__q2_approved_plan_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_revenue_variance_to_plan` is correctly labeled and associated",
+      "id": "q2_plan_bridge_values__q2_revenue_variance_to_plan",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+      "id": "q2_plan_bridge_values__q2_approved_plan_adjusted_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+      "id": "q2_plan_bridge_values__q2_adjusted_ebitda_variance_to_plan",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The ranked operating drivers use their documented financial impacts: `construction_gross_profit_impact` is correctly labeled and associated",
+      "id": "operating_driver_values__construction_gross_profit_impact",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The ranked operating drivers use their documented financial impacts: `service_labor_productivity_impact` is correctly labeled and associated",
+      "id": "operating_driver_values__service_labor_productivity_impact",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The ranked operating drivers use their documented financial impacts: `controls_mix_impact` is correctly labeled and associated",
+      "id": "operating_driver_values__controls_mix_impact",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `ltm_adjusted_ebitda` is correctly labeled and associated",
+      "id": "lender_metric_values__ltm_adjusted_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `funded_debt` is correctly labeled and associated",
+      "id": "lender_metric_values__funded_debt",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `lender_leverage` is correctly labeled and associated",
+      "id": "lender_metric_values__lender_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `fixed_charge_coverage` is correctly labeled and associated",
+      "id": "lender_metric_values__fixed_charge_coverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `revenue_guidance_low` is correctly labeled and associated",
+      "id": "guidance_decision_values__revenue_guidance_low",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `revenue_guidance_high` is correctly labeled and associated",
+      "id": "guidance_decision_values__revenue_guidance_high",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `ebitda_guidance_low` is correctly labeled and associated",
+      "id": "guidance_decision_values__ebitda_guidance_low",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `ebitda_guidance_high` is correctly labeled and associated",
+      "id": "guidance_decision_values__ebitda_guidance_high",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `largest_downside_driver` is correctly labeled and associated",
+      "id": "guidance_decision_values__largest_downside_driver",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `combined_stress_ebitda` is correctly labeled and associated",
+      "id": "guidance_decision_values__combined_stress_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `ebitda_shortfall_to_guidance_low` is correctly labeled and associated",
+      "id": "guidance_decision_values__ebitda_shortfall_to_guidance_low",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "The guidance recommendation uses the signed range and downside stress: `additional_revenue_decline_to_update_trigger` is correctly labeled and associated",
+      "id": "guidance_decision_values__additional_revenue_decline_to_update_trigger",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The guidance recommendation uses the signed range and downside stress: `guidance_update_required` is correctly labeled and associated",
+      "id": "guidance_decision_values__guidance_update_required",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "provenance",
+      "description": "The memorandum cites the current and prior workpapers, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'contractor accounting mcp'",
+      "id": "sources__contractor_accounting_mcp",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The memorandum cites the current and prior workpapers, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'controller-tied'",
+      "id": "sources__controller_tied",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The memorandum cites the current and prior workpapers, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'management correspondence'",
+      "id": "sources__management_correspondence",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The memorandum cites the current and prior workpapers, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'policy'",
+      "id": "sources__policy",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "decision_quality",
+      "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'recommend'",
+      "id": "decision_logic__recommend",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'risk'",
+      "id": "decision_logic__risk",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'owner'",
+      "id": "decision_logic__owner",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'timing'",
+      "id": "decision_logic__timing",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'trigger'",
+      "id": "decision_logic__trigger",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'headroom'",
+      "id": "decision_logic__headroom",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "controls",
+      "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'reconciliation'",
+      "id": "reconciliation__reconciliation",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'board performance'",
+      "id": "reconciliation__board_performance",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'gaap-posted'",
+      "id": "reconciliation__gaap_posted",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'ir-comparable'",
+      "id": "reconciliation__ir_comparable",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'lender covenant'",
+      "id": "reconciliation__lender_covenant",
+      "semantic": true,
+      "weight": 3
+    }
+  ],
+  "deterministic_verifier": "graders/corporate_finance.py",
+  "grading_revision": "weighted-atomic-hybrid-v5-deterministic-financial-narrative",
+  "integrity_verifier": "graders/integrity.py",
+  "reward_policy": "graders/rubric.py",
+  "reward_type": "weighted_partial_credit",
+  "semantic_verifier": "graders/production_semantic.py",
+  "slug": "create-quarterly-financial-narrative",
+  "strict_pass": "all atomic criteria equal 1",
+  "task_id": "task_072"
+}

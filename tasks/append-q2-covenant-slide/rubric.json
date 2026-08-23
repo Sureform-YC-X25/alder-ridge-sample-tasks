@@ -1,0 +1,221 @@
+{
+  "criteria": [
+    {
+      "category": "integrity",
+      "description": "Exactly one slide is appended to the original deck",
+      "failure_cap": 0.0,
+      "id": "preservation__slide_count",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "integrity",
+      "description": "Original slide 1 retains its content, layout, and styling",
+      "failure_cap": 0.0,
+      "id": "preservation__slide_01",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "integrity",
+      "description": "Original slide 2 retains its content, layout, and styling",
+      "failure_cap": 0.0,
+      "id": "preservation__slide_02",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "integrity",
+      "description": "Original slide 3 retains its content, layout, and styling",
+      "failure_cap": 0.0,
+      "id": "preservation__slide_03",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "integrity",
+      "description": "Original slide 4 retains its content, layout, and styling",
+      "failure_cap": 0.0,
+      "id": "preservation__slide_04",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "integrity",
+      "description": "Original slide 5 retains its content, layout, and styling",
+      "failure_cap": 0.0,
+      "id": "preservation__slide_05",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "structure",
+      "description": "The appended slide has the requested title",
+      "failure_cap": null,
+      "id": "structure__title",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The appended slide contains exactly one real PowerPoint table",
+      "failure_cap": null,
+      "id": "structure__table",
+      "semantic": false,
+      "weight": 1
+    },
+    {
+      "category": "presentation_quality",
+      "description": "The appended slide uses the existing deck background and visual palette",
+      "failure_cap": null,
+      "id": "style__visual_system",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "presentation_quality",
+      "description": "The appended slide title follows the deck's established hierarchy",
+      "failure_cap": null,
+      "id": "style__title_hierarchy",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "presentation_quality",
+      "description": "The covenant comparison is presented as a bounded, clearly headed review table",
+      "failure_cap": null,
+      "id": "style__table_readability",
+      "semantic": false,
+      "weight": 3
+    },
+    {
+      "category": "core_finance",
+      "description": "Leverage `posted` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__leverage__posted",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Leverage `pro_forma` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__leverage__pro_forma",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Leverage `threshold` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__leverage__threshold",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Leverage `status` is correctly presented",
+      "failure_cap": 0.49,
+      "id": "metric__leverage__status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Fccr `posted` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__fccr__posted",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Fccr `pro_forma` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__fccr__pro_forma",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Fccr `threshold` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__fccr__threshold",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Fccr `status` is correctly presented",
+      "failure_cap": 0.49,
+      "id": "metric__fccr__status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Tangible Net Worth `posted` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__tangible_net_worth__posted",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Tangible Net Worth `pro_forma` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__tangible_net_worth__pro_forma",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "Tangible Net Worth `threshold` is correctly presented",
+      "failure_cap": null,
+      "id": "metric__tangible_net_worth__threshold",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Tangible Net Worth `status` is correctly presented",
+      "failure_cap": 0.49,
+      "id": "metric__tangible_net_worth__status",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The WIP entry is identified as proposed",
+      "failure_cap": 0.49,
+      "id": "status__proposed",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "The WIP entry is identified as unposted",
+      "failure_cap": 0.49,
+      "id": "status__unposted",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "Both covenant bases are reported as compliant",
+      "failure_cap": 0.49,
+      "id": "status__compliant",
+      "semantic": true,
+      "weight": 10
+    }
+  ],
+  "deterministic_verifier": "graders/apex.py",
+  "grading_revision": "weighted-atomic-hybrid-v7-covenant-slide-presentation-quality",
+  "integrity_verifier": "graders/integrity.py",
+  "reward_policy": "graders/rubric.py",
+  "reward_type": "weighted_partial_credit",
+  "semantic_verifier": "graders/production_semantic.py",
+  "slug": "append-q2-covenant-slide",
+  "strict_pass": "all atomic criteria equal 1",
+  "task_id": "task_015"
+}

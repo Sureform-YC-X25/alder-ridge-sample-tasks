@@ -1,0 +1,27 @@
+{
+  "accounting_mcp_required": true,
+  "independent_fact_groups": [
+    "posted covenants",
+    "pro-forma covenants",
+    "thresholds",
+    "slide structure"
+  ],
+  "minimum_source_artifacts": [
+    "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
+    "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx",
+    "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+    "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+    "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+    "Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx",
+    "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+    "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+    "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+    "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
+    "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
+    "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+  ],
+  "shared_world_navigation": true,
+  "single_file_shortcut_designed_out": true,
+  "source_synthesis_task": true,
+  "standalone": true
+}

@@ -1,0 +1,13 @@
+# Complete the FY27 EBITDA scenario model
+
+Please finish the FY27 EBITDA scenario workbook for the next planning review.
+
+Please work in `Shared/Finance/FP&A/FY27 plan/FY27 EBITDA scenarios - WORKING.xlsx` and save the finished file back there.
+
+The July FY27 planning correspondence in `Requests/`, including Daniel's follow-up after the first steering review, sets the request. Use the current controller-tied planning book, operating extracts, and dated review notes. Refer to earlier branch drafts only to understand changes, and settle any conflicts using dates, approval status, document status, and the management correspondence. Tie the posted Alder Ridge baseline to the company accounting records, and keep any external evidence tied to its own controlling finance source.
+
+Preserve `Driver Inputs` and `Contingency Inputs`. Complete formula-driven `Base`, `Downside`, `Upside`, `Contingency Plan`, and `Checks` sheets. Each case must include branch revenue, gross margin, fixed and variable opex, EBITDA, EBITDA margin, cash taxes, capex, working-capital investment, and free cash flow. Use the scenario-specific driver table rather than applying one blanket percentage. Add the approved quarterly liquidity bridge through ending cash and revolver for each scenario. Bridge Downside and Upside to Base by branch revenue and margin, consolidated EBITDA and free-cash-flow driver, and liquidity quarter; reconcile each bridge to zero and identify the primary EBITDA driver and liquidity quarter. From the approved downside action register, select the smallest executable action set that restores the board EBITDA-margin and free-cash-flow guardrails, minimize implementation cash cost, and carry the selected actions through a formula-driven 13-week cash and revolver release bridge. Apply the executed lender definitions to Base, Downside, and the selected-action case and release the plan only if the funded-debt, interest, leverage, fixed-charge-coverage, and liquidity conditions agree. Include consolidation, scenario-selection, cash-flow, liquidity, covenant, and source controls.
+
+Document the controlling sources inside the deliverable. Recalculate the finished file and save it to the requested path.
+
+Leave only the finished file in the shared company workspace, with no draft scripts or temporary exports. Open the saved workbook once more before you finish and make sure it contains no spreadsheet errors.

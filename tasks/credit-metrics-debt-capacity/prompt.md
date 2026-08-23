@@ -1,0 +1,9 @@
+# Credit metrics and incremental debt capacity
+
+Please refresh our credit-capacity readout for the next bank discussion.
+
+Start with the July liquidity and covenant correspondence, the current controller-tied treasury workpapers, and the executed credit agreement. Keep earlier working versions as change history only, and tie posted funded debt to the company accounting records.
+
+Please show LTM covenant EBITDA, funded debt, cash, gross and net leverage, interest and fixed charges, coverage, and tangible-net-worth headroom. Then quantify incremental debt capacity under the gross-leverage covenant, fixed-charge-coverage covenant, and internal ratings limit. Include interest on new debt at the documented borrowing rate, identify the binding constraint, and show the pro-forma debt, interest, leverage, coverage, and remaining nonbinding capacity at that limit.
+
+Do not post transactions or change company files. Return one JSON object with these keys: `ltm_covenant_ebitda`, `funded_debt`, `unrestricted_cash`, `gross_leverage`, `net_leverage`, `cash_interest`, `fixed_charges`, `interest_coverage`, `fixed_charge_coverage`, `tangible_net_worth_headroom`, `maximum_debt_at_leverage_limit`, `leverage_debt_capacity`, `fixed_charge_debt_capacity`, `ratings_guardrail_debt_capacity`, `maximum_incremental_debt`, `binding_constraint`, `pro_forma_funded_debt`, `pro_forma_cash_interest`, `pro_forma_gross_leverage`, `pro_forma_net_leverage`, `pro_forma_interest_coverage`, `pro_forma_fixed_charge_coverage`, `remaining_fixed_charge_capacity`, `remaining_ratings_capacity`. Use dollars to two decimals and ratios as decimals to at least four places.

@@ -1,0 +1,440 @@
+{
+  "task_001": {
+    "bridge": {
+      "billings_change": 79513.55,
+      "close_etc_change": 23107.87,
+      "contract_asset_change": -68625.38,
+      "contract_liability_change": 0.0,
+      "current_contract_change": 0.0,
+      "eac_change": 185000.0,
+      "earned_revenue_change": 10888.17,
+      "estimated_margin_change": -185000.0,
+      "margin_rate_change_bps": -334.78,
+      "percent_complete_change_bps": 19.7,
+      "posted_cost_change": 161892.13
+    },
+    "controller_review_required": true,
+    "disputed_recovery_etc_action": "add_back_to_pm_etc",
+    "draft_change_contract_treatment": "exclude",
+    "pm_etc": 584000,
+    "prior_month": {
+      "billings": 4296079.58,
+      "close_etc": 745892.13,
+      "contract_asset": 274805.16,
+      "contract_liability": 0.0,
+      "current_contract": 5526000.0,
+      "eac": 4315500.0,
+      "earned_revenue": 4570884.74,
+      "estimated_margin": 1210500.0,
+      "margin_percent": 0.21905537459283386,
+      "percent_complete": 0.827159742787626,
+      "posted_cost": 3569607.87
+    },
+    "project": {
+      "billings": 4375593.13,
+      "branch": "Portland",
+      "cost_to_date": 3731500.0,
+      "current_contract": 5526000,
+      "earned_revenue": 4581772.91,
+      "estimated_cost_at_completion": 4500500.0,
+      "estimated_cost_to_complete": 769000,
+      "estimated_margin": 850272.91,
+      "estimated_margin_percent": 0.185577,
+      "estimated_total_margin": 1025500.0,
+      "overbilling": 0,
+      "percent_complete": 0.8291300966559271,
+      "project_id": "ARM-2409",
+      "project_manager": "Priya Raman",
+      "project_name": "Northline Cold Storage Expansion",
+      "status": "Active",
+      "underbilling": 206179.78
+    },
+    "required_etc_adjustment": 185000
+  },
+  "task_004": {
+    "decision_control": {
+      "close_case_eac": 29586400.0,
+      "close_case_margin": 7399100.0,
+      "close_release_decision": "Hold close release pending controller review of the three flagged jobs.",
+      "largest_overlay_project": "ARM-2417",
+      "margin_impact": -715000.0,
+      "pending_revenue_included": false,
+      "pm_case_eac": 28871400.0,
+      "pm_case_margin": 8114100.0,
+      "review_queue": [
+        "ARM-2409",
+        "ARM-2417",
+        "ARM-2506"
+      ],
+      "review_required_count": 3
+    },
+    "decision_rows": [
+      {
+        "close_case_eac": 7328200.0,
+        "close_case_margin": 2064300.0,
+        "close_disposition": "Release with monitoring",
+        "commercial_reference": "PCO-029",
+        "controller_review_required": false,
+        "margin_impact": -45000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 7283200.0,
+        "pm_case_margin": 2109300.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2318",
+        "required_follow_up": "Monitor the retest closeout; exclude the disputed recovery and carry the probable cost.",
+        "required_follow_up_tokens": [
+          [
+            "retest"
+          ],
+          [
+            "monitor",
+            "closeout"
+          ]
+        ]
+      },
+      {
+        "close_case_eac": 4500500.0,
+        "close_case_margin": 1025500.0,
+        "close_disposition": "Hold for controller review",
+        "commercial_reference": "PCO-011",
+        "controller_review_required": true,
+        "margin_impact": -185000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 4315500.0,
+        "pm_case_margin": 1210500.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2409",
+        "required_follow_up": "Obtain trade acceptance before recognizing the disputed backcharge recovery.",
+        "required_follow_up_tokens": [
+          [
+            "backcharge",
+            "recovery"
+          ],
+          [
+            "accept",
+            "accepted",
+            "acceptance"
+          ]
+        ]
+      },
+      {
+        "close_case_eac": 8532800.0,
+        "close_case_margin": 1954200.0,
+        "close_disposition": "Hold for controller review",
+        "commercial_reference": "PCO-017",
+        "controller_review_required": true,
+        "margin_impact": -275000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 8257800.0,
+        "pm_case_margin": 2229200.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2417",
+        "required_follow_up": "Obtain the executed owner directive before recognizing the pending revenue.",
+        "required_follow_up_tokens": [
+          [
+            "owner directive",
+            "directive"
+          ],
+          [
+            "executed",
+            "signed"
+          ]
+        ]
+      },
+      {
+        "close_case_eac": 9224900.0,
+        "close_case_margin": 2355100.0,
+        "close_disposition": "Hold for controller review",
+        "commercial_reference": "PCO-006",
+        "controller_review_required": true,
+        "margin_impact": -210000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 9014900.0,
+        "pm_case_margin": 2565100.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2506",
+        "required_follow_up": "Obtain executed pricing for DB-27 before recognizing the pending revenue.",
+        "required_follow_up_tokens": [
+          [
+            "db-27",
+            "db27",
+            "design bulletin"
+          ],
+          [
+            "pricing",
+            "price"
+          ],
+          [
+            "executed",
+            "approved"
+          ]
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "billings": 8702022.7,
+        "branch": "Portland",
+        "cost_to_date": 7109400.0,
+        "current_contract": 9392500,
+        "earned_revenue": 9112065.65,
+        "estimated_cost_at_completion": 7328200.0,
+        "estimated_cost_to_complete": 218800,
+        "estimated_margin": 2002665.65,
+        "estimated_margin_percent": 0.219782,
+        "estimated_total_margin": 2064300.0,
+        "margin_movement_bps": -47.91,
+        "overbilling": 0,
+        "percent_complete": 0.9701427362790317,
+        "prior_margin_percent": 0.22457279744476977,
+        "project_id": "ARM-2318",
+        "project_manager": "Maya Chen",
+        "project_name": "Columbia Biologics Clean Utilities",
+        "status": "Substantially Complete",
+        "underbilling": 410042.95
+      },
+      {
+        "billings": 4375593.13,
+        "branch": "Portland",
+        "cost_to_date": 3731500.0,
+        "current_contract": 5526000,
+        "earned_revenue": 4581772.91,
+        "estimated_cost_at_completion": 4500500.0,
+        "estimated_cost_to_complete": 769000,
+        "estimated_margin": 850272.91,
+        "estimated_margin_percent": 0.185577,
+        "estimated_total_margin": 1025500.0,
+        "margin_movement_bps": -334.78,
+        "overbilling": 0,
+        "percent_complete": 0.8291300966559271,
+        "prior_margin_percent": 0.21905537459283386,
+        "project_id": "ARM-2409",
+        "project_manager": "Priya Raman",
+        "project_name": "Northline Cold Storage Expansion",
+        "status": "Active",
+        "underbilling": 206179.78
+      },
+      {
+        "billings": 6114826.3,
+        "branch": "Portland",
+        "cost_to_date": 5209800.0,
+        "current_contract": 10487000,
+        "earned_revenue": 6402959.47,
+        "estimated_cost_at_completion": 8532800.0,
+        "estimated_cost_to_complete": 3323000,
+        "estimated_margin": 1193159.47,
+        "estimated_margin_percent": 0.186345,
+        "estimated_total_margin": 1954200.0,
+        "margin_movement_bps": -262.23,
+        "overbilling": 0,
+        "percent_complete": 0.61056159759985,
+        "prior_margin_percent": 0.21256794126060838,
+        "project_id": "ARM-2417",
+        "project_manager": "Maya Chen",
+        "project_name": "Cascade Health Ambulatory Pavilion",
+        "status": "Active",
+        "underbilling": 288133.17
+      },
+      {
+        "billings": 5135581.06,
+        "branch": "Portland",
+        "cost_to_date": 4283900.0,
+        "current_contract": 11580000,
+        "earned_revenue": 5377571.79,
+        "estimated_cost_at_completion": 9224900.0,
+        "estimated_cost_to_complete": 4941000,
+        "estimated_margin": 1093671.79,
+        "estimated_margin_percent": 0.203377,
+        "estimated_total_margin": 2355100.0,
+        "margin_movement_bps": -181.34,
+        "overbilling": 0,
+        "percent_complete": 0.46438443777168315,
+        "prior_margin_percent": 0.22151122625215888,
+        "project_id": "ARM-2506",
+        "project_manager": "Priya Raman",
+        "project_name": "Eastbank Data Hall Cooling Expansion",
+        "status": "Active",
+        "underbilling": 241990.73
+      }
+    ],
+    "review_rows": [
+      {
+        "controller_review_required": false,
+        "cost_amount": 45000,
+        "netted_claim_or_backcharge": false,
+        "project_id": "ARM-2318",
+        "reference": "PCO-029",
+        "revenue_amount": 68000
+      },
+      {
+        "controller_review_required": true,
+        "cost_amount": 185000,
+        "netted_claim_or_backcharge": true,
+        "project_id": "ARM-2409",
+        "reference": "PCO-011",
+        "revenue_amount": 185000
+      },
+      {
+        "controller_review_required": true,
+        "cost_amount": 275000,
+        "netted_claim_or_backcharge": false,
+        "project_id": "ARM-2417",
+        "reference": "PCO-017",
+        "revenue_amount": 382000
+      },
+      {
+        "controller_review_required": true,
+        "cost_amount": 210000,
+        "netted_claim_or_backcharge": false,
+        "project_id": "ARM-2506",
+        "reference": "PCO-006",
+        "revenue_amount": 296000
+      }
+    ],
+    "source_inputs": [
+      {
+        "billings": 8702022.7,
+        "cost_to_date": 7109400.0,
+        "current_contract": 9392500,
+        "documented_etc_overlay": 45000,
+        "pm_etc": 173800,
+        "prior_close_margin_percent": 0.22457279744476977,
+        "project_id": "ARM-2318"
+      },
+      {
+        "billings": 4375593.13,
+        "cost_to_date": 3731500.0,
+        "current_contract": 5526000,
+        "documented_etc_overlay": 185000,
+        "pm_etc": 584000,
+        "prior_close_margin_percent": 0.21905537459283386,
+        "project_id": "ARM-2409"
+      },
+      {
+        "billings": 6114826.3,
+        "cost_to_date": 5209800.0,
+        "current_contract": 10487000,
+        "documented_etc_overlay": 275000,
+        "pm_etc": 3048000,
+        "prior_close_margin_percent": 0.21256794126060838,
+        "project_id": "ARM-2417"
+      },
+      {
+        "billings": 5135581.06,
+        "cost_to_date": 4283900.0,
+        "current_contract": 11580000,
+        "documented_etc_overlay": 210000,
+        "pm_etc": 4731000,
+        "prior_close_margin_percent": 0.22151122625215888,
+        "project_id": "ARM-2506"
+      }
+    ],
+    "totals": {
+      "C11": 36985500,
+      "D11": 20334600.0,
+      "E11": 8536800,
+      "F11": 715000,
+      "G11": 9251800,
+      "H11": 29586400.0,
+      "I11": 0.6872955141551523,
+      "J11": 25474369.82,
+      "K11": 24328023.19,
+      "L11": 1146346.63,
+      "M11": 0,
+      "N11": 7399100.0,
+      "O11": 0.2000540752457044,
+      "P11": 0.21938597558502657,
+      "Q11": -193.31900339322166
+    }
+  },
+  "task_015": {
+    "cash_interest": 72784.57,
+    "cash_taxes": 0.0,
+    "compliant_posted": true,
+    "compliant_pro_forma": true,
+    "covenant_test_review": [
+      {
+        "denominator": 2975294.87,
+        "metric": "Leverage",
+        "posted_headroom": 2.6264,
+        "posted_numerator": 1111666.5,
+        "posted_result": 0.3736,
+        "pro_forma_denominator": 4251620.57,
+        "pro_forma_headroom": 2.7385,
+        "pro_forma_numerator": 1111666.5,
+        "pro_forma_result": 0.2615,
+        "threshold": 3.0
+      },
+      {
+        "denominator": 557784.8,
+        "metric": "Fixed-charge coverage",
+        "posted_headroom": 3.6492,
+        "posted_numerator": 2704794.87,
+        "posted_result": 4.8492,
+        "pro_forma_denominator": 557784.8,
+        "pro_forma_headroom": 5.9374,
+        "pro_forma_numerator": 3981120.57,
+        "pro_forma_result": 7.1374,
+        "threshold": 1.2
+      },
+      {
+        "denominator": 1.0,
+        "metric": "Tangible net worth",
+        "posted_headroom": 6547638.53,
+        "posted_numerator": 9047638.53,
+        "posted_result": 9047638.53,
+        "pro_forma_denominator": 1.0,
+        "pro_forma_headroom": 7823964.23,
+        "pro_forma_numerator": 10323964.23,
+        "pro_forma_result": 10323964.23,
+        "threshold": 2500000
+      }
+    ],
+    "fccr_posted": 4.8492,
+    "fccr_pro_forma": 7.1374,
+    "funded_debt": 1111666.5,
+    "leverage_posted": 0.3736,
+    "leverage_pro_forma": 0.2615,
+    "ltm_adjusted_ebitda_posted": 2975294.87,
+    "ltm_adjusted_ebitda_pro_forma": 4251620.57,
+    "ltm_direct_equipment_financing": 600000.0,
+    "ltm_fixed_asset_additions": 870500.0,
+    "max_leverage": 3.0,
+    "min_fccr": 1.2,
+    "min_tangible_net_worth": 2500000,
+    "scheduled_principal": 485000.23,
+    "tangible_net_worth_posted": 9047638.53,
+    "tangible_net_worth_pro_forma": 10323964.23,
+    "unfunded_capex": 270500.0,
+    "wip_review": [
+      {
+        "close_etc": 218800,
+        "finance_adjustment": 45000,
+        "net_wip_position": 410042.95,
+        "pm_etc": 173800,
+        "project_id": "ARM-2318"
+      },
+      {
+        "close_etc": 769000,
+        "finance_adjustment": 185000,
+        "net_wip_position": 206179.78,
+        "pm_etc": 584000,
+        "project_id": "ARM-2409"
+      },
+      {
+        "close_etc": 3323000,
+        "finance_adjustment": 275000,
+        "net_wip_position": 288133.17,
+        "pm_etc": 3048000,
+        "project_id": "ARM-2417"
+      },
+      {
+        "close_etc": 4941000,
+        "finance_adjustment": 210000,
+        "net_wip_position": 241990.73,
+        "pm_etc": 4731000,
+        "project_id": "ARM-2506"
+      }
+    ]
+  }
+}

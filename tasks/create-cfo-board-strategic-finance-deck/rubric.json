@@ -1,0 +1,664 @@
+{
+  "criteria": [
+    {
+      "category": "structure",
+      "description": "The presentation has the required slide count",
+      "id": "preservation__slide_count",
+      "semantic": false,
+      "weight": 1
+    },
+    {
+      "category": "structure",
+      "description": "The presentation contains the required title concept 'FY26 outlook and FY27 priorities'",
+      "id": "preservation__title",
+      "semantic": true,
+      "weight": 1
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `forecast_revenue` is correctly labeled and associated",
+      "id": "headline_values__forecast_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `revenue_variance_to_board_aop` is correctly labeled and associated",
+      "id": "headline_values__revenue_variance_to_board_aop",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `revenue_variance_pct_to_board_aop` is correctly labeled and associated",
+      "id": "headline_values__revenue_variance_pct_to_board_aop",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `forecast_branch_ebitda` is correctly labeled and associated",
+      "id": "headline_values__forecast_branch_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `branch_ebitda_variance_to_current_comparator` is correctly labeled and associated",
+      "id": "headline_values__branch_ebitda_variance_to_current_comparator",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `largest_branch_ebitda_miss` is correctly labeled and associated",
+      "id": "headline_values__largest_branch_ebitda_miss",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_leverage` is correctly labeled and associated",
+      "id": "headline_values__downside_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `largest_branch_ebitda_miss_amount` is correctly labeled and associated",
+      "id": "headline_values__largest_branch_ebitda_miss_amount",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_leverage` is correctly labeled and associated",
+      "id": "headline_values__severe_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_ending_cash` is correctly labeled and associated",
+      "id": "headline_values__downside_ending_cash",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_ending_cash` is correctly labeled and associated",
+      "id": "headline_values__severe_ending_cash",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_revolver_headroom` is correctly labeled and associated",
+      "id": "headline_values__severe_revolver_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `total_probability_weighted_priority_ebitda` is correctly labeled and associated",
+      "id": "headline_values__total_probability_weighted_priority_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `executable_probability_weighted_priority_ebitda` is correctly labeled and associated",
+      "id": "headline_values__executable_probability_weighted_priority_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `severe_covenant_breach` is correctly labeled and associated",
+      "id": "headline_values__severe_covenant_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_forecast_revenue` is correctly labeled and associated",
+      "id": "headline_values__construction_forecast_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_plan_revenue` is correctly labeled and associated",
+      "id": "headline_values__construction_plan_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_revenue_variance` is correctly labeled and associated",
+      "id": "headline_values__construction_revenue_variance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_forecast_gross_profit` is correctly labeled and associated",
+      "id": "headline_values__construction_forecast_gross_profit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_plan_gross_profit` is correctly labeled and associated",
+      "id": "headline_values__construction_plan_gross_profit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_forecast_ebitda` is correctly labeled and associated",
+      "id": "headline_values__construction_forecast_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_plan_ebitda` is correctly labeled and associated",
+      "id": "headline_values__construction_plan_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_ebitda_variance` is correctly labeled and associated",
+      "id": "headline_values__construction_ebitda_variance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_forecast_revenue` is correctly labeled and associated",
+      "id": "headline_values__service_forecast_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_plan_revenue` is correctly labeled and associated",
+      "id": "headline_values__service_plan_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_revenue_variance` is correctly labeled and associated",
+      "id": "headline_values__service_revenue_variance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_forecast_gross_profit` is correctly labeled and associated",
+      "id": "headline_values__service_forecast_gross_profit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_plan_gross_profit` is correctly labeled and associated",
+      "id": "headline_values__service_plan_gross_profit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_forecast_ebitda` is correctly labeled and associated",
+      "id": "headline_values__service_forecast_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_plan_ebitda` is correctly labeled and associated",
+      "id": "headline_values__service_plan_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_ebitda_variance` is correctly labeled and associated",
+      "id": "headline_values__service_ebitda_variance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_forecast_revenue` is correctly labeled and associated",
+      "id": "headline_values__controls_forecast_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_plan_revenue` is correctly labeled and associated",
+      "id": "headline_values__controls_plan_revenue",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_revenue_variance` is correctly labeled and associated",
+      "id": "headline_values__controls_revenue_variance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_forecast_gross_profit` is correctly labeled and associated",
+      "id": "headline_values__controls_forecast_gross_profit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_plan_gross_profit` is correctly labeled and associated",
+      "id": "headline_values__controls_plan_gross_profit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_forecast_ebitda` is correctly labeled and associated",
+      "id": "headline_values__controls_forecast_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_plan_ebitda` is correctly labeled and associated",
+      "id": "headline_values__controls_plan_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_ebitda_variance` is correctly labeled and associated",
+      "id": "headline_values__controls_ebitda_variance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `base_covenant_ebitda` is correctly labeled and associated",
+      "id": "headline_values__base_covenant_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `base_ending_cash_before_financing` is correctly labeled and associated",
+      "id": "headline_values__base_ending_cash_before_financing",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `base_revolver_balance` is correctly labeled and associated",
+      "id": "headline_values__base_revolver_balance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `base_funded_debt` is correctly labeled and associated",
+      "id": "headline_values__base_funded_debt",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `base_leverage` is correctly labeled and associated",
+      "id": "headline_values__base_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `base_minimum_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__base_minimum_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `base_remaining_revolver_headroom` is correctly labeled and associated",
+      "id": "headline_values__base_remaining_revolver_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `base_cash_breach` is correctly labeled and associated",
+      "id": "headline_values__base_cash_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `base_leverage_breach` is correctly labeled and associated",
+      "id": "headline_values__base_leverage_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_covenant_ebitda` is correctly labeled and associated",
+      "id": "headline_values__downside_covenant_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_ending_cash_before_financing` is correctly labeled and associated",
+      "id": "headline_values__downside_ending_cash_before_financing",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_revolver_balance` is correctly labeled and associated",
+      "id": "headline_values__downside_revolver_balance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_funded_debt` is correctly labeled and associated",
+      "id": "headline_values__downside_funded_debt",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_minimum_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__downside_minimum_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `downside_remaining_revolver_headroom` is correctly labeled and associated",
+      "id": "headline_values__downside_remaining_revolver_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `downside_cash_breach` is correctly labeled and associated",
+      "id": "headline_values__downside_cash_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `downside_leverage_breach` is correctly labeled and associated",
+      "id": "headline_values__downside_leverage_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_covenant_ebitda` is correctly labeled and associated",
+      "id": "headline_values__severe_covenant_ebitda",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_ending_cash_before_financing` is correctly labeled and associated",
+      "id": "headline_values__severe_ending_cash_before_financing",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_revolver_balance` is correctly labeled and associated",
+      "id": "headline_values__severe_revolver_balance",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_funded_debt` is correctly labeled and associated",
+      "id": "headline_values__severe_funded_debt",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_minimum_cash_headroom` is correctly labeled and associated",
+      "id": "headline_values__severe_minimum_cash_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `severe_remaining_revolver_headroom` is correctly labeled and associated",
+      "id": "headline_values__severe_remaining_revolver_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `severe_cash_breach` is correctly labeled and associated",
+      "id": "headline_values__severe_cash_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `severe_leverage_breach` is correctly labeled and associated",
+      "id": "headline_values__severe_leverage_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `optimized_board_priority_portfolio` is correctly labeled and associated",
+      "id": "headline_values__optimized_board_priority_portfolio",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `optimized_priority_cash_spend` is correctly labeled and associated",
+      "id": "headline_values__optimized_priority_cash_spend",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `optimized_probability_weighted_base_benefit` is correctly labeled and associated",
+      "id": "headline_values__optimized_probability_weighted_base_benefit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `optimized_probability_weighted_severe_benefit` is correctly labeled and associated",
+      "id": "headline_values__optimized_probability_weighted_severe_benefit",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `post_action_severe_incremental_revolver_draw` is correctly labeled and associated",
+      "id": "headline_values__post_action_severe_incremental_revolver_draw",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `post_action_severe_remaining_revolver_headroom` is correctly labeled and associated",
+      "id": "headline_values__post_action_severe_remaining_revolver_headroom",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `post_action_severe_unfunded_liquidity_shortfall` is correctly labeled and associated",
+      "id": "headline_values__post_action_severe_unfunded_liquidity_shortfall",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `post_action_severe_ending_cash` is correctly labeled and associated",
+      "id": "headline_values__post_action_severe_ending_cash",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `post_action_severe_leverage` is correctly labeled and associated",
+      "id": "headline_values__post_action_severe_leverage",
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `post_action_severe_cash_breach` is correctly labeled and associated",
+      "id": "headline_values__post_action_severe_cash_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision",
+      "description": "All executive headline figures are correct: `post_action_severe_leverage_breach` is correctly labeled and associated",
+      "id": "headline_values__post_action_severe_leverage_breach",
+      "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'executive decision summary'",
+      "id": "narrative__executive_decision_summary",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'revenue'",
+      "id": "narrative__revenue",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'ebitda'",
+      "id": "narrative__ebitda",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'cash'",
+      "id": "narrative__cash",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'leverage'",
+      "id": "narrative__leverage",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'strategic priorities'",
+      "id": "narrative__strategic_priorities",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'decision'",
+      "id": "narrative__decision",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "decision_quality",
+      "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'gate'",
+      "id": "narrative__gate",
+      "semantic": true,
+      "weight": 5
+    },
+    {
+      "category": "provenance",
+      "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and any required MCP source: the artifact substantively addresses 'controller-tied'",
+      "id": "sources__controller_tied",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and any required MCP source: the artifact substantively addresses 'management correspondence'",
+      "id": "sources__management_correspondence",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "provenance",
+      "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and any required MCP source: the artifact substantively addresses 'policy'",
+      "id": "sources__policy",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'source reconciliation'",
+      "id": "controls__source_reconciliation",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'revenue'",
+      "id": "controls__revenue",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'ebitda'",
+      "id": "controls__ebitda",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'cash'",
+      "id": "controls__cash",
+      "semantic": true,
+      "weight": 3
+    },
+    {
+      "category": "controls",
+      "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'covenant'",
+      "id": "controls__covenant",
+      "semantic": true,
+      "weight": 3
+    }
+  ],
+  "deterministic_verifier": "graders/corporate_finance.py",
+  "grading_revision": "weighted-atomic-hybrid-v6-layout-aware-branch-risk-schedules",
+  "integrity_verifier": "graders/integrity.py",
+  "reward_policy": "graders/rubric.py",
+  "reward_type": "weighted_partial_credit",
+  "semantic_verifier": "graders/production_semantic.py",
+  "slug": "create-cfo-board-strategic-finance-deck",
+  "strict_pass": "all atomic criteria equal 1",
+  "task_id": "task_100"
+}

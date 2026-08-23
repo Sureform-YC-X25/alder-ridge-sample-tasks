@@ -1,0 +1,20 @@
+{
+  "accounting_agent_interface": "Company accounting tools exposed through the contractor_accounting MCP; raw SQLite storage is not agent-facing at runtime.",
+  "agent_workspace": "/workspace",
+  "canonical_source_commit": "0202b6e1bf789a20d3770335922e4ee34f231408",
+  "mutable_deliverables_root": "/workspace/Deliverables",
+  "notes": "This manifest contains only the declared source closure for the twelve sample tasks. The shared accounting snapshot is retained unchanged so the selected tasks reproduce the same system-of-record facts as the canonical environment.",
+  "sample_task_count": 12,
+  "shared_accounting_system_included": true,
+  "snapshot": "2026-06-30-pre-close",
+  "source_file_count": 71,
+  "source_inventory": {
+    "csv": 5,
+    "docx": 9,
+    "eml": 14,
+    "pdf": 13,
+    "pptx": 3,
+    "xlsx": 27
+  },
+  "world_id": "alder-ridge-mechanical-sample-v1"
+}

@@ -1,0 +1,59 @@
+Alder Ridge Sample Evaluation License
+Version 1.0 — August 2026
+
+Copyright © 2026 Sureform, Inc. All rights reserved.
+
+1. Limited evaluation license
+
+Subject to a separate written invitation from Sureform, Inc. ("Sureform"),
+Sureform grants the named recipient a limited, revocable, non-exclusive,
+non-transferable right to access and internally evaluate this repository,
+its source documents, task definitions, software, rubrics, reference data,
+and container images (collectively, the "Materials") solely to assess a
+potential commercial relationship with Sureform.
+
+2. Restrictions
+
+Unless Sureform separately agrees in writing, the recipient may not:
+
+(a) publish, redistribute, sublicense, sell, or disclose the Materials;
+(b) provide the Materials or access credentials to any third party;
+(c) use the Materials to train, fine-tune, distill, or improve a model;
+(d) use the Materials in production or to provide services to others;
+(e) remove proprietary notices or represent the Materials as its own; or
+(f) use the Materials for benchmarking intended for public release.
+
+The recipient may make only the temporary internal copies reasonably needed
+for the permitted evaluation and must delete them when requested by Sureform.
+
+3. Confidentiality
+
+The Materials are Sureform confidential information. The recipient must use
+reasonable safeguards and at least the same care it uses for its own
+confidential information of similar importance.
+
+4. Ownership
+
+Sureform and its licensors retain all right, title, and interest in the
+Materials. No implied license is granted. Any rights for AI training,
+commercial evaluation services, production use, or a broader dataset are
+governed only by a separate signed agreement.
+
+5. No warranty
+
+THE MATERIALS ARE PROVIDED "AS IS" FOR EVALUATION. TO THE MAXIMUM EXTENT
+PERMITTED BY LAW, SUREFORM DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
+INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT.
+
+6. Termination
+
+This license terminates automatically upon breach and may be revoked by
+Sureform at any time. Upon termination, the recipient must stop using and
+delete the Materials, except for copies retained solely where required by law.
+
+7. Separate agreements
+
+If a nondisclosure agreement, evaluation agreement, or commercial agreement
+between Sureform and the recipient conflicts with this license, the signed
+agreement controls.

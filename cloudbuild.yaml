@@ -1,0 +1,15 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --tag
+      - ${_IMAGE_URI}
+      - .
+images:
+  - ${_IMAGE_URI}
+options:
+  machineType: E2_HIGHCPU_8
+  logging: CLOUD_LOGGING_ONLY
+timeout: 2400s
+substitutions:
+  _IMAGE_URI: us-central1-docker.pkg.dev/sureform-479706/alder-ridge-samples/alder-ridge-sample-tasks:1.0.0
