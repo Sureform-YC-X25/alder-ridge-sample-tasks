@@ -15,7 +15,7 @@ def _workspace_slug(task_id: str, declared_slug: str | None=None) -> str | None:
     return declared_slug
 
 def prepare_task_workspace(task_id: str, runtime_root: Path, *, task_slug: str | None=None, seed_root: Path | None=None) -> None:
-    """The selected sample uses the shared canonical workspace without overlays."""
+    """The sample packages only the shared canonical workspace; no task overlays."""
     return None
 
 def invalidate_on_grading_error(result: dict[str, Any]) -> dict[str, Any]:

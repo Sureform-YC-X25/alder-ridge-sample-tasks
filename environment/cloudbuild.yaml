@@ -14,4 +14,4 @@ options:
   logging: CLOUD_LOGGING_ONLY
 timeout: 2400s
 substitutions:
-  _IMAGE_URI: us-central1-docker.pkg.dev/sureform-479706/alder-ridge-samples/alder-ridge-sample-tasks:1.1.0
+  _IMAGE_URI: us-central1-docker.pkg.dev/sureform-479706/alder-ridge-samples/alder-ridge-sample-tasks:1.1.1

@@ -156,9 +156,6 @@
   "task_count": 12,
   "complete_shared_company_world_included": true,
   "other_task_definitions_included": false,
-  "private_task_overlay_files": [
-    "downside-liquidity-sensitivity__buyer-downside-parity/workspace/Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx"
-  ],
-  "private_task_overlay_file_count": 1,
+  "non_sample_task_seed_overlays_included": false,
   "container_includes_complete_seed_world": true
 }

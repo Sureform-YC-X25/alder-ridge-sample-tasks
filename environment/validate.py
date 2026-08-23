@@ -17,7 +17,6 @@ ENVIRONMENT_ROOT = Path(__file__).resolve().parent
 REPOSITORY_ROOT = ENVIRONMENT_ROOT.parent
 SEED_ROOT = ENVIRONMENT_ROOT / "seed"
 SOURCES_ROOT = SEED_ROOT / "sources"
-OVERLAYS_ROOT = SEED_ROOT / "private_task_overlays"
 SELECTED = (
     "task_001",
     "task_004",
@@ -47,6 +46,7 @@ def main() -> int:
     assert manifest["complete_shared_company_world_included"] is True
     assert manifest["container_includes_complete_seed_world"] is True
     assert manifest["other_task_definitions_included"] is False
+    assert manifest["non_sample_task_seed_overlays_included"] is False
 
     actual_sources = {
         path.relative_to(SOURCES_ROOT).as_posix()
@@ -59,13 +59,7 @@ def main() -> int:
         "accounting_seed_sha256"
     ]
 
-    actual_overlays = {
-        path.relative_to(OVERLAYS_ROOT).as_posix()
-        for path in OVERLAYS_ROOT.rglob("*")
-        if path.is_file()
-    }
-    assert actual_overlays == set(manifest["private_task_overlay_files"])
-    assert len(actual_overlays) == manifest["private_task_overlay_file_count"] == 1
+    assert not (SEED_ROOT / "private_task_overlays").exists()
 
     registry = json.loads(
         (SEED_ROOT / "controls" / "file_registry.json").read_text()
@@ -126,7 +120,7 @@ def main() -> int:
                 "accounting_seed_sha256": manifest["accounting_seed_sha256"],
                 "non_sample_task_identifiers_found": [],
                 "oracle_reward": oracle["reward"],
-                "private_task_overlay_file_count": len(actual_overlays),
+                "non_sample_task_seed_overlays_included": False,
                 "scope_verified": True,
                 "source_file_count": len(actual_sources),
                 "task_count": len(TASKS),

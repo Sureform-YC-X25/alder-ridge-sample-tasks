@@ -30,8 +30,6 @@ environment/
   seed/
     accounting.db       simulated company accounting system
     sources/            complete shared company document world
-    private_task_overlays/
-                        task-scoped seed retained for exact provenance
 
 tasks/
   <task-slug>/
@@ -46,21 +44,21 @@ Open `tasks/` to review the 12 assignments. Open `environment/seed/sources/` to 
 
 The `environment/runtime/grading/` directory is the executable verifier used for the tasks. It checks financial values, dates, formulas, document structure, source lineage and required deliverables deterministically. Semantic review is limited to criteria that allow professionally equivalent wording and cannot override failed deterministic finance checks.
 
-The repository does not contain task definitions, gold data, rubrics or graders for the other 88 tasks. It intentionally does contain the full shared company evidence universe and accounting system so reviewers can assess each sample task against the real navigation and reconciliation burden of the complete world. The canonical task-scoped seed overlay is retained for provenance inside `environment/seed/private_task_overlays/`, but it is not mounted into any of these 12 sample task workspaces.
+The repository does not contain task definitions, gold data, rubrics, graders or task-specific seed overlays for the other 88 tasks. It intentionally contains the full shared company evidence universe and accounting system so reviewers can assess each sample task against the real navigation and reconciliation burden of the complete world.
 
 ## Run the environment
 
 Docker with at least 8 GB of memory is recommended.
 
 ```bash
-docker build -f environment/Dockerfile -t alder-ridge-sample-tasks:1.1.0 .
+docker build -f environment/Dockerfile -t alder-ridge-sample-tasks:1.1.1 .
 docker run --rm \
   --cap-add SYS_ADMIN \
   --security-opt seccomp=unconfined \
   --security-opt apparmor=unconfined \
   --security-opt systempaths=unconfined \
   -p 8765:8765 \
-  alder-ridge-sample-tasks:1.1.0
+  alder-ridge-sample-tasks:1.1.1
 ```
 
 The service listens on port `8765`. The listed Linux container permissions allow the environment to create its nested Bubblewrap sandbox; they do not expose the hidden evaluation files to the task agent. Each task receives an isolated `/workspace` and the `contractor_accounting` MCP capability. The agent cannot access the accounting database, gold values, rubric implementation or environment source code directly.
@@ -91,4 +89,4 @@ The repository is not open source and may not be redistributed, used for model t
 
 ## Provenance
 
-The sample was clean-room exported from canonical finalized commit `0202b6e1bf789a20d3770335922e4ee34f231408`. The complete shared source inventory, selected task set, task-scoped overlay and accounting-seed digest are recorded in `environment/seed/sample_manifest.json`.
+The sample was clean-room exported from canonical finalized commit `0202b6e1bf789a20d3770335922e4ee34f231408`. The complete shared source inventory, selected task set and accounting-seed digest are recorded in `environment/seed/sample_manifest.json`.
