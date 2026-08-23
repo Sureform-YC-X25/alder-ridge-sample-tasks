@@ -29,6 +29,7 @@ environment/
   runtime/              runnable environment, accounting MCP and grading code
   seed/
     accounting.db       simulated company accounting system
+    ACCOUNTING_MCP.md   accounting records and MCP tool reference
     sources/            complete shared company document world
 
 tasks/
