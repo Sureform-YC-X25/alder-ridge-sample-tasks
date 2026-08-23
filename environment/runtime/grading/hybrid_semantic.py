@@ -3,7 +3,7 @@ from __future__ import annotations
 import copy
 from typing import Any, Mapping
 
-from graders.rubric import apply_reward_policy, attach_default_policy
+from runtime.grading.rubric import apply_reward_policy, attach_default_policy
 
 
 HYBRID_TASKS = frozenset(f"task_{number:03d}" for number in range(1, 101))

@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any, Mapping
 from openpyxl import load_workbook
 from pypdf import PdfReader
-from graders.hybrid_semantic import apply_semantic_judgments
+from runtime.grading.hybrid_semantic import apply_semantic_judgments
 SEMANTIC_JUDGE_MODEL = 'gpt-5.6-terra'
 SEMANTIC_REASONING_EFFORT = 'high'
 SEMANTIC_PROMPT_VERSION = 'alder-ridge-semantic-v19-2026-08-10'
@@ -34,10 +34,10 @@ def _json_object(text: str) -> dict[str, Any]:
 @lru_cache(maxsize=4)
 def _visible_source_context(project_root_text: str) -> dict[str, Any]:
     project_root = Path(project_root_text)
-    registry_path = project_root / 'world' / 'seed' / 'control' / 'file_registry.json'
+    registry_path = project_root / 'seed' / 'controls' / 'file_registry.json'
     registry_payload = json.loads(registry_path.read_text(encoding='utf-8'))
     visible_sources = [{'path': str(row['path']), 'version_status': str(row.get('version_status') or ''), 'permitted_use': str(row.get('permitted_use') or '')} for row in registry_payload.get('files', []) if isinstance(row, dict) and row.get('path')]
-    workspace = project_root / 'world' / 'seed' / 'workspace'
+    workspace = project_root / 'seed' / 'sources'
     record_pattern = re.compile(b'\\b[A-Z]{2,5}-[0-9]{5}\\b')
     record_identifiers: set[str] = set()
     source_owner_labels: set[str] = set()
@@ -82,7 +82,7 @@ def _visible_source_context(project_root_text: str) -> dict[str, Any]:
             for item in value:
                 collect_provenance_labels(item)
     for control_name in ('corporate_finance_shared_workbook_data.json', 'corporate_finance_template_inputs.json'):
-        control_path = project_root / 'world' / 'seed' / 'control' / control_name
+        control_path = project_root / 'seed' / 'controls' / control_name
         try:
             collect_provenance_labels(json.loads(control_path.read_text(encoding='utf-8')))
         except (OSError, json.JSONDecodeError):
@@ -90,7 +90,7 @@ def _visible_source_context(project_root_text: str) -> dict[str, Any]:
     return {'visible_workspace_sources': visible_sources, 'visible_record_identifiers': sorted(record_identifiers), 'visible_source_or_owner_labels': sorted(source_owner_labels), 'visible_embedded_section_labels': sorted(embedded_section_labels)}
 
 def _source_context(task_id: str, project_root: Path, *, authorized_accounting_exports: list[dict[str, Any]] | None=None) -> dict[str, Any]:
-    path = project_root / 'world' / 'seed' / 'control' / 'task_source_dependencies.json'
+    path = project_root / 'seed' / 'controls' / 'task_source_dependencies.json'
     payload = json.loads(path.read_text(encoding='utf-8'))
     task = payload.get('tasks', {}).get(task_id)
     if not isinstance(task, dict):
@@ -105,7 +105,7 @@ def _task_037_integrity_context(*, task_id: str, project_root: Path, authorized_
     model call therefore checks only fabrication and hidden-data leakage; it
     does not need the complete 100-task source registry or record-id index.
     """
-    path = project_root / 'world' / 'seed' / 'control' / 'task_source_dependencies.json'
+    path = project_root / 'seed' / 'controls' / 'task_source_dependencies.json'
     payload = json.loads(path.read_text(encoding='utf-8'))
     task = payload.get('tasks', {}).get(task_id)
     if not isinstance(task, dict):
@@ -156,7 +156,7 @@ def submission_integrity_evidence(*, task_id: str, final_answer: Any, workspace_
     applicable, the required Office deliverable.  It never changes an objective
     criterion or performs an extra finance calculation.
     """
-    from graders.integrity import required_artifact
+    from runtime.grading.integrity import required_artifact
     chunks = [f"FINAL RESPONSE:\n{str(final_answer or '')[:12000]}"]
     target = required_artifact(task_id)
     if not target:
@@ -167,10 +167,10 @@ def submission_integrity_evidence(*, task_id: str, final_answer: Any, workspace_
         return '\n\n'.join(chunks)[:60000]
     try:
         if int(task_id[-3:]) <= 25:
-            from graders.apex import _legacy_artifact_evidence
+            from runtime.grading.apex import _legacy_artifact_evidence
             artifact_evidence = _legacy_artifact_evidence(path)
         else:
-            from graders.corporate_finance import _semantic_evidence_pack
+            from runtime.grading.corporate_finance import _semantic_evidence_pack
             formula_workbook = value_workbook = None
             if path.suffix.casefold() == '.xlsx':
                 formula_workbook = load_workbook(path, data_only=False, read_only=False)

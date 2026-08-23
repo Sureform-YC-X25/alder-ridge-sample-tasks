@@ -9,15 +9,15 @@ from pathlib import Path
 from hud.capabilities import Capability
 from hud.environment import Environment
 
-from alder_ridge_world.mcp_server import server
-from alder_ridge_world.reset import PROJECT_ROOT, reset_world
-from alder_ridge_world.workspace_security import (
+from runtime.mcp.server import server
+from runtime.mcp.reset import PROJECT_ROOT, reset_world
+from runtime.mcp.workspace import (
     IsolatedWorkspace,
     agent_runtime_mounts,
     safe_agent_environment,
     verify_workspace_isolation,
 )
-from task_templates import register_task_templates
+from runtime.task_runtime import register_task_templates
 
 
 RUNTIME_ROOT = Path(os.environ.get("WORLD_RUNTIME_ROOT", PROJECT_ROOT / ".runtime" / "workspace")).resolve()

@@ -13,14 +13,14 @@ from openpyxl import load_workbook
 from docx import Document
 from pypdf import PdfReader
 from pptx import Presentation
-from graders.semantic import contains_concept, ordered_semantic_list_matches, semantic_equal, semantic_value_matches
-from graders.hybrid_semantic import semantic_requirement
-from graders.rubric import apply_reward_policy, attach_default_policy
-from alder_ridge_world.paths import resolve_project_root, resolve_seed_root
+from runtime.grading.semantic import contains_concept, ordered_semantic_list_matches, semantic_equal, semantic_value_matches
+from runtime.grading.hybrid_semantic import semantic_requirement
+from runtime.grading.rubric import apply_reward_policy, attach_default_policy
+from runtime.mcp.paths import resolve_project_root, resolve_seed_root
 CORPORATE_TASK_IDS = frozenset(['task_027', 'task_035', 'task_037', 'task_055', 'task_061', 'task_068', 'task_072', 'task_073', 'task_100'])
 
 GOLD_PATH = Path(__file__).resolve().parent / 'gold' / 'tasks_001_025.json'
-SEED_WORKSPACE = resolve_seed_root(__file__) / 'workspace'
+SEED_WORKSPACE = resolve_seed_root(__file__) / 'sources'
 TASK_GRADING_REVISIONS = {'task_015': {'id': 'task-015-covenant-slide-presentation-quality-v2', 'effective_date': '2026-08-09', 'basis': 'source-relative presentation quality, readable table structure, and round-trip-tolerant preservation of the existing lender deck'}, 'task_027': {'id': 'task-027-covenant-release-decision-v3', 'effective_date': '2026-08-13', 'basis': 'controller-visible FY27 source conventions plus formula-driven branch, EBITDA, free-cash-flow, weekly liquidity, lender leverage and fixed-charge coverage release decisions with proportional section-normalized finance and formula-lineage scoring'}, 'task_035': {'id': 'task-035-executive-recovery-decision-v1', 'effective_date': '2026-08-13', 'basis': 'probability-plan, gross-commitment, executable-priority, contractual-damages, deferred-gross-profit, required-recovery, and release-condition decisions with proportional section-normalized spreadsheet scoring'}}
 
 @dataclass(frozen=True)
@@ -1072,7 +1072,7 @@ def grade_apex_task(task_id: str, answer: Any, workspace_root: str | Path) -> di
     elif task_id == 'task_015':
         result = _canonicalize_legacy_file_policy(task_id, _grade_task_015(Path(workspace_root)))
     elif task_id in CORPORATE_TASK_IDS:
-        from graders.corporate_finance import grade_corporate_finance_task
+        from runtime.grading.corporate_finance import grade_corporate_finance_task
         result = grade_corporate_finance_task(task_id, answer, workspace_root)
     else:
         raise KeyError(f'Task is not part of this sample: {task_id}')

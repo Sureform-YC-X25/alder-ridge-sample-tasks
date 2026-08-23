@@ -8,9 +8,9 @@ from docx import Document
 from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 from pptx import Presentation
-from graders.apex import Criterion, SEED_WORKSPACE, _answer_mapping, _close, _get, _normalize, _number, _recalculated_data_workbook, _result
-from graders.semantic import contains_concept, date_matches, iter_numeric_candidates, ordered_semantic_list_matches, semantic_equal, semantic_value_matches, unordered_semantic_list_matches
-from graders.hybrid_semantic import semantic_requirement
+from runtime.grading.apex import Criterion, SEED_WORKSPACE, _answer_mapping, _close, _get, _normalize, _number, _recalculated_data_workbook, _result
+from runtime.grading.semantic import contains_concept, date_matches, iter_numeric_candidates, ordered_semantic_list_matches, semantic_equal, semantic_value_matches, unordered_semantic_list_matches
+from runtime.grading.hybrid_semantic import semantic_requirement
 GOLD_PATH = Path(__file__).resolve().parent / 'gold' / 'tasks_026_100.json'
 _TASK_037_LABEL_ALIASES = {'selected_portfolio': ['Selected ID'], 'selected_capex': ['Cash capex'], 'portfolio_npv': ['Selected NPV'], 'downside_portfolio_npv': ['Downside portfolio NPV']}
 _TASK_055_LABEL_ALIASES = {'buyer_standalone_eps': ['Standalone diluted EPS'], 'seller_shares_issued': ['Seller shares issued (equity ÷ price)'], 'pro_forma_diluted_shares': ['Pro forma diluted shares'], 'target_ebit': ['Target EBIT'], 'incremental_debt_interest': ['Incremental new-debt interest'], 'foregone_cash_yield': ['Foregone cash yield (interest)'], 'total_incremental_financing_cost': ['Total incremental financing cost'], 'year_one_gaap_eps_accretion': ['GAAP EPS accretion / (dilution) %'], 'year_one_adjusted_eps_accretion': ['Adjusted EPS accretion / (dilution) %'], 'year_two_gaap_eps_accretion': ['GAAP EPS accretion / (dilution) %'], 'year_two_adjusted_eps_accretion': ['Adjusted EPS accretion / (dilution) %']}

@@ -7,7 +7,7 @@ from fastmcp import FastMCP
 from pydantic import BaseModel, ConfigDict
 
 from .accounting import AccountingRepository, json_result
-from .export_provenance import record_accounting_export
+from .provenance import record_accounting_export
 
 
 server = FastMCP(name="Alder Ridge Contractor Accounting")

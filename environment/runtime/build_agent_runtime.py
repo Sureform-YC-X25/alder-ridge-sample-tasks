@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from alder_ridge_world.workspace_security import validate_agent_runtime
+from runtime.mcp.workspace import validate_agent_runtime
 
 
 DEFAULT_RUNTIME = ROOT / ".build" / "agent-runtime"
@@ -44,6 +44,7 @@ REQUIRED_AGENT_MODULES = (
     "reportlab",
 )
 FORBIDDEN_AGENT_MODULES = (
+    "runtime",
     "env",
     "tasks",
     "task_catalog",

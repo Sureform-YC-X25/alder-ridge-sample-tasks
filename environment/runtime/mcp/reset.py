@@ -22,9 +22,9 @@ def reset_world() -> tuple[Path, Path]:
     runtime_root = _path_from_env("WORLD_RUNTIME_ROOT", PROJECT_ROOT / ".runtime" / "workspace")
     state_root = _path_from_env("WORLD_STATE_ROOT", PROJECT_ROOT / ".runtime" / "state")
 
-    if not (seed_root / "accounting_seed.db").exists():
+    if not (seed_root / "accounting.db").exists():
         raise FileNotFoundError(
-            "World seed is missing. Run python scripts/generate_seed_data.py and the artifact builders."
+            "The packaged accounting seed is missing from environment/seed."
         )
 
     if runtime_root.exists():
@@ -34,9 +34,9 @@ def reset_world() -> tuple[Path, Path]:
     runtime_root.mkdir(parents=True, exist_ok=True)
     state_root.mkdir(parents=True, exist_ok=True)
 
-    shutil.copytree(seed_root / "workspace", runtime_root, dirs_exist_ok=True)
+    shutil.copytree(seed_root / "sources", runtime_root, dirs_exist_ok=True)
     db_path = state_root / "accounting.db"
-    shutil.copy2(seed_root / "accounting_seed.db", db_path)
+    shutil.copy2(seed_root / "accounting.db", db_path)
 
     for task_dir in ("Task 01 - June WIP Close", "Task 02 - 13 Week Liquidity", "Task 03 - June Operating Review", "Task 04 - Q2 Bank Compliance"):
         (runtime_root / "Deliverables" / task_dir).mkdir(parents=True, exist_ok=True)

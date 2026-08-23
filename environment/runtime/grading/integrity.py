@@ -14,7 +14,7 @@ from typing import Any, Mapping
 from docx import Document
 from openpyxl import load_workbook
 from pptx import Presentation
-from alder_ridge_world.workspace_security import startup_isolation_attestation
+from runtime.mcp.workspace import startup_isolation_attestation
 PRIVATE_GOLD_CANARY = 'ALDER_RIDGE_PRIVATE_GOLD_CANARY_2026_07_V1'
 LEGACY_ARTIFACTS = {'task_001': 'Shared/Finance/Close/2026/06 June/4 WIP/ARM-2409 June WIP controller sign-off - WORKING.docx', 'task_004': 'Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx', 'task_015': 'Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx'}
 ADDITIONAL_REQUIRED_ARTIFACTS = {}
@@ -264,7 +264,7 @@ def required_artifact(task_id: str) -> str | None:
     if task_id in LEGACY_ARTIFACTS:
         return LEGACY_ARTIFACTS[task_id]
     if 26 <= int(task_id[-3:]) <= 100:
-        from graders.corporate_finance import load_corporate_finance_gold
+        from runtime.grading.corporate_finance import load_corporate_finance_gold
         gold = load_corporate_finance_gold(task_id)
         artifact = gold.get('artifact')
         if isinstance(artifact, dict):

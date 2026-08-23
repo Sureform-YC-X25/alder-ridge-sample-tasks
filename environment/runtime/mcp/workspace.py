@@ -31,10 +31,11 @@ DEFAULT_AGENT_RUNTIME_MANIFEST_RELATIVE = (
 DEFAULT_AGENT_RUNTIME_REQUIREMENTS_RELATIVE = (
     Path(".build") / "agent-runtime-requirements.txt"
 )
-_PROJECT_ROOT = Path(__file__).resolve().parents[1]
+_PROJECT_ROOT = Path(__file__).resolve().parents[2]
 _VERIFIED_STARTUP_ATTESTATION: dict[str, Any] | None = None
 _FORBIDDEN_AGENT_RUNTIME_ENTRIES = frozenset(
     {
+        "runtime",
         "env.py",
         "tasks.py",
         "task_catalog.py",
@@ -56,6 +57,7 @@ _FORBIDDEN_AGENT_RUNTIME_NAME_PARTS = (
     "__editable__.alder_ridge",
 )
 _FORBIDDEN_AGENT_IMPORT_MODULES = (
+    "runtime",
     "env",
     "tasks",
     "task_catalog",
@@ -547,7 +549,7 @@ def agent_runtime_mounts() -> tuple[Mount, ...]:
     elif isolation_required():
         raise RuntimeError(
             "Release isolation requires a dependency-only agent runtime; run "
-            "scripts/prepare_agent_runtime.py before loading env.py."
+            "environment/runtime/build_agent_runtime.py before loading the environment."
         )
     return tuple(mounts)
 
@@ -669,7 +671,7 @@ def verify_workspace_isolation(
                 + shlex.quote(
                     "import importlib.util; "
                     "import docx, openpyxl, pptx; "
-                    "forbidden=('env','tasks','task_catalog','task_templates',"
+                    "forbidden=('runtime','env','tasks','task_catalog','task_templates',"
                     "'task_catalog_expansion','task_catalog_final',"
                     "'corporate_finance_cases','corporate_finance_packets',"
                     "'corporate_finance_packets_final',"

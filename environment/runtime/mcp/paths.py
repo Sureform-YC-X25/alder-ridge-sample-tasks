@@ -28,7 +28,9 @@ def resolve_project_root(anchor: str | Path = __file__) -> Path:
         if candidate in seen:
             continue
         seen.add(candidate)
-        if (candidate / "tasks.py").is_file() and (candidate / "world" / "seed").is_dir():
+        if (candidate / "runtime" / "tasks.py").is_file() and (
+            candidate / "seed"
+        ).is_dir():
             return candidate
     raise RuntimeError(
         "Unable to locate the Alder Ridge project root. Set "
@@ -40,4 +42,4 @@ def resolve_seed_root(anchor: str | Path = __file__) -> Path:
     configured = os.environ.get("WORLD_SEED_ROOT")
     if configured:
         return Path(configured).expanduser().resolve()
-    return resolve_project_root(anchor) / "world" / "seed"
+    return resolve_project_root(anchor) / "seed"

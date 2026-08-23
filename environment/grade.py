@@ -8,11 +8,11 @@ import json
 from pathlib import Path
 from typing import Any
 
-from graders.apex import grade_apex_task
-from task_catalog import TASK_BY_ID, TASK_BY_SLUG
+from runtime.grading.apex import grade_apex_task
+from runtime.task_catalog import TASK_BY_ID, TASK_BY_SLUG
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 
 
 def _answer(args: argparse.Namespace) -> Any:
@@ -33,7 +33,7 @@ def main() -> int:
     parser.add_argument(
         "--workspace",
         type=Path,
-        default=ROOT / "world" / "seed" / "workspace",
+        default=ROOT / "seed" / "sources",
     )
     args = parser.parse_args()
     spec = TASK_BY_ID.get(args.task) or TASK_BY_SLUG.get(args.task)

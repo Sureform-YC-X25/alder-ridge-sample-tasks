@@ -3,13 +3,13 @@ import json
 import shutil
 from pathlib import Path
 from typing import Any, Mapping
-from alder_ridge_world.paths import resolve_seed_root
-from alder_ridge_world.export_provenance import verified_accounting_exports
-from graders.apex import grade_apex_task
-from graders.integrity import WorkspaceCreationMonitor, assess_integrity, capture_integrity_snapshot
-from graders.production_semantic import submission_integrity_evidence, verify_semantic_review
-from graders.rubric import apply_reward_policy, attach_default_policy
-from task_catalog import TASKS
+from runtime.mcp.paths import resolve_seed_root
+from runtime.mcp.provenance import verified_accounting_exports
+from runtime.grading.apex import grade_apex_task
+from runtime.grading.integrity import WorkspaceCreationMonitor, assess_integrity, capture_integrity_snapshot
+from runtime.grading.production_semantic import submission_integrity_evidence, verify_semantic_review
+from runtime.grading.rubric import apply_reward_policy, attach_default_policy
+from runtime.task_catalog import TASKS
 
 def _workspace_slug(task_id: str, declared_slug: str | None=None) -> str | None:
     return declared_slug
