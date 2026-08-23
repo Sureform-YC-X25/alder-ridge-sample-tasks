@@ -84,6 +84,17 @@ Checkable facts are graded deterministically: financial values, dates, source li
 
 This repository and its container image are private commercial-evaluation materials. Access is granted to named reviewers only. The repository is not open source and may not be redistributed, used for model training, or used in production without a separate signed agreement. See [LICENSE](LICENSE) and [docs/ACCESS.md](docs/ACCESS.md).
 
+## Published sample image
+
+The private GCP Artifact Registry image was built from repository commit `e22913e6851ef420dca3c483794aee236f937fa8`:
+
+```text
+us-central1-docker.pkg.dev/sureform-479706/alder-ridge-samples/alder-ridge-sample-tasks:1.0.0
+us-central1-docker.pkg.dev/sureform-479706/alder-ridge-samples/alder-ridge-sample-tasks@sha256:685e0e90908b05fdd54e3b6f83cb6d06978b0a5cb67fa23c85d1961eec63e2fb
+```
+
+Use the digest-qualified reference for an immutable evaluation. Pull access is granted per buyer as described in [docs/ACCESS.md](docs/ACCESS.md).
+
 ## Provenance
 
 The sample was clean-room exported from canonical finalized commit `0202b6e1bf789a20d3770335922e4ee34f231408`. The selected task/source closure and accounting-seed digest are recorded in `SAMPLE_SCOPE_MANIFEST.json`.
