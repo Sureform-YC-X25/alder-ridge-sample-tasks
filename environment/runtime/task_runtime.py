@@ -3,8 +3,8 @@ import json
 import shutil
 from pathlib import Path
 from typing import Any, Mapping
-from runtime.mcp.paths import resolve_seed_root
-from runtime.mcp.provenance import verified_accounting_exports
+from runtime.accounting_mcp.paths import resolve_seed_root
+from runtime.accounting_mcp.provenance import verified_accounting_exports
 from runtime.grading.apex import grade_apex_task
 from runtime.grading.integrity import WorkspaceCreationMonitor, assess_integrity, capture_integrity_snapshot
 from runtime.grading.production_semantic import submission_integrity_evidence, verify_semantic_review

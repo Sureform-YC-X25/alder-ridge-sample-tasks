@@ -9,9 +9,9 @@ from pathlib import Path
 from hud.capabilities import Capability
 from hud.environment import Environment
 
-from runtime.mcp.server import server
-from runtime.mcp.reset import PROJECT_ROOT, reset_world
-from runtime.mcp.workspace import (
+from runtime.accounting_mcp.server import server
+from runtime.accounting_mcp.reset import PROJECT_ROOT, reset_world
+from runtime.accounting_mcp.workspace import (
     IsolatedWorkspace,
     agent_runtime_mounts,
     safe_agent_environment,

@@ -16,7 +16,7 @@ from pptx import Presentation
 from runtime.grading.semantic import contains_concept, ordered_semantic_list_matches, semantic_equal, semantic_value_matches
 from runtime.grading.hybrid_semantic import semantic_requirement
 from runtime.grading.rubric import apply_reward_policy, attach_default_policy
-from runtime.mcp.paths import resolve_project_root, resolve_seed_root
+from runtime.accounting_mcp.paths import resolve_project_root, resolve_seed_root
 CORPORATE_TASK_IDS = frozenset(['task_027', 'task_035', 'task_037', 'task_055', 'task_061', 'task_068', 'task_072', 'task_073', 'task_100'])
 
 GOLD_PATH = Path(__file__).resolve().parent / 'gold' / 'tasks_001_025.json'
