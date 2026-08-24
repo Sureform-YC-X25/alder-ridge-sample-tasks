@@ -43,6 +43,8 @@ tasks/
 
 Open `tasks/` to review the 12 assignments. Open `environment/seed/sources/` to inspect the complete 132-file shared company world: spreadsheets, documents, presentations, PDFs, emails and operating extracts. `environment/seed/accounting.db` is the unchanged full company accounting snapshot exposed through the accounting MCP.
 
+See [`SEED_DATA_INVENTORY.md`](SEED_DATA_INVENTORY.md) for a clickable catalog of every seed file, including native page, slide, sheet, row, formula and database-table counts.
+
 ## Run the environment
 
 ```bash
