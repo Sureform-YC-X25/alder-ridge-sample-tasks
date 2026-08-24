@@ -19,7 +19,7 @@ This sample contains 12 of the 100 tasks in the full taskset.
 
 All tasks and source files were authored by domain experts and informed by Sureform's partner engagements with a specialty mechanical contractor. Alder Ridge Mechanical, including its personnel, counterparties, communications, transactions, and records, are simulated. The package does not contain identifiable client, partner, employee, insurance, banking, or customer data.
 
-## Start here
+## Repository Structure
 
 The repository has two parts:
 
@@ -41,15 +41,9 @@ tasks/
     source_manifest.json
 ```
 
-Open `tasks/` to review the 12 assignments. Open `environment/seed/sources/` to inspect the complete 132-file shared company world: spreadsheets, documents, presentations, PDFs, emails and operating extracts. This is the same evidence universe used by the finalized 100-task environment, including relevant files, distractors, version history and conflicting working drafts. `environment/seed/accounting.db` is the unchanged full company accounting snapshot exposed through the accounting MCP.
-
-The `environment/runtime/grading/` directory is the executable verifier used for the tasks. It checks financial values, dates, formulas, document structure, source lineage and required deliverables deterministically. Semantic review is limited to criteria that allow professionally equivalent wording and cannot override failed deterministic finance checks.
-
-The repository does not contain task definitions, gold data, rubrics, graders or task-specific seed overlays for the other 88 tasks. It intentionally contains the full shared company evidence universe and accounting system so reviewers can assess each sample task against the real navigation and reconciliation burden of the complete world.
+Open `tasks/` to review the 12 assignments. Open `environment/seed/sources/` to inspect the complete 132-file shared company world: spreadsheets, documents, presentations, PDFs, emails and operating extracts. `environment/seed/accounting.db` is the unchanged full company accounting snapshot exposed through the accounting MCP.
 
 ## Run the environment
-
-Docker with at least 8 GB of memory is recommended.
 
 ```bash
 docker build -f environment/Dockerfile -t alder-ridge-sample-tasks:1.1.1 .
@@ -87,7 +81,3 @@ uv run --project environment python environment/grade.py \
 This repository and its container image are private commercial-evaluation materials. Add reviewers as read-only GitHub outside collaborators. Grant container access separately with repository-level GCP `Artifact Registry Reader` permission. Read-only reviewers cannot manage the access list.
 
 The repository is not open source and may not be redistributed, used for model training or used in production without a separate signed agreement. See [LICENSE](LICENSE).
-
-## Provenance
-
-The sample was clean-room exported from canonical finalized commit `0202b6e1bf789a20d3770335922e4ee34f231408`. The complete shared source inventory, selected task set and accounting-seed digest are recorded in `environment/seed/sample_manifest.json`.
