@@ -25,6 +25,9 @@ SEED_ROOT = ROOT / "environment" / "seed"
 SOURCE_ROOT = SEED_ROOT / "sources"
 OUTPUT = ROOT / "SEED_DATA_INVENTORY.md"
 REGISTRY = SEED_ROOT / "controls" / "file_registry.json"
+GITHUB_BLOB_ROOT = (
+    "https://github.com/Sureform-YC-X25/alder-ridge-sample-tasks/blob/main"
+)
 
 
 def human_size(byte_count: int) -> str:
@@ -38,7 +41,7 @@ def human_size(byte_count: int) -> str:
 
 def relative_link(path: Path) -> str:
     relative = path.relative_to(ROOT).as_posix()
-    return quote(relative, safe="/")
+    return f"{GITHUB_BLOB_ROOT}/{quote(relative, safe='/')}"
 
 
 def stat_line(values: list[int]) -> str:
@@ -309,6 +312,7 @@ def build_markdown() -> str:
         "",
         "This catalog links directly to every file included in the complete Alder Ridge sample seed. "
         "It covers the full 132-file shared company world, the accounting database, and the seed control/support files.",
+        "Click any filename below to open that file directly in GitHub.",
         "",
         "## Summary",
         "",
