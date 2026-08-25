@@ -12,7 +12,6 @@ import tempfile
 from collections import Counter, defaultdict
 from email import policy
 from pathlib import Path
-from urllib.parse import quote
 
 from docx import Document
 from openpyxl import load_workbook
@@ -25,9 +24,6 @@ SEED_ROOT = ROOT / "environment" / "seed"
 SOURCE_ROOT = SEED_ROOT / "sources"
 OUTPUT = ROOT / "SEED_DATA_INVENTORY.md"
 REGISTRY = SEED_ROOT / "controls" / "file_registry.json"
-GITHUB_BLOB_ROOT = (
-    "https://github.com/Sureform-YC-X25/alder-ridge-sample-tasks/blob/main"
-)
 
 
 def human_size(byte_count: int) -> str:
@@ -37,11 +33,6 @@ def human_size(byte_count: int) -> str:
             return f"{value:.0f} {unit}" if unit == "B" else f"{value:.2f} {unit}"
         value /= 1024
     raise AssertionError("unreachable")
-
-
-def relative_link(path: Path) -> str:
-    relative = path.relative_to(ROOT).as_posix()
-    return f"{GITHUB_BLOB_ROOT}/{quote(relative, safe='/')}"
 
 
 def stat_line(values: list[int]) -> str:
@@ -373,7 +364,7 @@ def build_markdown() -> str:
             "",
             "## Accounting database",
             "",
-            f"[`accounting.db`]({relative_link(SEED_ROOT / 'accounting.db')}) contains **{sum(count for _, count in database):,} rows across {len(database)} business tables**.",
+            f"`accounting.db` contains **{sum(count for _, count in database):,} rows across {len(database)} business tables**.",
             "",
             "| Table | Rows |",
             "|---|---:|",

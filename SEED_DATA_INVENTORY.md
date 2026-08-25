@@ -55,7 +55,7 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 ## Accounting database
 
-[`accounting.db`](https://github.com/Sureform-YC-X25/alder-ridge-sample-tasks/blob/main/environment/seed/accounting.db) contains **575,008 rows across 27 business tables**.
+`accounting.db` contains **575,008 rows across 27 business tables**.
 
 | Table | Rows |
 |---|---:|
