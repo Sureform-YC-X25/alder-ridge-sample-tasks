@@ -192,7 +192,15 @@ def source_metrics() -> tuple[list[dict[str, object]], dict[str, list[int]]]:
     rows: list[dict[str, object]] = []
     aggregates: dict[str, list[int]] = defaultdict(list)
 
-    for path in sorted(candidate for candidate in SOURCE_ROOT.rglob("*") if candidate.is_file()):
+    for path in sorted(
+        candidate
+        for candidate in SOURCE_ROOT.rglob("*")
+        if candidate.is_file()
+        and not any(
+            part.startswith(".")
+            for part in candidate.relative_to(SOURCE_ROOT).parts
+        )
+    ):
         relative = path.relative_to(SOURCE_ROOT).as_posix()
         extension = path.suffix.lower().lstrip(".")
         metrics: dict[str, object] = {}
@@ -302,17 +310,21 @@ def build_markdown() -> str:
     source_counts = Counter(str(row["extension"]) for row in sources)
     status_counts = Counter(str(row["status"]) for row in sources)
     database = database_rows()
-    seed_files = [path for path in SEED_ROOT.rglob("*") if path.is_file()]
+    seed_files = [
+        path
+        for path in SEED_ROOT.rglob("*")
+        if path.is_file()
+        and not any(
+            part.startswith(".")
+            for part in path.relative_to(SEED_ROOT).parts
+        )
+    ]
     seed_bytes = sum(path.stat().st_size for path in seed_files)
     source_bytes = sum(int(row["bytes"]) for row in sources)
     db_bytes = (SEED_ROOT / "accounting.db").stat().st_size
 
     lines = [
         "# Alder Ridge Seed Data Inventory",
-        "",
-        "This catalog links directly to every file included in the complete Alder Ridge sample seed. "
-        "It covers the full 132-file shared company world, the accounting database, and the seed control/support files.",
-        "Click any filename below to open that file directly in GitHub.",
         "",
         "## Summary",
         "",
@@ -371,23 +383,6 @@ def build_markdown() -> str:
         lines.append(f"| `{table}` | {count:,} |")
     lines.append(f"| **Total** | **{sum(count for _, count in database):,}** |")
 
-    lines.extend(
-        [
-            "",
-            "## Seed documentation and controls",
-            "",
-            "These files document or verify the seed package. Control files are not mounted into the agent-visible workspace.",
-            "",
-        ]
-    )
-    support_paths = sorted(
-        path for path in SEED_ROOT.iterdir() if path.is_file()
-    ) + sorted((SEED_ROOT / "controls").glob("*.json"))
-    for path in support_paths:
-        lines.append(
-            f"- [`{path.relative_to(SEED_ROOT).as_posix()}`]({relative_link(path)}) — {human_size(path.stat().st_size)}"
-        )
-
     lines.extend(["", "## Company-world source files", ""])
     by_parent: dict[str, list[dict[str, object]]] = defaultdict(list)
     for row in sources:
@@ -397,7 +392,7 @@ def build_markdown() -> str:
         for row in by_parent[parent]:
             path = Path(row["path"])
             lines.append(
-                f"- [`{path.name}`]({relative_link(path)}) — {metric_description(row)}"
+                f"- `{path.name}` — {metric_description(row)}"
             )
         lines.append("")
 
