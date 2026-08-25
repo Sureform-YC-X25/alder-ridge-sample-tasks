@@ -1,6 +1,6 @@
 {
   "accounting_seed_sha256": "069e82209b09cfa180c19f6168551f1adaf5c0a2233a0309d63b3aec43ab8501",
-  "canonical_source_commit": "0202b6e1bf789a20d3770335922e4ee34f231408",
+  "canonical_source_commit": "37a9b6f7b4b18564f0266bed038f8b66d853d058",
   "non_sample_task_identifiers_found": [],
   "schema_version": 1,
   "scope_verified": true,

@@ -6,8 +6,8 @@
 |---|---:|
 | Company-world source files | 132 |
 | Complete seed files, including controls/database | 139 |
-| Complete seed size | 78.37 MiB |
-| Source-artifact size | 3.62 MiB |
+| Complete seed size | 77.87 MiB |
+| Source-artifact size | 3.13 MiB |
 | Accounting database size | 74.35 MiB |
 | Accounting database rows | 575,008 |
 | Excel workbooks / worksheets | 54 / 260 |
@@ -119,7 +119,7 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 ### `Shared/Finance/Accounting Policies + old memos`
 
-- `Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf` — PDF · 52.11 KiB · current-support · 4 pages
+- `Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf` — PDF · 10.93 KiB · current-support · 4 pages
 
 ### `Shared/Finance/Close/2026/05 May/4_WIP`
 
@@ -182,7 +182,7 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 ### `Shared/Finance/FP&A/FY26 plan + reforecast`
 
-- `FY26 AOP approval deck_12.18.25 FINAL.pptx` — PPTX · 32.25 KiB · approved-plan · 8 slides
+- `FY26 AOP approval deck_12.18.25 FINAL.pptx` — PPTX · 38.07 KiB · approved-plan · 8 slides
 - `FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx` — XLSX · 19.54 KiB · approved-plan · 9 sheets · 86 populated rows · 39 formulas · 36 detected list records
 - `FY26 rolling forecast_v12 - pre WIP.xlsx` — XLSX · 13.01 KiB · stale-working · 4 sheets · 87 populated rows · 94 formulas · 60 detected list records
 - `department reforecast inputs - June pull.xlsx` — XLSX · 12.96 KiB · current-support · 4 sheets · 87 populated rows · 94 formulas · 60 detected list records
@@ -200,7 +200,7 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 - `2026 field labor loaded rate build - est copy.xlsx` — XLSX · 5.99 KiB · current-working · 1 sheets · 12 populated rows · 4 formulas
 - `HC + field labor productivity Q2 working.xlsx` — XLSX · 66.45 KiB · current-working · 4 sheets · 960 populated rows · 958 formulas · 936 detected list records
-- `field burden rate approval - 2026 estimator use.pdf` — PDF · 49.77 KiB · current-support · 4 pages
+- `field burden rate approval - 2026 estimator use.pdf` — PDF · 8.25 KiB · current-support · 4 pages
 
 ### `Shared/Finance/Investor Relations/Peer analysis`
 
@@ -242,7 +242,7 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 ### `Shared/Finance/Risk + Insurance`
 
 - `2026 renewal exposure notes - broker call followup.docx` — DOCX · 39.12 KiB · current-support · 2 rendered pages · 1 tables · 6 table rows
-- `2026-27 binder + schedule of coverage - broker draft.pdf` — PDF · 49.61 KiB · current-working · 4 pages
+- `2026-27 binder + schedule of coverage - broker draft.pdf` — PDF · 8.04 KiB · current-working · 4 pages
 - `bonding insurance schedule 2026 - renewal working.xlsx` — XLSX · 11.60 KiB · current-working · 4 sheets · 49 populated rows · 59 formulas · 21 detected list records
 
 ### `Shared/Finance/Strategic Finance/FY27 working`
@@ -256,7 +256,7 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 - `1099 sales use tax tracker - 6.30.xlsx` — XLSX · 18.83 KiB · current-support · 4 sheets · 177 populated rows · 184 formulas · 150 detected list records
 - `FY26 tax provision - WORKING.xlsx` — XLSX · 12.91 KiB · current-working · 6 sheets · 98 populated rows · 0 formulas · 19 detected list records
-- `OR DOR desk review notice + response checklist.pdf` — PDF · 49.52 KiB · current-support · 4 pages
+- `OR DOR desk review notice + response checklist.pdf` — PDF · 8.96 KiB · current-support · 4 pages
 
 ### `Shared/Finance/Tax/2026 working`
 
@@ -281,20 +281,20 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 ### `Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted`
 
-- `Q1 2026 compliance pkg - submitted 4.28.26.pdf` — PDF · 59.25 KiB · historical-final · 12 pages
-- `covenant summary - old 2024 (use agreement).pdf` — PDF · 43.84 KiB · superseded · 2 pages
+- `Q1 2026 compliance pkg - submitted 4.28.26.pdf` — PDF · 25.87 KiB · historical-final · 12 pages
+- `covenant summary - old 2024 (use agreement).pdf` — PDF · 3.99 KiB · superseded · 2 pages
 - `lender + surety update Q1 - submitted copy.pptx` — PPTX · 26.52 KiB · historical-final · 6 slides
 
 ### `Shared/Finance/Treasury/Bank - covenants/2026 Q2 working`
 
 - `Q2 covenant headroom - lender review working.xlsx` — XLSX · 7.05 KiB · current-working · 2 sheets · 17 populated rows · 3 formulas
-- `Q2 lender update - review working v3.pptx` — PPTX · 23.83 KiB · current-working · 5 slides
+- `Q2 lender update - review working v3.pptx` — PPTX · 27.01 KiB · current-working · 5 slides
 - `public-owner assignment status - lender reply 7.2.eml` — EML · 1.91 KiB · current-working · 250 body words
 
 ### `Shared/Finance/Treasury/Bank - covenants/Agreement + amendments`
 
-- `USBank AR eligibility exhibit - closing set copy.pdf` — PDF · 69.79 KiB · current-working · 4 pages
-- `USBank_Amdt2_9.30.25_EXECUTED scan.pdf` — PDF · 55.62 KiB · current-support · 9 pages
+- `USBank AR eligibility exhibit - closing set copy.pdf` — PDF · 10.00 KiB · current-working · 4 pages
+- `USBank_Amdt2_9.30.25_EXECUTED scan.pdf` — PDF · 14.53 KiB · current-support · 9 pages
 
 ### `Shared/Finance/Treasury/Cash positioning`
 
@@ -304,7 +304,7 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 ### `Shared/Finance/Treasury/Debt`
 
 - `debt sched - 6.30 before bank pkg.xlsx` — XLSX · 9.74 KiB · current-support · 4 sheets · 28 populated rows · 23 formulas
-- `equipment line proposal - bank copy 6.18.26.pdf` — PDF · 49.53 KiB · current-working · 4 pages
+- `equipment line proposal - bank copy 6.18.26.pdf` — PDF · 7.84 KiB · current-working · 4 pages
 
 ### `Shared/Finance/Treasury/FY27 working`
 
@@ -319,9 +319,9 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 ### `Shared/Operations/Commercial/CO Log/6.30 support - not all final`
 
-- `2409_PCO11_backcharge backup - draft2.pdf` — PDF · 49.66 KiB · current-working · 4 pages
-- `2417_PCO17_owner emails + FD summary_6.30.pdf` — PDF · 69.49 KiB · current-support · 4 pages
-- `2506_PCO6_DB27 backup + cost est (working).pdf` — PDF · 49.65 KiB · current-working · 4 pages
+- `2409_PCO11_backcharge backup - draft2.pdf` — PDF · 8.53 KiB · current-working · 4 pages
+- `2417_PCO17_owner emails + FD summary_6.30.pdf` — PDF · 8.70 KiB · current-support · 4 pages
+- `2506_PCO6_DB27 backup + cost est (working).pdf` — PDF · 8.53 KiB · current-working · 4 pages
 
 ### `Shared/Operations/Fleet`
 
@@ -341,11 +341,11 @@ Excel list records use a structural estimate: a mainly textual header spanning a
 
 ### `Shared/Operations/Project Reviews`
 
-- `weekly top jobs review - 6.29 PM copy.pptx` — PPTX · 29.38 KiB · current-working · 7 slides
+- `weekly top jobs review - 6.29 PM copy.pptx` — PPTX · 34.25 KiB · current-working · 7 slides
 
 ### `Shared/Operations/Quarterly Reviews`
 
-- `Q2 ops + safety review - 6.26 draft.pptx` — PPTX · 29.28 KiB · stale-working · 7 slides
+- `Q2 ops + safety review - 6.26 draft.pptx` — PPTX · 34.18 KiB · stale-working · 7 slides
 - `Q2 project execution status and rework review protocol - 6.30 approved.xlsx` — XLSX · 6.97 KiB · current-support · 2 sheets · 36 populated rows · 4 formulas · 30 detected list records
 
 ### `Shared/Operations/Service/monthly KPI`

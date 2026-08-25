@@ -191,11 +191,11 @@
       "version_status": "current-support"
     },
     {
-      "bytes": 53361,
+      "bytes": 11188,
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
       "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "9b12b0d4aa05579ef4956a7d029dcd52c9f8bf098b265138dfe8c8f6d7d9a89a",
+      "sha256": "31be2d4be1670db169e5e79514fa51295320c175539f53be6096d77267ff9caa",
       "type": "pdf",
       "version_status": "current-support"
     },
@@ -407,11 +407,11 @@
       "version_status": "current-working"
     },
     {
-      "bytes": 33020,
+      "bytes": 38986,
       "discoverability": "Board-approved plan; not an accounting actual.",
       "path": "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx",
       "permitted_use": "plan baseline only",
-      "sha256": "692e78f7db957944ccb4e6598b8f834a1b787fc66bd3c35ca2cad2624602a770",
+      "sha256": "f35e67b15359bb8a8d506e10a58e3fa1c28b5b7a5ada39ee5cefe04b6c55428c",
       "type": "pptx",
       "version_status": "approved-plan"
     },
@@ -515,11 +515,11 @@
       "version_status": "current-working"
     },
     {
-      "bytes": 50963,
+      "bytes": 8444,
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/Labor/field burden rate approval - 2026 estimator use.pdf",
       "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "1dcf58ffab2165d5fe201cebff82c2f29b9d9fa5f9c67c5557d6eaff4bbb9889",
+      "sha256": "1153a9678dca948188570098e192de063d03942db6cedf1ba0940b24bfa7fd80",
       "type": "pdf",
       "version_status": "current-support"
     },
@@ -704,11 +704,11 @@
       "version_status": "current-support"
     },
     {
-      "bytes": 50805,
+      "bytes": 8233,
       "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Risk + Insurance/2026-27 binder + schedule of coverage - broker draft.pdf",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "be69bdbd60b1e93bdb2edaf5896b83690192d977161612ee425e8a34c19ecb46",
+      "sha256": "d44883d755e486cfb74468376f76084b3d99de668403220e8c682a2d26f53e6b",
       "type": "pdf",
       "version_status": "current-working"
     },
@@ -776,11 +776,11 @@
       "version_status": "current-working"
     },
     {
-      "bytes": 50704,
+      "bytes": 9180,
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Tax/2026/OR DOR desk review notice + response checklist.pdf",
       "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "d56382d476de8ddc750463032e509616ed337303df34d0f702d7aa959f2d17ff",
+      "sha256": "090bc531e7f7048d526112271dc70aea936a4b64d03b9693d279ae903d650a53",
       "type": "pdf",
       "version_status": "current-support"
     },
@@ -857,20 +857,20 @@
       "version_status": "current-working"
     },
     {
-      "bytes": 60673,
+      "bytes": 26487,
       "discoverability": "Dated Q1/submitted package; never a Q2 actual source.",
       "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/Q1 2026 compliance pkg - submitted 4.28.26.pdf",
       "permitted_use": "prior-quarter reference",
-      "sha256": "43e8b22c5fede9f3f6cfc9540784348c86187315bc86aa1e0fc1050111a04357",
+      "sha256": "2d87111a33acb0845eb7f962f1e5c0fbbbaba4a3a4dd1258e01367299984fa75",
       "type": "pdf",
       "version_status": "historical-final"
     },
     {
-      "bytes": 44895,
+      "bytes": 4087,
       "discoverability": "File name and in-document warning identify it as superseded.",
       "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/covenant summary - old 2024 (use agreement).pdf",
       "permitted_use": "historical reference only",
-      "sha256": "42d3fbd6c8c8000dd5a27091c17e558a4c92bb082f824d0b1cb0c127902212cd",
+      "sha256": "0d2776cc700d108cc768d8e0dadb49c151ebd1ff2fb99e942931e237a3ce1c45",
       "type": "pdf",
       "version_status": "superseded"
     },
@@ -893,11 +893,11 @@
       "version_status": "current-working"
     },
     {
-      "bytes": 24407,
+      "bytes": 27663,
       "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "295d682e6ca0a25f7fe7dc8ae8955269073567fc43ebf8e44b2eb875f3763dc6",
+      "sha256": "77e6107f163af332d357bb0d676be4dd03d47b723e8faa932659f1bb45992c0d",
       "type": "pptx",
       "version_status": "current-working"
     },
@@ -911,20 +911,20 @@
       "version_status": "current-working"
     },
     {
-      "bytes": 71466,
+      "bytes": 10240,
       "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "bee44b79ae7ed78564561106a9f428ccbd64b2ae3288456a7f5a146413bcc978",
+      "sha256": "016e7c03aa1dfc22c64923ba295a26a9916f2071c9000c25295bb7aa7bd6b60f",
       "type": "pdf",
       "version_status": "current-working"
     },
     {
-      "bytes": 56953,
+      "bytes": 14882,
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
       "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "7f5ecc930f690c2926eee41216ea5094b281041def46838363d74f1d853be124",
+      "sha256": "4a1225d3d2e88f4fd25347a3891c23e51f19004c0e0e37cea8a8a58817c60638",
       "type": "pdf",
       "version_status": "current-support"
     },
@@ -965,11 +965,11 @@
       "version_status": "current-support"
     },
     {
-      "bytes": 50722,
+      "bytes": 8028,
       "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "8810ac6933e748e517a3cb3dd8a35e66219735b37580266dc018f784b169e1e6",
+      "sha256": "0f143a16cf67f2426fcf65572ee96cb67ec4cb662ee5c3d872dd93c030adf778",
       "type": "pdf",
       "version_status": "current-working"
     },
@@ -1010,29 +1010,29 @@
       "version_status": "current-working"
     },
     {
-      "bytes": 50850,
+      "bytes": 8735,
       "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "b92bdd4fc970d9dc29918e91aa5a2d4ab8d5070f3a671de1e18aa1fdb1aae6a3",
+      "sha256": "4b9bf59876de0bfd2fd4b75c0b7e281c885db80b2f7f426326cbe2d50651080e",
       "type": "pdf",
       "version_status": "current-working"
     },
     {
-      "bytes": 71155,
+      "bytes": 8908,
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
       "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "c1f55853bfda3eb0ec40f54f27a936b18ba453b7dfd3e3bbfe8e3591eb57491a",
+      "sha256": "c47062ebbcdd49cd551df1da26ef9bb62dac26838d16fbb4b3d60710e3333d96",
       "type": "pdf",
       "version_status": "current-support"
     },
     {
-      "bytes": 50845,
+      "bytes": 8735,
       "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "c0ff6f1546f2267e74f36013a0153b3a2dd0aab2d3917ec4ec12bdba10a9073f",
+      "sha256": "62c3a947c10a5d61498eef3c353a6ee93da59c7814c777ced030fae3420c6712",
       "type": "pdf",
       "version_status": "current-working"
     },
@@ -1082,20 +1082,20 @@
       "version_status": "current-support"
     },
     {
-      "bytes": 30085,
+      "bytes": 35069,
       "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Operations/Project Reviews/weekly top jobs review - 6.29 PM copy.pptx",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "f5a73d56c553f828093512dbf96cedf13909cb80449667177e590a419730cfca",
+      "sha256": "36e96ab1443e252ab1ec7bc6f3c6d51c974c479e8b8edfd6b6f2345fc13383f0",
       "type": "pptx",
       "version_status": "current-working"
     },
     {
-      "bytes": 29979,
+      "bytes": 35003,
       "discoverability": "Filename exposes its pre-close cutoff; request e-mail names the required current sources.",
       "path": "Shared/Operations/Quarterly Reviews/Q2 ops + safety review - 6.26 draft.pptx",
       "permitted_use": "refresh required",
-      "sha256": "ef27d77d78bce96640f7638cd717800af0a16b87163194078218cf72880fa051",
+      "sha256": "bd278aced71658521eddc42590f93e709ddac67d215e5257a313b4c28c287a18",
       "type": "pptx",
       "version_status": "stale-working"
     },
