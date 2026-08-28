@@ -4,601 +4,772 @@
       "category": "structure",
       "description": "Required worksheet 'Buyer Standalone' is present",
       "id": "structure__sheet_buyer_standalone",
+      "kind": "xlsx_sheet_present",
       "semantic": false,
+      "sheet": "Buyer Standalone",
       "weight": 1
     },
     {
       "category": "structure",
       "description": "Required worksheet 'Target Standalone' is present",
       "id": "structure__sheet_target_standalone",
+      "kind": "xlsx_sheet_present",
       "semantic": false,
+      "sheet": "Target Standalone",
       "weight": 1
     },
     {
       "category": "structure",
       "description": "Required worksheet 'Sources & Uses' is present",
       "id": "structure__sheet_sources_uses",
+      "kind": "xlsx_sheet_present",
       "semantic": false,
+      "sheet": "Sources & Uses",
       "weight": 1
     },
     {
       "category": "structure",
       "description": "Required worksheet 'Purchase Accounting' is present",
       "id": "structure__sheet_purchase_accounting",
+      "kind": "xlsx_sheet_present",
       "semantic": false,
+      "sheet": "Purchase Accounting",
       "weight": 1
     },
     {
       "category": "structure",
       "description": "Required worksheet 'Combined' is present",
       "id": "structure__sheet_combined",
+      "kind": "xlsx_sheet_present",
       "semantic": false,
+      "sheet": "Combined",
       "weight": 1
     },
     {
       "category": "structure",
       "description": "Required worksheet 'Accretion Dilution' is present",
       "id": "structure__sheet_accretion_dilution",
+      "kind": "xlsx_sheet_present",
       "semantic": false,
+      "sheet": "Accretion Dilution",
       "weight": 1
     },
     {
       "category": "structure",
       "description": "Required worksheet 'Checks' is present",
       "id": "structure__sheet_checks",
+      "kind": "xlsx_sheet_present",
       "semantic": false,
+      "sheet": "Checks",
       "weight": 1
     },
     {
       "category": "integrity",
       "description": "The submitted workbook contains no spreadsheet error values",
       "id": "model_integrity__no_errors",
+      "kind": "xlsx_no_errors",
       "semantic": false,
       "weight": 10
     },
     {
       "category": "auditability",
       "description": "Headline output 'total_transaction_uses' is formula-driven from workbook references",
+      "headline_label": "total_transaction_uses",
       "id": "formula_lineage__headline_total_transaction_uses",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'total_transaction_sources' is formula-driven from workbook references",
+      "headline_label": "total_transaction_sources",
       "id": "formula_lineage__headline_total_transaction_sources",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'sources_and_uses_check' is formula-driven from workbook references",
+      "headline_label": "sources_and_uses_check",
       "id": "formula_lineage__headline_sources_and_uses_check",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'buyer_standalone_eps' is formula-driven from workbook references",
+      "headline_label": "buyer_standalone_eps",
       "id": "formula_lineage__headline_buyer_standalone_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'seller_shares_issued' is formula-driven from workbook references",
+      "headline_label": "seller_shares_issued",
       "id": "formula_lineage__headline_seller_shares_issued",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'pro_forma_diluted_shares' is formula-driven from workbook references",
+      "headline_label": "pro_forma_diluted_shares",
       "id": "formula_lineage__headline_pro_forma_diluted_shares",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'target_ebit' is formula-driven from workbook references",
+      "headline_label": "target_ebit",
       "id": "formula_lineage__headline_target_ebit",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'incremental_debt_interest' is formula-driven from workbook references",
+      "headline_label": "incremental_debt_interest",
       "id": "formula_lineage__headline_incremental_debt_interest",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'foregone_cash_yield' is formula-driven from workbook references",
+      "headline_label": "foregone_cash_yield",
       "id": "formula_lineage__headline_foregone_cash_yield",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'total_incremental_financing_cost' is formula-driven from workbook references",
+      "headline_label": "total_incremental_financing_cost",
       "id": "formula_lineage__headline_total_incremental_financing_cost",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_one_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_gaap_incremental_after_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_one_gaap_incremental_after_tax_income",
       "id": "formula_lineage__headline_year_one_gaap_incremental_after_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_one_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_adjusted_incremental_after_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_one_adjusted_incremental_after_tax_income",
       "id": "formula_lineage__headline_year_one_adjusted_incremental_after_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_gaap_pro_forma_net_income' is formula-driven from workbook references",
+      "headline_label": "year_one_gaap_pro_forma_net_income",
       "id": "formula_lineage__headline_year_one_gaap_pro_forma_net_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_adjusted_pro_forma_net_income' is formula-driven from workbook references",
+      "headline_label": "year_one_adjusted_pro_forma_net_income",
       "id": "formula_lineage__headline_year_one_adjusted_pro_forma_net_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "year_one_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "year_one_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "year_one_gaap_eps_accretion",
       "id": "formula_lineage__headline_year_one_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_one_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "year_one_adjusted_eps_accretion",
       "id": "formula_lineage__headline_year_one_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_two_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_gaap_incremental_after_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_two_gaap_incremental_after_tax_income",
       "id": "formula_lineage__headline_year_two_gaap_incremental_after_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_two_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_adjusted_incremental_after_tax_income' is formula-driven from workbook references",
+      "headline_label": "year_two_adjusted_incremental_after_tax_income",
       "id": "formula_lineage__headline_year_two_adjusted_incremental_after_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_gaap_pro_forma_net_income' is formula-driven from workbook references",
+      "headline_label": "year_two_gaap_pro_forma_net_income",
       "id": "formula_lineage__headline_year_two_gaap_pro_forma_net_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_adjusted_pro_forma_net_income' is formula-driven from workbook references",
+      "headline_label": "year_two_adjusted_pro_forma_net_income",
       "id": "formula_lineage__headline_year_two_adjusted_pro_forma_net_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "year_two_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "year_two_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "year_two_gaap_eps_accretion",
       "id": "formula_lineage__headline_year_two_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'year_two_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "year_two_adjusted_eps_accretion",
       "id": "formula_lineage__headline_year_two_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_one_realized_synergy' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_one_realized_synergy",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_one_realized_synergy",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_one_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_one_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_one_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_one_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_one_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_one_gaap_eps_accretion",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_one_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_one_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_one_adjusted_eps_accretion",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_one_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_two_realized_synergy' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_two_realized_synergy",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_two_realized_synergy",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_two_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_two_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_two_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_two_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_two_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_two_gaap_eps_accretion",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_two_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_year_two_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_year_two_adjusted_eps_accretion",
       "id": "formula_lineage__headline_synergy_realization_50_percent_year_two_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_incremental_financing_cost' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_incremental_financing_cost",
       "id": "formula_lineage__headline_synergy_realization_50_percent_incremental_financing_cost",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'synergy_realization_50_percent_committee_release_status' is formula-driven from workbook references",
+      "headline_label": "synergy_realization_50_percent_committee_release_status",
       "id": "formula_lineage__headline_synergy_realization_50_percent_committee_release_status",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_one_realized_synergy' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_one_realized_synergy",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_one_realized_synergy",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_one_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_one_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_one_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_one_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_one_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_one_gaap_eps_accretion",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_one_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_one_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_one_adjusted_eps_accretion",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_one_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_two_realized_synergy' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_two_realized_synergy",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_two_realized_synergy",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_two_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_two_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_two_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_two_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_two_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_two_gaap_eps_accretion",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_two_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_year_two_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_year_two_adjusted_eps_accretion",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_year_two_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_incremental_financing_cost' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_incremental_financing_cost",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_incremental_financing_cost",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'debt_rate_up_200_bps_committee_release_status' is formula-driven from workbook references",
+      "headline_label": "debt_rate_up_200_bps_committee_release_status",
       "id": "formula_lineage__headline_debt_rate_up_200_bps_committee_release_status",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_one_realized_synergy' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_one_realized_synergy",
       "id": "formula_lineage__headline_combined_downside_year_one_realized_synergy",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_one_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_one_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_combined_downside_year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_one_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_one_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_combined_downside_year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_one_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_one_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_combined_downside_year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_one_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_one_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_combined_downside_year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_one_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_one_gaap_eps_accretion",
       "id": "formula_lineage__headline_combined_downside_year_one_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_one_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_one_adjusted_eps_accretion",
       "id": "formula_lineage__headline_combined_downside_year_one_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_two_realized_synergy' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_two_realized_synergy",
       "id": "formula_lineage__headline_combined_downside_year_two_realized_synergy",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_two_gaap_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_two_gaap_incremental_pre_tax_income",
       "id": "formula_lineage__headline_combined_downside_year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_two_adjusted_incremental_pre_tax_income' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_two_adjusted_incremental_pre_tax_income",
       "id": "formula_lineage__headline_combined_downside_year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_two_gaap_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_two_gaap_pro_forma_eps",
       "id": "formula_lineage__headline_combined_downside_year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_two_adjusted_pro_forma_eps' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_two_adjusted_pro_forma_eps",
       "id": "formula_lineage__headline_combined_downside_year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_two_gaap_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_two_gaap_eps_accretion",
       "id": "formula_lineage__headline_combined_downside_year_two_gaap_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_year_two_adjusted_eps_accretion' is formula-driven from workbook references",
+      "headline_label": "combined_downside_year_two_adjusted_eps_accretion",
       "id": "formula_lineage__headline_combined_downside_year_two_adjusted_eps_accretion",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_incremental_financing_cost' is formula-driven from workbook references",
+      "headline_label": "combined_downside_incremental_financing_cost",
       "id": "formula_lineage__headline_combined_downside_incremental_financing_cost",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
     {
       "category": "auditability",
       "description": "Headline output 'combined_downside_committee_release_status' is formula-driven from workbook references",
+      "headline_label": "combined_downside_committee_release_status",
       "id": "formula_lineage__headline_combined_downside_committee_release_status",
+      "kind": "xlsx_headline_formula",
       "semantic": false,
       "weight": 5
     },
@@ -606,83 +777,115 @@
       "category": "auditability",
       "description": "Required model worksheet 'Sources & Uses' contains formulas",
       "id": "formula_lineage__formula_sheet_sources_uses",
+      "kind": "xlsx_formula_sheet",
       "semantic": false,
+      "sheet": "Sources & Uses",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Required model worksheet 'Purchase Accounting' contains formulas",
       "id": "formula_lineage__formula_sheet_purchase_accounting",
+      "kind": "xlsx_formula_sheet",
       "semantic": false,
+      "sheet": "Purchase Accounting",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Required model worksheet 'Combined' contains formulas",
       "id": "formula_lineage__formula_sheet_combined",
+      "kind": "xlsx_formula_sheet",
       "semantic": false,
+      "sheet": "Combined",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Required model worksheet 'Accretion Dilution' contains formulas",
       "id": "formula_lineage__formula_sheet_accretion_dilution",
+      "kind": "xlsx_formula_sheet",
       "semantic": false,
+      "sheet": "Accretion Dilution",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Required model worksheet 'Checks' contains formulas",
       "id": "formula_lineage__formula_sheet_checks",
+      "kind": "xlsx_formula_sheet",
       "semantic": false,
+      "sheet": "Checks",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Material calculations on worksheet 'Sources & Uses' are linked to supporting schedule 'Assumptions'",
       "id": "formula_lineage__link_sources_uses_from_assumptions",
+      "kind": "xlsx_sheet_lineage",
       "semantic": false,
+      "source_sheet": "Assumptions",
+      "target_sheet": "Sources & Uses",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Material calculations on worksheet 'Purchase Accounting' are linked to supporting schedule 'Assumptions'",
       "id": "formula_lineage__link_purchase_accounting_from_assumptions",
+      "kind": "xlsx_sheet_lineage",
       "semantic": false,
+      "source_sheet": "Assumptions",
+      "target_sheet": "Purchase Accounting",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Material calculations on worksheet 'Combined' are linked to supporting schedule 'Assumptions'",
       "id": "formula_lineage__link_combined_from_assumptions",
+      "kind": "xlsx_sheet_lineage",
       "semantic": false,
+      "source_sheet": "Assumptions",
+      "target_sheet": "Combined",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Material calculations on worksheet 'Accretion Dilution' are linked to supporting schedule 'Combined'",
       "id": "formula_lineage__link_accretion_dilution_from_combined",
+      "kind": "xlsx_sheet_lineage",
       "semantic": false,
+      "source_sheet": "Combined",
+      "target_sheet": "Accretion Dilution",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Material calculations on worksheet 'Checks' are linked to supporting schedule 'Accretion Dilution'",
       "id": "formula_lineage__link_checks_from_accretion_dilution",
+      "kind": "xlsx_sheet_lineage",
       "semantic": false,
+      "source_sheet": "Accretion Dilution",
+      "target_sheet": "Checks",
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "Material calculations on worksheet 'Checks' are linked to supporting schedule 'Sources & Uses'",
       "id": "formula_lineage__link_checks_from_sources_uses",
+      "kind": "xlsx_sheet_lineage",
       "semantic": false,
+      "source_sheet": "Sources & Uses",
+      "target_sheet": "Checks",
       "weight": 3
     },
     {
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `purchase_enterprise_value` is correctly labeled and associated",
       "id": "headline_values__purchase_enterprise_value",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "purchase_enterprise_value": 54000000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -690,6 +893,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `target_net_debt_assumed` is correctly labeled and associated",
       "id": "headline_values__target_net_debt_assumed",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "target_net_debt_assumed": 6500000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -697,6 +904,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `total_transaction_uses` is correctly labeled and associated",
       "id": "headline_values__total_transaction_uses",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "total_transaction_uses": 60500000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -704,6 +915,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `cash_consideration` is correctly labeled and associated",
       "id": "headline_values__cash_consideration",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "cash_consideration": 12000000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -711,6 +926,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `new_debt_source` is correctly labeled and associated",
       "id": "headline_values__new_debt_source",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "new_debt_source": 38000000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -718,6 +937,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `seller_equity_source` is correctly labeled and associated",
       "id": "headline_values__seller_equity_source",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "seller_equity_source": 10500000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -725,6 +948,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `total_transaction_sources` is correctly labeled and associated",
       "id": "headline_values__total_transaction_sources",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "total_transaction_sources": 60500000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -732,6 +959,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `sources_and_uses_check` is correctly labeled and associated",
       "id": "headline_values__sources_and_uses_check",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "sources_and_uses_check": 0.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -739,6 +970,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `buyer_standalone_eps` is correctly labeled and associated",
       "id": "headline_values__buyer_standalone_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "buyer_standalone_eps": 0.712
+      },
       "semantic": false,
       "weight": 10
     },
@@ -746,6 +981,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `seller_shares_issued` is correctly labeled and associated",
       "id": "headline_values__seller_shares_issued",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "seller_shares_issued": 600000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -753,6 +992,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `pro_forma_diluted_shares` is correctly labeled and associated",
       "id": "headline_values__pro_forma_diluted_shares",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "pro_forma_diluted_shares": 13100000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -760,6 +1003,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `target_ebit` is correctly labeled and associated",
       "id": "headline_values__target_ebit",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "target_ebit": 3880000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -767,6 +1014,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `incremental_debt_interest` is correctly labeled and associated",
       "id": "headline_values__incremental_debt_interest",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "incremental_debt_interest": 2698000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -774,6 +1025,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `foregone_cash_yield` is correctly labeled and associated",
       "id": "headline_values__foregone_cash_yield",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "foregone_cash_yield": 504000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -781,6 +1036,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `total_incremental_financing_cost` is correctly labeled and associated",
       "id": "headline_values__total_incremental_financing_cost",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "total_incremental_financing_cost": 3202000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -788,6 +1047,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_run_rate_synergy` is correctly labeled and associated",
       "id": "headline_values__year_one_run_rate_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_run_rate_synergy": 1400000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -795,6 +1058,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_integration_expense` is correctly labeled and associated",
       "id": "headline_values__year_one_integration_expense",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_integration_expense": 1800000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -802,6 +1069,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_gaap_incremental_pre_tax_income": -772000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -809,6 +1080,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_gaap_incremental_after_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_one_gaap_incremental_after_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_gaap_incremental_after_tax_income": -579000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -816,6 +1091,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_adjusted_incremental_pre_tax_income": 2078000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -823,6 +1102,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_adjusted_incremental_after_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_one_adjusted_incremental_after_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_adjusted_incremental_after_tax_income": 1558500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -830,6 +1113,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_gaap_pro_forma_net_income` is correctly labeled and associated",
       "id": "headline_values__year_one_gaap_pro_forma_net_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_gaap_pro_forma_net_income": 8321000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -837,6 +1124,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_adjusted_pro_forma_net_income` is correctly labeled and associated",
       "id": "headline_values__year_one_adjusted_pro_forma_net_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_adjusted_pro_forma_net_income": 10458500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -844,6 +1135,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_gaap_pro_forma_eps": 0.63519084
+      },
       "semantic": false,
       "weight": 10
     },
@@ -851,6 +1146,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_adjusted_pro_forma_eps": 0.79835878
+      },
       "semantic": false,
       "weight": 10
     },
@@ -858,6 +1157,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__year_one_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_gaap_eps_accretion": -0.10787803
+      },
       "semantic": false,
       "weight": 10
     },
@@ -865,6 +1168,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_one_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__year_one_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_one_adjusted_eps_accretion": 0.12129042
+      },
       "semantic": false,
       "weight": 10
     },
@@ -872,6 +1179,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_run_rate_synergy` is correctly labeled and associated",
       "id": "headline_values__year_two_run_rate_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_run_rate_synergy": 2500000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -879,6 +1190,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_integration_expense` is correctly labeled and associated",
       "id": "headline_values__year_two_integration_expense",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_integration_expense": 350000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -886,6 +1201,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_gaap_incremental_pre_tax_income": 1778000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -893,6 +1212,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_gaap_incremental_after_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_two_gaap_incremental_after_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_gaap_incremental_after_tax_income": 1333500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -900,6 +1223,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_adjusted_incremental_pre_tax_income": 3178000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -907,6 +1234,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_adjusted_incremental_after_tax_income` is correctly labeled and associated",
       "id": "headline_values__year_two_adjusted_incremental_after_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_adjusted_incremental_after_tax_income": 2383500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -914,6 +1245,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_gaap_pro_forma_net_income` is correctly labeled and associated",
       "id": "headline_values__year_two_gaap_pro_forma_net_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_gaap_pro_forma_net_income": 10233500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -921,6 +1256,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_adjusted_pro_forma_net_income` is correctly labeled and associated",
       "id": "headline_values__year_two_adjusted_pro_forma_net_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_adjusted_pro_forma_net_income": 11283500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -928,6 +1267,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_gaap_pro_forma_eps": 0.78118321
+      },
       "semantic": false,
       "weight": 10
     },
@@ -935,6 +1278,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_adjusted_pro_forma_eps": 0.86133588
+      },
       "semantic": false,
       "weight": 10
     },
@@ -942,6 +1289,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__year_two_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_gaap_eps_accretion": 0.09716742
+      },
       "semantic": false,
       "weight": 10
     },
@@ -949,6 +1300,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `year_two_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__year_two_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "year_two_adjusted_eps_accretion": 0.2097414
+      },
       "semantic": false,
       "weight": 10
     },
@@ -956,6 +1311,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_one_realized_synergy` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_one_realized_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_one_realized_synergy": 700000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -963,6 +1322,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income": -1472000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -970,6 +1333,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income": 1378000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -977,6 +1344,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_one_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_one_gaap_pro_forma_eps": 0.5951145
+      },
       "semantic": false,
       "weight": 10
     },
@@ -984,6 +1355,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_one_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_one_adjusted_pro_forma_eps": 0.75828244
+      },
       "semantic": false,
       "weight": 10
     },
@@ -991,6 +1366,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_one_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_one_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_one_gaap_eps_accretion": -0.16416502
+      },
       "semantic": false,
       "weight": 10
     },
@@ -998,6 +1377,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_one_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_one_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_one_adjusted_eps_accretion": 0.06500343
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1005,6 +1388,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_two_realized_synergy` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_two_realized_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_two_realized_synergy": 1250000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1012,6 +1399,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income": 528000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1019,6 +1410,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income": 1928000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1026,6 +1421,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_two_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_two_gaap_pro_forma_eps": 0.70961832
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1033,6 +1432,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_two_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_two_adjusted_pro_forma_eps": 0.78977099
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1040,6 +1443,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_two_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_two_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_two_gaap_eps_accretion": -0.00334506
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1047,6 +1454,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_year_two_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_year_two_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_year_two_adjusted_eps_accretion": 0.10922892
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1054,6 +1465,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_incremental_financing_cost` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_incremental_financing_cost",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_incremental_financing_cost": 3202000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1061,6 +1476,10 @@
       "category": "decision",
       "description": "Every required headline output is labeled and correct: `synergy_realization_50_percent_committee_release_status` is correctly labeled and associated",
       "id": "headline_values__synergy_realization_50_percent_committee_release_status",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "synergy_realization_50_percent_committee_release_status": "Committee mitigation required"
+      },
       "semantic": true,
       "weight": 10
     },
@@ -1068,6 +1487,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_one_realized_synergy` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_one_realized_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_one_realized_synergy": 1400000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1075,6 +1498,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income": -1532000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1082,6 +1509,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income": 1318000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1089,6 +1520,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_one_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_one_gaap_pro_forma_eps": 0.59167939
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1096,6 +1531,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_one_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_one_adjusted_pro_forma_eps": 0.75484733
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1103,6 +1542,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_one_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_one_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_one_gaap_eps_accretion": -0.16898962
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1110,6 +1553,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_one_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_one_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_one_adjusted_eps_accretion": 0.06017883
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1117,6 +1564,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_two_realized_synergy` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_two_realized_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_two_realized_synergy": 2500000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1124,6 +1575,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income": 1018000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1131,6 +1586,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income": 2418000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1138,6 +1597,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_two_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_two_gaap_pro_forma_eps": 0.73767176
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1145,6 +1608,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_two_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_two_adjusted_pro_forma_eps": 0.81782443
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1152,6 +1619,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_two_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_two_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_two_gaap_eps_accretion": 0.03605584
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1159,6 +1630,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_year_two_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_year_two_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_year_two_adjusted_eps_accretion": 0.14862981
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1166,6 +1641,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_incremental_financing_cost` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_incremental_financing_cost",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_incremental_financing_cost": 3962000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1173,6 +1652,10 @@
       "category": "decision",
       "description": "Every required headline output is labeled and correct: `debt_rate_up_200_bps_committee_release_status` is correctly labeled and associated",
       "id": "headline_values__debt_rate_up_200_bps_committee_release_status",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "debt_rate_up_200_bps_committee_release_status": "Committee mitigation required"
+      },
       "semantic": true,
       "weight": 10
     },
@@ -1180,6 +1663,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_one_realized_synergy` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_one_realized_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_one_realized_synergy": 700000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1187,6 +1674,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_one_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_one_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_one_gaap_incremental_pre_tax_income": -2232000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1194,6 +1685,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_one_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_one_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_one_adjusted_incremental_pre_tax_income": 618000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1201,6 +1696,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_one_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_one_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_one_gaap_pro_forma_eps": 0.55160305
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1208,6 +1707,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_one_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_one_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_one_adjusted_pro_forma_eps": 0.71477099
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1215,6 +1718,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_one_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_one_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_one_gaap_eps_accretion": -0.22527661
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1222,6 +1729,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_one_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_one_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_one_adjusted_eps_accretion": 0.00389184
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1229,6 +1740,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_two_realized_synergy` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_two_realized_synergy",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_two_realized_synergy": 1250000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1236,6 +1751,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_two_gaap_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_two_gaap_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_two_gaap_incremental_pre_tax_income": -232000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1243,6 +1762,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_two_adjusted_incremental_pre_tax_income` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_two_adjusted_incremental_pre_tax_income",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_two_adjusted_incremental_pre_tax_income": 1168000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1250,6 +1773,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_two_gaap_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_two_gaap_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_two_gaap_pro_forma_eps": 0.66610687
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1257,6 +1784,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_two_adjusted_pro_forma_eps` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_two_adjusted_pro_forma_eps",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_two_adjusted_pro_forma_eps": 0.74625954
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1264,6 +1795,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_two_gaap_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_two_gaap_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_two_gaap_eps_accretion": -0.06445664
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1271,6 +1806,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_year_two_adjusted_eps_accretion` is correctly labeled and associated",
       "id": "headline_values__combined_downside_year_two_adjusted_eps_accretion",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_year_two_adjusted_eps_accretion": 0.04811733
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1278,6 +1817,10 @@
       "category": "core_finance",
       "description": "Every required headline output is labeled and correct: `combined_downside_incremental_financing_cost` is correctly labeled and associated",
       "id": "headline_values__combined_downside_incremental_financing_cost",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_incremental_financing_cost": 3962000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -1285,6 +1828,10 @@
       "category": "decision",
       "description": "Every required headline output is labeled and correct: `combined_downside_committee_release_status` is correctly labeled and associated",
       "id": "headline_values__combined_downside_committee_release_status",
+      "kind": "xlsx_label_values",
+      "label_values": {
+        "combined_downside_committee_release_status": "Committee mitigation required"
+      },
       "semantic": true,
       "weight": 10
     },
@@ -1292,139 +1839,216 @@
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'purchase price'",
       "id": "model_content__purchase_price",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "purchase price"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'financing'",
       "id": "model_content__financing",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "financing"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'shares'",
       "id": "model_content__shares",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "shares"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'interest'",
       "id": "model_content__interest",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "interest"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'amortization'",
       "id": "model_content__amortization",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "amortization"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'synergy'",
       "id": "model_content__synergy",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "synergy"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'gaap eps'",
       "id": "model_content__gaap_eps",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "gaap eps"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'adjusted eps'",
       "id": "model_content__adjusted_eps",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "adjusted eps"
+      ],
       "weight": 3
     },
     {
       "category": "auditability",
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'model status'",
       "id": "model_content__model_status",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "model status"
+      ],
       "weight": 3
     },
     {
       "category": "provenance",
       "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
       "id": "sources__controller_tied",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "controller-tied"
+      ],
       "weight": 3
     },
     {
       "category": "provenance",
       "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
       "id": "sources__management_correspondence",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "management correspondence"
+      ],
       "weight": 3
     },
     {
       "category": "provenance",
       "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'policy'",
       "id": "sources__policy",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "policy"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'source'",
       "id": "controls__source",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "source"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'period'",
       "id": "controls__period",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "period"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'scenario'",
       "id": "controls__scenario",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "scenario"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'unit'",
       "id": "controls__unit",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "unit"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'version'",
       "id": "controls__version",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "version"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'check'",
       "id": "controls__check",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "check"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'model status'",
       "id": "controls__model_status",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "model status"
+      ],
       "weight": 3
     }
   ],
   "deterministic_verifier": "graders/corporate_finance.py",
-  "grading_revision": "weighted-atomic-hybrid-v6-transaction-sensitivity-release",
+  "grading_revision": "weighted-atomic-hybrid-v8-case-aware-accretion-sensitivity",
   "integrity_verifier": "graders/integrity.py",
+  "reference_contract": null,
   "reward_policy": "graders/rubric.py",
   "reward_type": "weighted_partial_credit",
   "semantic_verifier": "graders/production_semantic.py",

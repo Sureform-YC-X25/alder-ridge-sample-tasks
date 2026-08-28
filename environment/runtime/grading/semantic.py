@@ -38,6 +38,17 @@ _CONCEPT_GROUPS: tuple[tuple[str, ...], ...] = (
     ("equipment line", "equipment lines"),
     ("do not approve as structured", "reject as submitted", "reject the structure", "do not approve", "not approved"),
     ("stock acquisition", "stock purchase", "stock purchase without section 338 election", "stock deal"),
+    ("capacity cleared", "capacity available", "no remaining shortfall", "fully covered"),
+    ("executive sequencing required", "executive decision required", "management sequencing required"),
+    ("portfolio resequencing required", "hold for executive portfolio sequencing", "resequence portfolio"),
+    ("release", "released", "approved to release", "proceed"),
+    (
+        "hold", "held", "do not release", "not released",
+        "withhold approval", "pending approval", "pending sign off",
+    ),
+    ("within commitment and cash floor", "within liquidity guardrails", "commitment and cash floor satisfied"),
+    ("selected", "included", "in portfolio"),
+    ("not selected", "excluded", "not in portfolio"),
 )
 
 

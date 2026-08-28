@@ -1,1195 +1,1195 @@
 {
+  "world_id": "alder-ridge-mechanical-v2",
+  "snapshot": "2026-06-30-pre-close",
   "control_only_not_agent_visible": true,
   "files": [
     {
-      "bytes": 40664,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Deliverables/ARM-2417 June close and PCO-017 review.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 40664,
       "sha256": "fa1ca83927b09eea221ba8ed29c0ff60b9e0289284295ca85a5093b6bdd27259",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 2029,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 2029,
       "sha256": "1222951c2581031314363b8353a7f464d408e8d99a14e7bb387eca37fa5bd0ec",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 895,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 895,
       "sha256": "82e17582f1ff16e67a7e3110e02b1e51ee39d44110af168716ef188da9a0eeb4",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 946,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 946,
       "sha256": "6902b57fe575680db258c2263080de4492ba23c26416299251116b2fe51e0038",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 789,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.2.26_1103am - CFO close decision note - internal only.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 789,
       "sha256": "125ccd309f5832012818529df727e99962dd8a88c8dc45f6f73cd5ab78f0a58e",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 697,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.2.26_611am - June ops review deck + notes.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 697,
       "sha256": "577de977992c61b903403626f6569470d1443c6d16b14870aaf92c3683cd5d6b",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 963,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.2.26_736am - FW_ wc cleanup + backlog coverage.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 963,
       "sha256": "22b257c942553bb0863c67090b93ec2a13a20597ab1493996017044b4b01ef5d",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1089,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.2.26_805am - payroll bridge + capex before noon.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1089,
       "sha256": "c09d1da6d54dc3eaf87260560b78210984fa940771474c598361cd4d51d3558c",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 952,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.2.26_842am - service vans capacity check - LT fwd.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 952,
       "sha256": "09ef2b12e8b1c3398ae8bf8397a5112c1bfd6971cc7211434b9cb7b06f2a5186",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1565,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1565,
       "sha256": "1be19d2e99dfa8d1c60e31c79b6a4af50dbd4220e16a3c7708e6f75d4eb62740",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1154,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.4.26_0838am - capital committee + five year plan.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1154,
       "sha256": "7e0e78a286b91c6e775c9f10ffcfc756a38e26510599f02f42d574699c18a896",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1317,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1317,
       "sha256": "cd4b283387c318fe0b7e0897737a43c4c85d3f6e09b12709b900fa869d0067c0",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1287,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1287,
       "sha256": "4cf64bc351cd7a6a68e8c23d3e43daf3330cf9d8bdda16871c598c930c1937f3",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1191,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1191,
       "sha256": "5f0cf4373eeda6051bf1d9da2c91974ad1b35c0f14f0f0d432be4dbdc3578644",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1179,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1179,
       "sha256": "1d5917863fbb30ddd4b70e33bcc8f829a7194968529ca172a67c455582b4c498",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1146,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1146,
       "sha256": "21ad1ee43db3b409a90cf9ef53c98f5b81db4d84f7dddb838dbdcd6f9effc798",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 900,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.5.26_0642am - capital cases after committee review.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 900,
       "sha256": "2ef2ed5223517786bbcc82886000c1b08eaddcf5e739c4e2c7a686ba6035454d",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1020,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1020,
       "sha256": "7ee07e198ebb2dbe243b5bd0dbf4bef27e766375a103fceec882985bb0637236",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 1067,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 1067,
       "sha256": "91391f800c937b2cc6fe69228053a83c48abd6fe441d3e627601c7b7d39b586c",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 930,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.5.26_0751am - tax review comments + close version.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 930,
       "sha256": "316288e2c4821b48af43d4221892ebf3dca689b6d8995a3cc49d1ed41defc0e3",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 941,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Requests/7.5.26_0812am - board review changes + source tie.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "eml",
+      "bytes": 941,
       "sha256": "8f3f9afdf3d4b2f876a76d72ee5ac5f8b125f90cf91503d39399cf3dd4ee81f7",
-      "type": "eml",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 11188,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "pdf",
+      "bytes": 11188,
       "sha256": "31be2d4be1670db169e5e79514fa51295320c175539f53be6096d77267ff9caa",
-      "type": "pdf",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 381629,
-      "discoverability": "Dated May title/cutoff and current-close request explain required roll-forward.",
       "path": "Shared/Finance/Close/2026/05 May/4_WIP/WIP 5.31.26_FINAL_v7_revised NB.xlsx",
-      "permitted_use": "prior-period baseline or style",
+      "type": "xlsx",
+      "bytes": 381629,
       "sha256": "dffffe2aa2181b3cd400259df9e0bcf7ad37ae790a294a87dc380d70ffbff0b5",
-      "type": "xlsx",
-      "version_status": "historical-final"
+      "version_status": "historical-final",
+      "permitted_use": "prior-period baseline or style",
+      "discoverability": "Dated May title/cutoff and current-close request explain required roll-forward."
     },
     {
-      "bytes": 14600,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Close/2026/06 June/1 close mgmt/June close tracker - working - upd 7.1 810am.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 14600,
       "sha256": "29c76723ca4c0b1f474ab28d0a11e10b5a813259ef97f0af2f7f5328b493f56b",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 530,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Close/2026/06 June/1 close mgmt/READ ME - where we are 7.1 810am.txt",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "592676480f2e35a9fd056e7663a3ccd86c4aa3ce25158f48f6ffba09b5842e1e",
       "type": "txt",
-      "version_status": "current-support"
+      "bytes": 530,
+      "sha256": "592676480f2e35a9fd056e7663a3ccd86c4aa3ce25158f48f6ffba09b5842e1e",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 115916,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Close/2026/06 June/2 reconciliations/AR roll + retainage 0630 KS.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 115916,
       "sha256": "e4be682828eea46c837f88eb6174a612b2cdcccbbe2bd1a3787230363a064dcc",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 17209,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Close/2026/06 June/2 reconciliations/TB rec_6.30 prelim - NB v4.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 17209,
       "sha256": "bf74cf03714d36bb0a3e1b17ce5ff0b9212494ca5b143e01b146443b4d07958d",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 42431,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Close/2026/06 June/2 reconciliations/bank recs 6.30 - MP working.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 42431,
       "sha256": "6155d9165bda54f740dd2002ee24ce2aeabcd5fa1377d4098a6bcc35ea42fd18",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 80537,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Close/2026/06 June/3 accruals/AP cutoff + accrual list_7.1 OL.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 80537,
       "sha256": "e96a3dd296b936acda29734f140e6ffc5da4af65c8461fb5f228c6b50d6d62cc",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 17049,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Close/2026/06 June/3 accruals/payroll accrual 6.30 - FINAL? v3.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 17049,
       "sha256": "958b1a34b3928ec4a84007083c27d38f4dc7cf5571cba15f65b248bf3b4f4bd9",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 14480,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Close/2026/06 June/3 accruals/prepaids_amort sched FY26 - copy.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 14480,
       "sha256": "aff9acf6b5fe75405f797b203ac0f53f175c16ae55479a3966560be56b9f24e8",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 40580,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Close/2026/06 June/4 WIP/ARM-2409 June WIP controller sign-off - WORKING.docx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "95041c0af7b0acb7446994450f7f3df13dbe7f16f3fba08e161799355e4a8647",
       "type": "docx",
-      "version_status": "current-working"
+      "bytes": 51425,
+      "sha256": "c7544b9dca901e72d14b195c7cca0d8cdc3d9c576668962f69ca8da804b6f129",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 10147,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 10147,
       "sha256": "4f321ebf3874c11eaf6ff5e81c78e343733bcf416c93a6fc8c9c47088c6f87eb",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 15592,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Close/2026/06 June/5 fixed assets/FA + CIP rollforward_June26 rev2.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 15592,
       "sha256": "bd7c1dc8cbaea27cc29156a7e2d43c870e972d24c1e540285c8274c21c0b41f9",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 10566,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
-      "permitted_use": "judgment/support subject to review",
+      "type": "pdf",
+      "bytes": 10566,
       "sha256": "2343e866a3f8ecb3b5f91b8e569d6087e056098a7e7b7ceddabc292eb17a5d15",
-      "type": "pdf",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 44967,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 44967,
       "sha256": "8c1d70a2ed1d8ec6a4600e1cb925de053017e7085ef709844fe25792a6ad6dfb",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 28073,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 28073,
       "sha256": "0fc2a22868d072927e3ffc786331ca98a128a9c1ad2f18f834ec0e99f7ec497b",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 44189,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 44189,
       "sha256": "5949c806d30a4f8e6b9d01b8509f5b46caecd2929ccaec64ec55bd6ac4c60d74",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 13806,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "pdf",
+      "bytes": 13806,
       "sha256": "cba81a0ceb2851dc6509eee46a7c4bab3f8ef95ce623ea014d08f0cc5d2ccc2e",
-      "type": "pdf",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 30911,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "csv",
+      "bytes": 30911,
       "sha256": "86df27d68018d562fd563267d3bfc03d6802d8793df025af180180d041b98ed2",
-      "type": "csv",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 13851,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Corporate Development/Orion integration value capture - WORKING.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 13851,
       "sha256": "a38c949d85be8626e3597fcfc7edfa104d0839aa8311b6591c21e771a3e0a2a2",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 33279,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 33279,
       "sha256": "a3684b9be38182beeef3d76c31751a98578e790cfdcb5b2b26889f648ac8d646",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 13465,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/Backlog/backlog burn + award pipeline_6.30 v6.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 13465,
       "sha256": "7420b603202cf0cb5c1e870500817e40c6c0ac15184160a3dc01545dc2a5af38",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 10394,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 10394,
       "sha256": "43a4d7600057ee1f4a8cb53ce1cdb43fc5ae2dee5d45befbc991cc96ec0f3bf0",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 40137,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "docx",
+      "bytes": 40137,
       "sha256": "e3a8e430a11d0a1fe726620881dceac6098f523aeec82d9a6b7df5f80bfd0f01",
-      "type": "docx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 38986,
-      "discoverability": "Board-approved plan; not an accounting actual.",
       "path": "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx",
-      "permitted_use": "plan baseline only",
+      "type": "pptx",
+      "bytes": 38986,
       "sha256": "f35e67b15359bb8a8d506e10a58e3fa1c28b5b7a5ada39ee5cefe04b6c55428c",
-      "type": "pptx",
-      "version_status": "approved-plan"
-    },
-    {
-      "bytes": 20004,
-      "discoverability": "Board-approved plan; not an accounting actual.",
-      "path": "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+      "version_status": "approved-plan",
       "permitted_use": "plan baseline only",
+      "discoverability": "Board-approved plan; not an accounting actual."
+    },
+    {
+      "path": "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+      "type": "xlsx",
+      "bytes": 20004,
       "sha256": "a343602eec8aacf00861914257bd0cb5854e0e671adca830e295cf8592e5d713",
-      "type": "xlsx",
-      "version_status": "approved-plan"
+      "version_status": "approved-plan",
+      "permitted_use": "plan baseline only",
+      "discoverability": "Board-approved plan; not an accounting actual."
     },
     {
-      "bytes": 13319,
-      "discoverability": "Filename exposes its pre-close cutoff; request e-mail names the required current sources.",
       "path": "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
-      "permitted_use": "refresh required",
+      "type": "xlsx",
+      "bytes": 13319,
       "sha256": "af52aadb93a221ef583d9aa00caf938fe956184aa324e2c7248c3bc591f85039",
-      "type": "xlsx",
-      "version_status": "stale-working"
+      "version_status": "stale-working",
+      "permitted_use": "refresh required",
+      "discoverability": "Filename exposes its pre-close cutoff; request e-mail names the required current sources."
     },
     {
-      "bytes": 13276,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/FY26 plan + reforecast/department reforecast inputs - June pull.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 13276,
       "sha256": "637dddc8e52bbc182d4da7be3d40f816c2ce6cc527923260742a78dc7bd23847",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 28280,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/FP&A/FY27 plan/FY27 EBITDA scenarios - WORKING.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 28280,
       "sha256": "8aa8641ccf8268e2fd097fa524051cc9a8c8f8ad8edd20315cdd667e02ba0aec",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 13118,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/FP&A/FY27 plan/FY27 field workforce plan - WORKING.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 13118,
       "sha256": "9ad4aa9d1169868b3ea235349241759747395e225e0c6aa166e766af8399ff53",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 35442,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 35442,
       "sha256": "38492275059ea56331fd3ee576415315a2a4fbf88cea7b40ef1af4349d756626",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 91223,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 91223,
       "sha256": "c7d6cf31225768b6bb853db3b58896d3d3685256b076bf0ac7809ed61892485f",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 13058,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "pdf",
+      "bytes": 13058,
       "sha256": "3af3865c96f4361278c5e4630517b716338492648c7eba68b148690b143ff2c7",
-      "type": "pdf",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 44680,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 44680,
       "sha256": "9c10f626dfd34879af976e55dc08a55c4825c1857b04a1753b19ed503c43e9bf",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 6135,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/FP&A/Labor/2026 field labor loaded rate build - est copy.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 6135,
       "sha256": "dcafebced0d934738606a38dba6695d410af0ff71beb5dcf5058a5fcc64e3e2c",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 68042,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/FP&A/Labor/HC + field labor productivity Q2 working.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 68042,
       "sha256": "40f788059f543e57143d6e03d2811b24e6f3b187fe30850e9bd2960f16cb783e",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 8444,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/FP&A/Labor/field burden rate approval - 2026 estimator use.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "pdf",
+      "bytes": 8444,
       "sha256": "1153a9678dca948188570098e192de063d03942db6cedf1ba0940b24bfa7fd80",
-      "type": "pdf",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 11879,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 6.27 banker pull.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 11879,
       "sha256": "805c3698b6d19541ef3ff9cfc48a73dc1335d0d5e7b60bdb9b38923d96b8b5c5",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 11853,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 7.3 close.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 11853,
       "sha256": "d45a10d16317ba42de48e83f284d18570fe1bc37d8f7020abb234a4d562cb849",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 4993,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "pdf",
+      "bytes": 4993,
       "sha256": "47ad024313a8bc8e435fdf3b526bda066dcbd30afe775e8232f511919c92b677",
-      "type": "pdf",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 15352,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "csv",
+      "bytes": 15352,
       "sha256": "abeb50bfc1875a0305fce3e579027a3400cc7363c8673073144697bebbebd5a5",
-      "type": "csv",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 40260,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 40260,
       "sha256": "afa94fe745a46bd51a613c505271844b5d16f68b58bf146640b6eb20046e9670",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 8361,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
-      "permitted_use": "judgment/support subject to review",
+      "type": "pdf",
+      "bytes": 8361,
       "sha256": "5aacbe4b454fbafdb449dd20859d30b04926d31a21f64b0b4aa71fbc6aa55dca",
-      "type": "pdf",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 55365,
-      "discoverability": "Dated May title/cutoff and current-close request explain required roll-forward.",
       "path": "Shared/Finance/Reporting/2026/05 May/May Ops Review - 6.5 mtg - FINAL_v4.pptx",
-      "permitted_use": "prior-period baseline or style",
+      "type": "pptx",
+      "bytes": 55365,
       "sha256": "c49153203328e857d098661bf057a859a17761f932877aa7694e70f430e0605e",
-      "type": "pptx",
-      "version_status": "historical-final"
-    },
-    {
-      "bytes": 39585,
-      "discoverability": "Dated May title/cutoff and current-close request explain required roll-forward.",
-      "path": "Shared/Finance/Reporting/2026/05 May/notes from 6.5 ops mtg - dc.docx",
+      "version_status": "historical-final",
       "permitted_use": "prior-period baseline or style",
+      "discoverability": "Dated May title/cutoff and current-close request explain required roll-forward."
+    },
+    {
+      "path": "Shared/Finance/Reporting/2026/05 May/notes from 6.5 ops mtg - dc.docx",
+      "type": "docx",
+      "bytes": 39585,
       "sha256": "07a6f1f06237d80d3e40f0eefc6173b36912c94f7d26c66bc03df0daead02873",
-      "type": "docx",
-      "version_status": "historical-final"
+      "version_status": "historical-final",
+      "permitted_use": "prior-period baseline or style",
+      "discoverability": "Dated May title/cutoff and current-close request explain required roll-forward."
     },
     {
-      "bytes": 53417,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "pptx",
+      "bytes": 53417,
       "sha256": "0f4cc0867b13f4778e62a18119f5c64d17cc33fc71e7e0a06e9932da18989af5",
-      "type": "pptx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 24412,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Reporting/2026/06 June/June flash - CFO scratch v2 7.2.pptx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "pptx",
+      "bytes": 24412,
       "sha256": "71f93680405d6c9e46389edf51f37a933c3f559a03ce76fd41b446fc4d0cec83",
-      "type": "pptx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 8166,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Reporting/2026/06 June/June flash bridge - review copy 7.2.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 8166,
       "sha256": "2bd1efaa5af554077b1fa946261ec4d52b599f6c13ed0f0ee8800130bb7dc999",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 40964,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 40964,
       "sha256": "c5300ad9d1b927989545441cfdeaf829462c4d93b8db25d6844a8a3dac4b5dd0",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 41724,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 41724,
       "sha256": "6cc4cc1a9ceb5e03b32f4db98a20e948bb69c9d52f05fc0424e625fcf4addde3",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 17721,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "csv",
+      "bytes": 17721,
       "sha256": "b380925bebb2932a94cce88d84e46f56bbb282b3a4c258e290fb99f37d0ecb39",
-      "type": "csv",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 17839,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 17839,
       "sha256": "ef9be29dff1d3c4cfcd9c5d3f935d6fc88c144cbf8e0dc84c17bc63336f34493",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 34532,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "xlsx",
+      "bytes": 34532,
       "sha256": "ee4adea06d0f923e6bc35e1d81b1419c29138567e432b10b88464058c0e0c8c9",
-      "type": "xlsx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 30145,
-      "discoverability": "Dated Q1/submitted package; never a Q2 actual source.",
       "path": "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
-      "permitted_use": "prior-quarter reference",
+      "type": "pptx",
+      "bytes": 30145,
       "sha256": "d5833bba0c2daead046a3de58f3fba38394f104836247e3778c5707ab85bc222",
-      "type": "pptx",
-      "version_status": "historical-final"
+      "version_status": "historical-final",
+      "permitted_use": "prior-quarter reference",
+      "discoverability": "Dated Q1/submitted package; never a Q2 actual source."
     },
     {
-      "bytes": 14369,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Reporting/Board/Q2 2026/Board performance dashboard - WORKING.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 14369,
       "sha256": "88c287a3e52f81b69cd50e7019a5e7b34b6c2ef2f9b71fe35d220387d0b68e9a",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 40949,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 40949,
       "sha256": "45c0f82f70f3702484983796b6d07196afc6430c6db304220eb0894b05f300ed",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 40060,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
       "path": "Shared/Finance/Risk + Insurance/2026 renewal exposure notes - broker call followup.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
+      "type": "docx",
+      "bytes": 40060,
       "sha256": "ecb189ea84374ac06abdbc1901a886333aeed44111ff22d67ea21be0c42bdeb7",
-      "type": "docx",
-      "version_status": "current-support"
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 8233,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Risk + Insurance/2026-27 binder + schedule of coverage - broker draft.pdf",
-      "permitted_use": "judgment/support subject to review",
+      "type": "pdf",
+      "bytes": 8233,
       "sha256": "d44883d755e486cfb74468376f76084b3d99de668403220e8c682a2d26f53e6b",
-      "type": "pdf",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 11880,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Risk + Insurance/bonding insurance schedule 2026 - renewal working.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 11880,
       "sha256": "26472578f3be58e43e3993014c549865e70a2b2a9c6ce6196f8284efd6784356",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 17665,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 17665,
       "sha256": "2fa9c56fe4c932bc23f7adbeb878670cbd8147eb2272ec3d170e68858ba28ad3",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 40598,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 40598,
       "sha256": "4126a92b3e467bf59dcf06469d1888566c5dbf10b887a9594ac353e2a54229b4",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 41249,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "docx",
+      "bytes": 41249,
       "sha256": "07f6a163232d4d0234133a2afa08bf84b5d8509395081d27c67f98b612140bd8",
-      "type": "docx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 7033,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
-      "permitted_use": "judgment/support subject to review",
+      "type": "pdf",
+      "bytes": 7033,
       "sha256": "637ef3268b51a5e69b03380cf7ff7c69e05395c87dcaabf07958d11b6fc57607",
-      "type": "pdf",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 19287,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "9f4ebf1899dfec525779240f8d28b328fc8bed22771f246cf00e7c826db123fe",
-      "type": "xlsx",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 13224,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Tax/2026/FY26 tax provision - WORKING.xlsx",
+      "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
-      "sha256": "cf5ab06d8849f8cbdff75c579e9c566462ab12f375553f609afb29a7771ffc75",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 9180,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Finance/Tax/2026/OR DOR desk review notice + response checklist.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "090bc531e7f7048d526112271dc70aea936a4b64d03b9693d279ae903d650a53",
-      "type": "pdf",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 20721,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 20721,
       "sha256": "d78f83006b6bbe164e73c543df2a3af3678ef87ca0206c6b3c75c07036c0a979",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 29736,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "xlsx",
+      "bytes": 29736,
       "sha256": "4eeef4b23c4cd7307d4fc85506c788be06e8b84b9037be616825d2d7ee0b0afc",
-      "type": "xlsx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 17845,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
-      "permitted_use": "judgment/support subject to review",
+      "type": "csv",
+      "bytes": 17845,
       "sha256": "6aa8c43da94c4a686e2ae3e852100c067729e905a1bb4433de1d67518f80611a",
-      "type": "csv",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 43199,
-      "discoverability": "Working status is visible in the filename and document status banner.",
       "path": "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
-      "permitted_use": "judgment/support subject to review",
+      "type": "docx",
+      "bytes": 43199,
       "sha256": "139fe732d975ddc32cc46208ea5bca11d5f533e2331cb3deaf390885a2fbf878",
-      "type": "docx",
-      "version_status": "current-working"
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
     },
     {
-      "bytes": 133949,
-      "discoverability": "Filename exposes its pre-close cutoff; request e-mail names the required current sources.",
+      "path": "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+      "type": "xlsx",
+      "bytes": 19287,
+      "sha256": "9f4ebf1899dfec525779240f8d28b328fc8bed22771f246cf00e7c826db123fe",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Finance/Tax/2026/FY26 tax provision - WORKING.xlsx",
+      "type": "xlsx",
+      "bytes": 13224,
+      "sha256": "cf5ab06d8849f8cbdff75c579e9c566462ab12f375553f609afb29a7771ffc75",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Tax/2026/OR DOR desk review notice + response checklist.pdf",
+      "type": "pdf",
+      "bytes": 9180,
+      "sha256": "090bc531e7f7048d526112271dc70aea936a4b64d03b9693d279ae903d650a53",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
       "path": "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
-      "permitted_use": "refresh required",
+      "type": "xlsx",
+      "bytes": 133949,
       "sha256": "89fb71f97a37fba166f26bdc739fde795df72c91a233124377bcc8d6719742b6",
-      "type": "xlsx",
-      "version_status": "stale-working"
-    },
-    {
-      "bytes": 10327,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "a4511056691b83915b0e386e70081f946052c376a89189fbe7e59c1e376c3fbe",
-      "type": "xlsx",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 8724,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Finance/Treasury/13 week cash/downside liquidity sensitivity_7.2 618am - current base treatment.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "e63dc689b9477549b3ec8aaf33ef2afa2099cdd94cccbe40f76228a4fcd2c830",
-      "type": "xlsx",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 45581,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "060f3847ebaed62a089370338d6bdc33f9c3a7512f5a0fbf3079556bb6a0d816",
-      "type": "docx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 26487,
-      "discoverability": "Dated Q1/submitted package; never a Q2 actual source.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/Q1 2026 compliance pkg - submitted 4.28.26.pdf",
-      "permitted_use": "prior-quarter reference",
-      "sha256": "2d87111a33acb0845eb7f962f1e5c0fbbbaba4a3a4dd1258e01367299984fa75",
-      "type": "pdf",
-      "version_status": "historical-final"
-    },
-    {
-      "bytes": 4087,
-      "discoverability": "File name and in-document warning identify it as superseded.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/covenant summary - old 2024 (use agreement).pdf",
-      "permitted_use": "historical reference only",
-      "sha256": "0d2776cc700d108cc768d8e0dadb49c151ebd1ff2fb99e942931e237a3ce1c45",
-      "type": "pdf",
-      "version_status": "superseded"
-    },
-    {
-      "bytes": 27157,
-      "discoverability": "Dated Q1/submitted package; never a Q2 actual source.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/lender + surety update Q1 - submitted copy.pptx",
-      "permitted_use": "prior-quarter reference",
-      "sha256": "9dcc1f24ab0e153b21d2613f44db2a0eefa67b1ae1fd91f4923b1ada7e2eda0d",
-      "type": "pptx",
-      "version_status": "historical-final"
-    },
-    {
-      "bytes": 7223,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 covenant headroom - lender review working.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "54dd0ed1913e3009687f3c22abef130caa78ee6f20673f15e5bb594f55abbcb8",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 27663,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "77e6107f163af332d357bb0d676be4dd03d47b723e8faa932659f1bb45992c0d",
-      "type": "pptx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 1956,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/public-owner assignment status - lender reply 7.2.eml",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "b511ebbd38d1acb9c8880a96cff63474cc5b2fd85933214858a7d879c234568c",
-      "type": "eml",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 10240,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "016e7c03aa1dfc22c64923ba295a26a9916f2071c9000c25295bb7aa7bd6b60f",
-      "type": "pdf",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 14882,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "4a1225d3d2e88f4fd25347a3891c23e51f19004c0e0e37cea8a8a58817c60638",
-      "type": "pdf",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 14331,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "1a56fc2031b46e30d87dcf43934ae7792621eb918d4003e314b874130163e9b3",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 14628,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/Cash positioning/July daily cash position - WORKING.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "5fdab1830a88eb1e4c5001f68f52608097daffc20753a66110e6b6a5c734c930",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 38739,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "783eb84798a727f8b173cf14584d542ca34c3eccab142c7ecd71822f78306c7d",
-      "type": "csv",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 9974,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "f3ee4a488e34799d7980b5606c07aef84df79156046506853ef8aab984179be0",
-      "type": "xlsx",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 8028,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "0f143a16cf67f2426fcf65572ee96cb67ec4cb662ee5c3d872dd93c030adf778",
-      "type": "pdf",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 44417,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "54ab6aa869fcdca4ee3355d2158c208c62138af469fce44d0dfa3f1dbfefec6d",
-      "type": "docx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 27572,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "fcd3d7895194a4be276960df27cb5eb1641784dc95fd56bb032bc6f65f97893d",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 48998,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "25068b2464be5bbe2d690c1b4f04f98e68b5dc4e58068ef30a28a4f67346f2a5",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 13074,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "cb34608ea293f5daf2f7cd4526a961da6ec9bf74a3a7ac8bcf41d13e2acd1a56",
-      "type": "pdf",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 8735,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "4b9bf59876de0bfd2fd4b75c0b7e281c885db80b2f7f426326cbe2d50651080e",
-      "type": "pdf",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 8908,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "c47062ebbcdd49cd551df1da26ef9bb62dac26838d16fbb4b3d60710e3333d96",
-      "type": "pdf",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 8735,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "62c3a947c10a5d61498eef3c353a6ee93da59c7814c777ced030fae3420c6712",
-      "type": "pdf",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 13991,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "57ffc3da72dc3687d72cda4f3aa05d62c8a5839ade2d740679d2eb3ebb973434",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 11753,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "c43381173a7c1814cc34648a25be94f9bfa6e913fc233b529db3c87ee28882ba",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 40885,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "5622ae50de5025ee3b4f98ff74682fa60d4d703583e83767bd622a652c09108c",
-      "type": "csv",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 20937,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "d3cd0948eafc562b1ead187c86e9d8f1bbe27e2d44a31897efb77443d57ff525",
-      "type": "xlsx",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 16862,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "66c370026b9e192eafbc18841818c268ada382915857faef0e0c6a52b642ff00",
-      "type": "xlsx",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 35069,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Operations/Project Reviews/weekly top jobs review - 6.29 PM copy.pptx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "36e96ab1443e252ab1ec7bc6f3c6d51c974c479e8b8edfd6b6f2345fc13383f0",
-      "type": "pptx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 35003,
-      "discoverability": "Filename exposes its pre-close cutoff; request e-mail names the required current sources.",
-      "path": "Shared/Operations/Quarterly Reviews/Q2 ops + safety review - 6.26 draft.pptx",
+      "version_status": "stale-working",
       "permitted_use": "refresh required",
-      "sha256": "bd278aced71658521eddc42590f93e709ddac67d215e5257a313b4c28c287a18",
-      "type": "pptx",
-      "version_status": "stale-working"
+      "discoverability": "Filename exposes its pre-close cutoff; request e-mail names the required current sources."
     },
     {
-      "bytes": 7138,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Quarterly Reviews/Q2 project execution status and rework review protocol - 6.30 approved.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "ed98688e73f9a8960fbbb8c707955e06e3f4df499a19118d872369228b3f6513",
+      "path": "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx",
       "type": "xlsx",
-      "version_status": "current-support"
+      "bytes": 10327,
+      "sha256": "a4511056691b83915b0e386e70081f946052c376a89189fbe7e59c1e376c3fbe",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 67610,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/Q2 service pricing + callback cut - 7.1 SA.xlsx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "88cb2372dc70369429383110440b23df69084d2411092911e8f387b060c0b6ef",
+      "path": "Shared/Finance/Treasury/13 week cash/downside liquidity sensitivity_7.2 618am - current base treatment.xlsx",
       "type": "xlsx",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 66813,
-      "discoverability": "Working status is visible in the filename and document status banner.",
-      "path": "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
-      "permitted_use": "judgment/support subject to review",
-      "sha256": "3c4c11129e0c78cb1c10cee1e0985aa855fe920e6bcaeefc16f70a86433665cf",
-      "type": "xlsx",
-      "version_status": "current-working"
-    },
-    {
-      "bytes": 9936,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/service access signal out-of-time observations - 7.10 DC.csv",
+      "bytes": 8724,
+      "sha256": "e63dc689b9477549b3ec8aaf33ef2afa2099cdd94cccbe40f76228a4fcd2c830",
+      "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "4ed1c9cb2c22a8fce0db43068fc4dc32f07a43962408f4c582fa4d0e88596437",
-      "type": "csv",
-      "version_status": "current-support"
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     },
     {
-      "bytes": 2208,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/service access signal production-readiness review - 7.10 DC.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "df59cba2c2bde7c075d70e1559faee6d4ecc694eb43a53392fa27f60033a3c6f",
-      "type": "eml",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 2482,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/service callback action window - 7.6 DC.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "6a1332edc7a9a75a9e13333d0e37437752435120522a656542006393b1c126e9",
-      "type": "eml",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 3009,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/service callback evidence follow-up - 7.3 SA.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "6f2cf3b87a624117a7d96a92760d96f74b54033c1ea0f1bc0ea5f27f28bdc7d0",
-      "type": "eml",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 4509,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/service commitment timing decision - 7.8 DC.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "c1c3dfae2252a4ec211d2a6e223a0d2d080421db4af0826a1c5dc162bf072f9f",
-      "type": "eml",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 6161,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/service operating-review allocation economics - 7.7 DC.eml",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "b8cf9309dba6f73b1b11142247b9bef94c2b85907e4757887bfcf7855f16ab74",
-      "type": "eml",
-      "version_status": "current-support"
-    },
-    {
-      "bytes": 40954,
-      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact.",
-      "path": "Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx",
-      "permitted_use": "use for its stated purpose and cutoff",
-      "sha256": "608c73e84f0a5bb4a67e9c913536bfc4522710a2903586c85c8080677ba2f518",
+      "path": "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx",
       "type": "docx",
-      "version_status": "current-support"
+      "bytes": 45581,
+      "sha256": "060f3847ebaed62a089370338d6bdc33f9c3a7512f5a0fbf3079556bb6a0d816",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/Q1 2026 compliance pkg - submitted 4.28.26.pdf",
+      "type": "pdf",
+      "bytes": 26487,
+      "sha256": "2d87111a33acb0845eb7f962f1e5c0fbbbaba4a3a4dd1258e01367299984fa75",
+      "version_status": "historical-final",
+      "permitted_use": "prior-quarter reference",
+      "discoverability": "Dated Q1/submitted package; never a Q2 actual source."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/covenant summary - old 2024 (use agreement).pdf",
+      "type": "pdf",
+      "bytes": 4087,
+      "sha256": "0d2776cc700d108cc768d8e0dadb49c151ebd1ff2fb99e942931e237a3ce1c45",
+      "version_status": "superseded",
+      "permitted_use": "historical reference only",
+      "discoverability": "File name and in-document warning identify it as superseded."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/lender + surety update Q1 - submitted copy.pptx",
+      "type": "pptx",
+      "bytes": 27157,
+      "sha256": "9dcc1f24ab0e153b21d2613f44db2a0eefa67b1ae1fd91f4923b1ada7e2eda0d",
+      "version_status": "historical-final",
+      "permitted_use": "prior-quarter reference",
+      "discoverability": "Dated Q1/submitted package; never a Q2 actual source."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 covenant headroom - lender review working.xlsx",
+      "type": "xlsx",
+      "bytes": 7223,
+      "sha256": "54dd0ed1913e3009687f3c22abef130caa78ee6f20673f15e5bb594f55abbcb8",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx",
+      "type": "pptx",
+      "bytes": 27663,
+      "sha256": "77e6107f163af332d357bb0d676be4dd03d47b723e8faa932659f1bb45992c0d",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/public-owner assignment status - lender reply 7.2.eml",
+      "type": "eml",
+      "bytes": 1956,
+      "sha256": "b511ebbd38d1acb9c8880a96cff63474cc5b2fd85933214858a7d879c234568c",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf",
+      "type": "pdf",
+      "bytes": 10240,
+      "sha256": "016e7c03aa1dfc22c64923ba295a26a9916f2071c9000c25295bb7aa7bd6b60f",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+      "type": "pdf",
+      "bytes": 14882,
+      "sha256": "4a1225d3d2e88f4fd25347a3891c23e51f19004c0e0e37cea8a8a58817c60638",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx",
+      "type": "xlsx",
+      "bytes": 14331,
+      "sha256": "1a56fc2031b46e30d87dcf43934ae7792621eb918d4003e314b874130163e9b3",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Cash positioning/July daily cash position - WORKING.xlsx",
+      "type": "xlsx",
+      "bytes": 14628,
+      "sha256": "5fdab1830a88eb1e4c5001f68f52608097daffc20753a66110e6b6a5c734c930",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+      "type": "csv",
+      "bytes": 38739,
+      "sha256": "783eb84798a727f8b173cf14584d542ca34c3eccab142c7ecd71822f78306c7d",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+      "type": "xlsx",
+      "bytes": 9974,
+      "sha256": "f3ee4a488e34799d7980b5606c07aef84df79156046506853ef8aab984179be0",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf",
+      "type": "pdf",
+      "bytes": 8028,
+      "sha256": "0f143a16cf67f2426fcf65572ee96cb67ec4cb662ee5c3d872dd93c030adf778",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+      "type": "docx",
+      "bytes": 44417,
+      "sha256": "54ab6aa869fcdca4ee3355d2158c208c62138af469fce44d0dfa3f1dbfefec6d",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+      "type": "xlsx",
+      "bytes": 27572,
+      "sha256": "fcd3d7895194a4be276960df27cb5eb1641784dc95fd56bb032bc6f65f97893d",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+      "type": "xlsx",
+      "bytes": 48998,
+      "sha256": "25068b2464be5bbe2d690c1b4f04f98e68b5dc4e58068ef30a28a4f67346f2a5",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+      "type": "pdf",
+      "bytes": 13074,
+      "sha256": "cb34608ea293f5daf2f7cd4526a961da6ec9bf74a3a7ac8bcf41d13e2acd1a56",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+      "type": "pdf",
+      "bytes": 8735,
+      "sha256": "4b9bf59876de0bfd2fd4b75c0b7e281c885db80b2f7f426326cbe2d50651080e",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
+      "type": "pdf",
+      "bytes": 8908,
+      "sha256": "c47062ebbcdd49cd551df1da26ef9bb62dac26838d16fbb4b3d60710e3333d96",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
+      "type": "pdf",
+      "bytes": 8735,
+      "sha256": "62c3a947c10a5d61498eef3c353a6ee93da59c7814c777ced030fae3420c6712",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+      "type": "xlsx",
+      "bytes": 13991,
+      "sha256": "57ffc3da72dc3687d72cda4f3aa05d62c8a5839ade2d740679d2eb3ebb973434",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx",
+      "type": "xlsx",
+      "bytes": 11753,
+      "sha256": "c43381173a7c1814cc34648a25be94f9bfa6e913fc233b529db3c87ee28882ba",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+      "type": "csv",
+      "bytes": 40885,
+      "sha256": "5622ae50de5025ee3b4f98ff74682fa60d4d703583e83767bd622a652c09108c",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx",
+      "type": "xlsx",
+      "bytes": 20937,
+      "sha256": "d3cd0948eafc562b1ead187c86e9d8f1bbe27e2d44a31897efb77443d57ff525",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+      "type": "xlsx",
+      "bytes": 16862,
+      "sha256": "66c370026b9e192eafbc18841818c268ada382915857faef0e0c6a52b642ff00",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Project Reviews/weekly top jobs review - 6.29 PM copy.pptx",
+      "type": "pptx",
+      "bytes": 35069,
+      "sha256": "36e96ab1443e252ab1ec7bc6f3c6d51c974c479e8b8edfd6b6f2345fc13383f0",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Operations/Quarterly Reviews/Q2 ops + safety review - 6.26 draft.pptx",
+      "type": "pptx",
+      "bytes": 35003,
+      "sha256": "bd278aced71658521eddc42590f93e709ddac67d215e5257a313b4c28c287a18",
+      "version_status": "stale-working",
+      "permitted_use": "refresh required",
+      "discoverability": "Filename exposes its pre-close cutoff; request e-mail names the required current sources."
+    },
+    {
+      "path": "Shared/Operations/Quarterly Reviews/Q2 project execution status and rework review protocol - 6.30 approved.xlsx",
+      "type": "xlsx",
+      "bytes": 7138,
+      "sha256": "ed98688e73f9a8960fbbb8c707955e06e3f4df499a19118d872369228b3f6513",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/Q2 service pricing + callback cut - 7.1 SA.xlsx",
+      "type": "xlsx",
+      "bytes": 67610,
+      "sha256": "88cb2372dc70369429383110440b23df69084d2411092911e8f387b060c0b6ef",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
+      "type": "xlsx",
+      "bytes": 66813,
+      "sha256": "3c4c11129e0c78cb1c10cee1e0985aa855fe920e6bcaeefc16f70a86433665cf",
+      "version_status": "current-working",
+      "permitted_use": "judgment/support subject to review",
+      "discoverability": "Working status is visible in the filename and document status banner."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service access signal out-of-time observations - 7.10 DC.csv",
+      "type": "csv",
+      "bytes": 9936,
+      "sha256": "4ed1c9cb2c22a8fce0db43068fc4dc32f07a43962408f4c582fa4d0e88596437",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service access signal production-readiness review - 7.10 DC.eml",
+      "type": "eml",
+      "bytes": 2208,
+      "sha256": "df59cba2c2bde7c075d70e1559faee6d4ecc694eb43a53392fa27f60033a3c6f",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service callback action window - 7.6 DC.eml",
+      "type": "eml",
+      "bytes": 2482,
+      "sha256": "6a1332edc7a9a75a9e13333d0e37437752435120522a656542006393b1c126e9",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service callback evidence follow-up - 7.3 SA.eml",
+      "type": "eml",
+      "bytes": 3009,
+      "sha256": "6f2cf3b87a624117a7d96a92760d96f74b54033c1ea0f1bc0ea5f27f28bdc7d0",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service commitment timing decision - 7.8 DC.eml",
+      "type": "eml",
+      "bytes": 4509,
+      "sha256": "c1c3dfae2252a4ec211d2a6e223a0d2d080421db4af0826a1c5dc162bf072f9f",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service operating-review allocation economics - 7.7 DC.eml",
+      "type": "eml",
+      "bytes": 6161,
+      "sha256": "b8cf9309dba6f73b1b11142247b9bef94c2b85907e4757887bfcf7855f16ab74",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
+    },
+    {
+      "path": "Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx",
+      "type": "docx",
+      "bytes": 40954,
+      "sha256": "608c73e84f0a5bb4a67e9c913536bfc4522710a2903586c85c8080677ba2f518",
+      "version_status": "current-support",
+      "permitted_use": "use for its stated purpose and cutoff",
+      "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
     }
-  ],
-  "snapshot": "2026-06-30-pre-close",
-  "world_id": "alder-ridge-mechanical-v2"
+  ]
 }

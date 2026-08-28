@@ -7223,7 +7223,7 @@
       "label_values": {
         "first_constrained_month": "2027-03"
       },
-      "semantic": true,
+      "semantic": false,
       "weight": 10
     },
     {
@@ -10721,7 +10721,7 @@
       "label_values": {
         "gross_commitment_first_constrained_month": "2027-03"
       },
-      "semantic": true,
+      "semantic": false,
       "weight": 10
     },
     {
@@ -10820,7 +10820,7 @@
       "label_values": {
         "controlling_capacity_case": "Gross commitment"
       },
-      "semantic": true,
+      "semantic": false,
       "weight": 10
     },
     {
@@ -14604,7 +14604,7 @@
       "label_values": {
         "execution_portfolio_highest_priority_deferred_project": "P-3145"
       },
-      "semantic": true,
+      "semantic": false,
       "weight": 10
     },
     {
@@ -14780,7 +14780,7 @@
       "label_values": {
         "executive_recovery_highest_priority_deferred_project": "P-3145"
       },
-      "semantic": true,
+      "semantic": false,
       "weight": 10
     },
     {
@@ -14821,7 +14821,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'burn curve'",
       "id": "model_content__burn_curve",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "burn curve"
       ],
@@ -14832,7 +14832,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'required hours'",
       "id": "model_content__required_hours",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "required hours"
       ],
@@ -14843,7 +14843,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'available hours'",
       "id": "model_content__available_hours",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "available hours"
       ],
@@ -14854,7 +14854,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'overtime'",
       "id": "model_content__overtime",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "overtime"
       ],
@@ -14865,7 +14865,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'subcontract'",
       "id": "model_content__subcontract",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "subcontract"
       ],
@@ -14876,7 +14876,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'capacity gap'",
       "id": "model_content__capacity_gap",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "capacity gap"
       ],
@@ -14887,7 +14887,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'model status'",
       "id": "model_content__model_status",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "model status"
       ],
@@ -14895,18 +14895,7 @@
     },
     {
       "category": "provenance",
-      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'contractor accounting mcp'",
-      "id": "sources__contractor_accounting_mcp",
-      "kind": "artifact_tokens",
-      "semantic": true,
-      "tokens": [
-        "contractor accounting mcp"
-      ],
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
+      "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
       "id": "sources__controller_tied",
       "kind": "artifact_tokens",
       "semantic": true,
@@ -14917,7 +14906,7 @@
     },
     {
       "category": "provenance",
-      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
+      "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
       "id": "sources__management_correspondence",
       "kind": "artifact_tokens",
       "semantic": true,
@@ -14928,7 +14917,7 @@
     },
     {
       "category": "provenance",
-      "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'policy'",
+      "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'policy'",
       "id": "sources__policy",
       "kind": "artifact_tokens",
       "semantic": true,
@@ -14942,7 +14931,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'source'",
       "id": "controls__source",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "source"
       ],
@@ -14953,7 +14942,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'period'",
       "id": "controls__period",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "period"
       ],
@@ -14964,7 +14953,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'scenario'",
       "id": "controls__scenario",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "scenario"
       ],
@@ -14975,7 +14964,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'unit'",
       "id": "controls__unit",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "unit"
       ],
@@ -14986,7 +14975,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'version'",
       "id": "controls__version",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "version"
       ],
@@ -14997,7 +14986,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'check'",
       "id": "controls__check",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "check"
       ],
@@ -15008,7 +14997,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'model status'",
       "id": "controls__model_status",
       "kind": "artifact_tokens",
-      "semantic": true,
+      "semantic": false,
       "tokens": [
         "model status"
       ],

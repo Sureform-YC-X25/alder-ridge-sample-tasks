@@ -2,9 +2,22 @@
   "answer": {
     "additional_revenue_decline_to_update_trigger": 650532.8,
     "approved_mitigation_conversion": 0.62,
+    "collections_timing_cash_impact": 360000.0,
     "combined_stress_ebitda": 2811475.35,
     "construction_gross_profit_impact": 410000.0,
+    "construction_q2_adjusted_ebitda": 725759.1,
+    "construction_q2_adjusted_ebitda_variance_to_plan": -98045.7,
+    "construction_q2_approved_plan_adjusted_ebitda": 823804.8,
+    "construction_q2_approved_plan_revenue": 7163520.0,
+    "construction_q2_revenue": 7316120.0,
+    "construction_q2_revenue_variance_to_plan": 152600.0,
     "controls_mix_impact": 95000.0,
+    "controls_q2_adjusted_ebitda": 305604.78,
+    "controls_q2_adjusted_ebitda_variance_to_plan": -5496.66,
+    "controls_q2_approved_plan_adjusted_ebitda": 311101.44,
+    "controls_q2_approved_plan_revenue": 2046720.0,
+    "controls_q2_revenue": 2090320.0,
+    "controls_q2_revenue_variance_to_plan": 43600.0,
     "ebitda_guidance_high": 4250000.0,
     "ebitda_guidance_low": 3000000.0,
     "ebitda_shortfall_to_guidance_low": 188524.65,
@@ -13,6 +26,7 @@
     "funded_debt": 1111666.5,
     "guidance_release_status": "Maintain with heightened monitoring",
     "guidance_update_required": false,
+    "guidance_update_trigger": 2750000.0,
     "identified_ebitda_action_pool": 790000.0,
     "june_ebitda": 615933.69,
     "june_revenue": 4703220.0,
@@ -24,17 +38,34 @@
     "minimum_guidance_update_headroom": 250000.0,
     "post_mitigation_combined_stress_ebitda": 3301275.35,
     "post_mitigation_headroom_to_guidance_low": 301275.35,
+    "posted_ytd_revenue": 24650000.0,
     "q2_adjusted_ebitda": 1661281.82,
     "q2_adjusted_ebitda_variance_to_plan": -111177.7,
     "q2_approved_plan_adjusted_ebitda": 1772459.52,
     "q2_approved_plan_revenue": 12792000.0,
+    "q2_capital_expenditure": 1820000.0,
     "q2_free_cash_flow": 1650000.0,
+    "q2_free_cash_flow_plan": 2550000.0,
+    "q2_free_cash_flow_variance_to_plan": -900000.0,
+    "q2_operating_cash_flow": 3470000.0,
     "q2_organic_growth": 0.10432314,
+    "q2_posted_ytd_revenue_reconciliation_check": 0.0,
+    "q2_posted_ytd_revenue_share": 0.53,
     "q2_revenue": 13064500.0,
     "q2_revenue_variance_to_plan": 272500.0,
+    "q2_unrestricted_cash": 3240000.0,
+    "remaining_fy26_revenue_outlook": 26150000.0,
     "revenue_guidance_high": 55000000.0,
     "revenue_guidance_low": 52000000.0,
-    "service_labor_productivity_impact": 285000.0
+    "service_labor_productivity_impact": 285000.0,
+    "service_q2_adjusted_ebitda": 629917.93,
+    "service_q2_adjusted_ebitda_variance_to_plan": -7635.35,
+    "service_q2_approved_plan_adjusted_ebitda": 637553.28,
+    "service_q2_approved_plan_revenue": 3581760.0,
+    "service_q2_revenue": 3658060.0,
+    "service_q2_revenue_variance_to_plan": 76300.0,
+    "signed_backlog": 54600000.0,
+    "signed_backlog_coverage_of_remaining_outlook": 2.08795411
   },
   "artifact": {
     "edit": true,
@@ -149,6 +180,17 @@
       "weight": 10
     },
     {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `guidance_update_trigger` is correctly labeled and associated",
+      "id": "headline_values__guidance_update_trigger",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "guidance_update_trigger": 2750000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
       "category": "decision",
       "description": "All executive headline figures are correct: `guidance_release_status` is correctly labeled and associated",
       "id": "headline_values__guidance_release_status",
@@ -157,6 +199,39 @@
         "guidance_release_status": "Maintain with heightened monitoring"
       },
       "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `posted_ytd_revenue` is correctly labeled and associated",
+      "id": "headline_values__posted_ytd_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "posted_ytd_revenue": 24650000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `q2_posted_ytd_revenue_share` is correctly labeled and associated",
+      "id": "headline_values__q2_posted_ytd_revenue_share",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "q2_posted_ytd_revenue_share": 0.53
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `q2_posted_ytd_revenue_reconciliation_check` is correctly labeled and associated",
+      "id": "headline_values__q2_posted_ytd_revenue_reconciliation_check",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "q2_posted_ytd_revenue_reconciliation_check": 0.0
+      },
+      "semantic": false,
       "weight": 10
     },
     {
@@ -271,11 +346,66 @@
     },
     {
       "category": "core_finance",
+      "description": "All executive headline figures are correct: `q2_operating_cash_flow` is correctly labeled and associated",
+      "id": "headline_values__q2_operating_cash_flow",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "q2_operating_cash_flow": 3470000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `q2_capital_expenditure` is correctly labeled and associated",
+      "id": "headline_values__q2_capital_expenditure",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "q2_capital_expenditure": 1820000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
       "description": "All executive headline figures are correct: `q2_free_cash_flow` is correctly labeled and associated",
       "id": "headline_values__q2_free_cash_flow",
       "kind": "artifact_label_values",
       "label_values": {
         "q2_free_cash_flow": 1650000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `q2_free_cash_flow_plan` is correctly labeled and associated",
+      "id": "headline_values__q2_free_cash_flow_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "q2_free_cash_flow_plan": 2550000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `q2_free_cash_flow_variance_to_plan` is correctly labeled and associated",
+      "id": "headline_values__q2_free_cash_flow_variance_to_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "q2_free_cash_flow_variance_to_plan": -900000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `collections_timing_cash_impact` is correctly labeled and associated",
+      "id": "headline_values__collections_timing_cash_impact",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "collections_timing_cash_impact": 360000.0
       },
       "semantic": false,
       "weight": 10
@@ -443,6 +573,248 @@
         "guidance_update_required": false
       },
       "semantic": true,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_q2_revenue` is correctly labeled and associated",
+      "id": "headline_values__construction_q2_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_q2_revenue": 7316120.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_q2_approved_plan_revenue` is correctly labeled and associated",
+      "id": "headline_values__construction_q2_approved_plan_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_q2_approved_plan_revenue": 7163520.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_q2_revenue_variance_to_plan` is correctly labeled and associated",
+      "id": "headline_values__construction_q2_revenue_variance_to_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_q2_revenue_variance_to_plan": 152600.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_q2_adjusted_ebitda` is correctly labeled and associated",
+      "id": "headline_values__construction_q2_adjusted_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_q2_adjusted_ebitda": 725759.1
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+      "id": "headline_values__construction_q2_approved_plan_adjusted_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_q2_approved_plan_adjusted_ebitda": 823804.8
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `construction_q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+      "id": "headline_values__construction_q2_adjusted_ebitda_variance_to_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_q2_adjusted_ebitda_variance_to_plan": -98045.7
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_q2_revenue` is correctly labeled and associated",
+      "id": "headline_values__service_q2_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_q2_revenue": 3658060.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_q2_approved_plan_revenue` is correctly labeled and associated",
+      "id": "headline_values__service_q2_approved_plan_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_q2_approved_plan_revenue": 3581760.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_q2_revenue_variance_to_plan` is correctly labeled and associated",
+      "id": "headline_values__service_q2_revenue_variance_to_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_q2_revenue_variance_to_plan": 76300.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_q2_adjusted_ebitda` is correctly labeled and associated",
+      "id": "headline_values__service_q2_adjusted_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_q2_adjusted_ebitda": 629917.93
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+      "id": "headline_values__service_q2_approved_plan_adjusted_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_q2_approved_plan_adjusted_ebitda": 637553.28
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `service_q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+      "id": "headline_values__service_q2_adjusted_ebitda_variance_to_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_q2_adjusted_ebitda_variance_to_plan": -7635.35
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_q2_revenue` is correctly labeled and associated",
+      "id": "headline_values__controls_q2_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_q2_revenue": 2090320.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_q2_approved_plan_revenue` is correctly labeled and associated",
+      "id": "headline_values__controls_q2_approved_plan_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_q2_approved_plan_revenue": 2046720.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_q2_revenue_variance_to_plan` is correctly labeled and associated",
+      "id": "headline_values__controls_q2_revenue_variance_to_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_q2_revenue_variance_to_plan": 43600.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_q2_adjusted_ebitda` is correctly labeled and associated",
+      "id": "headline_values__controls_q2_adjusted_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_q2_adjusted_ebitda": 305604.78
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+      "id": "headline_values__controls_q2_approved_plan_adjusted_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_q2_approved_plan_adjusted_ebitda": 311101.44
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `controls_q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+      "id": "headline_values__controls_q2_adjusted_ebitda_variance_to_plan",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_q2_adjusted_ebitda_variance_to_plan": -5496.66
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `q2_unrestricted_cash` is correctly labeled and associated",
+      "id": "headline_values__q2_unrestricted_cash",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "q2_unrestricted_cash": 3240000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `signed_backlog` is correctly labeled and associated",
+      "id": "headline_values__signed_backlog",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "signed_backlog": 54600000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `remaining_fy26_revenue_outlook` is correctly labeled and associated",
+      "id": "headline_values__remaining_fy26_revenue_outlook",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "remaining_fy26_revenue_outlook": 26150000.0
+      },
+      "semantic": false,
+      "weight": 10
+    },
+    {
+      "category": "core_finance",
+      "description": "All executive headline figures are correct: `signed_backlog_coverage_of_remaining_outlook` is correctly labeled and associated",
+      "id": "headline_values__signed_backlog_coverage_of_remaining_outlook",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "signed_backlog_coverage_of_remaining_outlook": 2.08795411
+      },
+      "semantic": false,
       "weight": 10
     },
     {

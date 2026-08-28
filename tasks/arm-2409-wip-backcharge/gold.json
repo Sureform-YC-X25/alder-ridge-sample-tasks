@@ -12,10 +12,1000 @@
     "percent_complete_change_bps": 19.7,
     "posted_cost_change": 161892.13
   },
+  "close_impact_bridge": {
+    "pm_case_status": "not an authorized June-close basis",
+    "policy_corrected_status": "controls the preparer workpaper pending Controller review",
+    "rows": [
+      {
+        "impact": 185000,
+        "metric": "ETC",
+        "pm_case": 584000,
+        "policy_corrected": 769000,
+        "unit": "dollars"
+      },
+      {
+        "impact": 185000,
+        "metric": "EAC",
+        "pm_case": 4315500.0,
+        "policy_corrected": 4500500.0,
+        "unit": "dollars"
+      },
+      {
+        "impact": -355.43753419382875,
+        "metric": "Percent complete",
+        "pm_case": 0.86467385007531,
+        "policy_corrected": 0.8291300966559271,
+        "unit": "basis_points"
+      },
+      {
+        "impact": -196414.78139550984,
+        "metric": "Earned revenue",
+        "pm_case": 4778187.695516163,
+        "policy_corrected": 4581772.914120653,
+        "unit": "dollars"
+      },
+      {
+        "impact": -196414.78139550984,
+        "metric": "Contract asset",
+        "pm_case": 402594.56551616266,
+        "policy_corrected": 206179.78412065282,
+        "unit": "dollars"
+      },
+      {
+        "impact": -185000.0,
+        "metric": "Estimated margin",
+        "pm_case": 1210500.0,
+        "policy_corrected": 1025500.0,
+        "unit": "dollars"
+      },
+      {
+        "impact": -334.7810351067679,
+        "metric": "Margin rate",
+        "pm_case": 0.21905537459283386,
+        "policy_corrected": 0.18557727108215707,
+        "unit": "basis_points"
+      }
+    ]
+  },
+  "commercial_authority_matrix": [
+    {
+      "amount_or_assumption": 185000.0,
+      "authority_status": "Low-confidence PM estimate; not accounting authorization",
+      "close_treatment": "The $185,000 recovery is embedded as an ETC offset and must be restored to remaining cost for the June close.",
+      "cutoff_or_date": "2026-06-28 16:15",
+      "evidence_to_clear": "Revised PM ETC without the unsupported recovery or documented Controller disposition.",
+      "source": "PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+      "source_key": "pm_forecast"
+    },
+    {
+      "amount_or_assumption": 185000.0,
+      "authority_status": "Draft; Contract Included No; recovery disputed and unaccepted",
+      "close_treatment": "Exclude PCO-011 from current contract value and do not net the recovery against ETC.",
+      "cutoff_or_date": "2026-06-30",
+      "evidence_to_clear": "Executed or accepted resolution plus support for entitlement and collectability.",
+      "source": "CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+      "source_key": "commercial_log"
+    },
+    {
+      "amount_or_assumption": 185000.0,
+      "authority_status": "Draft internal backcharge packet; concrete trade disputes responsibility; no executed modification",
+      "close_treatment": "Use the packet as probable-cost evidence only; restore $185,000 to ETC and recognize no recovery revenue.",
+      "cutoff_or_date": "2026-06-30",
+      "evidence_to_clear": "Counterparty acceptance or enforceable settlement and Controller-approved accounting conclusion.",
+      "source": "2409_PCO11_backcharge backup - draft2.pdf",
+      "source_key": "pco_backup"
+    },
+    {
+      "amount_or_assumption": 100.0,
+      "authority_status": "Signed controlling accounting policy FIN-REV-04",
+      "close_treatment": "Pending recovery does not increase contract value or reduce ETC; a margin-rate movement over 100 basis points and a disputed recovery require Controller review.",
+      "cutoff_or_date": "2024-11-01",
+      "evidence_to_clear": "Documented Controller disposition before posting.",
+      "source": "Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
+      "source_key": "wip_policy"
+    }
+  ],
   "controller_review_required": true,
   "disputed_recovery_etc_action": "add_back_to_pm_etc",
   "draft_change_contract_treatment": "exclude",
+  "etc_composition_schedule": {
+    "basis": "Submitted PM components total $584,000. The three PCO-011 draft-recovery components total $185,000 and are restored to remaining cost, not treated as contract value or recovery revenue. The policy-corrected close ETC is $769,000.",
+    "rows": [
+      {
+        "finance_correction": 0.0,
+        "key": "remaining_field_labor",
+        "label": "PM remaining field labor",
+        "pm_etc": 210240.0,
+        "policy_corrected_etc": 210240.0,
+        "source_basis": "Project Forecasts sheet; ARM-2409 submitted PM component."
+      },
+      {
+        "finance_correction": 0.0,
+        "key": "material_equipment",
+        "label": "PM material / equipment",
+        "pm_etc": 181040.0,
+        "policy_corrected_etc": 181040.0,
+        "source_basis": "Project Forecasts sheet; ARM-2409 submitted PM component."
+      },
+      {
+        "finance_correction": 0.0,
+        "key": "subcontract",
+        "label": "PM subcontract",
+        "pm_etc": 105120.0,
+        "policy_corrected_etc": 105120.0,
+        "source_basis": "Project Forecasts sheet; ARM-2409 submitted PM component."
+      },
+      {
+        "finance_correction": 0.0,
+        "key": "commissioning_close_out",
+        "label": "PM commissioning / close-out",
+        "pm_etc": 52560.0,
+        "policy_corrected_etc": 52560.0,
+        "source_basis": "Project Forecasts sheet; ARM-2409 submitted PM component."
+      },
+      {
+        "finance_correction": 0.0,
+        "key": "contingency",
+        "label": "PM contingency",
+        "pm_etc": 35040.0,
+        "policy_corrected_etc": 35040.0,
+        "source_basis": "Project Forecasts sheet; ARM-2409 submitted PM component."
+      },
+      {
+        "finance_correction": 83000.0,
+        "key": "recovery_labor",
+        "label": "PCO-011 disputed recovery - labor",
+        "pm_etc": 0.0,
+        "policy_corrected_etc": 83000.0,
+        "source_basis": "PCO-011 Attachment A draft recovery position; restore to ETC."
+      },
+      {
+        "finance_correction": 85000.0,
+        "key": "recovery_material_sub",
+        "label": "PCO-011 disputed recovery - material / sub",
+        "pm_etc": 0.0,
+        "policy_corrected_etc": 85000.0,
+        "source_basis": "PCO-011 Attachment A draft recovery position; restore to ETC."
+      },
+      {
+        "finance_correction": 17000.0,
+        "key": "recovery_oh_markup",
+        "label": "PCO-011 disputed recovery - OH / markup",
+        "pm_etc": 0.0,
+        "policy_corrected_etc": 17000.0,
+        "source_basis": "PCO-011 Attachment A draft recovery position; restore to ETC."
+      }
+    ],
+    "totals": {
+      "finance_correction": 185000.0,
+      "pm_etc": 584000.0,
+      "policy_corrected_etc": 769000.0
+    }
+  },
+  "full_population_posting_control": {
+    "conclusion": "All 23 June ARM-2409 job-cost entries are posted exactly once. The $161,892.13 population reconciles to 23 project expense lines across 13 posted journals and to the recorded AP and payroll offset accounts, with no unmatched, duplicate, orphan, unposted, out-of-balance, or wrong-offset exceptions.",
+    "detail_rows": [
+      {
+        "cost_code": "02-110",
+        "document_number": "AP-0004288",
+        "expense_account": "5010",
+        "expense_debit": 14627.02,
+        "expense_line_id": 43531,
+        "job_cost_amount": 14627.02,
+        "job_cost_entry_id": 15917,
+        "journal_id": 17026,
+        "posting_date": "2026-06-03",
+        "sequence": 1,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "02-410",
+        "document_number": "AP-0004285",
+        "expense_account": "5030",
+        "expense_debit": 12796.21,
+        "expense_line_id": 43525,
+        "job_cost_amount": 12796.21,
+        "job_cost_entry_id": 15914,
+        "journal_id": 17023,
+        "posting_date": "2026-06-06",
+        "sequence": 2,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "04-200",
+        "document_number": "AP-0004290",
+        "expense_account": "5220",
+        "expense_debit": 35263.63,
+        "expense_line_id": 43537,
+        "job_cost_amount": 35263.63,
+        "job_cost_entry_id": 15919,
+        "journal_id": 17029,
+        "posting_date": "2026-06-06",
+        "sequence": 3,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "05-400",
+        "document_number": "AP-0004291",
+        "expense_account": "5300",
+        "expense_debit": 3890.18,
+        "expense_line_id": 43539,
+        "job_cost_amount": 3890.18,
+        "job_cost_entry_id": 15920,
+        "journal_id": 17030,
+        "posting_date": "2026-06-06",
+        "sequence": 4,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "06-200",
+        "document_number": "PRJ-PAY-ARM-2409-20260607",
+        "expense_account": "5120",
+        "expense_debit": 3809.3,
+        "expense_line_id": 43543,
+        "job_cost_amount": 3809.3,
+        "job_cost_entry_id": 15922,
+        "journal_id": 17032,
+        "posting_date": "2026-06-07",
+        "sequence": 5,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "06-300",
+        "document_number": "PRJ-PAY-ARM-2409-20260607",
+        "expense_account": "5100",
+        "expense_debit": 2583.08,
+        "expense_line_id": 43544,
+        "job_cost_amount": 2583.08,
+        "job_cost_entry_id": 15923,
+        "journal_id": 17032,
+        "posting_date": "2026-06-07",
+        "sequence": 6,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "01-100",
+        "document_number": "PRJ-PAY-ARM-2409-20260607",
+        "expense_account": "5110",
+        "expense_debit": 4035.4,
+        "expense_line_id": 43545,
+        "job_cost_amount": 4035.4,
+        "job_cost_entry_id": 15924,
+        "journal_id": 17032,
+        "posting_date": "2026-06-07",
+        "sequence": 7,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "02-410",
+        "document_number": "AP-0004289",
+        "expense_account": "5030",
+        "expense_debit": 11013.7,
+        "expense_line_id": 43533,
+        "job_cost_amount": 11013.7,
+        "job_cost_entry_id": 15918,
+        "journal_id": 17027,
+        "posting_date": "2026-06-10",
+        "sequence": 8,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "02-110",
+        "document_number": "AP-0004286",
+        "expense_account": "5010",
+        "expense_debit": 9469.67,
+        "expense_line_id": 43527,
+        "job_cost_amount": 9469.67,
+        "job_cost_entry_id": 15915,
+        "journal_id": 17024,
+        "posting_date": "2026-06-13",
+        "sequence": 9,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "05-200",
+        "document_number": "AP-0004292",
+        "expense_account": "5320",
+        "expense_debit": 7330.07,
+        "expense_line_id": 43541,
+        "job_cost_amount": 7330.07,
+        "job_cost_entry_id": 15921,
+        "journal_id": 17031,
+        "posting_date": "2026-06-13",
+        "sequence": 10,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "06-300",
+        "document_number": "PRJ-PAY-ARM-2409-20260614",
+        "expense_account": "5100",
+        "expense_debit": 3670.96,
+        "expense_line_id": 43549,
+        "job_cost_amount": 3670.96,
+        "job_cost_entry_id": 15925,
+        "journal_id": 17034,
+        "posting_date": "2026-06-14",
+        "sequence": 11,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "01-100",
+        "document_number": "PRJ-PAY-ARM-2409-20260614",
+        "expense_account": "5110",
+        "expense_debit": 3013.66,
+        "expense_line_id": 43550,
+        "job_cost_amount": 3013.66,
+        "job_cost_entry_id": 15926,
+        "journal_id": 17034,
+        "posting_date": "2026-06-14",
+        "sequence": 12,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "01-200",
+        "document_number": "PRJ-PAY-ARM-2409-20260614",
+        "expense_account": "5120",
+        "expense_debit": 4881.06,
+        "expense_line_id": 43551,
+        "job_cost_amount": 4881.06,
+        "job_cost_entry_id": 15927,
+        "journal_id": 17034,
+        "posting_date": "2026-06-14",
+        "sequence": 13,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "02-410",
+        "document_number": "AP-0004287",
+        "expense_account": "5030",
+        "expense_debit": 13003.31,
+        "expense_line_id": 43529,
+        "job_cost_amount": 13003.31,
+        "job_cost_entry_id": 15916,
+        "journal_id": 17025,
+        "posting_date": "2026-06-20",
+        "sequence": 14,
+        "source": "AP",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "01-100",
+        "document_number": "PRJ-PAY-ARM-2409-20260621",
+        "expense_account": "5110",
+        "expense_debit": 3958.77,
+        "expense_line_id": 43555,
+        "job_cost_amount": 3958.77,
+        "job_cost_entry_id": 15928,
+        "journal_id": 17036,
+        "posting_date": "2026-06-21",
+        "sequence": 15,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "01-200",
+        "document_number": "PRJ-PAY-ARM-2409-20260621",
+        "expense_account": "5120",
+        "expense_debit": 4702.38,
+        "expense_line_id": 43556,
+        "job_cost_amount": 4702.38,
+        "job_cost_entry_id": 15929,
+        "journal_id": 17036,
+        "posting_date": "2026-06-21",
+        "sequence": 16,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "03-100",
+        "document_number": "PRJ-PAY-ARM-2409-20260621",
+        "expense_account": "5100",
+        "expense_debit": 3150.97,
+        "expense_line_id": 43557,
+        "job_cost_amount": 3150.97,
+        "job_cost_entry_id": 15930,
+        "journal_id": 17036,
+        "posting_date": "2026-06-21",
+        "sequence": 17,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "01-200",
+        "document_number": "PRJ-PAY-ARM-2409-20260628",
+        "expense_account": "5120",
+        "expense_debit": 3223.58,
+        "expense_line_id": 43561,
+        "job_cost_amount": 3223.58,
+        "job_cost_entry_id": 15931,
+        "journal_id": 17038,
+        "posting_date": "2026-06-28",
+        "sequence": 18,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "03-100",
+        "document_number": "PRJ-PAY-ARM-2409-20260628",
+        "expense_account": "5100",
+        "expense_debit": 3621.39,
+        "expense_line_id": 43562,
+        "job_cost_amount": 3621.39,
+        "job_cost_entry_id": 15932,
+        "journal_id": 17038,
+        "posting_date": "2026-06-28",
+        "sequence": 19,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "03-200",
+        "document_number": "PRJ-PAY-ARM-2409-20260628",
+        "expense_account": "5100",
+        "expense_debit": 4095.56,
+        "expense_line_id": 43563,
+        "job_cost_amount": 4095.56,
+        "job_cost_entry_id": 15933,
+        "journal_id": 17038,
+        "posting_date": "2026-06-28",
+        "sequence": 20,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "03-100",
+        "document_number": "PRJ-PAY-ARM-2409-20260630",
+        "expense_account": "5100",
+        "expense_debit": 2578.07,
+        "expense_line_id": 43567,
+        "job_cost_amount": 2578.07,
+        "job_cost_entry_id": 15934,
+        "journal_id": 17040,
+        "posting_date": "2026-06-30",
+        "sequence": 21,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "03-200",
+        "document_number": "PRJ-PAY-ARM-2409-20260630",
+        "expense_account": "5100",
+        "expense_debit": 3540.62,
+        "expense_line_id": 43568,
+        "job_cost_amount": 3540.62,
+        "job_cost_entry_id": 15935,
+        "journal_id": 17040,
+        "posting_date": "2026-06-30",
+        "sequence": 22,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      },
+      {
+        "cost_code": "03-300",
+        "document_number": "PRJ-PAY-ARM-2409-20260630",
+        "expense_account": "5100",
+        "expense_debit": 3633.54,
+        "expense_line_id": 43569,
+        "job_cost_amount": 3633.54,
+        "job_cost_entry_id": 15936,
+        "journal_id": 17040,
+        "posting_date": "2026-06-30",
+        "sequence": 23,
+        "source": "PAY",
+        "status": "Posted",
+        "variance": 0.0
+      }
+    ],
+    "exception_rows": [
+      {
+        "duplicate_expense_matches": 0,
+        "orphan_expense_lines": 0,
+        "out_of_balance_journals": 0,
+        "source": "AP",
+        "unmatched_job_cost_entries": 0,
+        "unposted_journals": 0,
+        "wrong_offset_accounts": 0
+      },
+      {
+        "duplicate_expense_matches": 0,
+        "orphan_expense_lines": 0,
+        "out_of_balance_journals": 0,
+        "source": "PAY",
+        "unmatched_job_cost_entries": 0,
+        "unposted_journals": 0,
+        "wrong_offset_accounts": 0
+      },
+      {
+        "duplicate_expense_matches": 0,
+        "orphan_expense_lines": 0,
+        "out_of_balance_journals": 0,
+        "source": "Total / control",
+        "unmatched_job_cost_entries": 0,
+        "unposted_journals": 0,
+        "wrong_offset_accounts": 0
+      }
+    ],
+    "journal_rows": [
+      {
+        "document_number": "AP-0004288",
+        "expense_debits": 14627.02,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17026,
+        "offset_account": "2000",
+        "offset_credits": 14627.02,
+        "offset_line_id": 43532,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-03",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "AP-0004285",
+        "expense_debits": 12796.21,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17023,
+        "offset_account": "2000",
+        "offset_credits": 12796.21,
+        "offset_line_id": 43526,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-06",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "AP-0004290",
+        "expense_debits": 35263.63,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17029,
+        "offset_account": "2000",
+        "offset_credits": 35263.63,
+        "offset_line_id": 43538,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-06",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "AP-0004291",
+        "expense_debits": 3890.18,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17030,
+        "offset_account": "2000",
+        "offset_credits": 3890.18,
+        "offset_line_id": 43540,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-06",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "PRJ-PAY-ARM-2409-20260607",
+        "expense_debits": 10427.78,
+        "expense_line_count": 3,
+        "job_cost_entry_count": 3,
+        "journal_id": 17032,
+        "offset_account": "1010",
+        "offset_credits": 10427.78,
+        "offset_line_id": 43546,
+        "out_of_balance": -0.0,
+        "posting_date": "2026-06-07",
+        "source": "PAY",
+        "status": "Posted"
+      },
+      {
+        "document_number": "AP-0004289",
+        "expense_debits": 11013.7,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17027,
+        "offset_account": "2000",
+        "offset_credits": 11013.7,
+        "offset_line_id": 43534,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-10",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "AP-0004286",
+        "expense_debits": 9469.67,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17024,
+        "offset_account": "2000",
+        "offset_credits": 9469.67,
+        "offset_line_id": 43528,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-13",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "AP-0004292",
+        "expense_debits": 7330.07,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17031,
+        "offset_account": "2000",
+        "offset_credits": 7330.07,
+        "offset_line_id": 43542,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-13",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "PRJ-PAY-ARM-2409-20260614",
+        "expense_debits": 11565.68,
+        "expense_line_count": 3,
+        "job_cost_entry_count": 3,
+        "journal_id": 17034,
+        "offset_account": "1010",
+        "offset_credits": 11565.68,
+        "offset_line_id": 43552,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-14",
+        "source": "PAY",
+        "status": "Posted"
+      },
+      {
+        "document_number": "AP-0004287",
+        "expense_debits": 13003.31,
+        "expense_line_count": 1,
+        "job_cost_entry_count": 1,
+        "journal_id": 17025,
+        "offset_account": "2000",
+        "offset_credits": 13003.31,
+        "offset_line_id": 43530,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-20",
+        "source": "AP",
+        "status": "Posted"
+      },
+      {
+        "document_number": "PRJ-PAY-ARM-2409-20260621",
+        "expense_debits": 11812.12,
+        "expense_line_count": 3,
+        "job_cost_entry_count": 3,
+        "journal_id": 17036,
+        "offset_account": "1010",
+        "offset_credits": 11812.12,
+        "offset_line_id": 43558,
+        "out_of_balance": -0.0,
+        "posting_date": "2026-06-21",
+        "source": "PAY",
+        "status": "Posted"
+      },
+      {
+        "document_number": "PRJ-PAY-ARM-2409-20260628",
+        "expense_debits": 10940.53,
+        "expense_line_count": 3,
+        "job_cost_entry_count": 3,
+        "journal_id": 17038,
+        "offset_account": "1010",
+        "offset_credits": 10940.53,
+        "offset_line_id": 43564,
+        "out_of_balance": -0.0,
+        "posting_date": "2026-06-28",
+        "source": "PAY",
+        "status": "Posted"
+      },
+      {
+        "document_number": "PRJ-PAY-ARM-2409-20260630",
+        "expense_debits": 9752.23,
+        "expense_line_count": 3,
+        "job_cost_entry_count": 3,
+        "journal_id": 17040,
+        "offset_account": "1010",
+        "offset_credits": 9752.23,
+        "offset_line_id": 43570,
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-30",
+        "source": "PAY",
+        "status": "Posted"
+      }
+    ],
+    "offset_rows": [
+      {
+        "expense_debits": 107393.79,
+        "journal_count": 8,
+        "offset_account": "2000",
+        "offset_credits": 107393.79,
+        "offset_line_count": 8,
+        "source": "AP",
+        "variance": 0.0
+      },
+      {
+        "expense_debits": 54498.34,
+        "journal_count": 5,
+        "offset_account": "1010",
+        "offset_credits": 54498.34,
+        "offset_line_count": 5,
+        "source": "PAY",
+        "variance": 0.0
+      },
+      {
+        "expense_debits": 161892.13,
+        "journal_count": 13,
+        "offset_account": "2000 / 1010",
+        "offset_credits": 161892.13,
+        "offset_line_count": 13,
+        "source": "Total / control",
+        "variance": 0.0
+      }
+    ],
+    "summary_rows": [
+      {
+        "expense_debits": 107393.79,
+        "expense_line_count": 8,
+        "job_cost_amount": 107393.79,
+        "job_cost_entry_count": 8,
+        "posted_entry_count": 8,
+        "source": "AP",
+        "unique_journal_count": 8,
+        "variance": 0.0
+      },
+      {
+        "expense_debits": 54498.34,
+        "expense_line_count": 15,
+        "job_cost_amount": 54498.34,
+        "job_cost_entry_count": 15,
+        "posted_entry_count": 15,
+        "source": "PAY",
+        "unique_journal_count": 5,
+        "variance": 0.0
+      },
+      {
+        "expense_debits": 161892.13,
+        "expense_line_count": 23,
+        "job_cost_amount": 161892.13,
+        "job_cost_entry_count": 23,
+        "posted_entry_count": 23,
+        "source": "Total / control",
+        "unique_journal_count": 13,
+        "variance": 0.0
+      }
+    ]
+  },
   "pm_etc": 584000,
+  "posting_lineage": {
+    "account_controls": [
+      {
+        "account_code": "5010",
+        "entry_count": 2,
+        "net_amount": 24096.69,
+        "selected_credits": 0.0,
+        "selected_debits": 24096.69,
+        "variance": 0.0
+      },
+      {
+        "account_code": "5030",
+        "entry_count": 3,
+        "net_amount": 36813.22,
+        "selected_credits": 0.0,
+        "selected_debits": 36813.22,
+        "variance": 0.0
+      },
+      {
+        "account_code": "5100",
+        "entry_count": 1,
+        "net_amount": 4095.56,
+        "selected_credits": 0.0,
+        "selected_debits": 4095.56,
+        "variance": 0.0
+      },
+      {
+        "account_code": "5120",
+        "entry_count": 2,
+        "net_amount": 9583.44,
+        "selected_credits": 0.0,
+        "selected_debits": 9583.44,
+        "variance": 0.0
+      },
+      {
+        "account_code": "5220",
+        "entry_count": 1,
+        "net_amount": 35263.63,
+        "selected_credits": 0.0,
+        "selected_debits": 35263.63,
+        "variance": 0.0
+      },
+      {
+        "account_code": "5320",
+        "entry_count": 1,
+        "net_amount": 7330.07,
+        "selected_credits": 0.0,
+        "selected_debits": 7330.07,
+        "variance": 0.0
+      },
+      {
+        "account_code": "Total / control",
+        "entry_count": 10,
+        "net_amount": 117182.61,
+        "selected_credits": 0.0,
+        "selected_debits": 117182.61,
+        "variance": 0.0
+      }
+    ],
+    "billing": {
+      "invoice_id": 726,
+      "invoice_line_id": 726,
+      "journal_id": 17042,
+      "out_of_balance": 0.0,
+      "rows": [
+        {
+          "account_code": "1100",
+          "credit": 0.0,
+          "debit": 75537.87,
+          "journal_line_id": 43573,
+          "label": "Trade AR",
+          "line_key": "trade_ar"
+        },
+        {
+          "account_code": "1110",
+          "credit": 0.0,
+          "debit": 3975.68,
+          "journal_line_id": 43574,
+          "label": "Retainage AR",
+          "line_key": "retainage_ar"
+        },
+        {
+          "account_code": "4000",
+          "credit": 79513.55,
+          "debit": 0.0,
+          "journal_line_id": 43575,
+          "label": "Contract revenue",
+          "line_key": "contract_revenue"
+        }
+      ],
+      "total_credits": 79513.55,
+      "total_debits": 79513.55,
+      "variance_to_june_billings": 0.0
+    },
+    "billing_conclusion": "The partially paid status does not change recognition of the full non-voided June invoice; the AR and retainage debits equal the contract-revenue credit and tie to June billing activity.",
+    "payment_hold_conclusion": "AP-0004290 remains recognized as posted June job cost while its payment hold remains a cash-disbursement control; the hold does not reverse or exclude the cost from WIP.",
+    "rows": [
+      {
+        "account_code": "5220",
+        "credit": 0.0,
+        "debit": 35263.63,
+        "job_cost_entry_id": 15919,
+        "journal_id": 17029,
+        "journal_line_id": 43537,
+        "rank": 1,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5010",
+        "credit": 0.0,
+        "debit": 14627.02,
+        "job_cost_entry_id": 15917,
+        "journal_id": 17026,
+        "journal_line_id": 43531,
+        "rank": 2,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5030",
+        "credit": 0.0,
+        "debit": 13003.31,
+        "job_cost_entry_id": 15916,
+        "journal_id": 17025,
+        "journal_line_id": 43529,
+        "rank": 3,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5030",
+        "credit": 0.0,
+        "debit": 12796.21,
+        "job_cost_entry_id": 15914,
+        "journal_id": 17023,
+        "journal_line_id": 43525,
+        "rank": 4,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5030",
+        "credit": 0.0,
+        "debit": 11013.7,
+        "job_cost_entry_id": 15918,
+        "journal_id": 17027,
+        "journal_line_id": 43533,
+        "rank": 5,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5010",
+        "credit": 0.0,
+        "debit": 9469.67,
+        "job_cost_entry_id": 15915,
+        "journal_id": 17024,
+        "journal_line_id": 43527,
+        "rank": 6,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5320",
+        "credit": 0.0,
+        "debit": 7330.07,
+        "job_cost_entry_id": 15921,
+        "journal_id": 17031,
+        "journal_line_id": 43541,
+        "rank": 7,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5120",
+        "credit": 0.0,
+        "debit": 4881.06,
+        "job_cost_entry_id": 15927,
+        "journal_id": 17034,
+        "journal_line_id": 43551,
+        "rank": 8,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5120",
+        "credit": 0.0,
+        "debit": 4702.38,
+        "job_cost_entry_id": 15929,
+        "journal_id": 17036,
+        "journal_line_id": 43556,
+        "rank": 9,
+        "status": "Posted"
+      },
+      {
+        "account_code": "5100",
+        "credit": 0.0,
+        "debit": 4095.56,
+        "job_cost_entry_id": 15933,
+        "journal_id": 17038,
+        "journal_line_id": 43563,
+        "rank": 10,
+        "status": "Posted"
+      }
+    ]
+  },
   "prior_month": {
     "billings": 4296079.58,
     "close_etc": 745892.13,
@@ -48,5 +1038,410 @@
     "status": "Active",
     "underbilling": 206179.78
   },
-  "required_etc_adjustment": 185000
+  "proposed_journal_bridge": {
+    "basis": "Reverse the final May gross ARM-2409 WIP balance, establish the policy-corrected June 30 gross balance, and show the resulting net June entry.",
+    "stages": [
+      {
+        "basis": "Final May WIP file: contract asset $274,805.16 and no contract liability.",
+        "out_of_balance": 0.0,
+        "rows": [
+          {
+            "account": "1200 Costs and earnings in excess of billings",
+            "account_key": "account_1200",
+            "credit": 274805.16,
+            "debit": 0.0,
+            "description": "Reverse the final May ARM-2409 gross contract asset."
+          },
+          {
+            "account": "2100 Billings in excess of costs and earnings",
+            "account_key": "account_2100",
+            "credit": 0.0,
+            "debit": 0.0,
+            "description": "Reverse the final May ARM-2409 gross contract liability, which is nil."
+          },
+          {
+            "account": "4300 WIP revenue adjustment",
+            "account_key": "account_4300",
+            "credit": 0.0,
+            "debit": 274805.16,
+            "description": "Reverse the balancing final May WIP revenue adjustment."
+          }
+        ],
+        "stage": "Reverse May close",
+        "stage_key": "may_reversal",
+        "total_credits": 274805.16,
+        "total_debits": 274805.16
+      },
+      {
+        "basis": "Policy-corrected June WIP: contract asset $206,179.78 and no contract liability.",
+        "out_of_balance": 0.0,
+        "rows": [
+          {
+            "account": "1200 Costs and earnings in excess of billings",
+            "account_key": "account_1200",
+            "credit": 0.0,
+            "debit": 206179.78,
+            "description": "Establish the policy-corrected June ARM-2409 gross contract asset."
+          },
+          {
+            "account": "2100 Billings in excess of costs and earnings",
+            "account_key": "account_2100",
+            "credit": 0.0,
+            "debit": 0.0,
+            "description": "Establish the policy-corrected June ARM-2409 gross contract liability, which is nil."
+          },
+          {
+            "account": "4300 WIP revenue adjustment",
+            "account_key": "account_4300",
+            "credit": 206179.78,
+            "debit": 0.0,
+            "description": "Record the balancing policy-corrected June WIP revenue adjustment."
+          }
+        ],
+        "stage": "Establish June close",
+        "stage_key": "june_establishment",
+        "total_credits": 206179.78,
+        "total_debits": 206179.78
+      },
+      {
+        "basis": "Net June effect: credit contract asset and debit WIP revenue adjustment $68,625.38; this equals the May-to-June contract-asset decrease.",
+        "out_of_balance": 0.0,
+        "rows": [
+          {
+            "account": "1200 Costs and earnings in excess of billings",
+            "account_key": "account_1200",
+            "credit": 68625.38,
+            "debit": 0.0,
+            "description": "Net June posting effect after reversing May and establishing the policy-corrected June gross balance."
+          },
+          {
+            "account": "2100 Billings in excess of costs and earnings",
+            "account_key": "account_2100",
+            "credit": 0.0,
+            "debit": 0.0,
+            "description": "Net June posting effect after reversing May and establishing the policy-corrected June gross balance."
+          },
+          {
+            "account": "4300 WIP revenue adjustment",
+            "account_key": "account_4300",
+            "credit": 0.0,
+            "debit": 68625.38,
+            "description": "Net June posting effect after reversing May and establishing the policy-corrected June gross balance."
+          }
+        ],
+        "stage": "Net June posting",
+        "stage_key": "net_june",
+        "total_credits": 68625.38,
+        "total_debits": 68625.38
+      }
+    ],
+    "status": "Proposed and unposted; pending documented Controller approval"
+  },
+  "required_etc_adjustment": 185000,
+  "signoff": {
+    "actions": [
+      {
+        "action": "Restore $185,000 to remaining ETC, recalculate the June WIP, and retain the support in the close file.",
+        "evidence": "Updated WIP calculation and retained close support.",
+        "owner": "Finance / Project Accounting",
+        "status": "Open"
+      },
+      {
+        "action": "Keep PCO-011 outside contract value until an executed or accepted resolution and collectability assessment are obtained.",
+        "evidence": "Executed or accepted resolution and documented collectability assessment.",
+        "owner": "Commercial / Project Team",
+        "status": "Open"
+      },
+      {
+        "action": "Review the 334.78-basis-point decline and disputed recovery treatment; approve or return the workpaper and record documented Controller disposition before any WIP posting.",
+        "evidence": "Documented Controller disposition.",
+        "owner": "Controller",
+        "status": "Pending"
+      }
+    ],
+    "bridge_driver_explanations": {
+      "Billings": "June billing activity increased cumulative billings by $79,513.55.",
+      "Contract asset": "The contract asset decreased $68,625.38 because billings growth exceeded earned-revenue growth.",
+      "Contract liability": "The contract liability remained zero because earned revenue continued to exceed billings.",
+      "Current contract": "No change: executed contract value remained $5,526,000 and PCO-011 was not authorized at the cutoff.",
+      "EAC": "EAC increased $185,000 because the unsupported recovery offset was removed from forecast cost.",
+      "Earned revenue": "Earned revenue increased $10,888.17 because percent complete increased on unchanged executed contract value.",
+      "Estimated margin at completion": "Estimated total margin decreased $185,000 because EAC rose $185,000 while contract value was unchanged.",
+      "Margin rate": "Margin rate decreased 334.78 bps because estimated total margin fell $185,000 on unchanged contract value.",
+      "Percent complete": "Percent complete increased 19.70 bps as posted cost and policy-corrected EAC moved to the June balances.",
+      "Posted cost": "June posting activity increased cost to date by $161,892.13 from the final May close.",
+      "Remaining cost / ETC": "Restoring the $185,000 disputed recovery to the $584,000 PM ETC produced $769,000, a $23,107.87 increase from May."
+    },
+    "bridge_drivers": {
+      "Billings": "Billings from company accounting records at June 30.",
+      "Close ETC": "PM ETC plus the $185,000 finance correction.",
+      "Contract asset": "Earned revenue less billings, presented gross.",
+      "Contract liability": "No overbilling in the policy-corrected June case.",
+      "Current contract": "Current contract from company accounting records at June 30; no PCO-011 recovery included.",
+      "EAC": "Posted cost plus policy-corrected remaining ETC.",
+      "Earned revenue": "Executed contract value multiplied by percent complete.",
+      "Estimated margin at completion": "Executed contract value less EAC.",
+      "Finance ETC correction": "Restore the unsupported disputed recovery to remaining ETC.",
+      "Margin rate": "Estimated margin divided by executed contract value.",
+      "PM ETC": "Latest PM estimate includes a disputed $185,000 recovery assumption.",
+      "Percent complete": "Posted cost divided by policy-corrected EAC under FIN-REV-04.",
+      "Posted cost": "Posted job cost from company accounting records at June 30.",
+      "Remaining cost / ETC": "PM ETC plus the $185,000 finance correction."
+    },
+    "conclusions": {
+      "Close and posting status": "Not approved to post. Controller approval is required before any WIP entry is posted.",
+      "Close and posting status - support": "This is a preparer sign-off record pending documented Controller disposition.",
+      "Contract value treatment": "Exclude the pending recovery from current contract value.",
+      "Contract value treatment - support": "FIN-REV-04 excludes pending recovery revenue until executed or accepted authorization and collectability support exist.",
+      "Controller review": "Controller review required because the disputed recovery is embedded in the PM estimate and the policy-corrected margin declines 334.78 basis points.",
+      "Controller review - support": "The signed WIP policy escalates material margin changes and unsupported commercial assumptions.",
+      "PCO-011 authorization at cutoff": "Draft, disputed, and unaccepted; no executed contract modification exists at June 30.",
+      "PCO-011 authorization at cutoff - support": "The CO log and PCO-011 backup show the $185,000 recovery remains disputed and unaccepted.",
+      "PM ETC treatment": "Add the $185,000 disputed recovery back to the PM estimate and restore it to remaining ETC.",
+      "PM ETC treatment - support": "The PM estimate is $584,000 and embeds the disputed recovery as a cost offset; finance removes that unsupported netting."
+    },
+    "evidence_log": [
+      {
+        "control": "Current accounting balances",
+        "fact": "Current contract $5,526,000; posted cost $3,731,500; billings $4,375,593.13.",
+        "source": "Company accounting records | cutoff 2026-06-30",
+        "status": "Tied"
+      },
+      {
+        "control": "Prior-close comparison",
+        "fact": "Final May close comparison: EAC $4,315,500; estimated margin $1,210,500; margin rate 21.9055%.",
+        "source": "WIP 5.31.26_FINAL_v7_revised NB.xlsx",
+        "status": "Tied"
+      },
+      {
+        "control": "Current PM forecast",
+        "fact": "PM estimate ETC $584,000 includes a disputed recovery assumption of $185,000.",
+        "source": "PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "status": "Exception"
+      },
+      {
+        "control": "Commercial authorization and recovery",
+        "fact": "$185,000 recovery is draft, unaccepted, and disputed; it is not an executed contract modification.",
+        "source": "CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx; 2409_PCO11_backcharge backup - draft2.pdf",
+        "status": "Open"
+      },
+      {
+        "control": "Revenue-recognition and review policy",
+        "fact": "Exclude pending recovery revenue, include probable unavoidable cost, and escalate material margin changes.",
+        "source": "Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
+        "status": "Applied"
+      }
+    ],
+    "recommendation": "Restore the $185,000 disputed recovery to remaining ETC, recalculate the June WIP position, and hold the result for Controller review. The recovery is not an executed contract adjustment and the preparer workpaper is not approved to post.",
+    "review_status": "Pending Controller review"
+  },
+  "source_reconciliation": {
+    "base_cutoff": "2026-05-31",
+    "cutoff": "2026-06-30",
+    "rows": [
+      {
+        "activity": 54498.34,
+        "base": 1207577.38,
+        "close": 1262075.72,
+        "key": "labor",
+        "label": "Labor job cost",
+        "variance": 0.0
+      },
+      {
+        "activity": 60909.91,
+        "base": 1278558.17,
+        "close": 1339468.08,
+        "key": "material",
+        "label": "Material job cost",
+        "variance": 0.0
+      },
+      {
+        "activity": 35263.63,
+        "base": 799309.95,
+        "close": 834573.58,
+        "key": "subcontract",
+        "label": "Subcontract job cost",
+        "variance": 0.0
+      },
+      {
+        "activity": 11220.25,
+        "base": 284162.37,
+        "close": 295382.62,
+        "key": "other",
+        "label": "Other job cost",
+        "variance": 0.0
+      },
+      {
+        "activity": 161892.13,
+        "base": 3569607.87,
+        "close": 3731500.0,
+        "key": "total_job_cost",
+        "label": "Total job cost",
+        "variance": 0.0
+      },
+      {
+        "activity": 79513.55,
+        "base": 4296079.58,
+        "close": 4375593.13,
+        "key": "billings",
+        "label": "Billings",
+        "variance": 0.0
+      },
+      {
+        "activity": 286000.0,
+        "base": 5240000.0,
+        "close": 5526000.0,
+        "key": "current_contract",
+        "label": "Current contract",
+        "variance": 0.0
+      }
+    ]
+  },
+  "transaction_support": {
+    "billing": {
+      "account_code": "4000",
+      "amount": 79513.55,
+      "invoice_date": "2026-06-30",
+      "invoice_number": "PAYAPP-ARM-2409-202606",
+      "status": "Partially Paid",
+      "variance_to_june_billings": 0.0
+    },
+    "controls": [
+      {
+        "cost_type": "Labor",
+        "june_total": 54498.34,
+        "population_count": 15,
+        "residual_population": 40819.34,
+        "selected_top_ten": 13679.0
+      },
+      {
+        "cost_type": "Material",
+        "june_total": 60909.91,
+        "population_count": 5,
+        "residual_population": 0.0,
+        "selected_top_ten": 60909.91
+      },
+      {
+        "cost_type": "Subcontract",
+        "june_total": 35263.63,
+        "population_count": 1,
+        "residual_population": 0.0,
+        "selected_top_ten": 35263.63
+      },
+      {
+        "cost_type": "Other",
+        "june_total": 11220.25,
+        "population_count": 2,
+        "residual_population": 3890.18,
+        "selected_top_ten": 7330.07
+      }
+    ],
+    "june_total": 161892.13,
+    "population_count": 23,
+    "residual_total": 44709.52,
+    "rows": [
+      {
+        "amount": 35263.63,
+        "cost_code": "04-200",
+        "cost_type": "Subcontract",
+        "document_number": "AP-0004290",
+        "entry_id": 15919,
+        "posting_date": "2026-06-06",
+        "rank": 1,
+        "source": "AP"
+      },
+      {
+        "amount": 14627.02,
+        "cost_code": "02-110",
+        "cost_type": "Material",
+        "document_number": "AP-0004288",
+        "entry_id": 15917,
+        "posting_date": "2026-06-03",
+        "rank": 2,
+        "source": "AP"
+      },
+      {
+        "amount": 13003.31,
+        "cost_code": "02-410",
+        "cost_type": "Material",
+        "document_number": "AP-0004287",
+        "entry_id": 15916,
+        "posting_date": "2026-06-20",
+        "rank": 3,
+        "source": "AP"
+      },
+      {
+        "amount": 12796.21,
+        "cost_code": "02-410",
+        "cost_type": "Material",
+        "document_number": "AP-0004285",
+        "entry_id": 15914,
+        "posting_date": "2026-06-06",
+        "rank": 4,
+        "source": "AP"
+      },
+      {
+        "amount": 11013.7,
+        "cost_code": "02-410",
+        "cost_type": "Material",
+        "document_number": "AP-0004289",
+        "entry_id": 15918,
+        "posting_date": "2026-06-10",
+        "rank": 5,
+        "source": "AP"
+      },
+      {
+        "amount": 9469.67,
+        "cost_code": "02-110",
+        "cost_type": "Material",
+        "document_number": "AP-0004286",
+        "entry_id": 15915,
+        "posting_date": "2026-06-13",
+        "rank": 6,
+        "source": "AP"
+      },
+      {
+        "amount": 7330.07,
+        "cost_code": "05-200",
+        "cost_type": "Other",
+        "document_number": "AP-0004292",
+        "entry_id": 15921,
+        "posting_date": "2026-06-13",
+        "rank": 7,
+        "source": "AP"
+      },
+      {
+        "amount": 4881.06,
+        "cost_code": "01-200",
+        "cost_type": "Labor",
+        "document_number": "PRJ-PAY-ARM-2409-20260614",
+        "entry_id": 15927,
+        "posting_date": "2026-06-14",
+        "rank": 8,
+        "source": "PAY"
+      },
+      {
+        "amount": 4702.38,
+        "cost_code": "01-200",
+        "cost_type": "Labor",
+        "document_number": "PRJ-PAY-ARM-2409-20260621",
+        "entry_id": 15929,
+        "posting_date": "2026-06-21",
+        "rank": 9,
+        "source": "PAY"
+      },
+      {
+        "amount": 4095.56,
+        "cost_code": "03-200",
+        "cost_type": "Labor",
+        "document_number": "PRJ-PAY-ARM-2409-20260628",
+        "entry_id": 15933,
+        "posting_date": "2026-06-28",
+        "rank": 10,
+        "source": "PAY"
+      }
+    ],
+    "sample_total": 117182.61,
+    "selection_rule": "Ten largest absolute June ARM-2409 job-cost postings; entry ID breaks ties"
+  }
 }

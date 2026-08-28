@@ -41,8 +41,26 @@
       "threshold": 2500000
     }
   ],
+  "deterioration_capacity": {
+    "binding_covenant": "FCCR",
+    "fccr": {
+      "posted": 2035453.11,
+      "pro_forma": 3311778.81
+    },
+    "leverage": {
+      "posted": 2604739.37,
+      "pro_forma": 3881065.07
+    },
+    "tangible_net_worth": {
+      "posted": 6547638.53,
+      "pro_forma": 7823964.23
+    }
+  },
+  "fccr_numerator_posted": 2704794.87,
+  "fccr_numerator_pro_forma": 3981120.57,
   "fccr_posted": 4.8492,
   "fccr_pro_forma": 7.1374,
+  "fixed_charges": 557784.8,
   "funded_debt": 1111666.5,
   "leverage_posted": 0.3736,
   "leverage_pro_forma": 0.2615,
@@ -53,10 +71,52 @@
   "max_leverage": 3.0,
   "min_fccr": 1.2,
   "min_tangible_net_worth": 2500000,
+  "proposed_wip_adjustment": 1276325.7,
   "scheduled_principal": 485000.23,
   "tangible_net_worth_posted": 9047638.53,
   "tangible_net_worth_pro_forma": 10323964.23,
   "unfunded_capex": 270500.0,
+  "wip_reversal_sensitivity": [
+    {
+      "adjusted_ebitda": 3932539.145,
+      "compliant": true,
+      "fccr": 6.5653261706,
+      "fccr_deterioration_capacity": 2992697.385,
+      "fccr_numerator": 3662039.145,
+      "leverage": 0.2826841537,
+      "leverage_deterioration_capacity": 3561983.645,
+      "retained_wip_adjustment": 957244.275,
+      "reversal_percent": 0.25,
+      "tangible_net_worth": 10004882.805,
+      "tangible_net_worth_headroom": 7504882.805
+    },
+    {
+      "adjusted_ebitda": 3613457.72,
+      "compliant": true,
+      "fccr": 5.9932750408,
+      "fccr_deterioration_capacity": 2673615.96,
+      "fccr_numerator": 3342957.72,
+      "leverage": 0.3076461899,
+      "leverage_deterioration_capacity": 3242902.22,
+      "retained_wip_adjustment": 638162.85,
+      "reversal_percent": 0.5,
+      "tangible_net_worth": 9685801.38,
+      "tangible_net_worth_headroom": 7185801.38
+    },
+    {
+      "adjusted_ebitda": 2975294.87,
+      "compliant": true,
+      "fccr": 4.8491727813,
+      "fccr_deterioration_capacity": 2035453.11,
+      "fccr_numerator": 2704794.87,
+      "leverage": 0.3736323788,
+      "leverage_deterioration_capacity": 2604739.37,
+      "retained_wip_adjustment": 0.0,
+      "reversal_percent": 1.0,
+      "tangible_net_worth": 9047638.53,
+      "tangible_net_worth_headroom": 6547638.53
+    }
+  ],
   "wip_review": [
     {
       "close_etc": 218800,

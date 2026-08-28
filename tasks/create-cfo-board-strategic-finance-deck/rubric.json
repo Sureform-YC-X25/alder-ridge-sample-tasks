@@ -3,7 +3,9 @@
     {
       "category": "structure",
       "description": "The presentation has the required slide count",
+      "exact_slides": 10,
       "id": "preservation__slide_count",
+      "kind": "pptx_slide_count",
       "semantic": false,
       "weight": 1
     },
@@ -11,13 +13,19 @@
       "category": "structure",
       "description": "The presentation contains the required title concept 'FY26 outlook and FY27 priorities'",
       "id": "preservation__title",
+      "kind": "pptx_title",
       "semantic": true,
+      "title_token": "FY26 outlook and FY27 priorities",
       "weight": 1
     },
     {
       "category": "core_finance",
       "description": "All executive headline figures are correct: `forecast_revenue` is correctly labeled and associated",
       "id": "headline_values__forecast_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "forecast_revenue": 53350000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -25,6 +33,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `revenue_variance_to_board_aop` is correctly labeled and associated",
       "id": "headline_values__revenue_variance_to_board_aop",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "revenue_variance_to_board_aop": 5430000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -32,6 +44,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `revenue_variance_pct_to_board_aop` is correctly labeled and associated",
       "id": "headline_values__revenue_variance_pct_to_board_aop",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "revenue_variance_pct_to_board_aop": 0.11331386
+      },
       "semantic": false,
       "weight": 10
     },
@@ -39,6 +55,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `forecast_branch_ebitda` is correctly labeled and associated",
       "id": "headline_values__forecast_branch_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "forecast_branch_ebitda": 10768940.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -46,6 +66,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `branch_ebitda_variance_to_current_comparator` is correctly labeled and associated",
       "id": "headline_values__branch_ebitda_variance_to_current_comparator",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "branch_ebitda_variance_to_current_comparator": 446990.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -53,6 +77,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `largest_branch_ebitda_miss` is correctly labeled and associated",
       "id": "headline_values__largest_branch_ebitda_miss",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "largest_branch_ebitda_miss": "Controls"
+      },
       "semantic": true,
       "weight": 10
     },
@@ -60,6 +88,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_leverage` is correctly labeled and associated",
       "id": "headline_values__downside_leverage",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_leverage": 3.17460317
+      },
       "semantic": false,
       "weight": 10
     },
@@ -67,6 +99,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `largest_branch_ebitda_miss_amount` is correctly labeled and associated",
       "id": "headline_values__largest_branch_ebitda_miss_amount",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "largest_branch_ebitda_miss_amount": -37300.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -74,6 +110,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_leverage` is correctly labeled and associated",
       "id": "headline_values__severe_leverage",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_leverage": 5.39622642
+      },
       "semantic": false,
       "weight": 10
     },
@@ -81,6 +121,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_ending_cash` is correctly labeled and associated",
       "id": "headline_values__downside_ending_cash",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_ending_cash": 1950000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -88,6 +132,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_ending_cash` is correctly labeled and associated",
       "id": "headline_values__severe_ending_cash",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_ending_cash": 820000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -95,6 +143,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_revolver_headroom` is correctly labeled and associated",
       "id": "headline_values__severe_revolver_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_revolver_headroom": 1100000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -102,6 +154,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `total_probability_weighted_priority_ebitda` is correctly labeled and associated",
       "id": "headline_values__total_probability_weighted_priority_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "total_probability_weighted_priority_ebitda": 2010500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -109,6 +165,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `executable_probability_weighted_priority_ebitda` is correctly labeled and associated",
       "id": "headline_values__executable_probability_weighted_priority_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "executable_probability_weighted_priority_ebitda": 1058000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -116,6 +176,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `severe_covenant_breach` is correctly labeled and associated",
       "id": "headline_values__severe_covenant_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_covenant_breach": true
+      },
       "semantic": true,
       "weight": 10
     },
@@ -123,6 +187,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_forecast_revenue` is correctly labeled and associated",
       "id": "headline_values__construction_forecast_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_forecast_revenue": 31450000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -130,6 +198,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_plan_revenue` is correctly labeled and associated",
       "id": "headline_values__construction_plan_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_plan_revenue": 29900000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -137,6 +209,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_revenue_variance` is correctly labeled and associated",
       "id": "headline_values__construction_revenue_variance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_revenue_variance": 1550000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -144,6 +220,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_forecast_gross_profit` is correctly labeled and associated",
       "id": "headline_values__construction_forecast_gross_profit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_forecast_gross_profit": 7296400.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -151,6 +231,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_plan_gross_profit` is correctly labeled and associated",
       "id": "headline_values__construction_plan_gross_profit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_plan_gross_profit": 7325500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -158,6 +242,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_forecast_ebitda` is correctly labeled and associated",
       "id": "headline_values__construction_forecast_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_forecast_ebitda": 5446400.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -165,6 +253,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_plan_ebitda` is correctly labeled and associated",
       "id": "headline_values__construction_plan_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_plan_ebitda": 5275500.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -172,6 +264,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `construction_ebitda_variance` is correctly labeled and associated",
       "id": "headline_values__construction_ebitda_variance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "construction_ebitda_variance": 170900.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -179,6 +275,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_forecast_revenue` is correctly labeled and associated",
       "id": "headline_values__service_forecast_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_forecast_revenue": 14280000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -186,6 +286,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_plan_revenue` is correctly labeled and associated",
       "id": "headline_values__service_plan_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_plan_revenue": 13650000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -193,6 +297,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_revenue_variance` is correctly labeled and associated",
       "id": "headline_values__service_revenue_variance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_revenue_variance": 630000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -200,6 +308,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_forecast_gross_profit` is correctly labeled and associated",
       "id": "headline_values__service_forecast_gross_profit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_forecast_gross_profit": 6254640.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -207,6 +319,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_plan_gross_profit` is correctly labeled and associated",
       "id": "headline_values__service_plan_gross_profit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_plan_gross_profit": 5801250.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -214,6 +330,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_forecast_ebitda` is correctly labeled and associated",
       "id": "headline_values__service_forecast_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_forecast_ebitda": 4134640.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -221,6 +341,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_plan_ebitda` is correctly labeled and associated",
       "id": "headline_values__service_plan_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_plan_ebitda": 3821250.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -228,6 +352,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `service_ebitda_variance` is correctly labeled and associated",
       "id": "headline_values__service_ebitda_variance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "service_ebitda_variance": 313390.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -235,6 +363,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_forecast_revenue` is correctly labeled and associated",
       "id": "headline_values__controls_forecast_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_forecast_revenue": 7620000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -242,6 +374,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_plan_revenue` is correctly labeled and associated",
       "id": "headline_values__controls_plan_revenue",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_plan_revenue": 7150000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -249,6 +385,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_revenue_variance` is correctly labeled and associated",
       "id": "headline_values__controls_revenue_variance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_revenue_variance": 470000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -256,6 +396,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_forecast_gross_profit` is correctly labeled and associated",
       "id": "headline_values__controls_forecast_gross_profit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_forecast_gross_profit": 2247900.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -263,6 +407,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_plan_gross_profit` is correctly labeled and associated",
       "id": "headline_values__controls_plan_gross_profit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_plan_gross_profit": 2345200.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -270,6 +418,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_forecast_ebitda` is correctly labeled and associated",
       "id": "headline_values__controls_forecast_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_forecast_ebitda": 1187900.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -277,6 +429,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_plan_ebitda` is correctly labeled and associated",
       "id": "headline_values__controls_plan_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_plan_ebitda": 1225200.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -284,6 +440,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `controls_ebitda_variance` is correctly labeled and associated",
       "id": "headline_values__controls_ebitda_variance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "controls_ebitda_variance": -37300.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -291,6 +451,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `base_covenant_ebitda` is correctly labeled and associated",
       "id": "headline_values__base_covenant_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_covenant_ebitda": 5520000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -298,6 +462,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `base_ending_cash_before_financing` is correctly labeled and associated",
       "id": "headline_values__base_ending_cash_before_financing",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_ending_cash_before_financing": 3850000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -305,6 +473,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `base_revolver_balance` is correctly labeled and associated",
       "id": "headline_values__base_revolver_balance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_revolver_balance": 2900000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -312,6 +484,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `base_funded_debt` is correctly labeled and associated",
       "id": "headline_values__base_funded_debt",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_funded_debt": 10300000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -319,6 +495,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `base_leverage` is correctly labeled and associated",
       "id": "headline_values__base_leverage",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_leverage": 1.86594203
+      },
       "semantic": false,
       "weight": 10
     },
@@ -326,6 +506,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `base_minimum_cash_headroom` is correctly labeled and associated",
       "id": "headline_values__base_minimum_cash_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_minimum_cash_headroom": 1600000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -333,6 +517,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `base_remaining_revolver_headroom` is correctly labeled and associated",
       "id": "headline_values__base_remaining_revolver_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_remaining_revolver_headroom": 5100000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -340,6 +528,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `base_cash_breach` is correctly labeled and associated",
       "id": "headline_values__base_cash_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_cash_breach": false
+      },
       "semantic": true,
       "weight": 10
     },
@@ -347,6 +539,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `base_leverage_breach` is correctly labeled and associated",
       "id": "headline_values__base_leverage_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "base_leverage_breach": false
+      },
       "semantic": true,
       "weight": 10
     },
@@ -354,6 +550,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_covenant_ebitda` is correctly labeled and associated",
       "id": "headline_values__downside_covenant_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_covenant_ebitda": 3780000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -361,6 +561,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_ending_cash_before_financing` is correctly labeled and associated",
       "id": "headline_values__downside_ending_cash_before_financing",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_ending_cash_before_financing": 1950000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -368,6 +572,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_revolver_balance` is correctly labeled and associated",
       "id": "headline_values__downside_revolver_balance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_revolver_balance": 4600000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -375,6 +583,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_funded_debt` is correctly labeled and associated",
       "id": "headline_values__downside_funded_debt",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_funded_debt": 12000000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -382,6 +594,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_minimum_cash_headroom` is correctly labeled and associated",
       "id": "headline_values__downside_minimum_cash_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_minimum_cash_headroom": -300000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -389,6 +605,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `downside_remaining_revolver_headroom` is correctly labeled and associated",
       "id": "headline_values__downside_remaining_revolver_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_remaining_revolver_headroom": 3400000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -396,6 +616,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `downside_cash_breach` is correctly labeled and associated",
       "id": "headline_values__downside_cash_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_cash_breach": true
+      },
       "semantic": true,
       "weight": 10
     },
@@ -403,6 +627,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `downside_leverage_breach` is correctly labeled and associated",
       "id": "headline_values__downside_leverage_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "downside_leverage_breach": true
+      },
       "semantic": true,
       "weight": 10
     },
@@ -410,6 +638,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_covenant_ebitda` is correctly labeled and associated",
       "id": "headline_values__severe_covenant_ebitda",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_covenant_ebitda": 2650000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -417,6 +649,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_ending_cash_before_financing` is correctly labeled and associated",
       "id": "headline_values__severe_ending_cash_before_financing",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_ending_cash_before_financing": 820000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -424,6 +660,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_revolver_balance` is correctly labeled and associated",
       "id": "headline_values__severe_revolver_balance",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_revolver_balance": 6900000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -431,6 +671,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_funded_debt` is correctly labeled and associated",
       "id": "headline_values__severe_funded_debt",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_funded_debt": 14300000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -438,6 +682,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_minimum_cash_headroom` is correctly labeled and associated",
       "id": "headline_values__severe_minimum_cash_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_minimum_cash_headroom": -1430000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -445,6 +693,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `severe_remaining_revolver_headroom` is correctly labeled and associated",
       "id": "headline_values__severe_remaining_revolver_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_remaining_revolver_headroom": 1100000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -452,6 +704,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `severe_cash_breach` is correctly labeled and associated",
       "id": "headline_values__severe_cash_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_cash_breach": true
+      },
       "semantic": true,
       "weight": 10
     },
@@ -459,6 +715,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `severe_leverage_breach` is correctly labeled and associated",
       "id": "headline_values__severe_leverage_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "severe_leverage_breach": true
+      },
       "semantic": true,
       "weight": 10
     },
@@ -466,6 +726,13 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `optimized_board_priority_portfolio` is correctly labeled and associated",
       "id": "headline_values__optimized_board_priority_portfolio",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "optimized_board_priority_portfolio": [
+          "Procurement program",
+          "Service technician hiring"
+        ]
+      },
       "semantic": true,
       "weight": 10
     },
@@ -473,6 +740,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `optimized_priority_cash_spend` is correctly labeled and associated",
       "id": "headline_values__optimized_priority_cash_spend",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "optimized_priority_cash_spend": 1030000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -480,6 +751,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `optimized_probability_weighted_base_benefit` is correctly labeled and associated",
       "id": "headline_values__optimized_probability_weighted_base_benefit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "optimized_probability_weighted_base_benefit": 1058000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -487,6 +762,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `optimized_probability_weighted_severe_benefit` is correctly labeled and associated",
       "id": "headline_values__optimized_probability_weighted_severe_benefit",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "optimized_probability_weighted_severe_benefit": 906100.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -494,6 +773,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `post_action_severe_incremental_revolver_draw` is correctly labeled and associated",
       "id": "headline_values__post_action_severe_incremental_revolver_draw",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "post_action_severe_incremental_revolver_draw": 1100000.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -501,6 +784,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `post_action_severe_remaining_revolver_headroom` is correctly labeled and associated",
       "id": "headline_values__post_action_severe_remaining_revolver_headroom",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "post_action_severe_remaining_revolver_headroom": 0.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -508,6 +795,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `post_action_severe_unfunded_liquidity_shortfall` is correctly labeled and associated",
       "id": "headline_values__post_action_severe_unfunded_liquidity_shortfall",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "post_action_severe_unfunded_liquidity_shortfall": 725730.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -515,6 +806,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `post_action_severe_ending_cash` is correctly labeled and associated",
       "id": "headline_values__post_action_severe_ending_cash",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "post_action_severe_ending_cash": 1524270.0
+      },
       "semantic": false,
       "weight": 10
     },
@@ -522,6 +817,10 @@
       "category": "core_finance",
       "description": "All executive headline figures are correct: `post_action_severe_leverage` is correctly labeled and associated",
       "id": "headline_values__post_action_severe_leverage",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "post_action_severe_leverage": 4.33058688
+      },
       "semantic": false,
       "weight": 10
     },
@@ -529,6 +828,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `post_action_severe_cash_breach` is correctly labeled and associated",
       "id": "headline_values__post_action_severe_cash_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "post_action_severe_cash_breach": true
+      },
       "semantic": true,
       "weight": 10
     },
@@ -536,6 +839,10 @@
       "category": "decision",
       "description": "All executive headline figures are correct: `post_action_severe_leverage_breach` is correctly labeled and associated",
       "id": "headline_values__post_action_severe_leverage_breach",
+      "kind": "artifact_label_values",
+      "label_values": {
+        "post_action_severe_leverage_breach": true
+      },
       "semantic": true,
       "weight": 10
     },
@@ -543,118 +850,183 @@
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'executive decision summary'",
       "id": "narrative__executive_decision_summary",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "executive decision summary"
+      ],
       "weight": 5
     },
     {
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'revenue'",
       "id": "narrative__revenue",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "revenue"
+      ],
       "weight": 5
     },
     {
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'ebitda'",
       "id": "narrative__ebitda",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "ebitda"
+      ],
       "weight": 5
     },
     {
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'cash'",
       "id": "narrative__cash",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "cash"
+      ],
       "weight": 5
     },
     {
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'leverage'",
       "id": "narrative__leverage",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "leverage"
+      ],
       "weight": 5
     },
     {
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'strategic priorities'",
       "id": "narrative__strategic_priorities",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "strategic priorities"
+      ],
       "weight": 5
     },
     {
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'decision'",
       "id": "narrative__decision",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "decision"
+      ],
       "weight": 5
     },
     {
       "category": "decision_quality",
       "description": "The deck contains a coherent performance story, outlook, risks, and decision actions: the artifact substantively addresses 'gate'",
       "id": "narrative__gate",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "gate"
+      ],
       "weight": 5
     },
     {
       "category": "provenance",
       "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and any required MCP source: the artifact substantively addresses 'controller-tied'",
       "id": "sources__controller_tied",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "controller-tied"
+      ],
       "weight": 3
     },
     {
       "category": "provenance",
       "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and any required MCP source: the artifact substantively addresses 'management correspondence'",
       "id": "sources__management_correspondence",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "management correspondence"
+      ],
       "weight": 3
     },
     {
       "category": "provenance",
       "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and any required MCP source: the artifact substantively addresses 'policy'",
       "id": "sources__policy",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "policy"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'source reconciliation'",
       "id": "controls__source_reconciliation",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "source reconciliation"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'revenue'",
       "id": "controls__revenue",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "revenue"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'ebitda'",
       "id": "controls__ebitda",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "ebitda"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'cash'",
       "id": "controls__cash",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "cash"
+      ],
       "weight": 3
     },
     {
       "category": "controls",
       "description": "The final section contains the required quantitative and source tie-outs: the artifact substantively addresses 'covenant'",
       "id": "controls__covenant",
+      "kind": "artifact_tokens",
       "semantic": true,
+      "tokens": [
+        "covenant"
+      ],
       "weight": 3
     }
   ],
   "deterministic_verifier": "graders/corporate_finance.py",
-  "grading_revision": "weighted-atomic-hybrid-v6-layout-aware-branch-risk-schedules",
+  "grading_revision": "weighted-atomic-hybrid-v8-local-board-card-association",
   "integrity_verifier": "graders/integrity.py",
+  "reference_contract": null,
   "reward_policy": "graders/rubric.py",
   "reward_type": "weighted_partial_credit",
   "semantic_verifier": "graders/production_semantic.py",

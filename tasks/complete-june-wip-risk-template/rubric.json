@@ -1,1041 +1,450 @@
 {
-  "criteria": [
-    {
-      "category": "integrity",
-      "description": "Protected 'READ ME first' content remains unchanged",
-      "failure_cap": 0.0,
-      "id": "preservation__read_me_first",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "integrity",
-      "description": "Protected 'Risk Review' content remains unchanged",
-      "failure_cap": 0.0,
-      "id": "preservation__risk_review",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "integrity",
-      "description": "Protected 'Evidence Map' content remains unchanged",
-      "failure_cap": 0.0,
-      "id": "preservation__evidence_map",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2318 source input `current_contract` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2318__current_contract",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2318 source input `cost_to_date` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2318__cost_to_date",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2318 source input `pm_etc` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2318__pm_etc",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2318 source input `documented_etc_overlay` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2318__documented_etc_overlay",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2318 source input `billings` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2318__billings",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2318 source input `prior_close_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2318__prior_close_margin_percent",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2409 source input `current_contract` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2409__current_contract",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2409 source input `cost_to_date` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2409__cost_to_date",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2409 source input `pm_etc` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2409__pm_etc",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2409 source input `documented_etc_overlay` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2409__documented_etc_overlay",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2409 source input `billings` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2409__billings",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2409 source input `prior_close_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2409__prior_close_margin_percent",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2417 source input `current_contract` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2417__current_contract",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2417 source input `cost_to_date` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2417__cost_to_date",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2417 source input `pm_etc` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2417__pm_etc",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2417 source input `documented_etc_overlay` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2417__documented_etc_overlay",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2417 source input `billings` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2417__billings",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2417 source input `prior_close_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2417__prior_close_margin_percent",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2506 source input `current_contract` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2506__current_contract",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2506 source input `cost_to_date` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2506__cost_to_date",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2506 source input `pm_etc` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2506__pm_etc",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2506 source input `documented_etc_overlay` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2506__documented_etc_overlay",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2506 source input `billings` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2506__billings",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2506 source input `prior_close_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "source__arm-2506__prior_close_margin_percent",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2318 calculations respond correctly to their source inputs",
-      "failure_cap": null,
-      "id": "formula_lineage__arm-2318",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2409 calculations respond correctly to their source inputs",
-      "failure_cap": null,
-      "id": "formula_lineage__arm-2409",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2417 calculations respond correctly to their source inputs",
-      "failure_cap": null,
-      "id": "formula_lineage__arm-2417",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2506 calculations respond correctly to their source inputs",
-      "failure_cap": null,
-      "id": "formula_lineage__arm-2506",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `close_etc` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__close_etc",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `eac` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__eac",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `earned` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__earned",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `asset` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__asset",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `liability` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__liability",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `margin` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `percent_complete` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__percent_complete",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `prior_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__prior_margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 `margin_movement_bps` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2318__margin_movement_bps",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `close_etc` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__close_etc",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `eac` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__eac",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `earned` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__earned",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `asset` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__asset",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `liability` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__liability",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `margin` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `percent_complete` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__percent_complete",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `prior_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__prior_margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 `margin_movement_bps` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2409__margin_movement_bps",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `close_etc` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__close_etc",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `eac` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__eac",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `earned` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__earned",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `asset` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__asset",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `liability` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__liability",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `margin` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `percent_complete` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__percent_complete",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `prior_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__prior_margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 `margin_movement_bps` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2417__margin_movement_bps",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `close_etc` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__close_etc",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `eac` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__eac",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `earned` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__earned",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `asset` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__asset",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `liability` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__liability",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `margin` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `percent_complete` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__percent_complete",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `prior_margin_percent` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__prior_margin_percent",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 `margin_movement_bps` is correct",
-      "failure_cap": null,
-      "id": "result__arm-2506__margin_movement_bps",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2318 review `flag` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2318__flag",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2318 review `commercial_treatment` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2318__commercial_treatment",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2318 review `source` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2318__source",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2409 review `flag` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2409__flag",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2409 review `commercial_treatment` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2409__commercial_treatment",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2409 review `source` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2409__source",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2417 review `flag` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2417__flag",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2417 review `commercial_treatment` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2417__commercial_treatment",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2417 review `source` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2417__source",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2506 review `flag` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2506__flag",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2506 review `commercial_treatment` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2506__commercial_treatment",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "provenance",
-      "description": "ARM-2506 review `source` is professionally supported",
-      "failure_cap": null,
-      "id": "review__arm-2506__source",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "auditability",
-      "description": "Total/control row responds correctly to the four project rows",
-      "failure_cap": null,
-      "id": "total_formula_lineage",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell C11 is correct",
-      "failure_cap": null,
-      "id": "total_result__c11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell D11 is correct",
-      "failure_cap": null,
-      "id": "total_result__d11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell E11 is correct",
-      "failure_cap": null,
-      "id": "total_result__e11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell F11 is correct",
-      "failure_cap": null,
-      "id": "total_result__f11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell G11 is correct",
-      "failure_cap": null,
-      "id": "total_result__g11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell H11 is correct",
-      "failure_cap": null,
-      "id": "total_result__h11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell I11 is correct",
-      "failure_cap": null,
-      "id": "total_result__i11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell J11 is correct",
-      "failure_cap": null,
-      "id": "total_result__j11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell K11 is correct",
-      "failure_cap": null,
-      "id": "total_result__k11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell L11 is correct",
-      "failure_cap": null,
-      "id": "total_result__l11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell M11 is correct",
-      "failure_cap": null,
-      "id": "total_result__m11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell N11 is correct",
-      "failure_cap": null,
-      "id": "total_result__n11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell O11 is correct",
-      "failure_cap": null,
-      "id": "total_result__o11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell P11 is correct",
-      "failure_cap": null,
-      "id": "total_result__p11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Total/control cell Q11 is correct",
-      "failure_cap": null,
-      "id": "total_result__q11",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "structure",
-      "description": "The workbook retains the controller decision-bridge and decision-control structure",
-      "failure_cap": null,
-      "id": "decision_bridge__structure",
-      "semantic": false,
-      "weight": 1
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2318 PM-to-close decision bridge responds to source changes",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2318__formula_lineage",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 decision bridge `pm_case_margin` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2318__pm_case_margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2318 decision bridge `margin_impact` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2318__margin_impact",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2318 close disposition distinguishes release from controller hold",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2318__close_disposition",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2318 required follow-up addresses the unresolved evidence",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2318__required_follow_up",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2409 PM-to-close decision bridge responds to source changes",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2409__formula_lineage",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 decision bridge `pm_case_margin` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2409__pm_case_margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2409 decision bridge `margin_impact` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2409__margin_impact",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2409 close disposition distinguishes release from controller hold",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2409__close_disposition",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2409 required follow-up addresses the unresolved evidence",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2409__required_follow_up",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2417 PM-to-close decision bridge responds to source changes",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2417__formula_lineage",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 decision bridge `pm_case_margin` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2417__pm_case_margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2417 decision bridge `margin_impact` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2417__margin_impact",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2417 close disposition distinguishes release from controller hold",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2417__close_disposition",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2417 required follow-up addresses the unresolved evidence",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2417__required_follow_up",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "auditability",
-      "description": "ARM-2506 PM-to-close decision bridge responds to source changes",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2506__formula_lineage",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 decision bridge `pm_case_margin` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2506__pm_case_margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "ARM-2506 decision bridge `margin_impact` is correct",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2506__margin_impact",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2506 close disposition distinguishes release from controller hold",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2506__close_disposition",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "ARM-2506 required follow-up addresses the unresolved evidence",
-      "failure_cap": null,
-      "id": "decision_bridge__arm-2506__required_follow_up",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "auditability",
-      "description": "The controller decision control responds to the project bridge",
-      "failure_cap": null,
-      "id": "decision_control__formula_lineage",
-      "semantic": false,
-      "weight": 5
-    },
-    {
-      "category": "core_finance",
-      "description": "Decision control `pm_case_margin` is correct",
-      "failure_cap": null,
-      "id": "decision_control__pm_case_margin",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Decision control `margin_impact` is correct",
-      "failure_cap": null,
-      "id": "decision_control__margin_impact",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "The control confirms that pending commercial revenue is excluded from the close case",
-      "failure_cap": null,
-      "id": "decision_control__pending_revenue",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "The control identifies the number of projects requiring controller review",
-      "failure_cap": null,
-      "id": "decision_control__review_count",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "The control identifies the project with the largest finance overlay",
-      "failure_cap": null,
-      "id": "decision_control__largest_overlay",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "The control identifies the exact controller review queue",
-      "failure_cap": null,
-      "id": "decision_control__review_queue",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "The aggregate close-release decision holds the flagged jobs for controller review",
-      "failure_cap": null,
-      "id": "decision_control__close_release",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "provenance",
-      "description": "The decision control cites the signed WIP policy",
-      "failure_cap": null,
-      "id": "decision_control__policy_basis",
-      "semantic": false,
-      "weight": 3
-    }
-  ],
+  "criteria": null,
   "deterministic_verifier": "graders/apex.py",
-  "grading_revision": "weighted-atomic-hybrid-v4",
+  "grading_revision": "weighted-atomic-hybrid-v11-accounting-control-wip-review",
   "integrity_verifier": "graders/integrity.py",
+  "reference_contract": {
+    "accounting_control": {
+      "base_cutoff": "2026-05-31",
+      "billing_population": "non-voided customer invoices",
+      "contract_rollforward": "original contract plus approved change orders",
+      "cutoff": "2026-06-30",
+      "rows": [
+        {
+          "billings": {
+            "activity": 189869.94,
+            "base": 8512152.76,
+            "close": 8702022.7
+          },
+          "current_contract": {
+            "activity": 742500.0,
+            "base": 8650000.0,
+            "close": 9392500.0
+          },
+          "job_cost": {
+            "activity": 182853.95,
+            "base": 6926546.05,
+            "close": 7109400.0
+          },
+          "project_id": "ARM-2318"
+        },
+        {
+          "billings": {
+            "activity": 79513.55,
+            "base": 4296079.58,
+            "close": 4375593.13
+          },
+          "current_contract": {
+            "activity": 286000.0,
+            "base": 5240000.0,
+            "close": 5526000.0
+          },
+          "job_cost": {
+            "activity": 161892.13,
+            "base": 3569607.87,
+            "close": 3731500.0
+          },
+          "project_id": "ARM-2409"
+        },
+        {
+          "billings": {
+            "activity": 184479.06,
+            "base": 5930347.24,
+            "close": 6114826.3
+          },
+          "current_contract": {
+            "activity": 612000.0,
+            "base": 9875000.0,
+            "close": 10487000.0
+          },
+          "job_cost": {
+            "activity": 318508.0,
+            "base": 4891292.0,
+            "close": 5209800.0
+          },
+          "project_id": "ARM-2417"
+        },
+        {
+          "billings": {
+            "activity": 170948.0,
+            "base": 4964633.06,
+            "close": 5135581.06
+          },
+          "current_contract": {
+            "activity": 330000.0,
+            "base": 11250000.0,
+            "close": 11580000.0
+          },
+          "job_cost": {
+            "activity": 398541.55,
+            "base": 3885358.45,
+            "close": 4283900.0
+          },
+          "project_id": "ARM-2506"
+        }
+      ],
+      "total": {
+        "billings": {
+          "activity": 624810.55,
+          "base": 23703212.64,
+          "close": 24328023.19
+        },
+        "current_contract": {
+          "activity": 1970500.0,
+          "base": 35015000.0,
+          "close": 36985500.0
+        },
+        "job_cost": {
+          "activity": 1061795.63,
+          "base": 19272804.37,
+          "close": 20334600.0
+        }
+      }
+    },
+    "commercial_recovery_sensitivity": {
+      "basis": "Sensitivity only; pending commercial revenue is not authorized, booked, or included in the June 30 close.",
+      "projects": [
+        {
+          "close_eac": 7328200.0,
+          "hypothetical_contract": 9460500,
+          "hypothetical_margin": 2132300.0,
+          "hypothetical_margin_rate": 0.2253897785529306,
+          "incremental_margin": 68000,
+          "pending_revenue": 68000,
+          "project_id": "ARM-2318"
+        },
+        {
+          "close_eac": 4500500.0,
+          "hypothetical_contract": 5711000,
+          "hypothetical_margin": 1210500.0,
+          "hypothetical_margin_rate": 0.21195937664156891,
+          "incremental_margin": 185000,
+          "pending_revenue": 185000,
+          "project_id": "ARM-2409"
+        },
+        {
+          "close_eac": 8532800.0,
+          "hypothetical_contract": 10869000,
+          "hypothetical_margin": 2336200.0,
+          "hypothetical_margin_rate": 0.21494157696200203,
+          "incremental_margin": 382000,
+          "pending_revenue": 382000,
+          "project_id": "ARM-2417"
+        },
+        {
+          "close_eac": 9224900.0,
+          "hypothetical_contract": 11876000,
+          "hypothetical_margin": 2651100.0,
+          "hypothetical_margin_rate": 0.22323172785449646,
+          "incremental_margin": 296000,
+          "pending_revenue": 296000,
+          "project_id": "ARM-2506"
+        }
+      ],
+      "total": {
+        "close_eac": 29586400.0,
+        "hypothetical_contract": 37916500,
+        "hypothetical_margin": 8330100.0,
+        "hypothetical_margin_rate": 0.21969591075125605,
+        "incremental_margin": 931000,
+        "pending_revenue": 931000
+      }
+    },
+    "decision_control": {
+      "close_case_eac": 29586400.0,
+      "close_case_margin": 7399100.0,
+      "close_release_decision": "Hold close release pending controller review of the three flagged jobs.",
+      "largest_overlay_project": "ARM-2417",
+      "margin_impact": -715000.0,
+      "pending_revenue_included": false,
+      "pm_case_eac": 28871400.0,
+      "pm_case_margin": 8114100.0,
+      "review_queue": [
+        "ARM-2409",
+        "ARM-2417",
+        "ARM-2506"
+      ],
+      "review_required_count": 3
+    },
+    "decision_rows": [
+      {
+        "close_case_eac": 7328200.0,
+        "close_case_margin": 2064300.0,
+        "close_disposition": "Release with monitoring",
+        "commercial_reference": "PCO-029",
+        "controller_review_required": false,
+        "margin_impact": -45000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 7283200.0,
+        "pm_case_margin": 2109300.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2318",
+        "required_follow_up": "Monitor the retest closeout; exclude the disputed recovery and carry the probable cost.",
+        "required_follow_up_tokens": [
+          [
+            "retest"
+          ],
+          [
+            "monitor",
+            "closeout"
+          ]
+        ]
+      },
+      {
+        "close_case_eac": 4500500.0,
+        "close_case_margin": 1025500.0,
+        "close_disposition": "Hold for controller review",
+        "commercial_reference": "PCO-011",
+        "controller_review_required": true,
+        "margin_impact": -185000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 4315500.0,
+        "pm_case_margin": 1210500.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2409",
+        "required_follow_up": "Obtain trade acceptance before recognizing the disputed backcharge recovery.",
+        "required_follow_up_tokens": [
+          [
+            "backcharge",
+            "recovery"
+          ],
+          [
+            "accept",
+            "accepted",
+            "acceptance"
+          ]
+        ]
+      },
+      {
+        "close_case_eac": 8532800.0,
+        "close_case_margin": 1954200.0,
+        "close_disposition": "Hold for controller review",
+        "commercial_reference": "PCO-017",
+        "controller_review_required": true,
+        "margin_impact": -275000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 8257800.0,
+        "pm_case_margin": 2229200.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2417",
+        "required_follow_up": "Obtain the executed owner directive before recognizing the pending revenue.",
+        "required_follow_up_tokens": [
+          [
+            "owner directive",
+            "directive"
+          ],
+          [
+            "executed",
+            "signed"
+          ]
+        ]
+      },
+      {
+        "close_case_eac": 9224900.0,
+        "close_case_margin": 2355100.0,
+        "close_disposition": "Hold for controller review",
+        "commercial_reference": "PCO-006",
+        "controller_review_required": true,
+        "margin_impact": -210000.0,
+        "pending_revenue_included": false,
+        "pm_case_eac": 9014900.0,
+        "pm_case_margin": 2565100.0,
+        "policy_reference": "FIN-REV-04",
+        "project_id": "ARM-2506",
+        "required_follow_up": "Obtain executed pricing for DB-27 before recognizing the pending revenue.",
+        "required_follow_up_tokens": [
+          [
+            "db-27",
+            "db27",
+            "design bulletin"
+          ],
+          [
+            "pricing",
+            "price"
+          ],
+          [
+            "executed",
+            "approved"
+          ]
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "billings": 8702022.7,
+        "branch": "Portland",
+        "cost_to_date": 7109400.0,
+        "current_contract": 9392500,
+        "earned_revenue": 9112065.65,
+        "estimated_cost_at_completion": 7328200.0,
+        "estimated_cost_to_complete": 218800,
+        "estimated_margin": 2002665.65,
+        "estimated_margin_percent": 0.219782,
+        "estimated_total_margin": 2064300.0,
+        "margin_movement_bps": -47.91,
+        "overbilling": 0,
+        "percent_complete": 0.9701427362790317,
+        "prior_margin_percent": 0.22457279744476977,
+        "project_id": "ARM-2318",
+        "project_manager": "Maya Chen",
+        "project_name": "Columbia Biologics Clean Utilities",
+        "status": "Substantially Complete",
+        "underbilling": 410042.95
+      },
+      {
+        "billings": 4375593.13,
+        "branch": "Portland",
+        "cost_to_date": 3731500.0,
+        "current_contract": 5526000,
+        "earned_revenue": 4581772.91,
+        "estimated_cost_at_completion": 4500500.0,
+        "estimated_cost_to_complete": 769000,
+        "estimated_margin": 850272.91,
+        "estimated_margin_percent": 0.185577,
+        "estimated_total_margin": 1025500.0,
+        "margin_movement_bps": -334.78,
+        "overbilling": 0,
+        "percent_complete": 0.8291300966559271,
+        "prior_margin_percent": 0.21905537459283386,
+        "project_id": "ARM-2409",
+        "project_manager": "Priya Raman",
+        "project_name": "Northline Cold Storage Expansion",
+        "status": "Active",
+        "underbilling": 206179.78
+      },
+      {
+        "billings": 6114826.3,
+        "branch": "Portland",
+        "cost_to_date": 5209800.0,
+        "current_contract": 10487000,
+        "earned_revenue": 6402959.47,
+        "estimated_cost_at_completion": 8532800.0,
+        "estimated_cost_to_complete": 3323000,
+        "estimated_margin": 1193159.47,
+        "estimated_margin_percent": 0.186345,
+        "estimated_total_margin": 1954200.0,
+        "margin_movement_bps": -262.23,
+        "overbilling": 0,
+        "percent_complete": 0.61056159759985,
+        "prior_margin_percent": 0.21256794126060838,
+        "project_id": "ARM-2417",
+        "project_manager": "Maya Chen",
+        "project_name": "Cascade Health Ambulatory Pavilion",
+        "status": "Active",
+        "underbilling": 288133.17
+      },
+      {
+        "billings": 5135581.06,
+        "branch": "Portland",
+        "cost_to_date": 4283900.0,
+        "current_contract": 11580000,
+        "earned_revenue": 5377571.79,
+        "estimated_cost_at_completion": 9224900.0,
+        "estimated_cost_to_complete": 4941000,
+        "estimated_margin": 1093671.79,
+        "estimated_margin_percent": 0.203377,
+        "estimated_total_margin": 2355100.0,
+        "margin_movement_bps": -181.34,
+        "overbilling": 0,
+        "percent_complete": 0.46438443777168315,
+        "prior_margin_percent": 0.22151122625215888,
+        "project_id": "ARM-2506",
+        "project_manager": "Priya Raman",
+        "project_name": "Eastbank Data Hall Cooling Expansion",
+        "status": "Active",
+        "underbilling": 241990.73
+      }
+    ],
+    "review_rows": [
+      {
+        "controller_review_required": false,
+        "cost_amount": 45000,
+        "netted_claim_or_backcharge": false,
+        "project_id": "ARM-2318",
+        "reference": "PCO-029",
+        "revenue_amount": 68000
+      },
+      {
+        "controller_review_required": true,
+        "cost_amount": 185000,
+        "netted_claim_or_backcharge": true,
+        "project_id": "ARM-2409",
+        "reference": "PCO-011",
+        "revenue_amount": 185000
+      },
+      {
+        "controller_review_required": true,
+        "cost_amount": 275000,
+        "netted_claim_or_backcharge": false,
+        "project_id": "ARM-2417",
+        "reference": "PCO-017",
+        "revenue_amount": 382000
+      },
+      {
+        "controller_review_required": true,
+        "cost_amount": 210000,
+        "netted_claim_or_backcharge": false,
+        "project_id": "ARM-2506",
+        "reference": "PCO-006",
+        "revenue_amount": 296000
+      }
+    ],
+    "source_inputs": [
+      {
+        "billings": 8702022.7,
+        "cost_to_date": 7109400.0,
+        "current_contract": 9392500,
+        "documented_etc_overlay": 45000,
+        "pm_etc": 173800,
+        "prior_close_margin_percent": 0.22457279744476977,
+        "project_id": "ARM-2318"
+      },
+      {
+        "billings": 4375593.13,
+        "cost_to_date": 3731500.0,
+        "current_contract": 5526000,
+        "documented_etc_overlay": 185000,
+        "pm_etc": 584000,
+        "prior_close_margin_percent": 0.21905537459283386,
+        "project_id": "ARM-2409"
+      },
+      {
+        "billings": 6114826.3,
+        "cost_to_date": 5209800.0,
+        "current_contract": 10487000,
+        "documented_etc_overlay": 275000,
+        "pm_etc": 3048000,
+        "prior_close_margin_percent": 0.21256794126060838,
+        "project_id": "ARM-2417"
+      },
+      {
+        "billings": 5135581.06,
+        "cost_to_date": 4283900.0,
+        "current_contract": 11580000,
+        "documented_etc_overlay": 210000,
+        "pm_etc": 4731000,
+        "prior_close_margin_percent": 0.22151122625215888,
+        "project_id": "ARM-2506"
+      }
+    ],
+    "totals": {
+      "C11": 36985500,
+      "D11": 20334600.0,
+      "E11": 8536800,
+      "F11": 715000,
+      "G11": 9251800,
+      "H11": 29586400.0,
+      "I11": 0.6872955141551523,
+      "J11": 25474369.82,
+      "K11": 24328023.19,
+      "L11": 1146346.63,
+      "M11": 0,
+      "N11": 7399100.0,
+      "O11": 0.2000540752457044,
+      "P11": 0.21938597558502657,
+      "Q11": -193.31900339322166
+    }
+  },
   "reward_policy": "graders/rubric.py",
   "reward_type": "weighted_partial_credit",
   "semantic_verifier": "graders/production_semantic.py",

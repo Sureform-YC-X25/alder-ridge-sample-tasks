@@ -15,7 +15,7 @@ def _workspace_slug(task_id: str, declared_slug: str | None=None) -> str | None:
     return declared_slug
 
 def prepare_task_workspace(task_id: str, runtime_root: Path, *, task_slug: str | None=None, seed_root: Path | None=None) -> None:
-    """The sample packages only the shared canonical workspace; no task overlays."""
+    """The selected sample uses the shared canonical workspace without overlays."""
     return None
 
 def invalidate_on_grading_error(result: dict[str, Any]) -> dict[str, Any]:
@@ -58,7 +58,7 @@ def _compact_semantic_review(semantic_review: Any) -> Any:
     """
     if not isinstance(semantic_review, Mapping):
         return semantic_review
-    compact = {key: value for (key, value) in semantic_review.items() if key != 'criteria'}
+    compact = {key: value for key, value in semantic_review.items() if key != 'criteria'}
     criteria = semantic_review.get('criteria')
     if isinstance(criteria, list):
         compact.update({'criteria_total': len(criteria), 'criteria_met': sum((bool(row.get('final_met')) for row in criteria if isinstance(row, Mapping))), 'criteria_transport_scope': 'aggregate semantic audit; complete per-criterion semantic evidence is persisted in the grader sidecar'})
@@ -104,10 +104,12 @@ def persist_grade_sidecar(*, task_id: str, result: dict[str, Any], state_root: P
     temporary.write_text(json.dumps({'task_id': task_id, 'result': result}, default=str), encoding='utf-8')
     temporary.replace(path)
 
-def register_task_templates(env: Any, runtime_root: Path, state_root: Path, project_root: Path, *, semantic_credentials: Mapping[str, str | None]) -> dict[str, Any]:
-    """Register twelve independently runnable tasks on one company world."""
+def register_task_templates(env: Any, runtime_root: Path, state_root: Path, project_root: Path, *, semantic_credentials: Mapping[str, str | None], included_task_ids: frozenset[str] | None=None) -> dict[str, Any]:
+    """Register the requested independently runnable tasks on one company world."""
     registered: dict[str, Any] = {}
     for spec in TASKS:
+        if included_task_ids is not None and spec.task_id not in included_task_ids:
+            continue
         task_id = spec.task_id
         prompt = spec.prompt
         workspace_slug = _workspace_slug(task_id, spec.slug)
@@ -126,7 +128,7 @@ def register_task_templates(env: Any, runtime_root: Path, state_root: Path, proj
             semantic_integrity: dict[str, Any] = {}
             try:
                 accounting_exports = verified_accounting_exports(state_root=state_root, workspace_root=runtime_root)
-                (result, semantic_integrity) = await verify_semantic_review(task_id=_task_id, prompt=_prompt, result=result, project_root=project_root, hud_api_key=semantic_credentials.get('hud_api_key'), openai_api_key=semantic_credentials.get('openai_api_key'), submission_evidence=submission_integrity_evidence(task_id=_task_id, final_answer=answer, workspace_root=runtime_root), authorized_accounting_exports=accounting_exports)
+                result, semantic_integrity = await verify_semantic_review(task_id=_task_id, prompt=_prompt, result=result, project_root=project_root, hud_api_key=semantic_credentials.get('hud_api_key'), openai_api_key=semantic_credentials.get('openai_api_key'), submission_evidence=submission_integrity_evidence(task_id=_task_id, final_answer=answer, workspace_root=runtime_root), authorized_accounting_exports=accounting_exports)
             except Exception as exc:
                 result['grading_error'] = f'production semantic verifier failed: {type(exc).__name__}: {exc}'
             integrity = assess_integrity(task_id=_task_id, before=before, workspace_root=runtime_root, database_path=database_path, final_answer=answer, semantic_integrity=semantic_integrity, observed_workspace_creations=observed_workspace_creations)

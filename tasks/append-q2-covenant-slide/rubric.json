@@ -1,217 +1,158 @@
 {
-  "criteria": [
-    {
-      "category": "integrity",
-      "description": "Exactly one slide is appended to the original deck",
-      "failure_cap": 0.0,
-      "id": "preservation__slide_count",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "integrity",
-      "description": "Original slide 1 retains its content, layout, and styling",
-      "failure_cap": 0.0,
-      "id": "preservation__slide_01",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "integrity",
-      "description": "Original slide 2 retains its content, layout, and styling",
-      "failure_cap": 0.0,
-      "id": "preservation__slide_02",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "integrity",
-      "description": "Original slide 3 retains its content, layout, and styling",
-      "failure_cap": 0.0,
-      "id": "preservation__slide_03",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "integrity",
-      "description": "Original slide 4 retains its content, layout, and styling",
-      "failure_cap": 0.0,
-      "id": "preservation__slide_04",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "integrity",
-      "description": "Original slide 5 retains its content, layout, and styling",
-      "failure_cap": 0.0,
-      "id": "preservation__slide_05",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "structure",
-      "description": "The appended slide has the requested title",
-      "failure_cap": null,
-      "id": "structure__title",
-      "semantic": true,
-      "weight": 1
-    },
-    {
-      "category": "structure",
-      "description": "The appended slide contains exactly one real PowerPoint table",
-      "failure_cap": null,
-      "id": "structure__table",
-      "semantic": false,
-      "weight": 1
-    },
-    {
-      "category": "presentation_quality",
-      "description": "The appended slide uses the existing deck background and visual palette",
-      "failure_cap": null,
-      "id": "style__visual_system",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "presentation_quality",
-      "description": "The appended slide title follows the deck's established hierarchy",
-      "failure_cap": null,
-      "id": "style__title_hierarchy",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "presentation_quality",
-      "description": "The covenant comparison is presented as a bounded, clearly headed review table",
-      "failure_cap": null,
-      "id": "style__table_readability",
-      "semantic": false,
-      "weight": 3
-    },
-    {
-      "category": "core_finance",
-      "description": "Leverage `posted` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__leverage__posted",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Leverage `pro_forma` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__leverage__pro_forma",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Leverage `threshold` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__leverage__threshold",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "Leverage `status` is correctly presented",
-      "failure_cap": 0.49,
-      "id": "metric__leverage__status",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Fccr `posted` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__fccr__posted",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Fccr `pro_forma` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__fccr__pro_forma",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Fccr `threshold` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__fccr__threshold",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "Fccr `status` is correctly presented",
-      "failure_cap": 0.49,
-      "id": "metric__fccr__status",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Tangible Net Worth `posted` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__tangible_net_worth__posted",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Tangible Net Worth `pro_forma` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__tangible_net_worth__pro_forma",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "core_finance",
-      "description": "Tangible Net Worth `threshold` is correctly presented",
-      "failure_cap": null,
-      "id": "metric__tangible_net_worth__threshold",
-      "semantic": false,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "Tangible Net Worth `status` is correctly presented",
-      "failure_cap": 0.49,
-      "id": "metric__tangible_net_worth__status",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "The WIP entry is identified as proposed",
-      "failure_cap": 0.49,
-      "id": "status__proposed",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "The WIP entry is identified as unposted",
-      "failure_cap": 0.49,
-      "id": "status__unposted",
-      "semantic": true,
-      "weight": 10
-    },
-    {
-      "category": "decision",
-      "description": "Both covenant bases are reported as compliant",
-      "failure_cap": 0.49,
-      "id": "status__compliant",
-      "semantic": true,
-      "weight": 10
-    }
-  ],
+  "criteria": null,
   "deterministic_verifier": "graders/apex.py",
-  "grading_revision": "weighted-atomic-hybrid-v7-covenant-slide-presentation-quality",
+  "grading_revision": "weighted-atomic-hybrid-v15-wip-reversal-sensitivity",
   "integrity_verifier": "graders/integrity.py",
+  "reference_contract": {
+    "cash_interest": 72784.57,
+    "cash_taxes": 0.0,
+    "compliant_posted": true,
+    "compliant_pro_forma": true,
+    "covenant_test_review": [
+      {
+        "denominator": 2975294.87,
+        "metric": "Leverage",
+        "posted_headroom": 2.6264,
+        "posted_numerator": 1111666.5,
+        "posted_result": 0.3736,
+        "pro_forma_denominator": 4251620.57,
+        "pro_forma_headroom": 2.7385,
+        "pro_forma_numerator": 1111666.5,
+        "pro_forma_result": 0.2615,
+        "threshold": 3.0
+      },
+      {
+        "denominator": 557784.8,
+        "metric": "Fixed-charge coverage",
+        "posted_headroom": 3.6492,
+        "posted_numerator": 2704794.87,
+        "posted_result": 4.8492,
+        "pro_forma_denominator": 557784.8,
+        "pro_forma_headroom": 5.9374,
+        "pro_forma_numerator": 3981120.57,
+        "pro_forma_result": 7.1374,
+        "threshold": 1.2
+      },
+      {
+        "denominator": 1.0,
+        "metric": "Tangible net worth",
+        "posted_headroom": 6547638.53,
+        "posted_numerator": 9047638.53,
+        "posted_result": 9047638.53,
+        "pro_forma_denominator": 1.0,
+        "pro_forma_headroom": 7823964.23,
+        "pro_forma_numerator": 10323964.23,
+        "pro_forma_result": 10323964.23,
+        "threshold": 2500000
+      }
+    ],
+    "deterioration_capacity": {
+      "binding_covenant": "FCCR",
+      "fccr": {
+        "posted": 2035453.11,
+        "pro_forma": 3311778.81
+      },
+      "leverage": {
+        "posted": 2604739.37,
+        "pro_forma": 3881065.07
+      },
+      "tangible_net_worth": {
+        "posted": 6547638.53,
+        "pro_forma": 7823964.23
+      }
+    },
+    "fccr_numerator_posted": 2704794.87,
+    "fccr_numerator_pro_forma": 3981120.57,
+    "fccr_posted": 4.8492,
+    "fccr_pro_forma": 7.1374,
+    "fixed_charges": 557784.8,
+    "funded_debt": 1111666.5,
+    "leverage_posted": 0.3736,
+    "leverage_pro_forma": 0.2615,
+    "ltm_adjusted_ebitda_posted": 2975294.87,
+    "ltm_adjusted_ebitda_pro_forma": 4251620.57,
+    "ltm_direct_equipment_financing": 600000.0,
+    "ltm_fixed_asset_additions": 870500.0,
+    "max_leverage": 3.0,
+    "min_fccr": 1.2,
+    "min_tangible_net_worth": 2500000,
+    "proposed_wip_adjustment": 1276325.7,
+    "scheduled_principal": 485000.23,
+    "tangible_net_worth_posted": 9047638.53,
+    "tangible_net_worth_pro_forma": 10323964.23,
+    "unfunded_capex": 270500.0,
+    "wip_reversal_sensitivity": [
+      {
+        "adjusted_ebitda": 3932539.145,
+        "compliant": true,
+        "fccr": 6.5653261706,
+        "fccr_deterioration_capacity": 2992697.385,
+        "fccr_numerator": 3662039.145,
+        "leverage": 0.2826841537,
+        "leverage_deterioration_capacity": 3561983.645,
+        "retained_wip_adjustment": 957244.275,
+        "reversal_percent": 0.25,
+        "tangible_net_worth": 10004882.805,
+        "tangible_net_worth_headroom": 7504882.805
+      },
+      {
+        "adjusted_ebitda": 3613457.72,
+        "compliant": true,
+        "fccr": 5.9932750408,
+        "fccr_deterioration_capacity": 2673615.96,
+        "fccr_numerator": 3342957.72,
+        "leverage": 0.3076461899,
+        "leverage_deterioration_capacity": 3242902.22,
+        "retained_wip_adjustment": 638162.85,
+        "reversal_percent": 0.5,
+        "tangible_net_worth": 9685801.38,
+        "tangible_net_worth_headroom": 7185801.38
+      },
+      {
+        "adjusted_ebitda": 2975294.87,
+        "compliant": true,
+        "fccr": 4.8491727813,
+        "fccr_deterioration_capacity": 2035453.11,
+        "fccr_numerator": 2704794.87,
+        "leverage": 0.3736323788,
+        "leverage_deterioration_capacity": 2604739.37,
+        "retained_wip_adjustment": 0.0,
+        "reversal_percent": 1.0,
+        "tangible_net_worth": 9047638.53,
+        "tangible_net_worth_headroom": 6547638.53
+      }
+    ],
+    "wip_review": [
+      {
+        "close_etc": 218800,
+        "finance_adjustment": 45000,
+        "net_wip_position": 410042.95,
+        "pm_etc": 173800,
+        "project_id": "ARM-2318"
+      },
+      {
+        "close_etc": 769000,
+        "finance_adjustment": 185000,
+        "net_wip_position": 206179.78,
+        "pm_etc": 584000,
+        "project_id": "ARM-2409"
+      },
+      {
+        "close_etc": 3323000,
+        "finance_adjustment": 275000,
+        "net_wip_position": 288133.17,
+        "pm_etc": 3048000,
+        "project_id": "ARM-2417"
+      },
+      {
+        "close_etc": 4941000,
+        "finance_adjustment": 210000,
+        "net_wip_position": 241990.73,
+        "pm_etc": 4731000,
+        "project_id": "ARM-2506"
+      }
+    ]
+  },
   "reward_policy": "graders/rubric.py",
   "reward_type": "weighted_partial_credit",
   "semantic_verifier": "graders/production_semantic.py",

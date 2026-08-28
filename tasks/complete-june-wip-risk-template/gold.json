@@ -1,4 +1,150 @@
 {
+  "accounting_control": {
+    "base_cutoff": "2026-05-31",
+    "billing_population": "non-voided customer invoices",
+    "contract_rollforward": "original contract plus approved change orders",
+    "cutoff": "2026-06-30",
+    "rows": [
+      {
+        "billings": {
+          "activity": 189869.94,
+          "base": 8512152.76,
+          "close": 8702022.7
+        },
+        "current_contract": {
+          "activity": 742500.0,
+          "base": 8650000.0,
+          "close": 9392500.0
+        },
+        "job_cost": {
+          "activity": 182853.95,
+          "base": 6926546.05,
+          "close": 7109400.0
+        },
+        "project_id": "ARM-2318"
+      },
+      {
+        "billings": {
+          "activity": 79513.55,
+          "base": 4296079.58,
+          "close": 4375593.13
+        },
+        "current_contract": {
+          "activity": 286000.0,
+          "base": 5240000.0,
+          "close": 5526000.0
+        },
+        "job_cost": {
+          "activity": 161892.13,
+          "base": 3569607.87,
+          "close": 3731500.0
+        },
+        "project_id": "ARM-2409"
+      },
+      {
+        "billings": {
+          "activity": 184479.06,
+          "base": 5930347.24,
+          "close": 6114826.3
+        },
+        "current_contract": {
+          "activity": 612000.0,
+          "base": 9875000.0,
+          "close": 10487000.0
+        },
+        "job_cost": {
+          "activity": 318508.0,
+          "base": 4891292.0,
+          "close": 5209800.0
+        },
+        "project_id": "ARM-2417"
+      },
+      {
+        "billings": {
+          "activity": 170948.0,
+          "base": 4964633.06,
+          "close": 5135581.06
+        },
+        "current_contract": {
+          "activity": 330000.0,
+          "base": 11250000.0,
+          "close": 11580000.0
+        },
+        "job_cost": {
+          "activity": 398541.55,
+          "base": 3885358.45,
+          "close": 4283900.0
+        },
+        "project_id": "ARM-2506"
+      }
+    ],
+    "total": {
+      "billings": {
+        "activity": 624810.55,
+        "base": 23703212.64,
+        "close": 24328023.19
+      },
+      "current_contract": {
+        "activity": 1970500.0,
+        "base": 35015000.0,
+        "close": 36985500.0
+      },
+      "job_cost": {
+        "activity": 1061795.63,
+        "base": 19272804.37,
+        "close": 20334600.0
+      }
+    }
+  },
+  "commercial_recovery_sensitivity": {
+    "basis": "Sensitivity only; pending commercial revenue is not authorized, booked, or included in the June 30 close.",
+    "projects": [
+      {
+        "close_eac": 7328200.0,
+        "hypothetical_contract": 9460500,
+        "hypothetical_margin": 2132300.0,
+        "hypothetical_margin_rate": 0.2253897785529306,
+        "incremental_margin": 68000,
+        "pending_revenue": 68000,
+        "project_id": "ARM-2318"
+      },
+      {
+        "close_eac": 4500500.0,
+        "hypothetical_contract": 5711000,
+        "hypothetical_margin": 1210500.0,
+        "hypothetical_margin_rate": 0.21195937664156891,
+        "incremental_margin": 185000,
+        "pending_revenue": 185000,
+        "project_id": "ARM-2409"
+      },
+      {
+        "close_eac": 8532800.0,
+        "hypothetical_contract": 10869000,
+        "hypothetical_margin": 2336200.0,
+        "hypothetical_margin_rate": 0.21494157696200203,
+        "incremental_margin": 382000,
+        "pending_revenue": 382000,
+        "project_id": "ARM-2417"
+      },
+      {
+        "close_eac": 9224900.0,
+        "hypothetical_contract": 11876000,
+        "hypothetical_margin": 2651100.0,
+        "hypothetical_margin_rate": 0.22323172785449646,
+        "incremental_margin": 296000,
+        "pending_revenue": 296000,
+        "project_id": "ARM-2506"
+      }
+    ],
+    "total": {
+      "close_eac": 29586400.0,
+      "hypothetical_contract": 37916500,
+      "hypothetical_margin": 8330100.0,
+      "hypothetical_margin_rate": 0.21969591075125605,
+      "incremental_margin": 931000,
+      "pending_revenue": 931000
+    }
+  },
   "decision_control": {
     "close_case_eac": 29586400.0,
     "close_case_margin": 7399100.0,

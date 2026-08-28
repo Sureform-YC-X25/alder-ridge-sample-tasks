@@ -7,7 +7,8 @@
     "commercial and policy treatment",
     "formula outputs",
     "PM-to-close margin bridge",
-    "controller release decision and review queue"
+    "controller release decision and review queue",
+    "accounting-to-workpaper roll-forward for job cost, billings, and current contract"
   ],
   "minimum_source_artifacts": [
     "Requests/7.1.26_822am - Fwd_ wip close need today.eml",

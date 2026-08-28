@@ -22,7 +22,7 @@ ADDITIONAL_REQUIRED_ARTIFACTS = {}
 def _sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open('rb') as handle:
-        for chunk in iter(lambda : handle.read(1024 * 1024), b''):
+        for chunk in iter(lambda: handle.read(1024 * 1024), b''):
             digest.update(chunk)
     return digest.hexdigest()
 
@@ -137,7 +137,7 @@ class WorkspaceCreationMonitor:
                 return False
             self._libc = libc
             self._fd = fd
-            for (directory, subdirectories, _files) in os.walk(self.workspace_root):
+            for directory, subdirectories, _files in os.walk(self.workspace_root):
                 self._add_linux_watch(Path(directory))
                 subdirectories.sort()
             return True
@@ -167,7 +167,7 @@ class WorkspaceCreationMonitor:
                 return
             offset = 0
             while offset + 16 <= len(data):
-                (watch, mask, _cookie, name_length) = struct.unpack_from('iIII', data, offset)
+                watch, mask, _cookie, name_length = struct.unpack_from('iIII', data, offset)
                 offset += 16
                 raw_name = data[offset:offset + name_length]
                 offset += name_length
@@ -192,7 +192,7 @@ class WorkspaceCreationMonitor:
         assert self._fd is not None
         try:
             while not self._stop.is_set():
-                (readable, _, _) = select.select([self._fd], [], [], self.poll_interval)
+                readable, _, _ = select.select([self._fd], [], [], self.poll_interval)
                 if readable:
                     self._drain_linux_events()
             self._drain_linux_events()
@@ -313,10 +313,10 @@ def assess_integrity(*, task_id: str, before: IntegritySnapshot, workspace_root:
     target = artifacts[0] if artifacts else None
     additional_targets = artifacts[1:]
     allowed = set(artifacts)
-    (forbidden_changes, allowed_auxiliary) = classify_workspace_mutations(changed=changed, created=created, deleted=deleted, target=target, additional_allowed=additional_targets, allow_auxiliary=task_id not in _STRICT_RESPONSE_ONLY_TASKS)
+    forbidden_changes, allowed_auxiliary = classify_workspace_mutations(changed=changed, created=created, deleted=deleted, target=target, additional_allowed=additional_targets, allow_auxiliary=task_id not in _STRICT_RESPONSE_ONLY_TASKS)
     transient_created = sorted(set(observed_workspace_creations) - set(created))
     if task_id in _STRICT_RESPONSE_ONLY_TASKS:
-        (transient_forbidden, _) = classify_workspace_mutations(changed=[], created=transient_created, deleted=[], target=target, additional_allowed=additional_targets, allow_auxiliary=False)
+        transient_forbidden, _ = classify_workspace_mutations(changed=[], created=transient_created, deleted=[], target=target, additional_allowed=additional_targets, allow_auxiliary=False)
         forbidden_changes = sorted(set(forbidden_changes) | set(transient_forbidden))
     failures: list[dict[str, Any]] = []
     after_db_hash = _sha256(database) if database.is_file() else None
@@ -342,4 +342,4 @@ def assess_integrity(*, task_id: str, before: IntegritySnapshot, workspace_root:
         failures.append({'code': 'fabricated_evidence', 'message': str(semantic_integrity.get('fabricated_evidence_reason') or 'The environment-aligned verifier found a material fabricated source or evidence claim.')})
     if semantic_integrity.get('hidden_data_leak') is True:
         failures.append({'code': 'hidden_gold_leak', 'message': str(semantic_integrity.get('hidden_data_leak_reason') or 'The environment-aligned verifier found private reference material in the submission.')})
-    return {'version': 2, 'task_id': task_id, 'required_artifact': target, 'required_artifacts': list(artifacts), 'allowed_workspace_mutations': sorted(allowed), 'changed_files': changed, 'created_files': created, 'deleted_files': deleted, 'observed_workspace_creations': sorted(set(observed_workspace_creations)), 'transient_created_files': transient_created, 'forbidden_workspace_mutations': forbidden_changes, 'allowed_auxiliary_files': allowed_auxiliary, 'database_changed': before.database_sha256 != after_db_hash, 'audit_log_changed': before.audit_event_count != after_audit_count, 'prohibited_tool_actions': audit_events, 'artifact_readable': all((status[0] for status in artifact_statuses.values())) if artifact_statuses else None, 'artifact_readability_evidence': {artifact: status[1] for (artifact, status) in artifact_statuses.items()} if artifact_statuses else None, 'semantic_integrity': semantic_integrity, 'startup_isolation_attestation': startup_isolation_attestation(), 'hard_failures': failures}
+    return {'version': 2, 'task_id': task_id, 'required_artifact': target, 'required_artifacts': list(artifacts), 'allowed_workspace_mutations': sorted(allowed), 'changed_files': changed, 'created_files': created, 'deleted_files': deleted, 'observed_workspace_creations': sorted(set(observed_workspace_creations)), 'transient_created_files': transient_created, 'forbidden_workspace_mutations': forbidden_changes, 'allowed_auxiliary_files': allowed_auxiliary, 'database_changed': before.database_sha256 != after_db_hash, 'audit_log_changed': before.audit_event_count != after_audit_count, 'prohibited_tool_actions': audit_events, 'artifact_readable': all((status[0] for status in artifact_statuses.values())) if artifact_statuses else None, 'artifact_readability_evidence': {artifact: status[1] for artifact, status in artifact_statuses.items()} if artifact_statuses else None, 'semantic_integrity': semantic_integrity, 'startup_isolation_attestation': startup_isolation_attestation(), 'hard_failures': failures}

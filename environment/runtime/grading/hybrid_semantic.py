@@ -85,12 +85,15 @@ def apply_semantic_judgments(
         if isinstance(raw_judgment, dict):
             semantic_met = bool(raw_judgment.get("met"))
             reason = str(raw_judgment.get("reason") or "")
+            response_id = raw_judgment.get("response_id")
         elif raw_judgment is None:
             semantic_met = False
             reason = "semantic judge returned no verdict"
+            response_id = None
         else:
             semantic_met = bool(raw_judgment)
             reason = ""
+            response_id = None
         final_met = hard_gate_met and semantic_met
         lexical_value = int(bool(criterion.get("value")))
         criterion["value"] = int(final_met)
@@ -108,6 +111,7 @@ def apply_semantic_judgments(
                 "final_met": final_met,
                 "legacy_lexical_match": lexical_value,
                 "reason": reason,
+                "response_id": response_id,
             }
         )
 

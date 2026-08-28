@@ -10,4 +10,6 @@ Show the temporary-difference DTA, state-credit DTA, valuation allowance, net DT
 
 Complete the federal and state current-tax payable rollforwards and a balanced close-entry bridge from current and deferred tax through estimated payments, cash, ending payables, and the controller posting-release decision.
 
+For that close-entry bridge, use the controller-approved opening federal payable of $410,000, opening state payable of $165,000, FY26 federal estimated payments of $1,125,000, and FY26 state estimated payments of $505,000. These four close inputs supplement the v4 workbook and are part of this assignment's controlling materials.
+
 Document the controlling sources and workpaper status. Recalculate the workbook, confirm the checks clear and no spreadsheet errors remain, and save it in place.
