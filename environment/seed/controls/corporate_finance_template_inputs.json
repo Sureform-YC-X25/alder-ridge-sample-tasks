@@ -5,7 +5,7 @@
         {
           "entity": "Construction pricing",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 700000.0,
+          "numeric_value": 700000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -19,7 +19,7 @@
         {
           "entity": "Construction pricing",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 520000.0,
+          "numeric_value": 520000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -33,7 +33,7 @@
         {
           "entity": "Construction pricing",
           "measure": "Implementation cash cost",
-          "numeric_value": 50000.0,
+          "numeric_value": 50000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -47,7 +47,7 @@
         {
           "entity": "Construction pricing",
           "measure": "Earliest activation week",
-          "numeric_value": 3.0,
+          "numeric_value": 3,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -61,7 +61,7 @@
         {
           "entity": "Service productivity",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 500000.0,
+          "numeric_value": 500000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -75,7 +75,7 @@
         {
           "entity": "Service productivity",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 410000.0,
+          "numeric_value": 410000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -89,7 +89,7 @@
         {
           "entity": "Service productivity",
           "measure": "Implementation cash cost",
-          "numeric_value": 75000.0,
+          "numeric_value": 75000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -103,7 +103,7 @@
         {
           "entity": "Service productivity",
           "measure": "Earliest activation week",
-          "numeric_value": 2.0,
+          "numeric_value": 2,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -117,7 +117,7 @@
         {
           "entity": "Controls mix",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 350000.0,
+          "numeric_value": 350000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -131,7 +131,7 @@
         {
           "entity": "Controls mix",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 280000.0,
+          "numeric_value": 280000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -145,7 +145,7 @@
         {
           "entity": "Controls mix",
           "measure": "Implementation cash cost",
-          "numeric_value": 25000.0,
+          "numeric_value": 25000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -159,7 +159,7 @@
         {
           "entity": "Controls mix",
           "measure": "Earliest activation week",
-          "numeric_value": 4.0,
+          "numeric_value": 4,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -173,7 +173,7 @@
         {
           "entity": "Fixed opex freeze",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 600000.0,
+          "numeric_value": 600000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -187,7 +187,7 @@
         {
           "entity": "Fixed opex freeze",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 520000.0,
+          "numeric_value": 520000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -201,7 +201,7 @@
         {
           "entity": "Fixed opex freeze",
           "measure": "Implementation cash cost",
-          "numeric_value": 100000.0,
+          "numeric_value": 100000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -215,7 +215,7 @@
         {
           "entity": "Fixed opex freeze",
           "measure": "Earliest activation week",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -229,7 +229,7 @@
         {
           "entity": "Collections acceleration",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 0.0,
+          "numeric_value": 0,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -243,7 +243,7 @@
         {
           "entity": "Collections acceleration",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 650000.0,
+          "numeric_value": 650000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -257,7 +257,7 @@
         {
           "entity": "Collections acceleration",
           "measure": "Implementation cash cost",
-          "numeric_value": 40000.0,
+          "numeric_value": 40000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -271,7 +271,7 @@
         {
           "entity": "Collections acceleration",
           "measure": "Earliest activation week",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -285,7 +285,7 @@
         {
           "entity": "Capex deferral",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 0.0,
+          "numeric_value": 0,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -299,7 +299,7 @@
         {
           "entity": "Capex deferral",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 850000.0,
+          "numeric_value": 850000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -313,7 +313,7 @@
         {
           "entity": "Capex deferral",
           "measure": "Implementation cash cost",
-          "numeric_value": 0.0,
+          "numeric_value": 0,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -327,7 +327,7 @@
         {
           "entity": "Capex deferral",
           "measure": "Earliest activation week",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -341,7 +341,7 @@
         {
           "entity": "Procurement savings",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 450000.0,
+          "numeric_value": 450000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -355,7 +355,7 @@
         {
           "entity": "Procurement savings",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 360000.0,
+          "numeric_value": 360000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -369,7 +369,7 @@
         {
           "entity": "Procurement savings",
           "measure": "Implementation cash cost",
-          "numeric_value": 35000.0,
+          "numeric_value": 35000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -383,7 +383,7 @@
         {
           "entity": "Procurement savings",
           "measure": "Earliest activation week",
-          "numeric_value": 5.0,
+          "numeric_value": 5,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -397,7 +397,7 @@
         {
           "entity": "Targeted overhead reduction",
           "measure": "Annual EBITDA benefit",
-          "numeric_value": 800000.0,
+          "numeric_value": 800000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -411,7 +411,7 @@
         {
           "entity": "Targeted overhead reduction",
           "measure": "Annual operating cash benefit",
-          "numeric_value": 590000.0,
+          "numeric_value": 590000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -425,7 +425,7 @@
         {
           "entity": "Targeted overhead reduction",
           "measure": "Implementation cash cost",
-          "numeric_value": 180000.0,
+          "numeric_value": 180000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -439,7 +439,7 @@
         {
           "entity": "Targeted overhead reduction",
           "measure": "Earliest activation week",
-          "numeric_value": 2.0,
+          "numeric_value": 2,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -467,7 +467,7 @@
         {
           "entity": "Governance",
           "measure": "Minimum free cash flow",
-          "numeric_value": 0.0,
+          "numeric_value": 0,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -481,7 +481,7 @@
         {
           "entity": "Governance",
           "measure": "Maximum selected actions",
-          "numeric_value": 3.0,
+          "numeric_value": 3,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Downside contingency",
@@ -665,7 +665,7 @@
         {
           "entity": "Consolidated",
           "measure": "Capex",
-          "numeric_value": 3150000.0,
+          "numeric_value": 3150000,
           "period": "FY27",
           "scenario": "Base",
           "schedule": "Driver Inputs",
@@ -819,7 +819,7 @@
         {
           "entity": "Consolidated",
           "measure": "Capex",
-          "numeric_value": 2300.0,
+          "numeric_value": 2300,
           "period": "FY27",
           "scenario": "Downside",
           "schedule": "Driver Inputs",
@@ -973,7 +973,7 @@
         {
           "entity": "Consolidated",
           "measure": "Capex",
-          "numeric_value": 4100000.0,
+          "numeric_value": 4100000,
           "period": "FY27",
           "scenario": "Upside",
           "schedule": "Driver Inputs",
@@ -1001,7 +1001,7 @@
         {
           "entity": "Consolidated",
           "measure": "Fixed opex base",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "LTM 2026-06-30",
           "scenario": "Approved case",
           "schedule": "Driver Inputs",
@@ -1015,7 +1015,7 @@
         {
           "entity": "Consolidated",
           "measure": "Depreciation excluded from EBITDA",
-          "numeric_value": 420000.0,
+          "numeric_value": 420000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Driver Inputs",
@@ -1029,7 +1029,7 @@
         {
           "entity": "Consolidated",
           "measure": "Opening unrestricted cash",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1043,7 +1043,7 @@
         {
           "entity": "Consolidated",
           "measure": "Minimum unrestricted cash",
-          "numeric_value": 2250.0,
+          "numeric_value": 2250,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1057,7 +1057,7 @@
         {
           "entity": "Consolidated",
           "measure": "Revolver commitment",
-          "numeric_value": 8000000.0,
+          "numeric_value": 8000000,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1071,7 +1071,7 @@
         {
           "entity": "Consolidated",
           "measure": "Opening funded debt",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Covenant Inputs",
@@ -1085,7 +1085,7 @@
         {
           "entity": "Growth program",
           "measure": "Committed term-debt draw",
-          "numeric_value": 12000000.0,
+          "numeric_value": 12000000,
           "period": "FY27 Q1",
           "scenario": "Approved case",
           "schedule": "Covenant Inputs",
@@ -1099,7 +1099,7 @@
         {
           "entity": "Credit agreement",
           "measure": "Maximum gross leverage",
-          "numeric_value": 3.0,
+          "numeric_value": 3,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Covenant Inputs",
@@ -1113,7 +1113,7 @@
         {
           "entity": "Credit agreement",
           "measure": "Minimum fixed-charge coverage",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Covenant Inputs",
@@ -1183,7 +1183,7 @@
         {
           "entity": "Consolidated",
           "measure": "Seasonal cash adjustment",
-          "numeric_value": -1100000.0,
+          "numeric_value": -1100000,
           "period": "Q1",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1197,7 +1197,7 @@
         {
           "entity": "Consolidated",
           "measure": "Scheduled principal",
-          "numeric_value": 250000.0,
+          "numeric_value": 250000,
           "period": "Q1",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1225,7 +1225,7 @@
         {
           "entity": "Consolidated",
           "measure": "Seasonal cash adjustment",
-          "numeric_value": -900000.0,
+          "numeric_value": -900000,
           "period": "Q2",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1239,7 +1239,7 @@
         {
           "entity": "Consolidated",
           "measure": "Scheduled principal",
-          "numeric_value": 250000.0,
+          "numeric_value": 250000,
           "period": "Q2",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1267,7 +1267,7 @@
         {
           "entity": "Consolidated",
           "measure": "Seasonal cash adjustment",
-          "numeric_value": 500.0,
+          "numeric_value": 500,
           "period": "Q3",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1281,7 +1281,7 @@
         {
           "entity": "Consolidated",
           "measure": "Scheduled principal",
-          "numeric_value": 250000.0,
+          "numeric_value": 250000,
           "period": "Q3",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1309,7 +1309,7 @@
         {
           "entity": "Consolidated",
           "measure": "Seasonal cash adjustment",
-          "numeric_value": 1500000.0,
+          "numeric_value": 1500000,
           "period": "Q4",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -1323,7 +1323,7 @@
         {
           "entity": "Consolidated",
           "measure": "Scheduled principal",
-          "numeric_value": 250.0,
+          "numeric_value": 250,
           "period": "Q4",
           "scenario": "Approved case",
           "schedule": "Liquidity Inputs",
@@ -2781,7 +2781,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 31500.0,
+          "numeric_value": 31500,
           "period": "2026-07",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -2795,7 +2795,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 4500.0,
+          "numeric_value": 4500,
           "period": "2026-07",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -2837,7 +2837,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 2500.0,
+          "numeric_value": 2500,
           "period": "2026-07",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -2865,7 +2865,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2026-07",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -2879,7 +2879,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 31780.0,
+          "numeric_value": 31780,
           "period": "2026-08",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -2893,7 +2893,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 4500.0,
+          "numeric_value": 4500,
           "period": "2026-08",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -2935,7 +2935,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 2500.0,
+          "numeric_value": 2500,
           "period": "2026-08",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -2963,7 +2963,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2026-08",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -2977,7 +2977,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 32060.0,
+          "numeric_value": 32060,
           "period": "2026-09",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -2991,7 +2991,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 4500.0,
+          "numeric_value": 4500,
           "period": "2026-09",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3033,7 +3033,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 2500.0,
+          "numeric_value": 2500,
           "period": "2026-09",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3061,7 +3061,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2026-09",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3075,7 +3075,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 32340.0,
+          "numeric_value": 32340,
           "period": "2026-10",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3089,7 +3089,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 4500.0,
+          "numeric_value": 4500,
           "period": "2026-10",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3131,7 +3131,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 2500.0,
+          "numeric_value": 2500,
           "period": "2026-10",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3159,7 +3159,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2026-10",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3173,7 +3173,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 32620.0,
+          "numeric_value": 32620,
           "period": "2026-11",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3187,7 +3187,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 4500.0,
+          "numeric_value": 4500,
           "period": "2026-11",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3229,7 +3229,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 2500.0,
+          "numeric_value": 2500,
           "period": "2026-11",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3257,7 +3257,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2026-11",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3271,7 +3271,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 30100.0,
+          "numeric_value": 30100,
           "period": "2026-12",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3285,7 +3285,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 4500.0,
+          "numeric_value": 4500,
           "period": "2026-12",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3327,7 +3327,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 2500.0,
+          "numeric_value": 2500,
           "period": "2026-12",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3355,7 +3355,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2026-12",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3369,7 +3369,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 30380.0,
+          "numeric_value": 30380,
           "period": "2027-01",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3383,7 +3383,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 4500.0,
+          "numeric_value": 4500,
           "period": "2027-01",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3425,7 +3425,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 2500.0,
+          "numeric_value": 2500,
           "period": "2027-01",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3453,7 +3453,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2027-01",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3467,7 +3467,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 33460.0,
+          "numeric_value": 33460,
           "period": "2027-02",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3481,7 +3481,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 3200.0,
+          "numeric_value": 3200,
           "period": "2027-02",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3523,7 +3523,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 4000.0,
+          "numeric_value": 4000,
           "period": "2027-02",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3551,7 +3551,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2027-02",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3565,7 +3565,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 33740.0,
+          "numeric_value": 33740,
           "period": "2027-03",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3579,7 +3579,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 3200.0,
+          "numeric_value": 3200,
           "period": "2027-03",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3621,7 +3621,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 4000.0,
+          "numeric_value": 4000,
           "period": "2027-03",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3649,7 +3649,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2027-03",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3663,7 +3663,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 34020.0,
+          "numeric_value": 34020,
           "period": "2027-04",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3677,7 +3677,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 3200.0,
+          "numeric_value": 3200,
           "period": "2027-04",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3719,7 +3719,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 4000.0,
+          "numeric_value": 4000,
           "period": "2027-04",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3747,7 +3747,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2027-04",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3761,7 +3761,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 34300.0,
+          "numeric_value": 34300,
           "period": "2027-05",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3775,7 +3775,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 3200.0,
+          "numeric_value": 3200,
           "period": "2027-05",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3817,7 +3817,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 4000.0,
+          "numeric_value": 4000,
           "period": "2027-05",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3845,7 +3845,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2027-05",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3859,7 +3859,7 @@
         {
           "entity": "All field labor",
           "measure": "Productive internal hours",
-          "numeric_value": 34580.0,
+          "numeric_value": 34580,
           "period": "2027-06",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3873,7 +3873,7 @@
         {
           "entity": "All field labor",
           "measure": "Subcontractable hours",
-          "numeric_value": 3200.0,
+          "numeric_value": 3200,
           "period": "2027-06",
           "scenario": "Approved case",
           "schedule": "Monthly capacity",
@@ -3915,7 +3915,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract surge hours",
-          "numeric_value": 4000.0,
+          "numeric_value": 4000,
           "period": "2027-06",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3943,7 +3943,7 @@
         {
           "entity": "All field labor",
           "measure": "Contingent subcontract cost",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "2027-06",
           "scenario": "Approved case",
           "schedule": "Capacity remediation",
@@ -3959,7 +3959,7 @@
         {
           "entity": "P-3101",
           "measure": "Remaining transaction price",
-          "numeric_value": 8400000.0,
+          "numeric_value": 8400000,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -3987,7 +3987,7 @@
         {
           "entity": "P-3101",
           "measure": "Execution probability",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4001,7 +4001,7 @@
         {
           "entity": "P-3101",
           "measure": "Revenue per productive hour",
-          "numeric_value": 118.0,
+          "numeric_value": 118,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4183,7 +4183,7 @@
         {
           "entity": "P-3107",
           "measure": "Remaining transaction price",
-          "numeric_value": 6900.0,
+          "numeric_value": 6900,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4225,7 +4225,7 @@
         {
           "entity": "P-3107",
           "measure": "Revenue per productive hour",
-          "numeric_value": 126.0,
+          "numeric_value": 126,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4393,7 +4393,7 @@
         {
           "entity": "P-3114",
           "measure": "Remaining transaction price",
-          "numeric_value": 5600000.0,
+          "numeric_value": 5600000,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4421,7 +4421,7 @@
         {
           "entity": "P-3114",
           "measure": "Execution probability",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4435,7 +4435,7 @@
         {
           "entity": "P-3114",
           "measure": "Revenue per productive hour",
-          "numeric_value": 132.0,
+          "numeric_value": 132,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4575,7 +4575,7 @@
         {
           "entity": "P-3122",
           "measure": "Remaining transaction price",
-          "numeric_value": 4750000.0,
+          "numeric_value": 4750000,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4617,7 +4617,7 @@
         {
           "entity": "P-3122",
           "measure": "Revenue per productive hour",
-          "numeric_value": 120.0,
+          "numeric_value": 120,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4729,7 +4729,7 @@
         {
           "entity": "P-3130",
           "measure": "Remaining transaction price",
-          "numeric_value": 7200.0,
+          "numeric_value": 7200,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4771,7 +4771,7 @@
         {
           "entity": "P-3130",
           "measure": "Revenue per productive hour",
-          "numeric_value": 138.0,
+          "numeric_value": 138,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4869,7 +4869,7 @@
         {
           "entity": "P-3138",
           "measure": "Remaining transaction price",
-          "numeric_value": 3900000.0,
+          "numeric_value": 3900000,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4897,7 +4897,7 @@
         {
           "entity": "P-3138",
           "measure": "Execution probability",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4911,7 +4911,7 @@
         {
           "entity": "P-3138",
           "measure": "Revenue per productive hour",
-          "numeric_value": 125.0,
+          "numeric_value": 125,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -4995,7 +4995,7 @@
         {
           "entity": "P-3145",
           "measure": "Remaining transaction price",
-          "numeric_value": 5100000.0,
+          "numeric_value": 5100000,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -5037,7 +5037,7 @@
         {
           "entity": "P-3145",
           "measure": "Revenue per productive hour",
-          "numeric_value": 145.0,
+          "numeric_value": 145,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -5107,7 +5107,7 @@
         {
           "entity": "P-3152",
           "measure": "Remaining transaction price",
-          "numeric_value": 2850.0,
+          "numeric_value": 2850,
           "period": "2026-06-30",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -5135,7 +5135,7 @@
         {
           "entity": "P-3152",
           "measure": "Execution probability",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -5149,7 +5149,7 @@
         {
           "entity": "P-3152",
           "measure": "Revenue per productive hour",
-          "numeric_value": 130.0,
+          "numeric_value": 130,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Signed contract backlog",
@@ -5207,7 +5207,7 @@
         {
           "entity": "P-3101",
           "measure": "Customer delivery priority",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -5249,7 +5249,7 @@
         {
           "entity": "P-3107",
           "measure": "Customer delivery priority",
-          "numeric_value": 2.0,
+          "numeric_value": 2,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -5291,7 +5291,7 @@
         {
           "entity": "P-3114",
           "measure": "Customer delivery priority",
-          "numeric_value": 1.0,
+          "numeric_value": 1,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -5333,7 +5333,7 @@
         {
           "entity": "P-3122",
           "measure": "Customer delivery priority",
-          "numeric_value": 3.0,
+          "numeric_value": 3,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -5375,7 +5375,7 @@
         {
           "entity": "P-3130",
           "measure": "Customer delivery priority",
-          "numeric_value": 2.0,
+          "numeric_value": 2,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -5417,7 +5417,7 @@
         {
           "entity": "P-3138",
           "measure": "Customer delivery priority",
-          "numeric_value": 4.0,
+          "numeric_value": 4,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -5459,7 +5459,7 @@
         {
           "entity": "P-3145",
           "measure": "Customer delivery priority",
-          "numeric_value": 3.0,
+          "numeric_value": 3,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -5501,7 +5501,7 @@
         {
           "entity": "P-3152",
           "measure": "Customer delivery priority",
-          "numeric_value": 4.0,
+          "numeric_value": 4,
           "period": "FY27",
           "scenario": "Approved case",
           "schedule": "Execution authority",
@@ -6965,7 +6965,7 @@
         {
           "entity": "Meals nondeductible",
           "measure": "Taxable-income adjustment",
-          "numeric_value": 85000.0,
+          "numeric_value": 85000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax Adjustments",
@@ -6993,7 +6993,7 @@
         {
           "entity": "State tax addback",
           "measure": "Taxable-income adjustment",
-          "numeric_value": 420.0,
+          "numeric_value": 420,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax Adjustments",
@@ -7021,7 +7021,7 @@
         {
           "entity": "Bonus accrual",
           "measure": "Taxable-income adjustment",
-          "numeric_value": 310000.0,
+          "numeric_value": 310000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax Adjustments",
@@ -7049,7 +7049,7 @@
         {
           "entity": "Tax depreciation excess",
           "measure": "Taxable-income adjustment",
-          "numeric_value": -540.0,
+          "numeric_value": -540,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax Adjustments",
@@ -7077,7 +7077,7 @@
         {
           "entity": "Federal NOL utilized",
           "measure": "Taxable-income adjustment",
-          "numeric_value": -750000.0,
+          "numeric_value": -750000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax Adjustments",
@@ -7119,7 +7119,7 @@
         {
           "entity": "Alder Ridge",
           "measure": "Beginning net DTA after valuation allowance",
-          "numeric_value": 620000.0,
+          "numeric_value": 620000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax policy",
@@ -7133,7 +7133,7 @@
         {
           "entity": "Alder Ridge",
           "measure": "Beginning DTL",
-          "numeric_value": 880000.0,
+          "numeric_value": 880000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax policy",
@@ -7189,7 +7189,7 @@
         {
           "entity": "Alder Ridge",
           "measure": "State apportionable income",
-          "numeric_value": 9600000.0,
+          "numeric_value": 9600000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Tax policy",
@@ -7247,7 +7247,7 @@
         {
           "entity": "Cost of revenue",
           "measure": "Pretax book amount",
-          "numeric_value": -31900000.0,
+          "numeric_value": -31900000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Trial Balance",
@@ -7275,7 +7275,7 @@
         {
           "entity": "Interest expense",
           "measure": "Pretax book amount",
-          "numeric_value": -310.0,
+          "numeric_value": -310,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Trial Balance",
@@ -7289,7 +7289,7 @@
         {
           "entity": "Other income",
           "measure": "Pretax book amount",
-          "numeric_value": 145000.0,
+          "numeric_value": 145000,
           "period": "FY26",
           "scenario": "Approved case",
           "schedule": "Trial Balance",

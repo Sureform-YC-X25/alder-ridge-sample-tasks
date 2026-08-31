@@ -1,7 +1,7 @@
 {
   "criteria": null,
   "deterministic_verifier": "graders/apex.py",
-  "grading_revision": "weighted-atomic-hybrid-v11-accounting-control-wip-review",
+  "grading_revision": "weighted-atomic-hybrid-v12-evidence-discovery-wip-review",
   "integrity_verifier": "graders/integrity.py",
   "reference_contract": {
     "accounting_control": {

@@ -21,7 +21,7 @@ CORPORATE_TASK_IDS = frozenset(['task_027', 'task_035', 'task_037', 'task_055', 
 
 GOLD_PATH = Path(__file__).resolve().parent / 'gold' / 'tasks_001_025.json'
 SEED_WORKSPACE = resolve_seed_root(__file__) / 'sources'
-TASK_GRADING_REVISIONS = {'task_001': {'id': 'task-001-full-population-posting-register-v22', 'effective_date': '2026-08-28', 'basis': 'artifact-only source-grounded ARM-2409 grading with objective amounts, equations, and completeness checks separated from independently judged criterion-scoped conclusions, source bases, bridge drivers, evidence rows, actions, and approval state; each semantic judge receives the exact submitted field plus a source-derived answer key, while a separate integrity review checks fabricated evidence and hidden-data leakage; a deterministic PM-versus-policy-corrected close-impact bridge quantifies the actual revenue, asset, margin, and percentage-of-completion consequences of the recovery; a separately weighted accounting-source reconciliation cross-foots cost by cost type, billings, and the executed-contract roll-forward without hidden assumptions; professional annotations such as `variance $0 — ties` are parsed without requiring a bare-number cell, including ordinary zero-variance statuses such as `reconciled`; ordinary cutoff-date formats and preparer metadata labels are accepted; close-basis notes reach semantic review when they identify equivalent management-forecast and finance-adjusted cases rather than being filtered for authored labels; compact metric-source comments are not asked to duplicate facts graded by the separate evidence log, and ordinary policy equivalents such as `not netted` and `review trigger` are expressly accepted; review-basis and owner-action criteria do not demand approval-state or recognition-boundary language that is independently graded elsewhere; the workpaper now also includes a source-by-source PCO authority/clearance matrix and a three-stage June WIP posting bridge that reverses the final May gross WIP position, establishes the policy-corrected June gross position, and shows the resulting net June posting; objective dates, amounts, accounts, totals, balance controls, cross-foots, and stage-to-period equations are checked deterministically, while each source, stage-basis, and approval conclusion is judged only from its own submitted field; a separately weighted ETC-composition schedule cross-foots the five submitted PM forecast components and three PCO-011 recovery-correction components to the policy-corrected close ETC without inventing an allocation between those source layers; a source-backed June transaction-support section independently identifies the ten largest absolute ARM-2409 job-cost postings, reconciles the selected sample plus residual population by cost type and in total, and ties the single non-voided June billing line to the billing roll-forward; all identifiers, dates, amounts, counts, equations, and cross-foots are deterministic, while the human-readable billing status remains an independently scoped semantic check; a full-population June posting control now includes a one-row-per-entry register for all 23 AP and payroll job-cost entries plus a one-row-per-journal offset register, reconciling them to unique posted journals, project expense lines, non-project offset lines, and recorded control accounts, with deterministic duplicate, orphan, unposted, imbalance, and wrong-offset exception tests and one narrowly scoped professional reconciliation conclusion'}, 'task_004': {'id': 'task-004-accounting-control-wip-review-v7', 'effective_date': '2026-08-27', 'basis': 'project-level WIP finance and release decisions with stable proportional scoring; substantive source and calculation errors remain deductions while harmless workbook formatting changes cannot erase otherwise valid work, and abbreviated professional source references reach independently scoped semantic review with exact submitted cells and source-derived answer keys; the project queue, release decision, and each follow-up are scored independently from separately checked counts and neighboring support fields; a source-backed, formula-driven unbooked commercial-recovery sensitivity distinguishes booked close results from hypothetical fully authorized recoveries; a separately weighted accounting-to-workpaper control rolls May/base balances through June activity for posted job cost, non-voided billings, and original contract plus approved changes, then ties each project and the portfolio total to the WIP review'}, 'task_015': {'id': 'task-015-wip-reversal-sensitivity-v10', 'effective_date': '2026-08-27', 'basis': "source-complete covenant calculations using the disclosed working scaffold and executed agreement, an explicit $1,276,325.70 proposed-WIP basis and FCCR/TNW conventions, posted and pro-forma dollar deterioration capacity, binding-covenant identification, normal compliance-status wording, readable native PowerPoint structure, and content-preserving rather than pixel-identical handling of the existing lender deck, with proportional scoring and no single formatting or status-wording failure cap; each status and conclusion is judged from only its relevant slide row plus its disclosed covenant rule, status credit remains independent from separately scored numeric accuracy, and a scoped source-authority judge checks the slide's compact source note. A prompt-visible calculation-support block deterministically reconciles funded debt, posted and pro-forma EBITDA, cash taxes, capex financing, fixed charges, and both FCCR numerators so the displayed ratios can be reperformed from the slide; a prompt-visible 25%/50%/100% proposed-WIP reversal sensitivity independently checks retained adjustment, covenant values, headroom, equations, and scoped scenario status without treating the illustrative cases as posted or submitted"}, 'task_027': {'id': 'task-027-stable-scenario-model-v4', 'effective_date': '2026-08-26', 'basis': 'controller-visible FY27 source conventions plus formula-driven branch, EBITDA, free-cash-flow, weekly liquidity, lender leverage and fixed-charge coverage release decisions with proportional section-normalized finance and formula-lineage scoring, with professional row-label equivalence and deterministic repeatability'}, 'task_035': {'id': 'task-035-source-aligned-scoped-sign-status-v10', 'effective_date': '2026-08-26', 'basis': 'probability-plan, gross-commitment, executable-priority, contractual-damages, deferred-gross-profit, required-recovery, and release-condition decisions with disclosed sign and status conventions, professionally equivalent labels, deterministic formula-backed model/control checks, independently scoped and non-duplicative monthly, project, portfolio, and recovery judgment rows, equivalent causal recovery actions and release conditions, an explicit non-duplicative current-state boundary and explicit conditional-until equivalence for the final recovery decision, ordinary capacity-clear status equivalents, stable portfolio-release boundaries, source checks aligned to the actual non-MCP source manifest, and proportional section-normalized spreadsheet scoring'}, 'task_037': {'id': 'task-037-professional-capital-model-v2', 'effective_date': '2026-08-26', 'basis': 'source-complete capital-allocation model with formula-linked project and portfolio economics, normal finance labels, deterministic numeric checks, materiality-balanced committee-decision scoring, and no hidden all-or-nothing model cap'}, 'task_055': {'id': 'task-055-professional-accretion-model-v2', 'effective_date': '2026-08-26', 'basis': 'source-grounded acquisition accretion model accepting normal sources-and-uses and income-statement labels, conventional expense signs, and case-and-year-aware sensitivity intersections, a disclosed release rule, and formula-backed finance outcomes without phrase matching'}, 'task_061': {'id': 'task-061-source-complete-tax-provision-v1', 'effective_date': '2026-08-26', 'basis': 'tax-provision model with every graded opening balance and estimated payment disclosed, conventional valuation-allowance presentation, and independent roll-forward checks that preserve the correct economics'}, 'task_068': {'id': 'task-068-source-complete-central-work-v9', 'effective_date': '2026-08-26', 'basis': 'source-complete executive performance deck with deterministic posted-revenue, business-unit, cash, backlog, lender, and mitigation-chain checks; the accounting tie and executable mitigation decision carry eighty percent of the reward, unchanged seeded decks receive no deliverable credit, and each semantic review is limited to the slide or slides needed for that criterion'}, 'task_072': {'id': 'task-072-management-narrative-equivalence-v1', 'effective_date': '2026-08-26', 'basis': 'quarterly finance narrative graded from local paragraph and table context, including common million-dollar presentation and ordinary plan, variance, guidance, and operating-driver labels'}, 'task_073': {'id': 'task-073-disclosed-pro-forma-debt-basis-v1', 'effective_date': '2026-08-26', 'basis': 'credit-metrics model with the controlling pro-forma acquisition-facility draw and document-authority hierarchy stated in the task, so posted and pro-forma debt bases cannot be confused'}, 'task_100': {'id': 'task-100-board-language-equivalence-v2', 'effective_date': '2026-08-26', 'basis': 'source-grounded CFO board deck with deterministic finance checks and independent semantic rescue for normal executive labels, decisions, and status wording while unsupported conclusions remain uncredited and adjacent board-card booleans cannot contaminate one another'}}
+TASK_GRADING_REVISIONS = {'task_001': {'id': 'task-001-review-ready-controller-signoff-v24', 'effective_date': '2026-08-31', 'basis': 'concise professional request and realistic blank-input controller memo; all material facts are discoverable in the supplied close records and authorized accounting data; deterministic finance checks accept normal rounding, units, sign presentation, reordered tables, and equivalent row and column labels; open-ended conclusions, source authority, actions, and approval boundaries receive criterion-scoped semantic review that accepts normal business wording; June posting completeness is demonstrated through AP, payroll, billing, and aggregate controls rather than a hidden 23-line register; the disputed recovery is graded at its supported total without a required subjective component allocation; seven material workstreams receive stable proportional section weights with no phrase, formatting, or central-section reward cap'}, 'task_004': {'basis': 'a non-presolved controller workpaper removes the source map, policy recipe, and expected control counts while preserving a realistic four-project review shell; project-level WIP finance and release decisions with stable proportional scoring; substantive source and calculation errors remain deductions while harmless workbook formatting changes cannot erase otherwise valid work, and abbreviated professional source references reach independently scoped semantic review with exact submitted cells and source-derived answer keys; the project queue, release decision, and each follow-up are scored independently from separately checked counts and neighboring support fields; a source-backed, formula-driven unbooked commercial-recovery sensitivity distinguishes booked close results from hypothetical fully authorized recoveries; a separately weighted accounting-to-workpaper control rolls May/base balances through June activity for posted job cost, non-voided billings, and original contract plus approved changes, then ties each project and the portfolio total to the WIP review', 'effective_date': '2026-08-29', 'id': 'task-004-evidence-discovery-wip-review-v8'}, 'task_015': {'basis': "an objective-led lender request requires independent discovery and reperformance; all material assumptions, including the downside ladder, remain discoverable in the workspace rather than disclosed as a prompt recipe; source-complete covenant calculations using the working scaffold and executed agreement, an explicit $1,276,325.70 proposed-WIP basis and FCCR/TNW conventions, posted and pro-forma dollar deterioration capacity, binding-covenant identification, normal compliance-status wording, readable native PowerPoint structure, and content-preserving rather than pixel-identical handling of the existing lender deck, with proportional scoring and no single formatting or status-wording failure cap; each status and conclusion is judged from only its relevant slide row plus its disclosed covenant rule, status credit remains independent from separately scored numeric accuracy, and a scoped source-authority judge checks the slide's compact source note. A prompt-visible calculation-support block deterministically reconciles funded debt, posted and pro-forma EBITDA, cash taxes, capex financing, fixed charges, and both FCCR numerators so the displayed ratios can be reperformed from the slide; a prompt-visible 25%/50%/100% proposed-WIP reversal sensitivity independently checks retained adjustment, covenant values, headroom, equations, and scoped scenario status without treating the illustrative cases as posted or submitted", 'effective_date': '2026-08-29', 'id': 'task-015-objective-led-covenant-stress-v11'}, 'task_027': {'id': 'task-027-stable-scenario-model-v4', 'effective_date': '2026-08-26', 'basis': 'controller-visible FY27 source conventions plus formula-driven branch, EBITDA, free-cash-flow, weekly liquidity, lender leverage and fixed-charge coverage release decisions with proportional section-normalized finance and formula-lineage scoring, with professional row-label equivalence and deterministic repeatability'}, 'task_035': {'basis': 'a concise planning request and non-presolved model require the analyst to construct the probability-plan, gross-commitment, executable-priority, contractual-damages, deferred-gross-profit, required-recovery, and release-condition decisions with disclosed sign and status conventions, professionally equivalent labels, deterministic formula-backed model/control checks, independently scoped and non-duplicative monthly, project, portfolio, and recovery judgment rows, equivalent causal recovery actions and release conditions, an explicit non-duplicative current-state boundary and explicit conditional-until equivalence for the final recovery decision, ordinary capacity-clear status equivalents, stable portfolio-release boundaries, source checks aligned to the actual non-MCP source manifest, and proportional section-normalized spreadsheet scoring', 'effective_date': '2026-08-29', 'id': 'task-035-executable-backlog-capacity-decision-v11'}, 'task_037': {'id': 'task-037-professional-capital-model-v2', 'effective_date': '2026-08-26', 'basis': 'source-complete capital-allocation model with formula-linked project and portfolio economics, normal finance labels, deterministic numeric checks, materiality-balanced committee-decision scoring, and no hidden all-or-nothing model cap'}, 'task_055': {'id': 'task-055-professional-accretion-model-v2', 'effective_date': '2026-08-26', 'basis': 'source-grounded acquisition accretion model accepting normal sources-and-uses and income-statement labels, conventional expense signs, and case-and-year-aware sensitivity intersections, a disclosed release rule, and formula-backed finance outcomes without phrase matching'}, 'task_061': {'id': 'task-061-source-complete-tax-provision-v1', 'effective_date': '2026-08-26', 'basis': 'tax-provision model with every graded opening balance and estimated payment disclosed, conventional valuation-allowance presentation, and independent roll-forward checks that preserve the correct economics'}, 'task_068': {'basis': 'a concise executive request requires independent cross-source reconciliation and judgment; source-complete executive performance deck with deterministic posted-revenue, business-unit, cash, backlog, lender, and mitigation-chain checks; the accounting tie and executable mitigation decision carry eighty percent of the reward, unchanged seeded decks receive no deliverable credit, and each semantic review is limited to the slide or slides needed for that criterion', 'effective_date': '2026-08-29', 'id': 'task-068-executive-accounting-mitigation-decision-v10'}, 'task_072': {'id': 'task-072-management-narrative-equivalence-v1', 'effective_date': '2026-08-26', 'basis': 'quarterly finance narrative graded from local paragraph and table context, including common million-dollar presentation and ordinary plan, variance, guidance, and operating-driver labels'}, 'task_073': {'id': 'task-073-disclosed-pro-forma-debt-basis-v1', 'effective_date': '2026-08-26', 'basis': 'credit-metrics model with the controlling pro-forma acquisition-facility draw and document-authority hierarchy stated in the task, so posted and pro-forma debt bases cannot be confused'}, 'task_100': {'id': 'task-100-board-language-equivalence-v2', 'effective_date': '2026-08-26', 'basis': 'source-grounded CFO board deck with deterministic finance checks and independent semantic rescue for normal executive labels, decisions, and status wording while unsupported conclusions remain uncredited and adjacent board-card booleans cannot contaminate one another'}}
 
 @dataclass(frozen=True)
 class Criterion:
@@ -94,7 +94,7 @@ def _get(mapping: dict[str, Any], key: str) -> Any:
     if key in mapping:
         return mapping[key]
     wanted = _normalize(key)
-    for candidate, value in mapping.items():
+    for (candidate, value) in mapping.items():
         if _normalize(candidate) == wanted:
             return value
     return None
@@ -150,23 +150,23 @@ def _legacy_file_atomic_specs(task_id: str) -> list[tuple[str, str]]:
             for metric in ('leverage', 'fccr', 'tangible_net_worth'):
                 specs.extend(((f'metric__{metric}__{field}', f'{metric} {field}') for field in ('posted', 'pro_forma', 'threshold', 'posted_headroom', 'pro_forma_headroom', 'status')))
             specs.extend((('status__proposed', 'Proposed WIP status'), ('status__unposted', 'Unposted WIP status'), ('status__compliant', 'Compliance status'), ('headroom__binding_covenant', 'Binding covenant on like-for-like deterioration capacity'), ('source__authority', 'Source note identifies the controlling calculation and accounting authorities')))
-            specs.extend(((f'calculation_support__{field}', f'Calculation support {description}') for field, description in (('funded_debt', 'funded debt'), ('posted_adjusted_ebitda', 'posted adjusted EBITDA'), ('proposed_wip_adjustment', 'proposed WIP adjustment'), ('pro_forma_adjusted_ebitda', 'pro-forma adjusted EBITDA'), ('cash_taxes', 'cash taxes'), ('ltm_fixed_asset_additions', 'LTM fixed-asset additions'), ('direct_equipment_financing', 'direct LTM equipment financing'), ('unfunded_capex', 'unfunded capex'), ('cash_interest', 'cash interest'), ('scheduled_principal', 'scheduled principal'), ('fixed_charges', 'fixed charges'), ('posted_fccr_numerator', 'posted FCCR numerator'), ('pro_forma_fccr_numerator', 'pro-forma FCCR numerator'))))
-            specs.extend(((f'calculation_support__equation__{field}', f'Calculation support equation {description}') for field, description in (('ebitda_bridge', 'posted EBITDA plus proposed WIP equals pro-forma EBITDA'), ('unfunded_capex', 'fixed-asset additions less direct financing equals unfunded capex'), ('fixed_charges', 'cash interest plus scheduled principal equals fixed charges'), ('posted_fccr_numerator', 'posted EBITDA less taxes and unfunded capex equals the posted FCCR numerator'), ('pro_forma_fccr_numerator', 'pro-forma EBITDA less taxes and unfunded capex equals the pro-forma FCCR numerator'))))
+            specs.extend(((f'calculation_support__{field}', f'Calculation support {description}') for (field, description) in (('funded_debt', 'funded debt'), ('posted_adjusted_ebitda', 'posted adjusted EBITDA'), ('proposed_wip_adjustment', 'proposed WIP adjustment'), ('pro_forma_adjusted_ebitda', 'pro-forma adjusted EBITDA'), ('cash_taxes', 'cash taxes'), ('ltm_fixed_asset_additions', 'LTM fixed-asset additions'), ('direct_equipment_financing', 'direct LTM equipment financing'), ('unfunded_capex', 'unfunded capex'), ('cash_interest', 'cash interest'), ('scheduled_principal', 'scheduled principal'), ('fixed_charges', 'fixed charges'), ('posted_fccr_numerator', 'posted FCCR numerator'), ('pro_forma_fccr_numerator', 'pro-forma FCCR numerator'))))
+            specs.extend(((f'calculation_support__equation__{field}', f'Calculation support equation {description}') for (field, description) in (('ebitda_bridge', 'posted EBITDA plus proposed WIP equals pro-forma EBITDA'), ('unfunded_capex', 'fixed-asset additions less direct financing equals unfunded capex'), ('fixed_charges', 'cash interest plus scheduled principal equals fixed charges'), ('posted_fccr_numerator', 'posted EBITDA less taxes and unfunded capex equals the posted FCCR numerator'), ('pro_forma_fccr_numerator', 'pro-forma EBITDA less taxes and unfunded capex equals the pro-forma FCCR numerator'))))
             specs.append(('structure__wip_reversal_sensitivity', 'Required proposed-WIP reversal sensitivity table'))
             for reversal in (25, 50, 100):
                 specs.extend(((f'sensitivity__reversal_{reversal}__{field}', f"{reversal}% WIP-reversal sensitivity {field.replace('_', ' ')}") for field in ('retained_wip_adjustment', 'adjusted_ebitda', 'tangible_net_worth', 'leverage', 'fccr_numerator', 'fccr', 'leverage_deterioration_capacity', 'fccr_deterioration_capacity', 'tangible_net_worth_headroom', 'status', 'equation_retained_wip', 'equation_leverage', 'equation_fccr')))
         else:
             raise KeyError(task_id)
-    ids = [criterion_id for criterion_id, _ in specs]
+    ids = [criterion_id for (criterion_id, _) in specs]
     if len(ids) != len(set(ids)):
         raise ValueError(f'duplicate legacy atomic criterion ids for {task_id}')
     return specs
 
 def _file_failure(task_id: str, evidence: str) -> dict[str, Any]:
-    return _result([Criterion(criterion_id, description, False, evidence) for criterion_id, description in _legacy_file_atomic_specs(task_id)])
+    return _result([Criterion(criterion_id, description, False, evidence) for (criterion_id, description) in _legacy_file_atomic_specs(task_id)])
 
 def _legacy_file_semantic_ids(task_id: str) -> set[str]:
-    ids = {criterion_id for criterion_id, _ in _legacy_file_atomic_specs(task_id)}
+    ids = {criterion_id for (criterion_id, _) in _legacy_file_atomic_specs(task_id)}
     if task_id == 'task_004':
         return {criterion_id for criterion_id in ids if criterion_id.endswith('__flag') or criterion_id.endswith('__commercial_treatment') or (criterion_id.startswith('review__') and criterion_id.endswith('__source')) or criterion_id.endswith('__close_disposition') or criterion_id.endswith('__required_follow_up') or (criterion_id in {'decision_control__pending_revenue', 'decision_control__review_queue', 'decision_control__close_release', 'commercial_sensitivity__basis'})}
     if task_id == 'task_015':
@@ -298,7 +298,7 @@ def _legacy_artifact_evidence(path: Path) -> str:
     if suffix == '.pptx':
         presentation = Presentation(path)
         chunks = []
-        for index, slide in enumerate(presentation.slides, start=1):
+        for (index, slide) in enumerate(presentation.slides, start=1):
             chunks.append(f'[Slide {index}]')
             for shape in slide.shapes:
                 if getattr(shape, 'text', ''):
@@ -389,10 +389,10 @@ def _recalculated_data_workbook(path: Path):
     return original_values
 
 def _same_cells(left, right, sheet: str, ranges: list[str]) -> bool:
-    lws, rws = (left[sheet], right[sheet])
+    (lws, rws) = (left[sheet], right[sheet])
     for cell_range in ranges:
-        for lrow, rrow in zip(lws[cell_range], rws[cell_range]):
-            for lcell, rcell in zip(lrow, rrow):
+        for (lrow, rrow) in zip(lws[cell_range], rws[cell_range]):
+            for (lcell, rcell) in zip(lrow, rrow):
                 if lcell.value != rcell.value:
                     return False
     return True
@@ -424,8 +424,8 @@ def _task_004_perturbation_checks(path: Path) -> tuple[dict[int, bool], bool, di
             shutil.copy2(path, candidate)
             workbook = load_workbook(candidate, data_only=False, read_only=False)
             sheet = workbook['Risk Review']
-            for offset, row in enumerate(range(6, 10), start=1):
-                for column, delta in {'C': 10000 * offset, 'D': 700 * offset, 'E': 300 * offset, 'F': 100 * offset, 'K': 500 * offset, 'P': 0.001 * offset}.items():
+            for (offset, row) in enumerate(range(6, 10), start=1):
+                for (column, delta) in {'C': 10000 * offset, 'D': 700 * offset, 'E': 300 * offset, 'F': 100 * offset, 'K': 500 * offset, 'P': 0.001 * offset}.items():
                     sheet[f'{column}{row}'] = float(sheet[f'{column}{row}'].value) + delta
             workbook.save(candidate)
             recalculated = _recalculated_data_workbook(candidate)
@@ -437,23 +437,23 @@ def _task_004_perturbation_checks(path: Path) -> tuple[dict[int, bool], bool, di
                 if expected is None:
                     return None
                 expected_rows.append(expected)
-                row_checks[row] = all((_close(value_sheet[f'{column}{row}'].value, target, abs_tol=0.5 if column == 'Q' else 5e-05 if column in 'IO' else 0.05, rel_tol=0.0) for column, target in expected.items()))
+                row_checks[row] = all((_close(value_sheet[f'{column}{row}'].value, target, abs_tol=0.5 if column == 'Q' else 5e-05 if column in 'IO' else 0.05, rel_tol=0.0) for (column, target) in expected.items()))
             currency_columns = 'CDEFGHJKLMN'
             total_expected = {column: sum((float(value_sheet[f'{column}{row}'].value) for row in range(6, 10))) for column in currency_columns}
             total_expected.update({'I': total_expected['D'] / total_expected['H'], 'O': total_expected['N'] / total_expected['C'], 'P': sum((float(value_sheet[f'C{row}'].value) * float(value_sheet[f'P{row}'].value) for row in range(6, 10))) / total_expected['C']})
             total_expected['Q'] = (total_expected['O'] - total_expected['P']) * 10000
-            total_ok = all((_close(value_sheet[f'{column}11'].value, target, abs_tol=0.5 if column == 'Q' else 5e-05 if column in 'IOP' else 0.05, rel_tol=0.0) for column, target in total_expected.items()))
+            total_ok = all((_close(value_sheet[f'{column}11'].value, target, abs_tol=0.5 if column == 'Q' else 5e-05 if column in 'IOP' else 0.05, rel_tol=0.0) for (column, target) in total_expected.items()))
             decision_row_checks: dict[int, bool] = {}
-            for source_row, decision_row in zip(range(6, 10), range(15, 19), strict=True):
+            for (source_row, decision_row) in zip(range(6, 10), range(15, 19), strict=True):
                 pm_eac = float(value_sheet[f'D{source_row}'].value) + float(value_sheet[f'E{source_row}'].value)
                 pm_margin = float(value_sheet[f'C{source_row}'].value) - pm_eac
                 close_eac = float(value_sheet[f'H{source_row}'].value)
                 close_margin = float(value_sheet[f'N{source_row}'].value)
                 impact = close_margin - pm_margin
                 expected_decision = {'B': pm_eac, 'C': pm_margin, 'D': close_eac, 'E': close_margin, 'F': impact}
-                decision_row_checks[decision_row] = all((_close(value_sheet[f'{column}{decision_row}'].value, target, abs_tol=0.05, rel_tol=0.0) for column, target in expected_decision.items()))
+                decision_row_checks[decision_row] = all((_close(value_sheet[f'{column}{decision_row}'].value, target, abs_tol=0.05, rel_tol=0.0) for (column, target) in expected_decision.items()))
             decision_control_expected = {'B21': sum((float(value_sheet[f'C{row}'].value) for row in range(15, 19))), 'D21': sum((float(value_sheet[f'E{row}'].value) for row in range(15, 19))), 'F21': sum((float(value_sheet[f'F{row}'].value) for row in range(15, 19)))}
-            decision_control_ok = all((_close(value_sheet[coordinate].value, target, abs_tol=0.05, rel_tol=0.0) for coordinate, target in decision_control_expected.items()))
+            decision_control_ok = all((_close(value_sheet[coordinate].value, target, abs_tol=0.05, rel_tol=0.0) for (coordinate, target) in decision_control_expected.items()))
             return (row_checks, total_ok, decision_row_checks, decision_control_ok)
     except Exception:
         return None
@@ -544,7 +544,7 @@ def _task_004_decision_support(value_sheet: Any, gold: dict[str, Any]) -> dict[s
     support: dict[str, dict[str, Any]] = {}
     review_direction: dict[str, bool] = {}
     disposition_direction: dict[str, bool] = {}
-    for source_row, decision_row, review, decision in zip(range(6, 10), range(15, 19), gold['review_rows'], gold['decision_rows'], strict=True):
+    for (source_row, decision_row, review, decision) in zip(range(6, 10), range(15, 19), gold['review_rows'], gold['decision_rows'], strict=True):
         project_id = review['project_id']
         slug = project_id.casefold()
         treatment = str(value_sheet[f'S{source_row}'].value or '')
@@ -587,8 +587,8 @@ def _task_004_commercial_sensitivity_checks(formula_sheet: Any, value_sheet: Any
     for row in range(26, max_scan_row + 1):
         normalized = {column: _normalize(formula_sheet.cell(row, column).value) for column in range(1, min(max(formula_sheet.max_column, 7), 20) + 1)}
         matched: dict[str, int] = {}
-        for field, aliases in header_aliases.items():
-            column = next((column for column, text in normalized.items() if text in aliases), None)
+        for (field, aliases) in header_aliases.items():
+            column = next((column for (column, text) in normalized.items() if text in aliases), None)
             if column is not None:
                 matched[field] = column
         if len(matched) == len(header_aliases):
@@ -613,7 +613,7 @@ def _task_004_commercial_sensitivity_checks(formula_sheet: Any, value_sheet: Any
         section_text = '\n'.join(text_parts)
     structure_met = header_row is not None and all((_normalize(row['project_id']).replace(' ', '-') in project_rows for row in expected['projects'])) and (total_row is not None)
     criteria = [Criterion('commercial_sensitivity__structure', 'The workbook contains a complete four-project commercial-recovery sensitivity and total row', structure_met, f'header_row={header_row}; project_rows={project_rows}; total_row={total_row}')]
-    source_rows = {row['project_id'].casefold(): source_row for source_row, row in zip(range(6, 10), expected['projects'], strict=True)}
+    source_rows = {row['project_id'].casefold(): source_row for (source_row, row) in zip(range(6, 10), expected['projects'], strict=True)}
     numeric_fields = ('pending_revenue', 'hypothetical_contract', 'close_eac', 'hypothetical_margin', 'hypothetical_margin_rate', 'incremental_margin')
 
     def add_numeric_rows(scope: str, row_number: int | None, targets: dict[str, Any]) -> None:
@@ -663,8 +663,8 @@ def _task_004_accounting_control_checks(formula_book: Any, value_book: Any, gold
         for row in range(1, min(max(sheet.max_row, 1), 40) + 1):
             normalized = {column: _normalize(sheet.cell(row, column).value) for column in range(1, min(max(sheet.max_column, 1), 40) + 1)}
             matched: dict[str, int] = {}
-            for field, field_aliases in aliases.items():
-                column = next((column for column, text in normalized.items() if text in field_aliases), None)
+            for (field, field_aliases) in aliases.items():
+                column = next((column for (column, text) in normalized.items() if text in field_aliases), None)
                 if column is not None:
                     matched[field] = column
             score = len(matched)
@@ -676,7 +676,7 @@ def _task_004_accounting_control_checks(formula_book: Any, value_book: Any, gold
         header_row = None
         columns: dict[str, int] = {}
     else:
-        _, sheet, header_row, columns = best
+        (_, sheet, header_row, columns) = best
         value_sheet = value_book[sheet.title]
     project_rows: dict[str, int] = {}
     total_row: int | None = None
@@ -693,7 +693,7 @@ def _task_004_accounting_control_checks(formula_book: Any, value_book: Any, gold
     required_fields = set(aliases)
     structure_met = sheet is not None and required_fields.issubset(columns) and all((_normalize(row['project_id']).replace(' ', '-') in project_rows for row in gold['accounting_control']['rows'])) and (total_row is not None)
     criteria: list[Criterion] = [Criterion('accounting_control__structure', 'A complete four-project accounting-to-workpaper control and total row are present', structure_met, f"sheet={getattr(sheet, 'title', None)!r}; header_row={header_row}; matched_fields={sorted(columns)!r}; project_rows={project_rows!r}; total_row={total_row}")]
-    source_rows = {row['project_id'].casefold(): source_row for source_row, row in zip(range(6, 10), gold['source_inputs'], strict=True)}
+    source_rows = {row['project_id'].casefold(): source_row for (source_row, row) in zip(range(6, 10), gold['source_inputs'], strict=True)}
     risk_targets = {row['project_id'].casefold(): {'job_cost': row['cost_to_date'], 'billings': row['billings'], 'current_contract': row['current_contract']} for row in gold['source_inputs']}
 
     def actual_cell(row_number: int | None, field: str) -> Any | None:
@@ -711,7 +711,7 @@ def _task_004_accounting_control_checks(formula_book: Any, value_book: Any, gold
             metric_targets = targets[metric]
             expected_values = {'base': metric_targets['base'], 'activity': metric_targets['activity'], 'close': metric_targets['close'], 'risk_review': metric_targets['risk_review'], 'variance': 0.0}
             actual_values: dict[str, float | None] = {}
-            for field, expected in expected_values.items():
+            for (field, expected) in expected_values.items():
                 cell = actual_cell(row_number, f'{metric}__{field}')
                 actual = cell.value if cell is not None else None
                 actual_values[field] = _number(actual)
@@ -760,22 +760,22 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
     except Exception as exc:
         return _file_failure('task_004', str(exc))
     criteria: list[Criterion] = []
-    for sheet, ranges in (('READ ME first', ['A5:B17']), ('Risk Review', ['A5:T5', 'A6:B9', 'A11:A11']), ('Evidence Map', ['A5:G9'])):
+    for (sheet, ranges) in (('READ ME first', ['A5:B17']), ('Risk Review', ['A5:T5', 'A6:B9', 'A11:A11']), ('Evidence Map', ['A5:G9'])):
         met = _same_cells(wb, original, sheet, ranges)
         criteria.append(Criterion(f"preservation__{_normalize(sheet).replace(' ', '_')}", f'Protected {sheet!r} content remains unchanged', met, f'ranges={ranges!r}; preserved={met}'))
     value_sheet = values['Risk Review']
-    for row_number, expected in enumerate(gold['source_inputs'], start=6):
+    for (row_number, expected) in enumerate(gold['source_inputs'], start=6):
         checks = {'current_contract': (value_sheet[f'C{row_number}'].value, expected['current_contract'], 0.05), 'cost_to_date': (value_sheet[f'D{row_number}'].value, expected['cost_to_date'], 0.05), 'pm_etc': (value_sheet[f'E{row_number}'].value, expected['pm_etc'], 0.05), 'documented_etc_overlay': (value_sheet[f'F{row_number}'].value, expected['documented_etc_overlay'], 0.05), 'billings': (value_sheet[f'K{row_number}'].value, expected['billings'], 0.05), 'prior_close_margin_percent': (value_sheet[f'P{row_number}'].value, expected['prior_close_margin_percent'], 5e-05)}
-        for label, (actual, target, tolerance) in checks.items():
+        for (label, (actual, target, tolerance)) in checks.items():
             met = _close(actual, target, abs_tol=tolerance, rel_tol=0.0)
             criteria.append(Criterion(f"source__{expected['project_id'].casefold()}__{label}", f"{expected['project_id']} source input `{label}` is correct", met, f'actual={actual!r}; expected={target}'))
     formula_ws = wb['Risk Review']
     perturbation = _task_004_perturbation_checks(path)
     required_references = {'G': ('E{row}', 'F{row}'), 'H': ('D{row}', 'G{row}'), 'I': ('D{row}', 'H{row}'), 'J': ('C{row}', 'I{row}'), 'L': ('J{row}', 'K{row}'), 'M': ('K{row}', 'J{row}'), 'N': ('C{row}', 'H{row}'), 'O': ('N{row}', 'C{row}'), 'Q': ('O{row}', 'P{row}')}
-    for row_number, expected in enumerate(gold['projects'], start=6):
+    for (row_number, expected) in enumerate(gold['projects'], start=6):
         cell_checks = []
         evidence = []
-        for column, references in required_references.items():
+        for (column, references) in required_references.items():
             cell = formula_ws[f'{column}{row_number}']
             has_refs = _formula_has_refs(cell, *(reference.format(row=row_number) for reference in references))
             no_hardcoded_output = column == 'Q' or not _formula_has_large_literal(cell)
@@ -784,16 +784,16 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
         perturbation_met = None if perturbation is None else perturbation[0].get(row_number, False)
         lineage_met = all(cell_checks) if perturbation_met is None else bool(perturbation_met)
         criteria.append(Criterion(f"formula_lineage__{expected['project_id'].casefold()}", f"{expected['project_id']} calculations respond correctly to their source inputs", lineage_met, '; '.join(evidence) + f'; perturbation_check={perturbation_met}'))
-    for row_number, expected in enumerate(gold['projects'], start=6):
+    for (row_number, expected) in enumerate(gold['projects'], start=6):
         checks = {'close_etc': (value_sheet[f'G{row_number}'].value, expected['estimated_cost_to_complete'], 0.05), 'eac': (value_sheet[f'H{row_number}'].value, expected['estimated_cost_at_completion'], 0.05), 'earned': (value_sheet[f'J{row_number}'].value, expected['earned_revenue'], 0.05), 'asset': (value_sheet[f'L{row_number}'].value, expected['underbilling'], 0.05), 'liability': (value_sheet[f'M{row_number}'].value, expected['overbilling'], 0.05), 'margin': (value_sheet[f'N{row_number}'].value, expected['estimated_total_margin'], 0.05), 'percent_complete': (value_sheet[f'I{row_number}'].value, expected['percent_complete'], 5e-05), 'margin_percent': (value_sheet[f'O{row_number}'].value, expected['estimated_margin_percent'], 5e-05), 'prior_margin_percent': (value_sheet[f'P{row_number}'].value, expected['prior_margin_percent'], 5e-05), 'margin_movement_bps': (value_sheet[f'Q{row_number}'].value, expected['margin_movement_bps'], 0.5)}
-        for label, (actual, target, tolerance) in checks.items():
+        for (label, (actual, target, tolerance)) in checks.items():
             met = _close(actual, target, abs_tol=tolerance, rel_tol=0.0)
             criteria.append(Criterion(f"result__{expected['project_id'].casefold()}__{label}", f"{expected['project_id']} `{label}` is correct", met, f'actual={actual!r}; expected={target}'))
-    for row_number, expected in enumerate(gold['review_rows'], start=6):
+    for (row_number, expected) in enumerate(gold['review_rows'], start=6):
         flag = value_sheet[f'R{row_number}'].value
         treatment = value_sheet[f'S{row_number}'].value
         source = value_sheet[f'T{row_number}'].value
-        for label, met, evidence in (('flag', _task_004_review_flag_ok(flag, expected), f'actual={flag!r}'), ('commercial_treatment', _task_004_treatment_ok(treatment, expected), f'actual={treatment!r}'), ('source', _task_004_source_ok(f"{treatment or ''}\n{source or ''}", expected), f'treatment={treatment!r}; controlling_support={source!r}')):
+        for (label, met, evidence) in (('flag', _task_004_review_flag_ok(flag, expected), f'actual={flag!r}'), ('commercial_treatment', _task_004_treatment_ok(treatment, expected), f'actual={treatment!r}'), ('source', _task_004_source_ok(f"{treatment or ''}\n{source or ''}", expected), f'treatment={treatment!r}; controlling_support={source!r}')):
             criteria.append(Criterion(f"review__{expected['project_id'].casefold()}__{label}", f"{expected['project_id']} review `{label}` is professionally supported", met, evidence))
     total_lineage_checks = [_formula_has_refs(formula_ws[f'{column}11'], f'{column}6:{column}9') and (not _formula_has_large_literal(formula_ws[f'{column}11'])) for column in 'CDEFGHJKLMN']
     total_lineage_checks.extend([_formula_has_refs(formula_ws['I11'], 'D11', 'H11') and (not _formula_has_large_literal(formula_ws['I11'])), _formula_has_refs(formula_ws['O11'], 'N11', 'C11') and (not _formula_has_large_literal(formula_ws['O11'])), _formula_has_refs(formula_ws['P11'], 'C6:C9', 'P6:P9', 'C11') and (not _formula_has_large_literal(formula_ws['P11'])), _formula_has_refs(formula_ws['Q11'], 'O11', 'P11')])
@@ -809,13 +809,13 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
     decision_headers = ['Project ID', 'PM case EAC', 'PM case margin', 'Close case EAC', 'Close case margin', 'Margin impact', 'Pending revenue included?', 'Review required?', 'Close disposition', 'Required follow-up', 'Policy', 'Commercial support']
     decision_structure_met = [formula_ws.cell(14, column).value for column in range(1, 13)] == decision_headers and [formula_ws[f'A{row}'].value for row in range(15, 19)] == [row['project_id'] for row in gold['decision_rows']] and ([formula_ws[coordinate].value for coordinate in ('A21', 'C21', 'E21', 'A22', 'C22', 'E22', 'A23', 'A24', 'A25')] == ['Aggregate PM case margin', 'Aggregate close case margin', 'Aggregate margin impact', 'Pending commercial revenue included?', 'Review-required count', 'Largest overlay', 'Review queue', 'Close release decision', 'Policy basis'])
     criteria.append(Criterion('decision_bridge__structure', 'The workbook retains the controller decision-bridge and decision-control structure', decision_structure_met, f'headers={[formula_ws.cell(14, column).value for column in range(1, 13)]!r}'))
-    for source_row, decision_row, expected in zip(range(6, 10), range(15, 19), gold['decision_rows'], strict=True):
+    for (source_row, decision_row, expected) in zip(range(6, 10), range(15, 19), gold['decision_rows'], strict=True):
         lineage_checks = (_formula_has_refs(formula_ws[f'B{decision_row}'], f'D{source_row}', f'E{source_row}'), _formula_has_refs(formula_ws[f'C{decision_row}'], f'C{source_row}', f'B{decision_row}'), _formula_has_refs(formula_ws[f'D{decision_row}'], f'H{source_row}'), _formula_has_refs(formula_ws[f'E{decision_row}'], f'N{source_row}'), _formula_has_refs(formula_ws[f'F{decision_row}'], f'E{decision_row}', f'C{decision_row}'))
         no_literals = all((not _formula_has_large_literal(formula_ws[f'{column}{decision_row}']) for column in 'BCDEF'))
         perturbation_met = None if perturbation is None else perturbation[2].get(decision_row, False)
         lineage_met = all(lineage_checks) and no_literals if perturbation_met is None else bool(perturbation_met) and no_literals
         criteria.append(Criterion(f"decision_bridge__{expected['project_id'].casefold()}__formula_lineage", f"{expected['project_id']} PM-to-close decision bridge responds to source changes", lineage_met, f"formulas={[formula_ws[f'{column}{decision_row}'].value for column in 'BCDEF']!r}; perturbation_check={perturbation_met}"))
-        for label, actual, target in (('pm_case_margin', value_sheet[f'C{decision_row}'].value, expected['pm_case_margin']), ('margin_impact', value_sheet[f'F{decision_row}'].value, expected['margin_impact'])):
+        for (label, actual, target) in (('pm_case_margin', value_sheet[f'C{decision_row}'].value, expected['pm_case_margin']), ('margin_impact', value_sheet[f'F{decision_row}'].value, expected['margin_impact'])):
             criteria.append(Criterion(f"decision_bridge__{expected['project_id'].casefold()}__{label}", f"{expected['project_id']} decision bridge `{label}` is correct", _close(actual, target, abs_tol=0.05, rel_tol=0.0), f'actual={actual!r}; expected={target}'))
         disposition = value_sheet[f'I{decision_row}'].value
         follow_up = value_sheet[f'J{decision_row}'].value
@@ -826,7 +826,7 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
     decision_control_lineage_met = decision_control_lineage if perturbation_decision_control_met is None else bool(perturbation_decision_control_met)
     criteria.append(Criterion('decision_control__formula_lineage', 'The controller decision control responds to the project bridge', decision_control_lineage_met, f"formulas={[formula_ws[coordinate].value for coordinate in ('B21', 'D21', 'F21', 'D22')]!r}; perturbation_check={perturbation_decision_control_met}"))
     control = gold['decision_control']
-    for label, coordinate, target in (('pm_case_margin', 'B21', control['pm_case_margin']), ('margin_impact', 'F21', control['margin_impact'])):
+    for (label, coordinate, target) in (('pm_case_margin', 'B21', control['pm_case_margin']), ('margin_impact', 'F21', control['margin_impact'])):
         actual = value_sheet[coordinate].value
         criteria.append(Criterion(f'decision_control__{label}', f'Decision control `{label}` is correct', _close(actual, target, abs_tol=0.05, rel_tol=0.0), f'actual={actual!r}; expected={target}'))
     pending_revenue = value_sheet['B22'].value
@@ -841,15 +841,15 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
     criteria.append(Criterion('decision_control__close_release', 'The aggregate close-release decision holds the flagged jobs for controller review', _task_004_close_release_ok(close_release), f"actual={value_sheet['B24'].value!r}"))
     policy_basis = _normalize(value_sheet['B25'].value)
     criteria.append(Criterion('decision_control__policy_basis', 'The decision control cites the signed WIP policy', 'fin rev 04' in policy_basis or 'signed wip policy' in policy_basis, f"actual={value_sheet['B25'].value!r}"))
-    commercial_sensitivity_criteria, commercial_sensitivity_context = _task_004_commercial_sensitivity_checks(formula_ws, value_sheet, gold)
+    (commercial_sensitivity_criteria, commercial_sensitivity_context) = _task_004_commercial_sensitivity_checks(formula_ws, value_sheet, gold)
     criteria.extend(commercial_sensitivity_criteria)
-    accounting_control_criteria, _ = _task_004_accounting_control_checks(wb, values, gold)
+    (accounting_control_criteria, _) = _task_004_accounting_control_checks(wb, values, gold)
     criteria.extend(accounting_control_criteria)
     result = _result(criteria)
     result['decision_support'] = _task_004_decision_support(value_sheet, gold)
     semantic_specs: list[dict[str, Any]] = []
     task_context = {'assignment': 'Complete the four-project June WIP risk review, controller decision bridge, commercial sensitivity, and accounting-to-workpaper control.', 'grading_boundary': 'Objective amounts, formulas, project identities, totals, and control counts are graded separately. Each semantic judge grades only the exact submitted review field supplied to it and must accept equivalent professional wording.'}
-    for source_row, expected in zip(range(6, 10), gold['review_rows'], strict=True):
+    for (source_row, expected) in zip(range(6, 10), gold['review_rows'], strict=True):
         project_id = expected['project_id']
         project_ok = _normalize(value_sheet[f'A{source_row}'].value) == _normalize(project_id)
         flag = value_sheet[f'R{source_row}'].value
@@ -859,7 +859,7 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
         source_cells_present = bool(_normalize(combined_source_evidence))
         slug = project_id.casefold()
         semantic_specs.extend([{'criterion_id': f'review__{slug}__flag', 'expected_facts': {'project_id': project_id, 'controller_review_required': expected['controller_review_required'], 'netted_claim_or_backcharge': expected['netted_claim_or_backcharge']}, 'hard_gate_met': project_ok and bool(_normalize(flag)), 'hard_gate_evidence': f'project_associated={project_ok}; review conclusion nonblank={bool(_normalize(flag))}', 'submitted_evidence': f"Project: {project_id}\nSubmitted Controller review: {flag or ''}", 'reference_context': {'controller_review_required': expected['controller_review_required'], 'decision_meaning': 'Hold/escalate for Controller review' if expected['controller_review_required'] else 'No mandatory hold; release with monitoring is appropriate', 'equivalence_rule': 'This is the Controller-review status field. For a required review, Review, Controller review, Required, or an equivalent status with the stated >100 bps or commercial-risk basis is sufficient; the cell need not also say hold or escalate. For a non-required review, Release, Monitor, Within threshold, Supported, or an equivalent no-hold conclusion is sufficient. Reject an unresolved Review status for a non-required project.'}, 'task_context': task_context, 'evidence_scope': f'Risk Review!A{source_row},R{source_row}'}, {'criterion_id': f'review__{slug}__commercial_treatment', 'expected_facts': {'project_id': project_id, 'pending_commercial_amount_excluded': expected['revenue_amount'], 'probable_cost_or_recovery_overlay': expected['cost_amount'], 'disputed_recovery_de_netted': expected['netted_claim_or_backcharge']}, 'hard_gate_met': project_ok and bool(_normalize(treatment)), 'hard_gate_evidence': f'project_associated={project_ok}; treatment_nonblank={bool(_normalize(treatment))}. The finance amounts and calculation chain are independently graded.', 'submitted_evidence': f'Project: {project_id}\nSubmitted commercial treatment / rationale: {treatment}', 'reference_context': {'pending_commercial_amount': expected['revenue_amount'], 'required_treatment': 'exclude pending commercial revenue from the June close case', 'forecast_cost_or_recovery_overlay': expected['cost_amount'], 'overlay_treatment': 'restore/de-net the disputed recovery in ETC' if expected['netted_claim_or_backcharge'] else 'retain/carry the supported probable cost in ETC', 'equivalence_rule': 'The rationale need not repeat amounts already shown in the same deterministically graded project row. Accept accurate professional equivalents; reject the wrong recognition direction or a generic statement with no treatment.'}, 'task_context': task_context, 'evidence_scope': f'Risk Review!S{source_row}'}, {'criterion_id': f'review__{slug}__source', 'expected_facts': {'project_id': project_id, 'commercial_reference': expected['reference'], 'policy_authority': 'signed WIP policy FIN-REV-04'}, 'hard_gate_met': project_ok and source_cells_present, 'hard_gate_evidence': f'project_associated={project_ok}; treatment_and_source_cells_present={source_cells_present}', 'submitted_evidence': f'Project: {project_id}\nSubmitted treatment/source support:\n{combined_source_evidence}', 'reference_context': {'commercial_reference': expected['reference'], 'policy_authority': 'signed WIP policy FIN-REV-04', 'equivalence_rule': 'Accept clear abbreviations and ordinary filename/reference variants. Both the project-specific commercial support and governing policy must be identifiable. A same-row reference to the WIP policy or its relevant section is an acceptable identifier; do not require the literal code FIN-REV-04 when the authority is clear.'}, 'task_context': task_context, 'evidence_scope': f'Risk Review!S{source_row}:T{source_row}'}])
-    for decision_row, expected in zip(range(15, 19), gold['decision_rows'], strict=True):
+    for (decision_row, expected) in zip(range(15, 19), gold['decision_rows'], strict=True):
         project_id = expected['project_id']
         project_ok = _normalize(value_sheet[f'A{decision_row}'].value) == _normalize(project_id)
         evidence_cells_present = bool(_normalize(value_sheet[f'K{decision_row}'].value) and _normalize(value_sheet[f'L{decision_row}'].value))
@@ -868,7 +868,7 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
         slug = project_id.casefold()
         semantic_specs.extend([{'criterion_id': f'decision_bridge__{slug}__close_disposition', 'expected_facts': {'project_id': project_id, 'close_disposition': expected['close_disposition'], 'controller_review_required': expected['controller_review_required']}, 'hard_gate_met': project_ok and evidence_cells_present and bool(_normalize(disposition)), 'hard_gate_evidence': f'project_associated={project_ok}; policy_and_commercial_cells_present={evidence_cells_present}; disposition_nonblank={bool(_normalize(disposition))}', 'submitted_evidence': f"Project: {project_id}\nSubmitted close disposition: {disposition or ''}\nPolicy cell: {value_sheet[f'K{decision_row}'].value or ''}\nCommercial support cell: {value_sheet[f'L{decision_row}'].value or ''}", 'reference_context': {'required_disposition': expected['close_disposition'], 'controller_review_required': expected['controller_review_required'], 'policy_reference': expected['policy_reference'], 'commercial_reference': expected['commercial_reference'], 'equivalence_rule': 'Accept any unambiguous professional wording with the same release/hold direction.'}, 'task_context': task_context, 'evidence_scope': f'Risk Review!I{decision_row},K{decision_row}:L{decision_row}'}, {'criterion_id': f'decision_bridge__{slug}__required_follow_up', 'expected_facts': {'project_id': project_id, 'required_follow_up': expected['required_follow_up']}, 'hard_gate_met': project_ok and bool(_normalize(follow_up)), 'hard_gate_evidence': f'project_associated={project_ok}; follow_up_nonblank={bool(_normalize(follow_up))}. Policy and commercial support are evaluated in their own scoped criteria.', 'submitted_evidence': f"Project: {project_id}\nSubmitted required follow-up: {follow_up or ''}", 'reference_context': {'required_follow_up': expected['required_follow_up'], 'project_specific_equivalents': 'For ARM-2318, confirming or monitoring the retest closeout, cost, or disputed recovery resolution is sufficient; the follow-up need not repeat the separately graded accounting treatment. For ARM-2506, PCO-006 pricing/approval and DB-27 executed pricing refer to the same unresolved authorization.', 'equivalence_rule': 'Accept a concise action that obtains the same missing authorization/evidence; do not require the authored sentence or exact verbs.'}, 'task_context': task_context, 'evidence_scope': f'Risk Review!J{decision_row}'}])
     control = gold['decision_control']
-    project_rows_ok = all((_normalize(value_sheet[f'A{row}'].value) == _normalize(expected['project_id']) for row, expected in zip(range(15, 19), gold['decision_rows'], strict=True)))
+    project_rows_ok = all((_normalize(value_sheet[f'A{row}'].value) == _normalize(expected['project_id']) for (row, expected) in zip(range(15, 19), gold['decision_rows'], strict=True)))
     pending_rows_present = all((bool(_normalize(value_sheet[f'G{row}'].value)) for row in range(15, 19)))
     queue_nonblank = bool(_normalize(value_sheet['B23'].value))
     semantic_specs.extend([{'criterion_id': 'decision_control__pending_revenue', 'expected_facts': {'pending_commercial_revenue_included': False}, 'hard_gate_met': project_rows_ok and pending_rows_present, 'hard_gate_evidence': f'project_rows_associated={project_rows_ok}; per-project pending-revenue conclusions present={pending_rows_present}', 'submitted_evidence': '\n'.join((f"{value_sheet[f'A{row}'].value}: pending revenue included = {value_sheet[f'G{row}'].value}" for row in range(15, 19))) + f"\nAggregate control: {value_sheet['B22'].value or ''}", 'reference_context': {'required_conclusion': 'No pending commercial revenue is included in any of the four close cases.', 'equivalence_rule': 'Accept No, excluded, not included, zero, or any unambiguous equivalent.'}, 'task_context': task_context, 'evidence_scope': 'Risk Review!G15:G18,B22'}, {'criterion_id': 'decision_control__review_queue', 'expected_facts': {'held_for_controller_review': control['review_queue'], 'released_with_monitoring': 'ARM-2318'}, 'hard_gate_met': project_rows_ok and queue_nonblank, 'hard_gate_evidence': f'project_rows_associated={project_rows_ok}; review_queue_nonblank={queue_nonblank}. The numeric review count is graded separately and cannot erase an otherwise correct queue.', 'submitted_evidence': f"Submitted review queue: {value_sheet['B23'].value or ''}", 'reference_context': {'held_for_controller_review': control['review_queue'], 'released_with_monitoring': 'ARM-2318', 'review_required_count': control['review_required_count'], 'equivalence_rule': 'Order and punctuation do not matter; the membership and release distinction do.'}, 'task_context': task_context, 'evidence_scope': 'Risk Review!B23'}, {'criterion_id': 'decision_control__close_release', 'expected_facts': {'close_release_decision': control['close_release_decision']}, 'hard_gate_met': project_rows_ok and bool(_normalize(value_sheet['B24'].value)), 'hard_gate_evidence': f"project_rows_associated={project_rows_ok}; decision_nonblank={bool(_normalize(value_sheet['B24'].value))}", 'submitted_evidence': f"Submitted close-release decision: {value_sheet['B24'].value or ''}", 'reference_context': {'required_decision': {'release_with_monitoring': 'ARM-2318', 'hold_for_controller_review': ['ARM-2409', 'ARM-2417', 'ARM-2506']}, 'equivalence_rule': 'Accept any unambiguous release of ARM-2318 with monitoring while ARM-2409, ARM-2417, and ARM-2506 remain held for Controller review. Reject immediate or unconditional release of the three flagged jobs.'}, 'task_context': task_context, 'evidence_scope': 'Risk Review!B24'}, {'criterion_id': 'commercial_sensitivity__basis', 'expected_facts': {'analysis_type': 'unbooked sensitivity only', 'june_close_treatment': 'no hypothetical commercial revenue is authorized, booked, or included'}, 'hard_gate_met': commercial_sensitivity_context['basis_present'], 'hard_gate_evidence': f"commercial-recovery sensitivity section contains a nonblank basis statement={commercial_sensitivity_context['basis_present']}", 'submitted_evidence': commercial_sensitivity_context['section_text'], 'reference_context': {'required_conclusion': 'The commercial-recovery case is a hypothetical sensitivity only. The pending revenue remains unauthorized and unbooked and is not included in the June 30 close.', 'equivalence_rule': 'Accept ordinary professional wording that clearly preserves the same booked-versus-hypothetical boundary. Reject language that presents the recoveries as recorded, approved, or part of the June close.'}, 'task_context': task_context, 'evidence_scope': 'commercial-recovery sensitivity section only'}])
@@ -923,7 +923,7 @@ def _pptx_font_observations(text_frame: Any) -> list[tuple[float | None, bool | 
     for paragraph in text_frame.paragraphs:
         fonts = [run.font for run in paragraph.runs] or [paragraph.font]
         for font in fonts:
-            size, bold, _, _, color = _pptx_font_signature(font)
+            (size, bold, _, _, color) = _pptx_font_signature(font)
             observations.append((size, bold, color))
     return observations
 
@@ -947,7 +947,7 @@ def _pptx_slide_colors(slide: Any) -> set[str]:
         except (AttributeError, TypeError, ValueError):
             pass
         if getattr(shape, 'has_text_frame', False):
-            for _, _, color in _pptx_font_observations(shape.text_frame):
+            for (_, _, color) in _pptx_font_observations(shape.text_frame):
                 add(color)
         if getattr(shape, 'has_table', False):
             for row in shape.table.rows:
@@ -956,7 +956,7 @@ def _pptx_slide_colors(slide: Any) -> set[str]:
                         add(_pptx_color_token(cell.fill.fore_color))
                     except (AttributeError, TypeError, ValueError):
                         pass
-                    for _, _, color in _pptx_font_observations(cell.text_frame):
+                    for (_, _, color) in _pptx_font_observations(cell.text_frame):
                         add(color)
     return colors
 
@@ -972,7 +972,7 @@ def _pptx_colors_match(first: str | None, second: str | None) -> bool:
         second_rgb = tuple((int(second[index:index + 2], 16) for index in (4, 6, 8)))
     except (TypeError, ValueError):
         return False
-    return math.sqrt(sum(((left - right) ** 2 for left, right in zip(first_rgb, second_rgb)))) <= 36
+    return math.sqrt(sum(((left - right) ** 2 for (left, right) in zip(first_rgb, second_rgb)))) <= 36
 
 def _pptx_background_color(slide: Any) -> str | None:
     try:
@@ -1002,18 +1002,18 @@ def _pptx_task_015_style_checks(presentation: Any, original: Any, added: Any, ta
         for shape in slide.shapes:
             if not _normalize(getattr(shape, 'text', '')):
                 continue
-            sizes = [size for size, _, _ in _pptx_font_observations(shape.text_frame) if size is not None] if getattr(shape, 'has_text_frame', False) else []
+            sizes = [size for (size, _, _) in _pptx_font_observations(shape.text_frame) if size is not None] if getattr(shape, 'has_text_frame', False) else []
             if sizes and float(getattr(shape, 'top', 0) or 0) / max(presentation.slide_height, 1) < 0.25:
                 candidates.append((max(sizes), shape))
         if candidates:
-            size, shape = max(candidates, key=lambda item: item[0])
+            (size, shape) = max(candidates, key=lambda item: item[0])
             reference_title_sizes.append(size)
             reference_title_tops.append(float(shape.top) / max(presentation.slide_height, 1))
     sorted_sizes = sorted(reference_title_sizes)
     reference_title_size = sorted_sizes[len(sorted_sizes) // 2] if sorted_sizes else 20.0
     title_observations = _pptx_font_observations(title_shape.text_frame) if title_shape is not None and getattr(title_shape, 'has_text_frame', False) else []
-    title_sizes = [size for size, _, _ in title_observations if size is not None]
-    title_bold = any((bold is True for _, bold, _ in title_observations))
+    title_sizes = [size for (size, _, _) in title_observations if size is not None]
+    title_bold = any((bold is True for (_, bold, _) in title_observations))
     title_top = float(title_shape.top) / max(presentation.slide_height, 1) if title_shape is not None else 1.0
     title_top_limit = min(0.25, max(reference_title_tops, default=0.17) + 0.08)
     title_hierarchy_ok = bool(title_shape is not None and title_sizes and (max(title_sizes) >= reference_title_size * 0.8) and title_bold and (title_top <= title_top_limit))
@@ -1026,7 +1026,7 @@ def _pptx_task_015_style_checks(presentation: Any, original: Any, added: Any, ta
         body_cells = [cell for row in list(table.rows)[1:] for cell in row.cells]
         header_fills = {color for cell in header_cells for color in [_pptx_fill_signature(cell.fill)[1]] if color}
         body_fills = {color for cell in body_cells for color in [_pptx_fill_signature(cell.fill)[1]] if color}
-        header_bold = bool(header_cells) and all((any((bold is True for _, bold, _ in _pptx_font_observations(cell.text_frame))) for cell in header_cells))
+        header_bold = bool(header_cells) and all((any((bold is True for (_, bold, _) in _pptx_font_observations(cell.text_frame))) for cell in header_cells))
         header_fill_distinct = bool(header_fills) and (not all((any((_pptx_colors_match(header, body) for body in body_fills)) for header in header_fills)))
         table_properties = table._tbl.tblPr
         style_nodes = table_properties.xpath('./a:tableStyleId')
@@ -1066,7 +1066,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
         return any((value in {'posted', 'posted basis', 'recorded', 'recorded basis'} for value in headers)) and any((value in {'pro forma', 'pro forma basis', 'adjusted basis'} for value in headers)) and any(('threshold' in value or 'covenant limit' in value for value in headers)) and any(('status' in value or 'compliance' in value or 'result' in value for value in headers)) and ('leverage' in body or ('funded debt' in body and 'adjusted ebitda' in body)) and ('fccr' in body or 'fixed charge coverage' in body) and ('tangible net worth' in body or 'tnw' in body)
     main_table_shape = next((shape for shape in table_shapes if is_covenant_comparison_table(shape)), None)
     has_table = main_table_shape is not None
-    visual_system_ok, visual_system_evidence, title_hierarchy_ok, title_hierarchy_evidence, table_readability_ok, table_readability_evidence = _pptx_task_015_style_checks(presentation, original, added, main_table_shape)
+    (visual_system_ok, visual_system_evidence, title_hierarchy_ok, title_hierarchy_evidence, table_readability_ok, table_readability_evidence) = _pptx_task_015_style_checks(presentation, original, added, main_table_shape)
     metric_failures: list[str] = []
     metric_results: list[Criterion] = []
     metric_semantic_context: dict[str, dict[str, Any]] = {}
@@ -1080,7 +1080,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
         headroom_tokens = ('headroom', 'capacity', 'cushion', 'deterioration')
 
         def column_index(role: str) -> int | None:
-            for index, header in enumerate(headers):
+            for (index, header) in enumerate(headers):
                 if role == 'posted' and (header in {'posted', 'posted basis', 'recorded', 'recorded basis'} or ('posted' in header and 'pro forma' not in header and (not any((token in header for token in headroom_tokens))))):
                     return index
                 if role == 'pro_forma' and (header in {'pro forma', 'pro forma basis', 'adjusted basis'} or ('pro forma' in header and (not any((token in header for token in headroom_tokens))))):
@@ -1103,7 +1103,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
         capacity = gold['deterioration_capacity']
         metric_targets = {'leverage': (gold['leverage_posted'], gold['leverage_pro_forma'], gold['max_leverage'], capacity['leverage']['posted'], capacity['leverage']['pro_forma']), 'fccr': (gold['fccr_posted'], gold['fccr_pro_forma'], gold['min_fccr'], capacity['fccr']['posted'], capacity['fccr']['pro_forma']), 'tangible net worth': (gold['tangible_net_worth_posted'], gold['tangible_net_worth_pro_forma'], gold['min_tangible_net_worth'], capacity['tangible_net_worth']['posted'], capacity['tangible_net_worth']['pro_forma'])}
         metric_aliases = {'leverage': ('leverage', 'funded debt adjusted ebitda', 'debt adjusted ebitda'), 'fccr': ('fccr', 'fixed charge coverage'), 'tangible net worth': ('tangible net worth', 'tnw')}
-        for metric, expected in metric_targets.items():
+        for (metric, expected) in metric_targets.items():
             row = next((values for values in table_rows[1:] if values and any((alias in _normalize(values[0]) for alias in metric_aliases[metric]))), None)
             if row is None or None in (posted_column, pro_forma_column, threshold_column, status_column):
                 metric_failures.append(f'{metric}: missing row/columns')
@@ -1111,15 +1111,15 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
                 for field in ('posted', 'pro_forma', 'threshold', 'posted_headroom', 'pro_forma_headroom', 'status'):
                     metric_results.append(Criterion(f"metric__{_normalize(metric).replace(' ', '_')}__{field}", f'{metric.title()} `{field}` is correctly presented', False, 'missing row or required column'))
                 continue
-            row_numeric_gate = all((_text_contains_number(row[column], target, abs_tol=0.0001) for column, target in zip((posted_column, pro_forma_column, threshold_column), expected[:3], strict=True)))
+            row_numeric_gate = all((_text_contains_number(row[column], target, abs_tol=0.0001) for (column, target) in zip((posted_column, pro_forma_column, threshold_column), expected[:3], strict=True)))
             displayed_values_parseable = all((_number(re.sub('^[<>=≤≥~\\s]+', '', str(row[column] or ''))) is not None for column in (posted_column, pro_forma_column, threshold_column)))
             metric_semantic_context[metric] = {'submitted_evidence': ' | '.join(row), 'numeric_gate': row_numeric_gate, 'numeric_gate_evidence': f'this exact row contains the correct posted, pro-forma, and threshold values={row_numeric_gate}', 'displayed_values_parseable': displayed_values_parseable, 'status_nonblank': bool(_normalize(row[status_column])), 'expected': expected[:3]}
-            for field, column, target in zip(('posted', 'pro_forma', 'threshold'), (posted_column, pro_forma_column, threshold_column), expected[:3], strict=True):
+            for (field, column, target) in zip(('posted', 'pro_forma', 'threshold'), (posted_column, pro_forma_column, threshold_column), expected[:3], strict=True):
                 met = _text_contains_number(row[column], target, abs_tol=0.0001)
                 if not met:
                     metric_failures.append(f'{metric} {field}: value={row[column]!r}')
                 metric_results.append(Criterion(f"metric__{_normalize(metric).replace(' ', '_')}__{field}", f'{metric.title()} `{field}` value is correct', met, f'actual={row[column]!r}; expected={target}'))
-            for field, column, target in (('posted_headroom', posted_headroom_column, expected[3]), ('pro_forma_headroom', pro_forma_headroom_column, expected[4])):
+            for (field, column, target) in (('posted_headroom', posted_headroom_column, expected[3]), ('pro_forma_headroom', pro_forma_headroom_column, expected[4])):
                 actual = row[column] if column is not None and column < len(row) else None
                 met = actual is not None and _text_contains_number(str(actual), target, abs_tol=1.0)
                 if not met:
@@ -1149,7 +1149,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
         sensitivity_headers = [_normalize(value) for value in sensitivity_rows[0]]
 
         def sensitivity_column(role: str) -> int | None:
-            for index, header in enumerate(sensitivity_headers):
+            for (index, header) in enumerate(sensitivity_headers):
                 capacity = any((token in header for token in ('capacity', 'headroom', 'cushion', 'deterioration')))
                 if role == 'reversal' and ('reversal' in header or 'haircut' in header):
                     return index
@@ -1199,7 +1199,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
             numerator = parsed_values['fccr_numerator']
             fccr = parsed_values['fccr']
             equations = {'retained_wip': (retained is not None and _close(retained, gold['proposed_wip_adjustment'] * (1 - float(expected['reversal_percent'])), abs_tol=1.0, rel_tol=0.0), f"retained={retained!r}; proposed_wip={gold['proposed_wip_adjustment']}; reversal={expected['reversal_percent']}"), 'leverage': (ebitda is not None and leverage is not None and _close(leverage, gold['funded_debt'] / ebitda, abs_tol=0.01, rel_tol=0.0), f"leverage={leverage!r}; funded_debt={gold['funded_debt']}; adjusted_ebitda={ebitda!r}"), 'fccr': (numerator is not None and fccr is not None and _close(fccr, numerator / gold['fixed_charges'], abs_tol=0.01, rel_tol=0.0), f"fccr={fccr!r}; numerator={numerator!r}; fixed_charges={gold['fixed_charges']}")}
-            for equation, (met, evidence) in equations.items():
+            for (equation, (met, evidence)) in equations.items():
                 sensitivity_results.append(Criterion(f'sensitivity__reversal_{reversal_percent}__equation_{equation}', f"The {reversal_percent}% reversal {equation.replace('_', ' ')} calculation is internally consistent", met, evidence))
     else:
         for expected in gold['wip_reversal_sensitivity']:
@@ -1216,7 +1216,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
     calculation_support_specs = {'funded_debt': ('Funded debt', gold['funded_debt'], (('funded', 'debt'),)), 'posted_adjusted_ebitda': ('Posted adjusted EBITDA', gold['ltm_adjusted_ebitda_posted'], (('posted', 'adjusted', 'ebitda'), ('posted', 'ebitda'))), 'proposed_wip_adjustment': ('Proposed WIP adjustment', gold['proposed_wip_adjustment'], (('proposed', 'wip', 'adjustment'), ('june', 'wip', 'adjustment'))), 'pro_forma_adjusted_ebitda': ('Pro-forma adjusted EBITDA', gold['ltm_adjusted_ebitda_pro_forma'], (('pro', 'forma', 'adjusted', 'ebitda'), ('pro', 'forma', 'ebitda'))), 'cash_taxes': ('Cash taxes', gold['cash_taxes'], (('cash', 'tax'),)), 'ltm_fixed_asset_additions': ('LTM fixed-asset additions', gold['ltm_fixed_asset_additions'], (('fixed', 'asset', 'addition'), ('ltm', 'capex', 'addition'))), 'direct_equipment_financing': ('Direct LTM equipment financing', gold['ltm_direct_equipment_financing'], (('direct', 'equipment', 'financing'), ('equipment', 'financing', 'proceeds'))), 'unfunded_capex': ('Unfunded capex', gold['unfunded_capex'], (('unfunded', 'capex'), ('unfunded', 'capital', 'expenditure'))), 'cash_interest': ('Cash interest', gold['cash_interest'], (('cash', 'interest'),)), 'scheduled_principal': ('Scheduled principal', gold['scheduled_principal'], (('scheduled', 'principal'),)), 'fixed_charges': ('Fixed charges', gold['fixed_charges'], (('fixed', 'charge'),)), 'posted_fccr_numerator': ('Posted FCCR numerator', gold['fccr_numerator_posted'], (('posted', 'fccr', 'numerator'), ('posted', 'coverage', 'numerator'))), 'pro_forma_fccr_numerator': ('Pro-forma FCCR numerator', gold['fccr_numerator_pro_forma'], (('pro', 'forma', 'fccr', 'numerator'), ('pro', 'forma', 'coverage', 'numerator')))}
     calculation_support_results: list[Criterion] = []
     calculation_support_met: dict[str, bool] = {}
-    for field, (label, expected, aliases) in calculation_support_specs.items():
+    for (field, (label, expected, aliases)) in calculation_support_specs.items():
         evidence = support_evidence(*aliases)
         met = _text_contains_number(evidence, expected, abs_tol=1.0)
         if field == 'cash_taxes' and expected == 0:
@@ -1224,7 +1224,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
         calculation_support_met[field] = met
         calculation_support_results.append(Criterion(f'calculation_support__{field}', f"The slide's calculation-support block shows the correct {label}", met, f'submitted={evidence[:800]!r}; expected={expected}'))
     equation_specs = {'ebitda_bridge': (('posted_adjusted_ebitda', 'proposed_wip_adjustment', 'pro_forma_adjusted_ebitda'), '(?:\\+|\\bplus\\b|\\badd(?:ed)?\\s+to\\b)', (('ebitda', 'pro', 'forma'), ('ebitda', 'wip'))), 'unfunded_capex': (('ltm_fixed_asset_additions', 'direct_equipment_financing', 'unfunded_capex'), '(?:\\s[-−]\\s|\\bless\\b|\\bminus\\b)', (('unfunded', 'capex'), ('fixed', 'asset', 'addition'))), 'fixed_charges': (('cash_interest', 'scheduled_principal', 'fixed_charges'), '(?:\\+|\\bplus\\b|\\bsum\\b|\\badd(?:ed)?\\s+to\\b)', (('fixed', 'charge'), ('cash', 'interest'), ('scheduled', 'principal'))), 'posted_fccr_numerator': (('posted_adjusted_ebitda', 'cash_taxes', 'unfunded_capex', 'posted_fccr_numerator'), '(?:\\s[-−]\\s|\\bless\\b|\\bminus\\b)', (('posted', 'fccr', 'numerator'), ('posted', 'coverage', 'numerator'))), 'pro_forma_fccr_numerator': (('pro_forma_adjusted_ebitda', 'cash_taxes', 'unfunded_capex', 'pro_forma_fccr_numerator'), '(?:\\s[-−]\\s|\\bless\\b|\\bminus\\b)', (('pro', 'forma', 'fccr', 'numerator'), ('pro', 'forma', 'coverage', 'numerator')))}
-    for field, (required_fields, operator_pattern, aliases) in equation_specs.items():
+    for (field, (required_fields, operator_pattern, aliases)) in equation_specs.items():
         candidates = [segment for segment in support_segments if any((all((token in _normalize(segment) for token in alias)) for alias in aliases))]
 
         def equation_segment_result(segment: str) -> tuple[dict[str, bool], bool]:
@@ -1232,7 +1232,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
             operator = bool(re.search(operator_pattern, segment, flags=re.IGNORECASE))
             return (values, operator)
         candidate_results = [(segment, *equation_segment_result(segment)) for segment in candidates]
-        matching = next(((segment, values, operator) for segment, values, operator in candidate_results if all(values.values()) and operator), None)
+        matching = next(((segment, values, operator) for (segment, values, operator) in candidate_results if all(values.values()) and operator), None)
         met = matching is not None
         calculation_support_results.append(Criterion(f'calculation_support__equation__{field}', f"The calculation-support block displays the {field.replace('_', ' ')} arithmetic", met, f'same_segment_required=True; matching_segment={matching[0][:1000]!r}' if matching else f'same_segment_required=True; candidates={candidate_results!r}'))
     binding_phrase_blocks = [block for block in non_table_text_blocks if any((contains_concept(block, phrase) for phrase in ('binding', 'most restrictive', 'limiting covenant', 'least headroom')))]
@@ -1241,7 +1241,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
     binding_hard_gate = bool(binding_phrase_blocks) and any((token in _normalize(binding_evidence) for token in ('fccr', 'fixed charge coverage')))
     wip_status_evidence = '\n'.join((block for block in non_table_text_blocks if any((token in _normalize(block) for token in ('wip', 'work in progress')))))
     source_note_evidence = '\n'.join((block for block in non_table_text_blocks if any((token in _normalize(block) for token in ('source', 'basis', 'amendment', 'debt support', 'accounting', 'ledger', 'trial balance', 'wip support', 'wip workpaper')))))
-    result = _result([Criterion('preservation__slide_count', 'Exactly one slide is appended to the original deck', len(presentation.slides) == len(original.slides) + 1, f'original={len(original.slides)}; current={len(presentation.slides)}'), *[Criterion(f'preservation__slide_{index:02d}', f'Original slide {index} retains its substantive content and structure', index <= len(current_structure_signatures) and current_texts[index - 1] == text and (current_structure_signatures[index - 1] == original_structure_signatures[index - 1]), f'text_match={index <= len(current_texts) and current_texts[index - 1] == text}; shape_types_match={index <= len(current_structure_signatures) and current_structure_signatures[index - 1] == original_structure_signatures[index - 1]}') for index, text in enumerate(original_texts, start=1)], Criterion('structure__title', 'The appended slide has the requested title', title_ok, f'title_ok={title_ok}'), Criterion('structure__table', 'The appended slide contains a real PowerPoint covenant-comparison table', has_table, f'table_count={len(table_shapes)}; covenant_comparison_found={has_table}'), Criterion('style__visual_system', 'The appended slide uses the existing deck background and visual palette', visual_system_ok, visual_system_evidence), Criterion('style__title_hierarchy', "The appended slide title follows the deck's established hierarchy", title_hierarchy_ok, title_hierarchy_evidence), Criterion('style__table_readability', 'The covenant comparison is presented as a bounded, clearly headed review table', table_readability_ok, table_readability_evidence), *metric_results, Criterion('status__proposed', 'The WIP entry is identified as proposed', 'proposed' in added_text, added_text[:800]), Criterion('status__unposted', 'The WIP entry is identified as unposted', 'unposted' in added_text or 'not posted' in added_text, added_text[:800]), Criterion('status__compliant', 'Both covenant bases are reported as passing their thresholds', any((contains_concept(added_text, status) for status in ('compliant', 'pass', 'passes', 'within threshold', 'no breach'))), added_text[:800]), Criterion('headroom__binding_covenant', 'The slide identifies FCCR as the binding covenant on the disclosed dollar-deterioration basis', binding_hard_gate, binding_evidence[:1200]), Criterion('source__authority', 'The slide identifies the controlling calculation, agreement, debt, accounting, and WIP authorities', bool(source_note_evidence), source_note_evidence[:1600]), *calculation_support_results, *sensitivity_results])
+    result = _result([Criterion('preservation__slide_count', 'Exactly one slide is appended to the original deck', len(presentation.slides) == len(original.slides) + 1, f'original={len(original.slides)}; current={len(presentation.slides)}'), *[Criterion(f'preservation__slide_{index:02d}', f'Original slide {index} retains its substantive content and structure', index <= len(current_structure_signatures) and current_texts[index - 1] == text and (current_structure_signatures[index - 1] == original_structure_signatures[index - 1]), f'text_match={index <= len(current_texts) and current_texts[index - 1] == text}; shape_types_match={index <= len(current_structure_signatures) and current_structure_signatures[index - 1] == original_structure_signatures[index - 1]}') for (index, text) in enumerate(original_texts, start=1)], Criterion('structure__title', 'The appended slide has the requested title', title_ok, f'title_ok={title_ok}'), Criterion('structure__table', 'The appended slide contains a real PowerPoint covenant-comparison table', has_table, f'table_count={len(table_shapes)}; covenant_comparison_found={has_table}'), Criterion('style__visual_system', 'The appended slide uses the existing deck background and visual palette', visual_system_ok, visual_system_evidence), Criterion('style__title_hierarchy', "The appended slide title follows the deck's established hierarchy", title_hierarchy_ok, title_hierarchy_evidence), Criterion('style__table_readability', 'The covenant comparison is presented as a bounded, clearly headed review table', table_readability_ok, table_readability_evidence), *metric_results, Criterion('status__proposed', 'The WIP entry is identified as proposed', 'proposed' in added_text, added_text[:800]), Criterion('status__unposted', 'The WIP entry is identified as unposted', 'unposted' in added_text or 'not posted' in added_text, added_text[:800]), Criterion('status__compliant', 'Both covenant bases are reported as passing their thresholds', any((contains_concept(added_text, status) for status in ('compliant', 'pass', 'passes', 'within threshold', 'no breach'))), added_text[:800]), Criterion('headroom__binding_covenant', 'The slide identifies FCCR as the binding covenant on the disclosed dollar-deterioration basis', binding_hard_gate, binding_evidence[:1200]), Criterion('source__authority', 'The slide identifies the controlling calculation, agreement, debt, accounting, and WIP authorities', bool(source_note_evidence), source_note_evidence[:1600]), *calculation_support_results, *sensitivity_results])
     status_table_gate = has_table and all((bool(context.get('displayed_values_parseable')) and bool(context.get('status_nonblank')) for context in metric_semantic_context.values()))
     appended_title = ''
     if added is not None:
@@ -1255,7 +1255,7 @@ def _grade_task_015(workspace_root: Path) -> dict[str, Any]:
     semantic_specs: list[dict[str, Any]] = [{'criterion_id': 'structure__title', 'expected_facts': {'required_meaning': 'Q2 covenant headroom comparing posted and pro-forma bases'}, 'hard_gate_met': bool(added) and bool(_normalize(appended_title)), 'hard_gate_evidence': f'appended slide and nonblank title present={bool(added) and bool(_normalize(appended_title))}', 'submitted_evidence': f'Submitted appended-slide title: {appended_title}', 'reference_context': {'required_meaning': 'Q2 covenant headroom comparing posted and pro-forma bases', 'equivalence_rule': 'Accept normal title variants; do not require the authored punctuation or exact phrase.'}, 'task_context': task_context, 'evidence_scope': 'appended slide title only'}, {'criterion_id': 'status__compliant', 'expected_facts': {'overall_conclusion': 'all three covenants are compliant on both posted and pro-forma bases'}, 'hard_gate_met': status_table_gate and bool(table_evidence), 'hard_gate_evidence': f'all three required covenant rows contain parseable displayed values and nonblank statuses={status_table_gate}', 'submitted_evidence': table_evidence, 'reference_context': {'required_conclusion': 'Leverage is below its maximum; FCCR and tangible net worth exceed their minimums on both bases, so no covenant breach exists.', 'equivalence_rule': 'Accept compliant, pass/passes, within threshold, no breach, or an equally clear professional conclusion.', 'consistency_rule': 'The conclusion must also agree with the posted, pro-forma, and threshold values displayed in the submitted table. Numeric accuracy itself is scored separately.'}, 'task_context': task_context, 'evidence_scope': 'appended covenant table only'}, {'criterion_id': 'status__proposed', 'expected_facts': {'wip_entry_state': 'proposed'}, 'hard_gate_met': bool(added), 'hard_gate_evidence': f'appended slide present={bool(added)}', 'submitted_evidence': wip_status_evidence, 'reference_context': {'required_meaning': 'the WIP adjustment is proposed rather than recorded or approved', 'equivalence_rule': 'Accept proposed, draft, pending approval, or an unambiguous equivalent.'}, 'task_context': task_context, 'evidence_scope': 'appended slide WIP-status text only'}, {'criterion_id': 'status__unposted', 'expected_facts': {'wip_entry_posting_state': 'unposted'}, 'hard_gate_met': bool(added), 'hard_gate_evidence': f'appended slide present={bool(added)}', 'submitted_evidence': wip_status_evidence, 'reference_context': {'required_meaning': 'the proposed WIP entry has not been posted to the accounting records', 'equivalence_rule': 'Accept unposted, not posted, not yet booked/recorded, or an unambiguous equivalent; reject language that says it is posted.'}, 'task_context': task_context, 'evidence_scope': 'appended slide WIP-status text only'}, {'criterion_id': 'headroom__binding_covenant', 'expected_facts': {'binding_covenant': 'FCCR', 'comparison_basis': 'lowest like-for-like dollar deterioration capacity'}, 'hard_gate_met': binding_hard_gate, 'hard_gate_evidence': 'the appended slide contains a nonblank binding-covenant conclusion that identifies FCCR', 'submitted_evidence': binding_evidence, 'reference_context': {'required_conclusion': 'FCCR is the binding covenant because it has the lowest dollar amount of adjusted-EBITDA deterioration capacity on both posted and pro-forma bases.', 'verified_comparison': 'Posted capacity: FCCR $2,035,453.11 versus leverage $2,604,739.37. Pro-forma capacity: FCCR $3,311,778.81 versus leverage $3,881,065.07. Tangible-net-worth headroom is a separate balance-sheet dollar cushion.', 'equivalence_rule': 'Accept ordinary professional wording that unambiguously identifies FCCR as binding on the disclosed like-for-like deterioration-capacity basis.'}, 'task_context': task_context, 'evidence_scope': 'appended slide binding-covenant callout only'}, {'criterion_id': 'source__authority', 'expected_facts': {'calculation_scaffold': 'Q2 covenant headroom working workbook', 'legal_authority': 'executed U.S. Bank amendment', 'debt_authority': 'current June 30 debt support', 'posted_authority': 'June 30 posted accounting records', 'pro_forma_authority': 'Controller-supported proposed and unposted June WIP adjustment'}, 'hard_gate_met': bool(source_note_evidence), 'hard_gate_evidence': f'nonblank source/basis note present={bool(source_note_evidence)}', 'submitted_evidence': source_note_evidence, 'reference_context': {'required_authorities': 'The note must identify, in ordinary professional wording, the Q2 covenant working/calculation support, executed bank amendment, current June 30 debt support, posted accounting basis, and proposed June WIP support.', 'equivalence_rule': 'Accept shortened filenames, business descriptions, acronyms, and combined source statements when each authority remains unambiguous. Do not require the authored filenames or exact wording.'}, 'task_context': task_context, 'evidence_scope': 'appended slide source/basis note only'}]
     for metric in ('leverage', 'fccr', 'tangible net worth'):
         context = metric_semantic_context.get(metric, {'submitted_evidence': 'required covenant row is missing', 'numeric_gate': False, 'numeric_gate_evidence': 'required covenant row is missing', 'displayed_values_parseable': False, 'status_nonblank': False, 'expected': (None, None, None)})
-        posted, pro_forma, threshold = context['expected']
+        (posted, pro_forma, threshold) = context['expected']
         relationship = 'posted and pro-forma values are below the maximum threshold' if metric == 'leverage' else 'posted and pro-forma values are above the minimum threshold'
         semantic_specs.append({'criterion_id': f"metric__{_normalize(metric).replace(' ', '_')}__status", 'expected_facts': {'metric': metric, 'posted': posted, 'pro_forma': pro_forma, 'threshold': threshold, 'required_relationship': relationship, 'required_status': 'compliant'}, 'hard_gate_met': bool(context['displayed_values_parseable']) and bool(context['status_nonblank']), 'hard_gate_evidence': f"displayed_values_parseable={context['displayed_values_parseable']}; status_nonblank={context['status_nonblank']}", 'submitted_evidence': context['submitted_evidence'], 'reference_context': {'required_relationship': relationship, 'required_status': 'compliant', 'equivalence_rule': 'Accept compliant, pass/passes, within threshold, no breach, or an equally clear professional equivalent.', 'consistency_rule': 'The status must agree with the relationship between the posted/pro-forma values and threshold displayed in this submitted row. Numeric accuracy itself is scored separately.'}, 'task_context': task_context, 'evidence_scope': f'{metric} row in appended covenant table only'})
     for reversal_percent in (25, 50, 100):
@@ -1281,7 +1281,7 @@ def _docx_table_rows_by_roles(document: Document, header_aliases: dict[str, tupl
     set of professional header equivalents while still requiring one and only
     one physical column for every requested role.
     """
-    normalized_aliases = {role: {_normalize(alias) for alias in aliases} for role, aliases in header_aliases.items()}
+    normalized_aliases = {role: {_normalize(alias) for alias in aliases} for (role, aliases) in header_aliases.items()}
     positional_candidates: list[list[dict[str, str]]] = []
     for table in document.tables:
         if not table.rows:
@@ -1289,8 +1289,8 @@ def _docx_table_rows_by_roles(document: Document, header_aliases: dict[str, tupl
         physical_headers = [_normalize(cell.text) for cell in table.rows[0].cells]
         role_indexes: dict[str, int] = {}
         ambiguous = False
-        for role, aliases in normalized_aliases.items():
-            matches = [index for index, header in enumerate(physical_headers) if header in aliases]
+        for (role, aliases) in normalized_aliases.items():
+            matches = [index for (index, header) in enumerate(physical_headers) if header in aliases]
             if len(matches) != 1:
                 ambiguous = True
                 break
@@ -1298,21 +1298,12 @@ def _docx_table_rows_by_roles(document: Document, header_aliases: dict[str, tupl
         if ambiguous or len(set(role_indexes.values())) != len(role_indexes):
             if allow_positional_fallback and len(table.rows[0].cells) == len(header_aliases) and (expected_row_count is None or len(table.rows) - 1 == expected_row_count):
                 roles = list(header_aliases)
-                positional_candidates.append([{role: row.cells[index].text.strip() for index, role in enumerate(roles)} for row in table.rows[1:]])
+                positional_candidates.append([{role: row.cells[index].text.strip() for (index, role) in enumerate(roles)} for row in table.rows[1:]])
             continue
-        rows = [{role: row.cells[index].text.strip() for role, index in role_indexes.items()} for row in table.rows[1:]]
+        rows = [{role: row.cells[index].text.strip() for (role, index) in role_indexes.items()} for row in table.rows[1:]]
         if expected_row_count is None or len(rows) >= expected_row_count:
             return rows
     return positional_candidates[0] if len(positional_candidates) == 1 else []
-
-def _docx_named_row_by_aliases(rows: list[dict[str, str]], label_role: str, aliases: tuple[str, ...], *, fallback_index: int | None=None) -> dict[str, str]:
-    wanted = {_normalize(alias) for alias in aliases}
-    matches = [row for row in rows if _normalize(row.get(label_role)) in wanted]
-    if len(matches) == 1:
-        return matches[0]
-    if not matches and fallback_index is not None and (0 <= fallback_index < len(rows)):
-        return rows[fallback_index]
-    return {}
 
 def _usable_docx_value(value: Any) -> bool:
     text = str(value or '').strip()
@@ -1334,727 +1325,29 @@ def _task_001_metadata_value(metadata_fields: dict[str, str], *aliases: str) -> 
             return value
     return ''
 
-def _docx_numeric_value(value: Any) -> Any:
-    text = str(value or '').strip().translate(str.maketrans({'−': '-', '–': '-', '—': '-'}))
-    return re.sub('\\s*(?:bps|basis points?)\\s*$', '', text, flags=re.I)
-
-def _task_001_bridge_rate_change_bps(value: Any) -> Any:
-    """Normalize ordinary bridge rate-change notation to basis points.
-
-    The starter calls the column simply ``Change``.  Finance professionals may
-    therefore write ``20 bps``, ``0.20 pp``, ``0.20 percentage points``, or a
-    signed percentage-point value without spelling out the unit.  Those are
-    display choices, not different answers.
-    """
-    text = str(value or '').strip().translate(str.maketrans({'−': '-', '–': '-', '—': '-'}))
-    number = '([-+]?\\s*[\\d,]+(?:\\.\\d+)?)'
-    bps = re.search(f'{number}\\s*(?:bps|basis points?)\\b', text, flags=re.I)
-    if bps:
-        return bps.group(1).replace(' ', '')
-    points = re.search(f'{number}\\s*(?:pp|percentage points?|%-points?)\\b', text, flags=re.I)
-    if points:
-        return float(points.group(1).replace(' ', '').replace(',', '')) * 100
-    percent = re.search(f'{number}\\s*%', text)
-    if percent:
-        return float(percent.group(1).replace(' ', '').replace(',', '')) * 100
-    normalized = _docx_numeric_value(text)
-    parsed = _number(normalized)
-    if parsed is not None and abs(parsed) < 10:
-        return parsed * 100
-    return normalized
-TASK_001_HEADER_ALIASES: dict[str, dict[str, tuple[str, ...]]] = {'metadata': {'field': ('Field', 'Item'), 'value': ('Value', 'Response', 'Entry')}, 'current': {'metric': ('Metric', 'Measure', 'Line item', 'Item'), 'result': ('Result', 'Amount', 'Value', 'June result', 'June close'), 'source_comment': ('Source / comment', 'Source and comment', 'Source', 'Source note', 'Source / basis', 'Basis / comment')}, 'bridge': {'metric': ('Metric', 'Measure', 'Line item', 'Item'), 'may_final': ('May final', 'Prior month', 'May close', 'May', 'Prior close'), 'june_close': ('June close', 'Current month', 'June', 'June final'), 'change': ('Change', 'Variance', 'Movement', 'Delta'), 'driver': ('Driver', 'Explanation', 'Reason', 'Bridge driver')}, 'impact': {'metric': ('Metric', 'Measure', 'Line item', 'Item'), 'pm_case': ('PM case', 'PM case submitted', 'Submitted PM case', 'PM submitted', 'PM basis'), 'policy_corrected': ('Policy-corrected', 'Policy corrected', 'Corrected close', 'Policy-corrected case', 'Policy-corrected close', 'June close'), 'impact': ('Corrected less PM', 'Policy-corrected less PM', 'Close impact', 'Corrected less PM signed', 'Impact', 'Change')}, 'reconciliation': {'control': ('Control / source line', 'Control and source line', 'Control line', 'Source line', 'Reconciliation line', 'Line item'), 'base': ('May / base', 'May and base', 'May cumulative / base', 'May cumulative', 'Base / prior', 'Base'), 'activity': ('June activity / approved changes', 'June activity and approved changes', 'June activity / changes', 'June activity', 'Approved changes', 'Period activity / approved changes'), 'close': ('June close / current', 'June close and current', 'June close', 'Current balance', 'Closing balance', 'Current'), 'variance': ('Check / variance', 'Check and variance', 'Control check', 'Check', 'Variance', 'Control difference')}, 'transaction_sample': {'rank': ('Rank', 'Sample rank', 'Order'), 'entry_id': ('Entry ID', 'Entry', 'Record ID', 'Transaction ID'), 'posting_date': ('Posting date', 'Date', 'Posted date'), 'document': ('Document', 'Document number', 'Reference', 'Source document'), 'source': ('Source', 'Source module', 'Module'), 'cost_code': ('Cost code', 'Code', 'Job cost code'), 'cost_type': ('Cost type', 'Type', 'Cost category'), 'amount': ('Amount', 'Posted amount', 'Job cost amount')}, 'transaction_control': {'cost_type': ('Cost type', 'Type', 'Cost category'), 'selected': ('Selected top ten', 'Selected sample', 'Top ten', 'Sample amount'), 'residual': ('Residual population', 'Residual', 'Unselected population'), 'june_total': ('June total', 'Population total', 'June population'), 'entry_count': ('Entry count', 'Count', 'Population count')}, 'billing_support': {'invoice': ('Invoice', 'Invoice number', 'Billing document'), 'invoice_date': ('Invoice date', 'Date', 'Billing date'), 'status': ('Status', 'Invoice status', 'Billing status'), 'account': ('Account', 'Account code', 'GL account'), 'amount': ('Amount', 'Invoice amount', 'Billing amount'), 'variance': ('Variance to June billings', 'Variance', 'Billing variance', 'Difference to June billings')}, 'posting_lineage': {'rank': ('Rank', 'Sample rank', 'Order'), 'job_cost_entry_id': ('Job-cost entry ID', 'Job cost entry ID', 'JC entry ID', 'Job-cost record ID'), 'journal_id': ('Journal ID', 'Journal', 'Journal number'), 'journal_line_id': ('Journal line ID', 'Journal-line ID', 'GL line ID', 'Line ID'), 'account': ('Account', 'Account code', 'Expense account', 'GL account'), 'debit': ('Debit', 'Debit amount'), 'credit': ('Credit', 'Credit amount'), 'status': ('Posting status', 'Journal status', 'Status')}, 'posting_account_control': {'account': ('Account', 'Account code', 'Expense account', 'GL account'), 'entry_count': ('Entry count', 'Count', 'Selected count'), 'debits': ('Selected debits', 'Debits', 'Debit total'), 'credits': ('Selected credits', 'Credits', 'Credit total'), 'net': ('Net amount', 'Net', 'Selected net'), 'variance': ('Variance', 'Control variance', 'Difference')}, 'billing_lineage': {'source_record': ('Billing source record', 'Source record', 'Billing line', 'Control line'), 'record_id': ('Record ID', 'Invoice / line ID', 'Invoice and line ID'), 'journal_id': ('Journal ID', 'Journal', 'Journal number'), 'journal_line_id': ('Journal line ID', 'Journal-line ID', 'GL line ID', 'Line ID'), 'account': ('Account', 'Account code', 'GL account'), 'debit': ('Debit', 'Debit amount'), 'credit': ('Credit', 'Credit amount', 'Control amount')}, 'lineage_conclusion': {'control': ('Control conclusion', 'Issue', 'Control', 'Question'), 'assessment': ('Assessment', 'Conclusion', 'Treatment', 'Answer')}, 'population_detail': {'sequence': ('#', 'Sequence', 'Row'), 'source': ('Source', 'Module'), 'posting_date': ('Posting date', 'Date', 'Posted date'), 'document': ('Document', 'Document number', 'Reference'), 'entry_id': ('Job-cost entry ID', 'Job cost entry ID', 'JC entry ID'), 'cost_code': ('Cost code', 'Job cost code', 'Code'), 'entry_amount': ('Job-cost amount', 'Job cost amount', 'Amount'), 'journal_id': ('Journal ID', 'Journal', 'Journal number'), 'expense_line_id': ('Expense line ID', 'Project expense line ID', 'Journal line ID', 'GL line ID'), 'expense_account': ('Expense account', 'Account', 'GL account'), 'expense_debit': ('Expense debit', 'Project expense debit', 'Debit'), 'status': ('Status', 'Posting status', 'Journal status'), 'variance': ('Variance', 'Control variance', 'Difference')}, 'population_journal': {'source': ('Source', 'Module'), 'posting_date': ('Posting date', 'Date', 'Posted date'), 'document': ('Document', 'Document number', 'Reference'), 'journal_id': ('Journal ID', 'Journal', 'Journal number'), 'entry_count': ('Job-cost entries', 'Job cost entries', 'Entry count'), 'expense_line_count': ('Expense lines', 'Expense line count'), 'expense_debits': ('Expense debits', 'Project expense debits'), 'offset_line_id': ('Offset line ID', 'Control line ID', 'Offset journal line ID'), 'offset_account': ('Offset account', 'Control account', 'Offset GL'), 'offset_credits': ('Offset credits', 'Control-account credits', 'Credits'), 'status': ('Status', 'Posting status', 'Journal status'), 'out_of_balance': ('Out-of-balance', 'Out of balance', 'Balance check')}, 'population_summary': {'source': ('Source', 'Module', 'Population'), 'entry_count': ('Job-cost entries', 'Job cost entries', 'Entry count'), 'entry_amount': ('Job-cost amount', 'Job cost amount', 'Population amount'), 'journal_count': ('Unique journals', 'Journal count', 'Journals'), 'expense_line_count': ('Expense lines', 'Expense line count'), 'expense_debits': ('Expense debits', 'Project expense debits'), 'posted_entry_count': ('Posted entries', 'Posted entry count'), 'variance': ('Variance', 'Control variance', 'Difference')}, 'population_offset': {'source': ('Source', 'Module', 'Population'), 'offset_account': ('Offset account', 'Control account', 'Offset GL'), 'journal_count': ('Journals', 'Journal count', 'Unique journals'), 'offset_line_count': ('Offset lines', 'Offset line count'), 'expense_debits': ('Expense debits', 'Project expense debits'), 'offset_credits': ('Offset credits', 'Control-account credits'), 'variance': ('Variance', 'Control variance', 'Difference')}, 'population_exceptions': {'source': ('Source', 'Module', 'Population'), 'unmatched': ('Unmatched entries', 'Unmatched job-cost entries'), 'duplicates': ('Duplicate matches', 'Duplicate expense matches'), 'orphans': ('Orphan expense lines', 'Orphan lines'), 'unposted': ('Unposted journals', 'Unposted journal count'), 'out_of_balance': ('Out-of-balance journals', 'Out of balance journals'), 'wrong_offsets': ('Wrong offset accounts', 'Incorrect offset accounts')}, 'population_conclusion': {'control': ('Population conclusion', 'Population control', 'Population assessment'), 'assessment': ('Assessment', 'Conclusion', 'Treatment', 'Answer')}, 'etc_composition': {'component': ('Source component', 'ETC component', 'Component', 'Cost component'), 'pm_etc': ('Submitted PM ETC', 'PM ETC', 'Submitted forecast ETC', 'PM amount'), 'finance_correction': ('Finance correction', 'Finance ETC correction', 'Correction', 'Finance adjustment'), 'corrected_etc': ('Policy-corrected ETC', 'Corrected ETC', 'Close ETC', 'Adjusted ETC'), 'source_basis': ('Source / treatment', 'Source and treatment', 'Source / basis', 'Basis', 'Source')}, 'conclusion': {'question': ('Question', 'Issue', 'Control area', 'Topic'), 'conclusion': ('Conclusion', 'Assessment', 'Decision', 'Treatment'), 'support': ('Support', 'Basis', 'Rationale', 'Evidence')}, 'evidence': {'control': ('Control / conclusion', 'Control and conclusion', 'Control area', 'Subject', 'Control'), 'source': ('Controlling source', 'Source', 'Reference', 'Evidence source'), 'fact': ('Source fact', 'Key fact', 'Fact', 'Finding'), 'status': ('Status', 'State', 'Result')}, 'action': {'owner': ('Owner', 'Responsible party', 'Accountable owner', 'Role'), 'action': ('Action', 'Next step', 'Required action'), 'evidence': ('Completion evidence', 'Evidence required', 'Closeout evidence', 'Proof'), 'status': ('Status', 'State')}, 'authority': {'source': ('Source', 'Source / artifact', 'Artifact', 'Evidence source'), 'date': ('Date / cutoff', 'Date and cutoff', 'Source date', 'Cutoff', 'As of'), 'status': ('Status / authority', 'Status and authority', 'Authority status', 'Status'), 'amount': ('Amount / threshold', 'Amount and threshold', 'Amount', 'Relevant amount'), 'treatment': ('June close treatment', 'Close treatment', 'Accounting treatment'), 'evidence': ('Evidence to clear', 'Required evidence', 'Clearance evidence', 'Next evidence')}, 'journal_bridge': {'stage': ('Stage', 'Posting stage', 'Entry stage', 'Step'), 'account': ('Account / control', 'Account and control', 'Account', 'Line item'), 'debit': ('Debit', 'Debit amount'), 'credit': ('Credit', 'Credit amount'), 'description': ('Description / basis', 'Description and basis', 'Description', 'Basis / status')}}
-TASK_001_CURRENT_ROWS: dict[str, tuple[tuple[str, ...], str]] = {'current_contract': (('Current contract', 'Contract value', 'Executed contract value'), 'current_contract'), 'posted_cost': (('Posted cost', 'Cost incurred to date', 'Job cost to date'), 'posted_cost'), 'billings': (('Billings', 'Billings to date', 'Cumulative billings'), 'billings'), 'pm_etc': (('PM ETC', 'Latest PM ETC', 'PM remaining cost'), 'pm_etc'), 'required_etc_adjustment': (('Finance ETC correction', 'Finance ETC adjustment', 'Finance overlay', 'Backcharge adjustment'), 'required_etc_adjustment'), 'close_etc': (('Close ETC', 'Policy-corrected ETC', 'Adjusted ETC', 'Remaining cost'), 'close_etc'), 'eac': (('EAC', 'Estimated cost at completion', 'Forecast final cost'), 'eac'), 'percent_complete': (('Percent complete', 'Completion percentage', '% complete'), 'percent_complete'), 'earned_revenue': (('Earned revenue', 'Revenue recognized to date', 'Revenue earned to date'), 'earned_revenue'), 'contract_asset': (('Contract asset', 'Underbilling'), 'contract_asset'), 'contract_liability': (('Contract liability', 'Overbilling'), 'contract_liability'), 'estimated_margin': (('Estimated margin at completion', 'Total estimated margin', 'Gross profit at completion'), 'estimated_margin'), 'margin_percent': (('Margin rate', 'Estimated margin percent', 'Gross margin rate'), 'margin_percent')}
-TASK_001_BRIDGE_ROWS: dict[str, tuple[tuple[str, ...], str, str, str]] = {'current_contract': (('Current contract', 'Contract value', 'Executed contract value'), 'may_current_contract', 'bridge_june_current_contract', 'current_contract_change'), 'posted_cost': (('Posted cost', 'Cost incurred to date', 'Job cost to date'), 'may_posted_cost', 'bridge_june_posted_cost', 'posted_cost_change'), 'close_etc': (('Remaining cost / ETC', 'Remaining cost', 'ETC', 'Close ETC'), 'may_close_etc', 'bridge_june_close_etc', 'close_etc_change'), 'eac': (('EAC', 'Estimated cost at completion', 'Forecast final cost'), 'may_eac', 'bridge_june_eac', 'eac_change'), 'percent_complete': (('Percent complete', 'Completion percentage', '% complete'), 'may_percent_complete', 'bridge_june_percent_complete', 'percent_complete_change_bps'), 'earned_revenue': (('Earned revenue', 'Revenue recognized to date', 'Revenue earned to date'), 'may_earned_revenue', 'bridge_june_earned_revenue', 'earned_revenue_change'), 'billings': (('Billings', 'Billings to date', 'Cumulative billings'), 'may_billings', 'bridge_june_billings', 'billings_change'), 'contract_asset': (('Contract asset', 'Underbilling'), 'may_contract_asset', 'bridge_june_contract_asset', 'contract_asset_change'), 'contract_liability': (('Contract liability', 'Overbilling'), 'may_contract_liability', 'bridge_june_contract_liability', 'contract_liability_change'), 'estimated_margin': (('Estimated margin at completion', 'Total estimated margin', 'Gross profit at completion'), 'may_estimated_margin', 'bridge_june_estimated_margin', 'estimated_margin_change'), 'margin_percent': (('Margin rate', 'Estimated margin percent', 'Gross margin rate'), 'may_margin_percent', 'bridge_june_margin_percent', 'margin_rate_change_bps')}
-TASK_001_IMPACT_ROWS: dict[str, tuple[str, ...]] = {'etc': ('ETC', 'Remaining cost', 'Close ETC'), 'eac': ('EAC', 'Estimated cost at completion'), 'percent_complete': ('Percent complete', 'Completion percentage', '% complete'), 'earned_revenue': ('Earned revenue', 'Revenue recognized', 'Revenue recognized to date'), 'contract_asset': ('Contract asset', 'Underbilling'), 'estimated_margin': ('Total estimated margin', 'Estimated margin at completion', 'Gross profit at completion'), 'margin_rate': ('Margin rate', 'Estimated margin percent', 'Gross margin rate')}
-TASK_001_IMPACT_BASIS_ALIASES = ('Basis / decision', 'Basis and decision', 'Close basis', 'Decision basis')
-TASK_001_RECONCILIATION_ROWS: dict[str, tuple[str, ...]] = {'labor': ('Labor job cost', 'Labor cost', 'Labor'), 'material': ('Material job cost', 'Material cost', 'Materials', 'Material'), 'subcontract': ('Subcontract job cost', 'Subcontract cost', 'Subcontractors', 'Subcontract'), 'other': ('Other job cost', 'Other cost', 'Other'), 'total_job_cost': ('Total job cost', 'Total cost to date', 'Total posted cost', 'Job cost total'), 'billings': ('Billings', 'Cumulative billings', 'Billings to date'), 'current_contract': ('Current contract', 'Executed contract value', 'Contract value')}
-TASK_001_POSTING_ACCOUNT_ROWS: dict[str, tuple[str, ...]] = {'5010': ('5010', 'Account 5010'), '5030': ('5030', 'Account 5030'), '5100': ('5100', 'Account 5100'), '5120': ('5120', 'Account 5120'), '5220': ('5220', 'Account 5220'), '5320': ('5320', 'Account 5320'), 'total': ('Total / control', 'Total and control', 'Total', 'Control total')}
-TASK_001_BILLING_LINEAGE_ROWS: dict[str, tuple[str, ...]] = {'source_record': ('Customer invoice / line', 'Customer invoice and line', 'Invoice / line'), 'trade_ar': ('Trade AR', 'Trade accounts receivable', 'Account 1100'), 'retainage_ar': ('Retainage AR', 'Retainage receivable', 'Account 1110'), 'contract_revenue': ('Contract revenue', 'Revenue', 'Account 4000'), 'totals': ('Totals / control', 'Totals and control', 'Totals', 'Control total'), 'out_of_balance': ('Out-of-balance', 'Out of balance', 'Balance check'), 'variance': ('Variance to June billings', 'June billings variance', 'Billing variance')}
-TASK_001_LINEAGE_CONCLUSION_ROWS: dict[str, tuple[str, ...]] = {'payment_hold': ('AP-0004290 payment hold', 'Payment hold', 'AP payment hold'), 'billing_recognition': ('June billing recognition', 'Billing recognition', 'Invoice recognition')}
-TASK_001_POPULATION_ROWS: dict[str, tuple[str, ...]] = {'ap': ('AP', 'Accounts payable'), 'pay': ('PAY', 'Payroll'), 'total': ('Total / control', 'Total and control', 'Total', 'Control total')}
-TASK_001_POPULATION_CONCLUSION_ROWS: dict[str, tuple[str, ...]] = {'complete_population': ('Complete June job-cost population', 'Full population', 'June population')}
-TASK_001_ETC_COMPONENT_ROWS: dict[str, tuple[str, ...]] = {'remaining_field_labor': ('PM remaining field labor', 'Remaining field labor', 'Field labor'), 'material_equipment': ('PM material / equipment', 'PM material and equipment', 'Material / equipment', 'Material and equipment'), 'subcontract': ('PM subcontract', 'Subcontract', 'Subcontract ETC'), 'commissioning_close_out': ('PM commissioning / close-out', 'PM commissioning and close-out', 'Commissioning / close-out', 'Commissioning and close-out'), 'contingency': ('PM contingency', 'Contingency'), 'recovery_labor': ('PCO-011 disputed recovery - labor', 'PCO-011 recovery labor', 'Disputed recovery labor', 'Recovery labor'), 'recovery_material_sub': ('PCO-011 disputed recovery - material / sub', 'PCO-011 disputed recovery - material and sub', 'Disputed recovery material / sub', 'Recovery material / sub'), 'recovery_oh_markup': ('PCO-011 disputed recovery - OH / markup', 'PCO-011 disputed recovery - overhead / markup', 'Disputed recovery OH / markup', 'Recovery OH / markup'), 'total': ('Total / control', 'Total and control', 'Total', 'Control total')}
-TASK_001_CONCLUSION_ROWS: dict[str, tuple[str, ...]] = {'authorization': ('PCO-011 authorization at cutoff', 'Backcharge authorization', 'Authorization at cutoff'), 'contract_treatment': ('Contract value treatment', 'Contract treatment', 'Revenue treatment'), 'etc_treatment': ('PM ETC treatment', 'ETC treatment', 'Cost forecast treatment', 'Treatment of pending recovery'), 'controller_review': ('Controller review', 'Controller review requirement', 'Review requirement'), 'posting_status': ('Close and posting status', 'Posting status', 'Close status', 'Approval status')}
-TASK_001_EVIDENCE_ROWS: dict[str, tuple[str, ...]] = {'accounting': ('Current accounting balances', 'Accounting balances', 'Current records'), 'prior_close': ('Prior-close comparison', 'Prior close comparison', 'May close comparison'), 'forecast': ('Current PM forecast', 'PM forecast', 'Current forecast'), 'commercial': ('Commercial authorization and recovery', 'Commercial authorization', 'Backcharge support'), 'policy': ('Revenue-recognition and review policy', 'Revenue recognition policy', 'WIP policy')}
-TASK_001_ACTION_ROWS: dict[str, tuple[str, ...]] = {'finance': ('Finance / Project Accounting', 'Finance and Project Accounting', 'Project Accounting', 'Finance'), 'commercial': ('Commercial / Project Team', 'Commercial and Project Team', 'Commercial', 'Project Team'), 'controller': ('Controller', 'Corporate Controller')}
-TASK_001_AUTHORITY_ROWS: dict[str, tuple[str, ...]] = {'pm_forecast': ('Latest PM forecast', 'PM forecast', 'Current PM forecast'), 'commercial_log': ('Commercial change-order log', 'Commercial log', 'Change-order log', 'CO log'), 'pco_backup': ('PCO-011 support packet', 'PCO-011 backup', 'Backcharge support packet'), 'wip_policy': ('Signed WIP policy', 'WIP policy', 'Revenue-recognition policy')}
-TASK_001_JOURNAL_STAGES: dict[str, tuple[str, ...]] = {'may_reversal': ('Reverse May close', 'May reversal', 'Reverse May WIP'), 'june_establishment': ('Establish June close', 'June establishment', 'Record June WIP'), 'net_june': ('Net June posting', 'June net entry', 'Net June effect')}
-TASK_001_JOURNAL_ROWS: dict[str, tuple[str, ...]] = {'account_1200': ('1200 Costs and earnings in excess of billings', '1200 contract asset', 'Account 1200'), 'account_2100': ('2100 Billings in excess of costs and earnings', '2100 contract liability', 'Account 2100'), 'account_4300': ('4300 WIP revenue adjustment', 'WIP revenue adjustment', 'Account 4300'), 'totals': ('Totals', 'Journal totals', 'Total'), 'out_of_balance': ('Out-of-balance check', 'Out of balance check', 'Balance check', 'Difference'), 'stage_basis': ('Stage basis', 'Stage tie-out', 'Stage support'), 'overall_basis': ('Overall basis', 'Entry basis', 'Journal basis'), 'status': ('Approval / posting status', 'Approval and posting status', 'Posting status', 'Approval status')}
-
-def _task_001_tables(document: Document) -> dict[str, list[dict[str, str]]]:
-    expected_rows = {'metadata': 3, 'current': len(TASK_001_CURRENT_ROWS), 'bridge': len(TASK_001_BRIDGE_ROWS), 'impact': len(TASK_001_IMPACT_ROWS), 'reconciliation': len(TASK_001_RECONCILIATION_ROWS), 'transaction_sample': 10, 'transaction_control': 5, 'billing_support': 1, 'posting_lineage': 10, 'posting_account_control': len(TASK_001_POSTING_ACCOUNT_ROWS), 'billing_lineage': len(TASK_001_BILLING_LINEAGE_ROWS), 'lineage_conclusion': len(TASK_001_LINEAGE_CONCLUSION_ROWS), 'population_detail': 23, 'population_journal': 13, 'population_summary': len(TASK_001_POPULATION_ROWS), 'population_offset': len(TASK_001_POPULATION_ROWS), 'population_exceptions': len(TASK_001_POPULATION_ROWS), 'population_conclusion': len(TASK_001_POPULATION_CONCLUSION_ROWS), 'etc_composition': len(TASK_001_ETC_COMPONENT_ROWS), 'conclusion': len(TASK_001_CONCLUSION_ROWS), 'evidence': len(TASK_001_EVIDENCE_ROWS), 'action': len(TASK_001_ACTION_ROWS), 'authority': len(TASK_001_AUTHORITY_ROWS), 'journal_bridge': len(TASK_001_JOURNAL_STAGES) * 6 + 2}
-    return {name: _docx_table_rows_by_roles(document, aliases, expected_row_count=expected_rows[name], allow_positional_fallback=True) for name, aliases in TASK_001_HEADER_ALIASES.items()}
-
-def _task_001_impact_basis_text(document: Document | None, impact_basis_field: dict[str, str]) -> str:
-    """Return only the submitted close-impact basis statement.
-
-    Accept either an optional table row or an ordinary adjacent/narrative note.
-    The prompt specifies the accounting meaning, not a hidden row label or exact
-    placement. Candidate paragraphs must expressly associate both cases and the
-    approval/control boundary so unrelated document prose cannot satisfy it.
-    """
-    table_text = '\n'.join((str(impact_basis_field.get(role, '') or '').strip() for role in ('metric', 'pm_case', 'policy_corrected', 'impact') if str(impact_basis_field.get(role, '') or '').strip()))
-    candidates = [table_text] if table_text else []
-    if document is not None:
-        for paragraph in document.paragraphs:
-            text = paragraph.text.strip()
-            normalized = _normalize(text)
-            submitted_case = any((token in normalized for token in ('pm case', 'pm forecast', 'management forecast', 'submitted forecast', 'submitted case')))
-            corrected_case = any((token in normalized for token in ('policy corrected', 'finance adjusted', 'finance corrected', 'corrected close', 'corrected case', 'close governs', 'controlling close')))
-            close_boundary = any((token in normalized for token in ('not authorized', 'not approved', 'controls', 'controlling', 'preparer workpaper', 'june close basis', 'close basis', 'pending controller review', 'governs')))
-            if submitted_case and corrected_case and close_boundary:
-                candidates.append(text)
-    return '\n'.join(dict.fromkeys((candidate for candidate in candidates if candidate)))
-
-def _task_001_document_mapping(document: Document) -> dict[str, Any]:
-    """Extract only objective values from the submitted Word artifact.
-
-    Narrative conclusions deliberately remain raw document evidence for the
-    independent LLM judge.  They are never collapsed into a brittle keyword or
-    boolean field, and the final chat response is never consulted.
-    """
-    mapping: dict[str, Any] = {}
-    tables = _task_001_tables(document)
-    for index, (aliases, key) in enumerate(TASK_001_CURRENT_ROWS.values()):
-        value = _docx_named_row_by_aliases(tables['current'], 'metric', aliases, fallback_index=index).get('result')
-        if _usable_docx_value(value):
-            mapping[key] = _docx_numeric_value(value)
-    for index, (aliases, may_key, june_key, change_key) in enumerate(TASK_001_BRIDGE_ROWS.values()):
-        row = _docx_named_row_by_aliases(tables['bridge'], 'metric', aliases, fallback_index=index)
-        for role, key in (('may_final', may_key), ('june_close', june_key), ('change', change_key)):
-            value = row.get(role)
-            if _usable_docx_value(value):
-                mapping[key] = _task_001_bridge_rate_change_bps(value) if role == 'change' and key in {'percent_complete_change_bps', 'margin_rate_change_bps'} else _docx_numeric_value(value)
-    for index, (key, aliases) in enumerate(TASK_001_IMPACT_ROWS.items()):
-        row = _docx_named_row_by_aliases(tables['impact'], 'metric', aliases, fallback_index=index)
-        unit_is_bps = key in {'percent_complete', 'margin_rate'}
-        for role in ('pm_case', 'policy_corrected', 'impact'):
-            value = row.get(role)
-            if _usable_docx_value(value):
-                mapping[f'impact_{key}_{role}'] = _task_001_bridge_rate_change_bps(value) if role == 'impact' and unit_is_bps else _docx_numeric_value(value)
-    for index, (key, aliases) in enumerate(TASK_001_RECONCILIATION_ROWS.items()):
-        row = _docx_named_row_by_aliases(tables['reconciliation'], 'control', aliases, fallback_index=index)
-        for role in ('base', 'activity', 'close', 'variance'):
-            submitted = row.get(role)
-            if not _usable_docx_value(submitted):
-                continue
-            if role == 'variance' and _normalize(submitted) in {'tie', 'tied', 'ties', 'zero variance', 'no variance', 'passes', 'pass', 'ok', 'okay', 'reconciled', 'reconciles', 'balanced', 'agrees', 'agreed'}:
-                mapping[f'reconciliation_{key}_{role}'] = 0.0
-            else:
-                mapping[f'reconciliation_{key}_{role}'] = _docx_numeric_value(submitted)
-    for index, (key, aliases) in enumerate(TASK_001_ETC_COMPONENT_ROWS.items()):
-        row = _docx_named_row_by_aliases(tables['etc_composition'], 'component', aliases, fallback_index=index)
-        for role in ('pm_etc', 'finance_correction', 'corrected_etc'):
-            submitted = row.get(role)
-            if _usable_docx_value(submitted):
-                mapping[f'etc_composition_{key}_{role}'] = _docx_numeric_value(submitted)
-    return mapping
-
-def _grade_task_001(workspace_root: Path, answer: Any) -> dict[str, Any]:
-    """Grade the edited controller memo as a finance workpaper, not a phrase quiz.
-
-    Exact and professionally rounded amounts are deterministic.  Every
-    open-ended conclusion, source interpretation, explanation, approval state,
-    and action is routed to the independent production semantic judge even when
-    a local phrase matcher would have accepted it.  The final chat response is
-    intentionally ignored.
-    """
-    path = workspace_root / TASK_001_ARTIFACT
-    document: Document | None = None
-    parse_error = ''
-    if path.is_file():
-        try:
-            document = Document(path)
-        except Exception as exc:
-            parse_error = f'{type(exc).__name__}: {exc}'
-    else:
-        parse_error = 'artifact missing'
-    mapping = _task_001_document_mapping(document) if document is not None else {}
-    gold = load_apex_gold('task_001')
-    project = gold['project']
-    prior = gold['prior_month']
-    bridge = gold['bridge']
-    tables = _task_001_tables(document) if document is not None else {name: [] for name in TASK_001_HEADER_ALIASES}
-    text = _document_text(document) if document is not None else ''
-    normalized = _normalize(text)
-    placeholder_pattern = re.compile('\\[(?:enter|select|complete|cite|record|explain)\\b', flags=re.I)
-    placeholders = placeholder_pattern.findall(text)
-    metadata_rows = tables['metadata']
-    current_rows = tables['current']
-    bridge_rows = tables['bridge']
-    impact_rows = tables['impact']
-    reconciliation_rows = tables['reconciliation']
-    transaction_sample_rows = tables['transaction_sample']
-    transaction_control_rows = tables['transaction_control']
-    billing_support_rows = tables['billing_support']
-    posting_lineage_rows = tables['posting_lineage']
-    posting_account_control_rows = tables['posting_account_control']
-    billing_lineage_rows = tables['billing_lineage']
-    lineage_conclusion_rows = tables['lineage_conclusion']
-    population_detail_rows = tables['population_detail']
-    population_journal_rows = tables['population_journal']
-    population_summary_rows = tables['population_summary']
-    population_offset_rows = tables['population_offset']
-    population_exception_rows = tables['population_exceptions']
-    population_conclusion_rows = tables['population_conclusion']
-    etc_composition_rows = tables['etc_composition']
-    conclusion_rows = tables['conclusion']
-    authority_rows = tables['authority']
-    journal_rows = tables['journal_bridge']
-    evidence_rows = tables['evidence']
-    action_rows = tables['action']
-    recommendation = ''
-    if document is not None and len(document.tables) >= 2:
-        callout = document.tables[1]
-        if len(callout.rows) == 1 and len(callout.columns) == 1:
-            recommendation = callout.cell(0, 0).text.strip()
-    conclusion_fields = {key: _docx_named_row_by_aliases(conclusion_rows, 'question', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_CONCLUSION_ROWS.items())}
-    evidence_fields = {key: _docx_named_row_by_aliases(evidence_rows, 'control', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_EVIDENCE_ROWS.items())}
-    action_fields = {key: _docx_named_row_by_aliases(action_rows, 'owner', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_ACTION_ROWS.items())}
-    posting_account_fields = {key: _docx_named_row_by_aliases(posting_account_control_rows, 'account', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_POSTING_ACCOUNT_ROWS.items())}
-    billing_lineage_fields = {key: _docx_named_row_by_aliases(billing_lineage_rows, 'source_record', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_BILLING_LINEAGE_ROWS.items())}
-    lineage_conclusion_fields = {key: _docx_named_row_by_aliases(lineage_conclusion_rows, 'control', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_LINEAGE_CONCLUSION_ROWS.items())}
-    population_summary_fields = {key: _docx_named_row_by_aliases(population_summary_rows, 'source', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_POPULATION_ROWS.items())}
-    population_offset_fields = {key: _docx_named_row_by_aliases(population_offset_rows, 'source', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_POPULATION_ROWS.items())}
-    population_exception_fields = {key: _docx_named_row_by_aliases(population_exception_rows, 'source', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_POPULATION_ROWS.items())}
-    population_conclusion_fields = {key: _docx_named_row_by_aliases(population_conclusion_rows, 'control', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_POPULATION_CONCLUSION_ROWS.items())}
-    authority_fields = {key: _docx_named_row_by_aliases(authority_rows, 'source', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_AUTHORITY_ROWS.items())}
-    journal_stage_fields: dict[str, dict[str, dict[str, str]]] = {}
-    for stage_key, stage_aliases in TASK_001_JOURNAL_STAGES.items():
-        wanted_stages = {_normalize(alias) for alias in stage_aliases}
-        stage_rows = [row for row in journal_rows if _normalize(row.get('stage')) in wanted_stages]
-        journal_stage_fields[stage_key] = {row_key: _docx_named_row_by_aliases(stage_rows, 'account', aliases, fallback_index=index) for index, (row_key, aliases) in enumerate(((key, TASK_001_JOURNAL_ROWS[key]) for key in ('account_1200', 'account_2100', 'account_4300', 'totals', 'out_of_balance', 'stage_basis')))}
-    journal_control_fields = {key: _docx_named_row_by_aliases(journal_rows, 'account', TASK_001_JOURNAL_ROWS[key]) for key in ('overall_basis', 'status')}
-    current_fields = {key: _docx_named_row_by_aliases(current_rows, 'metric', aliases, fallback_index=index) for index, (key, (aliases, _mapping_key)) in enumerate(TASK_001_CURRENT_ROWS.items())}
-    bridge_fields = {key: _docx_named_row_by_aliases(bridge_rows, 'metric', aliases, fallback_index=index) for index, (key, (aliases, *_mapping_keys)) in enumerate(TASK_001_BRIDGE_ROWS.items())}
-    etc_composition_fields = {key: _docx_named_row_by_aliases(etc_composition_rows, 'component', aliases, fallback_index=index) for index, (key, aliases) in enumerate(TASK_001_ETC_COMPONENT_ROWS.items())}
-    impact_basis_field = _docx_named_row_by_aliases(impact_rows, 'metric', TASK_001_IMPACT_BASIS_ALIASES, fallback_index=len(TASK_001_IMPACT_ROWS))
-    impact_basis_text = _task_001_impact_basis_text(document, impact_basis_field)
-    metadata_fields = {_normalize(row.get('field')): row.get('value', '') for row in metadata_rows}
-
-    def row_coverage(rows: list[dict[str, str]], role: str, alias_groups: list[tuple[str, ...]]) -> bool:
-        return bool(rows) and all((_docx_named_row_by_aliases(rows, role, aliases, fallback_index=index) for index, aliases in enumerate(alias_groups)))
-    required_tables = {'metadata': bool(metadata_rows), 'current': row_coverage(current_rows, 'metric', [aliases for aliases, _key in TASK_001_CURRENT_ROWS.values()]), 'bridge': row_coverage(bridge_rows, 'metric', [aliases for aliases, *_keys in TASK_001_BRIDGE_ROWS.values()]), 'impact': row_coverage(impact_rows, 'metric', list(TASK_001_IMPACT_ROWS.values())), 'reconciliation': row_coverage(reconciliation_rows, 'control', list(TASK_001_RECONCILIATION_ROWS.values())), 'transaction_sample': len(transaction_sample_rows) >= 10, 'transaction_control': len(transaction_control_rows) >= 5, 'billing_support': len(billing_support_rows) >= 1, 'posting_lineage': len(posting_lineage_rows) >= 10, 'posting_account_control': row_coverage(posting_account_control_rows, 'account', list(TASK_001_POSTING_ACCOUNT_ROWS.values())), 'billing_lineage': row_coverage(billing_lineage_rows, 'source_record', list(TASK_001_BILLING_LINEAGE_ROWS.values())), 'lineage_conclusions': row_coverage(lineage_conclusion_rows, 'control', list(TASK_001_LINEAGE_CONCLUSION_ROWS.values())), 'population_detail': len(population_detail_rows) >= 23, 'population_journal': len(population_journal_rows) >= 13, 'population_summary': row_coverage(population_summary_rows, 'source', list(TASK_001_POPULATION_ROWS.values())), 'population_offset': row_coverage(population_offset_rows, 'source', list(TASK_001_POPULATION_ROWS.values())), 'population_exceptions': row_coverage(population_exception_rows, 'source', list(TASK_001_POPULATION_ROWS.values())), 'population_conclusion': row_coverage(population_conclusion_rows, 'control', list(TASK_001_POPULATION_CONCLUSION_ROWS.values())), 'etc_composition': row_coverage(etc_composition_rows, 'component', list(TASK_001_ETC_COMPONENT_ROWS.values())), 'conclusions': row_coverage(conclusion_rows, 'question', list(TASK_001_CONCLUSION_ROWS.values())), 'evidence': row_coverage(evidence_rows, 'control', list(TASK_001_EVIDENCE_ROWS.values())), 'actions': row_coverage(action_rows, 'owner', list(TASK_001_ACTION_ROWS.values())), 'authority': row_coverage(authority_rows, 'source', list(TASK_001_AUTHORITY_ROWS.values())), 'journal_bridge': bool(journal_rows) and all((all((stage_fields.get(row_key) for row_key in ('account_1200', 'account_2100', 'account_4300', 'totals', 'out_of_balance', 'stage_basis'))) for stage_fields in journal_stage_fields.values())) and all(journal_control_fields.values())}
-    criteria: list[Criterion] = [Criterion('artifact__readable', 'The required Word workpaper exists and parses successfully', document is not None, f'path={path}; parse_error={parse_error!r}', category='integrity', weight=3, semantic=False), Criterion('artifact__template_completed', 'The edited workpaper has no remaining template-entry placeholders', document is not None and (not placeholders), f'placeholder_count={len(placeholders)}', category='integrity', weight=3, semantic=False), Criterion('structure__required_workpaper_sections', 'The workpaper retains each required schedule, conclusion, evidence, and action section', all(required_tables.values()), f'required_sections={required_tables}', category='structure', weight=3, semantic=False), Criterion('identity__project_and_cutoff', 'The workpaper identifies ARM-2409, Northline Cold Storage Expansion, and the June 30, 2026 cutoff', bool(re.search('\\barm\\s*[- ]?\\s*2409\\b', text, flags=re.I)) and 'northline cold storage expansion' in normalized and _task_001_has_cutoff_date(text), 'project identity and cutoff inspected in the submitted document', category='controls', weight=5, semantic=False)]
-    prepared_by = _task_001_metadata_value(metadata_fields, 'Prepared by', 'Preparer', 'Prepared by name')
-    prepared_date = _task_001_metadata_value(metadata_fields, 'Prepared date', 'Date prepared', 'Preparation date')
-    metadata_complete = _usable_docx_value(prepared_by) and _usable_docx_value(prepared_date)
-    criteria.append(Criterion('metadata__preparer_and_date', 'The workpaper identifies its preparer and preparation date', metadata_complete, 'preparer and preparation date are completed' if metadata_complete else 'preparer or preparation date is blank or still a template placeholder', category='controls', weight=3, semantic=False))
-
-    def add_amount(criterion_id: str, description: str, key: str, expected: float, *, category: str='core_finance', tolerance: float=1.0, weight: int=10) -> None:
-        actual = mapping.get(key)
-        matched = _close(actual, expected, abs_tol=tolerance + 1e-09, rel_tol=0.0)
-        criteria.append(Criterion(criterion_id, description, matched, 'artifact value matched at professional displayed precision' if matched else f'artifact {key}={actual!r}; expected {expected} ± {tolerance}', category=category, weight=weight, semantic=False))
-
-    def add_percent(criterion_id: str, description: str, key: str, expected: float, *, tolerance: float=5e-05) -> None:
-        actual = mapping.get(key)
-        matched = _close(actual, expected, abs_tol=tolerance, rel_tol=0.0) or _close(actual, expected * 100, abs_tol=tolerance * 100, rel_tol=0.0)
-        criteria.append(Criterion(criterion_id, description, matched, 'artifact percentage matched as a ratio or percentage at professional precision' if matched else f'artifact {key}={actual!r}; expected {expected} or {expected * 100}', category='core_finance', weight=10, semantic=False))
-    june_amounts = {'current_contract': project['current_contract'], 'posted_cost': project['cost_to_date'], 'billings': project['billings'], 'pm_etc': gold['pm_etc'], 'required_etc_adjustment': gold['required_etc_adjustment'], 'close_etc': project['estimated_cost_to_complete'], 'eac': project['estimated_cost_at_completion'], 'earned_revenue': project['earned_revenue'], 'contract_asset': project['underbilling'], 'contract_liability': project['overbilling'], 'estimated_margin': project['estimated_total_margin']}
-    for key, expected in june_amounts.items():
-        add_amount(f'june__{key}', f"The policy-corrected June {key.replace('_', ' ')} is correct", key, expected)
-    add_percent('june__percent_complete', 'The policy-corrected June percent complete is correct', 'percent_complete', project['percent_complete'])
-    add_percent('june__margin_percent', 'The policy-corrected June total estimated margin rate is correct', 'margin_percent', project['estimated_margin_percent'])
-    may_amounts = {'current_contract': prior['current_contract'], 'posted_cost': prior['posted_cost'], 'close_etc': prior['close_etc'], 'eac': prior['eac'], 'earned_revenue': prior['earned_revenue'], 'billings': prior['billings'], 'contract_asset': prior['contract_asset'], 'contract_liability': prior['contract_liability'], 'estimated_margin': prior['estimated_margin']}
-    for key, expected in may_amounts.items():
-        add_amount(f'bridge__may__{key}', f"The final May {key.replace('_', ' ')} is correct", f'may_{key}', expected)
-    add_percent('bridge__may__percent_complete', 'The final May percent complete is correct', 'may_percent_complete', prior['percent_complete'])
-    add_percent('bridge__may__margin_percent', 'The final May margin rate is correct', 'may_margin_percent', prior['margin_percent'])
-    bridge_june_amounts = {'current_contract': project['current_contract'], 'posted_cost': project['cost_to_date'], 'close_etc': project['estimated_cost_to_complete'], 'eac': project['estimated_cost_at_completion'], 'earned_revenue': project['earned_revenue'], 'billings': project['billings'], 'contract_asset': project['underbilling'], 'contract_liability': project['overbilling'], 'estimated_margin': project['estimated_total_margin']}
-    for key, expected in bridge_june_amounts.items():
-        add_amount(f'bridge__june__{key}', f"The June bridge {key.replace('_', ' ')} is correct", f'bridge_june_{key}', expected)
-    add_percent('bridge__june__percent_complete', 'The June bridge percent complete is correct', 'bridge_june_percent_complete', project['percent_complete'])
-    add_percent('bridge__june__margin_percent', 'The June bridge margin rate is correct', 'bridge_june_margin_percent', project['estimated_margin_percent'])
-    bridge_changes = {'current_contract_change': (bridge['current_contract_change'], 1.0), 'posted_cost_change': (bridge['posted_cost_change'], 1.0), 'close_etc_change': (bridge['close_etc_change'], 1.0), 'eac_change': (bridge['eac_change'], 1.0), 'percent_complete_change_bps': (bridge['percent_complete_change_bps'], 1.0), 'earned_revenue_change': (bridge['earned_revenue_change'], 1.0), 'billings_change': (bridge['billings_change'], 1.0), 'contract_asset_change': (bridge['contract_asset_change'], 1.0), 'contract_liability_change': (bridge['contract_liability_change'], 1.0), 'estimated_margin_change': (bridge['estimated_margin_change'], 1.0), 'margin_rate_change_bps': (bridge['margin_rate_change_bps'], 1.0)}
-    for key, (expected, tolerance) in bridge_changes.items():
-        add_amount(f'bridge__change__{key}', f"The May-to-June {key.replace('_', ' ')} is correct", key, expected, tolerance=tolerance)
-    impact_rows_gold = {_normalize(row['metric']).replace(' ', '_'): row for row in gold['close_impact_bridge']['rows']}
-    for key in TASK_001_IMPACT_ROWS:
-        expected = impact_rows_gold[key]
-        for role in ('pm_case', 'policy_corrected'):
-            mapping_key = f'impact_{key}_{role}'
-            if expected['unit'] == 'basis_points':
-                add_percent(f'impact__{key}__{role}', f"The close-impact bridge {key.replace('_', ' ')} {role.replace('_', ' ')} is correct", mapping_key, expected[role])
-            else:
-                add_amount(f'impact__{key}__{role}', f"The close-impact bridge {key.replace('_', ' ')} {role.replace('_', ' ')} is correct", mapping_key, expected[role])
-        add_amount(f'impact__{key}__change', f"The signed policy-corrected-less-PM impact for {key.replace('_', ' ')} is correct", f'impact_{key}_impact', expected['impact'], tolerance=1.0)
-
-    def submitted_ratio(mapping_key: str) -> float | None:
-        parsed = _number(mapping.get(mapping_key))
-        if parsed is None:
-            return None
-        return parsed / 100 if abs(parsed) > 2 else parsed
-    for key in TASK_001_IMPACT_ROWS:
-        expected = impact_rows_gold[key]
-        if expected['unit'] == 'basis_points':
-            pm_submitted = submitted_ratio(f'impact_{key}_pm_case')
-            corrected_submitted = submitted_ratio(f'impact_{key}_policy_corrected')
-            calculated_change = (corrected_submitted - pm_submitted) * 10000 if pm_submitted is not None and corrected_submitted is not None else None
-        else:
-            pm_submitted = _number(mapping.get(f'impact_{key}_pm_case'))
-            corrected_submitted = _number(mapping.get(f'impact_{key}_policy_corrected'))
-            calculated_change = corrected_submitted - pm_submitted if pm_submitted is not None and corrected_submitted is not None else None
-        reported_change = _number(mapping.get(f'impact_{key}_impact'))
-        equation_met = calculated_change is not None and reported_change is not None and (abs(reported_change - calculated_change) <= 1.01)
-        criteria.append(Criterion(f'impact__{key}__equation', f"The {key.replace('_', ' ')} impact equals policy-corrected less PM case", equation_met, f'reported={reported_change!r}; calculated={calculated_change!r}', category='auditability', weight=5, semantic=False))
-    impact_schedule_complete = all((f'impact_{key}_{role}' in mapping for key in TASK_001_IMPACT_ROWS for role in ('pm_case', 'policy_corrected', 'impact')))
-    criteria.append(Criterion('impact__schedule_result_completeness', 'All 21 PM-case, corrected-case, and signed-impact cells are populated and parseable', impact_schedule_complete, 'all 21 close-impact cells parsed successfully' if impact_schedule_complete else 'one or more close-impact cells are blank, placeholder, or unparseable', category='controls', weight=5, semantic=False))
-    reconciliation_gold = {str(row['key']): row for row in gold['source_reconciliation']['rows']}
-
-    def reconciliation_number(key: str, role: str) -> float | None:
-        raw = mapping.get(f'reconciliation_{key}_{role}')
-        direct = _number(raw)
-        if direct is not None:
-            return direct
-        if not isinstance(raw, str):
-            return None
-        if role == 'variance':
-            labeled = re.search('\\bvariance\\b\\s*[:=]?\\s*(\\(?-?\\$?[0-9][0-9,]*(?:\\.[0-9]+)?\\)?)', raw, flags=re.IGNORECASE)
-            if labeled:
-                return _number(labeled.group(1))
-            leading = re.match('\\s*(\\(?-?\\$?[0-9][0-9,]*(?:\\.[0-9]+)?\\)?)', raw)
-            if leading:
-                return _number(leading.group(1))
-        tokens = re.findall('\\(?-?\\$?[0-9][0-9,]*(?:\\.[0-9]+)?\\)?', raw)
-        if len(tokens) == 1:
-            return _number(tokens[0])
-        return None
-    submitted_reconciliation_values = {(key, role): reconciliation_number(key, role) for key in TASK_001_RECONCILIATION_ROWS for role in ('base', 'activity', 'close', 'variance')}
-    for key in TASK_001_RECONCILIATION_ROWS:
-        expected_row = reconciliation_gold[key]
-        for role in ('base', 'activity', 'close', 'variance'):
-            actual = submitted_reconciliation_values[key, role]
-            raw = mapping.get(f'reconciliation_{key}_{role}')
-            matched = _close(actual, expected_row[role], abs_tol=1.0 + 1e-09, rel_tol=0.0)
-            criteria.append(Criterion(f'reconciliation__{key}__{role}', f"The accounting-source reconciliation {key.replace('_', ' ')} {role} value is correct", matched, 'artifact value matched at professional displayed precision' if matched else f'artifact={raw!r}; parsed={actual!r}; expected={expected_row[role]} ± 1.0', category='auditability', weight=10, semantic=False))
-        base_value = submitted_reconciliation_values[key, 'base']
-        activity_value = submitted_reconciliation_values[key, 'activity']
-        close_value = submitted_reconciliation_values[key, 'close']
-        variance_value = submitted_reconciliation_values[key, 'variance']
-        calculated_variance = close_value - base_value - activity_value if None not in (base_value, activity_value, close_value) else None
-        rollforward_met = calculated_variance is not None and variance_value is not None and (abs(calculated_variance - variance_value) <= 1.0)
-        criteria.append(Criterion(f'reconciliation__{key}__rollforward', f"The {key.replace('_', ' ')} closing balance equals its base plus period activity or approved changes, with the submitted variance", rollforward_met, f'base={base_value!r}; activity={activity_value!r}; close={close_value!r}; reported_variance={variance_value!r}; calculated_variance={calculated_variance!r}', category='auditability', weight=5, semantic=False))
-    cost_type_keys = ('labor', 'material', 'subcontract', 'other')
-    for role in ('base', 'activity', 'close'):
-        component_values = [submitted_reconciliation_values[key, role] for key in cost_type_keys]
-        submitted_total = submitted_reconciliation_values['total_job_cost', role]
-        calculated_total = sum((value for value in component_values if value is not None)) if all((value is not None for value in component_values)) else None
-        crossfoot_met = submitted_total is not None and calculated_total is not None and (abs(submitted_total - calculated_total) <= 1.0)
-        criteria.append(Criterion(f'reconciliation__job_cost_crossfoot__{role}', f'The {role} total job cost equals the four submitted cost-type balances', crossfoot_met, f'submitted_total={submitted_total!r}; calculated_total={calculated_total!r}', category='auditability', weight=5, semantic=False))
-    reconciliation_complete = all((submitted_reconciliation_values[key, role] is not None for key in TASK_001_RECONCILIATION_ROWS for role in ('base', 'activity', 'close', 'variance')))
-    criteria.append(Criterion('reconciliation__schedule_result_completeness', 'All source-to-workpaper reconciliation balances and control checks are completed', reconciliation_complete, 'all 28 reconciliation values/checks parsed successfully' if reconciliation_complete else 'one or more reconciliation values/checks are blank, placeholder, or unparseable', category='controls', weight=5, semantic=False))
-    transaction_gold = gold['transaction_support']
-
-    def submitted_transaction_row(rank: int) -> dict[str, str]:
-        matches = [row for row in transaction_sample_rows if _number(row.get('rank')) == float(rank)]
-        if len(matches) == 1:
-            return matches[0]
-        return transaction_sample_rows[rank - 1] if rank - 1 < len(transaction_sample_rows) else {}
-    for expected in transaction_gold['rows']:
-        rank = int(expected['rank'])
-        row = submitted_transaction_row(rank)
-        numeric_checks = {'entry_id': (float(expected['entry_id']), 0.01), 'amount': (float(expected['amount']), 1.0)}
-        for role, (target, tolerance) in numeric_checks.items():
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            criteria.append(Criterion(f'transaction_support__rank_{rank}__{role}', f"June transaction-support rank {rank} has the correct {role.replace('_', ' ')}", _close(actual, target, abs_tol=tolerance, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='source_control', weight=10, semantic=False))
-        date_met = _text_contains_date(str(row.get('posting_date', '')), str(expected['posting_date']))
-        criteria.append(Criterion(f'transaction_support__rank_{rank}__posting_date', f'June transaction-support rank {rank} has the correct posting date', date_met, f"submitted={row.get('posting_date', '')!r}; expected={expected['posting_date']}", category='source_control', weight=10, semantic=False))
-        for role in ('document', 'source', 'cost_code', 'cost_type'):
-            expected_key = 'document_number' if role == 'document' else role
-            submitted = _normalize(row.get(role, ''))
-            target = _normalize(expected[expected_key])
-            criteria.append(Criterion(f'transaction_support__rank_{rank}__{role}', f"June transaction-support rank {rank} has the correct {role.replace('_', ' ')}", submitted == target, f"submitted={row.get(role, '')!r}; expected={expected[expected_key]!r}", category='source_control', weight=10, semantic=False))
-    transaction_control_aliases = {'labor': ('Labor',), 'material': ('Material', 'Materials'), 'subcontract': ('Subcontract', 'Subcontractor'), 'other': ('Other', 'Other cost'), 'total': ('Total / control', 'Total and control', 'Total', 'Control total')}
-
-    def submitted_control_row(key: str, fallback_index: int) -> dict[str, str]:
-        return _docx_named_row_by_aliases(transaction_control_rows, 'cost_type', transaction_control_aliases[key], fallback_index=fallback_index)
-    transaction_controls = {str(row['cost_type']).casefold(): row for row in transaction_gold['controls']}
-    submitted_control_values: dict[tuple[str, str], float | None] = {}
-    for index, key in enumerate(('labor', 'material', 'subcontract', 'other')):
-        row = submitted_control_row(key, index)
-        expected = transaction_controls[key]
-        for role, expected_key in (('selected', 'selected_top_ten'), ('residual', 'residual_population'), ('june_total', 'june_total'), ('entry_count', 'population_count')):
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            submitted_control_values[key, role] = actual
-            target = float(expected[expected_key])
-            criteria.append(Criterion(f'transaction_control__{key}__{role}', f"The {key} June transaction-population {role.replace('_', ' ')} is correct", _close(actual, target, abs_tol=0.01 if role == 'entry_count' else 1.0, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='auditability', weight=10, semantic=False))
-        selected = submitted_control_values[key, 'selected']
-        residual = submitted_control_values[key, 'residual']
-        june_total = submitted_control_values[key, 'june_total']
-        criteria.append(Criterion(f'transaction_control__{key}__equation', f'The {key} selected sample plus residual population equals its June total', None not in (selected, residual, june_total) and _close(selected + residual, june_total, abs_tol=1.0, rel_tol=0.0), f'selected={selected!r}; residual={residual!r}; june_total={june_total!r}', category='auditability', weight=5, semantic=False))
-    total_row = submitted_control_row('total', 4)
-    total_targets = {'selected': float(transaction_gold['sample_total']), 'residual': float(transaction_gold['residual_total']), 'june_total': float(transaction_gold['june_total']), 'entry_count': float(transaction_gold['population_count'])}
-    total_values: dict[str, float | None] = {}
-    for role, target in total_targets.items():
-        actual = _number(_docx_numeric_value(total_row.get(role, '')))
-        total_values[role] = actual
-        criteria.append(Criterion(f'transaction_control__total__{role}', f"The June transaction-population total {role.replace('_', ' ')} is correct", _close(actual, target, abs_tol=0.01 if role == 'entry_count' else 1.0, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='auditability', weight=10, semantic=False))
-    criteria.extend([Criterion('transaction_control__total__equation', 'The selected top-ten sample plus residual population equals total June job cost', None not in (total_values['selected'], total_values['residual'], total_values['june_total']) and _close(total_values['selected'] + total_values['residual'], total_values['june_total'], abs_tol=1.0, rel_tol=0.0), f'submitted={total_values}', category='auditability', weight=10, semantic=False), Criterion('transaction_control__selected_crossfoot', 'The four cost-type selected-sample amounts cross-foot to the displayed selected total', total_values['selected'] is not None and all((submitted_control_values[key, 'selected'] is not None for key in transaction_controls)) and _close(sum((submitted_control_values[key, 'selected'] for key in transaction_controls)), total_values['selected'], abs_tol=1.0, rel_tol=0.0), f"submitted_total={total_values['selected']!r}", category='auditability', weight=10, semantic=False), Criterion('transaction_control__population_crossfoot', 'The four cost-type June totals cross-foot to the displayed June population total', total_values['june_total'] is not None and all((submitted_control_values[key, 'june_total'] is not None for key in transaction_controls)) and _close(sum((submitted_control_values[key, 'june_total'] for key in transaction_controls)), total_values['june_total'], abs_tol=1.0, rel_tol=0.0), f"submitted_total={total_values['june_total']!r}", category='auditability', weight=10, semantic=False)])
-    billing_row = billing_support_rows[0] if billing_support_rows else {}
-    billing_expected = transaction_gold['billing']
-    billing_checks = {'invoice': _normalize(billing_row.get('invoice', '')) == _normalize(billing_expected['invoice_number']), 'invoice_date': _text_contains_date(str(billing_row.get('invoice_date', '')), str(billing_expected['invoice_date'])), 'account': _normalize(billing_row.get('account', '')) == _normalize(billing_expected['account_code']), 'amount': _close(_number(_docx_numeric_value(billing_row.get('amount', ''))), float(billing_expected['amount']), abs_tol=1.0, rel_tol=0.0), 'variance': _close(_number(_docx_numeric_value(billing_row.get('variance', ''))), float(billing_expected['variance_to_june_billings']), abs_tol=1.0, rel_tol=0.0)}
-    for role, met in billing_checks.items():
-        criteria.append(Criterion(f'billing_support__{role}', f"The June billing-support {role.replace('_', ' ')} is correct", met, f"submitted={billing_row.get(role, '')!r}; expected={billing_expected}", category='source_control', weight=10, semantic=False))
-    billing_status_submitted = str(billing_row.get('status', ''))
-    lineage_gold = gold['posting_lineage']
-
-    def submitted_lineage_row(rank: int) -> dict[str, str]:
-        matches = [row for row in posting_lineage_rows if _number(row.get('rank')) == float(rank)]
-        if len(matches) == 1:
-            return matches[0]
-        return posting_lineage_rows[rank - 1] if rank - 1 < len(posting_lineage_rows) else {}
-    lineage_submitted_by_rank: dict[int, dict[str, float | str | None]] = {}
-    for expected in lineage_gold['rows']:
-        rank = int(expected['rank'])
-        row = submitted_lineage_row(rank)
-        parsed: dict[str, float | str | None] = {}
-        for role, tolerance in (('job_cost_entry_id', 0.01), ('journal_id', 0.01), ('journal_line_id', 0.01), ('account', 0.01), ('debit', 1.0), ('credit', 1.0)):
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            expected_key = 'account_code' if role == 'account' else role
-            target = float(expected[expected_key])
-            parsed[role] = actual
-            criteria.append(Criterion(f'posting_lineage__rank_{rank}__{role}', f"Posting-lineage rank {rank} has the correct {role.replace('_', ' ')}", _close(actual, target, abs_tol=tolerance, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='source_control', weight=10, semantic=False))
-        submitted_status = _normalize(row.get('status', ''))
-        expected_status = _normalize(expected['status'])
-        parsed['status'] = submitted_status
-        criteria.append(Criterion(f'posting_lineage__rank_{rank}__status', f'Posting-lineage rank {rank} is identified as a posted journal line', submitted_status == expected_status, f"submitted={row.get('status', '')!r}; expected={expected['status']!r}", category='source_control', weight=10, semantic=False))
-        lineage_submitted_by_rank[rank] = parsed
-    lineage_controls_by_account = {str(row['account_code']): row for row in lineage_gold['account_controls']}
-    submitted_account_controls: dict[str, dict[str, float | None]] = {}
-    for key in TASK_001_POSTING_ACCOUNT_ROWS:
-        row = posting_account_fields[key]
-        expected_key = 'Total / control' if key == 'total' else key
-        expected = lineage_controls_by_account[expected_key]
-        parsed: dict[str, float | None] = {}
-        for role, expected_role, tolerance in (('entry_count', 'entry_count', 0.01), ('debits', 'selected_debits', 1.0), ('credits', 'selected_credits', 1.0), ('net', 'net_amount', 1.0), ('variance', 'variance', 1.0)):
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            target = float(expected[expected_role])
-            parsed[role] = actual
-            criteria.append(Criterion(f'posting_account_control__{key}__{role}', f"The posting-lineage {key} account control has the correct {role.replace('_', ' ')}", _close(actual, target, abs_tol=tolerance, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='auditability', weight=5, semantic=False))
-        submitted_account_controls[key] = parsed
-        criteria.append(Criterion(f'posting_account_control__{key}__equation', f'The posting-lineage {key} net amount equals debits less credits', None not in (parsed['debits'], parsed['credits'], parsed['net']) and _close(parsed['debits'] - parsed['credits'], parsed['net'], abs_tol=1.0, rel_tol=0.0), f'submitted={parsed}', category='auditability', weight=5, semantic=False))
-    account_detail_keys = tuple((key for key in TASK_001_POSTING_ACCOUNT_ROWS if key != 'total'))
-    total_control = submitted_account_controls['total']
-    for role in ('entry_count', 'debits', 'credits', 'net'):
-        components = [submitted_account_controls[key][role] for key in account_detail_keys]
-        criteria.append(Criterion(f'posting_account_control__crossfoot__{role}', f"The posting-lineage account rows cross-foot to total {role.replace('_', ' ')}", total_control[role] is not None and all((value is not None for value in components)) and _close(sum((value for value in components if value is not None)), total_control[role], abs_tol=0.01 if role == 'entry_count' else 1.0, rel_tol=0.0), f'components={components}; total={total_control[role]!r}', category='auditability', weight=10, semantic=False))
-    expected_ranks_by_account: dict[str, tuple[int, ...]] = {key: tuple((int(row['rank']) for row in lineage_gold['rows'] if str(row['account_code']) == key)) for key in account_detail_keys}
-    expected_ranks_by_account['total'] = tuple((int(row['rank']) for row in lineage_gold['rows']))
-    for key, expected_ranks in expected_ranks_by_account.items():
-        control = submitted_account_controls[key]
-        detail_rows = [lineage_submitted_by_rank[rank] for rank in expected_ranks]
-        populated_count = sum((row['job_cost_entry_id'] is not None for row in detail_rows))
-        detail_debits = [row['debit'] for row in detail_rows]
-        detail_credits = [row['credit'] for row in detail_rows]
-        amounts_present = all((value is not None for value in detail_debits + detail_credits))
-        debit_sum = sum((float(value) for value in detail_debits if value is not None)) if amounts_present else None
-        credit_sum = sum((float(value) for value in detail_credits if value is not None)) if amounts_present else None
-        detail_net = debit_sum - credit_sum if debit_sum is not None and credit_sum is not None else None
-        for role, actual, target, tolerance in (('detail_count_tie', control['entry_count'], float(populated_count), 0.01), ('detail_debit_tie', control['debits'], debit_sum, 1.0), ('detail_credit_tie', control['credits'], credit_sum, 1.0), ('detail_net_tie', control['net'], detail_net, 1.0)):
-            criteria.append(Criterion(f'posting_account_control__{key}__{role}', f"The posting-lineage {key} account control {role.removeprefix('detail_').replace('_', ' ')} agrees with the submitted selected-posting detail", target is not None and _close(actual, target, abs_tol=tolerance, rel_tol=0.0), f'submitted_control={actual!r}; derived_detail={target!r}', category='auditability', weight=5, semantic=False))
-    billing_lineage_gold = lineage_gold['billing']
-    billing_source = billing_lineage_fields['source_record']
-    source_ids = [float(token.replace(',', '')) for token in re.findall('\\d[\\d,]*', str(billing_source.get('record_id', '')))]
-    for index, (criterion_id, target) in enumerate((('invoice_id', billing_lineage_gold['invoice_id']), ('invoice_line_id', billing_lineage_gold['invoice_line_id']))):
-        actual = source_ids[index] if index < len(source_ids) else None
-        criteria.append(Criterion(f'billing_lineage__{criterion_id}', f"The June billing source record has the correct {criterion_id.replace('_', ' ')}", _close(actual, float(target), abs_tol=0.01, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='source_control', weight=10, semantic=False))
-    source_journal = _number(_docx_numeric_value(billing_source.get('journal_id', '')))
-    criteria.append(Criterion('billing_lineage__journal_id', 'The June billing source record is traced to the correct journal', _close(source_journal, float(billing_lineage_gold['journal_id']), abs_tol=0.01, rel_tol=0.0), f"submitted={source_journal!r}; expected={billing_lineage_gold['journal_id']}", category='source_control', weight=10, semantic=False))
-    billing_gold_rows = {str(row['line_key']): row for row in billing_lineage_gold['rows']}
-    billing_submitted: dict[str, dict[str, float | None]] = {}
-    for key in ('trade_ar', 'retainage_ar', 'contract_revenue'):
-        row = billing_lineage_fields[key]
-        expected = billing_gold_rows[key]
-        parsed: dict[str, float | None] = {}
-        for role, expected_role, tolerance in (('journal_id', 'journal_id', 0.01), ('journal_line_id', 'journal_line_id', 0.01), ('account', 'account_code', 0.01), ('debit', 'debit', 1.0), ('credit', 'credit', 1.0)):
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            target = float(billing_lineage_gold['journal_id']) if expected_role == 'journal_id' else float(expected[expected_role])
-            parsed[role] = actual
-            criteria.append(Criterion(f'billing_lineage__{key}__{role}', f"The June billing {key.replace('_', ' ')} has the correct {role.replace('_', ' ')}", _close(actual, target, abs_tol=tolerance, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='source_control', weight=10, semantic=False))
-        billing_submitted[key] = parsed
-    billing_totals = billing_lineage_fields['totals']
-    billing_total_debits = _number(_docx_numeric_value(billing_totals.get('debit', '')))
-    billing_total_credits = _number(_docx_numeric_value(billing_totals.get('credit', '')))
-    billing_oob = _number(_docx_numeric_value(billing_lineage_fields['out_of_balance'].get('credit', '')))
-    billing_variance = _number(_docx_numeric_value(billing_lineage_fields['variance'].get('credit', '')))
-    for role, actual, target in (('total_debits', billing_total_debits, billing_lineage_gold['total_debits']), ('total_credits', billing_total_credits, billing_lineage_gold['total_credits']), ('out_of_balance', billing_oob, billing_lineage_gold['out_of_balance']), ('variance_to_june_billings', billing_variance, billing_lineage_gold['variance_to_june_billings'])):
-        criteria.append(Criterion(f'billing_lineage__{role}', f"The June billing-lineage {role.replace('_', ' ')} is correct", _close(actual, float(target), abs_tol=1.0, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='auditability', weight=10, semantic=False))
-    billing_row_debits = sum((float(row['debit'] or 0.0) for row in billing_submitted.values()))
-    billing_row_credits = sum((float(row['credit'] or 0.0) for row in billing_submitted.values()))
-    criteria.extend([Criterion('billing_lineage__equation__rows_crossfoot', 'The three billing journal lines cross-foot to the displayed debit and credit totals', None not in (billing_total_debits, billing_total_credits) and _close(billing_row_debits, billing_total_debits, abs_tol=1.0, rel_tol=0.0) and _close(billing_row_credits, billing_total_credits, abs_tol=1.0, rel_tol=0.0), f'row_debits={billing_row_debits}; total_debits={billing_total_debits!r}; row_credits={billing_row_credits}; total_credits={billing_total_credits!r}', category='auditability', weight=10, semantic=False), Criterion('billing_lineage__equation__debits_equal_credits', 'The June billing journal debits equal credits', None not in (billing_total_debits, billing_total_credits) and _close(billing_total_debits, billing_total_credits, abs_tol=1.0, rel_tol=0.0), f'debits={billing_total_debits!r}; credits={billing_total_credits!r}', category='auditability', weight=10, semantic=False)])
-    submitted_invoice_amount = _number(_docx_numeric_value(billing_row.get('amount', '')))
-    trade_ar_debit = billing_submitted['trade_ar']['debit']
-    retainage_ar_debit = billing_submitted['retainage_ar']['debit']
-    contract_revenue_credit = billing_submitted['contract_revenue']['credit']
-    criteria.extend([Criterion('billing_lineage__equation__receivables_equal_invoice', 'Trade AR plus retainage AR equals the submitted non-voided June invoice amount', None not in (trade_ar_debit, retainage_ar_debit, submitted_invoice_amount) and _close(float(trade_ar_debit) + float(retainage_ar_debit), submitted_invoice_amount, abs_tol=1.0, rel_tol=0.0), f'trade_ar={trade_ar_debit!r}; retainage_ar={retainage_ar_debit!r}; invoice={submitted_invoice_amount!r}', category='auditability', weight=10, semantic=False), Criterion('billing_lineage__equation__revenue_equals_invoice', 'The contract-revenue credit equals the submitted non-voided June invoice amount', None not in (contract_revenue_credit, submitted_invoice_amount) and _close(contract_revenue_credit, submitted_invoice_amount, abs_tol=1.0, rel_tol=0.0), f'contract_revenue={contract_revenue_credit!r}; invoice={submitted_invoice_amount!r}', category='auditability', weight=10, semantic=False), Criterion('billing_lineage__equation__displayed_variance', 'Displayed variance to June billings equals journal credits less the submitted invoice amount', None not in (billing_total_credits, submitted_invoice_amount, billing_variance) and _close(billing_total_credits - submitted_invoice_amount, billing_variance, abs_tol=1.0, rel_tol=0.0), f'journal_credits={billing_total_credits!r}; invoice={submitted_invoice_amount!r}; variance={billing_variance!r}', category='auditability', weight=10, semantic=False)])
-    payment_hold_assessment = str(lineage_conclusion_fields['payment_hold'].get('assessment', '') or '')
-    billing_recognition_assessment = str(lineage_conclusion_fields['billing_recognition'].get('assessment', '') or '')
-    population_gold = gold['full_population_posting_control']
-    population_detail_gold = population_gold['detail_rows']
-    population_journal_gold = population_gold['journal_rows']
-
-    def submitted_integer(row: dict[str, str], role: str) -> int | None:
-        value = _number(_docx_numeric_value(row.get(role, '')))
-        if value is None or not _close(value, round(value), abs_tol=0.01, rel_tol=0.0):
-            return None
-        return int(round(value))
-    detail_rows_by_entry: dict[int, list[dict[str, str]]] = {}
-    for row in population_detail_rows:
-        entry_id = submitted_integer(row, 'entry_id')
-        if entry_id is not None:
-            detail_rows_by_entry.setdefault(entry_id, []).append(row)
-    journal_rows_by_id: dict[int, list[dict[str, str]]] = {}
-    for row in population_journal_rows:
-        journal_id = submitted_integer(row, 'journal_id')
-        if journal_id is not None:
-            journal_rows_by_id.setdefault(journal_id, []).append(row)
-    criteria.extend([Criterion('full_population__detail__row_count', 'The complete posting register contains exactly the 23 June ARM-2409 job-cost entries', len(population_detail_rows) == len(population_detail_gold), f'submitted_rows={len(population_detail_rows)}; expected_rows={len(population_detail_gold)}', category='controls', weight=10, semantic=False), Criterion('full_population__detail__unique_entry_ids', 'Every job-cost entry appears exactly once in the complete posting register', set(detail_rows_by_entry) == {int(row['job_cost_entry_id']) for row in population_detail_gold} and all((len(rows) == 1 for rows in detail_rows_by_entry.values())), f'submitted_unique_ids={len(detail_rows_by_entry)}; duplicate_ids={sorted((key for key, rows in detail_rows_by_entry.items() if len(rows) != 1))}', category='controls', weight=10, semantic=False), Criterion('full_population__journal__row_count', 'The journal offset register contains exactly the 13 June ARM-2409 source journals', len(population_journal_rows) == len(population_journal_gold), f'submitted_rows={len(population_journal_rows)}; expected_rows={len(population_journal_gold)}', category='controls', weight=10, semantic=False), Criterion('full_population__journal__unique_journal_ids', 'Every source journal appears exactly once in the journal offset register', set(journal_rows_by_id) == {int(row['journal_id']) for row in population_journal_gold} and all((len(rows) == 1 for rows in journal_rows_by_id.values())), f'submitted_unique_ids={len(journal_rows_by_id)}; duplicate_ids={sorted((key for key, rows in journal_rows_by_id.items() if len(rows) != 1))}', category='controls', weight=10, semantic=False)])
-    submitted_detail_values: list[dict[str, Any]] = []
-    for expected in population_detail_gold:
-        entry_id = int(expected['job_cost_entry_id'])
-        candidates = detail_rows_by_entry.get(entry_id, [])
-        row = candidates[0] if len(candidates) == 1 else {}
-        parsed = {'entry_id': submitted_integer(row, 'entry_id'), 'entry_amount': _number(_docx_numeric_value(row.get('entry_amount', ''))), 'journal_id': submitted_integer(row, 'journal_id'), 'expense_line_id': submitted_integer(row, 'expense_line_id'), 'expense_account': submitted_integer(row, 'expense_account'), 'expense_debit': _number(_docx_numeric_value(row.get('expense_debit', ''))), 'variance': _number(_docx_numeric_value(row.get('variance', '')))}
-        submitted_detail_values.append({**parsed, 'source': str(row.get('source', ''))})
-        checks = (('source', _normalize(str(row.get('source', ''))) == _normalize(str(expected['source']))), ('posting_date', _text_contains_date(str(row.get('posting_date', '')), str(expected['posting_date']))), ('document', _normalize(str(row.get('document', ''))) == _normalize(str(expected['document_number']))), ('entry_id', parsed['entry_id'] == entry_id), ('cost_code', _normalize(str(row.get('cost_code', ''))) == _normalize(str(expected['cost_code']))), ('entry_amount', _close(parsed['entry_amount'], float(expected['job_cost_amount']), abs_tol=1.0, rel_tol=0.0)), ('journal_id', parsed['journal_id'] == int(expected['journal_id'])), ('expense_line_id', parsed['expense_line_id'] == int(expected['expense_line_id'])), ('expense_account', parsed['expense_account'] == int(expected['expense_account'])), ('expense_debit', _close(parsed['expense_debit'], float(expected['expense_debit']), abs_tol=1.0, rel_tol=0.0)), ('status', _normalize(str(row.get('status', ''))) == _normalize(str(expected['status']))), ('variance', _close(parsed['variance'], float(expected['variance']), abs_tol=0.01, rel_tol=0.0)))
-        for role, met in checks:
-            criteria.append(Criterion(f'full_population__detail__entry_{entry_id}__{role}', f"Job-cost entry {entry_id} has the correct {role.replace('_', ' ')} in the complete posting register", bool(met), f"submitted={row.get(role, parsed.get(role))!r}; expected={expected.get(role, expected.get({'document': 'document_number', 'entry_amount': 'job_cost_amount'}.get(role, role)))}", category='source_control', weight=10, semantic=False))
-        criteria.append(Criterion(f'full_population__detail__entry_{entry_id}__equation', f'Job-cost entry {entry_id} ties its submitted amount and variance to the expense debit', None not in (parsed['entry_amount'], parsed['expense_debit'], parsed['variance']) and _close(float(parsed['entry_amount']) + float(parsed['variance']), parsed['expense_debit'], abs_tol=0.02, rel_tol=0.0), f'submitted={parsed}', category='auditability', weight=10, semantic=False))
-    submitted_journal_values: list[dict[str, Any]] = []
-    for expected in population_journal_gold:
-        journal_id = int(expected['journal_id'])
-        candidates = journal_rows_by_id.get(journal_id, [])
-        row = candidates[0] if len(candidates) == 1 else {}
-        parsed = {'journal_id': submitted_integer(row, 'journal_id'), 'entry_count': submitted_integer(row, 'entry_count'), 'expense_line_count': submitted_integer(row, 'expense_line_count'), 'expense_debits': _number(_docx_numeric_value(row.get('expense_debits', ''))), 'offset_line_id': submitted_integer(row, 'offset_line_id'), 'offset_account': submitted_integer(row, 'offset_account'), 'offset_credits': _number(_docx_numeric_value(row.get('offset_credits', ''))), 'out_of_balance': _number(_docx_numeric_value(row.get('out_of_balance', '')))}
-        submitted_journal_values.append({**parsed, 'source': str(row.get('source', ''))})
-        checks = (('source', _normalize(str(row.get('source', ''))) == _normalize(str(expected['source']))), ('posting_date', _text_contains_date(str(row.get('posting_date', '')), str(expected['posting_date']))), ('document', _normalize(str(row.get('document', ''))) == _normalize(str(expected['document_number']))), ('journal_id', parsed['journal_id'] == journal_id), ('entry_count', parsed['entry_count'] == int(expected['job_cost_entry_count'])), ('expense_line_count', parsed['expense_line_count'] == int(expected['expense_line_count'])), ('expense_debits', _close(parsed['expense_debits'], float(expected['expense_debits']), abs_tol=1.0, rel_tol=0.0)), ('offset_line_id', parsed['offset_line_id'] == int(expected['offset_line_id'])), ('offset_account', parsed['offset_account'] == int(expected['offset_account'])), ('offset_credits', _close(parsed['offset_credits'], float(expected['offset_credits']), abs_tol=1.0, rel_tol=0.0)), ('status', _normalize(str(row.get('status', ''))) == _normalize(str(expected['status']))), ('out_of_balance', _close(parsed['out_of_balance'], float(expected['out_of_balance']), abs_tol=0.01, rel_tol=0.0)))
-        for role, met in checks:
-            criteria.append(Criterion(f'full_population__journal__journal_{journal_id}__{role}', f"Journal {journal_id} has the correct {role.replace('_', ' ')} in the offset register", bool(met), f"submitted={row.get(role, parsed.get(role))!r}; expected={expected.get(role, expected.get({'document': 'document_number', 'entry_count': 'job_cost_entry_count'}.get(role, role)))}", category='source_control', weight=10, semantic=False))
-        criteria.append(Criterion(f'full_population__journal__journal_{journal_id}__equation', f'Journal {journal_id} ties project expense debits to its offset credits and zero-balance control', None not in (parsed['expense_debits'], parsed['offset_credits'], parsed['out_of_balance']) and _close(float(parsed['expense_debits']) - float(parsed['offset_credits']), parsed['out_of_balance'], abs_tol=0.02, rel_tol=0.0), f'submitted={parsed}', category='auditability', weight=10, semantic=False))
-    for source_key, source_label in (('ap', 'AP'), ('pay', 'PAY'), ('total', None)):
-        detail_scope = [row for row in submitted_detail_values if row['entry_id'] is not None and (source_label is None or _normalize(row['source']) == _normalize(source_label))]
-        journal_scope = [row for row in submitted_journal_values if row['journal_id'] is not None and (source_label is None or _normalize(row['source']) == _normalize(source_label))]
-        expected_summary = next((row for row in population_gold['summary_rows'] if source_label is None and row['source'] == 'Total / control' or row['source'] == source_label))
-        expected_offset = next((row for row in population_gold['offset_rows'] if source_label is None and row['source'] == 'Total / control' or row['source'] == source_label))
-        for role, actual, expected_value, tolerance in (('detail_count', len(detail_scope), expected_summary['job_cost_entry_count'], 0.01), ('detail_amount', sum((float(row['entry_amount'] or 0.0) for row in detail_scope)), expected_summary['job_cost_amount'], 1.0), ('detail_expense_debits', sum((float(row['expense_debit'] or 0.0) for row in detail_scope)), expected_summary['expense_debits'], 1.0), ('journal_count', len(journal_scope), expected_summary['unique_journal_count'], 0.01), ('journal_expense_debits', sum((float(row['expense_debits'] or 0.0) for row in journal_scope)), expected_summary['expense_debits'], 1.0), ('journal_offset_credits', sum((float(row['offset_credits'] or 0.0) for row in journal_scope)), expected_offset['offset_credits'], 1.0)):
-            criteria.append(Criterion(f'full_population__register_crossfoot__{source_key}__{role}', f"The {source_key.upper()} complete registers cross-foot the {role.replace('_', ' ')}", _close(actual, float(expected_value), abs_tol=tolerance, rel_tol=0.0), f'submitted_register={actual}; expected_control={expected_value}', category='auditability', weight=10, semantic=False))
-    population_summary_gold = {'ap': population_gold['summary_rows'][0], 'pay': population_gold['summary_rows'][1], 'total': population_gold['summary_rows'][2]}
-    population_offset_gold = {'ap': population_gold['offset_rows'][0], 'pay': population_gold['offset_rows'][1], 'total': population_gold['offset_rows'][2]}
-    population_exception_gold = {'ap': population_gold['exception_rows'][0], 'pay': population_gold['exception_rows'][1], 'total': population_gold['exception_rows'][2]}
-    summary_roles = {'entry_count': ('job_cost_entry_count', 0.01), 'entry_amount': ('job_cost_amount', 1.0), 'journal_count': ('unique_journal_count', 0.01), 'expense_line_count': ('expense_line_count', 0.01), 'expense_debits': ('expense_debits', 1.0), 'posted_entry_count': ('posted_entry_count', 0.01), 'variance': ('variance', 1.0)}
-    submitted_population_summary: dict[str, dict[str, float | None]] = {}
-    for scope in ('ap', 'pay', 'total'):
-        row = population_summary_fields[scope]
-        expected = population_summary_gold[scope]
-        parsed: dict[str, float | None] = {}
-        for role, (expected_key, tolerance) in summary_roles.items():
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            target = float(expected[expected_key])
-            parsed[role] = actual
-            criteria.append(Criterion(f'full_population__summary__{scope}__{role}', f"The full-population {scope.upper()} posting summary has the correct {role.replace('_', ' ')}", _close(actual, target, abs_tol=tolerance, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='source_control', weight=10, semantic=False))
-        submitted_population_summary[scope] = parsed
-        criteria.extend([Criterion(f'full_population__summary__{scope}__expense_tie', f'The full-population {scope.upper()} job-cost amount plus displayed variance equals its project expense debits', None not in (parsed['entry_amount'], parsed['expense_debits'], parsed['variance']) and _close(parsed['entry_amount'] + parsed['variance'], parsed['expense_debits'], abs_tol=1.0, rel_tol=0.0), f'submitted={parsed}', category='auditability', weight=10, semantic=False), Criterion(f'full_population__summary__{scope}__posted_completeness', f'Every full-population {scope.upper()} job-cost entry belongs to a posted journal', None not in (parsed['entry_count'], parsed['posted_entry_count']) and _close(parsed['entry_count'], parsed['posted_entry_count'], abs_tol=0.01, rel_tol=0.0), f'submitted={parsed}', category='controls', weight=10, semantic=False)])
-    offset_roles = {'journal_count': ('journal_count', 0.01), 'offset_line_count': ('offset_line_count', 0.01), 'expense_debits': ('expense_debits', 1.0), 'offset_credits': ('offset_credits', 1.0), 'variance': ('variance', 1.0)}
-    submitted_population_offsets: dict[str, dict[str, float | None]] = {}
-    for scope in ('ap', 'pay', 'total'):
-        row = population_offset_fields[scope]
-        expected = population_offset_gold[scope]
-        submitted_codes = set(re.findall('\\b\\d{4}\\b', str(row.get('offset_account', ''))))
-        expected_codes = set(re.findall('\\b\\d{4}\\b', str(expected['offset_account'])))
-        criteria.append(Criterion(f'full_population__offset__{scope}__account', f'The full-population {scope.upper()} control uses the recorded offset account', submitted_codes == expected_codes, f'submitted={sorted(submitted_codes)}; expected={sorted(expected_codes)}', category='source_control', weight=10, semantic=False))
-        parsed = {}
-        for role, (expected_key, tolerance) in offset_roles.items():
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            target = float(expected[expected_key])
-            parsed[role] = actual
-            criteria.append(Criterion(f'full_population__offset__{scope}__{role}', f"The full-population {scope.upper()} offset control has the correct {role.replace('_', ' ')}", _close(actual, target, abs_tol=tolerance, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='source_control', weight=10, semantic=False))
-        submitted_population_offsets[scope] = parsed
-        criteria.append(Criterion(f'full_population__offset__{scope}__equation', f'The full-population {scope.upper()} expense debits less offset credits equal the displayed variance', None not in (parsed['expense_debits'], parsed['offset_credits'], parsed['variance']) and _close(parsed['expense_debits'] - parsed['offset_credits'], parsed['variance'], abs_tol=1.0, rel_tol=0.0), f'submitted={parsed}', category='auditability', weight=10, semantic=False))
-    exception_roles = {'unmatched': 'unmatched_job_cost_entries', 'duplicates': 'duplicate_expense_matches', 'orphans': 'orphan_expense_lines', 'unposted': 'unposted_journals', 'out_of_balance': 'out_of_balance_journals', 'wrong_offsets': 'wrong_offset_accounts'}
-    submitted_population_exceptions: dict[str, dict[str, float | None]] = {}
-    for scope in ('ap', 'pay', 'total'):
-        row = population_exception_fields[scope]
-        expected = population_exception_gold[scope]
-        parsed = {}
-        for role, expected_key in exception_roles.items():
-            actual = _number(_docx_numeric_value(row.get(role, '')))
-            target = float(expected[expected_key])
-            parsed[role] = actual
-            criteria.append(Criterion(f'full_population__exceptions__{scope}__{role}', f"The full-population {scope.upper()} exception control has the correct {role.replace('_', ' ')} count", _close(actual, target, abs_tol=0.01, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='controls', weight=10, semantic=False))
-        submitted_population_exceptions[scope] = parsed
-    for family_name, submitted, roles in (('summary', submitted_population_summary, tuple(summary_roles)), ('offset', submitted_population_offsets, tuple(offset_roles)), ('exceptions', submitted_population_exceptions, tuple(exception_roles))):
-        for role in roles:
-            ap_value = submitted['ap'][role]
-            pay_value = submitted['pay'][role]
-            total_value = submitted['total'][role]
-            criteria.append(Criterion(f'full_population__crossfoot__{family_name}__{role}', f"The full-population {family_name} AP and payroll rows cross-foot to total {role.replace('_', ' ')}", None not in (ap_value, pay_value, total_value) and _close(ap_value + pay_value, total_value, abs_tol=1.0 if role in {'entry_amount', 'expense_debits', 'offset_credits', 'variance'} else 0.01, rel_tol=0.0), f'ap={ap_value!r}; pay={pay_value!r}; total={total_value!r}', category='auditability', weight=10, semantic=False))
-    population_conclusion_assessment = str(population_conclusion_fields['complete_population'].get('assessment', '') or '')
-    etc_gold = gold['etc_composition_schedule']
-    etc_gold_rows = {str(row['key']): row for row in etc_gold['rows']}
-    etc_submitted: dict[tuple[str, str], float | None] = {(key, role): _number(mapping.get(f'etc_composition_{key}_{role}')) for key in TASK_001_ETC_COMPONENT_ROWS for role in ('pm_etc', 'finance_correction', 'corrected_etc')}
-    etc_gold_role_keys = {'pm_etc': 'pm_etc', 'finance_correction': 'finance_correction', 'corrected_etc': 'policy_corrected_etc'}
-    for key, expected_row in etc_gold_rows.items():
-        for role in ('pm_etc', 'finance_correction', 'corrected_etc'):
-            actual = etc_submitted[key, role]
-            expected = float(expected_row[etc_gold_role_keys[role]])
-            criteria.append(Criterion(f'etc_composition__{key}__{role}', f"The ETC composition {key.replace('_', ' ')} {role.replace('_', ' ')} is correct", _close(actual, expected, abs_tol=1.0, rel_tol=0.0), f'submitted={actual!r}; expected={expected}', category='core_finance', weight=10, semantic=False))
-        pm_value = etc_submitted[key, 'pm_etc']
-        correction_value = etc_submitted[key, 'finance_correction']
-        corrected_value = etc_submitted[key, 'corrected_etc']
-        calculated = pm_value + correction_value if pm_value is not None and correction_value is not None else None
-        criteria.append(Criterion(f'etc_composition__{key}__equation', f"The {key.replace('_', ' ')} policy-corrected ETC equals submitted PM ETC plus the Finance correction", calculated is not None and corrected_value is not None and _close(corrected_value, calculated, abs_tol=1.0, rel_tol=0.0), f'submitted_corrected={corrected_value!r}; calculated={calculated!r}', category='auditability', weight=5, semantic=False))
-    total_expected = etc_gold['totals']
-    for role in ('pm_etc', 'finance_correction', 'corrected_etc'):
-        actual = etc_submitted['total', role]
-        expected = float(total_expected[etc_gold_role_keys[role]])
-        criteria.append(Criterion(f'etc_composition__total__{role}', f"The ETC composition total {role.replace('_', ' ')} is correct", _close(actual, expected, abs_tol=1.0, rel_tol=0.0), f'submitted={actual!r}; expected={expected}', category='core_finance', weight=10, semantic=False))
-    total_pm = etc_submitted['total', 'pm_etc']
-    total_correction = etc_submitted['total', 'finance_correction']
-    total_corrected = etc_submitted['total', 'corrected_etc']
-    total_calculated = total_pm + total_correction if total_pm is not None and total_correction is not None else None
-    criteria.append(Criterion('etc_composition__total__equation', 'Total policy-corrected ETC equals total submitted PM ETC plus total Finance correction', total_calculated is not None and total_corrected is not None and _close(total_corrected, total_calculated, abs_tol=1.0, rel_tol=0.0), f'submitted_corrected={total_corrected!r}; calculated={total_calculated!r}', category='auditability', weight=5, semantic=False))
-    component_keys = tuple(etc_gold_rows)
-    for role in ('pm_etc', 'finance_correction', 'corrected_etc'):
-        values = [etc_submitted[key, role] for key in component_keys]
-        submitted_total = etc_submitted['total', role]
-        calculated_total = sum((value for value in values if value is not None)) if all((value is not None for value in values)) else None
-        criteria.append(Criterion(f'etc_composition__crossfoot__{role}', f"The ETC composition {role.replace('_', ' ')} components cross-foot to the submitted total", calculated_total is not None and submitted_total is not None and _close(submitted_total, calculated_total, abs_tol=1.0, rel_tol=0.0), f'submitted_total={submitted_total!r}; calculated_total={calculated_total!r}', category='auditability', weight=5, semantic=False))
-    etc_schedule_complete = all((etc_submitted[key, role] is not None for key in TASK_001_ETC_COMPONENT_ROWS for role in ('pm_etc', 'finance_correction', 'corrected_etc')))
-    criteria.append(Criterion('etc_composition__schedule_result_completeness', 'All ETC composition component and total amount cells are populated and parseable', etc_schedule_complete, 'all ETC composition amount cells parsed successfully' if etc_schedule_complete else 'one or more ETC composition amount cells are blank, placeholder, or unparseable', category='controls', weight=5, semantic=False))
-
-    def value(key: str) -> float | None:
-        return _number(mapping.get(key))
-
-    def equation_matches(result_key: str, calculated: float | None, tolerance: float) -> bool:
-        result_value = value(result_key)
-        return result_value is not None and calculated is not None and (abs(result_value - calculated) <= tolerance)
-    close_etc_calculated = value('pm_etc') + value('required_etc_adjustment') if value('pm_etc') is not None and value('required_etc_adjustment') is not None else None
-    eac_calculated = value('posted_cost') + value('close_etc') if value('posted_cost') is not None and value('close_etc') is not None else None
-    percent_calculated = value('posted_cost') / value('eac') if value('posted_cost') is not None and value('eac') not in (None, 0) else None
-    earned_calculated = value('current_contract') * percent_calculated if value('current_contract') is not None and percent_calculated is not None else None
-    margin_calculated = value('current_contract') - value('eac') if value('current_contract') is not None and value('eac') is not None else None
-    equation_checks = {'close_etc': (close_etc_calculated, 1.0, 'PM ETC plus the finance correction equals close ETC'), 'eac': (eac_calculated, 1.0, 'posted cost plus close ETC equals EAC'), 'percent_complete': (percent_calculated, 5e-05, 'posted cost divided by EAC equals percent complete'), 'earned_revenue': (earned_calculated, 1.0, 'executed contract value times percent complete equals earned revenue'), 'estimated_margin': (margin_calculated, 1.0, 'executed contract value less EAC equals total estimated margin'), 'contract_asset': (max((value('earned_revenue') or 0.0) - (value('billings') or 0.0), 0.0) if value('earned_revenue') is not None and value('billings') is not None else None, 1.0, 'earned revenue less billings, floored at zero, equals the contract asset'), 'contract_liability': (max((value('billings') or 0.0) - (value('earned_revenue') or 0.0), 0.0) if value('earned_revenue') is not None and value('billings') is not None else None, 1.0, 'billings less earned revenue, floored at zero, equals the contract liability')}
-    for key, (calculated, tolerance, description) in equation_checks.items():
-        criteria.append(Criterion(f'june__equation__{key}', description, equation_matches(key, calculated, tolerance), f'reported={value(key)!r}; calculated={calculated!r}; tolerance={tolerance}', category='auditability', weight=5, semantic=False))
-    june_schedule_complete = all((key in mapping for key in TASK_001_CURRENT_ROWS))
-    criteria.append(Criterion('june__schedule_result_completeness', 'All 13 required June schedule result cells are populated and parseable', june_schedule_complete, 'all 13 required June result cells parsed successfully' if june_schedule_complete else 'one or more required June result cells are blank, placeholder, or unparseable', category='controls', weight=5, semantic=False))
-    bridge_schedule_complete = all((key in mapping for _aliases, may_key, june_key, change_key in TASK_001_BRIDGE_ROWS.values() for key in (may_key, june_key, change_key)))
-    criteria.append(Criterion('bridge__schedule_result_completeness', 'All 33 required May, June, and change cells in the bridge are populated and parseable', bridge_schedule_complete, 'all 33 required bridge value cells parsed successfully' if bridge_schedule_complete else 'one or more required bridge value cells are blank, placeholder, or unparseable', category='controls', weight=5, semantic=False))
-    authority_cell_boundaries = {('commercial_log', 'treatment'): 'A statement that the recovery is excluded from contract value and cost recovery is a professional equivalent of excluding it from contract value and refusing to net it against forecast cost/ETC. Do not require the literal term ETC when the cost-recovery direction is unambiguous.', ('commercial_log', 'status'): 'For this authority-status cell, Draft plus Contract Included No, not authorized, or an equivalent combination is sufficient to establish that PCO-011 is not an executed/accepted contract modification at cutoff. Do not require this cell to repeat disputed or unaccepted when the authorization boundary is already clear.', ('pco_backup', 'status'): 'For this packet authority-status cell, draft only, not an executed modification, probable-cost/estimate support only, no counterparty acceptance, or an equivalent combination is sufficient to establish that the packet is not accounting authorization. The source label supplies the packet identity; do not require the cell to repeat the trade-dispute narrative graded elsewhere.', ('pco_backup', 'treatment'): 'For this packet-specific treatment cell, restoring/adding the disputed recovery to ETC, saying it is not netted against ETC/cost, or saying the recovery is not recognized all express the same June-close boundary when the direction is clear. Do not demand that this one cell repeat both the amount and the separate contract-value/revenue conclusion graded elsewhere.', ('wip_policy', 'status'): 'The submitted evidence includes the source label. When that label already identifies a Signed WIP policy, a status calling it the controlling or authoritative accounting policy is sufficient; do not require the status cell to repeat signed or FIN-REV-04.', ('pm_forecast', 'evidence'): 'This cell asks what source-specific evidence would cure the unsupported PM forecast assumption. A revised PM ETC excluding the recovery OR persuasive executed/accepted recovery support is sufficient. Controller disposition is a separate posting gate and need not be repeated here.', ('commercial_log', 'evidence'): 'An executed bilateral change, enforceable accepted settlement, or comparably clear authorization/recoverability evidence is sufficient. Do not require the exact words entitlement and collectability when acceptance or enforceability conveys them.', ('pco_backup', 'evidence'): "Counterparty/subcontractor acceptance, an executed settlement, or an owner-approved change cures this packet's commercial-authority gap. In an Evidence to clear field, ordinary document shorthand such as a signed/accepted backcharge, an executed page that evidences acceptance rather than meeting minutes, or a legal enforceability opinion is a professional equivalent because the field describes prospective support, not a claim that the exception is already cleared. Do not reject a list merely because it gives more than one valid clearance path. Controller accounting approval is scored in a separate policy/posting criterion and need not be repeated here.", ('wip_policy', 'treatment'): 'Grade only the accounting treatment cell. This one compact cell need not restate every FIN-REV-04 rule. A correct statement that the disputed recovery must not reduce ETC, that only executed contract value is used, or that Controller approval is required before posting is sufficient when it does not contradict the other rules. The amount/threshold and the other accounting conclusions are graded separately.', ('wip_policy', 'evidence'): 'Documented Controller review, approval, decision, sign-off, or disposition before posting are professional equivalents. This is the prospective Evidence to clear field, not a claim that approval already exists. A future Controller-approved workpaper or posted-entry reference after authorization is valid clearance evidence when the separate status/action fields preserve the current no-posting state. Do not demand a second form of approval wording.'}
-    for expected in gold['commercial_authority_matrix']:
-        key = expected['source_key']
-        row = authority_fields.get(key, {})
-        date_met = _text_contains_date(str(row.get('date', '')), str(expected['cutoff_or_date'])[:10])
-        amount_met = _text_contains_number(str(row.get('amount', '')), expected['amount_or_assumption'], abs_tol=1.0)
-        criteria.extend([Criterion(f'authority__{key}__date', f"The {key.replace('_', ' ')} row uses the correct source date or cutoff", date_met, f"submitted={row.get('date', '')!r}; expected={expected['cutoff_or_date']}", category='source_control', weight=10, semantic=False), Criterion(f'authority__{key}__amount_or_threshold', f"The {key.replace('_', ' ')} row shows the relevant amount or review threshold", amount_met, f"submitted={row.get('amount', '')!r}; expected={expected['amount_or_assumption']}", category='source_control', weight=10, semantic=False)])
-
-    def journal_number(stage_key: str, row_key: str, role: str) -> float | None:
-        row = journal_stage_fields.get(stage_key, {}).get(row_key, {})
-        return _number(_docx_numeric_value(row.get(role, '')))
-    journal_gold = gold['proposed_journal_bridge']
-    journal_gold_by_stage = {str(stage['stage_key']): stage for stage in journal_gold['stages']}
-    journal_row_keys = ('account_1200', 'account_2100', 'account_4300')
-    for stage_key in TASK_001_JOURNAL_STAGES:
-        expected_stage = journal_gold_by_stage[stage_key]
-        expected_rows = {str(row['account_key']): row for row in expected_stage['rows']}
-        for row_key in journal_row_keys:
-            expected = expected_rows[row_key]
-            for role in ('debit', 'credit'):
-                actual = journal_number(stage_key, row_key, role)
-                target = float(expected[role])
-                met = _close(actual, target, abs_tol=1.0, rel_tol=0.0)
-                criteria.append(Criterion(f'journal__{stage_key}__{row_key}__{role}', f"The {stage_key.replace('_', ' ')} {row_key.replace('_', ' ')} {role} is correct", met, f'submitted={actual!r}; expected={target}', category='core_finance', weight=10, semantic=False))
-        for role, target_key in (('debit', 'total_debits'), ('credit', 'total_credits')):
-            actual = journal_number(stage_key, 'totals', role)
-            target = float(expected_stage[target_key])
-            criteria.append(Criterion(f'journal__{stage_key}__totals__{role}', f"The {stage_key.replace('_', ' ')} total {role}s are correct", _close(actual, target, abs_tol=1.0, rel_tol=0.0), f'submitted={actual!r}; expected={target}', category='controls', weight=10, semantic=False))
-        out_of_balance = _number(_docx_numeric_value(journal_stage_fields.get(stage_key, {}).get('out_of_balance', {}).get('description', '')))
-        criteria.append(Criterion(f'journal__{stage_key}__out_of_balance', f"The {stage_key.replace('_', ' ')} reports a zero out-of-balance check", _close(out_of_balance, float(expected_stage['out_of_balance']), abs_tol=1.0, rel_tol=0.0), f"submitted={out_of_balance!r}; expected={expected_stage['out_of_balance']}", category='controls', weight=10, semantic=False))
-        submitted_values = [journal_number(stage_key, row_key, role) for row_key in journal_row_keys for role in ('debit', 'credit')]
-        submitted_debits = sum((journal_number(stage_key, key, 'debit') or 0.0 for key in journal_row_keys))
-        submitted_credits = sum((journal_number(stage_key, key, 'credit') or 0.0 for key in journal_row_keys))
-        totals_debit = journal_number(stage_key, 'totals', 'debit')
-        totals_credit = journal_number(stage_key, 'totals', 'credit')
-        criteria.extend([Criterion(f'journal__{stage_key}__equation__debits_equal_credits', f"The {stage_key.replace('_', ' ')} debits equal credits", all((value is not None for value in (totals_debit, totals_credit))) and _close(totals_debit, totals_credit, abs_tol=1.0, rel_tol=0.0), f'total_debits={totals_debit!r}; total_credits={totals_credit!r}', category='auditability', weight=10, semantic=False), Criterion(f'journal__{stage_key}__equation__rows_crossfoot', f"The {stage_key.replace('_', ' ')} account rows cross-foot to its totals", all((value is not None for value in submitted_values)) and all((value is not None for value in (totals_debit, totals_credit))) and _close(submitted_debits, totals_debit, abs_tol=1.0, rel_tol=0.0) and _close(submitted_credits, totals_credit, abs_tol=1.0, rel_tol=0.0), f'row_debits={submitted_debits}; displayed_debits={totals_debit!r}; row_credits={submitted_credits}; displayed_credits={totals_credit!r}', category='auditability', weight=10, semantic=False)])
-    signed_expectations = {'may_reversal': {'account_1200': -float(prior['contract_asset']), 'account_2100': -float(prior['contract_liability']), 'account_4300': -float(prior['contract_asset'] - prior['contract_liability'])}, 'june_establishment': {'account_1200': float(project['underbilling']), 'account_2100': float(project['overbilling']), 'account_4300': float(project['underbilling'] - project['overbilling'])}, 'net_june': {'account_1200': float(project['underbilling'] - prior['contract_asset']), 'account_2100': float(project['overbilling'] - prior['contract_liability']), 'account_4300': float(project['underbilling'] - project['overbilling'] - (prior['contract_asset'] - prior['contract_liability']))}}
-    for stage_key, expected_accounts in signed_expectations.items():
-        for row_key, expected_signed in expected_accounts.items():
-            debit = journal_number(stage_key, row_key, 'debit')
-            credit = journal_number(stage_key, row_key, 'credit')
-            signed = None
-            if debit is not None and credit is not None:
-                signed = credit - debit if row_key in {'account_2100', 'account_4300'} else debit - credit
-            criteria.append(Criterion(f'journal__{stage_key}__equation__{row_key}_tie', f"The {stage_key.replace('_', ' ')} {row_key.replace('_', ' ')} direction and amount tie to the May/June WIP bridge", _close(signed, expected_signed, abs_tol=1.0, rel_tol=0.0), f'submitted_signed={signed!r}; expected_signed={expected_signed}', category='auditability', weight=10, semantic=False))
-    semantic_specs: list[dict[str, Any]] = []
-
-    def add_semantic(criterion_id: str, description: str, evidence: str, expected_facts: dict[str, Any], *, hard_gate: bool, hard_gate_evidence: str, category: str, weight: int=10, task_context: dict[str, Any] | None=None, evidence_scope: str='criterion_field') -> None:
-        criteria.append(Criterion(criterion_id, description, hard_gate, evidence[:2000], category=category, weight=weight, semantic=True))
-        semantic_specs.append({'criterion_id': criterion_id, 'expected_facts': expected_facts, 'submitted_evidence': evidence, 'reference_context': expected_facts, 'task_context': task_context or {}, 'evidence_scope': evidence_scope, 'hard_gate_met': hard_gate, 'hard_gate_evidence': hard_gate_evidence, 'always_judge': True})
-    task_context = {'project': 'ARM-2409 / Northline Cold Storage Expansion', 'cutoff': '2026-06-30', 'workpaper_state': 'preparer workpaper for Controller review; no Controller approval or posting authorization has been provided'}
-    add_semantic('posting_lineage__payment_hold_conclusion', "The memo correctly explains the accounting effect of AP-0004290's payment hold", payment_hold_assessment, {'required_meaning': lineage_gold['payment_hold_conclusion'], 'grading_boundary': 'The hold controls cash disbursement and resolution follow-up; it does not reverse, defer, or exclude the already posted June project cost from WIP.', 'equivalence_rule': 'Accept concise professional wording that preserves both cost recognition and the payment-control boundary. Do not require the reference sentence.'}, hard_gate=_usable_docx_value(payment_hold_assessment), hard_gate_evidence='the agent-authored payment-hold assessment is completed', category='source_interpretation', task_context=task_context, evidence_scope='AP-0004290 payment-hold assessment cell only')
-    add_semantic('billing_lineage__recognition_conclusion', 'The memo correctly explains recognition of the non-voided June billing and its posting tie', billing_recognition_assessment, {'required_meaning': lineage_gold['billing_conclusion'], 'verified_posting_context': {'invoice_status': billing_expected['status'], 'invoice_amount': billing_expected['amount'], 'journal_debits': billing_lineage_gold['total_debits'], 'journal_credits': billing_lineage_gold['total_credits'], 'variance_to_june_billings': billing_lineage_gold['variance_to_june_billings']}, 'grading_boundary': "The invoice's partially paid status is a collection state, not a reason to recognize only cash collected or to reverse the non-voided billing. Objective amounts and the debit-credit tie are graded separately by code.", 'equivalence_rule': 'Accept ordinary accounting language such as recognize the full invoice, payment status does not change billing recognition, or an unambiguous equivalent.'}, hard_gate=_usable_docx_value(billing_recognition_assessment), hard_gate_evidence='the agent-authored June billing-recognition assessment is completed', category='source_interpretation', task_context=task_context, evidence_scope='June billing-recognition assessment cell only')
-    add_semantic('billing_support__status', 'The June billing-support row states the source-record invoice status', billing_status_submitted, {'source_status': billing_expected['status'], 'accepted_meaning': 'The invoice has been paid only in part as of the source-record cutoff. Partially paid, part paid, partly paid, or an unambiguous professional equivalent passes; exact capitalization or platform enum wording is not required.', 'wrong_meaning': 'Fully paid, unpaid/open with no payment, voided, or any other contradictory status.'}, hard_gate=_usable_docx_value(billing_status_submitted), hard_gate_evidence='the agent-authored billing-status cell is completed', category='source_interpretation', task_context=task_context)
-    add_semantic('full_population__conclusion', 'The full-population conclusion correctly states whether all June ARM-2409 job costs posted exactly once and reconciled without exception', population_conclusion_assessment, {'verified_control': {'job_cost_entries': population_summary_gold['total']['job_cost_entry_count'], 'job_cost_amount': population_summary_gold['total']['job_cost_amount'], 'unique_posted_journals': population_summary_gold['total']['unique_journal_count'], 'project_expense_lines': population_summary_gold['total']['expense_line_count'], 'offset_accounts': {'AP': population_offset_gold['ap']['offset_account'], 'PAY': population_offset_gold['pay']['offset_account']}, 'all_exception_counts': population_exception_gold['total']}, 'required_meaning': population_gold['conclusion'], 'grading_boundary': 'The deterministic criteria separately grade every count, amount, account, equation, exception, and cross-foot. Grade only whether this conclusion accurately summarizes that verified control.', 'equivalence_rule': 'Accept concise professional wording and equivalent terminology. Do not require the reference sentence, every number, or the phrase exactly once when one-to-one posting and zero exceptions are otherwise unambiguous.'}, hard_gate=_usable_docx_value(population_conclusion_assessment), hard_gate_evidence='the agent-authored full-population conclusion cell is completed', category='source_interpretation', task_context=task_context, evidence_scope='full-population posting-control conclusion cell only')
-    etc_basis_payload = [{'component': etc_composition_fields[key].get('component', ''), 'submitted_source_treatment': etc_composition_fields[key].get('source_basis', '')} for key in TASK_001_ETC_COMPONENT_ROWS]
-    etc_basis_complete = all((_usable_docx_value(row['submitted_source_treatment']) for row in etc_basis_payload))
-    add_semantic('etc_composition__source_and_treatment_basis', 'The ETC composition schedule correctly distinguishes the submitted PM forecast components from the source-backed disputed-recovery correction', json.dumps(etc_basis_payload, indent=2), {'pm_layer': 'The five submitted PM components come from the ARM-2409 Project Forecasts detail or an unambiguous equivalent PM forecast source.', 'finance_correction_layer': 'The three correction components come from the PCO-011 Attachment A pricing build-up or an unambiguous equivalent commercial-support reference.', 'accounting_treatment': 'The disputed $185,000 recovery is restored to remaining cost/ETC; it is not recognized as contract value or recovery revenue at the June cutoff.', 'deterministic_boundary': 'All component amounts, row equations, totals, and cross-foots are graded separately by code. Do not regrade them or require their repetition in the source/treatment cells.', 'equivalence_rule': 'Accept concise professional source names, filename abbreviations, section references, and equivalent wording. The five PM rows may share one clearly identified PM source convention, and the three correction rows may share one clearly identified PCO-011 source convention.'}, hard_gate=etc_basis_complete, hard_gate_evidence='all nine agent-authored ETC composition source/treatment cells are completed', category='source_interpretation', task_context=task_context, evidence_scope='ETC composition component labels and source/treatment cells only')
-    impact_basis_complete = _usable_docx_value(impact_basis_text)
-    add_semantic('impact__basis_and_decision', 'The close-impact table distinguishes the unauthorized PM case from the controlling policy-corrected preparer case', impact_basis_text, {'pm_case_status': gold['close_impact_bridge']['pm_case_status'], 'policy_corrected_status': gold['close_impact_bridge']['policy_corrected_status'], 'required_meaning': 'The PM case still nets an unsupported recovery and is not an authorized June-close basis. The policy-corrected case restores that recovery to ETC and is the case used in the preparer workpaper pending Controller review.', 'equivalence_rule': 'Accept concise ordinary professional wording with the same accounting and approval boundary; reject language that treats the PM case as booked, approved, or controlling.'}, hard_gate=impact_basis_complete, hard_gate_evidence=f'the close-impact section contains a submitted PM-case versus policy-corrected basis statement={impact_basis_complete}', category='decision', task_context=task_context, evidence_scope='close-impact table basis row or nearby basis note only')
-    verified_schedule_context = {'finance_etc_correction': 185000, 'pm_etc': 584000, 'close_etc': 769000, 'margin_rate_change_bps': -334.78, 'note': 'these objective schedule and bridge values are graded deterministically'}
-    review_status = _task_001_metadata_value(metadata_fields, 'Review status', 'Approval status', 'Review state')
-    add_semantic('metadata__review_status', 'The metadata states that Controller review is pending and does not imply approval or posting authorization', json.dumps({'review_status': review_status}), {'required_state': "Controller approval remains pending and posting is not authorized; a generic Reviewed label may pass only when the same status expressly keeps Controller approval pending and does not claim sign-off or posting clearance; 'ready for sign-off' is a pending-review state, not completed sign-off", 'must_not_claim': 'approved, completed sign-off, or authorized/cleared to post'}, hard_gate=_usable_docx_value(review_status), hard_gate_evidence='the agent-authored review-status value is completed', category='controls', weight=5, task_context=task_context)
-    recommendation_evidence = json.dumps({'recommendation': recommendation, 'verified_schedule_context': verified_schedule_context}, indent=2)
-    add_semantic('judgment__close_recommendation', 'The recommendation restores the unsupported recovery to ETC, requires Controller review, and preserves the no-posting boundary', recommendation_evidence, {'required_conclusions': ['reverse the unsupported recovery offset by restoring it to remaining ETC', 'Controller review remains required', 'the preparer workpaper is not approved to post'], 'equivalence_rule': 'the narrative may refer to the adjustment or deterioration shown in the verified schedule/bridge without repeating the amount', 'posting_boundary': 'An unconditional instruction to post the journal is wrong unless this same recommendation expressly conditions actual posting on documented Controller approval. A later statement that approval is absent does not cure an unconditional posting direction. Recommending that the project be closed or released on the policy-corrected accounting basis is not itself posting authorization when the recommendation preserves the Controller gate.'}, hard_gate=_usable_docx_value(recommendation), hard_gate_evidence='the recommendation field is completed', category='decision', task_context=task_context)
-    conclusion_requirements = {'authorization': ('judgment__backcharge_authorization', "The cutoff conclusion correctly assesses PCO-011's authorization state", {'item': 'PCO-011', 'cutoff': '2026-06-30', 'required_meaning': 'draft, disputed, and unaccepted; no executed contract modification exists'}), 'contract_treatment': ('judgment__contract_value_treatment', 'The memo keeps the pending recovery out of current contract value until authorization and collectability support exist', {'current_contract': 5526000, 'recovery': 185000, 'required_treatment': 'exclude the pending recovery from contract value', 'release_condition': 'executed or accepted authorization plus collectability support'}), 'etc_treatment': ('judgment__etc_treatment', 'The memo reverses the unsupported recovery netting in the PM forecast and restores it to remaining ETC', {'verified_schedule': verified_schedule_context, 'required_direction': 'add back to forecast cost / restore to ETC', 'equivalence_rule': 'the row may refer to the correction displayed in the verified schedule without repeating $185,000'}), 'controller_review': ('judgment__controller_review_basis', 'The memo requires Controller review for the disputed-recovery treatment and resulting material adverse margin movement', {'review_required': True, 'review_state': 'approval state is graded by the separate posting-boundary and action criteria; for this review-basis criterion, a clear conclusion that Controller review is required or mandatory is sufficient unless it affirmatively claims the review or approval is complete', 'forecast_issue': 'the disputed recovery is embedded as an offset in PM ETC', 'verified_bridge': verified_schedule_context, 'equivalence_rule': 'a clear reference to the material adverse movement shown in the verified bridge is sufficient; the row need not repeat 334.78 bps'}), 'posting_status': ('judgment__posting_boundary', 'The close-status row states that posting is not authorized before documented Controller disposition', {'posting_authorized': False, 'required_gate': 'documented Controller approval or disposition before posting', 'must_fail_if': 'the conclusion says approved or cleared to post, or says ready/closed for posting without an explicit condition that posting must wait for documented Controller approval/disposition; merely saying this workpaper itself does not post a journal does not cure an approval or clearance claim', 'conditional_readiness_rule': "'ready to post as corrected' may pass only when the same conclusion explicitly says it is not yet posted and instructs posting only after documented Controller approval; this describes preparer readiness, not posting authorization"})}
-    for key, (criterion_id, description, reference_context) in conclusion_requirements.items():
-        row = conclusion_fields[key]
-        authored_cells_complete = all((_usable_docx_value(row.get(role)) for role in ('conclusion', 'support')))
-        add_semantic(criterion_id, description, json.dumps({'question': row.get('question', ''), 'conclusion': row.get('conclusion', ''), 'support': row.get('support', '')}, indent=2), reference_context, hard_gate=bool(row) and authored_cells_complete, hard_gate_evidence='the agent-authored conclusion and support cells are completed', category='decision', task_context=task_context)
-    for expected in gold['commercial_authority_matrix']:
-        key = expected['source_key']
-        row = authority_fields.get(key, {})
-        for role, label, expected_value in (('status', 'authority status', expected['authority_status']), ('treatment', 'June close treatment', expected['close_treatment']), ('evidence', 'clearance evidence', expected['evidence_to_clear'])):
-            submitted = str(row.get(role, '') or '')
-            add_semantic(f'authority__{key}__{role}', f"The {key.replace('_', ' ')} row states the correct {label}", json.dumps({'source': row.get('source', ''), 'submitted': submitted}, indent=2), {'accepted_meaning': expected_value, 'equivalence_rule': 'Accept concise, ordinary professional wording with the same source-specific accounting meaning. Do not require the authored sentence or filename.', 'grading_boundary': 'Grade only this one submitted matrix cell against this source-specific answer key. ' + authority_cell_boundaries.get((key, role), '')}, hard_gate=_usable_docx_value(submitted), hard_gate_evidence=f'the agent-authored {role} cell is completed', category='source_interpretation' if role == 'status' else 'decision', task_context=task_context, evidence_scope=f'PCO-011 authority-matrix {key} {role} cell only')
-    for stage_key in TASK_001_JOURNAL_STAGES:
-        stage_basis = str(journal_stage_fields.get(stage_key, {}).get('stage_basis', {}).get('description', '') or '')
-        expected_stage = journal_gold_by_stage[stage_key]
-        add_semantic(f'journal__{stage_key}__basis', f"The {stage_key.replace('_', ' ')} basis correctly explains its role and WIP tie-out", json.dumps({'stage': expected_stage['stage'], 'submitted_basis': stage_basis}, indent=2), {'accepted_meaning': expected_stage['basis'], 'equivalence_rule': "Accept concise ordinary journal-support wording that identifies the correct stage period and purpose and ties it to the relevant May/June WIP schedule or gross position. The stage's amounts, debit/credit direction, totals, balance, and account tie are all graded separately by code and must not be demanded again in this narrative cell. The supplied stage label provides the period and role and need not be repeated verbatim in the basis cell. For the June stage, 'policy-corrected June position' together with a gross-by-project or equivalent WIP tie is sufficient. Do not require the reference sentence or exact label. For the Net June posting row, a formula that explicitly subtracts the May contract-asset balance from the June contract-asset balance is itself a sufficient May-to-June WIP tie-out; do not require the words contract asset or WIP when the stage label and the two verified stage balances supply that association.", 'deterministic_boundary': 'Amounts, debit/credit direction, totals, zero-balance checks, and stage-to-period equations are already verified by separate deterministic criteria.'}, hard_gate=_usable_docx_value(stage_basis), hard_gate_evidence='the agent-authored stage-basis cell is completed', category='controls', task_context=task_context, evidence_scope=f'{stage_key} stage-basis cell only')
-    journal_basis = str(journal_control_fields.get('overall_basis', {}).get('description', '') or '')
-    journal_status = str(journal_control_fields.get('status', {}).get('description', '') or '')
-    add_semantic('journal__overall_basis', 'The overall journal basis links the May reversal, June establishment, and net June entry', json.dumps({'stage_labels': {key: journal_gold_by_stage[key]['stage'] for key in TASK_001_JOURNAL_STAGES}, 'submitted_basis': journal_basis}, indent=2), {'accepted_meaning': journal_gold['basis'], 'equivalence_rule': 'Accept any clear professional explanation that the entry reverses the final May gross position, records the policy-corrected June 30 gross position, and shows the resulting June-period effect. When the submitted basis refers to Stage 1, Stage 2, or Stage 3, interpret those references using the supplied stage labels. Terms such as prior close and cumulative required balance are acceptable when those labels establish the May-reversal and June-establishment roles.', 'deterministic_boundary': "The three stages' amounts, debit/credit direction, totals, account ties, and net-period equations are graded separately by code and must not be demanded in this narrative cell."}, hard_gate=_usable_docx_value(journal_basis), hard_gate_evidence='the agent-authored overall journal-basis cell is completed', category='controls', task_context=task_context, evidence_scope='overall journal-basis cell only')
-    add_semantic('journal__approval_and_posting_status', 'The proposed journal remains unposted and pending documented Controller approval', journal_status, {'accepted_meaning': journal_gold['status'], 'equivalence_rule': 'Accept proposed, draft, held, pending approval, not posted, or equivalent wording only when it preserves both the no-posting state and Controller approval gate.', 'must_reject': 'posted, approved, cleared, or ready to post without the Controller condition'}, hard_gate=_usable_docx_value(journal_status), hard_gate_evidence='the agent-authored journal approval/posting-status cell is completed', category='decision', task_context=task_context, evidence_scope='journal approval/posting-status cell only')
-    june_basis_reference = {'current_contract': 'June 30 company accounting records; the pending PCO-011 recovery is not part of executed contract value', 'posted_cost': 'June 30 company accounting/job-cost records', 'billings': 'June 30 company accounting billing records; a current project summary explicitly reporting contract billings to date at the June 30 cutoff is a valid billing source', 'pm_etc': 'the latest PM forecast, PM ETC submission/register, or an unambiguous professional abbreviation of its filename; this compact metric-source comment need not repeat the embedded recovery assumption because the separate forecast-evidence criterion grades it', 'required_etc_adjustment': 'commercial support and FIN-REV-04 require removal of the unsupported recovery offset by restoring $185,000 to ETC', 'close_etc': 'PM ETC plus the finance ETC correction', 'eac': 'posted cost plus close ETC; the submitted result is already in the policy-corrected June schedule, so an accurate source/comment need not repeat the adjective policy-corrected', 'percent_complete': 'posted cost divided by EAC', 'earned_revenue': 'executed contract value multiplied by percent complete; in this schedule, the deterministically verified current contract of $5,526,000 is the executed/approved contract value because pending PCO-011 is excluded, so current contract is an acceptable professional equivalent', 'contract_asset': 'earned revenue less billings, floored at zero', 'contract_liability': "billings less earned revenue, floored at zero; professional equivalents such as 'billings do not exceed earned revenue', 'no overbilling', or 'contract liability is nil' are sufficient when the result is deterministically verified as zero", 'estimated_margin': 'current/executed/approved contract value less EAC; for this schedule current contract $5,526,000 is the executed contract value because pending PCO-011 is excluded', 'margin_percent': "estimated total margin divided by current/executed/approved contract value; for this schedule 'current contract' of $5,526,000 is the executed contract value because the pending PCO-011 amount is excluded"}
-    for key, expected_basis in june_basis_reference.items():
-        row = current_fields[key]
-        source_comment = row.get('source_comment', '')
-        add_semantic(f'evidence__june__{key}', f"The June {key.replace('_', ' ')} source/comment gives the correct metric-specific source or calculation basis", json.dumps({'metric': row.get('metric', ''), 'deterministically_verified_result': row.get('result', ''), 'submitted_source_comment': source_comment}, indent=2), {'accepted_basis': expected_basis, 'grading_boundary': 'accept an accurate professional equivalent; reject a generic source label or a basis for a different metric'}, hard_gate=_usable_docx_value(source_comment) and key in mapping, hard_gate_evidence='the source/comment cell is completed and its result cell parsed for the separate deterministic value check', category='provenance', weight=3, task_context=task_context)
-    bridge_driver_reference = {'current_contract': 'no change because executed contract value remained $5,526,000 and PCO-011 was not authorized', 'posted_cost': 'posted cost increased $161,892.13 from May to the June 30 accounting cutoff', 'close_etc': "remaining ETC increased $23,107.87 because the $185,000 recovery was restored to the $584,000 PM ETC, producing $769,000 versus May's $745,892.13", 'eac': 'EAC increased $185,000 because the unsupported recovery offset was removed from the estimate, equivalently because the disputed recovery was restored/added back to cost', 'percent_complete': 'percent complete increased 19.70 bps through ordinary cost-to-cost progression as posted cost and EAC changed to the verified June balances', 'earned_revenue': "earned revenue increased $10,888.17 from the higher percent complete on unchanged contract value. A concise explanation such as 'contract times percent complete; modest progress net of higher EAC' is correct: the higher EAC dampens the percent-complete increase while June posted-cost progress still produces the verified net increase. Do not reject that wording for mentioning higher EAC.", 'billings': 'June billings activity increased cumulative billings $79,513.55', 'contract_asset': 'contract asset decreased $68,625.38 because billings growth exceeded earned-revenue growth', 'contract_liability': 'contract liability remained zero because earned revenue continued to exceed billings', 'estimated_margin': 'estimated total margin decreased $185,000 because EAC rose $185,000 while contract value was unchanged. Stating that the $185,000 decrease was caused by restoring the disputed recovery to cost is the same causal explanation and is sufficient without repeating EAC or unchanged contract value; those schedule values are already verified separately', 'margin_percent': 'margin rate decreased 334.78 bps because the $185,000 policy correction removed the recovery offset or restored/added back the disputed recovery to cost, reducing total estimated margin by $185,000 while contract value stayed unchanged'}
-    for key, expected_driver in bridge_driver_reference.items():
-        row = bridge_fields[key]
-        driver = row.get('driver', '')
-        add_semantic(f'bridge__driver__{key}', f"The {key.replace('_', ' ')} bridge driver correctly explains the May-to-June movement", json.dumps({'metric': row.get('metric', ''), 'deterministically_verified_may': row.get('may_final', ''), 'deterministically_verified_june': row.get('june_close', ''), 'deterministically_verified_change': row.get('change', ''), 'submitted_driver': driver}, indent=2), {'accepted_explanation': expected_driver, 'grading_boundary': "accept any accurate causal explanation or concise professional equivalent; the driver need not repeat every intermediate calculation when the causal policy correction is clear; grade only the metric driver and ignore unrelated review-status language that is scored elsewhere; reject generic text such as 'updated for June'. For posted cost specifically, a concise statement that the movement is June posted job-cost activity, including labor/material/subcontract/other cost, is sufficient because the exact movement is graded by code."}, hard_gate=_usable_docx_value(driver), hard_gate_evidence='the agent-authored driver cell is completed', category='analysis', weight=5, task_context=task_context)
-    evidence_requirements = {'accounting': ('The evidence log ties current contract, posted cost, and billings to June 30 company accounting records', {'current_contract': 5526000, 'posted_cost': 3731500, 'billings': 4375593.13, 'source': 'company accounting records at 2026-06-30', 'status': 'Tied or an unambiguous equivalent'}), 'prior_close': ('The evidence log identifies the final May WIP workpaper and accurately states its comparison role and controlling May results', {'source': 'WIP 5.31.26_FINAL_v7_revised NB.xlsx or an unambiguous professional abbreviation. `WIP 5.31.26_FINAL_v7` is sufficient when the row identifies it as the final/posted May workpaper; do not require the filename suffix `revised NB` or the extension.', 'may_eac': 4315500, 'may_close_etc': 745892.13, 'may_total_margin': 1210500, 'may_margin_rate': 0.2190553746, 'may_contract_asset': 274805.16, 'may_source_note': 'No material movement; ordinary production update', 'sufficiency_rule': 'the row must identify the final May workpaper as the bridge baseline; it need not repeat every listed May value, but every value or treatment it does state must be accurate', 'recovery_treatment_boundary': 'the row need not discuss the May recovery assumption, but if it does, it must not claim May had already removed/restored the disputed recovery; the May note called for correction in June if the item remained disputed. Saying the final May workpaper is the basis for reversing the May WIP entry is correct and does not claim the disputed recovery itself was reversed in May', 'status': 'Tied or an unambiguous equivalent'}), 'forecast': ('The evidence log identifies the latest PM forecast and accurately states the $584,000 ETC and its embedded recovery assumption', {'source': 'PM ETC updates_6.29 530pm_COMBINED_v3.xlsx or an unambiguous professional abbreviation', 'pm_etc': 584000, 'embedded_recovery': 185000, 'status': 'Exception/open, or reviewed-adjusted/corrected when the row still clearly discloses the recovery assumption embedded in the submitted PM forecast', 'grading_boundary': 'this row proves what the PM forecast contains; it need not repeat that the recovery is disputed because the separate commercial-evidence criterion grades authorization and dispute status; stating that the correct $584,000 PM ETC nets/includes the disputed backcharge or recovery is sufficient to identify the embedded assumption without repeating $185,000 in this row'}), 'commercial': ('The evidence log identifies the commercial log and PCO-011 support and accurately states that the recovery is unresolved and not authorized at cutoff', {'sources': 'CO log master and PCO-011 backcharge support, including clear professional abbreviations', 'authorization': 'draft/disputed/unaccepted/not executed/not included in contract', 'status': 'Open, pending, exception, or an equivalent unresolved status', 'grading_boundary': 'the exact $185,000 is graded elsewhere and need not be repeated here; Draft, Contract Included No, no acceptance, no executed change, or equivalent combinations may establish the unexecuted/unapproved state'}), 'policy': ('The evidence log identifies the signed WIP policy and accurately applies its disputed-recovery and mandatory-review rules', {'source': 'signed FIN-REV-04 / revenue recognition WIP policy rev11-24', 'rules': 'do not recognize or net a pending/disputed recovery before acceptance; retain the related forecast cost; escalate the material margin change for review', 'status': 'Applied, or current/controlling/authoritative when the adjacent source-fact cell itself clearly applies the policy rules', 'grading_boundary': 'stating that the disputed recovery is not netted, that ETC must not be reduced for it, or equivalent language satisfies the retain-forecast-cost rule; stating that the margin movement or disputed recovery is a review trigger satisfies the escalation rule without requiring the verb escalate. Judge the source-fact and status cells together. A reference to FIN-REV-04 section 8 review thresholds, together with the supplied objectively verified margin movement above 100 bps, is sufficient when the status says Applied; it is also sufficient when the status identifies the signed policy as the current, controlling, or authoritative policy and the adjacent fact statement actually applies the disputed-recovery, forecast-cost, and review-trigger rules. Do not require the literal word Applied, and do not require the evidence-log row to repeat the conclusion that Controller review is mandatory. In particular, a fact cell that says the disputed recovery is not netted and identifies the applicable review threshold, paired with an Applied status, must be marked MET; do not demand a second sentence saying retain forecast cost.'})}
-    for index, (key, (description, expected_facts)) in enumerate(evidence_requirements.items()):
-        row = evidence_fields[key]
-        gate = bool(row) and all((_usable_docx_value(row.get(role)) for role in ('source', 'fact', 'status')))
-        submitted_evidence = {role: row.get(role, '') for role in ('control', 'source', 'fact', 'status')}
-        if key == 'policy':
-            submitted_evidence['deterministically_verified_margin_rate_change_bps'] = -334.78
-        add_semantic(f'evidence__{key}', description, json.dumps(submitted_evidence, indent=2), expected_facts, hard_gate=gate, hard_gate_evidence='the agent-authored source, fact, and status cells are completed', category='provenance', weight=5, task_context=task_context)
-    action_requirements = {'finance': ('Finance or Project Accounting owns restoration of the $185,000 to ETC, June WIP recalculation, and retention of close support', {'owner': 'Finance / Project Accounting', 'actions': 'restore $185,000, recalculate June WIP, retain updated support', 'status': "Finance's preparer work may be open/in progress or complete/held for review. The row must not say the entry is approved, posted, or ready/cleared to post before Controller disposition.", 'posting_boundary': "Finance may prepare the corrected schedule and proposed entry, but the row must not direct immediate/unconditional posting or say ready/cleared to post before Controller disposition. 'Post once approved' or an equivalent future conditional instruction preserves the Controller gate and is valid.", 'equivalence_rule': "The supplied verified-schedule context proves the policy-corrected $769,000 ETC / $4,500,500 EAC basis. If the action says Finance prepared, completed, or is holding the policy-corrected June WIP/workpaper, that is equivalent to saying restore the $185,000 and recalculate WIP; do not require the action cell to repeat either amount. A reference to the exact drafted net June entry (Cr 1200 / Dr 4300 $68,625.38), held for Controller approval and retained with the WIP schedule, is likewise unambiguous evidence that the objectively verified restoration/recalculation work was performed; do not require the adjective policy-corrected in that row. A draft journal tied or referenced to the completed workpaper is sufficient evidence that the updated close support will be retained. A Finance status of Complete or Preparer complete is acceptable when the same row explicitly holds posting for Controller review; Controller approval remains separately pending. The completion-evidence cell describes evidence that will exist after approval; a future posted-journal reference is not a claim that posting already occurred when the action is expressly conditional and the status remains pending. An action phrased 'Post the policy-corrected June WIP once approved' is conditional, not present posting authorization, and satisfies the hold boundary when status is Pending Controller approval."}), 'commercial': ('The Commercial or Project team owns PCO-011 resolution and the support required before recognition', {'owner': 'Commercial / Project Team', 'boundary': 'keep PCO-011 out of contract value and ETC recovery until resolved', 'completion_evidence': 'executed/accepted authorization, an enforceable accepted settlement, or equivalent support for entitlement and recoverability', 'status': 'Open or pending; not resolved or completed', 'equivalence_rule': 'the row need not use the word collectability when enforceable/accepted settlement or comparable recoverability support is clearly required; this owner-action row need not repeat that PCO-011 stays out of contract value or ETC because the separate contract-treatment and posting-boundary criteria grade that accounting conclusion'}), 'controller': ('The Controller owns review of the margin deterioration and disputed-recovery treatment and must document approval or return before posting', {'owner': 'Controller', 'review': 'the adverse margin movement and disputed recovery treatment', 'completion_evidence': 'documented disposition before WIP posting', 'status': 'Pending or open; not approved or completed', 'equivalence_rule': 'a pending action to review/approve the policy-corrected June position, ETC correction, or PCO-011 treatment is sufficient; this action row need not repeat the margin amount or every review trigger because those are graded in the separate Controller-review conclusion', 'evidence_cell_boundary': 'the completion-evidence cell describes what must eventually be recorded; it does not claim that evidence currently exists unless the status or action explicitly says review/approval is completed'})}
-    for index, (key, (description, expected_facts)) in enumerate(action_requirements.items()):
-        row = action_fields[key]
-        gate = bool(row) and all((_usable_docx_value(row.get(role)) for role in ('action', 'evidence', 'status')))
-        submitted_action = {'owner': row.get('owner', ''), 'action': row.get('action', ''), 'required_completion_evidence': row.get('evidence', ''), 'status': row.get('status', '')}
-        if key == 'finance':
-            submitted_action['verified_schedule_context'] = verified_schedule_context
-        add_semantic(f'action__{key}', description, json.dumps(submitted_action, indent=2), expected_facts, hard_gate=gate, hard_gate_evidence='the agent-authored action, completion-evidence, and status cells are completed', category='decision', task_context=task_context)
-    review_ready_gate = document is not None and all(required_tables.values()) and (not placeholders) and _usable_docx_value(recommendation)
-    review_ready_evidence = {'deterministic_structure_preflight': {'required_sections_present': required_tables, 'template_placeholder_count': len(placeholders), 'population_detail_rows_present': len(population_detail_rows), 'population_journal_rows_present': len(population_journal_rows)}, 'metadata': metadata_fields, 'recommendation': recommendation, 'commercial_and_accounting_conclusions': {key: {'conclusion': row.get('conclusion', ''), 'support': row.get('support', '')} for key, row in conclusion_fields.items()}, 'source_authority_status_and_treatment': {key: {'status': row.get('status', ''), 'treatment': row.get('treatment', '')} for key, row in authority_fields.items()}, 'journal_control': {'overall_basis': journal_basis, 'approval_and_posting_status': journal_status}, 'evidence_log_status': {key: {'fact': row.get('fact', ''), 'status': row.get('status', '')} for key, row in evidence_fields.items()}, 'required_actions': {key: {'owner': row.get('owner', ''), 'action': row.get('action', ''), 'status': row.get('status', '')} for key, row in action_fields.items()}, 'full_population_control_conclusion': population_conclusion_fields.get('complete_population', {}).get('assessment', '')}
-    add_semantic('usability__review_ready', 'The completed memo is internally consistent, decision-useful, free of contradictory approval claims or rubric recitation, and ready for a Controller to review', json.dumps(review_ready_evidence, indent=2), {'required_quality': 'coherent finance workpaper whose schedules, conclusions, evidence, and actions agree', 'disallowed_shortcuts': 'keyword stuffing, copied rubric prose, unlabeled facts, or conflicting approval states', 'approval_state': 'pending Controller review; not approved to post', 'deterministic_boundary': 'The structured preflight is authoritative for section and population-row presence. Do not infer missing or truncated schedules from their omission from this compact semantic evidence; objective values, equations, completeness, and table structure are graded separately by deterministic criteria.', 'starter_boilerplate': "the fixed bottom note beginning 'Preparer note: This workpaper records' is part of the supplied template and may remain; do not treat its instruction to complete fields as an agent claim or an incomplete placeholder when the actual fields are complete"}, hard_gate=review_ready_gate, hard_gate_evidence='required sections are present, placeholders are cleared, and a recommendation is supplied', category='controls', weight=5, task_context=task_context, evidence_scope='whole_document_consistency')
-    result = _result(criteria)
-    return _attach_semantic_review(result, task_id='task_001', evidence=_legacy_artifact_evidence(path) if document is not None else '', artifact_type='document', specs=semantic_specs, decision_failure_cap=None, always_judge=True, execution_mode='scoped_per_criterion')
+def _document_has_prohibited_signature(document: Document) -> bool:
+    """Detect an actual signature block without flagging cited signed sources."""
+    paragraphs = list(document.paragraphs)
+    for table in document.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                paragraphs.extend(cell.paragraphs)
+    for paragraph in paragraphs:
+        marker = _normalize(paragraph.text)
+        if re.match('^(?:signed by|signature|electronic signature|digitally signed by)\\b', marker):
+            return True
+        if re.match('^s [a-z][a-z ]{1,80}$', marker):
+            return True
+    for part in document.part.package.parts:
+        part_name = str(part.partname).casefold()
+        content_type = str(part.content_type).casefold()
+        if '_xmlsignatures' in part_name or 'digital-signature' in content_type:
+            return True
+    for element in document.element.body.iter():
+        metadata = ' '.join((str(element.get(key, '')) for key in ('name', 'descr', 'title'))).casefold()
+        if 'signature' in metadata:
+            return True
+    return False
 
 def _display_rounding_tolerance(token: str, *, floor: float) -> float:
     """Accept a number when it rounds to the professional display precision used."""
@@ -2075,17 +1368,297 @@ def _display_rounding_tolerance(token: str, *, floor: float) -> float:
 def _text_contains_number(text: str, target: float, *, abs_tol: float=0.02) -> bool:
     tokens = re.findall('\\(?-?\\$?[0-9][0-9,]*(?:\\.[0-9]+)?(?:[kmb]|x|%)?\\)?', text, flags=re.I)
     return any((_close(token, target, abs_tol=_display_rounding_tolerance(token, floor=abs_tol), rel_tol=2e-06) for token in tokens))
+TASK_001_V24_TABLE_ALIASES: dict[str, dict[str, tuple[str, ...]]] = {'close': {'metric': ('Metric', 'Measure', 'Line item'), 'current': ('Current / submitted', 'Current or submitted', 'Submitted / current', 'Current value', 'Submitted value', 'Current case'), 'recommended': ('Recommended close', 'June close', 'Finance close', 'Adjusted close', 'Policy-corrected close', 'Policy corrected close'), 'change': ('Change / control', 'Change or control', 'Change', 'Variance'), 'source': ('Source or conclusion', 'Source / conclusion', 'Source and conclusion', 'Source / basis', 'Basis / conclusion', 'Source note')}, 'bridge': {'metric': ('Metric', 'Measure', 'Line item'), 'may': ('May final', 'Final May', 'May close', 'Prior close'), 'june': ('June close', 'Recommended close', 'June recommended', 'Current close'), 'change': ('Change', 'June less May', 'Variance', 'Movement'), 'driver': ('Driver', 'Explanation', 'Change driver', 'Comment')}, 'impact': {'metric': ('Metric', 'Measure', 'Line item'), 'submitted': ('Submitted PM case', 'PM case', 'Submitted case', 'Management case'), 'recommended': ('Recommended close', 'Finance close', 'Adjusted close', 'Policy-corrected close', 'Policy corrected close'), 'impact': ('Recommended less submitted', 'Finance less PM', 'Impact', 'Difference', 'Variance')}, 'reconciliation': {'control': ('Control line', 'Control', 'Metric', 'Line item'), 'base': ('May / opening', 'May opening', 'Opening', 'Base', 'May final'), 'activity': ('June activity / approved change', 'June activity', 'Activity / change', 'Current-period activity', 'Approved change'), 'close': ('June close', 'Closing', 'Close', 'Ending balance'), 'variance': ('Variance / status', 'Variance', 'Control status', 'Tie / status')}, 'population': {'source': ('Source / population', 'Source population', 'Source', 'Population'), 'source_count': ('Source records', 'Record count', 'Source count', 'Entries'), 'source_amount': ('Source amount', 'Population amount', 'Source total'), 'journal_count': ('Posted journals', 'Journal count', 'Ledger documents'), 'ledger_amount': ('Ledger amount', 'Posted amount', 'Ledger total'), 'variance': ('Variance', 'Difference', 'Control variance'), 'exceptions': ('Exceptions / resolution', 'Exceptions and resolution', 'Exceptions', 'Resolution / status', 'Control conclusion')}, 'etc': {'component': ('Component', 'ETC component', 'Cost component', 'Line item'), 'pm': ('Submitted PM ETC', 'PM ETC', 'Submitted ETC', 'Management ETC'), 'correction': ('Finance adjustment', 'Finance correction', 'Close adjustment', 'Adjustment'), 'close': ('Recommended close ETC', 'Finance close ETC', 'Adjusted ETC', 'Policy-corrected ETC', 'Policy corrected ETC'), 'source': ('Source / treatment', 'Source and treatment', 'Basis', 'Source / basis')}, 'judgment': {'question': ('Question', 'Issue', 'Decision', 'Assessment'), 'conclusion': ('Conclusion', 'Treatment', 'Decision / conclusion'), 'evidence': ('Controlling evidence / policy', 'Evidence / policy', 'Basis / authority', 'Controlling support', 'Evidence and policy'), 'clearance': ('Clearance or approval needed', 'Clearance / approval', 'Approval needed', 'Required clearance', 'Next gate')}, 'posting': {'stage': ('Stage', 'Posting stage', 'Entry stage'), 'account': ('Account / description', 'Account and description', 'Account', 'GL account'), 'debit': ('Debit', 'Debits'), 'credit': ('Credit', 'Credits'), 'basis': ('Basis / control', 'Basis and control', 'Basis', 'Control / note')}, 'evidence': {'role': ('Source role', 'Control', 'Evidence role', 'Source / control'), 'version': ('Version / cutoff', 'Version and cutoff', 'Version / date', 'Cutoff'), 'authority': ('Authority / status', 'Authority and status', 'Status / authority', 'Authority'), 'fact': ('Fact used and conclusion', 'Fact / conclusion', 'Use / conclusion', 'Fact used')}, 'action': {'owner': ('Owner', 'Responsible', 'Responsible party', 'Function'), 'action': ('Required action', 'Action', 'Next action'), 'evidence': ('Completion evidence', 'Evidence to close', 'Close evidence'), 'due': ('Due', 'Timing', 'Due date'), 'status': ('Status', 'Action status')}, 'disposition': {'reviewer': ('Reviewer', 'Controller / reviewer', 'Approver'), 'disposition': ('Disposition', 'Decision', 'Review status'), 'date': ('Review date', 'Date', 'Disposition date'), 'comments': ('Comments / conditions', 'Comments and conditions', 'Comments', 'Conditions')}}
 
-def _text_contains_date(text: str, iso_date: str) -> bool:
-    year, month, day = (int(part) for part in iso_date.split('-'))
+def _task_001_v24_rows(document: Document | None, table_name: str) -> list[dict[str, str]]:
+    if document is None:
+        return []
+    return _docx_table_rows_by_roles(document, TASK_001_V24_TABLE_ALIASES[table_name], allow_positional_fallback=False)
+
+def _task_001_v24_row(rows: list[dict[str, str]], label_role: str, aliases: tuple[str, ...]) -> dict[str, str]:
+    wanted = {_normalize(alias) for alias in aliases}
+    exact = [row for row in rows if _normalize(row.get(label_role)) in wanted]
+    if len(exact) == 1:
+        return exact[0]
+    fuzzy = []
+    for row in rows:
+        label = _normalize(row.get(label_role))
+        if not label:
+            continue
+        if any((len(alias) >= 4 and alias in label or (len(label) >= 4 and label in alias) for alias in wanted)):
+            fuzzy.append(row)
+    return fuzzy[0] if len(fuzzy) == 1 else {}
+
+def _task_001_v24_row_text(row: dict[str, str]) -> str:
+    return ' | '.join((str(value or '').strip() for value in row.values()))
+
+def _task_001_v24_has_value(row: dict[str, str], *roles: str) -> bool:
+    return any((_usable_docx_value(row.get(role)) for role in roles))
+
+def _task_001_v24_bps_matches(value: Any, target: float) -> bool:
+    text = str(value or '').translate(str.maketrans({'−': '-', '–': '-', '—': '-'}))
+    tokens = re.findall('\\(?-?\\$?[0-9][0-9,]*(?:\\.[0-9]+)?(?:[kmb]|x|%)?\\)?', text, flags=re.I)
     normalized = _normalize(text)
-    month_names = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
-    candidates = {_normalize(iso_date), f'{month} {day}', f'{month:02d} {day:02d}', f'{month} {day} {year}', f'{month:02d} {day:02d} {year}', f'{month} {day} {str(year)[2:]}', f'{month:02d} {day:02d} {str(year)[2:]}', f'{month_names[month - 1]} {day} {year}', f'{month_names[month - 1][:3]} {day} {year}'}
-    return any((candidate in normalized for candidate in candidates))
+    for token in tokens:
+        value_number = _number(token)
+        if value_number is None:
+            continue
+        if '%' in token:
+            candidate = value_number * 10000
+        elif re.search('\\b(?:pp|percentage points?|percent points?)\\b', normalized):
+            candidate = value_number * 100
+        else:
+            candidate = value_number
+        if abs(candidate - target) <= 0.15:
+            return True
+    return False
+
+def _task_001_v24_zero(value: Any, *, allow_blank: bool=False) -> bool:
+    text = str(value or '').strip()
+    if not text:
+        return allow_blank
+    normalized = _normalize(text)
+    if normalized in {'zero', 'nil', 'none', 'n a', 'not applicable', 'tied', 'ties', 'reconciled', 'reconciles', 'balanced', 'no variance', 'zero variance', 'pass', 'passes', 'ok', 'clear', 'no exceptions'}:
+        return True
+    tokens = re.findall('\\(?-?\\$?[0-9][0-9,]*(?:\\.[0-9]+)?%?\\)?', text)
+    return bool(tokens) and all((_close(token, 0.0, abs_tol=0.02, rel_tol=0.0) for token in tokens))
+
+def _task_001_v24_metadata(document: Document | None) -> dict[str, str]:
+    if document is None:
+        return {}
+    result: dict[str, str] = {}
+    for table in document.tables:
+        if not table.rows or len(table.rows[0].cells) < 2:
+            continue
+        headers = [_normalize(cell.text) for cell in table.rows[0].cells]
+        if headers[0] not in {'field', 'label', 'item'}:
+            continue
+        for row in table.rows[1:]:
+            cells = [cell.text.strip() for cell in row.cells]
+            for index in range(0, len(cells) - 1, 2):
+                label = _normalize(cells[index])
+                if label:
+                    result[label] = cells[index + 1]
+        if result:
+            return result
+    return result
+
+def _task_001_v24_box(document: Document | None, *labels: str) -> str:
+    if document is None:
+        return ''
+    wanted = {_normalize(label) for label in labels}
+    for table in document.tables:
+        if len(table.rows) < 2 or len(table.rows[0].cells) != 1:
+            continue
+        heading = _normalize(table.rows[0].cells[0].text)
+        if any((label in heading or heading in label for label in wanted if label and heading)):
+            return '\n'.join((row.cells[0].text.strip() for row in table.rows[1:])).strip()
+    return ''
+
+def _task_001_v24_artifact_review(document: Document | None, path: Path, parse_error: str) -> dict[str, Any]:
+    tables: list[dict[str, Any]] = []
+    paragraphs: list[str] = []
+    if document is not None:
+        paragraphs = [paragraph.text.strip() for paragraph in document.paragraphs if paragraph.text.strip()][:80]
+        for (index, table) in enumerate(document.tables[:30], start=1):
+            rows = [[cell.text.strip()[:500] for cell in row.cells] for row in table.rows[:80]]
+            tables.append({'table': index, 'rows': rows})
+    return {'version': 1, 'artifact': str(TASK_001_ARTIFACT), 'exists': path.is_file(), 'parse_error': parse_error, 'paragraphs': paragraphs, 'tables': tables}
+
+def _grade_task_001_v24(workspace_root: Path, answer: Any) -> dict[str, Any]:
+    """Grade the ARM-2409 memo without prescribing wording or hidden detail registers."""
+    del answer
+    path = workspace_root / TASK_001_ARTIFACT
+    document: Document | None = None
+    parse_error = ''
+    if path.is_file():
+        try:
+            document = Document(path)
+        except Exception as exc:
+            parse_error = f'{type(exc).__name__}: {exc}'
+    else:
+        parse_error = 'artifact missing'
+    gold = load_apex_gold('task_001')
+    project = gold['project']
+    prior = gold['prior_month']
+    bridge_gold = gold['bridge']
+    text = _document_text(document) if document is not None else ''
+    normalized = _normalize(text)
+    metadata = _task_001_v24_metadata(document)
+    tables = {name: _task_001_v24_rows(document, name) for name in TASK_001_V24_TABLE_ALIASES}
+    criteria: list[Criterion] = []
+    semantic_specs: list[dict[str, Any]] = []
+
+    def add(criterion_id: str, description: str, met: bool, evidence: str, *, category: str='core_finance', weight: int=10) -> None:
+        criteria.append(Criterion(criterion_id, description, bool(met), evidence[:2000], category=category, weight=weight, semantic=False))
+
+    def add_semantic(criterion_id: str, description: str, submitted_evidence: str, reference_context: Any, *, category: str='decision', weight: int=10, hard_gate: bool | None=None, evidence_scope: str='criterion_field') -> None:
+        submitted = str(submitted_evidence or '').strip()
+        gate = bool(submitted) if hard_gate is None else bool(hard_gate)
+        criteria.append(Criterion(criterion_id, description, False, 'submitted field is non-empty' if gate else 'submitted field is empty', category=category, weight=weight, semantic=True))
+        semantic_specs.append({'criterion_id': criterion_id, 'expected_facts': reference_context, 'reference_context': reference_context, 'task_context': {'project': 'ARM-2409 Northline Cold Storage Expansion', 'cutoff': '2026-06-30', 'work_product': 'preparer controller-sign-off memorandum'}, 'submitted_evidence': submitted[:12000], 'evidence_scope': evidence_scope, 'hard_gate_met': gate, 'hard_gate_evidence': 'the exact submitted field or row is present and non-empty' if gate else 'the required submitted field or row is blank or absent', 'always_judge': True})
+
+    def row_for(table_name: str, label_role: str, aliases: tuple[str, ...]) -> dict[str, str]:
+        return _task_001_v24_row(tables[table_name], label_role, aliases)
+
+    def add_number(criterion_id: str, description: str, row: dict[str, str], roles: tuple[str, ...], expected: float, *, abs_tol: float=0.02) -> None:
+        submitted = ' | '.join((str(row.get(role) or '') for role in roles))
+        met = bool(row) and _text_contains_number(submitted, expected, abs_tol=abs_tol)
+        add(criterion_id, description, met, f'submitted={submitted!r}; expected={expected}')
+
+    def add_bps(criterion_id: str, description: str, row: dict[str, str], role: str, expected: float) -> None:
+        submitted = str(row.get(role) or '')
+        add(criterion_id, description, bool(row) and _task_001_v24_bps_matches(submitted, expected), f'submitted={submitted!r}; expected={expected} basis points')
+
+    def add_zero(criterion_id: str, description: str, row: dict[str, str], role: str) -> None:
+        submitted = str(row.get(role) or '')
+        add(criterion_id, description, bool(row) and _task_001_v24_zero(submitted), f'submitted={submitted!r}; expected zero or an equivalent tied status', category='auditability', weight=5)
+    add('artifact__working_document_present', 'The required editable working memorandum exists', path.is_file(), f'path={path}', category='structure', weight=1)
+    add('artifact__document_parses', 'The working memorandum is a readable Word document', document is not None, parse_error or 'document parsed', category='structure', weight=1)
+    add('artifact__project_id', 'The memorandum identifies ARM-2409', 'arm 2409' in normalized, 'project id present' if 'arm 2409' in normalized else 'project id absent', category='structure', weight=1)
+    add('artifact__project_name', 'The memorandum identifies the Northline Cold Storage Expansion', 'northline cold storage expansion' in normalized, 'project name present' if 'northline cold storage expansion' in normalized else 'project name absent', category='structure', weight=1)
+    add('artifact__june_30_cutoff', 'The memorandum identifies the June 30, 2026 close cutoff', _task_001_has_cutoff_date(text), 'cutoff found' if _task_001_has_cutoff_date(text) else 'cutoff not found', category='structure', weight=1)
+    prepared_by = _task_001_metadata_value(metadata, 'Prepared by', 'Preparer', 'Prepared for')
+    prepared_date = _task_001_metadata_value(metadata, 'Prepared date', 'Date prepared', 'Preparation date')
+    review_status = _task_001_metadata_value(metadata, 'Review status', 'Status', 'Approval status')
+    add('artifact__preparer', 'A preparer is identified', bool(prepared_by), f'prepared_by={prepared_by!r}', category='structure', weight=1)
+    add('artifact__prepared_date', 'A preparation date is recorded', bool(prepared_date), f'prepared_date={prepared_date!r}', category='structure', weight=1)
+    add_semantic('artifact__review_status', 'The review status makes clear that Controller review or approval is still pending', review_status, {'acceptable_meaning': 'pending Controller review, preparer draft, not approved, returned for review, or another unambiguous not-yet-approved status', 'unacceptable_meaning': 'Controller-approved or authorized-to-post status'}, category='structure', weight=1)
+    placeholder_hits = re.findall('\\[(?:enter|select|complete|cite|record|explain|state|list)\\b', text, flags=re.I)
+    add('artifact__no_instruction_placeholders', 'The completed memorandum contains no unresolved bracketed instruction prompts', document is not None and (not placeholder_hits), f'unresolved_instruction_prompts={len(placeholder_hits)}', category='structure', weight=1)
+    prohibited_signature = bool(document and _document_has_prohibited_signature(document))
+    add('artifact__no_simulated_controller_signature', 'The preparer did not simulate a Controller signature or approval', document is not None and (not prohibited_signature), f'prohibited_signature={prohibited_signature}', category='integrity', weight=10)
+    close_specs = (('current_contract', ('Current contract', 'Executed contract', 'Contract value'), project['current_contract'], ('current', 'recommended')), ('posted_cost', ('Posted cost to date', 'Posted cost', 'Cost to date'), project['cost_to_date'], ('current', 'recommended')), ('billings', ('Billings to date', 'Billings', 'Cumulative billings'), project['billings'], ('current', 'recommended')), ('pm_etc', ('Submitted PM ETC', 'PM ETC', 'Submitted ETC'), gold['pm_etc'], ('current',)), ('finance_adjustment', ('Finance ETC adjustment', 'Finance adjustment', 'ETC correction'), gold['required_etc_adjustment'], ('change', 'recommended')), ('close_etc', ('Recommended close ETC', 'Close ETC', 'Adjusted ETC'), project['estimated_cost_to_complete'], ('recommended',)), ('eac', ('Estimated cost at completion', 'EAC', 'Total estimated cost'), project['estimated_cost_at_completion'], ('recommended',)), ('percent_complete', ('Percent complete', '% complete', 'POC'), project['percent_complete'], ('recommended',)), ('earned_revenue', ('Earned revenue', 'Revenue earned', 'Recognized revenue'), project['earned_revenue'], ('recommended',)), ('contract_asset', ('Contract asset', 'Underbilling', 'Costs in excess'), project['underbilling'], ('recommended',)), ('contract_liability', ('Contract liability', 'Overbilling', 'Billings in excess'), project['overbilling'], ('recommended',)), ('estimated_margin', ('Estimated margin at completion', 'Estimated margin', 'Total margin'), project['estimated_total_margin'], ('recommended',)), ('margin_rate', ('Margin rate', 'Margin percent', 'Gross margin rate'), project['estimated_margin_percent'], ('recommended',)))
+    for (key, aliases, expected, roles) in close_specs:
+        row = row_for('close', 'metric', aliases)
+        add_number(f'close__{key}', f'The June close position reports the correct {aliases[0].lower()}', row, roles, float(expected))
+    recommendation = _task_001_v24_box(document, 'Close recommendation and posting boundary', 'Recommendation and posting boundary', 'Close recommendation')
+    add_semantic('close__recommendation', 'The recommendation restores the unsupported recovery to ETC, uses the recalculated June WIP, and holds posting for Controller disposition', recommendation, {'expected_recommendation': gold['signoff']['recommendation']})
+    bridge_rows = {'current_contract': row_for('bridge', 'metric', ('Current contract', 'Executed contract', 'Contract value')), 'posted_cost': row_for('bridge', 'metric', ('Posted cost', 'Cost to date', 'Posted cost to date')), 'close_etc': row_for('bridge', 'metric', ('Remaining cost / ETC', 'Remaining cost', 'Close ETC', 'ETC')), 'eac': row_for('bridge', 'metric', ('Estimated cost at completion', 'EAC', 'Total estimated cost')), 'percent_complete': row_for('bridge', 'metric', ('Percent complete', '% complete', 'POC')), 'earned_revenue': row_for('bridge', 'metric', ('Earned revenue', 'Revenue earned', 'Recognized revenue')), 'billings': row_for('bridge', 'metric', ('Billings', 'Cumulative billings')), 'contract_asset': row_for('bridge', 'metric', ('Contract asset', 'Underbilling', 'Costs in excess')), 'contract_liability': row_for('bridge', 'metric', ('Contract liability', 'Overbilling', 'Billings in excess')), 'estimated_margin': row_for('bridge', 'metric', ('Estimated margin at completion', 'Estimated margin', 'Total margin')), 'margin_rate': row_for('bridge', 'metric', ('Margin rate', 'Margin percent', 'Gross margin rate'))}
+    bridge_values = {'current_contract': (prior['current_contract'], project['current_contract'], bridge_gold['current_contract_change']), 'posted_cost': (prior['posted_cost'], project['cost_to_date'], bridge_gold['posted_cost_change']), 'close_etc': (prior['close_etc'], project['estimated_cost_to_complete'], bridge_gold['close_etc_change']), 'eac': (prior['eac'], project['estimated_cost_at_completion'], bridge_gold['eac_change']), 'percent_complete': (prior['percent_complete'], project['percent_complete'], bridge_gold['percent_complete_change_bps']), 'earned_revenue': (prior['earned_revenue'], project['earned_revenue'], bridge_gold['earned_revenue_change']), 'billings': (prior['billings'], project['billings'], bridge_gold['billings_change']), 'contract_asset': (prior['contract_asset'], project['underbilling'], bridge_gold['contract_asset_change']), 'contract_liability': (prior['contract_liability'], project['overbilling'], bridge_gold['contract_liability_change']), 'estimated_margin': (prior['estimated_margin'], project['estimated_total_margin'], bridge_gold['estimated_margin_change']), 'margin_rate': (prior['margin_percent'], project['estimated_margin_percent'], bridge_gold['margin_rate_change_bps'])}
+    for (key, (may_value, june_value, change_value)) in bridge_values.items():
+        row = bridge_rows[key]
+        add_number(f'bridge__{key}__may', f"The bridge reports the correct May {key.replace('_', ' ')}", row, ('may',), float(may_value))
+        add_number(f'bridge__{key}__june', f"The bridge reports the correct June {key.replace('_', ' ')}", row, ('june',), float(june_value))
+        if key in {'percent_complete', 'margin_rate'}:
+            add_bps(f'bridge__{key}__change', f"The bridge reports the correct basis-point change in {key.replace('_', ' ')}", row, 'change', float(change_value))
+        else:
+            add_number(f'bridge__{key}__change', f"The bridge reports the correct change in {key.replace('_', ' ')}", row, ('change',), float(change_value))
+    driver_keys = ('posted_cost', 'close_etc', 'contract_asset', 'estimated_margin')
+    driver_labels = {'posted_cost': 'Posted cost', 'close_etc': 'Remaining cost / ETC', 'contract_asset': 'Contract asset', 'estimated_margin': 'Estimated margin at completion'}
+    for key in driver_keys:
+        row = bridge_rows[key]
+        submitted = str(row.get('driver') or '')
+        add_semantic(f'bridge__{key}__driver', f'The bridge gives a substantively correct driver for {driver_labels[key]}', submitted, {'expected_driver': gold['signoff']['bridge_driver_explanations'][driver_labels[key]], 'metric': driver_labels[key]})
+    for impact_row in gold['close_impact_bridge']['rows']:
+        metric = str(impact_row['metric'])
+        key = _normalize(metric).replace(' ', '_')
+        aliases = {'ETC': ('ETC', 'Remaining cost', 'Close ETC'), 'EAC': ('EAC', 'Estimated cost at completion', 'Total estimated cost'), 'Percent complete': ('Percent complete', '% complete', 'POC'), 'Earned revenue': ('Earned revenue', 'Revenue earned', 'Recognized revenue'), 'Contract asset': ('Contract asset', 'Underbilling', 'Costs in excess'), 'Estimated margin': ('Estimated margin', 'Total margin', 'Estimated margin at completion'), 'Margin rate': ('Margin rate', 'Margin percent', 'Gross margin rate')}[metric]
+        row = row_for('impact', 'metric', aliases)
+        add_number(f'bridge__impact__{key}__submitted', f'The impact bridge reports the correct submitted-PM {metric.lower()}', row, ('submitted',), float(impact_row['pm_case']))
+        add_number(f'bridge__impact__{key}__recommended', f'The impact bridge reports the correct recommended-close {metric.lower()}', row, ('recommended',), float(impact_row['policy_corrected']))
+        if impact_row['unit'] == 'basis_points':
+            add_bps(f'bridge__impact__{key}__difference', f'The impact bridge reports the correct basis-point effect on {metric.lower()}', row, 'impact', float(impact_row['impact']))
+        else:
+            add_number(f'bridge__impact__{key}__difference', f'The impact bridge reports the correct recommended-less-submitted effect on {metric.lower()}', row, ('impact',), float(impact_row['impact']))
+    bridge_basis = _task_001_v24_box(document, 'Basis and authority of each case', 'Case basis and authority', 'Scenario basis')
+    add_semantic('bridge__case_basis', 'The case basis distinguishes the submitted PM estimate from the policy-corrected preparer close and does not imply either is Controller-approved', bridge_basis, {'submitted_case_status': gold['close_impact_bridge']['pm_case_status'], 'recommended_case_status': gold['close_impact_bridge']['policy_corrected_status']})
+    for source_row in gold['source_reconciliation']['rows']:
+        key = str(source_row['key'])
+        aliases = {'labor': ('Labor job cost', 'Labor cost', 'Labor'), 'material': ('Material job cost', 'Material cost', 'Materials'), 'subcontract': ('Subcontract job cost', 'Subcontract cost', 'Subcontract'), 'other': ('Other job cost', 'Other cost', 'Other'), 'total_job_cost': ('Total job cost', 'Job cost total', 'Total cost'), 'billings': ('Billings', 'Cumulative billings'), 'current_contract': ('Current contract', 'Executed contract', 'Contract value')}[key]
+        row = row_for('reconciliation', 'control', aliases)
+        for role in ('base', 'activity', 'close'):
+            add_number(f'accounting__{key}__{role}', f"The accounting reconciliation reports the correct {role} value for {source_row['label']}", row, (role,), float(source_row[role]))
+        add_zero(f'accounting__{key}__variance', f"The accounting reconciliation shows a zero variance or equivalent tied status for {source_row['label']}", row, 'variance')
+    population_expectations = {'ap': {'aliases': ('AP', 'Accounts payable', 'Vendor invoices', 'AP job cost'), 'source_count': 8.0, 'source_amount': 107393.79, 'journal_count': 8.0, 'ledger_amount': 107393.79}, 'payroll': {'aliases': ('PAY', 'Payroll', 'Payroll job cost', 'Labor payroll'), 'source_count': 15.0, 'source_amount': 54498.34, 'journal_count': 5.0, 'ledger_amount': 54498.34}, 'billing': {'aliases': ('Billing', 'Billings', 'June billing', 'AR billing', 'Invoice'), 'source_count': 1.0, 'source_amount': 79513.55, 'journal_count': 1.0, 'ledger_amount': 79513.55}, 'job_cost_total': {'aliases': ('Total / control', 'Total control', 'Job cost total', 'Total job cost'), 'source_count': 23.0, 'source_amount': 161892.13, 'journal_count': 13.0, 'ledger_amount': 161892.13}}
+    population_rows: dict[str, dict[str, str]] = {}
+    for (key, expectation) in population_expectations.items():
+        row = row_for('population', 'source', expectation['aliases'])
+        population_rows[key] = row
+        for role in ('source_count', 'source_amount', 'journal_count', 'ledger_amount'):
+            add_number(f'population__{key}__{role}', f"The {key.replace('_', ' ')} population reports the correct {role.replace('_', ' ')}", row, (role,), float(expectation[role]))
+        add_zero(f'population__{key}__variance', f"The {key.replace('_', ' ')} population ties to the ledger with zero variance", row, 'variance')
+    population_conclusion = _task_001_v24_box(document, 'Population control conclusion', 'Posting completeness conclusion', 'Population conclusion')
+    job_cost_evidence = '\n'.join([population_conclusion, _task_001_v24_row_text(population_rows['ap']), _task_001_v24_row_text(population_rows['payroll']), _task_001_v24_row_text(population_rows['job_cost_total'])]).strip()
+    billing_evidence = '\n'.join([population_conclusion, _task_001_v24_row_text(population_rows['billing'])]).strip()
+    add_semantic('population__job_cost_conclusion', 'The job-cost conclusion confirms a complete posted AP and payroll population tied to 23 entries, 13 journals, and $161,892.13, or clearly identifies any exception', job_cost_evidence, {'expected_control': '8 AP entries totaling $107,393.79 and 15 payroll entries totaling $54,498.34 reconcile to 13 posted journals and $161,892.13 with no exceptions'}, hard_gate=bool(population_conclusion) or _task_001_v24_has_value(population_rows['job_cost_total'], 'exceptions'))
+    add_semantic('population__billing_conclusion', 'The billing conclusion confirms the complete non-voided June billing ties to the posted ledger and treats payment status as a collection matter, or clearly identifies an exception', billing_evidence, {'expected_control': 'one June invoice totaling $79,513.55 ties to the posted billing journal; partial payment does not reduce recognized non-voided billing activity'}, hard_gate=bool(population_conclusion) or _task_001_v24_has_value(population_rows['billing'], 'exceptions'))
+    etc_component_specs = (('remaining_field_labor', ('Remaining field labor', 'Field labor', 'Labor'), 210240.0), ('material_equipment', ('Material / equipment', 'Material and equipment', 'Materials / equipment'), 181040.0), ('subcontract', ('Subcontract', 'Subcontracts'), 105120.0), ('commissioning_closeout', ('Commissioning / close-out', 'Commissioning and close-out', 'Close-out'), 52560.0), ('contingency', ('Contingency', 'Remaining contingency'), 35040.0))
+    for (key, aliases, expected) in etc_component_specs:
+        row = row_for('etc', 'component', aliases)
+        add_number(f'commercial__etc__{key}__submitted', f'The ETC schedule reports the submitted-PM {aliases[0].lower()} component', row, ('pm',), expected)
+    recovery_row = row_for('etc', 'component', ('Commercial recovery / cost offset', 'Commercial recovery', 'Recovery / cost offset', 'PCO-011 recovery', 'Disputed recovery'))
+    add_number('commercial__etc__recovery_adjustment', 'The ETC schedule restores the supported $185,000 commercial recovery or cost offset', recovery_row, ('correction',), 185000.0)
+    total_etc_row = row_for('etc', 'component', ('Total / control', 'Total control', 'Total ETC', 'ETC total'))
+    for (role, expected) in (('pm', 584000.0), ('correction', 185000.0), ('close', 769000.0)):
+        add_number(f'commercial__etc__total__{role}', f"The ETC schedule reports the correct total {role.replace('_', ' ')}", total_etc_row, (role,), expected)
+    add_semantic('commercial__etc__recovery_treatment', 'The ETC schedule explains that the disputed recovery is restored to remaining cost and is not treated as authorized recovery revenue or a contract-value increase', _task_001_v24_row_text(recovery_row), {'expected_treatment': gold['etc_composition_schedule']['basis']}, hard_gate=_task_001_v24_has_value(recovery_row, 'source'))
+    judgment_specs = (('authorization', ('Authorization at cutoff', 'PCO-011 authorization', 'Commercial authorization'), 'PCO-011 authorization at cutoff'), ('contract_treatment', ('Contract value treatment', 'Contract treatment', 'Revenue treatment'), 'Contract value treatment'), ('etc_treatment', ('ETC treatment', 'PM ETC treatment', 'Cost treatment'), 'PM ETC treatment'), ('controller_review', ('Controller review trigger', 'Controller review', 'Review trigger'), 'Controller review'), ('posting_status', ('Close and posting status', 'Close / posting status', 'Posting status'), 'Close and posting status'))
+    conclusions = gold['signoff']['conclusions']
+    for (key, aliases, gold_key) in judgment_specs:
+        row = row_for('judgment', 'question', aliases)
+        submitted = _task_001_v24_row_text(row)
+        add_semantic(f'commercial__judgment__{key}', f'The memorandum reaches the correct, supported conclusion for {aliases[0].lower()}', submitted, {'expected_conclusion': conclusions[gold_key], 'expected_support': conclusions[f'{gold_key} - support']}, hard_gate=_task_001_v24_has_value(row, 'conclusion', 'evidence', 'clearance'))
+    posting_rows: list[dict[str, str]] = []
+    carried_stage = ''
+    for raw_row in tables['posting']:
+        row = dict(raw_row)
+        if _usable_docx_value(row.get('stage')):
+            carried_stage = str(row['stage'])
+        row['effective_stage'] = carried_stage
+        posting_rows.append(row)
+    stage_aliases = {'may_reversal': ('Reverse May close', 'Reverse prior close', 'May reversal', 'Prior-close reversal'), 'june_establishment': ('Establish June close', 'Record June close', 'June establishment', 'Establish recommended close'), 'net_june': ('Net June posting', 'Net June entry', 'June net posting', 'Net change')}
+    account_aliases = {'account_1200': ('1200', 'Costs and earnings in excess', 'Contract asset'), 'account_2100': ('2100', 'Billings in excess', 'Contract liability'), 'account_4300': ('4300', 'WIP revenue adjustment', 'Revenue adjustment')}
+
+    def posting_row(stage_key: str, account_key: str) -> dict[str, str]:
+        wanted_stages = {_normalize(value) for value in stage_aliases[stage_key]}
+        wanted_accounts = {_normalize(value) for value in account_aliases[account_key]}
+        matches = []
+        for row in posting_rows:
+            stage_text = _normalize(row.get('effective_stage'))
+            account_text = _normalize(row.get('account'))
+            stage_met = stage_text in wanted_stages or any((value in stage_text for value in wanted_stages if len(value) >= 4))
+            account_met = any((value in account_text for value in wanted_accounts))
+            if stage_met and account_met:
+                matches.append(row)
+        return matches[0] if len(matches) == 1 else {}
+    for stage in gold['proposed_journal_bridge']['stages']:
+        stage_key = str(stage['stage_key'])
+        stage_basis_parts = []
+        for journal_row in stage['rows']:
+            account_key = str(journal_row['account_key'])
+            row = posting_row(stage_key, account_key)
+            debit = str(row.get('debit') or '')
+            credit = str(row.get('credit') or '')
+            expected_debit = float(journal_row['debit'])
+            expected_credit = float(journal_row['credit'])
+            debit_met = _task_001_v24_zero(debit, allow_blank=True) if expected_debit == 0 else _text_contains_number(debit, expected_debit)
+            credit_met = _task_001_v24_zero(credit, allow_blank=True) if expected_credit == 0 else _text_contains_number(credit, expected_credit)
+            add(f'journal__{stage_key}__{account_key}', f"The {stage['stage']} row for {journal_row['account']} has the correct debit and credit", bool(row) and debit_met and credit_met, f"account={row.get('account')!r}; debit={debit!r}; credit={credit!r}; expected_debit={expected_debit}; expected_credit={expected_credit}")
+            if row.get('basis'):
+                stage_basis_parts.append(str(row['basis']))
+        add_semantic(f'journal__{stage_key}__basis', f"The {stage['stage']} basis identifies the correct close balance or net-period relationship", '\n'.join(stage_basis_parts), {'expected_stage_basis': stage['basis']}, hard_gate=bool(stage_basis_parts))
+    posting_status = _task_001_v24_box(document, 'Posting status, approval boundary, and tie to the May-to-June change', 'Posting status and approval boundary', 'Posting boundary')
+    add_semantic('journal__posting_status', 'The posting bridge is clearly proposed and unposted, pending documented Controller approval, and tied to the May-to-June contract-asset change', posting_status, {'expected_status': gold['proposed_journal_bridge']['status'], 'expected_net_effect': 'credit account 1200 and debit account 4300 for $68,625.38, equal to the May-to-June contract-asset decrease; account 2100 remains nil'})
+    source_specs = (('accounting', ('Current accounting records', 'Accounting records', 'Current accounting balances'), 0), ('may_close', ('Final May close', 'Prior close', 'May close'), 1), ('pm_forecast', ('Current PM forecast', 'PM forecast', 'PM ETC forecast'), 2), ('commercial', ('Commercial log / support', 'Commercial log and support', 'Commercial evidence', 'PCO support'), 3), ('policy', ('Signed accounting policy', 'WIP policy', 'Revenue recognition policy'), 4))
+    evidence_log = gold['signoff']['evidence_log']
+    for (key, aliases, gold_index) in source_specs:
+        row = row_for('evidence', 'role', aliases)
+        add_semantic(f'source__{key}', f'The evidence log identifies the controlling {aliases[0].lower()} and accurately states the fact or conclusion used', _task_001_v24_row_text(row), {'expected_source_control': evidence_log[gold_index]}, category='provenance', weight=3, hard_gate=_task_001_v24_has_value(row, 'version', 'authority', 'fact'))
+    action_specs = (('finance', ('Finance / Project Accounting', 'Finance', 'Project Accounting'), 0), ('commercial', ('Commercial / Project Team', 'Commercial', 'Project Team'), 1), ('controller', ('Controller', 'Corporate Controller'), 2))
+    expected_actions = gold['signoff']['actions']
+    for (key, aliases, gold_index) in action_specs:
+        row = row_for('action', 'owner', aliases)
+        add_semantic(f'action__{key}', f'The {aliases[0]} action is specific, assigned, supported by completion evidence, and has an open or pending status consistent with the workpaper boundary', _task_001_v24_row_text(row), {'expected_action': expected_actions[gold_index]}, hard_gate=_task_001_v24_has_value(row, 'action', 'evidence', 'status'))
+    result = _result(criteria)
+    result['artifact_review'] = _task_001_v24_artifact_review(document, path, parse_error)
+    result = _attach_semantic_review(result, task_id='task_001', evidence=_legacy_artifact_evidence(path) if document is not None else '', artifact_type='controller sign-off memorandum', specs=semantic_specs, decision_failure_cap=None, always_judge=True, execution_mode='scoped_per_criterion')
+    result['task_grading_revision'] = dict(TASK_GRADING_REVISIONS['task_001'])
+    return result
 
 def grade_apex_task(task_id: str, answer: Any, workspace_root: str | Path) -> dict[str, Any]:
     if task_id == 'task_001':
-        result = _grade_task_001(Path(workspace_root), answer)
+        result = _grade_task_001_v24(Path(workspace_root), answer)
     elif task_id == 'task_004':
         result = _canonicalize_legacy_file_policy(task_id, _grade_task_004(Path(workspace_root)))
     elif task_id == 'task_015':

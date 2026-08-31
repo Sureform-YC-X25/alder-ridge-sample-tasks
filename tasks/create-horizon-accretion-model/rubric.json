@@ -884,7 +884,7 @@
       "id": "headline_values__purchase_enterprise_value",
       "kind": "xlsx_label_values",
       "label_values": {
-        "purchase_enterprise_value": 54000000.0
+        "purchase_enterprise_value": 54000000
       },
       "semantic": false,
       "weight": 10
@@ -895,7 +895,7 @@
       "id": "headline_values__target_net_debt_assumed",
       "kind": "xlsx_label_values",
       "label_values": {
-        "target_net_debt_assumed": 6500000.0
+        "target_net_debt_assumed": 6500000
       },
       "semantic": false,
       "weight": 10
@@ -906,7 +906,7 @@
       "id": "headline_values__total_transaction_uses",
       "kind": "xlsx_label_values",
       "label_values": {
-        "total_transaction_uses": 60500000.0
+        "total_transaction_uses": 60500000
       },
       "semantic": false,
       "weight": 10
@@ -917,7 +917,7 @@
       "id": "headline_values__cash_consideration",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_consideration": 12000000.0
+        "cash_consideration": 12000000
       },
       "semantic": false,
       "weight": 10
@@ -928,7 +928,7 @@
       "id": "headline_values__new_debt_source",
       "kind": "xlsx_label_values",
       "label_values": {
-        "new_debt_source": 38000000.0
+        "new_debt_source": 38000000
       },
       "semantic": false,
       "weight": 10
@@ -939,7 +939,7 @@
       "id": "headline_values__seller_equity_source",
       "kind": "xlsx_label_values",
       "label_values": {
-        "seller_equity_source": 10500000.0
+        "seller_equity_source": 10500000
       },
       "semantic": false,
       "weight": 10
@@ -950,7 +950,7 @@
       "id": "headline_values__total_transaction_sources",
       "kind": "xlsx_label_values",
       "label_values": {
-        "total_transaction_sources": 60500000.0
+        "total_transaction_sources": 60500000
       },
       "semantic": false,
       "weight": 10
@@ -961,7 +961,7 @@
       "id": "headline_values__sources_and_uses_check",
       "kind": "xlsx_label_values",
       "label_values": {
-        "sources_and_uses_check": 0.0
+        "sources_and_uses_check": 0
       },
       "semantic": false,
       "weight": 10
@@ -983,7 +983,7 @@
       "id": "headline_values__seller_shares_issued",
       "kind": "xlsx_label_values",
       "label_values": {
-        "seller_shares_issued": 600000.0
+        "seller_shares_issued": 600000
       },
       "semantic": false,
       "weight": 10
@@ -994,7 +994,7 @@
       "id": "headline_values__pro_forma_diluted_shares",
       "kind": "xlsx_label_values",
       "label_values": {
-        "pro_forma_diluted_shares": 13100000.0
+        "pro_forma_diluted_shares": 13100000
       },
       "semantic": false,
       "weight": 10
@@ -1005,7 +1005,7 @@
       "id": "headline_values__target_ebit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "target_ebit": 3880000.0
+        "target_ebit": 3880000
       },
       "semantic": false,
       "weight": 10
@@ -1016,7 +1016,7 @@
       "id": "headline_values__incremental_debt_interest",
       "kind": "xlsx_label_values",
       "label_values": {
-        "incremental_debt_interest": 2698000.0
+        "incremental_debt_interest": 2698000
       },
       "semantic": false,
       "weight": 10
@@ -1027,7 +1027,7 @@
       "id": "headline_values__foregone_cash_yield",
       "kind": "xlsx_label_values",
       "label_values": {
-        "foregone_cash_yield": 504000.0
+        "foregone_cash_yield": 504000
       },
       "semantic": false,
       "weight": 10
@@ -1038,7 +1038,7 @@
       "id": "headline_values__total_incremental_financing_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "total_incremental_financing_cost": 3202000.0
+        "total_incremental_financing_cost": 3202000
       },
       "semantic": false,
       "weight": 10
@@ -1049,7 +1049,7 @@
       "id": "headline_values__year_one_run_rate_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_run_rate_synergy": 1400000.0
+        "year_one_run_rate_synergy": 1400000
       },
       "semantic": false,
       "weight": 10
@@ -1060,7 +1060,7 @@
       "id": "headline_values__year_one_integration_expense",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_integration_expense": 1800000.0
+        "year_one_integration_expense": 1800000
       },
       "semantic": false,
       "weight": 10
@@ -1071,7 +1071,7 @@
       "id": "headline_values__year_one_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_gaap_incremental_pre_tax_income": -772000.0
+        "year_one_gaap_incremental_pre_tax_income": -772000
       },
       "semantic": false,
       "weight": 10
@@ -1082,7 +1082,7 @@
       "id": "headline_values__year_one_gaap_incremental_after_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_gaap_incremental_after_tax_income": -579000.0
+        "year_one_gaap_incremental_after_tax_income": -579000
       },
       "semantic": false,
       "weight": 10
@@ -1093,7 +1093,7 @@
       "id": "headline_values__year_one_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_adjusted_incremental_pre_tax_income": 2078000.0
+        "year_one_adjusted_incremental_pre_tax_income": 2078000
       },
       "semantic": false,
       "weight": 10
@@ -1104,7 +1104,7 @@
       "id": "headline_values__year_one_adjusted_incremental_after_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_adjusted_incremental_after_tax_income": 1558500.0
+        "year_one_adjusted_incremental_after_tax_income": 1558500
       },
       "semantic": false,
       "weight": 10
@@ -1115,7 +1115,7 @@
       "id": "headline_values__year_one_gaap_pro_forma_net_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_gaap_pro_forma_net_income": 8321000.0
+        "year_one_gaap_pro_forma_net_income": 8321000
       },
       "semantic": false,
       "weight": 10
@@ -1126,7 +1126,7 @@
       "id": "headline_values__year_one_adjusted_pro_forma_net_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_one_adjusted_pro_forma_net_income": 10458500.0
+        "year_one_adjusted_pro_forma_net_income": 10458500
       },
       "semantic": false,
       "weight": 10
@@ -1181,7 +1181,7 @@
       "id": "headline_values__year_two_run_rate_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_run_rate_synergy": 2500000.0
+        "year_two_run_rate_synergy": 2500000
       },
       "semantic": false,
       "weight": 10
@@ -1192,7 +1192,7 @@
       "id": "headline_values__year_two_integration_expense",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_integration_expense": 350000.0
+        "year_two_integration_expense": 350000
       },
       "semantic": false,
       "weight": 10
@@ -1203,7 +1203,7 @@
       "id": "headline_values__year_two_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_gaap_incremental_pre_tax_income": 1778000.0
+        "year_two_gaap_incremental_pre_tax_income": 1778000
       },
       "semantic": false,
       "weight": 10
@@ -1214,7 +1214,7 @@
       "id": "headline_values__year_two_gaap_incremental_after_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_gaap_incremental_after_tax_income": 1333500.0
+        "year_two_gaap_incremental_after_tax_income": 1333500
       },
       "semantic": false,
       "weight": 10
@@ -1225,7 +1225,7 @@
       "id": "headline_values__year_two_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_adjusted_incremental_pre_tax_income": 3178000.0
+        "year_two_adjusted_incremental_pre_tax_income": 3178000
       },
       "semantic": false,
       "weight": 10
@@ -1236,7 +1236,7 @@
       "id": "headline_values__year_two_adjusted_incremental_after_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_adjusted_incremental_after_tax_income": 2383500.0
+        "year_two_adjusted_incremental_after_tax_income": 2383500
       },
       "semantic": false,
       "weight": 10
@@ -1247,7 +1247,7 @@
       "id": "headline_values__year_two_gaap_pro_forma_net_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_gaap_pro_forma_net_income": 10233500.0
+        "year_two_gaap_pro_forma_net_income": 10233500
       },
       "semantic": false,
       "weight": 10
@@ -1258,7 +1258,7 @@
       "id": "headline_values__year_two_adjusted_pro_forma_net_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "year_two_adjusted_pro_forma_net_income": 11283500.0
+        "year_two_adjusted_pro_forma_net_income": 11283500
       },
       "semantic": false,
       "weight": 10
@@ -1313,7 +1313,7 @@
       "id": "headline_values__synergy_realization_50_percent_year_one_realized_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "synergy_realization_50_percent_year_one_realized_synergy": 700000.0
+        "synergy_realization_50_percent_year_one_realized_synergy": 700000
       },
       "semantic": false,
       "weight": 10
@@ -1324,7 +1324,7 @@
       "id": "headline_values__synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income": -1472000.0
+        "synergy_realization_50_percent_year_one_gaap_incremental_pre_tax_income": -1472000
       },
       "semantic": false,
       "weight": 10
@@ -1335,7 +1335,7 @@
       "id": "headline_values__synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income": 1378000.0
+        "synergy_realization_50_percent_year_one_adjusted_incremental_pre_tax_income": 1378000
       },
       "semantic": false,
       "weight": 10
@@ -1390,7 +1390,7 @@
       "id": "headline_values__synergy_realization_50_percent_year_two_realized_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "synergy_realization_50_percent_year_two_realized_synergy": 1250000.0
+        "synergy_realization_50_percent_year_two_realized_synergy": 1250000
       },
       "semantic": false,
       "weight": 10
@@ -1401,7 +1401,7 @@
       "id": "headline_values__synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income": 528000.0
+        "synergy_realization_50_percent_year_two_gaap_incremental_pre_tax_income": 528000
       },
       "semantic": false,
       "weight": 10
@@ -1412,7 +1412,7 @@
       "id": "headline_values__synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income": 1928000.0
+        "synergy_realization_50_percent_year_two_adjusted_incremental_pre_tax_income": 1928000
       },
       "semantic": false,
       "weight": 10
@@ -1467,7 +1467,7 @@
       "id": "headline_values__synergy_realization_50_percent_incremental_financing_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "synergy_realization_50_percent_incremental_financing_cost": 3202000.0
+        "synergy_realization_50_percent_incremental_financing_cost": 3202000
       },
       "semantic": false,
       "weight": 10
@@ -1489,7 +1489,7 @@
       "id": "headline_values__debt_rate_up_200_bps_year_one_realized_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_rate_up_200_bps_year_one_realized_synergy": 1400000.0
+        "debt_rate_up_200_bps_year_one_realized_synergy": 1400000
       },
       "semantic": false,
       "weight": 10
@@ -1500,7 +1500,7 @@
       "id": "headline_values__debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income": -1532000.0
+        "debt_rate_up_200_bps_year_one_gaap_incremental_pre_tax_income": -1532000
       },
       "semantic": false,
       "weight": 10
@@ -1511,7 +1511,7 @@
       "id": "headline_values__debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income": 1318000.0
+        "debt_rate_up_200_bps_year_one_adjusted_incremental_pre_tax_income": 1318000
       },
       "semantic": false,
       "weight": 10
@@ -1566,7 +1566,7 @@
       "id": "headline_values__debt_rate_up_200_bps_year_two_realized_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_rate_up_200_bps_year_two_realized_synergy": 2500000.0
+        "debt_rate_up_200_bps_year_two_realized_synergy": 2500000
       },
       "semantic": false,
       "weight": 10
@@ -1577,7 +1577,7 @@
       "id": "headline_values__debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income": 1018000.0
+        "debt_rate_up_200_bps_year_two_gaap_incremental_pre_tax_income": 1018000
       },
       "semantic": false,
       "weight": 10
@@ -1588,7 +1588,7 @@
       "id": "headline_values__debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income": 2418000.0
+        "debt_rate_up_200_bps_year_two_adjusted_incremental_pre_tax_income": 2418000
       },
       "semantic": false,
       "weight": 10
@@ -1643,7 +1643,7 @@
       "id": "headline_values__debt_rate_up_200_bps_incremental_financing_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_rate_up_200_bps_incremental_financing_cost": 3962000.0
+        "debt_rate_up_200_bps_incremental_financing_cost": 3962000
       },
       "semantic": false,
       "weight": 10
@@ -1665,7 +1665,7 @@
       "id": "headline_values__combined_downside_year_one_realized_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "combined_downside_year_one_realized_synergy": 700000.0
+        "combined_downside_year_one_realized_synergy": 700000
       },
       "semantic": false,
       "weight": 10
@@ -1676,7 +1676,7 @@
       "id": "headline_values__combined_downside_year_one_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "combined_downside_year_one_gaap_incremental_pre_tax_income": -2232000.0
+        "combined_downside_year_one_gaap_incremental_pre_tax_income": -2232000
       },
       "semantic": false,
       "weight": 10
@@ -1687,7 +1687,7 @@
       "id": "headline_values__combined_downside_year_one_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "combined_downside_year_one_adjusted_incremental_pre_tax_income": 618000.0
+        "combined_downside_year_one_adjusted_incremental_pre_tax_income": 618000
       },
       "semantic": false,
       "weight": 10
@@ -1742,7 +1742,7 @@
       "id": "headline_values__combined_downside_year_two_realized_synergy",
       "kind": "xlsx_label_values",
       "label_values": {
-        "combined_downside_year_two_realized_synergy": 1250000.0
+        "combined_downside_year_two_realized_synergy": 1250000
       },
       "semantic": false,
       "weight": 10
@@ -1753,7 +1753,7 @@
       "id": "headline_values__combined_downside_year_two_gaap_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "combined_downside_year_two_gaap_incremental_pre_tax_income": -232000.0
+        "combined_downside_year_two_gaap_incremental_pre_tax_income": -232000
       },
       "semantic": false,
       "weight": 10
@@ -1764,7 +1764,7 @@
       "id": "headline_values__combined_downside_year_two_adjusted_incremental_pre_tax_income",
       "kind": "xlsx_label_values",
       "label_values": {
-        "combined_downside_year_two_adjusted_incremental_pre_tax_income": 1168000.0
+        "combined_downside_year_two_adjusted_incremental_pre_tax_income": 1168000
       },
       "semantic": false,
       "weight": 10
@@ -1819,7 +1819,7 @@
       "id": "headline_values__combined_downside_incremental_financing_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "combined_downside_incremental_financing_cost": 3962000.0
+        "combined_downside_incremental_financing_cost": 3962000
       },
       "semantic": false,
       "weight": 10

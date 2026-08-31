@@ -2,30 +2,30 @@
   "answer": {
     "additional_revenue_decline_to_update_trigger": 650532.8,
     "combined_stress_ebitda": 2811475.35,
-    "construction_gross_profit_impact": 410000.0,
-    "controls_mix_impact": 95000.0,
-    "ebitda_guidance_high": 4250000.0,
-    "ebitda_guidance_low": 3000000.0,
+    "construction_gross_profit_impact": 410000,
+    "controls_mix_impact": 95000,
+    "ebitda_guidance_high": 4250000,
+    "ebitda_guidance_low": 3000000,
     "ebitda_shortfall_to_guidance_low": 188524.65,
     "fixed_charge_coverage": 1.97397188,
     "funded_debt": 1111666.5,
     "guidance_update_required": false,
     "largest_downside_driver": "Copper escalation",
-    "latest_full_year_revenue_outlook": 50800000.0,
+    "latest_full_year_revenue_outlook": 50800000,
     "lender_leverage": 0.17878168,
     "ltm_adjusted_ebitda": 6218011.41,
-    "maximum_revolver": 5350000.0,
+    "maximum_revolver": 5350000,
     "q2_adjusted_ebitda": 1661281.82,
     "q2_adjusted_ebitda_variance_to_plan": -111177.7,
     "q2_approved_plan_adjusted_ebitda": 1772459.52,
-    "q2_approved_plan_revenue": 12792000.0,
-    "q2_free_cash_flow": 1650000.0,
+    "q2_approved_plan_revenue": 12792000,
+    "q2_free_cash_flow": 1650000,
     "q2_organic_growth": 0.10432314,
-    "q2_revenue": 13064500.0,
-    "q2_revenue_variance_to_plan": 272500.0,
-    "revenue_guidance_high": 55000000.0,
-    "revenue_guidance_low": 52000000.0,
-    "service_labor_productivity_impact": 285000.0
+    "q2_revenue": 13064500,
+    "q2_revenue_variance_to_plan": 272500,
+    "revenue_guidance_high": 55000000,
+    "revenue_guidance_low": 52000000,
+    "service_labor_productivity_impact": 285000
   },
   "artifact": {
     "edit": false,
@@ -111,7 +111,7 @@
       "id": "controller_tie_headline_values__q2_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_revenue": 13064500.0
+        "q2_revenue": 13064500
       },
       "semantic": false,
       "weight": 10
@@ -144,7 +144,7 @@
       "id": "controller_tie_headline_values__q2_free_cash_flow",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_free_cash_flow": 1650000.0
+        "q2_free_cash_flow": 1650000
       },
       "semantic": false,
       "weight": 10
@@ -155,7 +155,7 @@
       "id": "controller_tie_headline_values__maximum_revolver",
       "kind": "artifact_label_values",
       "label_values": {
-        "maximum_revolver": 5350000.0
+        "maximum_revolver": 5350000
       },
       "semantic": false,
       "weight": 10
@@ -166,7 +166,7 @@
       "id": "controller_tie_headline_values__latest_full_year_revenue_outlook",
       "kind": "artifact_label_values",
       "label_values": {
-        "latest_full_year_revenue_outlook": 50800000.0
+        "latest_full_year_revenue_outlook": 50800000
       },
       "semantic": false,
       "weight": 10
@@ -177,7 +177,7 @@
       "id": "q2_plan_bridge_values__q2_approved_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_approved_plan_revenue": 12792000.0
+        "q2_approved_plan_revenue": 12792000
       },
       "semantic": false,
       "weight": 10
@@ -188,7 +188,7 @@
       "id": "q2_plan_bridge_values__q2_revenue_variance_to_plan",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_revenue_variance_to_plan": 272500.0
+        "q2_revenue_variance_to_plan": 272500
       },
       "semantic": false,
       "weight": 10
@@ -221,7 +221,7 @@
       "id": "operating_driver_values__construction_gross_profit_impact",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_gross_profit_impact": 410000.0
+        "construction_gross_profit_impact": 410000
       },
       "semantic": false,
       "weight": 10
@@ -232,7 +232,7 @@
       "id": "operating_driver_values__service_labor_productivity_impact",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_labor_productivity_impact": 285000.0
+        "service_labor_productivity_impact": 285000
       },
       "semantic": false,
       "weight": 10
@@ -243,7 +243,7 @@
       "id": "operating_driver_values__controls_mix_impact",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_mix_impact": 95000.0
+        "controls_mix_impact": 95000
       },
       "semantic": false,
       "weight": 10
@@ -298,7 +298,7 @@
       "id": "guidance_decision_values__revenue_guidance_low",
       "kind": "artifact_label_values",
       "label_values": {
-        "revenue_guidance_low": 52000000.0
+        "revenue_guidance_low": 52000000
       },
       "semantic": false,
       "weight": 10
@@ -309,7 +309,7 @@
       "id": "guidance_decision_values__revenue_guidance_high",
       "kind": "artifact_label_values",
       "label_values": {
-        "revenue_guidance_high": 55000000.0
+        "revenue_guidance_high": 55000000
       },
       "semantic": false,
       "weight": 10
@@ -320,7 +320,7 @@
       "id": "guidance_decision_values__ebitda_guidance_low",
       "kind": "artifact_label_values",
       "label_values": {
-        "ebitda_guidance_low": 3000000.0
+        "ebitda_guidance_low": 3000000
       },
       "semantic": false,
       "weight": 10
@@ -331,7 +331,7 @@
       "id": "guidance_decision_values__ebitda_guidance_high",
       "kind": "artifact_label_values",
       "label_values": {
-        "ebitda_guidance_high": 4250000.0
+        "ebitda_guidance_high": 4250000
       },
       "semantic": false,
       "weight": 10

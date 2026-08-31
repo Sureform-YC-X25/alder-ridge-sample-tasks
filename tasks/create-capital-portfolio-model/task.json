@@ -4,7 +4,7 @@
     "path": "Deliverables/FY27 capital project portfolio - 7.4.xlsx",
     "type": "xlsx"
   },
-  "canonical_source_commit": "4659dd3ae1be2b45f799484f8c38236eded34578",
+  "canonical_source_commit": "659cdfd2178557fa72dc4312edc264ab66edd084",
   "difficulty": "expert-long-horizon",
   "grading_revision": "weighted-atomic-hybrid-v9-proportional-capital-portfolio",
   "output_mode": "spreadsheet_create",

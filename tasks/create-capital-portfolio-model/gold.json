@@ -1,16 +1,16 @@
 {
   "answer": {
     "cash_capacity_down_20_percent_base_npv": 334175.51,
-    "cash_capacity_down_20_percent_base_npv_sacrifice": 0.0,
+    "cash_capacity_down_20_percent_base_npv_sacrifice": 0,
     "cash_capacity_down_20_percent_binding_constraint": "Debt",
-    "cash_capacity_down_20_percent_cash_headroom": 680000.0,
+    "cash_capacity_down_20_percent_cash_headroom": 680000,
     "cash_capacity_down_20_percent_committee_release_status": "Feasible alternative",
-    "cash_capacity_down_20_percent_debt_headroom": 0.0,
+    "cash_capacity_down_20_percent_debt_headroom": 0,
     "cash_capacity_down_20_percent_downside_npv": -2179567.94,
     "cash_capacity_down_20_percent_mandatory_safety_projects_selected": true,
-    "cash_capacity_down_20_percent_selected_capex": 9400000.0,
-    "cash_capacity_down_20_percent_selected_cash_funding": 5400000.0,
-    "cash_capacity_down_20_percent_selected_debt_funding": 4000000.0,
+    "cash_capacity_down_20_percent_selected_capex": 9400000,
+    "cash_capacity_down_20_percent_selected_cash_funding": 5400000,
+    "cash_capacity_down_20_percent_selected_debt_funding": 4000000,
     "cash_capacity_down_20_percent_selected_portfolio": [
       "CP-01",
       "CP-03",
@@ -18,203 +18,203 @@
       "CP-07",
       "CP-08"
     ],
-    "cash_capacity_down_20_percent_selected_technician_capacity": 12.0,
-    "cash_capacity_down_20_percent_technician_headroom": 0.0,
-    "cash_capex_headroom": 3000000.0,
-    "cash_constraint_check": 0.0,
+    "cash_capacity_down_20_percent_selected_technician_capacity": 12,
+    "cash_capacity_down_20_percent_technician_headroom": 0,
+    "cash_capex_headroom": 3000000,
+    "cash_constraint_check": 0,
     "cp_01_downside_npv": -475094.59,
-    "cp_01_initial_capex": 2100000.0,
+    "cp_01_initial_capex": 2100000,
     "cp_01_irr": 0.11802438,
     "cp_01_mandatory_safety_flag": true,
     "cp_01_npv": 83515.07,
     "cp_01_payback_years": 4.0713,
     "cp_01_selected": true,
-    "cp_01_technician_capacity": 3.0,
-    "cp_01_year_1_base_after_tax_cash_flow": 416640.0,
-    "cp_01_year_1_downside_after_tax_cash_flow": 279840.0,
-    "cp_01_year_2_base_after_tax_cash_flow": 537024.0,
-    "cp_01_year_2_downside_after_tax_cash_flow": 383808.0,
-    "cp_01_year_3_base_after_tax_cash_flow": 580800.0,
-    "cp_01_year_3_downside_after_tax_cash_flow": 427584.0,
-    "cp_01_year_4_base_after_tax_cash_flow": 580800.0,
-    "cp_01_year_4_downside_after_tax_cash_flow": 427584.0,
-    "cp_01_year_5_base_after_tax_cash_flow": 1048800.0,
-    "cp_01_year_5_downside_after_tax_cash_flow": 895584.0,
+    "cp_01_technician_capacity": 3,
+    "cp_01_year_1_base_after_tax_cash_flow": 416640,
+    "cp_01_year_1_downside_after_tax_cash_flow": 279840,
+    "cp_01_year_2_base_after_tax_cash_flow": 537024,
+    "cp_01_year_2_downside_after_tax_cash_flow": 383808,
+    "cp_01_year_3_base_after_tax_cash_flow": 580800,
+    "cp_01_year_3_downside_after_tax_cash_flow": 427584,
+    "cp_01_year_4_base_after_tax_cash_flow": 580800,
+    "cp_01_year_4_downside_after_tax_cash_flow": 427584,
+    "cp_01_year_5_base_after_tax_cash_flow": 1048800,
+    "cp_01_year_5_downside_after_tax_cash_flow": 895584,
     "cp_02_downside_npv": -1020767.38,
-    "cp_02_initial_capex": 3200000.0,
+    "cp_02_initial_capex": 3200000,
     "cp_02_irr": 0.07481967,
     "cp_02_mandatory_safety_flag": false,
     "cp_02_npv": -291471.44,
     "cp_02_payback_years": 4.3813,
     "cp_02_selected": false,
-    "cp_02_technician_capacity": 5.0,
-    "cp_02_year_1_base_after_tax_cash_flow": 550480.0,
-    "cp_02_year_1_downside_after_tax_cash_flow": 371880.0,
-    "cp_02_year_2_base_after_tax_cash_flow": 707648.0,
-    "cp_02_year_2_downside_after_tax_cash_flow": 507616.0,
-    "cp_02_year_3_base_after_tax_cash_flow": 764800.0,
-    "cp_02_year_3_downside_after_tax_cash_flow": 564768.0,
-    "cp_02_year_4_base_after_tax_cash_flow": 764800.0,
-    "cp_02_year_4_downside_after_tax_cash_flow": 564768.0,
-    "cp_02_year_5_base_after_tax_cash_flow": 1500800.0,
-    "cp_02_year_5_downside_after_tax_cash_flow": 1300768.0,
+    "cp_02_technician_capacity": 5,
+    "cp_02_year_1_base_after_tax_cash_flow": 550480,
+    "cp_02_year_1_downside_after_tax_cash_flow": 371880,
+    "cp_02_year_2_base_after_tax_cash_flow": 707648,
+    "cp_02_year_2_downside_after_tax_cash_flow": 507616,
+    "cp_02_year_3_base_after_tax_cash_flow": 764800,
+    "cp_02_year_3_downside_after_tax_cash_flow": 564768,
+    "cp_02_year_4_base_after_tax_cash_flow": 764800,
+    "cp_02_year_4_downside_after_tax_cash_flow": 564768,
+    "cp_02_year_5_base_after_tax_cash_flow": 1500800,
+    "cp_02_year_5_downside_after_tax_cash_flow": 1300768,
     "cp_03_downside_npv": -310140.05,
-    "cp_03_initial_capex": 1650000.0,
+    "cp_03_initial_capex": 1650000,
     "cp_03_irr": 0.13686382,
     "cp_03_mandatory_safety_flag": false,
     "cp_03_npv": 163126.46,
     "cp_03_payback_years": 3.9189,
     "cp_03_selected": true,
-    "cp_03_technician_capacity": 2.0,
+    "cp_03_technician_capacity": 2,
     "cp_03_unavailable_base_npv": 171049.05,
     "cp_03_unavailable_base_npv_sacrifice": 163126.46,
     "cp_03_unavailable_binding_constraint": "Technicians",
-    "cp_03_unavailable_cash_headroom": 3450000.0,
+    "cp_03_unavailable_cash_headroom": 3450000,
     "cp_03_unavailable_committee_release_status": "Feasible alternative",
-    "cp_03_unavailable_debt_headroom": 400000.0,
+    "cp_03_unavailable_debt_headroom": 400000,
     "cp_03_unavailable_downside_npv": -1869427.89,
     "cp_03_unavailable_mandatory_safety_projects_selected": true,
-    "cp_03_unavailable_selected_capex": 7750000.0,
-    "cp_03_unavailable_selected_cash_funding": 4150000.0,
-    "cp_03_unavailable_selected_debt_funding": 3600000.0,
+    "cp_03_unavailable_selected_capex": 7750000,
+    "cp_03_unavailable_selected_cash_funding": 4150000,
+    "cp_03_unavailable_selected_debt_funding": 3600000,
     "cp_03_unavailable_selected_portfolio": [
       "CP-01",
       "CP-04",
       "CP-07",
       "CP-08"
     ],
-    "cp_03_unavailable_selected_technician_capacity": 10.0,
-    "cp_03_unavailable_technician_headroom": 2.0,
-    "cp_03_year_1_base_after_tax_cash_flow": 347320.0,
-    "cp_03_year_1_downside_after_tax_cash_flow": 231420.0,
-    "cp_03_year_2_base_after_tax_cash_flow": 449312.0,
-    "cp_03_year_2_downside_after_tax_cash_flow": 319504.0,
-    "cp_03_year_3_base_after_tax_cash_flow": 486400.0,
-    "cp_03_year_3_downside_after_tax_cash_flow": 356592.0,
-    "cp_03_year_4_base_after_tax_cash_flow": 486400.0,
-    "cp_03_year_4_downside_after_tax_cash_flow": 356592.0,
-    "cp_03_year_5_base_after_tax_cash_flow": 863400.0,
-    "cp_03_year_5_downside_after_tax_cash_flow": 733592.0,
+    "cp_03_unavailable_selected_technician_capacity": 10,
+    "cp_03_unavailable_technician_headroom": 2,
+    "cp_03_year_1_base_after_tax_cash_flow": 347320,
+    "cp_03_year_1_downside_after_tax_cash_flow": 231420,
+    "cp_03_year_2_base_after_tax_cash_flow": 449312,
+    "cp_03_year_2_downside_after_tax_cash_flow": 319504,
+    "cp_03_year_3_base_after_tax_cash_flow": 486400,
+    "cp_03_year_3_downside_after_tax_cash_flow": 356592,
+    "cp_03_year_4_base_after_tax_cash_flow": 486400,
+    "cp_03_year_4_downside_after_tax_cash_flow": 356592,
+    "cp_03_year_5_base_after_tax_cash_flow": 863400,
+    "cp_03_year_5_downside_after_tax_cash_flow": 733592,
     "cp_04_downside_npv": -522262.7,
-    "cp_04_initial_capex": 2450000.0,
+    "cp_04_initial_capex": 2450000,
     "cp_04_irr": 0.12518728,
     "cp_04_mandatory_safety_flag": false,
     "cp_04_npv": 152723.97,
     "cp_04_payback_years": 4.0296,
     "cp_04_selected": true,
-    "cp_04_technician_capacity": 4.0,
+    "cp_04_technician_capacity": 4,
     "cp_04_unavailable_base_npv": 181451.54,
     "cp_04_unavailable_base_npv_sacrifice": 152723.97,
     "cp_04_unavailable_binding_constraint": "Technicians",
-    "cp_04_unavailable_cash_headroom": 3550000.0,
+    "cp_04_unavailable_cash_headroom": 3550000,
     "cp_04_unavailable_committee_release_status": "Feasible alternative",
-    "cp_04_unavailable_debt_headroom": 1100000.0,
+    "cp_04_unavailable_debt_headroom": 1100000,
     "cp_04_unavailable_downside_npv": -1657305.24,
     "cp_04_unavailable_mandatory_safety_projects_selected": true,
-    "cp_04_unavailable_selected_capex": 6950000.0,
-    "cp_04_unavailable_selected_cash_funding": 4050000.0,
-    "cp_04_unavailable_selected_debt_funding": 2900000.0,
+    "cp_04_unavailable_selected_capex": 6950000,
+    "cp_04_unavailable_selected_cash_funding": 4050000,
+    "cp_04_unavailable_selected_debt_funding": 2900000,
     "cp_04_unavailable_selected_portfolio": [
       "CP-01",
       "CP-03",
       "CP-07",
       "CP-08"
     ],
-    "cp_04_unavailable_selected_technician_capacity": 8.0,
-    "cp_04_unavailable_technician_headroom": 4.0,
-    "cp_04_year_1_base_after_tax_cash_flow": 497640.0,
-    "cp_04_year_1_downside_after_tax_cash_flow": 332340.0,
-    "cp_04_year_2_base_after_tax_cash_flow": 643104.0,
-    "cp_04_year_2_downside_after_tax_cash_flow": 457968.0,
-    "cp_04_year_3_base_after_tax_cash_flow": 696000.0,
-    "cp_04_year_3_downside_after_tax_cash_flow": 510864.0,
-    "cp_04_year_4_base_after_tax_cash_flow": 696000.0,
-    "cp_04_year_4_downside_after_tax_cash_flow": 510864.0,
-    "cp_04_year_5_base_after_tax_cash_flow": 1257000.0,
-    "cp_04_year_5_downside_after_tax_cash_flow": 1071864.0,
+    "cp_04_unavailable_selected_technician_capacity": 8,
+    "cp_04_unavailable_technician_headroom": 4,
+    "cp_04_year_1_base_after_tax_cash_flow": 497640,
+    "cp_04_year_1_downside_after_tax_cash_flow": 332340,
+    "cp_04_year_2_base_after_tax_cash_flow": 643104,
+    "cp_04_year_2_downside_after_tax_cash_flow": 457968,
+    "cp_04_year_3_base_after_tax_cash_flow": 696000,
+    "cp_04_year_3_downside_after_tax_cash_flow": 510864,
+    "cp_04_year_4_base_after_tax_cash_flow": 696000,
+    "cp_04_year_4_downside_after_tax_cash_flow": 510864,
+    "cp_04_year_5_base_after_tax_cash_flow": 1257000,
+    "cp_04_year_5_downside_after_tax_cash_flow": 1071864,
     "cp_05_downside_npv": -1211162.34,
-    "cp_05_initial_capex": 3600000.0,
+    "cp_05_initial_capex": 3600000,
     "cp_05_irr": 0.06538426,
     "cp_05_mandatory_safety_flag": false,
     "cp_05_npv": -427557.13,
     "cp_05_payback_years": 4.4517,
     "cp_05_selected": false,
-    "cp_05_technician_capacity": 6.0,
-    "cp_05_year_1_base_after_tax_cash_flow": 599720.0,
-    "cp_05_year_1_downside_after_tax_cash_flow": 407820.0,
-    "cp_05_year_2_base_after_tax_cash_flow": 768592.0,
-    "cp_05_year_2_downside_after_tax_cash_flow": 553664.0,
-    "cp_05_year_3_base_after_tax_cash_flow": 830000.0,
-    "cp_05_year_3_downside_after_tax_cash_flow": 615072.0,
-    "cp_05_year_4_base_after_tax_cash_flow": 830000.0,
-    "cp_05_year_4_downside_after_tax_cash_flow": 615072.0,
-    "cp_05_year_5_base_after_tax_cash_flow": 1653000.0,
-    "cp_05_year_5_downside_after_tax_cash_flow": 1438072.0,
+    "cp_05_technician_capacity": 6,
+    "cp_05_year_1_base_after_tax_cash_flow": 599720,
+    "cp_05_year_1_downside_after_tax_cash_flow": 407820,
+    "cp_05_year_2_base_after_tax_cash_flow": 768592,
+    "cp_05_year_2_downside_after_tax_cash_flow": 553664,
+    "cp_05_year_3_base_after_tax_cash_flow": 830000,
+    "cp_05_year_3_downside_after_tax_cash_flow": 615072,
+    "cp_05_year_4_base_after_tax_cash_flow": 830000,
+    "cp_05_year_4_downside_after_tax_cash_flow": 615072,
+    "cp_05_year_5_base_after_tax_cash_flow": 1653000,
+    "cp_05_year_5_downside_after_tax_cash_flow": 1438072,
     "cp_06_downside_npv": -419625.3,
-    "cp_06_initial_capex": 1250000.0,
+    "cp_06_initial_capex": 1250000,
     "cp_06_irr": 0.06740093,
     "cp_06_mandatory_safety_flag": false,
     "cp_06_npv": -140320.47,
     "cp_06_payback_years": 4.4337,
     "cp_06_selected": false,
-    "cp_06_technician_capacity": 3.0,
-    "cp_06_year_1_base_after_tax_cash_flow": 208320.0,
-    "cp_06_year_1_downside_after_tax_cash_flow": 139920.0,
-    "cp_06_year_2_base_after_tax_cash_flow": 268512.0,
-    "cp_06_year_2_downside_after_tax_cash_flow": 191904.0,
-    "cp_06_year_3_base_after_tax_cash_flow": 290400.0,
-    "cp_06_year_3_downside_after_tax_cash_flow": 213792.0,
-    "cp_06_year_4_base_after_tax_cash_flow": 290400.0,
-    "cp_06_year_4_downside_after_tax_cash_flow": 213792.0,
-    "cp_06_year_5_base_after_tax_cash_flow": 570400.0,
-    "cp_06_year_5_downside_after_tax_cash_flow": 493792.0,
+    "cp_06_technician_capacity": 3,
+    "cp_06_year_1_base_after_tax_cash_flow": 208320,
+    "cp_06_year_1_downside_after_tax_cash_flow": 139920,
+    "cp_06_year_2_base_after_tax_cash_flow": 268512,
+    "cp_06_year_2_downside_after_tax_cash_flow": 191904,
+    "cp_06_year_3_base_after_tax_cash_flow": 290400,
+    "cp_06_year_3_downside_after_tax_cash_flow": 213792,
+    "cp_06_year_4_base_after_tax_cash_flow": 290400,
+    "cp_06_year_4_downside_after_tax_cash_flow": 213792,
+    "cp_06_year_5_base_after_tax_cash_flow": 570400,
+    "cp_06_year_5_downside_after_tax_cash_flow": 493792,
     "cp_07_downside_npv": -552747.99,
-    "cp_07_initial_capex": 2300000.0,
+    "cp_07_initial_capex": 2300000,
     "cp_07_irr": 0.11357298,
     "cp_07_mandatory_safety_flag": false,
     "cp_07_npv": 60170.94,
     "cp_07_payback_years": 4.1017,
     "cp_07_selected": true,
-    "cp_07_technician_capacity": 2.0,
-    "cp_07_year_1_base_after_tax_cash_flow": 447880.0,
-    "cp_07_year_1_downside_after_tax_cash_flow": 297780.0,
-    "cp_07_year_2_base_after_tax_cash_flow": 579968.0,
-    "cp_07_year_2_downside_after_tax_cash_flow": 411856.0,
-    "cp_07_year_3_base_after_tax_cash_flow": 628000.0,
-    "cp_07_year_3_downside_after_tax_cash_flow": 459888.0,
-    "cp_07_year_4_base_after_tax_cash_flow": 628000.0,
-    "cp_07_year_4_downside_after_tax_cash_flow": 459888.0,
-    "cp_07_year_5_base_after_tax_cash_flow": 1142000.0,
-    "cp_07_year_5_downside_after_tax_cash_flow": 973888.0,
+    "cp_07_technician_capacity": 2,
+    "cp_07_year_1_base_after_tax_cash_flow": 447880,
+    "cp_07_year_1_downside_after_tax_cash_flow": 297780,
+    "cp_07_year_2_base_after_tax_cash_flow": 579968,
+    "cp_07_year_2_downside_after_tax_cash_flow": 411856,
+    "cp_07_year_3_base_after_tax_cash_flow": 628000,
+    "cp_07_year_3_downside_after_tax_cash_flow": 459888,
+    "cp_07_year_4_base_after_tax_cash_flow": 628000,
+    "cp_07_year_4_downside_after_tax_cash_flow": 459888,
+    "cp_07_year_5_base_after_tax_cash_flow": 1142000,
+    "cp_07_year_5_downside_after_tax_cash_flow": 973888,
     "cp_08_downside_npv": -319322.62,
-    "cp_08_initial_capex": 900000.0,
+    "cp_08_initial_capex": 900000,
     "cp_08_irr": 0.0581582,
     "cp_08_mandatory_safety_flag": true,
     "cp_08_npv": -125360.93,
     "cp_08_payback_years": 4.5054,
     "cp_08_selected": true,
-    "cp_08_technician_capacity": 1.0,
-    "cp_08_year_1_base_after_tax_cash_flow": 145000.0,
-    "cp_08_year_1_downside_after_tax_cash_flow": 97500.0,
-    "cp_08_year_2_base_after_tax_cash_flow": 186800.0,
-    "cp_08_year_2_downside_after_tax_cash_flow": 133600.0,
-    "cp_08_year_3_base_after_tax_cash_flow": 202000.0,
-    "cp_08_year_3_downside_after_tax_cash_flow": 148800.0,
-    "cp_08_year_4_base_after_tax_cash_flow": 202000.0,
-    "cp_08_year_4_downside_after_tax_cash_flow": 148800.0,
-    "cp_08_year_5_base_after_tax_cash_flow": 404000.0,
-    "cp_08_year_5_downside_after_tax_cash_flow": 350800.0,
+    "cp_08_technician_capacity": 1,
+    "cp_08_year_1_base_after_tax_cash_flow": 145000,
+    "cp_08_year_1_downside_after_tax_cash_flow": 97500,
+    "cp_08_year_2_base_after_tax_cash_flow": 186800,
+    "cp_08_year_2_downside_after_tax_cash_flow": 133600,
+    "cp_08_year_3_base_after_tax_cash_flow": 202000,
+    "cp_08_year_3_downside_after_tax_cash_flow": 148800,
+    "cp_08_year_4_base_after_tax_cash_flow": 202000,
+    "cp_08_year_4_downside_after_tax_cash_flow": 148800,
+    "cp_08_year_5_base_after_tax_cash_flow": 404000,
+    "cp_08_year_5_downside_after_tax_cash_flow": 350800,
     "debt_capacity_down_25_percent_base_npv": 334175.51,
-    "debt_capacity_down_25_percent_base_npv_sacrifice": 0.0,
+    "debt_capacity_down_25_percent_base_npv_sacrifice": 0,
     "debt_capacity_down_25_percent_binding_constraint": "Debt",
-    "debt_capacity_down_25_percent_cash_headroom": 1200000.0,
+    "debt_capacity_down_25_percent_cash_headroom": 1200000,
     "debt_capacity_down_25_percent_committee_release_status": "Feasible alternative",
-    "debt_capacity_down_25_percent_debt_headroom": 0.0,
+    "debt_capacity_down_25_percent_debt_headroom": 0,
     "debt_capacity_down_25_percent_downside_npv": -2179567.94,
     "debt_capacity_down_25_percent_mandatory_safety_projects_selected": true,
-    "debt_capacity_down_25_percent_selected_capex": 9400000.0,
-    "debt_capacity_down_25_percent_selected_cash_funding": 6400000.0,
-    "debt_capacity_down_25_percent_selected_debt_funding": 3000000.0,
+    "debt_capacity_down_25_percent_selected_capex": 9400000,
+    "debt_capacity_down_25_percent_selected_cash_funding": 6400000,
+    "debt_capacity_down_25_percent_selected_debt_funding": 3000000,
     "debt_capacity_down_25_percent_selected_portfolio": [
       "CP-01",
       "CP-03",
@@ -222,35 +222,35 @@
       "CP-07",
       "CP-08"
     ],
-    "debt_capacity_down_25_percent_selected_technician_capacity": 12.0,
-    "debt_capacity_down_25_percent_technician_headroom": 0.0,
-    "debt_capacity_headroom": -800000.0,
-    "debt_constraint_check": 0.0,
+    "debt_capacity_down_25_percent_selected_technician_capacity": 12,
+    "debt_capacity_down_25_percent_technician_headroom": 0,
+    "debt_capacity_headroom": -800000,
+    "debt_constraint_check": 0,
     "downside_npv_objective_base_npv": -41845.86,
     "downside_npv_objective_base_npv_sacrifice": 376021.37,
     "downside_npv_objective_binding_constraint": "Technicians",
-    "downside_npv_objective_cash_headroom": 4600000.0,
+    "downside_npv_objective_cash_headroom": 4600000,
     "downside_npv_objective_committee_release_status": "Feasible alternative",
-    "downside_npv_objective_debt_headroom": 4000000.0,
+    "downside_npv_objective_debt_headroom": 4000000,
     "downside_npv_objective_downside_npv": -794417.2,
     "downside_npv_objective_mandatory_safety_projects_selected": true,
-    "downside_npv_objective_selected_capex": 3000000.0,
-    "downside_npv_objective_selected_cash_funding": 3000000.0,
-    "downside_npv_objective_selected_debt_funding": 0.0,
+    "downside_npv_objective_selected_capex": 3000000,
+    "downside_npv_objective_selected_cash_funding": 3000000,
+    "downside_npv_objective_selected_debt_funding": 0,
     "downside_npv_objective_selected_portfolio": [
       "CP-01",
       "CP-08"
     ],
-    "downside_npv_objective_selected_technician_capacity": 4.0,
-    "downside_npv_objective_technician_headroom": 8.0,
+    "downside_npv_objective_selected_technician_capacity": 4,
+    "downside_npv_objective_technician_headroom": 8,
     "downside_portfolio_npv": -2179567.94,
-    "downside_portfolio_npv_selection_tie": 0.0,
+    "downside_portfolio_npv_selection_tie": 0,
     "mandatory_safety_projects_selected": true,
     "portfolio_npv": 334175.51,
-    "portfolio_npv_selection_tie": 0.0,
-    "selected_capex": 9400000.0,
-    "selected_cash_funding": 4600000.0,
-    "selected_debt_eligible_basis": 4800000.0,
+    "portfolio_npv_selection_tie": 0,
+    "selected_capex": 9400000,
+    "selected_cash_funding": 4600000,
+    "selected_debt_eligible_basis": 4800000,
     "selected_portfolio": [
       "CP-01",
       "CP-03",
@@ -258,28 +258,28 @@
       "CP-07",
       "CP-08"
     ],
-    "selected_technician_capacity": 12.0,
+    "selected_technician_capacity": 12,
     "technician_capacity_down_25_percent_base_npv": 181451.54,
     "technician_capacity_down_25_percent_base_npv_sacrifice": 152723.97,
     "technician_capacity_down_25_percent_binding_constraint": "Technicians",
-    "technician_capacity_down_25_percent_cash_headroom": 3550000.0,
+    "technician_capacity_down_25_percent_cash_headroom": 3550000,
     "technician_capacity_down_25_percent_committee_release_status": "Feasible alternative",
-    "technician_capacity_down_25_percent_debt_headroom": 1100000.0,
+    "technician_capacity_down_25_percent_debt_headroom": 1100000,
     "technician_capacity_down_25_percent_downside_npv": -1657305.24,
     "technician_capacity_down_25_percent_mandatory_safety_projects_selected": true,
-    "technician_capacity_down_25_percent_selected_capex": 6950000.0,
-    "technician_capacity_down_25_percent_selected_cash_funding": 4050000.0,
-    "technician_capacity_down_25_percent_selected_debt_funding": 2900000.0,
+    "technician_capacity_down_25_percent_selected_capex": 6950000,
+    "technician_capacity_down_25_percent_selected_cash_funding": 4050000,
+    "technician_capacity_down_25_percent_selected_debt_funding": 2900000,
     "technician_capacity_down_25_percent_selected_portfolio": [
       "CP-01",
       "CP-03",
       "CP-07",
       "CP-08"
     ],
-    "technician_capacity_down_25_percent_selected_technician_capacity": 8.0,
-    "technician_capacity_down_25_percent_technician_headroom": 1.0,
-    "technician_capacity_headroom": 0.0,
-    "technician_constraint_check": 0.0
+    "technician_capacity_down_25_percent_selected_technician_capacity": 8,
+    "technician_capacity_down_25_percent_technician_headroom": 1,
+    "technician_capacity_headroom": 0,
+    "technician_constraint_check": 0
   },
   "artifact": {
     "edit": false,
@@ -2328,7 +2328,7 @@
       "id": "headline_values__selected_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "selected_capex": 9400000.0
+        "selected_capex": 9400000
       },
       "semantic": false,
       "weight": 10
@@ -2361,7 +2361,7 @@
       "id": "headline_values__selected_debt_eligible_basis",
       "kind": "xlsx_label_values",
       "label_values": {
-        "selected_debt_eligible_basis": 4800000.0
+        "selected_debt_eligible_basis": 4800000
       },
       "semantic": false,
       "weight": 10
@@ -2372,7 +2372,7 @@
       "id": "headline_values__selected_cash_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "selected_cash_funding": 4600000.0
+        "selected_cash_funding": 4600000
       },
       "semantic": false,
       "weight": 10
@@ -2383,7 +2383,7 @@
       "id": "headline_values__selected_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "selected_technician_capacity": 12.0
+        "selected_technician_capacity": 12
       },
       "semantic": false,
       "weight": 10
@@ -2394,7 +2394,7 @@
       "id": "headline_values__cash_capex_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capex_headroom": 3000000.0
+        "cash_capex_headroom": 3000000
       },
       "semantic": false,
       "weight": 10
@@ -2405,7 +2405,7 @@
       "id": "headline_values__debt_capacity_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_headroom": -800000.0
+        "debt_capacity_headroom": -800000
       },
       "semantic": false,
       "weight": 10
@@ -2416,7 +2416,7 @@
       "id": "headline_values__technician_capacity_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_headroom": 0.0
+        "technician_capacity_headroom": 0
       },
       "semantic": false,
       "weight": 10
@@ -2438,7 +2438,7 @@
       "id": "headline_values__portfolio_npv_selection_tie",
       "kind": "xlsx_label_values",
       "label_values": {
-        "portfolio_npv_selection_tie": 0.0
+        "portfolio_npv_selection_tie": 0
       },
       "semantic": false,
       "weight": 10
@@ -2449,7 +2449,7 @@
       "id": "headline_values__downside_portfolio_npv_selection_tie",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_portfolio_npv_selection_tie": 0.0
+        "downside_portfolio_npv_selection_tie": 0
       },
       "semantic": false,
       "weight": 10
@@ -2460,7 +2460,7 @@
       "id": "headline_values__cash_constraint_check",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_constraint_check": 0.0
+        "cash_constraint_check": 0
       },
       "semantic": false,
       "weight": 10
@@ -2471,7 +2471,7 @@
       "id": "headline_values__debt_constraint_check",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_constraint_check": 0.0
+        "debt_constraint_check": 0
       },
       "semantic": false,
       "weight": 10
@@ -2482,7 +2482,7 @@
       "id": "headline_values__technician_constraint_check",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_constraint_check": 0.0
+        "technician_constraint_check": 0
       },
       "semantic": false,
       "weight": 10
@@ -2493,7 +2493,7 @@
       "id": "headline_values__cp_01_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_initial_capex": 2100000.0
+        "cp_01_initial_capex": 2100000
       },
       "semantic": false,
       "weight": 10
@@ -2504,7 +2504,7 @@
       "id": "headline_values__cp_01_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_technician_capacity": 3.0
+        "cp_01_technician_capacity": 3
       },
       "semantic": false,
       "weight": 10
@@ -2581,7 +2581,7 @@
       "id": "headline_values__cp_01_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_1_base_after_tax_cash_flow": 416640.0
+        "cp_01_year_1_base_after_tax_cash_flow": 416640
       },
       "semantic": false,
       "weight": 10
@@ -2592,7 +2592,7 @@
       "id": "headline_values__cp_01_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_1_downside_after_tax_cash_flow": 279840.0
+        "cp_01_year_1_downside_after_tax_cash_flow": 279840
       },
       "semantic": false,
       "weight": 10
@@ -2603,7 +2603,7 @@
       "id": "headline_values__cp_01_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_2_base_after_tax_cash_flow": 537024.0
+        "cp_01_year_2_base_after_tax_cash_flow": 537024
       },
       "semantic": false,
       "weight": 10
@@ -2614,7 +2614,7 @@
       "id": "headline_values__cp_01_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_2_downside_after_tax_cash_flow": 383808.0
+        "cp_01_year_2_downside_after_tax_cash_flow": 383808
       },
       "semantic": false,
       "weight": 10
@@ -2625,7 +2625,7 @@
       "id": "headline_values__cp_01_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_3_base_after_tax_cash_flow": 580800.0
+        "cp_01_year_3_base_after_tax_cash_flow": 580800
       },
       "semantic": false,
       "weight": 10
@@ -2636,7 +2636,7 @@
       "id": "headline_values__cp_01_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_3_downside_after_tax_cash_flow": 427584.0
+        "cp_01_year_3_downside_after_tax_cash_flow": 427584
       },
       "semantic": false,
       "weight": 10
@@ -2647,7 +2647,7 @@
       "id": "headline_values__cp_01_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_4_base_after_tax_cash_flow": 580800.0
+        "cp_01_year_4_base_after_tax_cash_flow": 580800
       },
       "semantic": false,
       "weight": 10
@@ -2658,7 +2658,7 @@
       "id": "headline_values__cp_01_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_4_downside_after_tax_cash_flow": 427584.0
+        "cp_01_year_4_downside_after_tax_cash_flow": 427584
       },
       "semantic": false,
       "weight": 10
@@ -2669,7 +2669,7 @@
       "id": "headline_values__cp_01_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_5_base_after_tax_cash_flow": 1048800.0
+        "cp_01_year_5_base_after_tax_cash_flow": 1048800
       },
       "semantic": false,
       "weight": 10
@@ -2680,7 +2680,7 @@
       "id": "headline_values__cp_01_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_01_year_5_downside_after_tax_cash_flow": 895584.0
+        "cp_01_year_5_downside_after_tax_cash_flow": 895584
       },
       "semantic": false,
       "weight": 10
@@ -2691,7 +2691,7 @@
       "id": "headline_values__cp_02_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_initial_capex": 3200000.0
+        "cp_02_initial_capex": 3200000
       },
       "semantic": false,
       "weight": 10
@@ -2702,7 +2702,7 @@
       "id": "headline_values__cp_02_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_technician_capacity": 5.0
+        "cp_02_technician_capacity": 5
       },
       "semantic": false,
       "weight": 10
@@ -2779,7 +2779,7 @@
       "id": "headline_values__cp_02_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_1_base_after_tax_cash_flow": 550480.0
+        "cp_02_year_1_base_after_tax_cash_flow": 550480
       },
       "semantic": false,
       "weight": 10
@@ -2790,7 +2790,7 @@
       "id": "headline_values__cp_02_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_1_downside_after_tax_cash_flow": 371880.0
+        "cp_02_year_1_downside_after_tax_cash_flow": 371880
       },
       "semantic": false,
       "weight": 10
@@ -2801,7 +2801,7 @@
       "id": "headline_values__cp_02_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_2_base_after_tax_cash_flow": 707648.0
+        "cp_02_year_2_base_after_tax_cash_flow": 707648
       },
       "semantic": false,
       "weight": 10
@@ -2812,7 +2812,7 @@
       "id": "headline_values__cp_02_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_2_downside_after_tax_cash_flow": 507616.0
+        "cp_02_year_2_downside_after_tax_cash_flow": 507616
       },
       "semantic": false,
       "weight": 10
@@ -2823,7 +2823,7 @@
       "id": "headline_values__cp_02_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_3_base_after_tax_cash_flow": 764800.0
+        "cp_02_year_3_base_after_tax_cash_flow": 764800
       },
       "semantic": false,
       "weight": 10
@@ -2834,7 +2834,7 @@
       "id": "headline_values__cp_02_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_3_downside_after_tax_cash_flow": 564768.0
+        "cp_02_year_3_downside_after_tax_cash_flow": 564768
       },
       "semantic": false,
       "weight": 10
@@ -2845,7 +2845,7 @@
       "id": "headline_values__cp_02_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_4_base_after_tax_cash_flow": 764800.0
+        "cp_02_year_4_base_after_tax_cash_flow": 764800
       },
       "semantic": false,
       "weight": 10
@@ -2856,7 +2856,7 @@
       "id": "headline_values__cp_02_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_4_downside_after_tax_cash_flow": 564768.0
+        "cp_02_year_4_downside_after_tax_cash_flow": 564768
       },
       "semantic": false,
       "weight": 10
@@ -2867,7 +2867,7 @@
       "id": "headline_values__cp_02_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_5_base_after_tax_cash_flow": 1500800.0
+        "cp_02_year_5_base_after_tax_cash_flow": 1500800
       },
       "semantic": false,
       "weight": 10
@@ -2878,7 +2878,7 @@
       "id": "headline_values__cp_02_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_02_year_5_downside_after_tax_cash_flow": 1300768.0
+        "cp_02_year_5_downside_after_tax_cash_flow": 1300768
       },
       "semantic": false,
       "weight": 10
@@ -2889,7 +2889,7 @@
       "id": "headline_values__cp_03_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_initial_capex": 1650000.0
+        "cp_03_initial_capex": 1650000
       },
       "semantic": false,
       "weight": 10
@@ -2900,7 +2900,7 @@
       "id": "headline_values__cp_03_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_technician_capacity": 2.0
+        "cp_03_technician_capacity": 2
       },
       "semantic": false,
       "weight": 10
@@ -2977,7 +2977,7 @@
       "id": "headline_values__cp_03_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_1_base_after_tax_cash_flow": 347320.0
+        "cp_03_year_1_base_after_tax_cash_flow": 347320
       },
       "semantic": false,
       "weight": 10
@@ -2988,7 +2988,7 @@
       "id": "headline_values__cp_03_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_1_downside_after_tax_cash_flow": 231420.0
+        "cp_03_year_1_downside_after_tax_cash_flow": 231420
       },
       "semantic": false,
       "weight": 10
@@ -2999,7 +2999,7 @@
       "id": "headline_values__cp_03_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_2_base_after_tax_cash_flow": 449312.0
+        "cp_03_year_2_base_after_tax_cash_flow": 449312
       },
       "semantic": false,
       "weight": 10
@@ -3010,7 +3010,7 @@
       "id": "headline_values__cp_03_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_2_downside_after_tax_cash_flow": 319504.0
+        "cp_03_year_2_downside_after_tax_cash_flow": 319504
       },
       "semantic": false,
       "weight": 10
@@ -3021,7 +3021,7 @@
       "id": "headline_values__cp_03_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_3_base_after_tax_cash_flow": 486400.0
+        "cp_03_year_3_base_after_tax_cash_flow": 486400
       },
       "semantic": false,
       "weight": 10
@@ -3032,7 +3032,7 @@
       "id": "headline_values__cp_03_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_3_downside_after_tax_cash_flow": 356592.0
+        "cp_03_year_3_downside_after_tax_cash_flow": 356592
       },
       "semantic": false,
       "weight": 10
@@ -3043,7 +3043,7 @@
       "id": "headline_values__cp_03_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_4_base_after_tax_cash_flow": 486400.0
+        "cp_03_year_4_base_after_tax_cash_flow": 486400
       },
       "semantic": false,
       "weight": 10
@@ -3054,7 +3054,7 @@
       "id": "headline_values__cp_03_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_4_downside_after_tax_cash_flow": 356592.0
+        "cp_03_year_4_downside_after_tax_cash_flow": 356592
       },
       "semantic": false,
       "weight": 10
@@ -3065,7 +3065,7 @@
       "id": "headline_values__cp_03_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_5_base_after_tax_cash_flow": 863400.0
+        "cp_03_year_5_base_after_tax_cash_flow": 863400
       },
       "semantic": false,
       "weight": 10
@@ -3076,7 +3076,7 @@
       "id": "headline_values__cp_03_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_year_5_downside_after_tax_cash_flow": 733592.0
+        "cp_03_year_5_downside_after_tax_cash_flow": 733592
       },
       "semantic": false,
       "weight": 10
@@ -3087,7 +3087,7 @@
       "id": "headline_values__cp_04_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_initial_capex": 2450000.0
+        "cp_04_initial_capex": 2450000
       },
       "semantic": false,
       "weight": 10
@@ -3098,7 +3098,7 @@
       "id": "headline_values__cp_04_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_technician_capacity": 4.0
+        "cp_04_technician_capacity": 4
       },
       "semantic": false,
       "weight": 10
@@ -3175,7 +3175,7 @@
       "id": "headline_values__cp_04_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_1_base_after_tax_cash_flow": 497640.0
+        "cp_04_year_1_base_after_tax_cash_flow": 497640
       },
       "semantic": false,
       "weight": 10
@@ -3186,7 +3186,7 @@
       "id": "headline_values__cp_04_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_1_downside_after_tax_cash_flow": 332340.0
+        "cp_04_year_1_downside_after_tax_cash_flow": 332340
       },
       "semantic": false,
       "weight": 10
@@ -3197,7 +3197,7 @@
       "id": "headline_values__cp_04_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_2_base_after_tax_cash_flow": 643104.0
+        "cp_04_year_2_base_after_tax_cash_flow": 643104
       },
       "semantic": false,
       "weight": 10
@@ -3208,7 +3208,7 @@
       "id": "headline_values__cp_04_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_2_downside_after_tax_cash_flow": 457968.0
+        "cp_04_year_2_downside_after_tax_cash_flow": 457968
       },
       "semantic": false,
       "weight": 10
@@ -3219,7 +3219,7 @@
       "id": "headline_values__cp_04_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_3_base_after_tax_cash_flow": 696000.0
+        "cp_04_year_3_base_after_tax_cash_flow": 696000
       },
       "semantic": false,
       "weight": 10
@@ -3230,7 +3230,7 @@
       "id": "headline_values__cp_04_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_3_downside_after_tax_cash_flow": 510864.0
+        "cp_04_year_3_downside_after_tax_cash_flow": 510864
       },
       "semantic": false,
       "weight": 10
@@ -3241,7 +3241,7 @@
       "id": "headline_values__cp_04_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_4_base_after_tax_cash_flow": 696000.0
+        "cp_04_year_4_base_after_tax_cash_flow": 696000
       },
       "semantic": false,
       "weight": 10
@@ -3252,7 +3252,7 @@
       "id": "headline_values__cp_04_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_4_downside_after_tax_cash_flow": 510864.0
+        "cp_04_year_4_downside_after_tax_cash_flow": 510864
       },
       "semantic": false,
       "weight": 10
@@ -3263,7 +3263,7 @@
       "id": "headline_values__cp_04_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_5_base_after_tax_cash_flow": 1257000.0
+        "cp_04_year_5_base_after_tax_cash_flow": 1257000
       },
       "semantic": false,
       "weight": 10
@@ -3274,7 +3274,7 @@
       "id": "headline_values__cp_04_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_year_5_downside_after_tax_cash_flow": 1071864.0
+        "cp_04_year_5_downside_after_tax_cash_flow": 1071864
       },
       "semantic": false,
       "weight": 10
@@ -3285,7 +3285,7 @@
       "id": "headline_values__cp_05_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_initial_capex": 3600000.0
+        "cp_05_initial_capex": 3600000
       },
       "semantic": false,
       "weight": 10
@@ -3296,7 +3296,7 @@
       "id": "headline_values__cp_05_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_technician_capacity": 6.0
+        "cp_05_technician_capacity": 6
       },
       "semantic": false,
       "weight": 10
@@ -3373,7 +3373,7 @@
       "id": "headline_values__cp_05_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_1_base_after_tax_cash_flow": 599720.0
+        "cp_05_year_1_base_after_tax_cash_flow": 599720
       },
       "semantic": false,
       "weight": 10
@@ -3384,7 +3384,7 @@
       "id": "headline_values__cp_05_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_1_downside_after_tax_cash_flow": 407820.0
+        "cp_05_year_1_downside_after_tax_cash_flow": 407820
       },
       "semantic": false,
       "weight": 10
@@ -3395,7 +3395,7 @@
       "id": "headline_values__cp_05_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_2_base_after_tax_cash_flow": 768592.0
+        "cp_05_year_2_base_after_tax_cash_flow": 768592
       },
       "semantic": false,
       "weight": 10
@@ -3406,7 +3406,7 @@
       "id": "headline_values__cp_05_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_2_downside_after_tax_cash_flow": 553664.0
+        "cp_05_year_2_downside_after_tax_cash_flow": 553664
       },
       "semantic": false,
       "weight": 10
@@ -3417,7 +3417,7 @@
       "id": "headline_values__cp_05_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_3_base_after_tax_cash_flow": 830000.0
+        "cp_05_year_3_base_after_tax_cash_flow": 830000
       },
       "semantic": false,
       "weight": 10
@@ -3428,7 +3428,7 @@
       "id": "headline_values__cp_05_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_3_downside_after_tax_cash_flow": 615072.0
+        "cp_05_year_3_downside_after_tax_cash_flow": 615072
       },
       "semantic": false,
       "weight": 10
@@ -3439,7 +3439,7 @@
       "id": "headline_values__cp_05_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_4_base_after_tax_cash_flow": 830000.0
+        "cp_05_year_4_base_after_tax_cash_flow": 830000
       },
       "semantic": false,
       "weight": 10
@@ -3450,7 +3450,7 @@
       "id": "headline_values__cp_05_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_4_downside_after_tax_cash_flow": 615072.0
+        "cp_05_year_4_downside_after_tax_cash_flow": 615072
       },
       "semantic": false,
       "weight": 10
@@ -3461,7 +3461,7 @@
       "id": "headline_values__cp_05_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_5_base_after_tax_cash_flow": 1653000.0
+        "cp_05_year_5_base_after_tax_cash_flow": 1653000
       },
       "semantic": false,
       "weight": 10
@@ -3472,7 +3472,7 @@
       "id": "headline_values__cp_05_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_05_year_5_downside_after_tax_cash_flow": 1438072.0
+        "cp_05_year_5_downside_after_tax_cash_flow": 1438072
       },
       "semantic": false,
       "weight": 10
@@ -3483,7 +3483,7 @@
       "id": "headline_values__cp_06_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_initial_capex": 1250000.0
+        "cp_06_initial_capex": 1250000
       },
       "semantic": false,
       "weight": 10
@@ -3494,7 +3494,7 @@
       "id": "headline_values__cp_06_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_technician_capacity": 3.0
+        "cp_06_technician_capacity": 3
       },
       "semantic": false,
       "weight": 10
@@ -3571,7 +3571,7 @@
       "id": "headline_values__cp_06_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_1_base_after_tax_cash_flow": 208320.0
+        "cp_06_year_1_base_after_tax_cash_flow": 208320
       },
       "semantic": false,
       "weight": 10
@@ -3582,7 +3582,7 @@
       "id": "headline_values__cp_06_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_1_downside_after_tax_cash_flow": 139920.0
+        "cp_06_year_1_downside_after_tax_cash_flow": 139920
       },
       "semantic": false,
       "weight": 10
@@ -3593,7 +3593,7 @@
       "id": "headline_values__cp_06_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_2_base_after_tax_cash_flow": 268512.0
+        "cp_06_year_2_base_after_tax_cash_flow": 268512
       },
       "semantic": false,
       "weight": 10
@@ -3604,7 +3604,7 @@
       "id": "headline_values__cp_06_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_2_downside_after_tax_cash_flow": 191904.0
+        "cp_06_year_2_downside_after_tax_cash_flow": 191904
       },
       "semantic": false,
       "weight": 10
@@ -3615,7 +3615,7 @@
       "id": "headline_values__cp_06_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_3_base_after_tax_cash_flow": 290400.0
+        "cp_06_year_3_base_after_tax_cash_flow": 290400
       },
       "semantic": false,
       "weight": 10
@@ -3626,7 +3626,7 @@
       "id": "headline_values__cp_06_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_3_downside_after_tax_cash_flow": 213792.0
+        "cp_06_year_3_downside_after_tax_cash_flow": 213792
       },
       "semantic": false,
       "weight": 10
@@ -3637,7 +3637,7 @@
       "id": "headline_values__cp_06_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_4_base_after_tax_cash_flow": 290400.0
+        "cp_06_year_4_base_after_tax_cash_flow": 290400
       },
       "semantic": false,
       "weight": 10
@@ -3648,7 +3648,7 @@
       "id": "headline_values__cp_06_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_4_downside_after_tax_cash_flow": 213792.0
+        "cp_06_year_4_downside_after_tax_cash_flow": 213792
       },
       "semantic": false,
       "weight": 10
@@ -3659,7 +3659,7 @@
       "id": "headline_values__cp_06_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_5_base_after_tax_cash_flow": 570400.0
+        "cp_06_year_5_base_after_tax_cash_flow": 570400
       },
       "semantic": false,
       "weight": 10
@@ -3670,7 +3670,7 @@
       "id": "headline_values__cp_06_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_06_year_5_downside_after_tax_cash_flow": 493792.0
+        "cp_06_year_5_downside_after_tax_cash_flow": 493792
       },
       "semantic": false,
       "weight": 10
@@ -3681,7 +3681,7 @@
       "id": "headline_values__cp_07_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_initial_capex": 2300000.0
+        "cp_07_initial_capex": 2300000
       },
       "semantic": false,
       "weight": 10
@@ -3692,7 +3692,7 @@
       "id": "headline_values__cp_07_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_technician_capacity": 2.0
+        "cp_07_technician_capacity": 2
       },
       "semantic": false,
       "weight": 10
@@ -3769,7 +3769,7 @@
       "id": "headline_values__cp_07_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_1_base_after_tax_cash_flow": 447880.0
+        "cp_07_year_1_base_after_tax_cash_flow": 447880
       },
       "semantic": false,
       "weight": 10
@@ -3780,7 +3780,7 @@
       "id": "headline_values__cp_07_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_1_downside_after_tax_cash_flow": 297780.0
+        "cp_07_year_1_downside_after_tax_cash_flow": 297780
       },
       "semantic": false,
       "weight": 10
@@ -3791,7 +3791,7 @@
       "id": "headline_values__cp_07_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_2_base_after_tax_cash_flow": 579968.0
+        "cp_07_year_2_base_after_tax_cash_flow": 579968
       },
       "semantic": false,
       "weight": 10
@@ -3802,7 +3802,7 @@
       "id": "headline_values__cp_07_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_2_downside_after_tax_cash_flow": 411856.0
+        "cp_07_year_2_downside_after_tax_cash_flow": 411856
       },
       "semantic": false,
       "weight": 10
@@ -3813,7 +3813,7 @@
       "id": "headline_values__cp_07_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_3_base_after_tax_cash_flow": 628000.0
+        "cp_07_year_3_base_after_tax_cash_flow": 628000
       },
       "semantic": false,
       "weight": 10
@@ -3824,7 +3824,7 @@
       "id": "headline_values__cp_07_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_3_downside_after_tax_cash_flow": 459888.0
+        "cp_07_year_3_downside_after_tax_cash_flow": 459888
       },
       "semantic": false,
       "weight": 10
@@ -3835,7 +3835,7 @@
       "id": "headline_values__cp_07_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_4_base_after_tax_cash_flow": 628000.0
+        "cp_07_year_4_base_after_tax_cash_flow": 628000
       },
       "semantic": false,
       "weight": 10
@@ -3846,7 +3846,7 @@
       "id": "headline_values__cp_07_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_4_downside_after_tax_cash_flow": 459888.0
+        "cp_07_year_4_downside_after_tax_cash_flow": 459888
       },
       "semantic": false,
       "weight": 10
@@ -3857,7 +3857,7 @@
       "id": "headline_values__cp_07_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_5_base_after_tax_cash_flow": 1142000.0
+        "cp_07_year_5_base_after_tax_cash_flow": 1142000
       },
       "semantic": false,
       "weight": 10
@@ -3868,7 +3868,7 @@
       "id": "headline_values__cp_07_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_07_year_5_downside_after_tax_cash_flow": 973888.0
+        "cp_07_year_5_downside_after_tax_cash_flow": 973888
       },
       "semantic": false,
       "weight": 10
@@ -3879,7 +3879,7 @@
       "id": "headline_values__cp_08_initial_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_initial_capex": 900000.0
+        "cp_08_initial_capex": 900000
       },
       "semantic": false,
       "weight": 10
@@ -3890,7 +3890,7 @@
       "id": "headline_values__cp_08_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_technician_capacity": 1.0
+        "cp_08_technician_capacity": 1
       },
       "semantic": false,
       "weight": 10
@@ -3967,7 +3967,7 @@
       "id": "headline_values__cp_08_year_1_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_1_base_after_tax_cash_flow": 145000.0
+        "cp_08_year_1_base_after_tax_cash_flow": 145000
       },
       "semantic": false,
       "weight": 10
@@ -3978,7 +3978,7 @@
       "id": "headline_values__cp_08_year_1_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_1_downside_after_tax_cash_flow": 97500.0
+        "cp_08_year_1_downside_after_tax_cash_flow": 97500
       },
       "semantic": false,
       "weight": 10
@@ -3989,7 +3989,7 @@
       "id": "headline_values__cp_08_year_2_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_2_base_after_tax_cash_flow": 186800.0
+        "cp_08_year_2_base_after_tax_cash_flow": 186800
       },
       "semantic": false,
       "weight": 10
@@ -4000,7 +4000,7 @@
       "id": "headline_values__cp_08_year_2_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_2_downside_after_tax_cash_flow": 133600.0
+        "cp_08_year_2_downside_after_tax_cash_flow": 133600
       },
       "semantic": false,
       "weight": 10
@@ -4011,7 +4011,7 @@
       "id": "headline_values__cp_08_year_3_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_3_base_after_tax_cash_flow": 202000.0
+        "cp_08_year_3_base_after_tax_cash_flow": 202000
       },
       "semantic": false,
       "weight": 10
@@ -4022,7 +4022,7 @@
       "id": "headline_values__cp_08_year_3_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_3_downside_after_tax_cash_flow": 148800.0
+        "cp_08_year_3_downside_after_tax_cash_flow": 148800
       },
       "semantic": false,
       "weight": 10
@@ -4033,7 +4033,7 @@
       "id": "headline_values__cp_08_year_4_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_4_base_after_tax_cash_flow": 202000.0
+        "cp_08_year_4_base_after_tax_cash_flow": 202000
       },
       "semantic": false,
       "weight": 10
@@ -4044,7 +4044,7 @@
       "id": "headline_values__cp_08_year_4_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_4_downside_after_tax_cash_flow": 148800.0
+        "cp_08_year_4_downside_after_tax_cash_flow": 148800
       },
       "semantic": false,
       "weight": 10
@@ -4055,7 +4055,7 @@
       "id": "headline_values__cp_08_year_5_base_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_5_base_after_tax_cash_flow": 404000.0
+        "cp_08_year_5_base_after_tax_cash_flow": 404000
       },
       "semantic": false,
       "weight": 10
@@ -4066,7 +4066,7 @@
       "id": "headline_values__cp_08_year_5_downside_after_tax_cash_flow",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_08_year_5_downside_after_tax_cash_flow": 350800.0
+        "cp_08_year_5_downside_after_tax_cash_flow": 350800
       },
       "semantic": false,
       "weight": 10
@@ -4093,7 +4093,7 @@
       "id": "headline_values__cp_03_unavailable_selected_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_unavailable_selected_capex": 7750000.0
+        "cp_03_unavailable_selected_capex": 7750000
       },
       "semantic": false,
       "weight": 10
@@ -4104,7 +4104,7 @@
       "id": "headline_values__cp_03_unavailable_selected_cash_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_unavailable_selected_cash_funding": 4150000.0
+        "cp_03_unavailable_selected_cash_funding": 4150000
       },
       "semantic": false,
       "weight": 10
@@ -4115,7 +4115,7 @@
       "id": "headline_values__cp_03_unavailable_selected_debt_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_unavailable_selected_debt_funding": 3600000.0
+        "cp_03_unavailable_selected_debt_funding": 3600000
       },
       "semantic": false,
       "weight": 10
@@ -4126,7 +4126,7 @@
       "id": "headline_values__cp_03_unavailable_selected_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_unavailable_selected_technician_capacity": 10.0
+        "cp_03_unavailable_selected_technician_capacity": 10
       },
       "semantic": false,
       "weight": 10
@@ -4170,7 +4170,7 @@
       "id": "headline_values__cp_03_unavailable_cash_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_unavailable_cash_headroom": 3450000.0
+        "cp_03_unavailable_cash_headroom": 3450000
       },
       "semantic": false,
       "weight": 10
@@ -4181,7 +4181,7 @@
       "id": "headline_values__cp_03_unavailable_debt_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_unavailable_debt_headroom": 400000.0
+        "cp_03_unavailable_debt_headroom": 400000
       },
       "semantic": false,
       "weight": 10
@@ -4192,7 +4192,7 @@
       "id": "headline_values__cp_03_unavailable_technician_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_03_unavailable_technician_headroom": 2.0
+        "cp_03_unavailable_technician_headroom": 2
       },
       "semantic": false,
       "weight": 10
@@ -4252,7 +4252,7 @@
       "id": "headline_values__cp_04_unavailable_selected_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_unavailable_selected_capex": 6950000.0
+        "cp_04_unavailable_selected_capex": 6950000
       },
       "semantic": false,
       "weight": 10
@@ -4263,7 +4263,7 @@
       "id": "headline_values__cp_04_unavailable_selected_cash_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_unavailable_selected_cash_funding": 4050000.0
+        "cp_04_unavailable_selected_cash_funding": 4050000
       },
       "semantic": false,
       "weight": 10
@@ -4274,7 +4274,7 @@
       "id": "headline_values__cp_04_unavailable_selected_debt_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_unavailable_selected_debt_funding": 2900000.0
+        "cp_04_unavailable_selected_debt_funding": 2900000
       },
       "semantic": false,
       "weight": 10
@@ -4285,7 +4285,7 @@
       "id": "headline_values__cp_04_unavailable_selected_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_unavailable_selected_technician_capacity": 8.0
+        "cp_04_unavailable_selected_technician_capacity": 8
       },
       "semantic": false,
       "weight": 10
@@ -4329,7 +4329,7 @@
       "id": "headline_values__cp_04_unavailable_cash_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_unavailable_cash_headroom": 3550000.0
+        "cp_04_unavailable_cash_headroom": 3550000
       },
       "semantic": false,
       "weight": 10
@@ -4340,7 +4340,7 @@
       "id": "headline_values__cp_04_unavailable_debt_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_unavailable_debt_headroom": 1100000.0
+        "cp_04_unavailable_debt_headroom": 1100000
       },
       "semantic": false,
       "weight": 10
@@ -4351,7 +4351,7 @@
       "id": "headline_values__cp_04_unavailable_technician_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cp_04_unavailable_technician_headroom": 4.0
+        "cp_04_unavailable_technician_headroom": 4
       },
       "semantic": false,
       "weight": 10
@@ -4412,7 +4412,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_selected_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_selected_capex": 9400000.0
+        "cash_capacity_down_20_percent_selected_capex": 9400000
       },
       "semantic": false,
       "weight": 10
@@ -4423,7 +4423,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_selected_cash_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_selected_cash_funding": 5400000.0
+        "cash_capacity_down_20_percent_selected_cash_funding": 5400000
       },
       "semantic": false,
       "weight": 10
@@ -4434,7 +4434,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_selected_debt_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_selected_debt_funding": 4000000.0
+        "cash_capacity_down_20_percent_selected_debt_funding": 4000000
       },
       "semantic": false,
       "weight": 10
@@ -4445,7 +4445,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_selected_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_selected_technician_capacity": 12.0
+        "cash_capacity_down_20_percent_selected_technician_capacity": 12
       },
       "semantic": false,
       "weight": 10
@@ -4478,7 +4478,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_base_npv_sacrifice",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_base_npv_sacrifice": 0.0
+        "cash_capacity_down_20_percent_base_npv_sacrifice": 0
       },
       "semantic": false,
       "weight": 10
@@ -4489,7 +4489,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_cash_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_cash_headroom": 680000.0
+        "cash_capacity_down_20_percent_cash_headroom": 680000
       },
       "semantic": false,
       "weight": 10
@@ -4500,7 +4500,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_debt_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_debt_headroom": 0.0
+        "cash_capacity_down_20_percent_debt_headroom": 0
       },
       "semantic": false,
       "weight": 10
@@ -4511,7 +4511,7 @@
       "id": "headline_values__cash_capacity_down_20_percent_technician_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "cash_capacity_down_20_percent_technician_headroom": 0.0
+        "cash_capacity_down_20_percent_technician_headroom": 0
       },
       "semantic": false,
       "weight": 10
@@ -4572,7 +4572,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_selected_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_selected_capex": 9400000.0
+        "debt_capacity_down_25_percent_selected_capex": 9400000
       },
       "semantic": false,
       "weight": 10
@@ -4583,7 +4583,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_selected_cash_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_selected_cash_funding": 6400000.0
+        "debt_capacity_down_25_percent_selected_cash_funding": 6400000
       },
       "semantic": false,
       "weight": 10
@@ -4594,7 +4594,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_selected_debt_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_selected_debt_funding": 3000000.0
+        "debt_capacity_down_25_percent_selected_debt_funding": 3000000
       },
       "semantic": false,
       "weight": 10
@@ -4605,7 +4605,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_selected_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_selected_technician_capacity": 12.0
+        "debt_capacity_down_25_percent_selected_technician_capacity": 12
       },
       "semantic": false,
       "weight": 10
@@ -4638,7 +4638,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_base_npv_sacrifice",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_base_npv_sacrifice": 0.0
+        "debt_capacity_down_25_percent_base_npv_sacrifice": 0
       },
       "semantic": false,
       "weight": 10
@@ -4649,7 +4649,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_cash_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_cash_headroom": 1200000.0
+        "debt_capacity_down_25_percent_cash_headroom": 1200000
       },
       "semantic": false,
       "weight": 10
@@ -4660,7 +4660,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_debt_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_debt_headroom": 0.0
+        "debt_capacity_down_25_percent_debt_headroom": 0
       },
       "semantic": false,
       "weight": 10
@@ -4671,7 +4671,7 @@
       "id": "headline_values__debt_capacity_down_25_percent_technician_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "debt_capacity_down_25_percent_technician_headroom": 0.0
+        "debt_capacity_down_25_percent_technician_headroom": 0
       },
       "semantic": false,
       "weight": 10
@@ -4731,7 +4731,7 @@
       "id": "headline_values__technician_capacity_down_25_percent_selected_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_down_25_percent_selected_capex": 6950000.0
+        "technician_capacity_down_25_percent_selected_capex": 6950000
       },
       "semantic": false,
       "weight": 10
@@ -4742,7 +4742,7 @@
       "id": "headline_values__technician_capacity_down_25_percent_selected_cash_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_down_25_percent_selected_cash_funding": 4050000.0
+        "technician_capacity_down_25_percent_selected_cash_funding": 4050000
       },
       "semantic": false,
       "weight": 10
@@ -4753,7 +4753,7 @@
       "id": "headline_values__technician_capacity_down_25_percent_selected_debt_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_down_25_percent_selected_debt_funding": 2900000.0
+        "technician_capacity_down_25_percent_selected_debt_funding": 2900000
       },
       "semantic": false,
       "weight": 10
@@ -4764,7 +4764,7 @@
       "id": "headline_values__technician_capacity_down_25_percent_selected_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_down_25_percent_selected_technician_capacity": 8.0
+        "technician_capacity_down_25_percent_selected_technician_capacity": 8
       },
       "semantic": false,
       "weight": 10
@@ -4808,7 +4808,7 @@
       "id": "headline_values__technician_capacity_down_25_percent_cash_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_down_25_percent_cash_headroom": 3550000.0
+        "technician_capacity_down_25_percent_cash_headroom": 3550000
       },
       "semantic": false,
       "weight": 10
@@ -4819,7 +4819,7 @@
       "id": "headline_values__technician_capacity_down_25_percent_debt_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_down_25_percent_debt_headroom": 1100000.0
+        "technician_capacity_down_25_percent_debt_headroom": 1100000
       },
       "semantic": false,
       "weight": 10
@@ -4830,7 +4830,7 @@
       "id": "headline_values__technician_capacity_down_25_percent_technician_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "technician_capacity_down_25_percent_technician_headroom": 1.0
+        "technician_capacity_down_25_percent_technician_headroom": 1
       },
       "semantic": false,
       "weight": 10
@@ -4888,7 +4888,7 @@
       "id": "headline_values__downside_npv_objective_selected_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_npv_objective_selected_capex": 3000000.0
+        "downside_npv_objective_selected_capex": 3000000
       },
       "semantic": false,
       "weight": 10
@@ -4899,7 +4899,7 @@
       "id": "headline_values__downside_npv_objective_selected_cash_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_npv_objective_selected_cash_funding": 3000000.0
+        "downside_npv_objective_selected_cash_funding": 3000000
       },
       "semantic": false,
       "weight": 10
@@ -4910,7 +4910,7 @@
       "id": "headline_values__downside_npv_objective_selected_debt_funding",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_npv_objective_selected_debt_funding": 0.0
+        "downside_npv_objective_selected_debt_funding": 0
       },
       "semantic": false,
       "weight": 10
@@ -4921,7 +4921,7 @@
       "id": "headline_values__downside_npv_objective_selected_technician_capacity",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_npv_objective_selected_technician_capacity": 4.0
+        "downside_npv_objective_selected_technician_capacity": 4
       },
       "semantic": false,
       "weight": 10
@@ -4965,7 +4965,7 @@
       "id": "headline_values__downside_npv_objective_cash_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_npv_objective_cash_headroom": 4600000.0
+        "downside_npv_objective_cash_headroom": 4600000
       },
       "semantic": false,
       "weight": 10
@@ -4976,7 +4976,7 @@
       "id": "headline_values__downside_npv_objective_debt_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_npv_objective_debt_headroom": 4000000.0
+        "downside_npv_objective_debt_headroom": 4000000
       },
       "semantic": false,
       "weight": 10
@@ -4987,7 +4987,7 @@
       "id": "headline_values__downside_npv_objective_technician_headroom",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_npv_objective_technician_headroom": 8.0
+        "downside_npv_objective_technician_headroom": 8
       },
       "semantic": false,
       "weight": 10

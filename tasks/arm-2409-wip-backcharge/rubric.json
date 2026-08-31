@@ -1,7 +1,7 @@
 {
   "criteria": null,
   "deterministic_verifier": "graders/apex.py",
-  "grading_revision": "weighted-atomic-hybrid-v27-full-population-register",
+  "grading_revision": "weighted-atomic-hybrid-v29-review-ready-controller-signoff",
   "integrity_verifier": "graders/integrity.py",
   "reference_contract": {
     "bridge": {

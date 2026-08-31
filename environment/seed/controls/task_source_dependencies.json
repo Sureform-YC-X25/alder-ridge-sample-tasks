@@ -10,7 +10,9 @@
         "prior close bridge",
         "PM ETC",
         "commercial status",
-        "policy treatment"
+        "policy treatment",
+        "complete June posting population and offset control",
+        "evidence gaps, accountable owners, and close-release boundary"
       ],
       "minimum_source_artifacts": [
         "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
@@ -34,6 +36,7 @@
         "commercial and policy treatment",
         "formula outputs",
         "PM-to-close margin bridge",
+        "booked versus unbooked commercial exposure",
         "controller release decision and review queue",
         "accounting-to-workpaper roll-forward for job cost, billings, and current contract"
       ],
@@ -124,11 +127,17 @@
       "accounting_mcp_required": false,
       "data_group": "planning",
       "independent_fact_groups": [
+        "Capacity remediation",
+        "Execution authority",
         "Monthly capacity",
         "Project burn curve",
         "Signed contract backlog",
         "Management instructions and decision rules",
-        "Current-versus-prior source authority and reconciliation"
+        "Current-versus-prior source authority and reconciliation",
+        "Probability-plan versus full signed-commitment exposure",
+        "Capacity sign convention and approved response authority",
+        "Executable project sequencing and contractual consequences",
+        "Earnings bridge and executive recovery release decision"
       ],
       "mcp_anchor_types": [],
       "minimum_source_artifacts": [
@@ -143,7 +152,7 @@
         "Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx",
         "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx"
       ],
-      "native_fact_rows": 141,
+      "native_fact_rows": 213,
       "request_threads": [
         "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
         "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
@@ -251,16 +260,25 @@
       "accounting_mcp_required": true,
       "data_group": "reporting",
       "independent_fact_groups": [
+        "Approved lender metric basis",
         "Cash and capital",
+        "Credit metrics",
         "Full-year outlook",
+        "IR comparability bridge",
+        "Investor KPI controls",
         "Liquidity",
         "Performance diagnostics",
         "Q2 actual export",
         "Q2 approved plan",
+        "Signed guidance decision",
         "Management instructions and decision rules",
-        "Current-versus-prior source authority and reconciliation"
+        "Current-versus-prior source authority and reconciliation",
+        "Accounting and reporting tie",
+        "Combined downside and executable mitigation conversion",
+        "Guidance buffer, trigger, owners, and dated release gates"
       ],
       "mcp_anchor_types": [
+        "debt",
         "ytd_revenue"
       ],
       "minimum_source_artifacts": [
@@ -276,7 +294,7 @@
         "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
         "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx"
       ],
-      "native_fact_rows": 63,
+      "native_fact_rows": 83,
       "request_threads": [
         "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
         "Requests/7.5.26_0812am - board review changes + source tie.eml"

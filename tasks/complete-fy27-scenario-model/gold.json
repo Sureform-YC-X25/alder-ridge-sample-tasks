@@ -1,6 +1,6 @@
 {
   "answer": {
-    "base_capex": 3150000.0,
+    "base_capex": 3150000,
     "base_cash_taxes": 1610322.05,
     "base_consolidated_gross_profit": 17389763.02,
     "base_construction_gross_margin": 0.285,
@@ -10,7 +10,7 @@
     "base_ebitda": 6852434.24,
     "base_ebitda_margin": 0.13072007,
     "base_ending_cash_after_financing": 3891659.84,
-    "base_ending_revolver": 0.0,
+    "base_ending_revolver": 0,
     "base_fixed_opex": 8912287.9,
     "base_free_cash_flow": 1148540.08,
     "base_free_cash_flow_conversion": 0.16761052,
@@ -20,117 +20,117 @@
     "base_q1_beginning_cash": 3743119.76,
     "base_q1_cash_before_financing": 2622827.78,
     "base_q1_ending_cash": 2622827.78,
-    "base_q1_ending_revolver": 0.0,
+    "base_q1_ending_revolver": 0,
     "base_q1_free_cash_flow": 229708.02,
-    "base_q1_remaining_commitment": 8000000.0,
-    "base_q1_revolver_draw": 0.0,
-    "base_q1_revolver_repayment": 0.0,
-    "base_q1_scheduled_principal": 250000.0,
-    "base_q1_seasonal_cash_adjustment": -1100000.0,
+    "base_q1_remaining_commitment": 8000000,
+    "base_q1_revolver_draw": 0,
+    "base_q1_revolver_repayment": 0,
+    "base_q1_scheduled_principal": 250000,
+    "base_q1_seasonal_cash_adjustment": -1100000,
     "base_q2_beginning_cash": 2622827.78,
     "base_q2_cash_before_financing": 1645108.79,
-    "base_q2_ending_cash": 2250000.0,
+    "base_q2_ending_cash": 2250000,
     "base_q2_ending_revolver": 604891.21,
     "base_q2_free_cash_flow": 172281.01,
     "base_q2_remaining_commitment": 7395108.79,
     "base_q2_revolver_draw": 604891.21,
-    "base_q2_revolver_repayment": 0.0,
-    "base_q2_scheduled_principal": 250000.0,
-    "base_q2_seasonal_cash_adjustment": -900000.0,
-    "base_q3_beginning_cash": 2250000.0,
+    "base_q2_revolver_repayment": 0,
+    "base_q2_scheduled_principal": 250000,
+    "base_q2_seasonal_cash_adjustment": -900000,
+    "base_q3_beginning_cash": 2250000,
     "base_q3_cash_before_financing": 2787135.02,
-    "base_q3_ending_cash": 2250000.0,
+    "base_q3_ending_cash": 2250000,
     "base_q3_ending_revolver": 67756.19,
     "base_q3_free_cash_flow": 287135.02,
     "base_q3_remaining_commitment": 7932243.81,
-    "base_q3_revolver_draw": 0.0,
+    "base_q3_revolver_draw": 0,
     "base_q3_revolver_repayment": 537135.02,
-    "base_q3_scheduled_principal": 250000.0,
-    "base_q3_seasonal_cash_adjustment": 500000.0,
-    "base_q4_beginning_cash": 2250000.0,
+    "base_q3_scheduled_principal": 250000,
+    "base_q3_seasonal_cash_adjustment": 500000,
+    "base_q4_beginning_cash": 2250000,
     "base_q4_cash_before_financing": 3959416.03,
     "base_q4_ending_cash": 3891659.84,
-    "base_q4_ending_revolver": 0.0,
+    "base_q4_ending_revolver": 0,
     "base_q4_free_cash_flow": 459416.03,
-    "base_q4_remaining_commitment": 8000000.0,
-    "base_q4_revolver_draw": 0.0,
+    "base_q4_remaining_commitment": 8000000,
+    "base_q4_revolver_draw": 0,
     "base_q4_revolver_repayment": 67756.19,
-    "base_q4_scheduled_principal": 250000.0,
-    "base_q4_seasonal_cash_adjustment": 1500000.0,
+    "base_q4_scheduled_principal": 250000,
+    "base_q4_seasonal_cash_adjustment": 1500000,
     "base_service_gross_margin": 0.41,
     "base_service_revenue": 14371795.78,
     "base_total_revenue": 52420673.41,
     "base_variable_opex": 1625040.88,
     "base_working_capital_investment": 943572.12,
     "contingency_13_week_ending_cash": 2443148.3,
-    "contingency_13_week_ending_revolver": 0.0,
+    "contingency_13_week_ending_revolver": 0,
     "contingency_13_week_minimum_cash_before_financing": 2443148.3,
-    "contingency_13_week_peak_revolver": 0.0,
+    "contingency_13_week_peak_revolver": 0,
     "contingency_13_week_release_status": "Release",
-    "contingency_13_week_remaining_commitment": 8000000.0,
+    "contingency_13_week_remaining_commitment": 8000000,
     "contingency_adjusted_downside_ebitda": 4284429.63,
     "contingency_adjusted_downside_ebitda_margin": 0.09204729,
     "contingency_adjusted_downside_free_cash_flow": 530911.92,
-    "contingency_annual_ebitda_benefit": 1050000.0,
-    "contingency_annual_operating_cash_benefit": 800000.0,
-    "contingency_capex_deferral_annual_ebitda_benefit": 0.0,
-    "contingency_capex_deferral_annual_operating_cash_benefit": 850000.0,
+    "contingency_annual_ebitda_benefit": 1050000,
+    "contingency_annual_operating_cash_benefit": 800000,
+    "contingency_capex_deferral_annual_ebitda_benefit": 0,
+    "contingency_capex_deferral_annual_operating_cash_benefit": 850000,
     "contingency_capex_deferral_decision_status": "Not selected",
     "contingency_capex_deferral_earliest_activation_week": 1,
-    "contingency_capex_deferral_implementation_cash_cost": 0.0,
-    "contingency_capex_deferral_q1_net_cash_benefit": 212500.0,
-    "contingency_capex_deferral_q1_operating_cash_benefit": 212500.0,
+    "contingency_capex_deferral_implementation_cash_cost": 0,
+    "contingency_capex_deferral_q1_net_cash_benefit": 212500,
+    "contingency_capex_deferral_q1_operating_cash_benefit": 212500,
     "contingency_capex_deferral_q1_weeks_active": 13,
     "contingency_capex_deferral_selected": false,
     "contingency_capex_deferral_selection_rank": 0,
-    "contingency_collections_acceleration_annual_ebitda_benefit": 0.0,
-    "contingency_collections_acceleration_annual_operating_cash_benefit": 650000.0,
+    "contingency_collections_acceleration_annual_ebitda_benefit": 0,
+    "contingency_collections_acceleration_annual_operating_cash_benefit": 650000,
     "contingency_collections_acceleration_decision_status": "Not selected",
     "contingency_collections_acceleration_earliest_activation_week": 1,
-    "contingency_collections_acceleration_implementation_cash_cost": 40000.0,
-    "contingency_collections_acceleration_q1_net_cash_benefit": 122500.0,
-    "contingency_collections_acceleration_q1_operating_cash_benefit": 162500.0,
+    "contingency_collections_acceleration_implementation_cash_cost": 40000,
+    "contingency_collections_acceleration_q1_net_cash_benefit": 122500,
+    "contingency_collections_acceleration_q1_operating_cash_benefit": 162500,
     "contingency_collections_acceleration_q1_weeks_active": 13,
     "contingency_collections_acceleration_selected": false,
     "contingency_collections_acceleration_selection_rank": 0,
-    "contingency_construction_pricing_annual_ebitda_benefit": 700000.0,
-    "contingency_construction_pricing_annual_operating_cash_benefit": 520000.0,
+    "contingency_construction_pricing_annual_ebitda_benefit": 700000,
+    "contingency_construction_pricing_annual_operating_cash_benefit": 520000,
     "contingency_construction_pricing_decision_status": "Selected",
     "contingency_construction_pricing_earliest_activation_week": 3,
-    "contingency_construction_pricing_implementation_cash_cost": 50000.0,
-    "contingency_construction_pricing_q1_net_cash_benefit": 60000.0,
-    "contingency_construction_pricing_q1_operating_cash_benefit": 110000.0,
+    "contingency_construction_pricing_implementation_cash_cost": 50000,
+    "contingency_construction_pricing_q1_net_cash_benefit": 60000,
+    "contingency_construction_pricing_q1_operating_cash_benefit": 110000,
     "contingency_construction_pricing_q1_weeks_active": 11,
     "contingency_construction_pricing_selected": true,
     "contingency_construction_pricing_selection_rank": 1,
-    "contingency_controls_mix_annual_ebitda_benefit": 350000.0,
-    "contingency_controls_mix_annual_operating_cash_benefit": 280000.0,
+    "contingency_controls_mix_annual_ebitda_benefit": 350000,
+    "contingency_controls_mix_annual_operating_cash_benefit": 280000,
     "contingency_controls_mix_decision_status": "Selected",
     "contingency_controls_mix_earliest_activation_week": 4,
-    "contingency_controls_mix_implementation_cash_cost": 25000.0,
+    "contingency_controls_mix_implementation_cash_cost": 25000,
     "contingency_controls_mix_q1_net_cash_benefit": 28846.15,
     "contingency_controls_mix_q1_operating_cash_benefit": 53846.15,
     "contingency_controls_mix_q1_weeks_active": 10,
     "contingency_controls_mix_selected": true,
     "contingency_controls_mix_selection_rank": 2,
     "contingency_ebitda_margin_headroom": 0.00204729,
-    "contingency_fixed_opex_freeze_annual_ebitda_benefit": 600000.0,
-    "contingency_fixed_opex_freeze_annual_operating_cash_benefit": 520000.0,
+    "contingency_fixed_opex_freeze_annual_ebitda_benefit": 600000,
+    "contingency_fixed_opex_freeze_annual_operating_cash_benefit": 520000,
     "contingency_fixed_opex_freeze_decision_status": "Not selected",
     "contingency_fixed_opex_freeze_earliest_activation_week": 1,
-    "contingency_fixed_opex_freeze_implementation_cash_cost": 100000.0,
-    "contingency_fixed_opex_freeze_q1_net_cash_benefit": 30000.0,
-    "contingency_fixed_opex_freeze_q1_operating_cash_benefit": 130000.0,
+    "contingency_fixed_opex_freeze_implementation_cash_cost": 100000,
+    "contingency_fixed_opex_freeze_q1_net_cash_benefit": 30000,
+    "contingency_fixed_opex_freeze_q1_operating_cash_benefit": 130000,
     "contingency_fixed_opex_freeze_q1_weeks_active": 13,
     "contingency_fixed_opex_freeze_selected": false,
     "contingency_fixed_opex_freeze_selection_rank": 0,
     "contingency_free_cash_flow_headroom": 530911.92,
-    "contingency_implementation_cash_cost": 75000.0,
-    "contingency_procurement_savings_annual_ebitda_benefit": 450000.0,
-    "contingency_procurement_savings_annual_operating_cash_benefit": 360000.0,
+    "contingency_implementation_cash_cost": 75000,
+    "contingency_procurement_savings_annual_ebitda_benefit": 450000,
+    "contingency_procurement_savings_annual_operating_cash_benefit": 360000,
     "contingency_procurement_savings_decision_status": "Not selected",
     "contingency_procurement_savings_earliest_activation_week": 5,
-    "contingency_procurement_savings_implementation_cash_cost": 35000.0,
+    "contingency_procurement_savings_implementation_cash_cost": 35000,
     "contingency_procurement_savings_q1_net_cash_benefit": 27307.69,
     "contingency_procurement_savings_q1_operating_cash_benefit": 62307.69,
     "contingency_procurement_savings_q1_weeks_active": 9,
@@ -138,21 +138,21 @@
     "contingency_procurement_savings_selection_rank": 0,
     "contingency_selected_action_count": 2,
     "contingency_selected_actions": "Construction pricing, Controls mix",
-    "contingency_service_productivity_annual_ebitda_benefit": 500000.0,
-    "contingency_service_productivity_annual_operating_cash_benefit": 410000.0,
+    "contingency_service_productivity_annual_ebitda_benefit": 500000,
+    "contingency_service_productivity_annual_operating_cash_benefit": 410000,
     "contingency_service_productivity_decision_status": "Not selected",
     "contingency_service_productivity_earliest_activation_week": 2,
-    "contingency_service_productivity_implementation_cash_cost": 75000.0,
+    "contingency_service_productivity_implementation_cash_cost": 75000,
     "contingency_service_productivity_q1_net_cash_benefit": 19615.38,
     "contingency_service_productivity_q1_operating_cash_benefit": 94615.38,
     "contingency_service_productivity_q1_weeks_active": 12,
     "contingency_service_productivity_selected": false,
     "contingency_service_productivity_selection_rank": 0,
-    "contingency_targeted_overhead_reduction_annual_ebitda_benefit": 800000.0,
-    "contingency_targeted_overhead_reduction_annual_operating_cash_benefit": 590000.0,
+    "contingency_targeted_overhead_reduction_annual_ebitda_benefit": 800000,
+    "contingency_targeted_overhead_reduction_annual_operating_cash_benefit": 590000,
     "contingency_targeted_overhead_reduction_decision_status": "Not selected",
     "contingency_targeted_overhead_reduction_earliest_activation_week": 2,
-    "contingency_targeted_overhead_reduction_implementation_cash_cost": 180000.0,
+    "contingency_targeted_overhead_reduction_implementation_cash_cost": 180000,
     "contingency_targeted_overhead_reduction_q1_net_cash_benefit": -43846.15,
     "contingency_targeted_overhead_reduction_q1_operating_cash_benefit": 136153.85,
     "contingency_targeted_overhead_reduction_q1_weeks_active": 12,
@@ -163,176 +163,176 @@
     "contingency_week_01_cash_before_financing": 3655518.4,
     "contingency_week_01_cash_headroom_to_floor": 1405518.4,
     "contingency_week_01_ending_cash": 3655518.4,
-    "contingency_week_01_ending_revolver": 0.0,
-    "contingency_week_01_implementation_cash_cost": 0.0,
-    "contingency_week_01_operating_cash_benefit": 0.0,
-    "contingency_week_01_remaining_commitment": 8000000.0,
-    "contingency_week_01_revolver_draw": 0.0,
-    "contingency_week_01_revolver_repayment": 0.0,
-    "contingency_week_01_scheduled_principal": 0.0,
+    "contingency_week_01_ending_revolver": 0,
+    "contingency_week_01_implementation_cash_cost": 0,
+    "contingency_week_01_operating_cash_benefit": 0,
+    "contingency_week_01_remaining_commitment": 8000000,
+    "contingency_week_01_revolver_draw": 0,
+    "contingency_week_01_revolver_repayment": 0,
+    "contingency_week_01_scheduled_principal": 0,
     "contingency_week_01_seasonal_cash_adjustment": -84615.38,
     "contingency_week_02_baseline_free_cash_flow": -2985.97,
     "contingency_week_02_beginning_cash": 3655518.4,
     "contingency_week_02_cash_before_financing": 3567917.05,
     "contingency_week_02_cash_headroom_to_floor": 1317917.05,
     "contingency_week_02_ending_cash": 3567917.05,
-    "contingency_week_02_ending_revolver": 0.0,
-    "contingency_week_02_implementation_cash_cost": 0.0,
-    "contingency_week_02_operating_cash_benefit": 0.0,
-    "contingency_week_02_remaining_commitment": 8000000.0,
-    "contingency_week_02_revolver_draw": 0.0,
-    "contingency_week_02_revolver_repayment": 0.0,
-    "contingency_week_02_scheduled_principal": 0.0,
+    "contingency_week_02_ending_revolver": 0,
+    "contingency_week_02_implementation_cash_cost": 0,
+    "contingency_week_02_operating_cash_benefit": 0,
+    "contingency_week_02_remaining_commitment": 8000000,
+    "contingency_week_02_revolver_draw": 0,
+    "contingency_week_02_revolver_repayment": 0,
+    "contingency_week_02_scheduled_principal": 0,
     "contingency_week_02_seasonal_cash_adjustment": -84615.38,
     "contingency_week_03_baseline_free_cash_flow": -2985.97,
     "contingency_week_03_beginning_cash": 3567917.05,
     "contingency_week_03_cash_before_financing": 3440315.69,
     "contingency_week_03_cash_headroom_to_floor": 1190315.69,
     "contingency_week_03_ending_cash": 3440315.69,
-    "contingency_week_03_ending_revolver": 0.0,
-    "contingency_week_03_implementation_cash_cost": 50000.0,
-    "contingency_week_03_operating_cash_benefit": 10000.0,
-    "contingency_week_03_remaining_commitment": 8000000.0,
-    "contingency_week_03_revolver_draw": 0.0,
-    "contingency_week_03_revolver_repayment": 0.0,
-    "contingency_week_03_scheduled_principal": 0.0,
+    "contingency_week_03_ending_revolver": 0,
+    "contingency_week_03_implementation_cash_cost": 50000,
+    "contingency_week_03_operating_cash_benefit": 10000,
+    "contingency_week_03_remaining_commitment": 8000000,
+    "contingency_week_03_revolver_draw": 0,
+    "contingency_week_03_revolver_repayment": 0,
+    "contingency_week_03_scheduled_principal": 0,
     "contingency_week_03_seasonal_cash_adjustment": -84615.38,
     "contingency_week_04_baseline_free_cash_flow": -2985.97,
     "contingency_week_04_beginning_cash": 3440315.69,
     "contingency_week_04_cash_before_financing": 3343098.96,
     "contingency_week_04_cash_headroom_to_floor": 1093098.96,
     "contingency_week_04_ending_cash": 3343098.96,
-    "contingency_week_04_ending_revolver": 0.0,
-    "contingency_week_04_implementation_cash_cost": 25000.0,
+    "contingency_week_04_ending_revolver": 0,
+    "contingency_week_04_implementation_cash_cost": 25000,
     "contingency_week_04_operating_cash_benefit": 15384.62,
-    "contingency_week_04_remaining_commitment": 8000000.0,
-    "contingency_week_04_revolver_draw": 0.0,
-    "contingency_week_04_revolver_repayment": 0.0,
-    "contingency_week_04_scheduled_principal": 0.0,
+    "contingency_week_04_remaining_commitment": 8000000,
+    "contingency_week_04_revolver_draw": 0,
+    "contingency_week_04_revolver_repayment": 0,
+    "contingency_week_04_scheduled_principal": 0,
     "contingency_week_04_seasonal_cash_adjustment": -84615.38,
     "contingency_week_05_baseline_free_cash_flow": -2985.97,
     "contingency_week_05_beginning_cash": 3343098.96,
     "contingency_week_05_cash_before_financing": 3270882.22,
     "contingency_week_05_cash_headroom_to_floor": 1020882.22,
     "contingency_week_05_ending_cash": 3270882.22,
-    "contingency_week_05_ending_revolver": 0.0,
-    "contingency_week_05_implementation_cash_cost": 0.0,
+    "contingency_week_05_ending_revolver": 0,
+    "contingency_week_05_implementation_cash_cost": 0,
     "contingency_week_05_operating_cash_benefit": 15384.62,
-    "contingency_week_05_remaining_commitment": 8000000.0,
-    "contingency_week_05_revolver_draw": 0.0,
-    "contingency_week_05_revolver_repayment": 0.0,
-    "contingency_week_05_scheduled_principal": 0.0,
+    "contingency_week_05_remaining_commitment": 8000000,
+    "contingency_week_05_revolver_draw": 0,
+    "contingency_week_05_revolver_repayment": 0,
+    "contingency_week_05_scheduled_principal": 0,
     "contingency_week_05_seasonal_cash_adjustment": -84615.38,
     "contingency_week_06_baseline_free_cash_flow": -2985.97,
     "contingency_week_06_beginning_cash": 3270882.22,
     "contingency_week_06_cash_before_financing": 3198665.48,
     "contingency_week_06_cash_headroom_to_floor": 948665.48,
     "contingency_week_06_ending_cash": 3198665.48,
-    "contingency_week_06_ending_revolver": 0.0,
-    "contingency_week_06_implementation_cash_cost": 0.0,
+    "contingency_week_06_ending_revolver": 0,
+    "contingency_week_06_implementation_cash_cost": 0,
     "contingency_week_06_operating_cash_benefit": 15384.62,
-    "contingency_week_06_remaining_commitment": 8000000.0,
-    "contingency_week_06_revolver_draw": 0.0,
-    "contingency_week_06_revolver_repayment": 0.0,
-    "contingency_week_06_scheduled_principal": 0.0,
+    "contingency_week_06_remaining_commitment": 8000000,
+    "contingency_week_06_revolver_draw": 0,
+    "contingency_week_06_revolver_repayment": 0,
+    "contingency_week_06_scheduled_principal": 0,
     "contingency_week_06_seasonal_cash_adjustment": -84615.38,
     "contingency_week_07_baseline_free_cash_flow": -2985.97,
     "contingency_week_07_beginning_cash": 3198665.48,
     "contingency_week_07_cash_before_financing": 3126448.74,
     "contingency_week_07_cash_headroom_to_floor": 876448.74,
     "contingency_week_07_ending_cash": 3126448.74,
-    "contingency_week_07_ending_revolver": 0.0,
-    "contingency_week_07_implementation_cash_cost": 0.0,
+    "contingency_week_07_ending_revolver": 0,
+    "contingency_week_07_implementation_cash_cost": 0,
     "contingency_week_07_operating_cash_benefit": 15384.62,
-    "contingency_week_07_remaining_commitment": 8000000.0,
-    "contingency_week_07_revolver_draw": 0.0,
-    "contingency_week_07_revolver_repayment": 0.0,
-    "contingency_week_07_scheduled_principal": 0.0,
+    "contingency_week_07_remaining_commitment": 8000000,
+    "contingency_week_07_revolver_draw": 0,
+    "contingency_week_07_revolver_repayment": 0,
+    "contingency_week_07_scheduled_principal": 0,
     "contingency_week_07_seasonal_cash_adjustment": -84615.38,
     "contingency_week_08_baseline_free_cash_flow": -2985.97,
     "contingency_week_08_beginning_cash": 3126448.74,
-    "contingency_week_08_cash_before_financing": 3054232.0,
-    "contingency_week_08_cash_headroom_to_floor": 804232.0,
-    "contingency_week_08_ending_cash": 3054232.0,
-    "contingency_week_08_ending_revolver": 0.0,
-    "contingency_week_08_implementation_cash_cost": 0.0,
+    "contingency_week_08_cash_before_financing": 3054232,
+    "contingency_week_08_cash_headroom_to_floor": 804232,
+    "contingency_week_08_ending_cash": 3054232,
+    "contingency_week_08_ending_revolver": 0,
+    "contingency_week_08_implementation_cash_cost": 0,
     "contingency_week_08_operating_cash_benefit": 15384.62,
-    "contingency_week_08_remaining_commitment": 8000000.0,
-    "contingency_week_08_revolver_draw": 0.0,
-    "contingency_week_08_revolver_repayment": 0.0,
-    "contingency_week_08_scheduled_principal": 0.0,
+    "contingency_week_08_remaining_commitment": 8000000,
+    "contingency_week_08_revolver_draw": 0,
+    "contingency_week_08_revolver_repayment": 0,
+    "contingency_week_08_scheduled_principal": 0,
     "contingency_week_08_seasonal_cash_adjustment": -84615.38,
     "contingency_week_09_baseline_free_cash_flow": -2985.97,
-    "contingency_week_09_beginning_cash": 3054232.0,
+    "contingency_week_09_beginning_cash": 3054232,
     "contingency_week_09_cash_before_financing": 2982015.26,
     "contingency_week_09_cash_headroom_to_floor": 732015.26,
     "contingency_week_09_ending_cash": 2982015.26,
-    "contingency_week_09_ending_revolver": 0.0,
-    "contingency_week_09_implementation_cash_cost": 0.0,
+    "contingency_week_09_ending_revolver": 0,
+    "contingency_week_09_implementation_cash_cost": 0,
     "contingency_week_09_operating_cash_benefit": 15384.62,
-    "contingency_week_09_remaining_commitment": 8000000.0,
-    "contingency_week_09_revolver_draw": 0.0,
-    "contingency_week_09_revolver_repayment": 0.0,
-    "contingency_week_09_scheduled_principal": 0.0,
+    "contingency_week_09_remaining_commitment": 8000000,
+    "contingency_week_09_revolver_draw": 0,
+    "contingency_week_09_revolver_repayment": 0,
+    "contingency_week_09_scheduled_principal": 0,
     "contingency_week_09_seasonal_cash_adjustment": -84615.38,
     "contingency_week_10_baseline_free_cash_flow": -2985.97,
     "contingency_week_10_beginning_cash": 2982015.26,
     "contingency_week_10_cash_before_financing": 2909798.52,
     "contingency_week_10_cash_headroom_to_floor": 659798.52,
     "contingency_week_10_ending_cash": 2909798.52,
-    "contingency_week_10_ending_revolver": 0.0,
-    "contingency_week_10_implementation_cash_cost": 0.0,
+    "contingency_week_10_ending_revolver": 0,
+    "contingency_week_10_implementation_cash_cost": 0,
     "contingency_week_10_operating_cash_benefit": 15384.62,
-    "contingency_week_10_remaining_commitment": 8000000.0,
-    "contingency_week_10_revolver_draw": 0.0,
-    "contingency_week_10_revolver_repayment": 0.0,
-    "contingency_week_10_scheduled_principal": 0.0,
+    "contingency_week_10_remaining_commitment": 8000000,
+    "contingency_week_10_revolver_draw": 0,
+    "contingency_week_10_revolver_repayment": 0,
+    "contingency_week_10_scheduled_principal": 0,
     "contingency_week_10_seasonal_cash_adjustment": -84615.38,
     "contingency_week_11_baseline_free_cash_flow": -2985.97,
     "contingency_week_11_beginning_cash": 2909798.52,
     "contingency_week_11_cash_before_financing": 2837581.78,
     "contingency_week_11_cash_headroom_to_floor": 587581.78,
     "contingency_week_11_ending_cash": 2837581.78,
-    "contingency_week_11_ending_revolver": 0.0,
-    "contingency_week_11_implementation_cash_cost": 0.0,
+    "contingency_week_11_ending_revolver": 0,
+    "contingency_week_11_implementation_cash_cost": 0,
     "contingency_week_11_operating_cash_benefit": 15384.62,
-    "contingency_week_11_remaining_commitment": 8000000.0,
-    "contingency_week_11_revolver_draw": 0.0,
-    "contingency_week_11_revolver_repayment": 0.0,
-    "contingency_week_11_scheduled_principal": 0.0,
+    "contingency_week_11_remaining_commitment": 8000000,
+    "contingency_week_11_revolver_draw": 0,
+    "contingency_week_11_revolver_repayment": 0,
+    "contingency_week_11_scheduled_principal": 0,
     "contingency_week_11_seasonal_cash_adjustment": -84615.38,
     "contingency_week_12_baseline_free_cash_flow": -2985.97,
     "contingency_week_12_beginning_cash": 2837581.78,
     "contingency_week_12_cash_before_financing": 2765365.04,
     "contingency_week_12_cash_headroom_to_floor": 515365.04,
     "contingency_week_12_ending_cash": 2765365.04,
-    "contingency_week_12_ending_revolver": 0.0,
-    "contingency_week_12_implementation_cash_cost": 0.0,
+    "contingency_week_12_ending_revolver": 0,
+    "contingency_week_12_implementation_cash_cost": 0,
     "contingency_week_12_operating_cash_benefit": 15384.62,
-    "contingency_week_12_remaining_commitment": 8000000.0,
-    "contingency_week_12_revolver_draw": 0.0,
-    "contingency_week_12_revolver_repayment": 0.0,
-    "contingency_week_12_scheduled_principal": 0.0,
+    "contingency_week_12_remaining_commitment": 8000000,
+    "contingency_week_12_revolver_draw": 0,
+    "contingency_week_12_revolver_repayment": 0,
+    "contingency_week_12_scheduled_principal": 0,
     "contingency_week_12_seasonal_cash_adjustment": -84615.38,
     "contingency_week_13_baseline_free_cash_flow": -2985.97,
     "contingency_week_13_beginning_cash": 2765365.04,
     "contingency_week_13_cash_before_financing": 2443148.3,
     "contingency_week_13_cash_headroom_to_floor": 193148.3,
     "contingency_week_13_ending_cash": 2443148.3,
-    "contingency_week_13_ending_revolver": 0.0,
-    "contingency_week_13_implementation_cash_cost": 0.0,
+    "contingency_week_13_ending_revolver": 0,
+    "contingency_week_13_implementation_cash_cost": 0,
     "contingency_week_13_operating_cash_benefit": 15384.62,
-    "contingency_week_13_remaining_commitment": 8000000.0,
-    "contingency_week_13_revolver_draw": 0.0,
-    "contingency_week_13_revolver_repayment": 0.0,
-    "contingency_week_13_scheduled_principal": 250000.0,
+    "contingency_week_13_remaining_commitment": 8000000,
+    "contingency_week_13_revolver_draw": 0,
+    "contingency_week_13_revolver_repayment": 0,
+    "contingency_week_13_scheduled_principal": 250000,
     "contingency_week_13_seasonal_cash_adjustment": -84615.38,
     "covenant_base_average_revolver": 168161.85,
     "covenant_base_average_term_debt": 12611666.5,
     "covenant_base_cash_taxes": 1610322.05,
     "covenant_base_covenant_ebitda": 6852434.24,
     "covenant_base_ending_funded_debt": 12111666.5,
-    "covenant_base_ending_revolver": 0.0,
+    "covenant_base_ending_revolver": 0,
     "covenant_base_ending_term_debt": 12111666.5,
     "covenant_base_fccr_compliant": true,
     "covenant_base_fccr_headroom": 0.70938086,
@@ -343,13 +343,13 @@
     "covenant_base_leverage_compliant": true,
     "covenant_base_leverage_headroom": 1.23250161,
     "covenant_base_liquidity_compliant": true,
-    "covenant_base_maintenance_capex": 1890000.0,
+    "covenant_base_maintenance_capex": 1890000,
     "covenant_base_minimum_pre_financing_cash": 1645108.79,
     "covenant_base_peak_revolver": 604891.21,
     "covenant_base_release_status": "Release",
     "covenant_base_remaining_commitment_at_peak": 7395108.79,
     "covenant_base_revolver_cash_interest": 15134.57,
-    "covenant_base_scheduled_principal": 1000000.0,
+    "covenant_base_scheduled_principal": 1000000,
     "covenant_base_term_cash_interest": 945874.99,
     "covenant_base_total_cash_interest": 961009.55,
     "covenant_binding_downside_test": "Fixed-charge coverage",
@@ -359,7 +359,7 @@
     "covenant_contingency_covenant_ebitda": 4284429.63,
     "covenant_contingency_cures_downside": true,
     "covenant_contingency_ending_funded_debt": 12111666.5,
-    "covenant_contingency_ending_revolver": 0.0,
+    "covenant_contingency_ending_revolver": 0,
     "covenant_contingency_ending_term_debt": 12111666.5,
     "covenant_contingency_fccr_compliant": true,
     "covenant_contingency_fccr_headroom": 0.02733553,
@@ -370,61 +370,61 @@
     "covenant_contingency_leverage_compliant": true,
     "covenant_contingency_leverage_headroom": 0.17309711,
     "covenant_contingency_liquidity_compliant": true,
-    "covenant_contingency_maintenance_capex": 1380000.0,
+    "covenant_contingency_maintenance_capex": 1380000,
     "covenant_contingency_minimum_pre_financing_cash": 1464035.09,
     "covenant_contingency_peak_revolver": 785964.91,
     "covenant_contingency_q1_baseline_free_cash_flow": -38817.62,
     "covenant_contingency_q1_beginning_cash": 3743119.76,
     "covenant_contingency_q1_cash_before_financing": 2443148.3,
     "covenant_contingency_q1_ending_cash": 2443148.3,
-    "covenant_contingency_q1_ending_revolver": 0.0,
-    "covenant_contingency_q1_implementation_cash_cost": 75000.0,
-    "covenant_contingency_q1_remaining_commitment": 8000000.0,
-    "covenant_contingency_q1_revolver_draw": 0.0,
-    "covenant_contingency_q1_revolver_repayment": 0.0,
-    "covenant_contingency_q1_scheduled_principal": 250000.0,
-    "covenant_contingency_q1_seasonal_cash_adjustment": -1100000.0,
+    "covenant_contingency_q1_ending_revolver": 0,
+    "covenant_contingency_q1_implementation_cash_cost": 75000,
+    "covenant_contingency_q1_remaining_commitment": 8000000,
+    "covenant_contingency_q1_revolver_draw": 0,
+    "covenant_contingency_q1_revolver_repayment": 0,
+    "covenant_contingency_q1_scheduled_principal": 250000,
+    "covenant_contingency_q1_seasonal_cash_adjustment": -1100000,
     "covenant_contingency_q1_selected_action_cash_benefit": 163846.15,
     "covenant_contingency_q2_baseline_free_cash_flow": -29113.21,
     "covenant_contingency_q2_beginning_cash": 2443148.3,
     "covenant_contingency_q2_cash_before_financing": 1464035.09,
-    "covenant_contingency_q2_ending_cash": 2250000.0,
+    "covenant_contingency_q2_ending_cash": 2250000,
     "covenant_contingency_q2_ending_revolver": 785964.91,
-    "covenant_contingency_q2_implementation_cash_cost": 0.0,
+    "covenant_contingency_q2_implementation_cash_cost": 0,
     "covenant_contingency_q2_remaining_commitment": 7214035.09,
     "covenant_contingency_q2_revolver_draw": 785964.91,
-    "covenant_contingency_q2_revolver_repayment": 0.0,
-    "covenant_contingency_q2_scheduled_principal": 250000.0,
-    "covenant_contingency_q2_seasonal_cash_adjustment": -900000.0,
-    "covenant_contingency_q2_selected_action_cash_benefit": 200000.0,
+    "covenant_contingency_q2_revolver_repayment": 0,
+    "covenant_contingency_q2_scheduled_principal": 250000,
+    "covenant_contingency_q2_seasonal_cash_adjustment": -900000,
+    "covenant_contingency_q2_selected_action_cash_benefit": 200000,
     "covenant_contingency_q3_baseline_free_cash_flow": -48522.02,
-    "covenant_contingency_q3_beginning_cash": 2250000.0,
+    "covenant_contingency_q3_beginning_cash": 2250000,
     "covenant_contingency_q3_cash_before_financing": 2651477.98,
-    "covenant_contingency_q3_ending_cash": 2250000.0,
+    "covenant_contingency_q3_ending_cash": 2250000,
     "covenant_contingency_q3_ending_revolver": 384486.93,
-    "covenant_contingency_q3_implementation_cash_cost": 0.0,
+    "covenant_contingency_q3_implementation_cash_cost": 0,
     "covenant_contingency_q3_remaining_commitment": 7615513.07,
-    "covenant_contingency_q3_revolver_draw": 0.0,
+    "covenant_contingency_q3_revolver_draw": 0,
     "covenant_contingency_q3_revolver_repayment": 401477.98,
-    "covenant_contingency_q3_scheduled_principal": 250000.0,
-    "covenant_contingency_q3_seasonal_cash_adjustment": 500000.0,
-    "covenant_contingency_q3_selected_action_cash_benefit": 200000.0,
+    "covenant_contingency_q3_scheduled_principal": 250000,
+    "covenant_contingency_q3_seasonal_cash_adjustment": 500000,
+    "covenant_contingency_q3_selected_action_cash_benefit": 200000,
     "covenant_contingency_q4_baseline_free_cash_flow": -77635.23,
-    "covenant_contingency_q4_beginning_cash": 2250000.0,
+    "covenant_contingency_q4_beginning_cash": 2250000,
     "covenant_contingency_q4_cash_before_financing": 3622364.77,
     "covenant_contingency_q4_ending_cash": 3237877.83,
-    "covenant_contingency_q4_ending_revolver": 0.0,
-    "covenant_contingency_q4_implementation_cash_cost": 0.0,
-    "covenant_contingency_q4_remaining_commitment": 8000000.0,
-    "covenant_contingency_q4_revolver_draw": 0.0,
+    "covenant_contingency_q4_ending_revolver": 0,
+    "covenant_contingency_q4_implementation_cash_cost": 0,
+    "covenant_contingency_q4_remaining_commitment": 8000000,
+    "covenant_contingency_q4_revolver_draw": 0,
     "covenant_contingency_q4_revolver_repayment": 384486.93,
-    "covenant_contingency_q4_scheduled_principal": 250000.0,
-    "covenant_contingency_q4_seasonal_cash_adjustment": 1500000.0,
-    "covenant_contingency_q4_selected_action_cash_benefit": 200000.0,
+    "covenant_contingency_q4_scheduled_principal": 250000,
+    "covenant_contingency_q4_seasonal_cash_adjustment": 1500000,
+    "covenant_contingency_q4_selected_action_cash_benefit": 200000,
     "covenant_contingency_release_status": "Release",
     "covenant_contingency_remaining_commitment_at_peak": 7214035.09,
     "covenant_contingency_revolver_cash_interest": 26335.17,
-    "covenant_contingency_scheduled_principal": 1000000.0,
+    "covenant_contingency_scheduled_principal": 1000000,
     "covenant_contingency_term_cash_interest": 945874.99,
     "covenant_contingency_total_cash_interest": 972210.15,
     "covenant_downside_average_revolver": 487036.04,
@@ -432,7 +432,7 @@
     "covenant_downside_cash_taxes": 663058.07,
     "covenant_downside_covenant_ebitda": 3234429.63,
     "covenant_downside_ending_funded_debt": 12111666.5,
-    "covenant_downside_ending_revolver": 0.0,
+    "covenant_downside_ending_revolver": 0,
     "covenant_downside_ending_term_debt": 12111666.5,
     "covenant_downside_fccr_compliant": false,
     "covenant_downside_fccr_headroom": -0.40123303,
@@ -443,17 +443,17 @@
     "covenant_downside_leverage_compliant": false,
     "covenant_downside_leverage_headroom": -0.74460659,
     "covenant_downside_liquidity_compliant": true,
-    "covenant_downside_maintenance_capex": 1380000.0,
+    "covenant_downside_maintenance_capex": 1380000,
     "covenant_downside_minimum_pre_financing_cash": 1175188.93,
     "covenant_downside_peak_revolver": 1074811.07,
     "covenant_downside_release_status": "Hold",
     "covenant_downside_remaining_commitment_at_peak": 6925188.93,
     "covenant_downside_revolver_cash_interest": 43833.24,
-    "covenant_downside_scheduled_principal": 1000000.0,
+    "covenant_downside_scheduled_principal": 1000000,
     "covenant_downside_term_cash_interest": 945874.99,
     "covenant_downside_total_cash_interest": 989708.23,
     "covenant_management_recommendation": "Release only with the selected contingency actions and controller sign-off",
-    "downside_bridge_capex_effect": 850000.0,
+    "downside_bridge_capex_effect": 850000,
     "downside_bridge_cash_tax_effect": 947263.98,
     "downside_bridge_construction_base_gross_margin": 0.285,
     "downside_bridge_construction_base_revenue": 29881419.78,
@@ -472,11 +472,11 @@
     "downside_bridge_controls_scenario_revenue": 7105322.07,
     "downside_bridge_controls_total_gross_profit_effect": -742945.66,
     "downside_bridge_decision_status": "Within commitment and cash floor",
-    "downside_bridge_ebitda_check_delta": 0.0,
+    "downside_bridge_ebitda_check_delta": 0,
     "downside_bridge_ebitda_effect": -3618004.61,
     "downside_bridge_ending_cash_variance": -1342628.16,
     "downside_bridge_fixed_opex_effect": 222197.33,
-    "downside_bridge_free_cash_flow_check_delta": 0.0,
+    "downside_bridge_free_cash_flow_check_delta": 0,
     "downside_bridge_free_cash_flow_effect": -1342628.15,
     "downside_bridge_gross_profit_effect": -3882680.05,
     "downside_bridge_minimum_pre_financing_cash_variance": -469919.86,
@@ -485,23 +485,23 @@
     "downside_bridge_primary_liquidity_quarter": "Q2",
     "downside_bridge_q1_cash_before_financing_variance": -268525.64,
     "downside_bridge_q1_ending_cash_variance": -268525.64,
-    "downside_bridge_q1_ending_revolver_variance": 0.0,
-    "downside_bridge_q1_revolver_draw_variance": 0.0,
-    "downside_bridge_q1_revolver_repayment_variance": 0.0,
+    "downside_bridge_q1_ending_revolver_variance": 0,
+    "downside_bridge_q1_revolver_draw_variance": 0,
+    "downside_bridge_q1_revolver_repayment_variance": 0,
     "downside_bridge_q2_cash_before_financing_variance": -469919.86,
-    "downside_bridge_q2_ending_cash_variance": 0.0,
+    "downside_bridge_q2_ending_cash_variance": 0,
     "downside_bridge_q2_ending_revolver_variance": 469919.86,
     "downside_bridge_q2_revolver_draw_variance": 469919.86,
-    "downside_bridge_q2_revolver_repayment_variance": 0.0,
+    "downside_bridge_q2_revolver_repayment_variance": 0,
     "downside_bridge_q3_cash_before_financing_variance": -335657.04,
-    "downside_bridge_q3_ending_cash_variance": 0.0,
+    "downside_bridge_q3_ending_cash_variance": 0,
     "downside_bridge_q3_ending_revolver_variance": 805576.9,
-    "downside_bridge_q3_revolver_draw_variance": 0.0,
+    "downside_bridge_q3_revolver_draw_variance": 0,
     "downside_bridge_q3_revolver_repayment_variance": -335657.04,
     "downside_bridge_q4_cash_before_financing_variance": -537051.26,
     "downside_bridge_q4_ending_cash_variance": -1342628.16,
-    "downside_bridge_q4_ending_revolver_variance": 0.0,
-    "downside_bridge_q4_revolver_draw_variance": 0.0,
+    "downside_bridge_q4_ending_revolver_variance": 0,
+    "downside_bridge_q4_revolver_draw_variance": 0,
     "downside_bridge_q4_revolver_repayment_variance": 805576.9,
     "downside_bridge_service_base_gross_margin": 0.41,
     "downside_bridge_service_base_revenue": 14371795.78,
@@ -513,7 +513,7 @@
     "downside_bridge_service_total_gross_profit_effect": -1007673.85,
     "downside_bridge_variable_opex_effect": 42478.11,
     "downside_bridge_working_capital_effect": 478112.48,
-    "downside_capex": 2300000.0,
+    "downside_capex": 2300000,
     "downside_cash_taxes": 663058.07,
     "downside_consolidated_gross_profit": 13507082.97,
     "downside_construction_gross_margin": 0.245,
@@ -525,7 +525,7 @@
     "downside_ebitda_margin_variance_to_base": -0.06123113,
     "downside_ebitda_variance_to_base": -3618004.61,
     "downside_ending_cash_after_financing": 2549031.68,
-    "downside_ending_revolver": 0.0,
+    "downside_ending_revolver": 0,
     "downside_fixed_opex": 8690090.57,
     "downside_free_cash_flow": -194088.08,
     "downside_free_cash_flow_below_zero": true,
@@ -538,50 +538,50 @@
     "downside_q1_beginning_cash": 3743119.76,
     "downside_q1_cash_before_financing": 2354302.14,
     "downside_q1_ending_cash": 2354302.14,
-    "downside_q1_ending_revolver": 0.0,
+    "downside_q1_ending_revolver": 0,
     "downside_q1_free_cash_flow": -38817.62,
-    "downside_q1_remaining_commitment": 8000000.0,
-    "downside_q1_revolver_draw": 0.0,
-    "downside_q1_revolver_repayment": 0.0,
-    "downside_q1_scheduled_principal": 250000.0,
-    "downside_q1_seasonal_cash_adjustment": -1100000.0,
+    "downside_q1_remaining_commitment": 8000000,
+    "downside_q1_revolver_draw": 0,
+    "downside_q1_revolver_repayment": 0,
+    "downside_q1_scheduled_principal": 250000,
+    "downside_q1_seasonal_cash_adjustment": -1100000,
     "downside_q2_beginning_cash": 2354302.14,
     "downside_q2_cash_before_financing": 1175188.93,
-    "downside_q2_ending_cash": 2250000.0,
+    "downside_q2_ending_cash": 2250000,
     "downside_q2_ending_revolver": 1074811.07,
     "downside_q2_free_cash_flow": -29113.21,
     "downside_q2_remaining_commitment": 6925188.93,
     "downside_q2_revolver_draw": 1074811.07,
-    "downside_q2_revolver_repayment": 0.0,
-    "downside_q2_scheduled_principal": 250000.0,
-    "downside_q2_seasonal_cash_adjustment": -900000.0,
-    "downside_q3_beginning_cash": 2250000.0,
+    "downside_q2_revolver_repayment": 0,
+    "downside_q2_scheduled_principal": 250000,
+    "downside_q2_seasonal_cash_adjustment": -900000,
+    "downside_q3_beginning_cash": 2250000,
     "downside_q3_cash_before_financing": 2451477.98,
-    "downside_q3_ending_cash": 2250000.0,
+    "downside_q3_ending_cash": 2250000,
     "downside_q3_ending_revolver": 873333.09,
     "downside_q3_free_cash_flow": -48522.02,
     "downside_q3_remaining_commitment": 7126666.91,
-    "downside_q3_revolver_draw": 0.0,
+    "downside_q3_revolver_draw": 0,
     "downside_q3_revolver_repayment": 201477.98,
-    "downside_q3_scheduled_principal": 250000.0,
-    "downside_q3_seasonal_cash_adjustment": 500000.0,
-    "downside_q4_beginning_cash": 2250000.0,
+    "downside_q3_scheduled_principal": 250000,
+    "downside_q3_seasonal_cash_adjustment": 500000,
+    "downside_q4_beginning_cash": 2250000,
     "downside_q4_cash_before_financing": 3422364.77,
     "downside_q4_ending_cash": 2549031.68,
-    "downside_q4_ending_revolver": 0.0,
+    "downside_q4_ending_revolver": 0,
     "downside_q4_free_cash_flow": -77635.23,
-    "downside_q4_remaining_commitment": 8000000.0,
-    "downside_q4_revolver_draw": 0.0,
+    "downside_q4_remaining_commitment": 8000000,
+    "downside_q4_revolver_draw": 0,
     "downside_q4_revolver_repayment": 873333.09,
-    "downside_q4_scheduled_principal": 250000.0,
-    "downside_q4_seasonal_cash_adjustment": 1500000.0,
+    "downside_q4_scheduled_principal": 250000,
+    "downside_q4_seasonal_cash_adjustment": 1500000,
     "downside_service_gross_margin": 0.365,
     "downside_service_revenue": 13382910.75,
     "downside_total_revenue": 46545963.82,
     "downside_total_revenue_variance_to_base": -5874709.59,
     "downside_variable_opex": 1582562.77,
     "downside_working_capital_investment": 465459.64,
-    "upside_bridge_capex_effect": -950000.0,
+    "upside_bridge_capex_effect": -950000,
     "upside_bridge_cash_tax_effect": -549143.31,
     "upside_bridge_construction_base_gross_margin": 0.285,
     "upside_bridge_construction_base_revenue": 29881419.78,
@@ -600,11 +600,11 @@
     "upside_bridge_controls_scenario_revenue": 8716838.42,
     "upside_bridge_controls_total_gross_profit_effect": 374860.68,
     "upside_bridge_decision_status": "Within commitment and cash floor",
-    "upside_bridge_ebitda_check_delta": 0.0,
+    "upside_bridge_ebitda_check_delta": 0,
     "upside_bridge_ebitda_effect": 1961710.1,
     "upside_bridge_ending_cash_variance": 122514.85,
     "upside_bridge_fixed_opex_effect": -222197.33,
-    "upside_bridge_free_cash_flow_check_delta": 0.0,
+    "upside_bridge_free_cash_flow_check_delta": 0,
     "upside_bridge_free_cash_flow_effect": 122514.86,
     "upside_bridge_gross_profit_effect": 2233158.78,
     "upside_bridge_minimum_pre_financing_cash_variance": 42880.2,
@@ -613,23 +613,23 @@
     "upside_bridge_primary_liquidity_quarter": "Q2",
     "upside_bridge_q1_cash_before_financing_variance": 24502.97,
     "upside_bridge_q1_ending_cash_variance": 24502.97,
-    "upside_bridge_q1_ending_revolver_variance": 0.0,
-    "upside_bridge_q1_revolver_draw_variance": 0.0,
-    "upside_bridge_q1_revolver_repayment_variance": 0.0,
+    "upside_bridge_q1_ending_revolver_variance": 0,
+    "upside_bridge_q1_revolver_draw_variance": 0,
+    "upside_bridge_q1_revolver_repayment_variance": 0,
     "upside_bridge_q2_cash_before_financing_variance": 42880.2,
-    "upside_bridge_q2_ending_cash_variance": 0.0,
+    "upside_bridge_q2_ending_cash_variance": 0,
     "upside_bridge_q2_ending_revolver_variance": -42880.2,
     "upside_bridge_q2_revolver_draw_variance": -42880.2,
-    "upside_bridge_q2_revolver_repayment_variance": 0.0,
+    "upside_bridge_q2_revolver_repayment_variance": 0,
     "upside_bridge_q3_cash_before_financing_variance": 30628.71,
     "upside_bridge_q3_ending_cash_variance": 5752.72,
     "upside_bridge_q3_ending_revolver_variance": -67756.19,
-    "upside_bridge_q3_revolver_draw_variance": 0.0,
+    "upside_bridge_q3_revolver_draw_variance": 0,
     "upside_bridge_q3_revolver_repayment_variance": 24875.99,
     "upside_bridge_q4_cash_before_financing_variance": 54758.66,
     "upside_bridge_q4_ending_cash_variance": 122514.85,
-    "upside_bridge_q4_ending_revolver_variance": 0.0,
-    "upside_bridge_q4_revolver_draw_variance": 0.0,
+    "upside_bridge_q4_ending_revolver_variance": 0,
+    "upside_bridge_q4_revolver_draw_variance": 0,
     "upside_bridge_q4_revolver_repayment_variance": -67756.19,
     "upside_bridge_service_base_gross_margin": 0.41,
     "upside_bridge_service_base_revenue": 14371795.78,
@@ -641,7 +641,7 @@
     "upside_bridge_service_total_gross_profit_effect": 655960.41,
     "upside_bridge_variable_opex_effect": -49251.35,
     "upside_bridge_working_capital_effect": -340051.93,
-    "upside_capex": 4100000.0,
+    "upside_capex": 4100000,
     "upside_cash_taxes": 2159465.36,
     "upside_consolidated_gross_profit": 19622921.8,
     "upside_construction_gross_margin": 0.305,
@@ -653,7 +653,7 @@
     "upside_ebitda_margin_variance_to_base": 0.02721194,
     "upside_ebitda_variance_to_base": 1961710.09,
     "upside_ending_cash_after_financing": 4014174.69,
-    "upside_ending_revolver": 0.0,
+    "upside_ending_revolver": 0,
     "upside_fixed_opex": 9134485.23,
     "upside_free_cash_flow": 1271054.93,
     "upside_free_cash_flow_conversion": 0.14420628,
@@ -664,43 +664,43 @@
     "upside_q1_beginning_cash": 3743119.76,
     "upside_q1_cash_before_financing": 2647330.75,
     "upside_q1_ending_cash": 2647330.75,
-    "upside_q1_ending_revolver": 0.0,
+    "upside_q1_ending_revolver": 0,
     "upside_q1_free_cash_flow": 254210.99,
-    "upside_q1_remaining_commitment": 8000000.0,
-    "upside_q1_revolver_draw": 0.0,
-    "upside_q1_revolver_repayment": 0.0,
-    "upside_q1_scheduled_principal": 250000.0,
-    "upside_q1_seasonal_cash_adjustment": -1100000.0,
+    "upside_q1_remaining_commitment": 8000000,
+    "upside_q1_revolver_draw": 0,
+    "upside_q1_revolver_repayment": 0,
+    "upside_q1_scheduled_principal": 250000,
+    "upside_q1_seasonal_cash_adjustment": -1100000,
     "upside_q2_beginning_cash": 2647330.75,
     "upside_q2_cash_before_financing": 1687988.99,
-    "upside_q2_ending_cash": 2250000.0,
+    "upside_q2_ending_cash": 2250000,
     "upside_q2_ending_revolver": 562011.01,
     "upside_q2_free_cash_flow": 190658.24,
     "upside_q2_remaining_commitment": 7437988.99,
     "upside_q2_revolver_draw": 562011.01,
-    "upside_q2_revolver_repayment": 0.0,
-    "upside_q2_scheduled_principal": 250000.0,
-    "upside_q2_seasonal_cash_adjustment": -900000.0,
-    "upside_q3_beginning_cash": 2250000.0,
+    "upside_q2_revolver_repayment": 0,
+    "upside_q2_scheduled_principal": 250000,
+    "upside_q2_seasonal_cash_adjustment": -900000,
+    "upside_q3_beginning_cash": 2250000,
     "upside_q3_cash_before_financing": 2817763.73,
     "upside_q3_ending_cash": 2255752.72,
-    "upside_q3_ending_revolver": 0.0,
+    "upside_q3_ending_revolver": 0,
     "upside_q3_free_cash_flow": 317763.73,
-    "upside_q3_remaining_commitment": 8000000.0,
-    "upside_q3_revolver_draw": 0.0,
+    "upside_q3_remaining_commitment": 8000000,
+    "upside_q3_revolver_draw": 0,
     "upside_q3_revolver_repayment": 562011.01,
-    "upside_q3_scheduled_principal": 250000.0,
-    "upside_q3_seasonal_cash_adjustment": 500000.0,
+    "upside_q3_scheduled_principal": 250000,
+    "upside_q3_seasonal_cash_adjustment": 500000,
     "upside_q4_beginning_cash": 2255752.72,
     "upside_q4_cash_before_financing": 4014174.69,
     "upside_q4_ending_cash": 4014174.69,
-    "upside_q4_ending_revolver": 0.0,
+    "upside_q4_ending_revolver": 0,
     "upside_q4_free_cash_flow": 508421.97,
-    "upside_q4_remaining_commitment": 8000000.0,
-    "upside_q4_revolver_draw": 0.0,
-    "upside_q4_revolver_repayment": 0.0,
-    "upside_q4_scheduled_principal": 250000.0,
-    "upside_q4_seasonal_cash_adjustment": 1500000.0,
+    "upside_q4_remaining_commitment": 8000000,
+    "upside_q4_revolver_draw": 0,
+    "upside_q4_revolver_repayment": 0,
+    "upside_q4_scheduled_principal": 250000,
+    "upside_q4_seasonal_cash_adjustment": 1500000,
     "upside_service_gross_margin": 0.43,
     "upside_service_revenue": 15228829.48,
     "upside_total_revenue": 55809741.12,
@@ -7391,7 +7391,7 @@
       "id": "base_scenario_values__base_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_capex": 3150000.0
+        "base_capex": 3150000
       },
       "semantic": false,
       "weight": 10
@@ -7567,7 +7567,7 @@
       "id": "downside_scenario_values__downside_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_capex": 2300000.0
+        "downside_capex": 2300000
       },
       "semantic": false,
       "weight": 10
@@ -7743,7 +7743,7 @@
       "id": "upside_scenario_values__upside_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_capex": 4100000.0
+        "upside_capex": 4100000
       },
       "semantic": false,
       "weight": 10
@@ -7798,7 +7798,7 @@
       "id": "base_liquidity_values__base_q1_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q1_seasonal_cash_adjustment": -1100000.0
+        "base_q1_seasonal_cash_adjustment": -1100000
       },
       "semantic": false,
       "weight": 10
@@ -7809,7 +7809,7 @@
       "id": "base_liquidity_values__base_q1_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q1_scheduled_principal": 250000.0
+        "base_q1_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -7831,7 +7831,7 @@
       "id": "base_liquidity_values__base_q1_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q1_revolver_draw": 0.0
+        "base_q1_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -7842,7 +7842,7 @@
       "id": "base_liquidity_values__base_q1_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q1_revolver_repayment": 0.0
+        "base_q1_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -7864,7 +7864,7 @@
       "id": "base_liquidity_values__base_q1_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q1_ending_revolver": 0.0
+        "base_q1_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -7875,7 +7875,7 @@
       "id": "base_liquidity_values__base_q1_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q1_remaining_commitment": 8000000.0
+        "base_q1_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -7908,7 +7908,7 @@
       "id": "base_liquidity_values__base_q2_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q2_seasonal_cash_adjustment": -900000.0
+        "base_q2_seasonal_cash_adjustment": -900000
       },
       "semantic": false,
       "weight": 10
@@ -7919,7 +7919,7 @@
       "id": "base_liquidity_values__base_q2_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q2_scheduled_principal": 250000.0
+        "base_q2_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -7952,7 +7952,7 @@
       "id": "base_liquidity_values__base_q2_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q2_revolver_repayment": 0.0
+        "base_q2_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -7963,7 +7963,7 @@
       "id": "base_liquidity_values__base_q2_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q2_ending_cash": 2250000.0
+        "base_q2_ending_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -7996,7 +7996,7 @@
       "id": "base_liquidity_values__base_q3_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q3_beginning_cash": 2250000.0
+        "base_q3_beginning_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8018,7 +8018,7 @@
       "id": "base_liquidity_values__base_q3_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q3_seasonal_cash_adjustment": 500000.0
+        "base_q3_seasonal_cash_adjustment": 500000
       },
       "semantic": false,
       "weight": 10
@@ -8029,7 +8029,7 @@
       "id": "base_liquidity_values__base_q3_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q3_scheduled_principal": 250000.0
+        "base_q3_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8051,7 +8051,7 @@
       "id": "base_liquidity_values__base_q3_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q3_revolver_draw": 0.0
+        "base_q3_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -8073,7 +8073,7 @@
       "id": "base_liquidity_values__base_q3_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q3_ending_cash": 2250000.0
+        "base_q3_ending_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8106,7 +8106,7 @@
       "id": "base_liquidity_values__base_q4_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q4_beginning_cash": 2250000.0
+        "base_q4_beginning_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8128,7 +8128,7 @@
       "id": "base_liquidity_values__base_q4_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q4_seasonal_cash_adjustment": 1500000.0
+        "base_q4_seasonal_cash_adjustment": 1500000
       },
       "semantic": false,
       "weight": 10
@@ -8139,7 +8139,7 @@
       "id": "base_liquidity_values__base_q4_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q4_scheduled_principal": 250000.0
+        "base_q4_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8161,7 +8161,7 @@
       "id": "base_liquidity_values__base_q4_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q4_revolver_draw": 0.0
+        "base_q4_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -8194,7 +8194,7 @@
       "id": "base_liquidity_values__base_q4_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q4_ending_revolver": 0.0
+        "base_q4_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -8205,7 +8205,7 @@
       "id": "base_liquidity_values__base_q4_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_q4_remaining_commitment": 8000000.0
+        "base_q4_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -8249,7 +8249,7 @@
       "id": "base_liquidity_values__base_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "base_ending_revolver": 0.0
+        "base_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -8293,7 +8293,7 @@
       "id": "downside_liquidity_values__downside_q1_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q1_seasonal_cash_adjustment": -1100000.0
+        "downside_q1_seasonal_cash_adjustment": -1100000
       },
       "semantic": false,
       "weight": 10
@@ -8304,7 +8304,7 @@
       "id": "downside_liquidity_values__downside_q1_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q1_scheduled_principal": 250000.0
+        "downside_q1_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8326,7 +8326,7 @@
       "id": "downside_liquidity_values__downside_q1_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q1_revolver_draw": 0.0
+        "downside_q1_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -8337,7 +8337,7 @@
       "id": "downside_liquidity_values__downside_q1_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q1_revolver_repayment": 0.0
+        "downside_q1_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -8359,7 +8359,7 @@
       "id": "downside_liquidity_values__downside_q1_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q1_ending_revolver": 0.0
+        "downside_q1_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -8370,7 +8370,7 @@
       "id": "downside_liquidity_values__downside_q1_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q1_remaining_commitment": 8000000.0
+        "downside_q1_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -8403,7 +8403,7 @@
       "id": "downside_liquidity_values__downside_q2_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q2_seasonal_cash_adjustment": -900000.0
+        "downside_q2_seasonal_cash_adjustment": -900000
       },
       "semantic": false,
       "weight": 10
@@ -8414,7 +8414,7 @@
       "id": "downside_liquidity_values__downside_q2_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q2_scheduled_principal": 250000.0
+        "downside_q2_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8447,7 +8447,7 @@
       "id": "downside_liquidity_values__downside_q2_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q2_revolver_repayment": 0.0
+        "downside_q2_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -8458,7 +8458,7 @@
       "id": "downside_liquidity_values__downside_q2_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q2_ending_cash": 2250000.0
+        "downside_q2_ending_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8491,7 +8491,7 @@
       "id": "downside_liquidity_values__downside_q3_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q3_beginning_cash": 2250000.0
+        "downside_q3_beginning_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8513,7 +8513,7 @@
       "id": "downside_liquidity_values__downside_q3_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q3_seasonal_cash_adjustment": 500000.0
+        "downside_q3_seasonal_cash_adjustment": 500000
       },
       "semantic": false,
       "weight": 10
@@ -8524,7 +8524,7 @@
       "id": "downside_liquidity_values__downside_q3_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q3_scheduled_principal": 250000.0
+        "downside_q3_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8546,7 +8546,7 @@
       "id": "downside_liquidity_values__downside_q3_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q3_revolver_draw": 0.0
+        "downside_q3_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -8568,7 +8568,7 @@
       "id": "downside_liquidity_values__downside_q3_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q3_ending_cash": 2250000.0
+        "downside_q3_ending_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8601,7 +8601,7 @@
       "id": "downside_liquidity_values__downside_q4_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q4_beginning_cash": 2250000.0
+        "downside_q4_beginning_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8623,7 +8623,7 @@
       "id": "downside_liquidity_values__downside_q4_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q4_seasonal_cash_adjustment": 1500000.0
+        "downside_q4_seasonal_cash_adjustment": 1500000
       },
       "semantic": false,
       "weight": 10
@@ -8634,7 +8634,7 @@
       "id": "downside_liquidity_values__downside_q4_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q4_scheduled_principal": 250000.0
+        "downside_q4_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8656,7 +8656,7 @@
       "id": "downside_liquidity_values__downside_q4_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q4_revolver_draw": 0.0
+        "downside_q4_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -8689,7 +8689,7 @@
       "id": "downside_liquidity_values__downside_q4_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q4_ending_revolver": 0.0
+        "downside_q4_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -8700,7 +8700,7 @@
       "id": "downside_liquidity_values__downside_q4_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_q4_remaining_commitment": 8000000.0
+        "downside_q4_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -8744,7 +8744,7 @@
       "id": "downside_liquidity_values__downside_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_ending_revolver": 0.0
+        "downside_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -8788,7 +8788,7 @@
       "id": "upside_liquidity_values__upside_q1_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q1_seasonal_cash_adjustment": -1100000.0
+        "upside_q1_seasonal_cash_adjustment": -1100000
       },
       "semantic": false,
       "weight": 10
@@ -8799,7 +8799,7 @@
       "id": "upside_liquidity_values__upside_q1_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q1_scheduled_principal": 250000.0
+        "upside_q1_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8821,7 +8821,7 @@
       "id": "upside_liquidity_values__upside_q1_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q1_revolver_draw": 0.0
+        "upside_q1_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -8832,7 +8832,7 @@
       "id": "upside_liquidity_values__upside_q1_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q1_revolver_repayment": 0.0
+        "upside_q1_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -8854,7 +8854,7 @@
       "id": "upside_liquidity_values__upside_q1_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q1_ending_revolver": 0.0
+        "upside_q1_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -8865,7 +8865,7 @@
       "id": "upside_liquidity_values__upside_q1_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q1_remaining_commitment": 8000000.0
+        "upside_q1_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -8898,7 +8898,7 @@
       "id": "upside_liquidity_values__upside_q2_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q2_seasonal_cash_adjustment": -900000.0
+        "upside_q2_seasonal_cash_adjustment": -900000
       },
       "semantic": false,
       "weight": 10
@@ -8909,7 +8909,7 @@
       "id": "upside_liquidity_values__upside_q2_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q2_scheduled_principal": 250000.0
+        "upside_q2_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -8942,7 +8942,7 @@
       "id": "upside_liquidity_values__upside_q2_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q2_revolver_repayment": 0.0
+        "upside_q2_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -8953,7 +8953,7 @@
       "id": "upside_liquidity_values__upside_q2_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q2_ending_cash": 2250000.0
+        "upside_q2_ending_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -8986,7 +8986,7 @@
       "id": "upside_liquidity_values__upside_q3_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q3_beginning_cash": 2250000.0
+        "upside_q3_beginning_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -9008,7 +9008,7 @@
       "id": "upside_liquidity_values__upside_q3_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q3_seasonal_cash_adjustment": 500000.0
+        "upside_q3_seasonal_cash_adjustment": 500000
       },
       "semantic": false,
       "weight": 10
@@ -9019,7 +9019,7 @@
       "id": "upside_liquidity_values__upside_q3_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q3_scheduled_principal": 250000.0
+        "upside_q3_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -9041,7 +9041,7 @@
       "id": "upside_liquidity_values__upside_q3_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q3_revolver_draw": 0.0
+        "upside_q3_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -9074,7 +9074,7 @@
       "id": "upside_liquidity_values__upside_q3_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q3_ending_revolver": 0.0
+        "upside_q3_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -9085,7 +9085,7 @@
       "id": "upside_liquidity_values__upside_q3_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q3_remaining_commitment": 8000000.0
+        "upside_q3_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -9118,7 +9118,7 @@
       "id": "upside_liquidity_values__upside_q4_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q4_seasonal_cash_adjustment": 1500000.0
+        "upside_q4_seasonal_cash_adjustment": 1500000
       },
       "semantic": false,
       "weight": 10
@@ -9129,7 +9129,7 @@
       "id": "upside_liquidity_values__upside_q4_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q4_scheduled_principal": 250000.0
+        "upside_q4_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -9151,7 +9151,7 @@
       "id": "upside_liquidity_values__upside_q4_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q4_revolver_draw": 0.0
+        "upside_q4_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -9162,7 +9162,7 @@
       "id": "upside_liquidity_values__upside_q4_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q4_revolver_repayment": 0.0
+        "upside_q4_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -9184,7 +9184,7 @@
       "id": "upside_liquidity_values__upside_q4_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q4_ending_revolver": 0.0
+        "upside_q4_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -9195,7 +9195,7 @@
       "id": "upside_liquidity_values__upside_q4_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_q4_remaining_commitment": 8000000.0
+        "upside_q4_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -9239,7 +9239,7 @@
       "id": "upside_liquidity_values__upside_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_ending_revolver": 0.0
+        "upside_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -9723,7 +9723,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_capex_effect",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_capex_effect": 850000.0
+        "downside_bridge_capex_effect": 850000
       },
       "semantic": false,
       "weight": 10
@@ -9756,7 +9756,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_ebitda_check_delta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_ebitda_check_delta": 0.0
+        "downside_bridge_ebitda_check_delta": 0
       },
       "semantic": false,
       "weight": 10
@@ -9767,7 +9767,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_free_cash_flow_check_delta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_free_cash_flow_check_delta": 0.0
+        "downside_bridge_free_cash_flow_check_delta": 0
       },
       "semantic": false,
       "weight": 10
@@ -9789,7 +9789,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q1_revolver_draw_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q1_revolver_draw_variance": 0.0
+        "downside_bridge_q1_revolver_draw_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9800,7 +9800,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q1_revolver_repayment_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q1_revolver_repayment_variance": 0.0
+        "downside_bridge_q1_revolver_repayment_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9822,7 +9822,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q1_ending_revolver_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q1_ending_revolver_variance": 0.0
+        "downside_bridge_q1_ending_revolver_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9855,7 +9855,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q2_revolver_repayment_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q2_revolver_repayment_variance": 0.0
+        "downside_bridge_q2_revolver_repayment_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9866,7 +9866,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q2_ending_cash_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q2_ending_cash_variance": 0.0
+        "downside_bridge_q2_ending_cash_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9899,7 +9899,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q3_revolver_draw_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q3_revolver_draw_variance": 0.0
+        "downside_bridge_q3_revolver_draw_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9921,7 +9921,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q3_ending_cash_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q3_ending_cash_variance": 0.0
+        "downside_bridge_q3_ending_cash_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9954,7 +9954,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q4_revolver_draw_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q4_revolver_draw_variance": 0.0
+        "downside_bridge_q4_revolver_draw_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -9987,7 +9987,7 @@
       "id": "downside_scenario_attribution_values__downside_bridge_q4_ending_revolver_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "downside_bridge_q4_ending_revolver_variance": 0.0
+        "downside_bridge_q4_ending_revolver_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10383,7 +10383,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_capex_effect",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_capex_effect": -950000.0
+        "upside_bridge_capex_effect": -950000
       },
       "semantic": false,
       "weight": 10
@@ -10416,7 +10416,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_ebitda_check_delta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_ebitda_check_delta": 0.0
+        "upside_bridge_ebitda_check_delta": 0
       },
       "semantic": false,
       "weight": 10
@@ -10427,7 +10427,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_free_cash_flow_check_delta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_free_cash_flow_check_delta": 0.0
+        "upside_bridge_free_cash_flow_check_delta": 0
       },
       "semantic": false,
       "weight": 10
@@ -10449,7 +10449,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q1_revolver_draw_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q1_revolver_draw_variance": 0.0
+        "upside_bridge_q1_revolver_draw_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10460,7 +10460,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q1_revolver_repayment_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q1_revolver_repayment_variance": 0.0
+        "upside_bridge_q1_revolver_repayment_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10482,7 +10482,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q1_ending_revolver_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q1_ending_revolver_variance": 0.0
+        "upside_bridge_q1_ending_revolver_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10515,7 +10515,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q2_revolver_repayment_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q2_revolver_repayment_variance": 0.0
+        "upside_bridge_q2_revolver_repayment_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10526,7 +10526,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q2_ending_cash_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q2_ending_cash_variance": 0.0
+        "upside_bridge_q2_ending_cash_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10559,7 +10559,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q3_revolver_draw_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q3_revolver_draw_variance": 0.0
+        "upside_bridge_q3_revolver_draw_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10614,7 +10614,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q4_revolver_draw_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q4_revolver_draw_variance": 0.0
+        "upside_bridge_q4_revolver_draw_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10647,7 +10647,7 @@
       "id": "upside_scenario_attribution_values__upside_bridge_q4_ending_revolver_variance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "upside_bridge_q4_ending_revolver_variance": 0.0
+        "upside_bridge_q4_ending_revolver_variance": 0
       },
       "semantic": false,
       "weight": 10
@@ -10746,7 +10746,7 @@
       "id": "downside_contingency_values__contingency_capex_deferral_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_capex_deferral_annual_ebitda_benefit": 0.0
+        "contingency_capex_deferral_annual_ebitda_benefit": 0
       },
       "semantic": false,
       "weight": 10
@@ -10757,7 +10757,7 @@
       "id": "downside_contingency_values__contingency_capex_deferral_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_capex_deferral_annual_operating_cash_benefit": 850000.0
+        "contingency_capex_deferral_annual_operating_cash_benefit": 850000
       },
       "semantic": false,
       "weight": 10
@@ -10768,7 +10768,7 @@
       "id": "downside_contingency_values__contingency_capex_deferral_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_capex_deferral_implementation_cash_cost": 0.0
+        "contingency_capex_deferral_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -10801,7 +10801,7 @@
       "id": "downside_contingency_values__contingency_capex_deferral_q1_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_capex_deferral_q1_operating_cash_benefit": 212500.0
+        "contingency_capex_deferral_q1_operating_cash_benefit": 212500
       },
       "semantic": false,
       "weight": 10
@@ -10812,7 +10812,7 @@
       "id": "downside_contingency_values__contingency_capex_deferral_q1_net_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_capex_deferral_q1_net_cash_benefit": 212500.0
+        "contingency_capex_deferral_q1_net_cash_benefit": 212500
       },
       "semantic": false,
       "weight": 10
@@ -10856,7 +10856,7 @@
       "id": "downside_contingency_values__contingency_collections_acceleration_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_collections_acceleration_annual_ebitda_benefit": 0.0
+        "contingency_collections_acceleration_annual_ebitda_benefit": 0
       },
       "semantic": false,
       "weight": 10
@@ -10867,7 +10867,7 @@
       "id": "downside_contingency_values__contingency_collections_acceleration_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_collections_acceleration_annual_operating_cash_benefit": 650000.0
+        "contingency_collections_acceleration_annual_operating_cash_benefit": 650000
       },
       "semantic": false,
       "weight": 10
@@ -10878,7 +10878,7 @@
       "id": "downside_contingency_values__contingency_collections_acceleration_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_collections_acceleration_implementation_cash_cost": 40000.0
+        "contingency_collections_acceleration_implementation_cash_cost": 40000
       },
       "semantic": false,
       "weight": 10
@@ -10911,7 +10911,7 @@
       "id": "downside_contingency_values__contingency_collections_acceleration_q1_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_collections_acceleration_q1_operating_cash_benefit": 162500.0
+        "contingency_collections_acceleration_q1_operating_cash_benefit": 162500
       },
       "semantic": false,
       "weight": 10
@@ -10922,7 +10922,7 @@
       "id": "downside_contingency_values__contingency_collections_acceleration_q1_net_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_collections_acceleration_q1_net_cash_benefit": 122500.0
+        "contingency_collections_acceleration_q1_net_cash_benefit": 122500
       },
       "semantic": false,
       "weight": 10
@@ -10966,7 +10966,7 @@
       "id": "downside_contingency_values__contingency_construction_pricing_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_construction_pricing_annual_ebitda_benefit": 700000.0
+        "contingency_construction_pricing_annual_ebitda_benefit": 700000
       },
       "semantic": false,
       "weight": 10
@@ -10977,7 +10977,7 @@
       "id": "downside_contingency_values__contingency_construction_pricing_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_construction_pricing_annual_operating_cash_benefit": 520000.0
+        "contingency_construction_pricing_annual_operating_cash_benefit": 520000
       },
       "semantic": false,
       "weight": 10
@@ -10988,7 +10988,7 @@
       "id": "downside_contingency_values__contingency_construction_pricing_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_construction_pricing_implementation_cash_cost": 50000.0
+        "contingency_construction_pricing_implementation_cash_cost": 50000
       },
       "semantic": false,
       "weight": 10
@@ -11021,7 +11021,7 @@
       "id": "downside_contingency_values__contingency_construction_pricing_q1_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_construction_pricing_q1_operating_cash_benefit": 110000.0
+        "contingency_construction_pricing_q1_operating_cash_benefit": 110000
       },
       "semantic": false,
       "weight": 10
@@ -11032,7 +11032,7 @@
       "id": "downside_contingency_values__contingency_construction_pricing_q1_net_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_construction_pricing_q1_net_cash_benefit": 60000.0
+        "contingency_construction_pricing_q1_net_cash_benefit": 60000
       },
       "semantic": false,
       "weight": 10
@@ -11076,7 +11076,7 @@
       "id": "downside_contingency_values__contingency_controls_mix_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_controls_mix_annual_ebitda_benefit": 350000.0
+        "contingency_controls_mix_annual_ebitda_benefit": 350000
       },
       "semantic": false,
       "weight": 10
@@ -11087,7 +11087,7 @@
       "id": "downside_contingency_values__contingency_controls_mix_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_controls_mix_annual_operating_cash_benefit": 280000.0
+        "contingency_controls_mix_annual_operating_cash_benefit": 280000
       },
       "semantic": false,
       "weight": 10
@@ -11098,7 +11098,7 @@
       "id": "downside_contingency_values__contingency_controls_mix_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_controls_mix_implementation_cash_cost": 25000.0
+        "contingency_controls_mix_implementation_cash_cost": 25000
       },
       "semantic": false,
       "weight": 10
@@ -11186,7 +11186,7 @@
       "id": "downside_contingency_values__contingency_fixed_opex_freeze_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_fixed_opex_freeze_annual_ebitda_benefit": 600000.0
+        "contingency_fixed_opex_freeze_annual_ebitda_benefit": 600000
       },
       "semantic": false,
       "weight": 10
@@ -11197,7 +11197,7 @@
       "id": "downside_contingency_values__contingency_fixed_opex_freeze_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_fixed_opex_freeze_annual_operating_cash_benefit": 520000.0
+        "contingency_fixed_opex_freeze_annual_operating_cash_benefit": 520000
       },
       "semantic": false,
       "weight": 10
@@ -11208,7 +11208,7 @@
       "id": "downside_contingency_values__contingency_fixed_opex_freeze_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_fixed_opex_freeze_implementation_cash_cost": 100000.0
+        "contingency_fixed_opex_freeze_implementation_cash_cost": 100000
       },
       "semantic": false,
       "weight": 10
@@ -11241,7 +11241,7 @@
       "id": "downside_contingency_values__contingency_fixed_opex_freeze_q1_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_fixed_opex_freeze_q1_operating_cash_benefit": 130000.0
+        "contingency_fixed_opex_freeze_q1_operating_cash_benefit": 130000
       },
       "semantic": false,
       "weight": 10
@@ -11252,7 +11252,7 @@
       "id": "downside_contingency_values__contingency_fixed_opex_freeze_q1_net_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_fixed_opex_freeze_q1_net_cash_benefit": 30000.0
+        "contingency_fixed_opex_freeze_q1_net_cash_benefit": 30000
       },
       "semantic": false,
       "weight": 10
@@ -11296,7 +11296,7 @@
       "id": "downside_contingency_values__contingency_procurement_savings_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_procurement_savings_annual_ebitda_benefit": 450000.0
+        "contingency_procurement_savings_annual_ebitda_benefit": 450000
       },
       "semantic": false,
       "weight": 10
@@ -11307,7 +11307,7 @@
       "id": "downside_contingency_values__contingency_procurement_savings_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_procurement_savings_annual_operating_cash_benefit": 360000.0
+        "contingency_procurement_savings_annual_operating_cash_benefit": 360000
       },
       "semantic": false,
       "weight": 10
@@ -11318,7 +11318,7 @@
       "id": "downside_contingency_values__contingency_procurement_savings_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_procurement_savings_implementation_cash_cost": 35000.0
+        "contingency_procurement_savings_implementation_cash_cost": 35000
       },
       "semantic": false,
       "weight": 10
@@ -11406,7 +11406,7 @@
       "id": "downside_contingency_values__contingency_service_productivity_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_service_productivity_annual_ebitda_benefit": 500000.0
+        "contingency_service_productivity_annual_ebitda_benefit": 500000
       },
       "semantic": false,
       "weight": 10
@@ -11417,7 +11417,7 @@
       "id": "downside_contingency_values__contingency_service_productivity_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_service_productivity_annual_operating_cash_benefit": 410000.0
+        "contingency_service_productivity_annual_operating_cash_benefit": 410000
       },
       "semantic": false,
       "weight": 10
@@ -11428,7 +11428,7 @@
       "id": "downside_contingency_values__contingency_service_productivity_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_service_productivity_implementation_cash_cost": 75000.0
+        "contingency_service_productivity_implementation_cash_cost": 75000
       },
       "semantic": false,
       "weight": 10
@@ -11516,7 +11516,7 @@
       "id": "downside_contingency_values__contingency_targeted_overhead_reduction_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_targeted_overhead_reduction_annual_ebitda_benefit": 800000.0
+        "contingency_targeted_overhead_reduction_annual_ebitda_benefit": 800000
       },
       "semantic": false,
       "weight": 10
@@ -11527,7 +11527,7 @@
       "id": "downside_contingency_values__contingency_targeted_overhead_reduction_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_targeted_overhead_reduction_annual_operating_cash_benefit": 590000.0
+        "contingency_targeted_overhead_reduction_annual_operating_cash_benefit": 590000
       },
       "semantic": false,
       "weight": 10
@@ -11538,7 +11538,7 @@
       "id": "downside_contingency_values__contingency_targeted_overhead_reduction_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_targeted_overhead_reduction_implementation_cash_cost": 180000.0
+        "contingency_targeted_overhead_reduction_implementation_cash_cost": 180000
       },
       "semantic": false,
       "weight": 10
@@ -11626,7 +11626,7 @@
       "id": "downside_contingency_values__contingency_annual_ebitda_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_annual_ebitda_benefit": 1050000.0
+        "contingency_annual_ebitda_benefit": 1050000
       },
       "semantic": false,
       "weight": 10
@@ -11637,7 +11637,7 @@
       "id": "downside_contingency_values__contingency_annual_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_annual_operating_cash_benefit": 800000.0
+        "contingency_annual_operating_cash_benefit": 800000
       },
       "semantic": false,
       "weight": 10
@@ -11648,7 +11648,7 @@
       "id": "downside_contingency_values__contingency_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_implementation_cash_cost": 75000.0
+        "contingency_implementation_cash_cost": 75000
       },
       "semantic": false,
       "weight": 10
@@ -11747,7 +11747,7 @@
       "id": "downside_contingency_values__contingency_week_01_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_01_scheduled_principal": 0.0
+        "contingency_week_01_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -11758,7 +11758,7 @@
       "id": "downside_contingency_values__contingency_week_01_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_01_operating_cash_benefit": 0.0
+        "contingency_week_01_operating_cash_benefit": 0
       },
       "semantic": false,
       "weight": 10
@@ -11769,7 +11769,7 @@
       "id": "downside_contingency_values__contingency_week_01_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_01_implementation_cash_cost": 0.0
+        "contingency_week_01_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -11791,7 +11791,7 @@
       "id": "downside_contingency_values__contingency_week_01_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_01_revolver_draw": 0.0
+        "contingency_week_01_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -11802,7 +11802,7 @@
       "id": "downside_contingency_values__contingency_week_01_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_01_revolver_repayment": 0.0
+        "contingency_week_01_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -11824,7 +11824,7 @@
       "id": "downside_contingency_values__contingency_week_01_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_01_ending_revolver": 0.0
+        "contingency_week_01_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -11835,7 +11835,7 @@
       "id": "downside_contingency_values__contingency_week_01_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_01_remaining_commitment": 8000000.0
+        "contingency_week_01_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -11890,7 +11890,7 @@
       "id": "downside_contingency_values__contingency_week_02_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_02_scheduled_principal": 0.0
+        "contingency_week_02_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -11901,7 +11901,7 @@
       "id": "downside_contingency_values__contingency_week_02_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_02_operating_cash_benefit": 0.0
+        "contingency_week_02_operating_cash_benefit": 0
       },
       "semantic": false,
       "weight": 10
@@ -11912,7 +11912,7 @@
       "id": "downside_contingency_values__contingency_week_02_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_02_implementation_cash_cost": 0.0
+        "contingency_week_02_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -11934,7 +11934,7 @@
       "id": "downside_contingency_values__contingency_week_02_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_02_revolver_draw": 0.0
+        "contingency_week_02_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -11945,7 +11945,7 @@
       "id": "downside_contingency_values__contingency_week_02_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_02_revolver_repayment": 0.0
+        "contingency_week_02_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -11967,7 +11967,7 @@
       "id": "downside_contingency_values__contingency_week_02_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_02_ending_revolver": 0.0
+        "contingency_week_02_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -11978,7 +11978,7 @@
       "id": "downside_contingency_values__contingency_week_02_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_02_remaining_commitment": 8000000.0
+        "contingency_week_02_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -12033,7 +12033,7 @@
       "id": "downside_contingency_values__contingency_week_03_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_03_scheduled_principal": 0.0
+        "contingency_week_03_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -12044,7 +12044,7 @@
       "id": "downside_contingency_values__contingency_week_03_operating_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_03_operating_cash_benefit": 10000.0
+        "contingency_week_03_operating_cash_benefit": 10000
       },
       "semantic": false,
       "weight": 10
@@ -12055,7 +12055,7 @@
       "id": "downside_contingency_values__contingency_week_03_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_03_implementation_cash_cost": 50000.0
+        "contingency_week_03_implementation_cash_cost": 50000
       },
       "semantic": false,
       "weight": 10
@@ -12077,7 +12077,7 @@
       "id": "downside_contingency_values__contingency_week_03_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_03_revolver_draw": 0.0
+        "contingency_week_03_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -12088,7 +12088,7 @@
       "id": "downside_contingency_values__contingency_week_03_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_03_revolver_repayment": 0.0
+        "contingency_week_03_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -12110,7 +12110,7 @@
       "id": "downside_contingency_values__contingency_week_03_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_03_ending_revolver": 0.0
+        "contingency_week_03_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -12121,7 +12121,7 @@
       "id": "downside_contingency_values__contingency_week_03_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_03_remaining_commitment": 8000000.0
+        "contingency_week_03_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -12176,7 +12176,7 @@
       "id": "downside_contingency_values__contingency_week_04_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_04_scheduled_principal": 0.0
+        "contingency_week_04_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -12198,7 +12198,7 @@
       "id": "downside_contingency_values__contingency_week_04_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_04_implementation_cash_cost": 25000.0
+        "contingency_week_04_implementation_cash_cost": 25000
       },
       "semantic": false,
       "weight": 10
@@ -12220,7 +12220,7 @@
       "id": "downside_contingency_values__contingency_week_04_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_04_revolver_draw": 0.0
+        "contingency_week_04_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -12231,7 +12231,7 @@
       "id": "downside_contingency_values__contingency_week_04_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_04_revolver_repayment": 0.0
+        "contingency_week_04_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -12253,7 +12253,7 @@
       "id": "downside_contingency_values__contingency_week_04_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_04_ending_revolver": 0.0
+        "contingency_week_04_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -12264,7 +12264,7 @@
       "id": "downside_contingency_values__contingency_week_04_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_04_remaining_commitment": 8000000.0
+        "contingency_week_04_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -12319,7 +12319,7 @@
       "id": "downside_contingency_values__contingency_week_05_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_05_scheduled_principal": 0.0
+        "contingency_week_05_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -12341,7 +12341,7 @@
       "id": "downside_contingency_values__contingency_week_05_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_05_implementation_cash_cost": 0.0
+        "contingency_week_05_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -12363,7 +12363,7 @@
       "id": "downside_contingency_values__contingency_week_05_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_05_revolver_draw": 0.0
+        "contingency_week_05_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -12374,7 +12374,7 @@
       "id": "downside_contingency_values__contingency_week_05_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_05_revolver_repayment": 0.0
+        "contingency_week_05_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -12396,7 +12396,7 @@
       "id": "downside_contingency_values__contingency_week_05_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_05_ending_revolver": 0.0
+        "contingency_week_05_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -12407,7 +12407,7 @@
       "id": "downside_contingency_values__contingency_week_05_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_05_remaining_commitment": 8000000.0
+        "contingency_week_05_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -12462,7 +12462,7 @@
       "id": "downside_contingency_values__contingency_week_06_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_06_scheduled_principal": 0.0
+        "contingency_week_06_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -12484,7 +12484,7 @@
       "id": "downside_contingency_values__contingency_week_06_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_06_implementation_cash_cost": 0.0
+        "contingency_week_06_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -12506,7 +12506,7 @@
       "id": "downside_contingency_values__contingency_week_06_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_06_revolver_draw": 0.0
+        "contingency_week_06_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -12517,7 +12517,7 @@
       "id": "downside_contingency_values__contingency_week_06_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_06_revolver_repayment": 0.0
+        "contingency_week_06_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -12539,7 +12539,7 @@
       "id": "downside_contingency_values__contingency_week_06_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_06_ending_revolver": 0.0
+        "contingency_week_06_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -12550,7 +12550,7 @@
       "id": "downside_contingency_values__contingency_week_06_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_06_remaining_commitment": 8000000.0
+        "contingency_week_06_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -12605,7 +12605,7 @@
       "id": "downside_contingency_values__contingency_week_07_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_07_scheduled_principal": 0.0
+        "contingency_week_07_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -12627,7 +12627,7 @@
       "id": "downside_contingency_values__contingency_week_07_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_07_implementation_cash_cost": 0.0
+        "contingency_week_07_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -12649,7 +12649,7 @@
       "id": "downside_contingency_values__contingency_week_07_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_07_revolver_draw": 0.0
+        "contingency_week_07_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -12660,7 +12660,7 @@
       "id": "downside_contingency_values__contingency_week_07_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_07_revolver_repayment": 0.0
+        "contingency_week_07_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -12682,7 +12682,7 @@
       "id": "downside_contingency_values__contingency_week_07_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_07_ending_revolver": 0.0
+        "contingency_week_07_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -12693,7 +12693,7 @@
       "id": "downside_contingency_values__contingency_week_07_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_07_remaining_commitment": 8000000.0
+        "contingency_week_07_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -12748,7 +12748,7 @@
       "id": "downside_contingency_values__contingency_week_08_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_scheduled_principal": 0.0
+        "contingency_week_08_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -12770,7 +12770,7 @@
       "id": "downside_contingency_values__contingency_week_08_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_implementation_cash_cost": 0.0
+        "contingency_week_08_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -12781,7 +12781,7 @@
       "id": "downside_contingency_values__contingency_week_08_cash_before_financing",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_cash_before_financing": 3054232.0
+        "contingency_week_08_cash_before_financing": 3054232
       },
       "semantic": false,
       "weight": 10
@@ -12792,7 +12792,7 @@
       "id": "downside_contingency_values__contingency_week_08_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_revolver_draw": 0.0
+        "contingency_week_08_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -12803,7 +12803,7 @@
       "id": "downside_contingency_values__contingency_week_08_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_revolver_repayment": 0.0
+        "contingency_week_08_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -12814,7 +12814,7 @@
       "id": "downside_contingency_values__contingency_week_08_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_ending_cash": 3054232.0
+        "contingency_week_08_ending_cash": 3054232
       },
       "semantic": false,
       "weight": 10
@@ -12825,7 +12825,7 @@
       "id": "downside_contingency_values__contingency_week_08_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_ending_revolver": 0.0
+        "contingency_week_08_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -12836,7 +12836,7 @@
       "id": "downside_contingency_values__contingency_week_08_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_remaining_commitment": 8000000.0
+        "contingency_week_08_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -12847,7 +12847,7 @@
       "id": "downside_contingency_values__contingency_week_08_cash_headroom_to_floor",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_08_cash_headroom_to_floor": 804232.0
+        "contingency_week_08_cash_headroom_to_floor": 804232
       },
       "semantic": false,
       "weight": 10
@@ -12858,7 +12858,7 @@
       "id": "downside_contingency_values__contingency_week_09_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_09_beginning_cash": 3054232.0
+        "contingency_week_09_beginning_cash": 3054232
       },
       "semantic": false,
       "weight": 10
@@ -12891,7 +12891,7 @@
       "id": "downside_contingency_values__contingency_week_09_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_09_scheduled_principal": 0.0
+        "contingency_week_09_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -12913,7 +12913,7 @@
       "id": "downside_contingency_values__contingency_week_09_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_09_implementation_cash_cost": 0.0
+        "contingency_week_09_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -12935,7 +12935,7 @@
       "id": "downside_contingency_values__contingency_week_09_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_09_revolver_draw": 0.0
+        "contingency_week_09_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -12946,7 +12946,7 @@
       "id": "downside_contingency_values__contingency_week_09_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_09_revolver_repayment": 0.0
+        "contingency_week_09_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -12968,7 +12968,7 @@
       "id": "downside_contingency_values__contingency_week_09_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_09_ending_revolver": 0.0
+        "contingency_week_09_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -12979,7 +12979,7 @@
       "id": "downside_contingency_values__contingency_week_09_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_09_remaining_commitment": 8000000.0
+        "contingency_week_09_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -13034,7 +13034,7 @@
       "id": "downside_contingency_values__contingency_week_10_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_10_scheduled_principal": 0.0
+        "contingency_week_10_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -13056,7 +13056,7 @@
       "id": "downside_contingency_values__contingency_week_10_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_10_implementation_cash_cost": 0.0
+        "contingency_week_10_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -13078,7 +13078,7 @@
       "id": "downside_contingency_values__contingency_week_10_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_10_revolver_draw": 0.0
+        "contingency_week_10_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -13089,7 +13089,7 @@
       "id": "downside_contingency_values__contingency_week_10_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_10_revolver_repayment": 0.0
+        "contingency_week_10_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -13111,7 +13111,7 @@
       "id": "downside_contingency_values__contingency_week_10_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_10_ending_revolver": 0.0
+        "contingency_week_10_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -13122,7 +13122,7 @@
       "id": "downside_contingency_values__contingency_week_10_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_10_remaining_commitment": 8000000.0
+        "contingency_week_10_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -13177,7 +13177,7 @@
       "id": "downside_contingency_values__contingency_week_11_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_11_scheduled_principal": 0.0
+        "contingency_week_11_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -13199,7 +13199,7 @@
       "id": "downside_contingency_values__contingency_week_11_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_11_implementation_cash_cost": 0.0
+        "contingency_week_11_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -13221,7 +13221,7 @@
       "id": "downside_contingency_values__contingency_week_11_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_11_revolver_draw": 0.0
+        "contingency_week_11_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -13232,7 +13232,7 @@
       "id": "downside_contingency_values__contingency_week_11_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_11_revolver_repayment": 0.0
+        "contingency_week_11_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -13254,7 +13254,7 @@
       "id": "downside_contingency_values__contingency_week_11_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_11_ending_revolver": 0.0
+        "contingency_week_11_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -13265,7 +13265,7 @@
       "id": "downside_contingency_values__contingency_week_11_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_11_remaining_commitment": 8000000.0
+        "contingency_week_11_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -13320,7 +13320,7 @@
       "id": "downside_contingency_values__contingency_week_12_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_12_scheduled_principal": 0.0
+        "contingency_week_12_scheduled_principal": 0
       },
       "semantic": false,
       "weight": 10
@@ -13342,7 +13342,7 @@
       "id": "downside_contingency_values__contingency_week_12_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_12_implementation_cash_cost": 0.0
+        "contingency_week_12_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -13364,7 +13364,7 @@
       "id": "downside_contingency_values__contingency_week_12_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_12_revolver_draw": 0.0
+        "contingency_week_12_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -13375,7 +13375,7 @@
       "id": "downside_contingency_values__contingency_week_12_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_12_revolver_repayment": 0.0
+        "contingency_week_12_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -13397,7 +13397,7 @@
       "id": "downside_contingency_values__contingency_week_12_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_12_ending_revolver": 0.0
+        "contingency_week_12_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -13408,7 +13408,7 @@
       "id": "downside_contingency_values__contingency_week_12_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_12_remaining_commitment": 8000000.0
+        "contingency_week_12_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -13463,7 +13463,7 @@
       "id": "downside_contingency_values__contingency_week_13_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_13_scheduled_principal": 250000.0
+        "contingency_week_13_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -13485,7 +13485,7 @@
       "id": "downside_contingency_values__contingency_week_13_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_13_implementation_cash_cost": 0.0
+        "contingency_week_13_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -13507,7 +13507,7 @@
       "id": "downside_contingency_values__contingency_week_13_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_13_revolver_draw": 0.0
+        "contingency_week_13_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -13518,7 +13518,7 @@
       "id": "downside_contingency_values__contingency_week_13_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_13_revolver_repayment": 0.0
+        "contingency_week_13_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -13540,7 +13540,7 @@
       "id": "downside_contingency_values__contingency_week_13_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_13_ending_revolver": 0.0
+        "contingency_week_13_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -13551,7 +13551,7 @@
       "id": "downside_contingency_values__contingency_week_13_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_week_13_remaining_commitment": 8000000.0
+        "contingency_week_13_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -13584,7 +13584,7 @@
       "id": "downside_contingency_values__contingency_13_week_peak_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_13_week_peak_revolver": 0.0
+        "contingency_13_week_peak_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -13606,7 +13606,7 @@
       "id": "downside_contingency_values__contingency_13_week_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_13_week_ending_revolver": 0.0
+        "contingency_13_week_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -13617,7 +13617,7 @@
       "id": "downside_contingency_values__contingency_13_week_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "contingency_13_week_remaining_commitment": 8000000.0
+        "contingency_13_week_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -13672,7 +13672,7 @@
       "id": "covenant_release_values__covenant_contingency_q1_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q1_implementation_cash_cost": 75000.0
+        "covenant_contingency_q1_implementation_cash_cost": 75000
       },
       "semantic": false,
       "weight": 10
@@ -13683,7 +13683,7 @@
       "id": "covenant_release_values__covenant_contingency_q1_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q1_seasonal_cash_adjustment": -1100000.0
+        "covenant_contingency_q1_seasonal_cash_adjustment": -1100000
       },
       "semantic": false,
       "weight": 10
@@ -13694,7 +13694,7 @@
       "id": "covenant_release_values__covenant_contingency_q1_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q1_scheduled_principal": 250000.0
+        "covenant_contingency_q1_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -13716,7 +13716,7 @@
       "id": "covenant_release_values__covenant_contingency_q1_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q1_revolver_draw": 0.0
+        "covenant_contingency_q1_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -13727,7 +13727,7 @@
       "id": "covenant_release_values__covenant_contingency_q1_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q1_revolver_repayment": 0.0
+        "covenant_contingency_q1_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -13749,7 +13749,7 @@
       "id": "covenant_release_values__covenant_contingency_q1_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q1_ending_revolver": 0.0
+        "covenant_contingency_q1_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -13760,7 +13760,7 @@
       "id": "covenant_release_values__covenant_contingency_q1_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q1_remaining_commitment": 8000000.0
+        "covenant_contingency_q1_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -13793,7 +13793,7 @@
       "id": "covenant_release_values__covenant_contingency_q2_selected_action_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q2_selected_action_cash_benefit": 200000.0
+        "covenant_contingency_q2_selected_action_cash_benefit": 200000
       },
       "semantic": false,
       "weight": 10
@@ -13804,7 +13804,7 @@
       "id": "covenant_release_values__covenant_contingency_q2_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q2_implementation_cash_cost": 0.0
+        "covenant_contingency_q2_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -13815,7 +13815,7 @@
       "id": "covenant_release_values__covenant_contingency_q2_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q2_seasonal_cash_adjustment": -900000.0
+        "covenant_contingency_q2_seasonal_cash_adjustment": -900000
       },
       "semantic": false,
       "weight": 10
@@ -13826,7 +13826,7 @@
       "id": "covenant_release_values__covenant_contingency_q2_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q2_scheduled_principal": 250000.0
+        "covenant_contingency_q2_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -13859,7 +13859,7 @@
       "id": "covenant_release_values__covenant_contingency_q2_revolver_repayment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q2_revolver_repayment": 0.0
+        "covenant_contingency_q2_revolver_repayment": 0
       },
       "semantic": false,
       "weight": 10
@@ -13870,7 +13870,7 @@
       "id": "covenant_release_values__covenant_contingency_q2_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q2_ending_cash": 2250000.0
+        "covenant_contingency_q2_ending_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -13903,7 +13903,7 @@
       "id": "covenant_release_values__covenant_contingency_q3_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q3_beginning_cash": 2250000.0
+        "covenant_contingency_q3_beginning_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -13925,7 +13925,7 @@
       "id": "covenant_release_values__covenant_contingency_q3_selected_action_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q3_selected_action_cash_benefit": 200000.0
+        "covenant_contingency_q3_selected_action_cash_benefit": 200000
       },
       "semantic": false,
       "weight": 10
@@ -13936,7 +13936,7 @@
       "id": "covenant_release_values__covenant_contingency_q3_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q3_implementation_cash_cost": 0.0
+        "covenant_contingency_q3_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -13947,7 +13947,7 @@
       "id": "covenant_release_values__covenant_contingency_q3_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q3_seasonal_cash_adjustment": 500000.0
+        "covenant_contingency_q3_seasonal_cash_adjustment": 500000
       },
       "semantic": false,
       "weight": 10
@@ -13958,7 +13958,7 @@
       "id": "covenant_release_values__covenant_contingency_q3_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q3_scheduled_principal": 250000.0
+        "covenant_contingency_q3_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -13980,7 +13980,7 @@
       "id": "covenant_release_values__covenant_contingency_q3_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q3_revolver_draw": 0.0
+        "covenant_contingency_q3_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -14002,7 +14002,7 @@
       "id": "covenant_release_values__covenant_contingency_q3_ending_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q3_ending_cash": 2250000.0
+        "covenant_contingency_q3_ending_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -14035,7 +14035,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_beginning_cash",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_beginning_cash": 2250000.0
+        "covenant_contingency_q4_beginning_cash": 2250000
       },
       "semantic": false,
       "weight": 10
@@ -14057,7 +14057,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_selected_action_cash_benefit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_selected_action_cash_benefit": 200000.0
+        "covenant_contingency_q4_selected_action_cash_benefit": 200000
       },
       "semantic": false,
       "weight": 10
@@ -14068,7 +14068,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_implementation_cash_cost",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_implementation_cash_cost": 0.0
+        "covenant_contingency_q4_implementation_cash_cost": 0
       },
       "semantic": false,
       "weight": 10
@@ -14079,7 +14079,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_seasonal_cash_adjustment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_seasonal_cash_adjustment": 1500000.0
+        "covenant_contingency_q4_seasonal_cash_adjustment": 1500000
       },
       "semantic": false,
       "weight": 10
@@ -14090,7 +14090,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_scheduled_principal": 250000.0
+        "covenant_contingency_q4_scheduled_principal": 250000
       },
       "semantic": false,
       "weight": 10
@@ -14112,7 +14112,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_revolver_draw",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_revolver_draw": 0.0
+        "covenant_contingency_q4_revolver_draw": 0
       },
       "semantic": false,
       "weight": 10
@@ -14145,7 +14145,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_ending_revolver": 0.0
+        "covenant_contingency_q4_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -14156,7 +14156,7 @@
       "id": "covenant_release_values__covenant_contingency_q4_remaining_commitment",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_q4_remaining_commitment": 8000000.0
+        "covenant_contingency_q4_remaining_commitment": 8000000
       },
       "semantic": false,
       "weight": 10
@@ -14178,7 +14178,7 @@
       "id": "covenant_release_values__covenant_base_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_base_ending_revolver": 0.0
+        "covenant_base_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -14222,7 +14222,7 @@
       "id": "covenant_release_values__covenant_base_maintenance_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_base_maintenance_capex": 1890000.0
+        "covenant_base_maintenance_capex": 1890000
       },
       "semantic": false,
       "weight": 10
@@ -14288,7 +14288,7 @@
       "id": "covenant_release_values__covenant_base_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_base_scheduled_principal": 1000000.0
+        "covenant_base_scheduled_principal": 1000000
       },
       "semantic": false,
       "weight": 10
@@ -14453,7 +14453,7 @@
       "id": "covenant_release_values__covenant_downside_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_downside_ending_revolver": 0.0
+        "covenant_downside_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -14497,7 +14497,7 @@
       "id": "covenant_release_values__covenant_downside_maintenance_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_downside_maintenance_capex": 1380000.0
+        "covenant_downside_maintenance_capex": 1380000
       },
       "semantic": false,
       "weight": 10
@@ -14563,7 +14563,7 @@
       "id": "covenant_release_values__covenant_downside_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_downside_scheduled_principal": 1000000.0
+        "covenant_downside_scheduled_principal": 1000000
       },
       "semantic": false,
       "weight": 10
@@ -14728,7 +14728,7 @@
       "id": "covenant_release_values__covenant_contingency_ending_revolver",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_ending_revolver": 0.0
+        "covenant_contingency_ending_revolver": 0
       },
       "semantic": false,
       "weight": 10
@@ -14772,7 +14772,7 @@
       "id": "covenant_release_values__covenant_contingency_maintenance_capex",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_maintenance_capex": 1380000.0
+        "covenant_contingency_maintenance_capex": 1380000
       },
       "semantic": false,
       "weight": 10
@@ -14838,7 +14838,7 @@
       "id": "covenant_release_values__covenant_contingency_scheduled_principal",
       "kind": "xlsx_label_values",
       "label_values": {
-        "covenant_contingency_scheduled_principal": 1000000.0
+        "covenant_contingency_scheduled_principal": 1000000
       },
       "semantic": false,
       "weight": 10

@@ -5,7 +5,7 @@
       "category": "core_finance",
       "description": "Ltm covenant ebitda is correctly derived from the shared company workpapers and controlling definitions: `ltm_covenant_ebitda` is correct",
       "expected": {
-        "ltm_covenant_ebitda": 7850000.0
+        "ltm_covenant_ebitda": 7850000
       },
       "id": "ltm_covenant_ebitda__ltm_covenant_ebitda",
       "kind": "numeric",
@@ -65,7 +65,7 @@
       "category": "core_finance",
       "description": "Cash interest is correctly derived from the shared company workpapers and controlling definitions: `cash_interest` is correct",
       "expected": {
-        "cash_interest": 1280000.0
+        "cash_interest": 1280000
       },
       "id": "cash_interest__cash_interest",
       "kind": "numeric",
@@ -77,7 +77,7 @@
       "category": "core_finance",
       "description": "Fixed charges is correctly derived from the shared company workpapers and controlling definitions: `fixed_charges` is correct",
       "expected": {
-        "fixed_charges": 4000000.0
+        "fixed_charges": 4000000
       },
       "id": "fixed_charges__fixed_charges",
       "kind": "numeric",
@@ -113,7 +113,7 @@
       "category": "core_finance",
       "description": "Tangible net worth headroom is correctly derived from the shared company workpapers and controlling definitions: `tangible_net_worth_headroom` is correct",
       "expected": {
-        "tangible_net_worth_headroom": 4600000.0
+        "tangible_net_worth_headroom": 4600000
       },
       "id": "tangible_net_worth_headroom__tangible_net_worth_headroom",
       "kind": "numeric",
@@ -125,7 +125,7 @@
       "category": "core_finance",
       "description": "Maximum debt at leverage limit is correctly derived from the shared company workpapers and controlling definitions: `maximum_debt_at_leverage_limit` is correct",
       "expected": {
-        "maximum_debt_at_leverage_limit": 25512500.0
+        "maximum_debt_at_leverage_limit": 25512500
       },
       "id": "maximum_debt_at_leverage_limit__maximum_debt_at_leverage_limit",
       "kind": "numeric",
@@ -161,7 +161,7 @@
       "category": "core_finance",
       "description": "Ratings guardrail debt capacity is correctly derived from the shared company workpapers and controlling definitions: `ratings_guardrail_debt_capacity` is correct",
       "expected": {
-        "ratings_guardrail_debt_capacity": 12000000.0
+        "ratings_guardrail_debt_capacity": 12000000
       },
       "id": "ratings_guardrail_debt_capacity__ratings_guardrail_debt_capacity",
       "kind": "numeric",
@@ -197,7 +197,7 @@
       "category": "core_finance",
       "description": "Pro forma funded debt is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_funded_debt` is correct",
       "expected": {
-        "pro_forma_funded_debt": 25512500.0
+        "pro_forma_funded_debt": 25512500
       },
       "id": "pro_forma_funded_debt__pro_forma_funded_debt",
       "kind": "numeric",

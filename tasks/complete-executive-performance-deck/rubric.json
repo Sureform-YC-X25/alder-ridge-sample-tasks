@@ -24,7 +24,7 @@
       "id": "headline_values__june_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "june_revenue": 4703220.0
+        "june_revenue": 4703220
       },
       "semantic": false,
       "weight": 10
@@ -46,7 +46,7 @@
       "id": "headline_values__identified_ebitda_action_pool",
       "kind": "artifact_label_values",
       "label_values": {
-        "identified_ebitda_action_pool": 790000.0
+        "identified_ebitda_action_pool": 790000
       },
       "semantic": false,
       "weight": 10
@@ -68,7 +68,7 @@
       "id": "headline_values__executable_ebitda_mitigation",
       "kind": "artifact_label_values",
       "label_values": {
-        "executable_ebitda_mitigation": 489800.0
+        "executable_ebitda_mitigation": 489800
       },
       "semantic": false,
       "weight": 10
@@ -101,7 +101,7 @@
       "id": "headline_values__minimum_guidance_update_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "minimum_guidance_update_headroom": 250000.0
+        "minimum_guidance_update_headroom": 250000
       },
       "semantic": false,
       "weight": 10
@@ -112,7 +112,7 @@
       "id": "headline_values__guidance_update_trigger",
       "kind": "artifact_label_values",
       "label_values": {
-        "guidance_update_trigger": 2750000.0
+        "guidance_update_trigger": 2750000
       },
       "semantic": false,
       "weight": 10
@@ -134,7 +134,7 @@
       "id": "headline_values__posted_ytd_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "posted_ytd_revenue": 24650000.0
+        "posted_ytd_revenue": 24650000
       },
       "semantic": false,
       "weight": 10
@@ -156,7 +156,7 @@
       "id": "headline_values__q2_posted_ytd_revenue_reconciliation_check",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_posted_ytd_revenue_reconciliation_check": 0.0
+        "q2_posted_ytd_revenue_reconciliation_check": 0
       },
       "semantic": false,
       "weight": 10
@@ -167,7 +167,7 @@
       "id": "headline_values__q2_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_revenue": 13064500.0
+        "q2_revenue": 13064500
       },
       "semantic": false,
       "weight": 10
@@ -178,7 +178,7 @@
       "id": "headline_values__q2_approved_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_approved_plan_revenue": 12792000.0
+        "q2_approved_plan_revenue": 12792000
       },
       "semantic": false,
       "weight": 10
@@ -189,7 +189,7 @@
       "id": "headline_values__q2_revenue_variance_to_plan",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_revenue_variance_to_plan": 272500.0
+        "q2_revenue_variance_to_plan": 272500
       },
       "semantic": false,
       "weight": 10
@@ -244,7 +244,7 @@
       "id": "headline_values__construction_gross_profit_impact",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_gross_profit_impact": 410000.0
+        "construction_gross_profit_impact": 410000
       },
       "semantic": false,
       "weight": 10
@@ -255,7 +255,7 @@
       "id": "headline_values__service_labor_productivity_impact",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_labor_productivity_impact": 285000.0
+        "service_labor_productivity_impact": 285000
       },
       "semantic": false,
       "weight": 10
@@ -266,7 +266,7 @@
       "id": "headline_values__controls_mix_impact",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_mix_impact": 95000.0
+        "controls_mix_impact": 95000
       },
       "semantic": false,
       "weight": 10
@@ -277,7 +277,7 @@
       "id": "headline_values__q2_operating_cash_flow",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_operating_cash_flow": 3470000.0
+        "q2_operating_cash_flow": 3470000
       },
       "semantic": false,
       "weight": 10
@@ -288,7 +288,7 @@
       "id": "headline_values__q2_capital_expenditure",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_capital_expenditure": 1820000.0
+        "q2_capital_expenditure": 1820000
       },
       "semantic": false,
       "weight": 10
@@ -299,7 +299,7 @@
       "id": "headline_values__q2_free_cash_flow",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_free_cash_flow": 1650000.0
+        "q2_free_cash_flow": 1650000
       },
       "semantic": false,
       "weight": 10
@@ -310,7 +310,7 @@
       "id": "headline_values__q2_free_cash_flow_plan",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_free_cash_flow_plan": 2550000.0
+        "q2_free_cash_flow_plan": 2550000
       },
       "semantic": false,
       "weight": 10
@@ -321,7 +321,7 @@
       "id": "headline_values__q2_free_cash_flow_variance_to_plan",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_free_cash_flow_variance_to_plan": -900000.0
+        "q2_free_cash_flow_variance_to_plan": -900000
       },
       "semantic": false,
       "weight": 10
@@ -332,7 +332,7 @@
       "id": "headline_values__collections_timing_cash_impact",
       "kind": "artifact_label_values",
       "label_values": {
-        "collections_timing_cash_impact": 360000.0
+        "collections_timing_cash_impact": 360000
       },
       "semantic": false,
       "weight": 10
@@ -343,7 +343,7 @@
       "id": "headline_values__maximum_revolver",
       "kind": "artifact_label_values",
       "label_values": {
-        "maximum_revolver": 5350000.0
+        "maximum_revolver": 5350000
       },
       "semantic": false,
       "weight": 10
@@ -354,7 +354,7 @@
       "id": "headline_values__latest_full_year_revenue_outlook",
       "kind": "artifact_label_values",
       "label_values": {
-        "latest_full_year_revenue_outlook": 50800000.0
+        "latest_full_year_revenue_outlook": 50800000
       },
       "semantic": false,
       "weight": 10
@@ -409,7 +409,7 @@
       "id": "headline_values__revenue_guidance_low",
       "kind": "artifact_label_values",
       "label_values": {
-        "revenue_guidance_low": 52000000.0
+        "revenue_guidance_low": 52000000
       },
       "semantic": false,
       "weight": 10
@@ -420,7 +420,7 @@
       "id": "headline_values__revenue_guidance_high",
       "kind": "artifact_label_values",
       "label_values": {
-        "revenue_guidance_high": 55000000.0
+        "revenue_guidance_high": 55000000
       },
       "semantic": false,
       "weight": 10
@@ -431,7 +431,7 @@
       "id": "headline_values__ebitda_guidance_low",
       "kind": "artifact_label_values",
       "label_values": {
-        "ebitda_guidance_low": 3000000.0
+        "ebitda_guidance_low": 3000000
       },
       "semantic": false,
       "weight": 10
@@ -442,7 +442,7 @@
       "id": "headline_values__ebitda_guidance_high",
       "kind": "artifact_label_values",
       "label_values": {
-        "ebitda_guidance_high": 4250000.0
+        "ebitda_guidance_high": 4250000
       },
       "semantic": false,
       "weight": 10
@@ -508,7 +508,7 @@
       "id": "headline_values__construction_q2_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_q2_revenue": 7316120.0
+        "construction_q2_revenue": 7316120
       },
       "semantic": false,
       "weight": 10
@@ -519,7 +519,7 @@
       "id": "headline_values__construction_q2_approved_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_q2_approved_plan_revenue": 7163520.0
+        "construction_q2_approved_plan_revenue": 7163520
       },
       "semantic": false,
       "weight": 10
@@ -530,7 +530,7 @@
       "id": "headline_values__construction_q2_revenue_variance_to_plan",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_q2_revenue_variance_to_plan": 152600.0
+        "construction_q2_revenue_variance_to_plan": 152600
       },
       "semantic": false,
       "weight": 10
@@ -574,7 +574,7 @@
       "id": "headline_values__service_q2_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_q2_revenue": 3658060.0
+        "service_q2_revenue": 3658060
       },
       "semantic": false,
       "weight": 10
@@ -585,7 +585,7 @@
       "id": "headline_values__service_q2_approved_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_q2_approved_plan_revenue": 3581760.0
+        "service_q2_approved_plan_revenue": 3581760
       },
       "semantic": false,
       "weight": 10
@@ -596,7 +596,7 @@
       "id": "headline_values__service_q2_revenue_variance_to_plan",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_q2_revenue_variance_to_plan": 76300.0
+        "service_q2_revenue_variance_to_plan": 76300
       },
       "semantic": false,
       "weight": 10
@@ -640,7 +640,7 @@
       "id": "headline_values__controls_q2_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_q2_revenue": 2090320.0
+        "controls_q2_revenue": 2090320
       },
       "semantic": false,
       "weight": 10
@@ -651,7 +651,7 @@
       "id": "headline_values__controls_q2_approved_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_q2_approved_plan_revenue": 2046720.0
+        "controls_q2_approved_plan_revenue": 2046720
       },
       "semantic": false,
       "weight": 10
@@ -662,7 +662,7 @@
       "id": "headline_values__controls_q2_revenue_variance_to_plan",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_q2_revenue_variance_to_plan": 43600.0
+        "controls_q2_revenue_variance_to_plan": 43600
       },
       "semantic": false,
       "weight": 10
@@ -706,7 +706,7 @@
       "id": "headline_values__q2_unrestricted_cash",
       "kind": "artifact_label_values",
       "label_values": {
-        "q2_unrestricted_cash": 3240000.0
+        "q2_unrestricted_cash": 3240000
       },
       "semantic": false,
       "weight": 10
@@ -717,7 +717,7 @@
       "id": "headline_values__signed_backlog",
       "kind": "artifact_label_values",
       "label_values": {
-        "signed_backlog": 54600000.0
+        "signed_backlog": 54600000
       },
       "semantic": false,
       "weight": 10
@@ -728,7 +728,7 @@
       "id": "headline_values__remaining_fy26_revenue_outlook",
       "kind": "artifact_label_values",
       "label_values": {
-        "remaining_fy26_revenue_outlook": 26150000.0
+        "remaining_fy26_revenue_outlook": 26150000
       },
       "semantic": false,
       "weight": 10
@@ -944,7 +944,7 @@
     }
   ],
   "deterministic_verifier": "graders/corporate_finance.py",
-  "grading_revision": "weighted-atomic-hybrid-v16-source-complete-central-work",
+  "grading_revision": "weighted-atomic-hybrid-v17-accounting-mitigation-decision",
   "integrity_verifier": "graders/integrity.py",
   "reference_contract": null,
   "reward_policy": "graders/rubric.py",

@@ -1,7 +1,7 @@
 {
   "criteria": null,
   "deterministic_verifier": "graders/apex.py",
-  "grading_revision": "weighted-atomic-hybrid-v15-wip-reversal-sensitivity",
+  "grading_revision": "weighted-atomic-hybrid-v16-objective-led-covenant-stress",
   "integrity_verifier": "graders/integrity.py",
   "reference_contract": {
     "cash_interest": 72784.57,

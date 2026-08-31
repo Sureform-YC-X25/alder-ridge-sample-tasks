@@ -15,8 +15,8 @@
     {
       "path": "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
       "type": "eml",
-      "bytes": 2029,
-      "sha256": "1222951c2581031314363b8353a7f464d408e8d99a14e7bb387eca37fa5bd0ec",
+      "bytes": 2410,
+      "sha256": "13836179be925c5ccc6fdfd901b7532dcdee40ef8de5257ba925c961bb448de4",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -33,8 +33,8 @@
     {
       "path": "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
       "type": "eml",
-      "bytes": 946,
-      "sha256": "6902b57fe575680db258c2263080de4492ba23c26416299251116b2fe51e0038",
+      "bytes": 1202,
+      "sha256": "39fadb63e526e013663a8b9f50765ecdd96044c03b1a8c4f35f6548693cff30c",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -141,8 +141,8 @@
     {
       "path": "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
       "type": "eml",
-      "bytes": 1146,
-      "sha256": "21ad1ee43db3b409a90cf9ef53c98f5b81db4d84f7dddb838dbdcd6f9effc798",
+      "bytes": 1610,
+      "sha256": "a7e98ba20ee8d26d1f9351c54b8942e187eb16f4ea86d0c5daaeb8dd0de5c5de",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -186,8 +186,8 @@
     {
       "path": "Requests/7.5.26_0812am - board review changes + source tie.eml",
       "type": "eml",
-      "bytes": 941,
-      "sha256": "8f3f9afdf3d4b2f876a76d72ee5ac5f8b125f90cf91503d39399cf3dd4ee81f7",
+      "bytes": 1289,
+      "sha256": "c5f9d0542595499010ad15806ce97df84ec0f71be03abd570e4a2bae27a5be4d",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -285,8 +285,8 @@
     {
       "path": "Shared/Finance/Close/2026/06 June/4 WIP/ARM-2409 June WIP controller sign-off - WORKING.docx",
       "type": "docx",
-      "bytes": 51425,
-      "sha256": "c7544b9dca901e72d14b195c7cca0d8cdc3d9c576668962f69ca8da804b6f129",
+      "bytes": 44304,
+      "sha256": "52176bc60045336ed9ea3822fef59beb9b719cdc7373f239d80c7ae01d808c16",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -294,8 +294,8 @@
     {
       "path": "Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx",
       "type": "xlsx",
-      "bytes": 10147,
-      "sha256": "4f321ebf3874c11eaf6ff5e81c78e343733bcf416c93a6fc8c9c47088c6f87eb",
+      "bytes": 8992,
+      "sha256": "47f20b840af1663cd26f32ea7a0bc2da2820ef31e9a9c71426a25e3a1538d9bc",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -375,8 +375,8 @@
     {
       "path": "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx",
       "type": "xlsx",
-      "bytes": 33279,
-      "sha256": "a3684b9be38182beeef3d76c31751a98578e790cfdcb5b2b26889f648ac8d646",
+      "bytes": 25524,
+      "sha256": "c22541eab804914d309a7c8eabda5fe6813fdf3b55d0a9c818e49c1e33615bdc",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -483,8 +483,8 @@
     {
       "path": "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
       "type": "pdf",
-      "bytes": 13058,
-      "sha256": "3af3865c96f4361278c5e4630517b716338492648c7eba68b148690b143ff2c7",
+      "bytes": 20886,
+      "sha256": "e671fa905ae89ac38d86beed71158b2bf2314f53775c653605d4b94642200f3e",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."

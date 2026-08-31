@@ -768,7 +768,7 @@
       "id": "headline_values__permanent_book_tax_adjustments",
       "kind": "xlsx_label_values",
       "label_values": {
-        "permanent_book_tax_adjustments": 505000.0
+        "permanent_book_tax_adjustments": 505000
       },
       "semantic": false,
       "weight": 10
@@ -779,7 +779,7 @@
       "id": "headline_values__temporary_current_tax_adjustments",
       "kind": "xlsx_label_values",
       "label_values": {
-        "temporary_current_tax_adjustments": -230000.0
+        "temporary_current_tax_adjustments": -230000
       },
       "semantic": false,
       "weight": 10
@@ -790,7 +790,7 @@
       "id": "headline_values__current_only_adjustments",
       "kind": "xlsx_label_values",
       "label_values": {
-        "current_only_adjustments": -750000.0
+        "current_only_adjustments": -750000
       },
       "semantic": false,
       "weight": 10
@@ -845,7 +845,7 @@
       "id": "headline_values__beginning_net_deferred_tax_liability",
       "kind": "xlsx_label_values",
       "label_values": {
-        "beginning_net_deferred_tax_liability": 260000.0
+        "beginning_net_deferred_tax_liability": 260000
       },
       "semantic": false,
       "weight": 10
@@ -856,7 +856,7 @@
       "id": "headline_values__deferred_tax_expense",
       "kind": "xlsx_label_values",
       "label_values": {
-        "deferred_tax_expense": -98300.0
+        "deferred_tax_expense": -98300
       },
       "semantic": false,
       "weight": 10
@@ -889,7 +889,7 @@
       "id": "headline_values__ending_temporary_difference_dta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "ending_temporary_difference_dta": 1057800.0
+        "ending_temporary_difference_dta": 1057800
       },
       "semantic": false,
       "weight": 10
@@ -900,7 +900,7 @@
       "id": "headline_values__ending_state_credit_dta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "ending_state_credit_dta": 225000.0
+        "ending_state_credit_dta": 225000
       },
       "semantic": false,
       "weight": 10
@@ -911,7 +911,7 @@
       "id": "headline_values__ending_valuation_allowance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "ending_valuation_allowance": 90000.0
+        "ending_valuation_allowance": 90000
       },
       "semantic": false,
       "weight": 10
@@ -922,7 +922,7 @@
       "id": "headline_values__ending_net_dta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "ending_net_dta": 1192800.0
+        "ending_net_dta": 1192800
       },
       "semantic": false,
       "weight": 10
@@ -933,7 +933,7 @@
       "id": "headline_values__ending_dtl",
       "kind": "xlsx_label_values",
       "label_values": {
-        "ending_dtl": 1354500.0
+        "ending_dtl": 1354500
       },
       "semantic": false,
       "weight": 10
@@ -944,7 +944,7 @@
       "id": "headline_values__ending_net_deferred_tax_liability",
       "kind": "xlsx_label_values",
       "label_values": {
-        "ending_net_deferred_tax_liability": 161700.0
+        "ending_net_deferred_tax_liability": 161700
       },
       "semantic": false,
       "weight": 10
@@ -977,7 +977,7 @@
       "id": "headline_values__oregon_nol_utilized",
       "kind": "xlsx_label_values",
       "label_values": {
-        "oregon_nol_utilized": 0.0
+        "oregon_nol_utilized": 0
       },
       "semantic": false,
       "weight": 10
@@ -1032,7 +1032,7 @@
       "id": "headline_values__washington_nol_utilized",
       "kind": "xlsx_label_values",
       "label_values": {
-        "washington_nol_utilized": 0.0
+        "washington_nol_utilized": 0
       },
       "semantic": false,
       "weight": 10
@@ -1087,7 +1087,7 @@
       "id": "headline_values__california_nol_utilized",
       "kind": "xlsx_label_values",
       "label_values": {
-        "california_nol_utilized": 1150000.0
+        "california_nol_utilized": 1150000
       },
       "semantic": false,
       "weight": 10
@@ -1142,7 +1142,7 @@
       "id": "headline_values__idaho_nol_utilized",
       "kind": "xlsx_label_values",
       "label_values": {
-        "idaho_nol_utilized": 420000.0
+        "idaho_nol_utilized": 420000
       },
       "semantic": false,
       "weight": 10
@@ -1175,7 +1175,7 @@
       "id": "headline_values__bonus_and_compensation_accruals_measured_deferred_tax_balance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "bonus_and_compensation_accruals_measured_deferred_tax_balance": 79980.0
+        "bonus_and_compensation_accruals_measured_deferred_tax_balance": 79980
       },
       "semantic": false,
       "weight": 10
@@ -1186,7 +1186,7 @@
       "id": "headline_values__deferred_service_revenue_measured_deferred_tax_balance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "deferred_service_revenue_measured_deferred_tax_balance": 626940.0
+        "deferred_service_revenue_measured_deferred_tax_balance": 626940
       },
       "semantic": false,
       "weight": 10
@@ -1197,7 +1197,7 @@
       "id": "headline_values__warranty_and_bad_debt_reserves_measured_deferred_tax_balance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "warranty_and_bad_debt_reserves_measured_deferred_tax_balance": 350880.0
+        "warranty_and_bad_debt_reserves_measured_deferred_tax_balance": 350880
       },
       "semantic": false,
       "weight": 10
@@ -1208,7 +1208,7 @@
       "id": "headline_values__accelerated_tax_depreciation_measured_deferred_tax_balance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "accelerated_tax_depreciation_measured_deferred_tax_balance": 1189380.0
+        "accelerated_tax_depreciation_measured_deferred_tax_balance": 1189380
       },
       "semantic": false,
       "weight": 10
@@ -1219,7 +1219,7 @@
       "id": "headline_values__capitalized_software_basis_measured_deferred_tax_balance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "capitalized_software_basis_measured_deferred_tax_balance": 165120.0
+        "capitalized_software_basis_measured_deferred_tax_balance": 165120
       },
       "semantic": false,
       "weight": 10
@@ -1230,7 +1230,7 @@
       "id": "headline_values__state_tax_credit_measured_deferred_tax_balance",
       "kind": "xlsx_label_values",
       "label_values": {
-        "state_tax_credit_measured_deferred_tax_balance": 225000.0
+        "state_tax_credit_measured_deferred_tax_balance": 225000
       },
       "semantic": false,
       "weight": 10
@@ -1241,7 +1241,7 @@
       "id": "headline_values__deferred_tax_rollforward_check",
       "kind": "xlsx_label_values",
       "label_values": {
-        "deferred_tax_rollforward_check": 0.0
+        "deferred_tax_rollforward_check": 0
       },
       "semantic": false,
       "weight": 10
@@ -1252,7 +1252,7 @@
       "id": "headline_values__provision_reconciliation_check",
       "kind": "xlsx_label_values",
       "label_values": {
-        "provision_reconciliation_check": 0.0
+        "provision_reconciliation_check": 0
       },
       "semantic": false,
       "weight": 10
@@ -1263,7 +1263,7 @@
       "id": "headline_values__opening_federal_income_tax_payable",
       "kind": "xlsx_label_values",
       "label_values": {
-        "opening_federal_income_tax_payable": 410000.0
+        "opening_federal_income_tax_payable": 410000
       },
       "semantic": false,
       "weight": 10
@@ -1285,7 +1285,7 @@
       "id": "headline_values__federal_estimated_payments",
       "kind": "xlsx_label_values",
       "label_values": {
-        "federal_estimated_payments": 1125000.0
+        "federal_estimated_payments": 1125000
       },
       "semantic": false,
       "weight": 10
@@ -1307,7 +1307,7 @@
       "id": "headline_values__opening_state_income_tax_payable",
       "kind": "xlsx_label_values",
       "label_values": {
-        "opening_state_income_tax_payable": 165000.0
+        "opening_state_income_tax_payable": 165000
       },
       "semantic": false,
       "weight": 10
@@ -1329,7 +1329,7 @@
       "id": "headline_values__state_estimated_payments",
       "kind": "xlsx_label_values",
       "label_values": {
-        "state_estimated_payments": 505000.0
+        "state_estimated_payments": 505000
       },
       "semantic": false,
       "weight": 10
@@ -1373,7 +1373,7 @@
       "id": "headline_values__journal_deferred_tax_benefit_debit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "journal_deferred_tax_benefit_debit": 98300.0
+        "journal_deferred_tax_benefit_debit": 98300
       },
       "semantic": false,
       "weight": 10
@@ -1384,7 +1384,7 @@
       "id": "headline_values__journal_deferred_tax_expense_credit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "journal_deferred_tax_expense_credit": 0.0
+        "journal_deferred_tax_expense_credit": 0
       },
       "semantic": false,
       "weight": 10
@@ -1417,7 +1417,7 @@
       "id": "headline_values__journal_federal_estimated_payment_debit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "journal_federal_estimated_payment_debit": 1125000.0
+        "journal_federal_estimated_payment_debit": 1125000
       },
       "semantic": false,
       "weight": 10
@@ -1428,7 +1428,7 @@
       "id": "headline_values__journal_state_estimated_payment_debit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "journal_state_estimated_payment_debit": 505000.0
+        "journal_state_estimated_payment_debit": 505000
       },
       "semantic": false,
       "weight": 10
@@ -1439,7 +1439,7 @@
       "id": "headline_values__journal_cash_credit",
       "kind": "xlsx_label_values",
       "label_values": {
-        "journal_cash_credit": 1630000.0
+        "journal_cash_credit": 1630000
       },
       "semantic": false,
       "weight": 10
@@ -1450,7 +1450,7 @@
       "id": "headline_values__tax_close_journal_check",
       "kind": "xlsx_label_values",
       "label_values": {
-        "tax_close_journal_check": 0.0
+        "tax_close_journal_check": 0
       },
       "semantic": false,
       "weight": 10

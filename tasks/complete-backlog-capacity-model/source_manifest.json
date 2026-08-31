@@ -2,11 +2,17 @@
   "accounting_mcp_required": false,
   "data_group": "planning",
   "independent_fact_groups": [
+    "Capacity remediation",
+    "Execution authority",
     "Monthly capacity",
     "Project burn curve",
     "Signed contract backlog",
     "Management instructions and decision rules",
-    "Current-versus-prior source authority and reconciliation"
+    "Current-versus-prior source authority and reconciliation",
+    "Probability-plan versus full signed-commitment exposure",
+    "Capacity sign convention and approved response authority",
+    "Executable project sequencing and contractual consequences",
+    "Earnings bridge and executive recovery release decision"
   ],
   "mcp_anchor_types": [],
   "minimum_source_artifacts": [
@@ -21,7 +27,7 @@
     "Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx",
     "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx"
   ],
-  "native_fact_rows": 141,
+  "native_fact_rows": 213,
   "request_threads": [
     "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
     "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"

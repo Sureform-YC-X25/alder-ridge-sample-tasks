@@ -1,28 +1,28 @@
 {
   "answer": {
     "binding_constraint": "Leverage",
-    "cash_interest": 1280000.0,
+    "cash_interest": 1280000,
     "fixed_charge_coverage": 1.9625,
     "fixed_charge_debt_capacity": 24197530.86,
-    "fixed_charges": 4000000.0,
+    "fixed_charges": 4000000,
     "funded_debt": 25111666.5,
     "gross_leverage": 3.19893841,
     "interest_coverage": 6.1328125,
     "leverage_debt_capacity": 400833.5,
-    "ltm_covenant_ebitda": 7850000.0,
-    "maximum_debt_at_leverage_limit": 25512500.0,
+    "ltm_covenant_ebitda": 7850000,
+    "maximum_debt_at_leverage_limit": 25512500,
     "maximum_incremental_debt": 400833.5,
     "net_leverage": 2.72210786,
     "pro_forma_cash_interest": 1310062.51,
     "pro_forma_fixed_charge_coverage": 1.9478606,
-    "pro_forma_funded_debt": 25512500.0,
+    "pro_forma_funded_debt": 25512500,
     "pro_forma_gross_leverage": 3.25,
     "pro_forma_interest_coverage": 5.99208047,
     "pro_forma_net_leverage": 2.77316946,
-    "ratings_guardrail_debt_capacity": 12000000.0,
+    "ratings_guardrail_debt_capacity": 12000000,
     "remaining_fixed_charge_capacity": 23796697.36,
     "remaining_ratings_capacity": 11599166.5,
-    "tangible_net_worth_headroom": 4600000.0,
+    "tangible_net_worth_headroom": 4600000,
     "unrestricted_cash": 3743119.76
   },
   "criteria": [
@@ -31,7 +31,7 @@
       "category": "core_finance",
       "description": "Ltm covenant ebitda is correctly derived from the shared company workpapers and controlling definitions: `ltm_covenant_ebitda` is correct",
       "expected": {
-        "ltm_covenant_ebitda": 7850000.0
+        "ltm_covenant_ebitda": 7850000
       },
       "id": "ltm_covenant_ebitda__ltm_covenant_ebitda",
       "kind": "numeric",
@@ -91,7 +91,7 @@
       "category": "core_finance",
       "description": "Cash interest is correctly derived from the shared company workpapers and controlling definitions: `cash_interest` is correct",
       "expected": {
-        "cash_interest": 1280000.0
+        "cash_interest": 1280000
       },
       "id": "cash_interest__cash_interest",
       "kind": "numeric",
@@ -103,7 +103,7 @@
       "category": "core_finance",
       "description": "Fixed charges is correctly derived from the shared company workpapers and controlling definitions: `fixed_charges` is correct",
       "expected": {
-        "fixed_charges": 4000000.0
+        "fixed_charges": 4000000
       },
       "id": "fixed_charges__fixed_charges",
       "kind": "numeric",
@@ -139,7 +139,7 @@
       "category": "core_finance",
       "description": "Tangible net worth headroom is correctly derived from the shared company workpapers and controlling definitions: `tangible_net_worth_headroom` is correct",
       "expected": {
-        "tangible_net_worth_headroom": 4600000.0
+        "tangible_net_worth_headroom": 4600000
       },
       "id": "tangible_net_worth_headroom__tangible_net_worth_headroom",
       "kind": "numeric",
@@ -151,7 +151,7 @@
       "category": "core_finance",
       "description": "Maximum debt at leverage limit is correctly derived from the shared company workpapers and controlling definitions: `maximum_debt_at_leverage_limit` is correct",
       "expected": {
-        "maximum_debt_at_leverage_limit": 25512500.0
+        "maximum_debt_at_leverage_limit": 25512500
       },
       "id": "maximum_debt_at_leverage_limit__maximum_debt_at_leverage_limit",
       "kind": "numeric",
@@ -187,7 +187,7 @@
       "category": "core_finance",
       "description": "Ratings guardrail debt capacity is correctly derived from the shared company workpapers and controlling definitions: `ratings_guardrail_debt_capacity` is correct",
       "expected": {
-        "ratings_guardrail_debt_capacity": 12000000.0
+        "ratings_guardrail_debt_capacity": 12000000
       },
       "id": "ratings_guardrail_debt_capacity__ratings_guardrail_debt_capacity",
       "kind": "numeric",
@@ -223,7 +223,7 @@
       "category": "core_finance",
       "description": "Pro forma funded debt is correctly derived from the shared company workpapers and controlling definitions: `pro_forma_funded_debt` is correct",
       "expected": {
-        "pro_forma_funded_debt": 25512500.0
+        "pro_forma_funded_debt": 25512500
       },
       "id": "pro_forma_funded_debt__pro_forma_funded_debt",
       "kind": "numeric",

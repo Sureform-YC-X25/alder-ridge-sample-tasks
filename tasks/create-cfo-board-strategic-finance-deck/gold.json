@@ -1,83 +1,83 @@
 {
   "answer": {
     "base_cash_breach": false,
-    "base_covenant_ebitda": 5520000.0,
-    "base_ending_cash_before_financing": 3850000.0,
-    "base_funded_debt": 10300000.0,
+    "base_covenant_ebitda": 5520000,
+    "base_ending_cash_before_financing": 3850000,
+    "base_funded_debt": 10300000,
     "base_leverage": 1.86594203,
     "base_leverage_breach": false,
-    "base_minimum_cash_headroom": 1600000.0,
-    "base_remaining_revolver_headroom": 5100000.0,
-    "base_revolver_balance": 2900000.0,
-    "branch_ebitda_variance_to_current_comparator": 446990.0,
-    "construction_ebitda_variance": 170900.0,
-    "construction_forecast_ebitda": 5446400.0,
-    "construction_forecast_gross_profit": 7296400.0,
-    "construction_forecast_revenue": 31450000.0,
-    "construction_plan_ebitda": 5275500.0,
-    "construction_plan_gross_profit": 7325500.0,
-    "construction_plan_revenue": 29900000.0,
-    "construction_revenue_variance": 1550000.0,
-    "controls_ebitda_variance": -37300.0,
-    "controls_forecast_ebitda": 1187900.0,
-    "controls_forecast_gross_profit": 2247900.0,
-    "controls_forecast_revenue": 7620000.0,
-    "controls_plan_ebitda": 1225200.0,
-    "controls_plan_gross_profit": 2345200.0,
-    "controls_plan_revenue": 7150000.0,
-    "controls_revenue_variance": 470000.0,
+    "base_minimum_cash_headroom": 1600000,
+    "base_remaining_revolver_headroom": 5100000,
+    "base_revolver_balance": 2900000,
+    "branch_ebitda_variance_to_current_comparator": 446990,
+    "construction_ebitda_variance": 170900,
+    "construction_forecast_ebitda": 5446400,
+    "construction_forecast_gross_profit": 7296400,
+    "construction_forecast_revenue": 31450000,
+    "construction_plan_ebitda": 5275500,
+    "construction_plan_gross_profit": 7325500,
+    "construction_plan_revenue": 29900000,
+    "construction_revenue_variance": 1550000,
+    "controls_ebitda_variance": -37300,
+    "controls_forecast_ebitda": 1187900,
+    "controls_forecast_gross_profit": 2247900,
+    "controls_forecast_revenue": 7620000,
+    "controls_plan_ebitda": 1225200,
+    "controls_plan_gross_profit": 2345200,
+    "controls_plan_revenue": 7150000,
+    "controls_revenue_variance": 470000,
     "downside_cash_breach": true,
-    "downside_covenant_ebitda": 3780000.0,
-    "downside_ending_cash": 1950000.0,
-    "downside_ending_cash_before_financing": 1950000.0,
-    "downside_funded_debt": 12000000.0,
+    "downside_covenant_ebitda": 3780000,
+    "downside_ending_cash": 1950000,
+    "downside_ending_cash_before_financing": 1950000,
+    "downside_funded_debt": 12000000,
     "downside_leverage": 3.17460317,
     "downside_leverage_breach": true,
-    "downside_minimum_cash_headroom": -300000.0,
-    "downside_remaining_revolver_headroom": 3400000.0,
-    "downside_revolver_balance": 4600000.0,
-    "executable_probability_weighted_priority_ebitda": 1058000.0,
-    "forecast_branch_ebitda": 10768940.0,
-    "forecast_revenue": 53350000.0,
+    "downside_minimum_cash_headroom": -300000,
+    "downside_remaining_revolver_headroom": 3400000,
+    "downside_revolver_balance": 4600000,
+    "executable_probability_weighted_priority_ebitda": 1058000,
+    "forecast_branch_ebitda": 10768940,
+    "forecast_revenue": 53350000,
     "largest_branch_ebitda_miss": "Controls",
-    "largest_branch_ebitda_miss_amount": -37300.0,
+    "largest_branch_ebitda_miss_amount": -37300,
     "optimized_board_priority_portfolio": [
       "Procurement program",
       "Service technician hiring"
     ],
-    "optimized_priority_cash_spend": 1030000.0,
-    "optimized_probability_weighted_base_benefit": 1058000.0,
-    "optimized_probability_weighted_severe_benefit": 906100.0,
+    "optimized_priority_cash_spend": 1030000,
+    "optimized_probability_weighted_base_benefit": 1058000,
+    "optimized_probability_weighted_severe_benefit": 906100,
     "post_action_severe_cash_breach": true,
-    "post_action_severe_ending_cash": 1524270.0,
-    "post_action_severe_incremental_revolver_draw": 1100000.0,
+    "post_action_severe_ending_cash": 1524270,
+    "post_action_severe_incremental_revolver_draw": 1100000,
     "post_action_severe_leverage": 4.33058688,
     "post_action_severe_leverage_breach": true,
-    "post_action_severe_remaining_revolver_headroom": 0.0,
-    "post_action_severe_unfunded_liquidity_shortfall": 725730.0,
+    "post_action_severe_remaining_revolver_headroom": 0,
+    "post_action_severe_unfunded_liquidity_shortfall": 725730,
     "revenue_variance_pct_to_board_aop": 0.11331386,
-    "revenue_variance_to_board_aop": 5430000.0,
-    "service_ebitda_variance": 313390.0,
-    "service_forecast_ebitda": 4134640.0,
-    "service_forecast_gross_profit": 6254640.0,
-    "service_forecast_revenue": 14280000.0,
-    "service_plan_ebitda": 3821250.0,
-    "service_plan_gross_profit": 5801250.0,
-    "service_plan_revenue": 13650000.0,
-    "service_revenue_variance": 630000.0,
+    "revenue_variance_to_board_aop": 5430000,
+    "service_ebitda_variance": 313390,
+    "service_forecast_ebitda": 4134640,
+    "service_forecast_gross_profit": 6254640,
+    "service_forecast_revenue": 14280000,
+    "service_plan_ebitda": 3821250,
+    "service_plan_gross_profit": 5801250,
+    "service_plan_revenue": 13650000,
+    "service_revenue_variance": 630000,
     "severe_cash_breach": true,
     "severe_covenant_breach": true,
-    "severe_covenant_ebitda": 2650000.0,
-    "severe_ending_cash": 820000.0,
-    "severe_ending_cash_before_financing": 820000.0,
-    "severe_funded_debt": 14300000.0,
+    "severe_covenant_ebitda": 2650000,
+    "severe_ending_cash": 820000,
+    "severe_ending_cash_before_financing": 820000,
+    "severe_funded_debt": 14300000,
     "severe_leverage": 5.39622642,
     "severe_leverage_breach": true,
-    "severe_minimum_cash_headroom": -1430000.0,
-    "severe_remaining_revolver_headroom": 1100000.0,
-    "severe_revolver_balance": 6900000.0,
-    "severe_revolver_headroom": 1100000.0,
-    "total_probability_weighted_priority_ebitda": 2010500.0
+    "severe_minimum_cash_headroom": -1430000,
+    "severe_remaining_revolver_headroom": 1100000,
+    "severe_revolver_balance": 6900000,
+    "severe_revolver_headroom": 1100000,
+    "total_probability_weighted_priority_ebitda": 2010500
   },
   "artifact": {
     "edit": false,
@@ -109,7 +109,7 @@
       "id": "headline_values__forecast_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "forecast_revenue": 53350000.0
+        "forecast_revenue": 53350000
       },
       "semantic": false,
       "weight": 10
@@ -120,7 +120,7 @@
       "id": "headline_values__revenue_variance_to_board_aop",
       "kind": "artifact_label_values",
       "label_values": {
-        "revenue_variance_to_board_aop": 5430000.0
+        "revenue_variance_to_board_aop": 5430000
       },
       "semantic": false,
       "weight": 10
@@ -142,7 +142,7 @@
       "id": "headline_values__forecast_branch_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "forecast_branch_ebitda": 10768940.0
+        "forecast_branch_ebitda": 10768940
       },
       "semantic": false,
       "weight": 10
@@ -153,7 +153,7 @@
       "id": "headline_values__branch_ebitda_variance_to_current_comparator",
       "kind": "artifact_label_values",
       "label_values": {
-        "branch_ebitda_variance_to_current_comparator": 446990.0
+        "branch_ebitda_variance_to_current_comparator": 446990
       },
       "semantic": false,
       "weight": 10
@@ -186,7 +186,7 @@
       "id": "headline_values__largest_branch_ebitda_miss_amount",
       "kind": "artifact_label_values",
       "label_values": {
-        "largest_branch_ebitda_miss_amount": -37300.0
+        "largest_branch_ebitda_miss_amount": -37300
       },
       "semantic": false,
       "weight": 10
@@ -208,7 +208,7 @@
       "id": "headline_values__downside_ending_cash",
       "kind": "artifact_label_values",
       "label_values": {
-        "downside_ending_cash": 1950000.0
+        "downside_ending_cash": 1950000
       },
       "semantic": false,
       "weight": 10
@@ -219,7 +219,7 @@
       "id": "headline_values__severe_ending_cash",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_ending_cash": 820000.0
+        "severe_ending_cash": 820000
       },
       "semantic": false,
       "weight": 10
@@ -230,7 +230,7 @@
       "id": "headline_values__severe_revolver_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_revolver_headroom": 1100000.0
+        "severe_revolver_headroom": 1100000
       },
       "semantic": false,
       "weight": 10
@@ -241,7 +241,7 @@
       "id": "headline_values__total_probability_weighted_priority_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "total_probability_weighted_priority_ebitda": 2010500.0
+        "total_probability_weighted_priority_ebitda": 2010500
       },
       "semantic": false,
       "weight": 10
@@ -252,7 +252,7 @@
       "id": "headline_values__executable_probability_weighted_priority_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "executable_probability_weighted_priority_ebitda": 1058000.0
+        "executable_probability_weighted_priority_ebitda": 1058000
       },
       "semantic": false,
       "weight": 10
@@ -274,7 +274,7 @@
       "id": "headline_values__construction_forecast_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_forecast_revenue": 31450000.0
+        "construction_forecast_revenue": 31450000
       },
       "semantic": false,
       "weight": 10
@@ -285,7 +285,7 @@
       "id": "headline_values__construction_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_plan_revenue": 29900000.0
+        "construction_plan_revenue": 29900000
       },
       "semantic": false,
       "weight": 10
@@ -296,7 +296,7 @@
       "id": "headline_values__construction_revenue_variance",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_revenue_variance": 1550000.0
+        "construction_revenue_variance": 1550000
       },
       "semantic": false,
       "weight": 10
@@ -307,7 +307,7 @@
       "id": "headline_values__construction_forecast_gross_profit",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_forecast_gross_profit": 7296400.0
+        "construction_forecast_gross_profit": 7296400
       },
       "semantic": false,
       "weight": 10
@@ -318,7 +318,7 @@
       "id": "headline_values__construction_plan_gross_profit",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_plan_gross_profit": 7325500.0
+        "construction_plan_gross_profit": 7325500
       },
       "semantic": false,
       "weight": 10
@@ -329,7 +329,7 @@
       "id": "headline_values__construction_forecast_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_forecast_ebitda": 5446400.0
+        "construction_forecast_ebitda": 5446400
       },
       "semantic": false,
       "weight": 10
@@ -340,7 +340,7 @@
       "id": "headline_values__construction_plan_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_plan_ebitda": 5275500.0
+        "construction_plan_ebitda": 5275500
       },
       "semantic": false,
       "weight": 10
@@ -351,7 +351,7 @@
       "id": "headline_values__construction_ebitda_variance",
       "kind": "artifact_label_values",
       "label_values": {
-        "construction_ebitda_variance": 170900.0
+        "construction_ebitda_variance": 170900
       },
       "semantic": false,
       "weight": 10
@@ -362,7 +362,7 @@
       "id": "headline_values__service_forecast_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_forecast_revenue": 14280000.0
+        "service_forecast_revenue": 14280000
       },
       "semantic": false,
       "weight": 10
@@ -373,7 +373,7 @@
       "id": "headline_values__service_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_plan_revenue": 13650000.0
+        "service_plan_revenue": 13650000
       },
       "semantic": false,
       "weight": 10
@@ -384,7 +384,7 @@
       "id": "headline_values__service_revenue_variance",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_revenue_variance": 630000.0
+        "service_revenue_variance": 630000
       },
       "semantic": false,
       "weight": 10
@@ -395,7 +395,7 @@
       "id": "headline_values__service_forecast_gross_profit",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_forecast_gross_profit": 6254640.0
+        "service_forecast_gross_profit": 6254640
       },
       "semantic": false,
       "weight": 10
@@ -406,7 +406,7 @@
       "id": "headline_values__service_plan_gross_profit",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_plan_gross_profit": 5801250.0
+        "service_plan_gross_profit": 5801250
       },
       "semantic": false,
       "weight": 10
@@ -417,7 +417,7 @@
       "id": "headline_values__service_forecast_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_forecast_ebitda": 4134640.0
+        "service_forecast_ebitda": 4134640
       },
       "semantic": false,
       "weight": 10
@@ -428,7 +428,7 @@
       "id": "headline_values__service_plan_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_plan_ebitda": 3821250.0
+        "service_plan_ebitda": 3821250
       },
       "semantic": false,
       "weight": 10
@@ -439,7 +439,7 @@
       "id": "headline_values__service_ebitda_variance",
       "kind": "artifact_label_values",
       "label_values": {
-        "service_ebitda_variance": 313390.0
+        "service_ebitda_variance": 313390
       },
       "semantic": false,
       "weight": 10
@@ -450,7 +450,7 @@
       "id": "headline_values__controls_forecast_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_forecast_revenue": 7620000.0
+        "controls_forecast_revenue": 7620000
       },
       "semantic": false,
       "weight": 10
@@ -461,7 +461,7 @@
       "id": "headline_values__controls_plan_revenue",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_plan_revenue": 7150000.0
+        "controls_plan_revenue": 7150000
       },
       "semantic": false,
       "weight": 10
@@ -472,7 +472,7 @@
       "id": "headline_values__controls_revenue_variance",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_revenue_variance": 470000.0
+        "controls_revenue_variance": 470000
       },
       "semantic": false,
       "weight": 10
@@ -483,7 +483,7 @@
       "id": "headline_values__controls_forecast_gross_profit",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_forecast_gross_profit": 2247900.0
+        "controls_forecast_gross_profit": 2247900
       },
       "semantic": false,
       "weight": 10
@@ -494,7 +494,7 @@
       "id": "headline_values__controls_plan_gross_profit",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_plan_gross_profit": 2345200.0
+        "controls_plan_gross_profit": 2345200
       },
       "semantic": false,
       "weight": 10
@@ -505,7 +505,7 @@
       "id": "headline_values__controls_forecast_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_forecast_ebitda": 1187900.0
+        "controls_forecast_ebitda": 1187900
       },
       "semantic": false,
       "weight": 10
@@ -516,7 +516,7 @@
       "id": "headline_values__controls_plan_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_plan_ebitda": 1225200.0
+        "controls_plan_ebitda": 1225200
       },
       "semantic": false,
       "weight": 10
@@ -527,7 +527,7 @@
       "id": "headline_values__controls_ebitda_variance",
       "kind": "artifact_label_values",
       "label_values": {
-        "controls_ebitda_variance": -37300.0
+        "controls_ebitda_variance": -37300
       },
       "semantic": false,
       "weight": 10
@@ -538,7 +538,7 @@
       "id": "headline_values__base_covenant_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "base_covenant_ebitda": 5520000.0
+        "base_covenant_ebitda": 5520000
       },
       "semantic": false,
       "weight": 10
@@ -549,7 +549,7 @@
       "id": "headline_values__base_ending_cash_before_financing",
       "kind": "artifact_label_values",
       "label_values": {
-        "base_ending_cash_before_financing": 3850000.0
+        "base_ending_cash_before_financing": 3850000
       },
       "semantic": false,
       "weight": 10
@@ -560,7 +560,7 @@
       "id": "headline_values__base_revolver_balance",
       "kind": "artifact_label_values",
       "label_values": {
-        "base_revolver_balance": 2900000.0
+        "base_revolver_balance": 2900000
       },
       "semantic": false,
       "weight": 10
@@ -571,7 +571,7 @@
       "id": "headline_values__base_funded_debt",
       "kind": "artifact_label_values",
       "label_values": {
-        "base_funded_debt": 10300000.0
+        "base_funded_debt": 10300000
       },
       "semantic": false,
       "weight": 10
@@ -593,7 +593,7 @@
       "id": "headline_values__base_minimum_cash_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "base_minimum_cash_headroom": 1600000.0
+        "base_minimum_cash_headroom": 1600000
       },
       "semantic": false,
       "weight": 10
@@ -604,7 +604,7 @@
       "id": "headline_values__base_remaining_revolver_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "base_remaining_revolver_headroom": 5100000.0
+        "base_remaining_revolver_headroom": 5100000
       },
       "semantic": false,
       "weight": 10
@@ -637,7 +637,7 @@
       "id": "headline_values__downside_covenant_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "downside_covenant_ebitda": 3780000.0
+        "downside_covenant_ebitda": 3780000
       },
       "semantic": false,
       "weight": 10
@@ -648,7 +648,7 @@
       "id": "headline_values__downside_ending_cash_before_financing",
       "kind": "artifact_label_values",
       "label_values": {
-        "downside_ending_cash_before_financing": 1950000.0
+        "downside_ending_cash_before_financing": 1950000
       },
       "semantic": false,
       "weight": 10
@@ -659,7 +659,7 @@
       "id": "headline_values__downside_revolver_balance",
       "kind": "artifact_label_values",
       "label_values": {
-        "downside_revolver_balance": 4600000.0
+        "downside_revolver_balance": 4600000
       },
       "semantic": false,
       "weight": 10
@@ -670,7 +670,7 @@
       "id": "headline_values__downside_funded_debt",
       "kind": "artifact_label_values",
       "label_values": {
-        "downside_funded_debt": 12000000.0
+        "downside_funded_debt": 12000000
       },
       "semantic": false,
       "weight": 10
@@ -681,7 +681,7 @@
       "id": "headline_values__downside_minimum_cash_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "downside_minimum_cash_headroom": -300000.0
+        "downside_minimum_cash_headroom": -300000
       },
       "semantic": false,
       "weight": 10
@@ -692,7 +692,7 @@
       "id": "headline_values__downside_remaining_revolver_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "downside_remaining_revolver_headroom": 3400000.0
+        "downside_remaining_revolver_headroom": 3400000
       },
       "semantic": false,
       "weight": 10
@@ -725,7 +725,7 @@
       "id": "headline_values__severe_covenant_ebitda",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_covenant_ebitda": 2650000.0
+        "severe_covenant_ebitda": 2650000
       },
       "semantic": false,
       "weight": 10
@@ -736,7 +736,7 @@
       "id": "headline_values__severe_ending_cash_before_financing",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_ending_cash_before_financing": 820000.0
+        "severe_ending_cash_before_financing": 820000
       },
       "semantic": false,
       "weight": 10
@@ -747,7 +747,7 @@
       "id": "headline_values__severe_revolver_balance",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_revolver_balance": 6900000.0
+        "severe_revolver_balance": 6900000
       },
       "semantic": false,
       "weight": 10
@@ -758,7 +758,7 @@
       "id": "headline_values__severe_funded_debt",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_funded_debt": 14300000.0
+        "severe_funded_debt": 14300000
       },
       "semantic": false,
       "weight": 10
@@ -769,7 +769,7 @@
       "id": "headline_values__severe_minimum_cash_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_minimum_cash_headroom": -1430000.0
+        "severe_minimum_cash_headroom": -1430000
       },
       "semantic": false,
       "weight": 10
@@ -780,7 +780,7 @@
       "id": "headline_values__severe_remaining_revolver_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "severe_remaining_revolver_headroom": 1100000.0
+        "severe_remaining_revolver_headroom": 1100000
       },
       "semantic": false,
       "weight": 10
@@ -827,7 +827,7 @@
       "id": "headline_values__optimized_priority_cash_spend",
       "kind": "artifact_label_values",
       "label_values": {
-        "optimized_priority_cash_spend": 1030000.0
+        "optimized_priority_cash_spend": 1030000
       },
       "semantic": false,
       "weight": 10
@@ -838,7 +838,7 @@
       "id": "headline_values__optimized_probability_weighted_base_benefit",
       "kind": "artifact_label_values",
       "label_values": {
-        "optimized_probability_weighted_base_benefit": 1058000.0
+        "optimized_probability_weighted_base_benefit": 1058000
       },
       "semantic": false,
       "weight": 10
@@ -849,7 +849,7 @@
       "id": "headline_values__optimized_probability_weighted_severe_benefit",
       "kind": "artifact_label_values",
       "label_values": {
-        "optimized_probability_weighted_severe_benefit": 906100.0
+        "optimized_probability_weighted_severe_benefit": 906100
       },
       "semantic": false,
       "weight": 10
@@ -860,7 +860,7 @@
       "id": "headline_values__post_action_severe_incremental_revolver_draw",
       "kind": "artifact_label_values",
       "label_values": {
-        "post_action_severe_incremental_revolver_draw": 1100000.0
+        "post_action_severe_incremental_revolver_draw": 1100000
       },
       "semantic": false,
       "weight": 10
@@ -871,7 +871,7 @@
       "id": "headline_values__post_action_severe_remaining_revolver_headroom",
       "kind": "artifact_label_values",
       "label_values": {
-        "post_action_severe_remaining_revolver_headroom": 0.0
+        "post_action_severe_remaining_revolver_headroom": 0
       },
       "semantic": false,
       "weight": 10
@@ -882,7 +882,7 @@
       "id": "headline_values__post_action_severe_unfunded_liquidity_shortfall",
       "kind": "artifact_label_values",
       "label_values": {
-        "post_action_severe_unfunded_liquidity_shortfall": 725730.0
+        "post_action_severe_unfunded_liquidity_shortfall": 725730
       },
       "semantic": false,
       "weight": 10
@@ -893,7 +893,7 @@
       "id": "headline_values__post_action_severe_ending_cash",
       "kind": "artifact_label_values",
       "label_values": {
-        "post_action_severe_ending_cash": 1524270.0
+        "post_action_severe_ending_cash": 1524270
       },
       "semantic": false,
       "weight": 10

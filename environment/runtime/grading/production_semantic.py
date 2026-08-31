@@ -28,7 +28,7 @@ _KNOWN_SOURCE_SECTION_LABELS = ('Approved definitions and control framework', 'A
 
 def _json_object(text: str) -> dict[str, Any]:
     clean = text.strip().removeprefix('```json').removeprefix('```').removesuffix('```').strip()
-    start, end = (clean.find('{'), clean.rfind('}'))
+    (start, end) = (clean.find('{'), clean.rfind('}'))
     if start < 0 or end <= start:
         raise ValueError(f'semantic verifier returned no JSON object: {clean[:200]!r}')
     value = json.loads(clean[start:end + 1])
@@ -79,7 +79,7 @@ def _visible_source_context(project_root_text: str) -> dict[str, Any]:
 
     def collect_provenance_labels(value: Any) -> None:
         if isinstance(value, dict):
-            for key, item in value.items():
+            for (key, item) in value.items():
                 if key.casefold() in provenance_keys and isinstance(item, str) and item.strip():
                     source_owner_labels.add(item.strip())
                 collect_provenance_labels(item)
@@ -231,7 +231,7 @@ async def verify_semantic_review(*, task_id: str, prompt: str, result: Mapping[s
     integrity: dict[str, Any] = {'fabricated_evidence': False, 'fabricated_evidence_reason': '', 'hidden_data_leak': False, 'hidden_data_leak_reason': '', 'verifier_required': True, 'integrity_review_always_on': True, 'prompt_version': prompt_version, 'prompt_sha256': prompt_sha256, 'judge_model': SEMANTIC_JUDGE_MODEL, 'reasoning_effort': reasoning_effort}
     provider = None
     response_id = None
-    client, provider = _client(hud_api_key=hud_api_key, openai_api_key=openai_api_key)
+    (client, provider) = _client(hud_api_key=hud_api_key, openai_api_key=openai_api_key)
 
     async def request_semantic_chunk(criteria_chunk: list[dict[str, str]], *, max_output_tokens: int) -> tuple[dict[str, Any], str | None]:
         evidence = str(review.get('evidence', ''))
@@ -253,7 +253,7 @@ async def verify_semantic_review(*, task_id: str, prompt: str, result: Mapping[s
         criterion_header = {key: criterion[key] for key in ('criterion_id', 'requirement', 'evidence_scope', 'hard_gate_evidence')}
         user_content = f"<criterion>\n{json.dumps(criterion_header, indent=2)}\n</criterion>\n\n<submitted_answer>\n{criterion['submitted_evidence']}\n</submitted_answer>\n\n<reference_context>\n{json.dumps(criterion['reference_context'], indent=2)}\n</reference_context>\n\n<task_context>\n{json.dumps(criterion['task_context'], indent=2)}\n</task_context>"
         last_error: ValueError | None = None
-        for attempt, token_limit in enumerate((320, 640, 960)):
+        for (attempt, token_limit) in enumerate((320, 640, 960)):
             try:
                 if provider == 'hud_gateway':
                     response = await client.chat.completions.create(model=SEMANTIC_JUDGE_MODEL, reasoning_effort=reasoning_effort, max_tokens=token_limit, messages=[{'role': 'system', 'content': SCOPED_CRITERION_SYSTEM_PROMPT}, {'role': 'user', 'content': user_content}])
@@ -291,7 +291,7 @@ async def verify_semantic_review(*, task_id: str, prompt: str, result: Mapping[s
         source_context = _source_context(task_id, project_root, authorized_accounting_exports=authorized_accounting_exports)
         user_content = f"<environment_sources>\n{json.dumps(source_context, indent=2)}\n</environment_sources>\n\n<submission_evidence>\n{str(review.get('evidence') or '')[:60000]}\n</submission_evidence>"
         last_error: ValueError | None = None
-        for attempt, token_limit in enumerate((260, 520, 780)):
+        for (attempt, token_limit) in enumerate((260, 520, 780)):
             try:
                 if provider == 'hud_gateway':
                     response = await client.chat.completions.create(model=SEMANTIC_JUDGE_MODEL, reasoning_effort=reasoning_effort, max_tokens=token_limit, messages=[{'role': 'system', 'content': SCOPED_INTEGRITY_SYSTEM_PROMPT}, {'role': 'user', 'content': user_content}])
@@ -337,21 +337,21 @@ async def verify_semantic_review(*, task_id: str, prompt: str, result: Mapping[s
             scoped_integrity_response = None
     finally:
         await client.close()
-    response_ids = [identifier for _payload, identifier in semantic_responses + scoped_responses + ([scoped_integrity_response] if scoped_integrity_response else []) if identifier]
+    response_ids = [identifier for (_payload, identifier) in semantic_responses + scoped_responses + ([scoped_integrity_response] if scoped_integrity_response else []) if identifier]
     response_id = ','.join(response_ids) or None
     returned: list[Any] = []
     raw_integrities: list[dict[str, Any]] = []
     scoped_response_ids: dict[str, str | None] = {}
     if scoped_per_criterion:
-        for payload, identifier in scoped_responses:
+        for (payload, identifier) in scoped_responses:
             returned.append(payload)
             scoped_response_ids[str(payload.get('criterion_id') or '')] = identifier
         if scoped_integrity_response is None:
             raise ValueError('scoped semantic verifier returned no integrity response')
-        raw_integrity, _integrity_identifier = scoped_integrity_response
+        (raw_integrity, _integrity_identifier) = scoped_integrity_response
         raw_integrities.append(raw_integrity)
     else:
-        for payload, _identifier in semantic_responses:
+        for (payload, _identifier) in semantic_responses:
             response_criteria = payload.get('criteria')
             if not isinstance(response_criteria, list):
                 raise ValueError('semantic verifier response has no criteria list')
@@ -371,7 +371,7 @@ async def verify_semantic_review(*, task_id: str, prompt: str, result: Mapping[s
         returned_by_id[criterion_id] = row
     if set(returned_by_id) != expected_ids:
         raise ValueError(f'semantic verifier criterion ids do not match request: missing={sorted(expected_ids - set(returned_by_id))}, extra={sorted(set(returned_by_id) - expected_ids)}')
-    for criterion_id, row in returned_by_id.items():
+    for (criterion_id, row) in returned_by_id.items():
         status = str(row.get('criterion_status') or '').upper()
         if status not in {'MET', 'UNMET'}:
             raise ValueError(f'invalid semantic status for {criterion_id}: {status!r}')

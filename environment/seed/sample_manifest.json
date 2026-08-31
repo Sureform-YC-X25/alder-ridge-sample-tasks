@@ -1,7 +1,11 @@
 {
   "accounting_seed_sha256": "069e82209b09cfa180c19f6168551f1adaf5c0a2233a0309d63b3aec43ab8501",
-  "canonical_source_commit": "4659dd3ae1be2b45f799484f8c38236eded34578",
+  "canonical_source_commit": "659cdfd2178557fa72dc4312edc264ab66edd084",
+  "complete_shared_company_world_included": true,
+  "container_includes_complete_seed_world": true,
   "non_sample_task_identifiers_found": [],
+  "non_sample_task_seed_overlays_included": false,
+  "other_task_definitions_included": false,
   "schema_version": 1,
   "scope_verified": true,
   "selected_task_ids": [
@@ -153,9 +157,5 @@
     "Shared/Operations/Service/monthly KPI/service operating-review allocation economics - 7.7 DC.eml",
     "Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx"
   ],
-  "task_count": 12,
-  "complete_shared_company_world_included": true,
-  "other_task_definitions_included": false,
-  "non_sample_task_seed_overlays_included": false,
-  "container_includes_complete_seed_world": true
+  "task_count": 12
 }

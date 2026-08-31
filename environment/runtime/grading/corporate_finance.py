@@ -12,6 +12,7 @@ from runtime.grading.apex import Criterion, SEED_WORKSPACE, _answer_mapping, _cl
 from runtime.grading.semantic import contains_concept, date_matches, iter_numeric_candidates, ordered_semantic_list_matches, semantic_equal, semantic_value_matches, unordered_semantic_list_matches
 from runtime.grading.hybrid_semantic import semantic_requirement
 GOLD_PATH = Path(__file__).resolve().parent / 'gold' / 'tasks_026_100.json'
+_TASK_035_LABEL_ALIASES = {'signed_backlog': ['Signed backlog', 'Portfolio signed backlog'], 'fy27_backlog_revenue_burn': ['Approved probability plan', 'Probability-plan revenue', 'FY27 backlog revenue'], 'fy27_required_hours': ['Approved probability plan', 'Probability-plan required hours'], 'fy27_available_hours': ['FY27 available hours', 'Base available hours'], 'constrained_month_count': ['Constrained months', 'Months constrained'], 'first_constrained_month': ['First constrained month', 'Probability-plan first constrained month'], 'maximum_capacity_shortfall_hours': ['Maximum capacity shortfall', 'Probability-plan maximum shortfall'], 'probability_plan_unresolved_hours': ['Approved probability plan', 'Probability-plan unresolved hours'], 'probability_plan_remediation_cost': ['Approved probability plan', 'Probability-plan remediation cost'], 'gross_commitment_revenue_burn': ['Full signed commitment', 'Gross-commitment revenue'], 'gross_commitment_required_hours': ['Full signed commitment', 'Gross-commitment required hours'], 'gross_commitment_first_constrained_month': ['Full signed commitment', 'Gross-commitment first constrained month'], 'gross_commitment_maximum_capacity_shortfall_hours': ['Gross-commitment maximum shortfall', 'Full-commitment maximum shortfall'], 'gross_commitment_unresolved_hours': ['Full signed commitment', 'Gross-commitment unresolved hours'], 'gross_commitment_remediation_cost': ['Full signed commitment', 'Gross-commitment remediation cost'], 'gross_commitment_revenue_variance_to_probability_plan': ['Gross-commitment revenue variance', 'Revenue variance to probability plan'], 'gross_commitment_required_hours_variance_to_probability_plan': ['Gross-commitment required-hours variance', 'Required-hours variance to probability plan'], 'gross_commitment_unresolved_hours_variance_to_probability_plan': ['Gross-commitment unresolved-hours variance', 'Unresolved-hours variance to probability plan'], 'gross_commitment_remediation_cost_variance_to_probability_plan': ['Gross-commitment remediation-cost variance', 'Remediation-cost variance to probability plan'], 'gross_commitment_release_status': ['Full signed commitment', 'Gross-commitment release conclusion'], 'controlling_capacity_case': ['Controlling case', 'Capacity case controlling'], 'execution_portfolio_completed_revenue': ['Portfolio completed revenue', 'Execution completed revenue'], 'execution_portfolio_ending_deferred_revenue': ['Portfolio deferred revenue', 'Ending deferred revenue'], 'execution_portfolio_revenue_check_delta': ['Portfolio revenue check', 'Revenue bridge check'], 'execution_portfolio_ending_deferred_hours': ['Portfolio deferred hours', 'Ending deferred hours'], 'execution_portfolio_completed_gross_profit': ['Portfolio completed gross profit', 'Completed gross profit'], 'execution_portfolio_liquidated_damages': ['Portfolio liquidated damages', 'Liquidated damages'], 'execution_portfolio_net_gross_profit_after_damages': ['Portfolio net gross profit', 'Executable gross profit after damages'], 'execution_portfolio_highest_priority_deferred_project': ['Highest-priority deferred project', 'Priority deferred item'], 'execution_portfolio_release_status': ['Portfolio release decision', 'Execution release status'], 'release_bridge_probability_plan_gross_profit_after_remediation': ['Probability-plan GP after response', 'Probability-plan GP after remediation'], 'release_bridge_gross_commitment_gross_profit_after_remediation': ['Gross-commitment GP after response', 'Gross-commitment GP after remediation'], 'release_bridge_execution_net_gross_profit_after_damages': ['Executable GP after damages', 'Execution net GP after damages'], 'release_bridge_deferred_revenue_at_risk': ['Deferred revenue at risk', 'Deferred revenue'], 'release_bridge_management_decision': ['Management decision', 'Release decision'], 'executive_recovery_probability_plan_gp_after_remediation': ['Probability-plan GP', 'Probability-plan GP after response'], 'executive_recovery_gross_commitment_gp_after_remediation': ['Gross-commitment GP', 'Gross-commitment GP after response'], 'executive_recovery_execution_net_gp_after_damages': ['Executable GP after damages', 'Execution net GP after damages'], 'executive_recovery_gross_commitment_shortfall': ['Gross-commitment shortfall', 'Earnings shortfall'], 'executive_recovery_deferred_revenue_at_risk': ['Deferred revenue', 'Deferred revenue at risk'], 'executive_recovery_deferred_gross_profit_at_risk': ['Deferred gross profit', 'Deferred gross profit at risk'], 'executive_recovery_liquidated_damages': ['Damages', 'Liquidated damages'], 'executive_recovery_required_recovery': ['Recovery required', 'Required recovery'], 'executive_recovery_highest_priority_deferred_project': ['Priority item', 'Highest-priority deferred project'], 'executive_recovery_decision': ['Recommendation', 'Executive decision']}
 _TASK_037_LABEL_ALIASES = {'selected_portfolio': ['Selected ID', 'Selected portfolio', 'Portfolio membership'], 'selected_capex': ['Cash capex', 'Cash capex used', 'Selected cash capex'], 'portfolio_npv': ['Selected NPV', 'Portfolio NPV', 'Max feasible portfolio NPV'], 'downside_portfolio_npv': ['Downside portfolio NPV'], 'selected_debt_eligible_basis': ['Eligible debt used', 'Debt-eligible basis'], 'selected_cash_funding': ['Cash funding used', 'Selected cash funding'], 'selected_technician_capacity': ['Technicians used', 'Technician capacity used'], 'cash_capex_headroom': ['Cash headroom', 'Cash capex headroom'], 'debt_capacity_headroom': ['Debt headroom', 'Debt capacity headroom'], 'technician_capacity_headroom': ['Technician headroom', 'Technician capacity headroom'], 'mandatory_safety_projects_selected': ['Mandatory safety selected', 'Mandatory projects selected'], 'cash_constraint_check': ['Cash constraint', 'Cash capex check'], 'debt_constraint_check': ['Debt constraint', 'Debt capacity check'], 'technician_constraint_check': ['Technician constraint', 'Technician capacity check']}
 _TASK_055_LABEL_ALIASES = {'buyer_standalone_eps': ['Standalone diluted EPS'], 'seller_shares_issued': ['Seller shares issued (equity ÷ price)'], 'pro_forma_diluted_shares': ['Pro forma diluted shares'], 'target_ebit': ['Target EBIT'], 'total_incremental_financing_cost': ['Total incremental financing cost'], 'purchase_enterprise_value': ['Purchase enterprise value', 'Enterprise value'], 'total_transaction_sources': ['Total sources', 'Sources'], 'total_transaction_uses': ['Total uses', 'Uses'], 'sources_and_uses_check': ['Sources less uses', 'Sources - uses', 'Check: total sources minus total uses'], 'incremental_debt_interest': ['Incremental new-debt interest', 'Incremental interest (new debt)'], 'foregone_cash_yield': ['Foregone cash yield (interest)', 'Foregone cash yield'], 'year_one_gaap_eps_accretion': ['GAAP EPS accretion / (dilution) %'], 'year_one_adjusted_eps_accretion': ['Adjusted EPS accretion / (dilution) %'], 'year_two_gaap_eps_accretion': ['GAAP EPS accretion / (dilution) %'], 'year_two_adjusted_eps_accretion': ['Adjusted EPS accretion / (dilution) %']}
 _TASK_055_YEAR_ROW_ALIASES = {'run_rate_synergy': ['Cost synergies', 'Run-rate synergy'], 'integration_expense': ['One-time integration expense'], 'gaap_incremental_pre_tax_income': ['Target-side pre-tax income (GAAP)'], 'gaap_incremental_after_tax_income': ['Target-side after-tax (GAAP)', 'Target-side after-tax income (GAAP)'], 'adjusted_incremental_pre_tax_income': ['Target-side pre-tax income (Adjusted)'], 'adjusted_incremental_after_tax_income': ['Target-side after-tax (Adjusted)'], 'gaap_pro_forma_net_income': ['Combined net income (GAAP)', 'GAAP pro forma net income'], 'adjusted_pro_forma_net_income': ['Combined net income (Adjusted)', 'Adjusted pro forma net income'], 'gaap_pro_forma_eps': ['Combined GAAP EPS', 'GAAP pro forma EPS'], 'adjusted_pro_forma_eps': ['Combined adjusted EPS', 'Adjusted pro forma EPS']}
@@ -38,7 +39,7 @@ def _numeric_matches_spec(actual: Any, expected: float, spec: dict[str, Any]) ->
         for item in actual:
             if not isinstance(item, dict):
                 continue
-            raw = next((value for candidate in aggregate_aliases for key, value in item.items() if semantic_equal(key, candidate)), None)
+            raw = next((value for candidate in aggregate_aliases for (key, value) in item.items() if semantic_equal(key, candidate)), None)
             if isinstance(raw, (int, float)) and (not isinstance(raw, bool)):
                 amounts.append(float(raw))
         concepts = list(spec.get('expected_concepts', []))
@@ -95,9 +96,9 @@ def _structured_value_matches(actual: Any, expected: Any) -> bool:
     if isinstance(expected, dict):
         if not isinstance(actual, dict):
             return False
-        return all(((found := _semantic_find(actual, str(key)))[0] and _structured_value_matches(found[1], value) for key, value in expected.items()))
+        return all(((found := _semantic_find(actual, str(key)))[0] and _structured_value_matches(found[1], value) for (key, value) in expected.items()))
     if isinstance(expected, list):
-        return isinstance(actual, list) and len(actual) == len(expected) and all((_structured_value_matches(actual_value, expected_value) for actual_value, expected_value in zip(actual, expected, strict=True)))
+        return isinstance(actual, list) and len(actual) == len(expected) and all((_structured_value_matches(actual_value, expected_value) for (actual_value, expected_value) in zip(actual, expected, strict=True)))
     if isinstance(expected, bool):
         return _boolean_matches(actual, expected)
     if isinstance(expected, (int, float)) and (not isinstance(expected, bool)):
@@ -111,7 +112,7 @@ def _semantic_get(mapping: dict[str, Any], key: str) -> Any:
     actual = _get(mapping, key)
     if actual is not None:
         return actual
-    for candidate, value in mapping.items():
+    for (candidate, value) in mapping.items():
         if semantic_equal(candidate, key):
             return value
     return None
@@ -119,7 +120,7 @@ def _semantic_get(mapping: dict[str, Any], key: str) -> Any:
 def _semantic_find(mapping: dict[str, Any], key: str) -> tuple[bool, Any]:
     if key in mapping:
         return (True, mapping[key])
-    for candidate, value in mapping.items():
+    for (candidate, value) in mapping.items():
         if semantic_equal(candidate, key):
             return (True, value)
     return (False, None)
@@ -141,7 +142,7 @@ def _structured_field(row: dict[str, Any] | None, spec: dict[str, Any]) -> Any:
     if row is None:
         return None
     for field in (str(spec['field']), *[str(value) for value in spec.get('field_aliases', [])]):
-        present, value = _semantic_find(row, field)
+        (present, value) = _semantic_find(row, field)
         if present:
             return value
     return None
@@ -160,14 +161,14 @@ def _period_label_matches(actual: Any, expected: Any) -> bool:
             return None
         period = {'yr': 'year', 'y': 'year', 'mo': 'month', 'wk': 'week', 'q': 'quarter'}.get(match.group(1), match.group(1))
         return (period, int(match.group(2)))
-    left, right = (parse(actual), parse(expected))
+    (left, right) = (parse(actual), parse(expected))
     return bool(left and right and (left[1] == right[1]) and (left[0] is None or right[0] is None or left[0] == right[0]))
 
 def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id: str | None=None) -> Criterion:
     kind = spec['kind']
     if kind == 'numeric':
         failures = []
-        for key, expected in spec['expected'].items():
+        for (key, expected) in spec['expected'].items():
             actual = _semantic_get(mapping, key)
             if not _numeric_matches_spec(actual, float(expected), spec):
                 failures.append(f'{key}={actual!r}; expected {expected}')
@@ -175,8 +176,8 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
         evidence = 'reported value matched' if met else '; '.join(failures)
     elif kind == 'string':
         failures = []
-        for key, expected in spec['expected'].items():
-            present, actual = _semantic_find(mapping, key)
+        for (key, expected) in spec['expected'].items():
+            (present, actual) = _semantic_find(mapping, key)
             expected_none = expected is None or _normalize(expected) in {'none', 'null'}
             actual_none = actual is None or _normalize(actual) in {'none', 'no draw', 'no breach', 'not applicable', 'n a'}
             typed_period = key.endswith(('_year', '_month', '_week', '_quarter')) and _period_label_matches(actual, expected)
@@ -190,7 +191,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
         evidence = 'classification matched' if met else '; '.join(failures)
     elif kind == 'boolean':
         failures = []
-        for key, expected in spec['expected'].items():
+        for (key, expected) in spec['expected'].items():
             actual = _semantic_get(mapping, key)
             if not _boolean_matches(actual, bool(expected)):
                 failures.append(f'{key}={actual!r}; expected {expected!r}')
@@ -200,7 +201,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
         actual = _semantic_get(mapping, spec['key'])
         expected = spec['expected_item']
         if isinstance(actual, dict):
-            flattened = [item for key, value in actual.items() for item in (key, value)]
+            flattened = [item for (key, value) in actual.items() for item in (key, value)]
         elif isinstance(actual, (list, tuple, set)):
             flattened = list(actual)
         elif actual is not None:
@@ -212,7 +213,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
         for conflicting_key in spec.get('exclusive_with_keys', []):
             conflicting_actual = _semantic_get(mapping, conflicting_key)
             if isinstance(conflicting_actual, dict):
-                conflicting_items = [item for key, value in conflicting_actual.items() for item in (key, value)]
+                conflicting_items = [item for (key, value) in conflicting_actual.items() for item in (key, value)]
             elif isinstance(conflicting_actual, (list, tuple, set)):
                 conflicting_items = list(conflicting_actual)
             elif conflicting_actual is not None:
@@ -231,7 +232,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
                 remaining = list(actual) if isinstance(actual, list) else []
                 met = len(remaining) == len(expected_values)
                 for expected_value in expected_values:
-                    matched_index = next((index for index, actual_value in enumerate(remaining) if _structured_value_matches(actual_value, expected_value)), None)
+                    matched_index = next((index for (index, actual_value) in enumerate(remaining) if _structured_value_matches(actual_value, expected_value)), None)
                     if matched_index is None:
                         met = False
                         break
@@ -239,7 +240,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
                 met = met and (not remaining)
                 expectation = 'unordered structured concepts'
             else:
-                met = isinstance(actual, list) and len(actual) == len(expected_values) and all((_structured_value_matches(actual_value, expected_value) for actual_value, expected_value in zip(actual, expected_values, strict=True)))
+                met = isinstance(actual, list) and len(actual) == len(expected_values) and all((_structured_value_matches(actual_value, expected_value) for (actual_value, expected_value) in zip(actual, expected_values, strict=True)))
                 expectation = 'ordered structured concepts'
         elif spec.get('unordered'):
             met = unordered_semantic_list_matches(actual, expected_values)
@@ -254,7 +255,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
         if isinstance(actual, list):
             actual_rows = [_semantic_get(item, spec['row_key']) for item in actual if isinstance(item, dict)]
         expected_rows = list(spec['expected_rows'])
-        met = len(actual_rows) == len(expected_rows) and all((semantic_value_matches(actual_value, expected_value) for actual_value, expected_value in zip(actual_rows, expected_rows)))
+        met = len(actual_rows) == len(expected_rows) and all((semantic_value_matches(actual_value, expected_value) for (actual_value, expected_value) in zip(actual_rows, expected_rows)))
         evidence = f'actual_rows={actual_rows!r}; expected_rows={expected_rows!r}'
     elif kind == 'structured_row_numeric':
         row = _structured_row(mapping, key=str(spec['key']), row_key=str(spec['row_key']), row_value=str(spec['row_value']))
@@ -298,7 +299,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
         if isinstance(actual, list):
             actual_rows = [[_semantic_get(item, row_key) for row_key in row_keys] for item in actual if isinstance(item, dict)]
         expected_rows = [list(row) for row in spec['expected_rows']]
-        met = len(actual_rows) == len(expected_rows) and all((len(actual_row) == len(expected_row) and all((semantic_value_matches(actual_value, expected_value) for actual_value, expected_value in zip(actual_row, expected_row))) for actual_row, expected_row in zip(actual_rows, expected_rows)))
+        met = len(actual_rows) == len(expected_rows) and all((len(actual_row) == len(expected_row) and all((semantic_value_matches(actual_value, expected_value) for (actual_value, expected_value) in zip(actual_row, expected_row))) for (actual_row, expected_row) in zip(actual_rows, expected_rows)))
         evidence = f'actual_rows={actual_rows!r}; expected_rows={expected_rows!r}'
     elif kind == 'structured_row_numeric_composite':
         actual_rows = _semantic_get(mapping, spec['key'])
@@ -307,7 +308,7 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any], *, task_id
             for candidate in actual_rows:
                 if not isinstance(candidate, dict):
                     continue
-                if all((semantic_value_matches(_semantic_get(candidate, str(row_key)), row_value) for row_key, row_value in zip(spec['row_keys'], spec['row_values']))):
+                if all((semantic_value_matches(_semantic_get(candidate, str(row_key)), row_value) for (row_key, row_value) in zip(spec['row_keys'], spec['row_values']))):
                     row = candidate
                     break
         actual = None if row is None else _semantic_get(row, str(spec['field']))
@@ -337,9 +338,9 @@ def _normalize_console_mapping(task_id: str, mapping: dict[str, Any]) -> dict[st
 
     def canonical_label(value: Any, rules: dict[str, tuple[str, ...]]) -> str | None:
         text = _normalize(value)
-        candidates = [(target, alias) for target, aliases in rules.items() for alias in (target, *aliases)]
+        candidates = [(target, alias) for (target, aliases) in rules.items() for alias in (target, *aliases)]
         candidates.sort(key=lambda pair: len(_normalize(pair[1])), reverse=True)
-        for target, alias in candidates:
+        for (target, alias) in candidates:
             if semantic_value_matches(value, alias) or _normalize(alias) in text:
                 return target
         return None
@@ -408,10 +409,10 @@ def _xlsx_label_cell_index(workbook):
 
 def _xlsx_label_value(workbook, values, label: str, expected: Any, *, directional_strings: bool=False) -> bool:
     wanted = _normalize(label)
-    indexed_cells, exact_labels = _xlsx_label_cell_index(workbook)
+    (indexed_cells, exact_labels) = _xlsx_label_cell_index(workbook)
 
     def record_matches(record: tuple[str, int, int, Any]) -> bool:
-        sheet_name, row_number, column_number, _value = record
+        (sheet_name, row_number, column_number, _value) = record
         value_sheet = values[sheet_name] if sheet_name in values.sheetnames else workbook[sheet_name]
         candidates = [value_sheet.cell(row_number, column_number + offset).value for offset in (1, 2, 3)]
         candidates.append(value_sheet.cell(row_number + 1, column_number).value)
@@ -421,7 +422,7 @@ def _xlsx_label_value(workbook, values, label: str, expected: Any, *, directiona
         return True
     exact_record_ids = {(record[0], record[1], record[2]) for record in exact_records}
     for record in indexed_cells:
-        sheet_name, row_number, column_number, value = record
+        (sheet_name, row_number, column_number, value) = record
         if (sheet_name, row_number, column_number) in exact_record_ids:
             continue
         if not (semantic_equal(value, label) or contains_concept(value, label)):
@@ -437,8 +438,8 @@ def _xlsx_exact_label_value(workbook, values, label: str, expected: Any, *, dire
     value on that named row must not be rescued by a similar label elsewhere
     in the model.  Other tasks retain the broader professional-alias fallback.
     """
-    _indexed_cells, exact_labels = _xlsx_label_cell_index(workbook)
-    for sheet_name, row_number, column_number, _value in exact_labels.get(_normalize(label), []):
+    (_indexed_cells, exact_labels) = _xlsx_label_cell_index(workbook)
+    for (sheet_name, row_number, column_number, _value) in exact_labels.get(_normalize(label), []):
         value_sheet = values[sheet_name] if sheet_name in values.sheetnames else workbook[sheet_name]
         candidates = [value_sheet.cell(row_number, column_number + offset).value for offset in (1, 2, 3)]
         candidates.append(value_sheet.cell(row_number + 1, column_number).value)
@@ -448,12 +449,12 @@ def _xlsx_exact_label_value(workbook, values, label: str, expected: Any, *, dire
 
 def _xlsx_label_formula(workbook, label: str) -> tuple[bool, str]:
     wanted = _normalize(label)
-    indexed_cells, exact_labels = _xlsx_label_cell_index(workbook)
+    (indexed_cells, exact_labels) = _xlsx_label_cell_index(workbook)
     label_locations: list[str] = []
     seen: set[tuple[str, int, int]] = set()
 
     def check_record(record: tuple[str, int, int, Any]) -> tuple[bool, str | None]:
-        sheet_name, row_number, column_number, _value = record
+        (sheet_name, row_number, column_number, _value) = record
         sheet = workbook[sheet_name]
         coordinate = sheet.cell(row_number, column_number).coordinate
         label_locations.append(f'{sheet_name}!{coordinate}')
@@ -469,7 +470,7 @@ def _xlsx_label_formula(workbook, label: str) -> tuple[bool, str]:
         return (False, None)
     for record in exact_labels.get(wanted, []):
         seen.add((record[0], record[1], record[2]))
-        matched, evidence = check_record(record)
+        (matched, evidence) = check_record(record)
         if matched:
             return (True, str(evidence))
     for record in indexed_cells:
@@ -478,7 +479,7 @@ def _xlsx_label_formula(workbook, label: str) -> tuple[bool, str]:
             continue
         if not (semantic_equal(record[3], label) or contains_concept(record[3], label)):
             continue
-        matched, evidence = check_record(record)
+        (matched, evidence) = check_record(record)
         if matched:
             return (True, str(evidence))
     if label_locations:
@@ -526,7 +527,7 @@ def _task_037_selection_tie_control(workbook, values) -> tuple[bool, str]:
                 if not isinstance(formula, str) or not formula.startswith('='):
                     continue
                 references = reference_pattern.findall(formula)
-                normalized_references = {(start_column.casefold(), int(start_row), end_column.casefold() if end_column else '', int(end_row) if end_row else 0) for start_column, start_row, end_column, end_row in references}
+                normalized_references = {(start_column.casefold(), int(start_row), end_column.casefold() if end_column else '', int(end_row) if end_row else 0) for (start_column, start_row, end_column, end_row) in references}
                 single_references = {reference for reference in normalized_references if not reference[2]}
                 range_references = {reference for reference in normalized_references if reference[2]}
                 recalculated = value_sheet[candidate.coordinate].value
@@ -592,6 +593,31 @@ def _value_candidates_match(candidates: Iterable[Any], expected: Any, *, directi
         return any((_boolean_matches(candidate, expected) for candidate in candidates))
     return any((_close(candidate, float(expected), abs_tol=_display_tolerance(float(expected)), rel_tol=0.0) for candidate in candidates))
 
+def _task_035_row_match(workbook, values, label: str, expected: Any, *, require_formula: bool) -> tuple[bool, str]:
+    """Accept ordinary planning labels while preserving value association.
+
+    Task035 is intentionally laid out as normal case, portfolio, and executive
+    tables rather than an answer-key registry.  A required output may therefore
+    be identified by its case/portfolio row instead of a private snake_case
+    label.  Match the exact expected value only on a row carrying an approved
+    business alias, and require the matching cell itself to be source-linked
+    for formula-lineage criteria.
+    """
+    aliases = [label.replace('_', ' '), *_TASK_035_LABEL_ALIASES.get(label, [])]
+    for sheet_name in workbook.sheetnames:
+        sheet = workbook[sheet_name]
+        value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
+        for row in sheet.iter_rows():
+            if not any((semantic_equal(cell.value, alias) or contains_concept(cell.value, alias) for cell in row for alias in aliases)):
+                continue
+            for cell in row:
+                cached = value_sheet[cell.coordinate].value
+                if require_formula and (not _is_source_linked_formula(cell.value)):
+                    continue
+                if _value_candidates_match([cached], expected, directional_strings=True):
+                    return (True, f'{sheet_name}!{cell.coordinate}={cell.value!r}; cached={cached!r}; associated aliases={aliases!r}')
+    return (False, f'no associated Task035 row value matched {label!r}')
+
 def _artifact_text_entries(path: Path) -> list[str]:
     suffix = path.suffix.lower()
     entries: list[str] = []
@@ -621,7 +647,7 @@ def _artifact_text_entries(path: Path) -> list[str]:
                                 values = list(series.values)
                             except (AttributeError, TypeError, ValueError):
                                 continue
-                            for category, value in zip(categories, values):
+                            for (category, value) in zip(categories, values):
                                 if value is not None:
                                     entries.append(f'{category} | {series.name}: {value}')
     elif suffix == '.docx':
@@ -638,12 +664,12 @@ def _semantic_evidence_pack(path: Path, workbook=None, values=None, *, max_chars
     chunks: list[str] = [f'ARTIFACT: {path.name}']
     if path.suffix.lower() == '.docx':
         document = Document(path)
-        for index, paragraph in enumerate(document.paragraphs, start=1):
+        for (index, paragraph) in enumerate(document.paragraphs, start=1):
             if paragraph.text.strip():
                 chunks.append(f'PARAGRAPH {index}: {paragraph.text.strip()}')
-        for table_index, table in enumerate(document.tables, start=1):
+        for (table_index, table) in enumerate(document.tables, start=1):
             chunks.append(f'TABLE {table_index}:')
-            for row_index, row in enumerate(table.rows, start=1):
+            for (row_index, row) in enumerate(table.rows, start=1):
                 chunks.append(f'  ROW {row_index}: ' + ' | '.join((cell.text.strip() for cell in row.cells)))
     elif path.suffix.lower() == '.xlsx' and workbook is not None and (values is not None):
         sheet_chunks: list[str] = []
@@ -652,7 +678,7 @@ def _semantic_evidence_pack(path: Path, workbook=None, values=None, *, max_chars
             sheet = workbook[sheet_name]
             value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
             rendered_rows: list[tuple[int, str, str, str, tuple[Any, ...]]] = []
-            for row_number, row in enumerate(sheet.iter_rows(), start=1):
+            for (row_number, row) in enumerate(sheet.iter_rows(), start=1):
                 rendered: list[str] = []
                 compact: list[str] = []
                 searchable: list[str] = []
@@ -681,7 +707,7 @@ def _semantic_evidence_pack(path: Path, workbook=None, values=None, *, max_chars
                 landmark_terms = ('selected project', 'selected portfolio', 'winning combo', 'recommendation', 'decision', 'owner', 'timing', 'deadline', 'model status', 'overall status', 'control status', 'model integrity', 'source', 'policy', 'correspondence', 'mcp', 'check', 'control', 'maximum', 'variance', 'headroom', 'unfunded', 'conclusion')
                 selected_rows: set[int] = set()
                 follow_through_terms = ('selected project', 'selected portfolio', 'winning combo')
-                for index, (_, _, searchable, _, _) in enumerate(rendered_rows):
+                for (index, (_, _, searchable, _, _)) in enumerate(rendered_rows):
                     if any((term in searchable for term in landmark_terms)):
                         selected_rows.update(range(max(0, index - 1), min(len(rendered_rows), index + 2)))
                     if any((term in searchable for term in follow_through_terms)):
@@ -699,11 +725,11 @@ def _semantic_evidence_pack(path: Path, workbook=None, values=None, *, max_chars
                         return None
                     return text if re.fullmatch('[a-z]{0,8}-?\\d{1,8}', text) else None
                 selector_values: set[str] = set()
-                for _, _, searchable, _, row_values in rendered_rows:
+                for (_, _, searchable, _, row_values) in rendered_rows:
                     if any((term in searchable for term in selector_terms)):
                         selector_values.update((key for value in row_values if (key := selector_key(value)) is not None))
                 if selector_values:
-                    for index, (_, _, _, _, row_values) in enumerate(rendered_rows):
+                    for (index, (_, _, _, _, row_values)) in enumerate(rendered_rows):
                         row_keys = {key for value in row_values if (key := selector_key(value)) is not None}
                         if row_keys & selector_values:
                             selected_rows.update(range(max(0, index - 1), min(len(rendered_rows), index + 2)))
@@ -726,18 +752,18 @@ def _semantic_evidence_pack(path: Path, workbook=None, values=None, *, max_chars
         return rendered
     return rendered[:max_chars - 120] + '\n[TRUNCATED AFTER BALANCED DETERMINISTIC EXTRACTION]'
 
-def _scoped_xlsx_label_evidence(workbook, values, label: str) -> tuple[str, bool, str]:
+def _scoped_xlsx_label_evidence(workbook, values, label: str, *, aliases: Iterable[str]=()) -> tuple[str, bool, str]:
     """Return only the submitted workbook row needed for one semantic check."""
-    indexed_cells, exact_labels = _xlsx_label_cell_index(workbook)
-    wanted = _normalize(label)
-    matches = list(exact_labels.get(wanted, []))
+    (indexed_cells, exact_labels) = _xlsx_label_cell_index(workbook)
+    accepted_labels = (label, *tuple(aliases))
+    matches = [record for accepted in accepted_labels for record in exact_labels.get(_normalize(accepted), [])]
     if not matches:
-        matches = [record for record in indexed_cells if semantic_equal(record[3], label) or contains_concept(record[3], label)]
+        matches = [record for record in indexed_cells if any((semantic_equal(record[3], accepted) or contains_concept(record[3], accepted) for accepted in accepted_labels))]
     if not matches:
         return ('required labeled output row is missing', False, 'labeled output row is missing')
     rendered: list[str] = []
     has_submitted_value = False
-    for sheet_name, row_number, column_number, _ in matches[:3]:
+    for (sheet_name, row_number, column_number, _) in matches[:3]:
         formula_sheet = workbook[sheet_name]
         value_sheet = values[sheet_name] if sheet_name in values.sheetnames else formula_sheet
         parts: list[str] = []
@@ -866,7 +892,7 @@ def _task_035_status_reference(label: str, expected: Any) -> dict[str, Any]:
 def _task_035_model_or_control_check(workbook, values, criterion_id: str) -> tuple[bool, str]:
     model_requirements = {'model_content__burn_curve': ('Revenue Burn', ('probability', 'revenue')), 'model_content__required_hours': ('Revenue Burn', ('required', 'hours')), 'model_content__available_hours': ('Labor Capacity', ('available', 'hours')), 'model_content__overtime': ('Gap Analysis', ('overtime',)), 'model_content__subcontract': ('Gap Analysis', ('subcontract',)), 'model_content__capacity_gap': ('Gap Analysis', ('shortfall',))}
     if criterion_id in model_requirements:
-        sheet_name, required_terms = model_requirements[criterion_id]
+        (sheet_name, required_terms) = model_requirements[criterion_id]
         if sheet_name not in workbook.sheetnames:
             return (False, f'required schedule {sheet_name!r} is missing')
         sheet = workbook[sheet_name]
@@ -1032,13 +1058,13 @@ def _explicit_label_value_conflict(workbook, values, label: str, expected: Any) 
         return None
     wanted = _normalize(label.replace('_', ' '))
     targets = _workbook_numeric_targets(values, float(expected))
-    rows, label_index = _workbook_semantic_row_index(workbook, values)
+    (rows, label_index) = _workbook_semantic_row_index(workbook, values)
     labeled_rows: list[tuple[str, int, tuple[float, ...]]] = []
     wanted_tokens = set(wanted.split())
 
     def row_matches_expected(numbers) -> bool:
         return any((_close(number, target, abs_tol=max(2e-05, abs(target) * 1e-06), rel_tol=0.0) for number in numbers for target in targets))
-    for row_label, indexed_rows in label_index.items():
+    for (row_label, indexed_rows) in label_index.items():
         if not wanted_tokens <= set(row_label.split()):
             continue
         if any((row_matches_expected(row['numbers']) for row in indexed_rows)):
@@ -1048,10 +1074,10 @@ def _explicit_label_value_conflict(workbook, values, label: str, expected: Any) 
             labeled_rows.append((row['sheet'], row['row'], row['numbers']))
     if not labeled_rows:
         return None
-    for _sheet_name, _row_number, numbers in labeled_rows:
+    for (_sheet_name, _row_number, numbers) in labeled_rows:
         if row_matches_expected(numbers):
             return None
-    rendered = [f'{sheet_name}!{row_number}={numbers!r}' for sheet_name, row_number, numbers in labeled_rows]
+    rendered = [f'{sheet_name}!{row_number}={numbers!r}' for (sheet_name, row_number, numbers) in labeled_rows]
     return f'exact metric label {label!r} displays conflicting numeric row(s) {rendered!r}; expected one of {targets!r}'
 
 def _extreme_headline_association_present(workbook, values, label: str, expected: Any) -> tuple[bool, str] | None:
@@ -1070,7 +1096,7 @@ def _extreme_headline_association_present(workbook, values, label: str, expected
     else:
         return None
     targets = _workbook_numeric_targets(values, float(expected))
-    rows, _label_index = _workbook_semantic_row_index(workbook, values)
+    (rows, _label_index) = _workbook_semantic_row_index(workbook, values)
 
     def matches(value: Any) -> bool:
         return isinstance(value, (int, float)) and (not isinstance(value, bool)) and any((_close(value, target, abs_tol=max(2e-05, abs(target) * 1e-06), rel_tol=0.0) for target in targets))
@@ -1080,7 +1106,7 @@ def _extreme_headline_association_present(workbook, values, label: str, expected
         row_text = ' '.join(row['labels'])
         if any((re.search(f'\\b{re.escape(term)}\\b', row_text) for term in terms)):
             return (True, f"{direction} is explicitly labeled on {row['sheet']}!{row['row']}")
-        for coordinate, formula, cached in row['formulas']:
+        for (coordinate, formula, cached) in row['formulas']:
             if matches(cached) and re.search(f'\\b{formula_function}\\s*\\(', formula, flags=re.I):
                 return (True, f"{direction} is formula-identified at {row['sheet']}!{coordinate}={formula}")
     return (False, f'expected fact is present but is not explicitly identified as a {direction} by a professional label, selected-extreme row, or MAX/MIN formula')
@@ -1190,25 +1216,25 @@ def _hybrid_review_hard_gate(task_id: str, spec: dict[str, Any], gold: dict[str,
                 return (False, 'visible cross-scenario aggregate formula miswire(s): ' + '; '.join(miswires[:8]))
         if kind == 'xlsx_label_values':
             if task_id == 'task_035':
-                label, _expected = next(iter(spec['label_values'].items()))
-                _evidence, populated, gate_evidence = _scoped_xlsx_label_evidence(workbook, values, label.replace('_', ' '))
+                (label, _expected) = next(iter(spec['label_values'].items()))
+                (_evidence, populated, gate_evidence) = _scoped_xlsx_label_evidence(workbook, values, label.replace('_', ' '), aliases=_TASK_035_LABEL_ALIASES.get(label, ()))
                 return (populated, gate_evidence)
-            checkable = {label: expected for label, expected in spec['label_values'].items() if isinstance(expected, (int, float)) and (not isinstance(expected, bool))}
-            missing = [label for label, expected in checkable.items() if not _workbook_value_present(values, expected)]
+            checkable = {label: expected for (label, expected) in spec['label_values'].items() if isinstance(expected, (int, float)) and (not isinstance(expected, bool))}
+            missing = [label for (label, expected) in checkable.items() if not _workbook_value_present(values, expected)]
             if missing:
                 return (False, f'required numeric facts missing anywhere in workbook={missing!r}')
             shared_helper_089e2eb4_equivalent_labels = set()
-            extreme_associations = [outcome for label, expected in spec['label_values'].items() if label not in shared_helper_089e2eb4_equivalent_labels if (outcome := _extreme_headline_association_present(workbook, values, label, expected)) is not None]
-            failed_extremes = [evidence for met, evidence in extreme_associations if not met]
+            extreme_associations = [outcome for (label, expected) in spec['label_values'].items() if label not in shared_helper_089e2eb4_equivalent_labels if (outcome := _extreme_headline_association_present(workbook, values, label, expected)) is not None]
+            failed_extremes = [evidence for (met, evidence) in extreme_associations if not met]
             if failed_extremes:
                 return (False, '; '.join(failed_extremes))
-            conflicts = [conflict for label, expected in spec['label_values'].items() if (conflict := _explicit_label_value_conflict(workbook, values, label, expected)) is not None]
+            conflicts = [conflict for (label, expected) in spec['label_values'].items() if (conflict := _explicit_label_value_conflict(workbook, values, label, expected)) is not None]
             return (not conflicts, 'required numeric facts are present and no exact-label contradiction exists' if not conflicts else '; '.join(conflicts))
         if kind == 'artifact_tokens':
             if task_id == 'task_035':
                 token = spec.get('tokens', [''])[0]
                 source_reference = _TASK_035_SOURCE_REFERENCES.get(token, {})
-                _evidence, completed, gate_evidence = _scoped_xlsx_token_evidence(workbook, values, token, aliases=source_reference.get('aliases', ()))
+                (_evidence, completed, gate_evidence) = _scoped_xlsx_token_evidence(workbook, values, token, aliases=source_reference.get('aliases', ()))
                 return (completed, gate_evidence)
             return (True, 'workbook parsed; criterion is intentionally semantic')
         if kind == 'xlsx_formula_lineage':
@@ -1225,14 +1251,14 @@ def _hybrid_review_hard_gate(task_id: str, spec: dict[str, Any], gold: dict[str,
             tables = len(Document(path).tables)
             return (tables >= int(spec['min_tables']), f"tables={tables}; required={spec['min_tables']}")
         if kind == 'artifact_label_values':
-            missing = [label for label, expected in spec['label_values'].items() if not _artifact_expected_fact_present(path, expected, label=label)]
+            missing = [label for (label, expected) in spec['label_values'].items() if not _artifact_expected_fact_present(path, expected, label=label)]
             return (not missing, f'exact numeric facts missing anywhere in artifact={missing!r}')
         if kind == 'artifact_tokens':
             return (True, 'artifact parsed; criterion is intentionally semantic')
     if suffix == '.pptx':
         if task_id == 'task_068':
             slide_numbers = _task_068_slide_numbers(spec['id'])
-            _evidence, substantive, evidence = _pptx_slide_evidence(path, slide_numbers)
+            (_evidence, substantive, evidence) = _pptx_slide_evidence(path, slide_numbers)
             changed = _task_068_slides_changed(path, gold['artifact']['path'], slide_numbers)
             if spec['id'] == 'preservation__title':
                 return (substantive, evidence)
@@ -1245,7 +1271,7 @@ def _hybrid_review_hard_gate(task_id: str, spec: dict[str, Any], gold: dict[str,
             met = len(presentation.slides) == int(expected_slides) if expected_slides is not None else len(presentation.slides) >= int(spec['min_slides'])
             return (met, f"slides={len(presentation.slides)}; required={expected_slides or spec['min_slides']}")
         if kind == 'artifact_label_values':
-            missing = [label for label, expected in spec['label_values'].items() if not _artifact_expected_fact_present(path, expected, label=label)]
+            missing = [label for (label, expected) in spec['label_values'].items() if not _artifact_expected_fact_present(path, expected, label=label)]
             return (not missing, f'exact displayed numeric facts missing anywhere in deck={missing!r}')
         if kind == 'artifact_tokens':
             return (True, 'deck parsed; criterion is intentionally semantic')
@@ -1257,7 +1283,7 @@ def _hybrid_semantic_review(task_id: str, gold: dict[str, Any], path: Path, work
     for spec in gold['criteria']:
         if not spec.get('semantic'):
             continue
-        hard_gate_met, hard_gate_evidence = _hybrid_review_hard_gate(task_id, spec, gold, path, workbook, values)
+        (hard_gate_met, hard_gate_evidence) = _hybrid_review_hard_gate(task_id, spec, gold, path, workbook, values)
         expected_facts = spec.get('label_values')
         if expected_facts is None and spec.get('tokens'):
             expected_facts = {'required_concept': spec['tokens'][0]}
@@ -1268,22 +1294,22 @@ def _hybrid_semantic_review(task_id: str, gold: dict[str, Any], path: Path, work
         requirement = semantic_requirement(criterion_id=spec['id'], description=spec['description'], expected_facts=expected_facts, artifact_type={'.xlsx': 'workbook', '.docx': 'memorandum', '.pptx': 'board presentation'}.get(path.suffix.lower(), 'artifact'))
         if task_id == 'task_035':
             if spec['kind'] == 'xlsx_label_values':
-                label, expected = next(iter(spec['label_values'].items()))
-                submitted_evidence, _populated, _gate = _scoped_xlsx_label_evidence(workbook, values, label.replace('_', ' '))
+                (label, expected) = next(iter(spec['label_values'].items()))
+                (submitted_evidence, _populated, _gate) = _scoped_xlsx_label_evidence(workbook, values, label.replace('_', ' '), aliases=_TASK_035_LABEL_ALIASES.get(label, ()))
                 reference_context = _task_035_status_reference(label, expected)
                 evidence_scope = f'exact workbook output row labeled {label!r}'
                 requirement = f"Evaluate only whether the submitted value for {label!r} expresses the correct operational decision under the supplied answer key. Accept an unambiguous professional equivalent. Apply the answer key's explicit grading boundary: do not demand that a monthly or project status repeat an executive action scored in another criterion, but reject an opposite or ambiguous released-versus-held decision."
             else:
                 token = spec.get('tokens', [''])[0]
                 source_reference = _TASK_035_SOURCE_REFERENCES.get(token, {})
-                submitted_evidence, _populated, _gate = _scoped_xlsx_token_evidence(workbook, values, token, aliases=source_reference.get('aliases', ()))
+                (submitted_evidence, _populated, _gate) = _scoped_xlsx_token_evidence(workbook, values, token, aliases=source_reference.get('aliases', ()))
                 reference_context = {'required_source_or_control': token, 'criterion_answer_key': source_reference.get('answer_key', spec['description']), 'accepted_authority_references': list(source_reference.get('aliases', ())), 'equivalence_rule': 'Accept a clearly identified equivalent source/control; do not require the authored phrase.'}
                 evidence_scope = f'workbook rows containing the {token!r} source/control concept'
                 requirement = f'Evaluate only whether this submitted source row identifies an authoritative source satisfying the supplied answer key for {token!r}. Accept a clear filename, subject, abbreviation, or ordinary professional equivalent; reject an unidentified generic claim or the wrong/superseded authority.'
             task_context = {'assignment': 'Complete the FY27 signed-backlog burn, capacity, remediation, execution, earnings-release, and executive-recovery model.', 'sign_convention': 'capacity gap = required hours minus available hours; positive means shortage, negative means spare capacity; unresolved shortfall is floored at zero', 'status_conventions': {'cleared': 'no unresolved shortfall remains after permitted remedies', 'sequencing_or_resequencing_required': 'a residual shortfall or deferred portfolio remains', 'executive_decision_required': 'the project or portfolio cannot be released without management action'}, 'grading_boundary': 'All checkable amounts, months, project IDs, formulas, and calculation chains are graded deterministically. This judge grades only the supplied status/source row.'}
         elif task_id == 'task_068':
             slide_numbers = _task_068_slide_numbers(spec['id'])
-            submitted_evidence, _substantive, _gate = _pptx_slide_evidence(path, slide_numbers)
+            (submitted_evidence, _substantive, _gate) = _pptx_slide_evidence(path, slide_numbers)
             reference_context = _task_068_reference_context(spec['id'], expected_facts, gold['answer'])
             evidence_scope = 'slide(s) ' + ', '.join((str(number) for number in slide_numbers))
             requirement = f"Evaluate only this criterion in the supplied slide content: {spec['description']} Use the criterion answer key and verified finance context below. Accept normal professional wording; reject a missing, contradictory, or unsupported conclusion."
@@ -1299,7 +1325,7 @@ def _hybrid_semantic_review(task_id: str, gold: dict[str, Any], path: Path, work
     return {'version': 2, 'mode': 'deterministic_hard_gates_plus_bounded_semantic_judge', 'task_id': task_id, 'artifact': gold['artifact']['path'], 'evidence': _semantic_evidence_pack(path, workbook, values), 'execution_mode': 'scoped_per_criterion' if task_id in {'task_035', 'task_068'} else 'legacy_batched', 'criteria': reviews, 'policy': 'A criterion passes only when its deterministic hard gate passes and the semantic judge finds the professional-language association or narrative substance MET.'}
 
 def _artifact_label_value(entries: list[str], label: str, expected: Any, *, directional_strings: bool=False) -> bool:
-    for index, entry in enumerate(entries):
+    for (index, entry) in enumerate(entries):
         normalized = _normalize(entry)
         if not contains_concept(entry, label):
             continue
@@ -1395,7 +1421,7 @@ def _presentation_contexts(path: Path) -> list[str]:
             headers = rows[0]
             for row in rows[1:]:
                 contexts.append(' | '.join(row))
-                for column, cell in enumerate(row):
+                for (column, cell) in enumerate(row):
                     header = headers[column] if column < len(headers) else ''
                     contexts.append(' | '.join((row[0] if row else '', header, cell)))
     return contexts
@@ -1464,7 +1490,7 @@ def _task_068_local_contexts(path: Path, slide_numbers: Iterable[int]) -> list[s
             headers = rows[0]
             contexts.extend((' | '.join(row) for row in rows))
             for row in rows[1:]:
-                for column, cell in enumerate(row):
+                for (column, cell) in enumerate(row):
                     header = headers[column] if column < len(headers) else ''
                     contexts.append(' | '.join((row[0] if row else '', header, cell)))
     return list(dict.fromkeys((context for context in contexts if context.strip())))
@@ -1516,7 +1542,7 @@ def _task_068_branch_artifact_value(path: Path, label: str, expected: float) -> 
     match = re.fullmatch('(construction|service|controls)_q2_(.+)', label)
     if not match:
         return False
-    branch, metric = match.groups()
+    (branch, metric) = match.groups()
     branch_aliases = {'construction': ('Construction',), 'service': ('Service',), 'controls': ('Controls', 'Building Controls')}[branch]
     metric_aliases = {'revenue': ('Q2 revenue', f'{branch} revenue'), 'approved_plan_revenue': ('approved plan revenue', 'plan revenue', f'{branch} plan revenue'), 'revenue_variance_to_plan': ('revenue vs plan', 'revenue variance to plan', f'{branch} revenue vs plan'), 'adjusted_ebitda': ('Q2 adjusted EBITDA', f'{branch} adjusted EBITDA', f'{branch} EBITDA'), 'approved_plan_adjusted_ebitda': ('approved plan adjusted EBITDA', 'plan adjusted EBITDA', 'plan EBITDA', f'{branch} plan EBITDA'), 'adjusted_ebitda_variance_to_plan': ('adjusted EBITDA vs plan', 'EBITDA variance to plan', f'{branch} EBITDA vs plan')}[metric]
     contexts = _task_068_local_contexts(path, (5,))
@@ -1573,7 +1599,7 @@ def _task_068_bridge_artifact_value(path: Path, label: str, expected: float) -> 
     mapping = {'q2_approved_plan_revenue': (3, 'revenue', 'plan'), 'q2_revenue': (3, 'revenue', 'actual'), 'q2_approved_plan_adjusted_ebitda': (4, 'ebitda', 'plan'), 'q2_adjusted_ebitda': (4, 'ebitda', 'actual')}
     if label not in mapping:
         return False
-    slide_number, metric, state = mapping[label]
+    (slide_number, metric, state) = mapping[label]
     presentation = Presentation(path)
     if len(presentation.slides) < slide_number:
         return False
@@ -1699,7 +1725,7 @@ def _task_072_artifact_value(path: Path, label: str, expected: Any) -> bool:
             row_text = ' | '.join(row)
             contexts.append(row_text)
             contexts.append(' | '.join([*header, *row]))
-            for column, cell in enumerate(row):
+            for (column, cell) in enumerate(row):
                 contexts.append(' | '.join((row[0] if row else '', header[column] if column < len(header) else '', cell)))
     if isinstance(expected, bool):
         if label == 'guidance_update_required' and expected is False:
@@ -1739,13 +1765,13 @@ def _task_100_artifact_value(path: Path, label: str, expected: Any) -> bool:
     text = _normalize('\n'.join(entries))
     if isinstance(expected, list):
         if label == 'optimized_board_priority_portfolio':
-            start = next((i for i, entry in enumerate(entries) if contains_concept(entry, 'optimized decision portfolio')), None)
+            start = next((i for (i, entry) in enumerate(entries) if contains_concept(entry, 'optimized decision portfolio')), None)
             if start is None:
                 return False
             stop = next((i for i in range(start + 1, len(entries)) if contains_concept(entries[i], 'constraints')), min(len(entries), start + 24))
             selected_entries = entries[start:stop]
             return all((any((semantic_value_matches(entry, item) for entry in selected_entries)) for item in expected))
-        for index, entry in enumerate(entries):
+        for (index, entry) in enumerate(entries):
             if not any((contains_concept(entry, alias) for alias in aliases)):
                 continue
             candidates = entries[index:index + max(4, len(expected) + 2)]
@@ -1796,7 +1822,7 @@ def _task_100_artifact_value(path: Path, label: str, expected: Any) -> bool:
             return named_callout or negative_row
         return any((any((contains_concept(segment, alias) for alias in aliases)) and _sample_directional_semantic_value_matches(segment, expected) for segment in entries))
     pattern = re.compile('\\(?[-−]?\\$?\\d[\\d,]*(?:\\.\\d+)?[ \\t]*(?:%|[kmbx×])?\\)?', flags=re.I)
-    for index, entry in enumerate(entries):
+    for (index, entry) in enumerate(entries):
         if not any((_context_has_alias(entry, alias) for alias in aliases)):
             continue
         segment = ' | '.join(entries[index:index + 4])
@@ -1835,7 +1861,7 @@ def _task_100_artifact_value(path: Path, label: str, expected: Any) -> bool:
 def _task_037_selected_projects(workbook, values, expected: list[str]) -> bool:
     selected: list[str] = []
     index = _task_037_workbook_index(workbook, values)
-    for project, records in index['cached_projects'].items():
+    for (project, records) in index['cached_projects'].items():
         for record in records:
             row_values = record['cached'][:12]
             chosen = any((_sample_directional_semantic_value_matches(value, 'selected') or value is True or (isinstance(value, (int, float)) and (not isinstance(value, bool)) and (float(value) == 1.0)) for value in row_values))
@@ -1862,7 +1888,7 @@ def _task_037_workbook_index(workbook, values) -> dict[str, Any]:
     for sheet_name in workbook.sheetnames:
         sheet = workbook[sheet_name]
         value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
-        max_row, max_column = (sheet.max_row, sheet.max_column)
+        (max_row, max_column) = (sheet.max_row, sheet.max_column)
         for row_index in range(1, max_row + 1):
             formula_values = tuple((sheet.cell(row_index, column).value for column in range(1, max_column + 1)))
             cached_values = tuple((value_sheet.cell(row_index, column).value for column in range(1, max_column + 1)))
@@ -1987,7 +2013,7 @@ def _task_055_row_match(workbook, values, label: str, expected: Any, require_for
     if sensitivity is not None:
         if sensitivity[0]:
             return sensitivity
-        matched, evidence = _professional_row_value_match(workbook, values, [label.replace('_', ' ')], expected, require_formula, directional_strings=True)
+        (matched, evidence) = _professional_row_value_match(workbook, values, [label.replace('_', ' ')], expected, require_formula, directional_strings=True)
         if matched:
             return (matched, evidence)
         return sensitivity
@@ -1997,13 +2023,13 @@ def _task_055_row_match(workbook, values, label: str, expected: Any, require_for
         suffix = match.group(2)
         aliases = _TASK_055_YEAR_ROW_ALIASES.get(suffix)
         if aliases:
-            matched, evidence = _professional_row_value_match(workbook, values, aliases, expected, require_formula, year, directional_strings=True)
+            (matched, evidence) = _professional_row_value_match(workbook, values, aliases, expected, require_formula, year, directional_strings=True)
             if matched:
                 return (matched, evidence)
             if isinstance(expected, (int, float)) and expected and (suffix in {'integration_expense', 'incremental_debt_interest', 'foregone_cash_yield'}):
                 return _professional_row_value_match(workbook, values, aliases, -expected, require_formula, year)
             return (matched, evidence)
-    matched, evidence = _professional_row_value_match(workbook, values, [label.replace('_', ' '), *_TASK_055_LABEL_ALIASES.get(label, [])], expected, require_formula, directional_strings=True)
+    (matched, evidence) = _professional_row_value_match(workbook, values, [label.replace('_', ' '), *_TASK_055_LABEL_ALIASES.get(label, [])], expected, require_formula, directional_strings=True)
     if matched:
         return (matched, evidence)
     if isinstance(expected, (int, float)) and expected and (label in {'incremental_debt_interest', 'foregone_cash_yield', 'total_incremental_financing_cost'}):
@@ -2012,7 +2038,7 @@ def _task_055_row_match(workbook, values, label: str, expected: Any, require_for
 
 def _task_061_row_match(workbook, values, label: str, expected: Any, require_formula: bool=False) -> tuple[bool, str]:
     aliases = [label.replace('_', ' '), *_TASK_061_LABEL_ALIASES.get(label, [])]
-    matched, evidence = _professional_row_value_match(workbook, values, aliases, expected, require_formula, directional_strings=True)
+    (matched, evidence) = _professional_row_value_match(workbook, values, aliases, expected, require_formula, directional_strings=True)
     if matched or label != 'ending_valuation_allowance' or (not isinstance(expected, (int, float))):
         return (matched, evidence)
     return _professional_row_value_match(workbook, values, aliases, -expected, require_formula)
@@ -2026,7 +2052,7 @@ def _task_037_row_match(workbook, values, label: str, expected: Any, require_for
         aliases = [suffix.replace('_', ' '), *_TASK_037_LABEL_ALIASES.get(label, [])]
         year_flow = re.fullmatch('year_(\\d)_(base|downside)_after_tax_cash_flow', suffix)
         if year_flow:
-            year, case = year_flow.groups()
+            (year, case) = year_flow.groups()
             aliases.extend([f"Yr{year} {('down' if case == 'downside' else 'CF')}", f'Year {year} {case} cash flow'])
         aliases.extend({'technician_capacity': ['Technician req.', 'Technician capacity required'], 'mandatory_safety_flag': ['Mandatory safety'], 'npv': ['NPV base', 'NPV (base)'], 'irr': ['IRR base', 'IRR (base)'], 'payback_years': ['Disc payback', 'Payback'], 'selected': ['Selected', 'Select', 'Portfolio decision']}.get(suffix, []))
         for record in index['formula_projects'].get(project, []):
@@ -2047,7 +2073,7 @@ def _task_037_row_match(workbook, values, label: str, expected: Any, require_for
     for record in index['rows']:
         if not any((contains_concept(value, alias) for value in record['formula'] for alias in aliases)):
             continue
-        for column, (formula_value, cached_value) in enumerate(zip(record['formula'], record['cached']), start=1):
+        for (column, (formula_value, cached_value)) in enumerate(zip(record['formula'], record['cached']), start=1):
             if require_formula and (not (isinstance(formula_value, str) and formula_value.startswith('='))):
                 continue
             if _value_candidates_match([cached_value], expected, directional_strings=True):
@@ -2059,7 +2085,7 @@ def _preserved_sheets(output, seed, names: list[str]) -> tuple[bool, str]:
     for name in names:
         if name not in output.sheetnames or name not in seed.sheetnames:
             return (False, f'missing protected sheet {name!r}')
-        left, right = (output[name], seed[name])
+        (left, right) = (output[name], seed[name])
         max_row = max(left.max_row, right.max_row)
         max_col = max(left.max_column, right.max_column)
         for row in range(1, max_row + 1):
@@ -2091,20 +2117,24 @@ def _headline_formula_match(task_id: str, workbook, values, label: str, gold: di
     candidates = [label.replace('_', ' ')]
     if task_id == 'task_037':
         candidates.extend(_TASK_037_LABEL_ALIASES.get(label, []))
+    if task_id == 'task_035':
+        candidates.extend(_TASK_035_LABEL_ALIASES.get(label, []))
     if task_id == 'task_061':
         candidates.extend(_TASK_061_LABEL_ALIASES.get(label, []))
     if task_id == 'task_037':
-        matched, detail = _task_037_row_match(workbook, values, label, gold['answer'][label], require_formula=True)
+        (matched, detail) = _task_037_row_match(workbook, values, label, gold['answer'][label], require_formula=True)
         if matched:
             return (matched, detail)
     attempts = [_xlsx_label_formula(workbook, candidate) for candidate in candidates]
-    matched, detail = next((attempt for attempt in attempts if attempt[0]), attempts[0])
+    (matched, detail) = next((attempt for attempt in attempts if attempt[0]), attempts[0])
+    if task_id == 'task_035' and (not matched):
+        (matched, detail) = _task_035_row_match(workbook, values, label, gold['answer'][label], require_formula=True)
     if task_id == 'task_055' and (not matched):
         row_column = {'year_one_gaap_eps_accretion': ('GAAP EPS accretion / (dilution) %', 'Year 1'), 'year_one_adjusted_eps_accretion': ('Adjusted EPS accretion / (dilution) %', 'Year 1'), 'year_two_gaap_eps_accretion': ('GAAP EPS accretion / (dilution) %', 'Year 2'), 'year_two_adjusted_eps_accretion': ('Adjusted EPS accretion / (dilution) %', 'Year 2')}
         if label in row_column:
-            matched, detail = _xlsx_row_column_formula(workbook, *row_column[label])
+            (matched, detail) = _xlsx_row_column_formula(workbook, *row_column[label])
         if not matched:
-            matched, detail = _task_055_row_match(workbook, values, label, gold['answer'][label], require_formula=True)
+            (matched, detail) = _task_055_row_match(workbook, values, label, gold['answer'][label], require_formula=True)
     return (matched, detail)
 
 def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
@@ -2136,7 +2166,7 @@ def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
                 evidence = 'submitted workbook or seeded edit template is missing'
             else:
                 seed = load_workbook(seed_path, data_only=False, read_only=False)
-                met, evidence = _preserved_sheets(workbook, seed, [spec['sheet']])
+                (met, evidence) = _preserved_sheets(workbook, seed, [spec['sheet']])
         elif kind == 'xlsx_formula_count':
             formulas = sum((1 for sheet in workbook.worksheets for row in sheet.iter_rows() for cell in row if isinstance(cell.value, str) and cell.value.startswith('=')))
             met = formulas >= int(spec['min_formulas'])
@@ -2146,7 +2176,7 @@ def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
             met = not errors
             evidence = f'errors={errors[:10]!r}'
         elif kind == 'xlsx_headline_formula':
-            met, evidence = _headline_formula_match(task_id, workbook, values, str(spec['headline_label']), gold)
+            (met, evidence) = _headline_formula_match(task_id, workbook, values, str(spec['headline_label']), gold)
         elif kind == 'xlsx_formula_sheet':
             sheet = workbook[spec['sheet']] if spec['sheet'] in workbook.sheetnames else None
             formulas = 0 if sheet is None else sum((1 for row in sheet.iter_rows() for cell in row if isinstance(cell.value, str) and cell.value.startswith('=')))
@@ -2185,14 +2215,14 @@ def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
         elif kind == 'xlsx_structure':
             required = spec['sheets']
             sheets_ok = workbook is not None and all((name in workbook.sheetnames for name in required))
-            preserve_ok, preserve_evidence = (True, 'not an edit task')
+            (preserve_ok, preserve_evidence) = (True, 'not an edit task')
             if sheets_ok and spec.get('preserve_source_sheets'):
                 seed_path = SEED_WORKSPACE / relative
                 if not seed_path.is_file():
-                    preserve_ok, preserve_evidence = (False, 'seeded edit template is missing')
+                    (preserve_ok, preserve_evidence) = (False, 'seeded edit template is missing')
                 else:
                     seed = load_workbook(seed_path, data_only=False, read_only=False)
-                    preserve_ok, preserve_evidence = _preserved_sheets(workbook, seed, spec['preserve_source_sheets'])
+                    (preserve_ok, preserve_evidence) = _preserved_sheets(workbook, seed, spec['preserve_source_sheets'])
             met = sheets_ok and preserve_ok
             evidence = f"sheets={getattr(workbook, 'sheetnames', [])!r}; {preserve_evidence}"
         elif kind == 'xlsx_model_integrity':
@@ -2209,16 +2239,21 @@ def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
             headline_evidence = []
             for label in spec['headline_labels']:
                 candidates = [label.replace('_', ' ')]
+                if task_id == 'task_035':
+                    candidates.extend(_TASK_035_LABEL_ALIASES.get(label, []))
                 if task_id == 'task_037':
                     candidates.extend(_TASK_037_LABEL_ALIASES.get(label, []))
                 attempts = [_xlsx_label_formula(workbook, candidate) for candidate in candidates]
-                matched, detail = next((attempt for attempt in attempts if attempt[0]), attempts[0])
+                (matched, detail) = next((attempt for attempt in attempts if attempt[0]), attempts[0])
+                if task_id == 'task_035' and (not matched):
+                    expected = gold['answer'][label]
+                    (matched, detail) = _task_035_row_match(workbook, values, label, expected, require_formula=True)
                 if task_id == 'task_055' and (not matched):
                     expected = gold['answer'][label]
-                    matched, detail = _task_055_row_match(workbook, values, label, expected, require_formula=True)
+                    (matched, detail) = _task_055_row_match(workbook, values, label, expected, require_formula=True)
                 if task_id == 'task_037' and (not matched):
                     expected = gold['answer'][label]
-                    matched, detail = _task_037_row_match(workbook, values, label, expected, require_formula=True)
+                    (matched, detail) = _task_037_row_match(workbook, values, label, expected, require_formula=True)
                 if not matched:
                     headline_failures.append(label)
                 else:
@@ -2227,32 +2262,36 @@ def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
             evidence = f'formula_sheets={by_sheet!r}; cross_sheet={cross_sheet}; missing_formula_sheets={missing_formula_sheets!r}; headline_failures={headline_failures!r}; headline_examples={headline_evidence[:3]!r}'
         elif kind == 'xlsx_label_values':
             failures = []
-            for label, expected in spec['label_values'].items():
+            for (label, expected) in spec['label_values'].items():
                 labels = [label.replace('_', ' ')]
+                if task_id == 'task_035':
+                    labels.extend(_TASK_035_LABEL_ALIASES.get(label, []))
                 if task_id == 'task_037':
                     if label == 'selected_portfolio' and isinstance(expected, list):
                         matched = _task_037_selected_projects(workbook, values, expected)
                     else:
-                        matched, _ = _task_037_row_match(workbook, values, label, expected, require_formula=False)
+                        (matched, _) = _task_037_row_match(workbook, values, label, expected, require_formula=False)
                     if not matched:
                         matched = any((_xlsx_label_value(workbook, values, candidate, expected, directional_strings=True) for candidate in [*labels, *_TASK_037_LABEL_ALIASES.get(label, [])]))
                 elif task_id == 'task_027':
                     matched = _xlsx_exact_label_value(workbook, values, label.replace('_', ' '), expected, directional_strings=True)
                 else:
                     matched = any((_xlsx_label_value(workbook, values, candidate, expected, directional_strings=task_id in {'task_035', 'task_055', 'task_061'}) for candidate in labels))
+                if task_id == 'task_035' and (not matched):
+                    (matched, _) = _task_035_row_match(workbook, values, label, expected, require_formula=False)
                 if task_id == 'task_055' and (not matched):
-                    matched, _ = _task_055_row_match(workbook, values, label, expected, require_formula=False)
+                    (matched, _) = _task_055_row_match(workbook, values, label, expected, require_formula=False)
                 if task_id == 'task_061' and (not matched):
-                    matched, _ = _task_061_row_match(workbook, values, label, expected, require_formula=False)
+                    (matched, _) = _task_061_row_match(workbook, values, label, expected, require_formula=False)
                 if not matched:
                     failures.append(label)
             met = not failures
             evidence = 'all labeled values matched' if met else f'missing or incorrect labels={failures!r}'
         elif kind == 'task_037_selection_tie':
-            met, evidence = _task_037_selection_tie_control(workbook, values)
+            (met, evidence) = _task_037_selection_tie_control(workbook, values)
         elif kind == 'artifact_label_values':
             failures = []
-            for label, expected in spec['label_values'].items():
+            for (label, expected) in spec['label_values'].items():
                 labels = [label.replace('_', ' ')]
                 if task_id in {'task_068', 'task_072'}:
                     labels.extend(_TASK_072_LABEL_ALIASES.get(label, []))
@@ -2271,7 +2310,7 @@ def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
             evidence = 'all labeled values matched' if met else f'missing or incorrect labels={failures!r}'
         elif kind == 'artifact_tokens':
             if task_id == 'task_035' and spec['id'].startswith(('model_content__', 'controls__')):
-                met, evidence = _task_035_model_or_control_check(workbook, values, spec['id'])
+                (met, evidence) = _task_035_model_or_control_check(workbook, values, spec['id'])
             else:
                 missing = [token for token in spec['tokens'] if not any((contains_concept(normalized_text, candidate) for candidate in _ARTIFACT_TOKEN_ALIASES.get(token, [token])))]
                 met = not missing

@@ -2,16 +2,25 @@
   "accounting_mcp_required": true,
   "data_group": "reporting",
   "independent_fact_groups": [
+    "Approved lender metric basis",
     "Cash and capital",
+    "Credit metrics",
     "Full-year outlook",
+    "IR comparability bridge",
+    "Investor KPI controls",
     "Liquidity",
     "Performance diagnostics",
     "Q2 actual export",
     "Q2 approved plan",
+    "Signed guidance decision",
     "Management instructions and decision rules",
-    "Current-versus-prior source authority and reconciliation"
+    "Current-versus-prior source authority and reconciliation",
+    "Accounting and reporting tie",
+    "Combined downside and executable mitigation conversion",
+    "Guidance buffer, trigger, owners, and dated release gates"
   ],
   "mcp_anchor_types": [
+    "debt",
     "ytd_revenue"
   ],
   "minimum_source_artifacts": [
@@ -27,7 +36,7 @@
     "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
     "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx"
   ],
-  "native_fact_rows": 63,
+  "native_fact_rows": 83,
   "request_threads": [
     "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
     "Requests/7.5.26_0812am - board review changes + source tie.eml"
