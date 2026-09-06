@@ -4,7 +4,7 @@
     "path": "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx",
     "type": "xlsx"
   },
-  "canonical_source_commit": "40a81a5f7ad921e17ac03ac633a076fb87b9e455",
+  "canonical_source_commit": "d03ed15caa1f66008ab767fbd203f656a32425eb",
   "difficulty": "expert-long-horizon",
   "grading_contract": {
     "basis": "a concise business objective and neutral working model require source-version reconciliation, unit-aware signed-backlog and capacity analysis, priority-based execution, contract and earnings consequences, and a management recommendation without announcing the hidden difficulty; exact magnitudes, date/project facts, and formula results retain deterministic hard gates while every editable metric, period, scenario, sign, label, and decision association receives criterion-scoped semantic review, so finite aliases cannot reject correct professional wording or rescue a right value attached to the wrong business fact; hidden tie-breaks are eliminated and all sections score proportionally without reward caps",

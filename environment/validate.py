@@ -46,7 +46,7 @@ SELECTED = (
 EXPECTED = {
     "task_001": {
         "slug": "arm-2409-wip-backcharge",
-        "prompt_sha256": "bdf9cce6c868c68cbe056457fc488ca91d8689388c1b9c44093e36214030c6b5",
+        "prompt_sha256": "2d532c8ddb41e1d16ead95a58966655166c8560258c2654f0635d44869e974f2",
         "grading_revision": "weighted-atomic-hybrid-v50-primary-field-and-semantic-coherence",
         "catalog_revision": "task-001-conditional-credit-effectiveness-v42",
         "criteria": 94,
@@ -64,7 +64,7 @@ EXPECTED = {
     },
     "task_015": {
         "slug": "append-q2-covenant-slide",
-        "prompt_sha256": "d6e8667ff6981f8c67cec5ab8ec7acb560b924ee21e9e3b2328da19103e83d78",
+        "prompt_sha256": "50bd7291c15dedc6c661af0a67220c602e0803a2069407d67273321a6a0bf573",
         "grading_revision": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
         "catalog_revision": "task-015-current-close-covenant-v14",
         "criteria": 74,
@@ -94,7 +94,7 @@ EXPECTED_ACCOUNTING_SHA256 = (
     "00ddfe914af7abb109a05f703623f43c241ac5f90d73e0f4f5e46d9459b76e7d"
 )
 EXPECTED_CANONICAL_SOURCE_COMMIT = (
-    "40a81a5f7ad921e17ac03ac633a076fb87b9e455"
+    "d03ed15caa1f66008ab767fbd203f656a32425eb"
 )
 EXPECTED_SOURCE_COUNT = 144
 TASK_FILE_SET = {
