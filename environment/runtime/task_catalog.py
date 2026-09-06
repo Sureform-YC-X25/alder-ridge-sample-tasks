@@ -25,7 +25,7 @@ TASKS: tuple[TaskSpec, ...] = (
 
 Prepare a review-ready June 30 recommendation from records available through July 2 and the current close support. Reconcile the project to final May WIP and posted June activity, quantify its proposed June WIP contribution, and document unresolved matters, owners, and evidence needed for Controller disposition.
 
-Complete only the working memorandum and save it in place. Do not post a journal, imply Controller approval, change another close file, or create support exports. A brief completion note is sufficient.
+Complete only the working memorandum and save it in place. Do not post a journal, imply Controller approval, change another close file, or create support exports. A brief completion note is enough.
 """,
     ),
     TaskSpec(
@@ -53,7 +53,7 @@ Complete only the working workbook and save it in place. Do not post or imply ap
 
 Reperform the covenants from the executed agreement and current support. Show the posted and proposed-WIP bases, the meaningful downside capacity, the calculation/source basis, and the resulting compliance and circulation conclusion. Keep the proposal visibly unposted.
 
-Preserve the five existing slides and their order, match the deck's visual system, append exactly one slide, and save in place. This remains a working deck; do not sign, submit, or describe it as submitted.
+Preserve the five existing slides and their order, match the deck's visual system, append exactly one slide, and save in place. This remains a working deck, do not sign, submit, or describe it as submitted.
 """,
     ),
     TaskSpec(

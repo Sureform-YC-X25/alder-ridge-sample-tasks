@@ -1,6 +1,6 @@
 {
   "accounting_seed_sha256": "00ddfe914af7abb109a05f703623f43c241ac5f90d73e0f4f5e46d9459b76e7d",
-  "canonical_source_commit": "40a81a5f7ad921e17ac03ac633a076fb87b9e455",
+  "canonical_source_commit": "fcd0a5a73c250ebe06eb26b8a7dee3758c4ef95c",
   "complete_shared_company_world_included": true,
   "container_includes_complete_seed_world": true,
   "non_sample_task_seed_overlays_included": false,
@@ -167,7 +167,7 @@
   "tasks": {
     "task_001": {
       "grading_revision": "weighted-atomic-hybrid-v50-primary-field-and-semantic-coherence",
-      "prompt_sha256": "bdf9cce6c868c68cbe056457fc488ca91d8689388c1b9c44093e36214030c6b5",
+      "prompt_sha256": "2d532c8ddb41e1d16ead95a58966655166c8560258c2654f0635d44869e974f2",
       "slug": "arm-2409-wip-backcharge"
     },
     "task_004": {
@@ -177,7 +177,7 @@
     },
     "task_015": {
       "grading_revision": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
-      "prompt_sha256": "d6e8667ff6981f8c67cec5ab8ec7acb560b924ee21e9e3b2328da19103e83d78",
+      "prompt_sha256": "31d061c0323e15f1696cf0f0189d50cfe5e3a511f5d1616e0f997129f2a7f8fb",
       "slug": "append-q2-covenant-slide"
     },
     "task_035": {

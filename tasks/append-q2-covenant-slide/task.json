@@ -4,7 +4,7 @@
     "path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx",
     "type": "pptx"
   },
-  "canonical_source_commit": "40a81a5f7ad921e17ac03ac633a076fb87b9e455",
+  "canonical_source_commit": "fcd0a5a73c250ebe06eb26b8a7dee3758c4ef95c",
   "difficulty": "advanced",
   "grading_contract": {
     "basis": "a concise objective-led lender request requires independent discovery and reperformance from the executed agreement, posted accounting records, ordinary June AP cutoff evidence, and the current proposed-WIP support; the July 2 close-pro-forma basis follows the source-supported posting sequence and does not import an older WIP snapshot. Exact values are unit-scoped deterministic hard gates, aligned text-box matrices retain their visible row and column associations for criterion-scoped semantic review, and a binding-covenant conclusion requires its four like-for-like capacity prerequisites. The untouched five-slide starter receives zero credit, correct alternate layouts and normal units remain gradeable, central finance work dominates presentation mechanics, and all reward is proportional without task-level or section-level score caps",
@@ -13,8 +13,8 @@
   },
   "grading_revision": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
   "output_mode": "presentation_edit",
-  "prompt": "Please append one decision-ready June 30 covenant-headroom slide to\n`Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx`.\n\nReperform the covenants from the executed agreement and current support. Show the posted and proposed-WIP bases, the meaningful downside capacity, the calculation/source basis, and the resulting compliance and circulation conclusion. Keep the proposal visibly unposted.\n\nPreserve the five existing slides and their order, match the deck's visual system, append exactly one slide, and save in place. This remains a working deck; do not sign, submit, or describe it as submitted.\n",
-  "prompt_sha256": "d6e8667ff6981f8c67cec5ab8ec7acb560b924ee21e9e3b2328da19103e83d78",
+  "prompt": "Please append one decision-ready June 30 covenant-headroom slide to\n`Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx`.\n\nReperform the covenants from the executed agreement and current support. Show the posted and proposed-WIP bases, the meaningful downside capacity, the calculation/source basis, and the resulting compliance and circulation conclusion. Keep the proposal visibly unposted.\n\nPreserve the five existing slides and their order, match the deck's visual system, append exactly one slide, and save in place. This remains a working deck, do not sign, submit, or describe it as submitted.\n",
+  "prompt_sha256": "31d061c0323e15f1696cf0f0189d50cfe5e3a511f5d1616e0f997129f2a7f8fb",
   "slug": "append-q2-covenant-slide",
   "task_id": "task_015",
   "title": "Append one Q2 covenant-headroom slide",
