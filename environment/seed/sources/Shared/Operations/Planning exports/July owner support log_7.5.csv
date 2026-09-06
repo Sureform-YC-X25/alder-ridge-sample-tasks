@@ -1,0 +1,25 @@
+record_ref,evidence_date,operating_area,support_id,accountable_owner,financial_category,record_status,support_measure,amount_or_hours,units,earliest_forecast_period,next_review_date,support_file,review_cutoff
+OPS-SUP-001,2026-06-24,Construction gross profit,VEN-4261,COO,EBITDA,Replaced,Vendor concession,255000.0,USD,2026-Q3,2026-07-15,Vendor negotiation tracker v1,2026-07-05
+OPS-SUP-002,2026-06-29,Construction gross profit,VEN-4278,COO,EBITDA,Proposal only,Vendor concession,74000.0,USD,2026-Q3,2026-07-15,Supplier concession proposal,2026-07-05
+OPS-SUP-003,2026-07-02,Construction gross profit,VEN-4301,COO,EBITDA,Executed,Vendor concession,128500.0,USD,2026-Q3,2026-07-15,Signed vendor amendment A,2026-07-05
+OPS-SUP-004,2026-07-02,Construction gross profit,VEN-4314,COO,EBITDA,Executed,Vendor concession,109300.0,USD,2026-Q3,2026-07-15,Signed vendor amendment B,2026-07-05
+OPS-SUP-005,2026-07-03,Construction gross profit,VEN-4322,COO,EBITDA,Withdrawn,Vendor concession,36000.0,USD,2026-Q3,2026-07-15,Supplier freight credit email,2026-07-05
+OPS-SUP-006,2026-07-05,Construction gross profit,VEN-4330,COO,EBITDA,Draft pending signature,Vendor concession,51500.0,USD,2026-Q3,2026-07-15,Draft buyout closeout,2026-07-05
+OPS-SUP-007,2026-06-23,Service labor productivity,RTE-0623,VP Service,EBITDA,Replaced,Route-hour reduction,4800.0,hours,2026-Q3,2026-07-12,June route-plan working copy,2026-07-05
+OPS-SUP-008,2026-06-28,Service labor productivity,RTE-0628,VP Service,EBITDA,Cancelled,Route-hour reduction,650.0,hours,2026-Q3,2026-07-12,Weekend coverage change,2026-07-05
+OPS-SUP-009,2026-07-01,Service labor productivity,RTE-0701A,VP Service,EBITDA,Approved,Route-hour reduction,1904.0,hours,2026-Q3,2026-07-12,Approved July route plan - north,2026-07-05
+OPS-SUP-010,2026-07-01,Service labor productivity,RTE-0701B,VP Service,EBITDA,Approved,Route-hour reduction,2200.0,hours,2026-Q3,2026-07-12,Approved July route plan - south,2026-07-05
+OPS-SUP-011,2026-07-03,Service labor productivity,RTE-0703,VP Service,EBITDA,Proposal only,Route-hour reduction,960.0,hours,2026-Q3,2026-07-12,Open-territory staffing proposal,2026-07-05
+OPS-SUP-012,2026-07-05,Service labor productivity,RTE-0705,VP Service,EBITDA,Draft not approved,Route-hour reduction,720.0,hours,2026-Q3,2026-07-12,Dispatcher coverage draft,2026-07-05
+OPS-SUP-013,2026-06-22,Controls mix,COM-0622,VP Controls,EBITDA,Replaced,Commissioning sequence value,265000.0,USD,2026-Q3,2026-07-18,Early commissioning sequence,2026-07-05
+OPS-SUP-014,2026-06-28,Controls mix,COM-0628,VP Controls,EBITDA,Pending customer sequence,Commissioning sequence value,87500.0,USD,2026-Q3,2026-07-18,Customer sequence request,2026-07-05
+OPS-SUP-015,2026-07-03,Controls mix,COM-0703A,VP Controls,EBITDA,Approved,Commissioning sequence value,128750.0,USD,2026-Q3,2026-07-18,Approved commissioning sequence - east,2026-07-05
+OPS-SUP-016,2026-07-03,Controls mix,COM-0703B,VP Controls,EBITDA,Approved,Commissioning sequence value,104000.0,USD,2026-Q3,2026-07-18,Approved commissioning sequence - west,2026-07-05
+OPS-SUP-017,2026-07-04,Controls mix,COM-0704,VP Controls,EBITDA,Proposal only,Commissioning sequence value,55000.0,USD,2026-Q3,2026-07-18,Controls PM acceleration proposal,2026-07-05
+OPS-SUP-018,2026-07-05,Controls mix,COM-0705,VP Controls,EBITDA,Removed from sequence,Commissioning sequence value,42000.0,USD,2026-Q3,2026-07-18,Sequence exception notice,2026-07-05
+OPS-SUP-019,2026-06-27,Collections timing,RCPT-0627,Controller,Cash,Confirmation withdrawn,Expected July receipt,125000.0,USD,2026-Q3,2026-07-10,Customer remittance email,2026-07-05
+OPS-SUP-020,2026-06-30,Collections timing,RCPT-0630,Controller,Cash,Applied in June,Expected July receipt,82000.0,USD,2026-Q3,2026-07-10,June cash-application record,2026-07-05
+OPS-SUP-021,2026-07-01,Collections timing,RCPT-0701,Controller,Cash,Confirmed,Expected July receipt,103000.0,USD,2026-Q3,2026-07-10,Customer remittance confirmation,2026-07-05
+OPS-SUP-022,2026-07-02,Collections timing,RCPT-0702A,Controller,Cash,Confirmed,Expected July receipt,95000.0,USD,2026-Q3,2026-07-10,Customer remittance confirmation,2026-07-05
+OPS-SUP-023,2026-07-02,Collections timing,RCPT-0702B,Controller,Cash,Confirmed,Expected July receipt,90000.0,USD,2026-Q3,2026-07-10,Customer remittance confirmation,2026-07-05
+OPS-SUP-024,2026-07-04,Collections timing,RCPT-0704,Controller,Cash,Disputed after initial confirmation,Expected July receipt,68000.0,USD,2026-Q3,2026-07-10,Customer dispute follow-up,2026-07-05

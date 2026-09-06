@@ -38,7 +38,4 @@ def reset_world() -> tuple[Path, Path]:
     db_path = state_root / "accounting.db"
     shutil.copy2(seed_root / "accounting.db", db_path)
 
-    for task_dir in ("Task 01 - June WIP Close", "Task 02 - 13 Week Liquidity", "Task 03 - June Operating Review", "Task 04 - Q2 Bank Compliance"):
-        (runtime_root / "Deliverables" / task_dir).mkdir(parents=True, exist_ok=True)
-
     return runtime_root, db_path

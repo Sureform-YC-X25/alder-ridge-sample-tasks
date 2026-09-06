@@ -48,22 +48,6 @@ def _compact_integrity(integrity: Any) -> Any:
         compact[key] = value if isinstance(value, list) else []
     return compact
 
-def _compact_semantic_review(semantic_review: Any) -> Any:
-    """Keep semantic transport aggregate while preserving its sidecar audit.
-
-    The complete per-criterion semantic record is persisted before the HUD
-    result is constructed.  Repeating hundreds of verbose judge explanations
-    in the public trace can make a later QA prompt exceed the provider context
-    window without adding any scoring information.
-    """
-    if not isinstance(semantic_review, Mapping):
-        return semantic_review
-    compact = {key: value for key, value in semantic_review.items() if key != 'criteria'}
-    criteria = semantic_review.get('criteria')
-    if isinstance(criteria, list):
-        compact.update({'criteria_total': len(criteria), 'criteria_met': sum((bool(row.get('final_met')) for row in criteria if isinstance(row, Mapping))), 'criteria_transport_scope': 'aggregate semantic audit; complete per-criterion semantic evidence is persisted in the grader sidecar'})
-    return compact
-
 def _hud_result(task_id: str, result: dict[str, Any]):
     """Expose an IPC-safe rubric summary and governed terminal reward in HUD.
 
@@ -77,23 +61,8 @@ def _hud_result(task_id: str, result: dict[str, Any]):
     from hud.graders import EvaluationResult
     criteria = [{key: criterion[key] for key in ('id', 'description', 'category', 'weight', 'semantic', 'failure_cap', 'value') if key in criterion} for criterion in result['criteria']]
     criterion_transport: dict[str, Any] = {}
-    if task_id in {'task_027', 'task_037'}:
-        failures = [row for row in criteria if row.get('value') != 1]
-        bounded_failures: list[dict[str, Any]] = []
-        byte_budget = 40000
-        bytes_used = 0
-        for row in failures:
-            row_bytes = len(json.dumps(row, default=str).encode('utf-8'))
-            if bounded_failures and bytes_used + row_bytes > byte_budget:
-                break
-            bounded_failures.append(row)
-            bytes_used += row_bytes
-        criteria = bounded_failures
-        criterion_transport = {'failed_criteria_total': len(failures), 'criteria_returned': len(criteria), 'criteria_omitted': len(result['criteria']) - len(criteria), 'criteria_transport_scope': 'bounded failed-criterion detail; complete atomic outcomes and evidence are persisted in the grader sidecar, with the full rubric in the published task catalog'}
     strict_pass = bool(result['strict_pass'])
     semantic_review = result.get('semantic_review_result')
-    if task_id in {'task_027'}:
-        semantic_review = _compact_semantic_review(semantic_review)
     return EvaluationResult(reward=float(result['reward']), done=True, content=f"{('PASS' if strict_pass else 'INCOMPLETE')} — {result['criteria_met']}/{result['criteria_total']} atomic criteria met; weighted reward={result['reward']:.3f}", info={'task_id': task_id, 'strict_pass': strict_pass, 'criteria_met': result['criteria_met'], 'criteria_total': result['criteria_total'], 'weight_earned': result.get('weight_earned'), 'weight_total': result.get('weight_total'), 'criteria': criteria, **criterion_transport, 'pass_definition': 'strict pass only when every binary criterion equals 1', 'reward_definition': result.get('reward_definition'), 'reward_schema_version': result.get('reward_schema_version'), 'raw_weighted_reward': result.get('raw_weighted_reward'), 'decision_accuracy_adjustment': result.get('decision_accuracy_adjustment'), 'applied_reward_caps': result.get('applied_reward_caps'), 'quality_gate_failures': result.get('quality_gate_failures'), 'hard_failures': result.get('hard_failures'), 'integrity': _compact_integrity(result.get('integrity')), 'semantic_review_result': semantic_review, 'grading_error': result.get('grading_error'), 'infrastructure_valid': result.get('infrastructure_valid', True)}, subscores=[], isError=bool(result.get('grading_error')))
 
 def persist_grade_sidecar(*, task_id: str, result: dict[str, Any], state_root: Path) -> None:

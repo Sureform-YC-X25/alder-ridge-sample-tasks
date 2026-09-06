@@ -4,7 +4,13 @@ from runtime.env import TASK_TEMPLATES
 from runtime.task_catalog import TASKS
 
 
-GRADING_REVISIONS = {'task_001': 'weighted-atomic-hybrid-v29-review-ready-controller-signoff', 'task_004': 'weighted-atomic-hybrid-v12-evidence-discovery-wip-review', 'task_015': 'weighted-atomic-hybrid-v16-objective-led-covenant-stress', 'task_027': 'weighted-atomic-hybrid-v13-stable-scenario-model', 'task_035': 'weighted-atomic-hybrid-v22-executable-backlog-capacity-decision', 'task_037': 'weighted-atomic-hybrid-v9-proportional-capital-portfolio', 'task_055': 'weighted-atomic-hybrid-v8-case-aware-accretion-sensitivity', 'task_061': 'weighted-atomic-hybrid-v7-disclosed-tax-close-inputs', 'task_068': 'weighted-atomic-hybrid-v17-accounting-mitigation-decision', 'task_072': 'weighted-atomic-hybrid-v6-management-narrative-equivalence', 'task_073': 'weighted-atomic-hybrid-v6-disclosed-pro-forma-debt-basis', 'task_100': 'weighted-atomic-hybrid-v8-local-board-card-association'}
+GRADING_REVISIONS = {
+    "task_001": "weighted-atomic-hybrid-v50-primary-field-and-semantic-coherence",
+    "task_004": "weighted-atomic-hybrid-v18-close-status-release-judgment",
+    "task_015": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
+    "task_035": "weighted-atomic-hybrid-v24-semantic-metric-association",
+    "task_068": "weighted-atomic-hybrid-v28-risk-basis-and-semantic-association",
+}
 
 tasks = []
 for spec in TASKS:

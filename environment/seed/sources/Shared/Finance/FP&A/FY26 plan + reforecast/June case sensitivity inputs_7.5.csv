@@ -1,0 +1,12 @@
+input_ref,review_date,scope,input_field,value_or_status,units,source_record,record_date
+FPNA-SENS-001,2026-07-05,Alder Ridge,Reference forecast case,Base,classification,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-002,2026-07-05,Alder Ridge,Revenue step-down from reviewed case,-0.01,decimal ratio,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-003,2026-07-05,Alder Ridge,Gross-margin overlay,-35.0,basis points,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-004,2026-07-05,Alder Ridge,Operating-expense flex on revenue movement,0.18,decimal ratio,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-005,2026-07-05,Alder Ridge,Cash realization on stressed earnings,0.62,decimal ratio,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-006,2026-07-05,Alder Ridge,Release buffer in approved EBITDA increments,1.0,count,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-007,2026-07-05,Alder Ridge,Risk population status,Active items through July 5 review,classification,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-008,2026-07-05,Alder Ridge,Risk capture basis,100% signed revenue exposure for active register,classification,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-009,2026-07-05,Alder Ridge,Recovery weighting basis,Finance probability-weighted dated operating support,classification,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-010,2026-07-05,Alder Ridge,Earnings basis,Reference-case margin with documented overlay,classification,Finance forecast sensitivity record,2026-07-05
+FPNA-SENS-011,2026-07-05,Alder Ridge,Cost basis,Reference-case operating expense with documented flex,classification,Finance forecast sensitivity record,2026-07-05

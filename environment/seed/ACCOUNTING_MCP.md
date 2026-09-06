@@ -26,7 +26,7 @@ Master data is available for customers, vendors, employees, projects, department
 | `get_trial_balance` | Posted account activity for an inclusive date range |
 | `get_profit_and_loss` | Posted P&L by month, department or account |
 | `get_balance_sheet` | Posted account balances as of a selected date |
-| `get_general_ledger` | Posted journal-line detail, filterable by account or project |
+| `get_general_ledger` | Posted journal-line detail, including stable journal and line IDs, filterable by account or project |
 | `list_accounts` | Chart of accounts, with account type and normal balance |
 | `get_audit_log` | MCP write history by document or transaction type |
 
@@ -37,7 +37,7 @@ The general-ledger endpoint is paginated at 100 lines per request. Summary repor
 | Tool | Returns |
 | --- | --- |
 | `get_project_summary` | Contract value, cost budget, cost to date and billings by job |
-| `get_job_cost_detail` | Project cost transactions through a selected as-of date |
+| `get_job_cost_detail` | Project cost transactions with stable entry IDs through a selected as-of date, optionally bounded by a start date |
 | `get_project_change_orders` | Change-order status and related revenue and cost-budget amounts |
 | `get_open_purchase_orders` | Remaining commitments on open and partially received POs |
 

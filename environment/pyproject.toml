@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "alder-ridge-sample-tasks"
-version = "1.1.1"
-description = "Twelve-task private sample of a long-horizon corporate-finance environment"
+version = "2.0.0"
+description = "Five-task private sample of a long-horizon corporate-finance environment"
 requires-python = ">=3.12,<3.13"
 dependencies = [
   "fastmcp==3.0.2",

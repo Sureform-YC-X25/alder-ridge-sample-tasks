@@ -1,28 +1,21 @@
 {
-  "accounting_seed_sha256": "069e82209b09cfa180c19f6168551f1adaf5c0a2233a0309d63b3aec43ab8501",
-  "canonical_source_commit": "659cdfd2178557fa72dc4312edc264ab66edd084",
+  "accounting_seed_sha256": "00ddfe914af7abb109a05f703623f43c241ac5f90d73e0f4f5e46d9459b76e7d",
+  "canonical_source_commit": "40a81a5f7ad921e17ac03ac633a076fb87b9e455",
   "complete_shared_company_world_included": true,
   "container_includes_complete_seed_world": true,
-  "non_sample_task_identifiers_found": [],
   "non_sample_task_seed_overlays_included": false,
   "other_task_definitions_included": false,
-  "schema_version": 1,
+  "schema_version": 2,
   "scope_verified": true,
   "selected_task_ids": [
     "task_001",
     "task_004",
     "task_015",
-    "task_027",
     "task_035",
-    "task_037",
-    "task_055",
-    "task_061",
-    "task_068",
-    "task_072",
-    "task_073",
-    "task_100"
+    "task_068"
   ],
-  "source_file_count": 132,
+  "snapshot": "2026-06-30-pre-close",
+  "source_file_count": 144,
   "source_files": [
     "Deliverables/ARM-2417 June close and PCO-017 review.docx",
     "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
@@ -39,18 +32,20 @@
     "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
     "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
     "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
-    "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+    "Requests/7.5.26_0618am - FY27 plan review follow-up.eml",
     "Requests/7.5.26_0642am - capital cases after committee review.eml",
     "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
     "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
     "Requests/7.5.26_0751am - tax review comments + close version.eml",
     "Requests/7.5.26_0812am - board review changes + source tie.eml",
+    "Shared/Finance/AP/Invoice Batches/2026/07/01/batch 20260701-02.pdf",
     "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
     "Shared/Finance/Close/2026/05 May/4_WIP/WIP 5.31.26_FINAL_v7_revised NB.xlsx",
     "Shared/Finance/Close/2026/06 June/1 close mgmt/June close tracker - working - upd 7.1 810am.xlsx",
     "Shared/Finance/Close/2026/06 June/1 close mgmt/READ ME - where we are 7.1 810am.txt",
     "Shared/Finance/Close/2026/06 June/2 reconciliations/AR roll + retainage 0630 KS.xlsx",
     "Shared/Finance/Close/2026/06 June/2 reconciliations/TB rec_6.30 prelim - NB v4.xlsx",
+    "Shared/Finance/Close/2026/06 June/2 reconciliations/Vista billing batch history through 7.5.csv",
     "Shared/Finance/Close/2026/06 June/2 reconciliations/bank recs 6.30 - MP working.xlsx",
     "Shared/Finance/Close/2026/06 June/3 accruals/AP cutoff + accrual list_7.1 OL.xlsx",
     "Shared/Finance/Close/2026/06 June/3 accruals/payroll accrual 6.30 - FINAL? v3.xlsx",
@@ -71,7 +66,9 @@
     "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
     "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx",
     "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+    "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 guidance cases_7.5.csv",
     "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
+    "Shared/Finance/FP&A/FY26 plan + reforecast/June case sensitivity inputs_7.5.csv",
     "Shared/Finance/FP&A/FY26 plan + reforecast/department reforecast inputs - June pull.xlsx",
     "Shared/Finance/FP&A/FY27 plan/FY27 EBITDA scenarios - WORKING.xlsx",
     "Shared/Finance/FP&A/FY27 plan/FY27 field workforce plan - WORKING.xlsx",
@@ -87,9 +84,13 @@
     "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
     "Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv",
     "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
+    "Shared/Finance/Investor Relations/Q2 working/FY26 published range record_6.18.csv",
     "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+    "Shared/Finance/Investor Relations/Q2 working/guidance interval settings_6.18.csv",
     "Shared/Finance/Reporting/2026/05 May/May Ops Review - 6.5 mtg - FINAL_v4.pptx",
     "Shared/Finance/Reporting/2026/05 May/notes from 6.5 ops mtg - dc.docx",
+    "Shared/Finance/Reporting/2026/06 June/FY26 outlook risk register_7.5.csv",
+    "Shared/Finance/Reporting/2026/06 June/Finance action review notes_7.5.csv",
     "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx",
     "Shared/Finance/Reporting/2026/06 June/June flash - CFO scratch v2 7.2.pptx",
     "Shared/Finance/Reporting/2026/06 June/June flash bridge - review copy 7.2.xlsx",
@@ -136,12 +137,16 @@
     "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
     "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
     "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
-    "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+    "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_commercial working_6.24.pdf",
     "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
     "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
     "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+    "Shared/Operations/Commercial/Contract Records/2026/07/02/scan batch 20260702-01.pdf",
+    "Shared/Operations/Commercial/Correspondence Archive/2026/06/30/sent 1706.eml",
     "Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx",
     "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+    "Shared/Operations/Planning exports/July owner support log_7.5.csv",
+    "Shared/Operations/Planning exports/Q2 operating evidence extract_7.5.csv",
     "Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx",
     "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
     "Shared/Operations/Project Reviews/weekly top jobs review - 6.29 PM copy.pptx",
@@ -157,5 +162,33 @@
     "Shared/Operations/Service/monthly KPI/service operating-review allocation economics - 7.7 DC.eml",
     "Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx"
   ],
-  "task_count": 12
+  "source_world_id": "alder-ridge-mechanical-v2",
+  "task_count": 5,
+  "tasks": {
+    "task_001": {
+      "grading_revision": "weighted-atomic-hybrid-v50-primary-field-and-semantic-coherence",
+      "prompt_sha256": "bdf9cce6c868c68cbe056457fc488ca91d8689388c1b9c44093e36214030c6b5",
+      "slug": "arm-2409-wip-backcharge"
+    },
+    "task_004": {
+      "grading_revision": "weighted-atomic-hybrid-v18-close-status-release-judgment",
+      "prompt_sha256": "a840cb78e51fcaab2076ac996e960c482188287c61194eefc2cbcf26a61bd223",
+      "slug": "complete-june-wip-risk-template"
+    },
+    "task_015": {
+      "grading_revision": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
+      "prompt_sha256": "d6e8667ff6981f8c67cec5ab8ec7acb560b924ee21e9e3b2328da19103e83d78",
+      "slug": "append-q2-covenant-slide"
+    },
+    "task_035": {
+      "grading_revision": "weighted-atomic-hybrid-v24-semantic-metric-association",
+      "prompt_sha256": "4e40f6100f92c1026099662397793453ec6b37ee7225393f8c7c1bcf5dee6cb6",
+      "slug": "complete-backlog-capacity-model"
+    },
+    "task_068": {
+      "grading_revision": "weighted-atomic-hybrid-v28-risk-basis-and-semantic-association",
+      "prompt_sha256": "c195103cee0a52c1dfd3a0fa84098d72b2725672c5067171c62cdf323fbf45ae",
+      "slug": "complete-executive-performance-deck"
+    }
+  }
 }

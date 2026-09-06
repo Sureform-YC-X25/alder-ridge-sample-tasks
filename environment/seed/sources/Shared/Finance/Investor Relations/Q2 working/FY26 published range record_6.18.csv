@@ -1,0 +1,7 @@
+range_ref,fiscal_period,range_field,value_or_status,units,approval_record,effective_date
+IR-RNG-001,FY26,Revenue low,52000000.0,USD,Board guidance approval record,2026-06-18
+IR-RNG-002,FY26,Revenue high,55000000.0,USD,Board guidance approval record,2026-06-18
+IR-RNG-003,FY26,Adjusted EBITDA low,3000000.0,USD,Board guidance approval record,2026-06-18
+IR-RNG-004,FY26,Adjusted EBITDA high,4250000.0,USD,Board guidance approval record,2026-06-18
+IR-RNG-005,FY26,Record status,Active,classification,Board guidance approval record,2026-06-18
+IR-RNG-006,FY26,Approval body,Board,classification,Board guidance approval record,2026-06-18

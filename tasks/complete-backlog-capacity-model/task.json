@@ -4,11 +4,17 @@
     "path": "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx",
     "type": "xlsx"
   },
-  "canonical_source_commit": "659cdfd2178557fa72dc4312edc264ab66edd084",
+  "canonical_source_commit": "40a81a5f7ad921e17ac03ac633a076fb87b9e455",
   "difficulty": "expert-long-horizon",
-  "grading_revision": "weighted-atomic-hybrid-v22-executable-backlog-capacity-decision",
+  "grading_contract": {
+    "basis": "a concise business objective and neutral working model require source-version reconciliation, unit-aware signed-backlog and capacity analysis, priority-based execution, contract and earnings consequences, and a management recommendation without announcing the hidden difficulty; exact magnitudes, date/project facts, and formula results retain deterministic hard gates while every editable metric, period, scenario, sign, label, and decision association receives criterion-scoped semantic review, so finite aliases cannot reject correct professional wording or rescue a right value attached to the wrong business fact; hidden tie-breaks are eliminated and all sections score proportionally without reward caps",
+    "effective_date": "2026-09-04",
+    "id": "task-035-authentic-backlog-capacity-decision-v13"
+  },
+  "grading_revision": "weighted-atomic-hybrid-v24-semantic-metric-association",
   "output_mode": "spreadsheet_edit",
-  "prompt": "Finish the FY27 backlog burn and labor-capacity model at\n`Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx` for the next planning review.\n\nReconcile the current planning sources, distinguish the approved probability plan from the full signed-commitment exposure, and determine what can actually be delivered under the approved labor and response constraints. Translate any constraint into the earnings, contractual, sequencing, and recovery decision management must make. Keep the model formula-driven, auditable, and internally consistent with the approved definitions and authority evidence.\n\nPreserve the three input schedules, recalculate the workbook, and save it in place. Leave no spreadsheet errors or temporary files in the shared workspace.",
+  "prompt": "Please finalize the FY27 backlog burn and labor-capacity model at\n`Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx` for the next planning review.\n\nUse the available planning, backlog, labor, and contract records to produce a formula-driven, auditable delivery outlook and management recommendation. Reconcile the schedules, quantify the financial exposure, and apply the approved definitions and authority evidence consistently.\n\nPreserve the three input schedules, recalculate the workbook, and save it in place. Leave no spreadsheet errors or temporary files in the shared workspace.",
+  "prompt_sha256": "4e40f6100f92c1026099662397793453ec6b37ee7225393f8c7c1bcf5dee6cb6",
   "slug": "complete-backlog-capacity-model",
   "task_id": "task_035",
   "title": "Complete the backlog burn and capacity model",

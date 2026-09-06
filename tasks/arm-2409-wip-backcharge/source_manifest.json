@@ -3,8 +3,9 @@
   "independent_fact_groups": [
     "posted project balances",
     "prior close bridge",
-    "PM ETC",
-    "commercial status",
+    "PM ETC and source-backed incurred-versus-remaining-cost overlap",
+    "commercial working status plus separately filed contract record, billed-work credit memorandum, routing evidence, and Commercial Records receipt available by the July 2 evidence cutoff",
+    "operative-condition timing and current-cost-versus-remaining-cost classification of the conditional subcontract adjustment",
     "policy treatment",
     "complete June posting population and offset control",
     "evidence gaps, accountable owners, and close-release boundary"
@@ -14,7 +15,11 @@
     "Shared/Finance/Close/2026/05 May/4_WIP/WIP 5.31.26_FINAL_v7_revised NB.xlsx",
     "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
     "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
-    "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+    "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_commercial working_6.24.pdf",
+    "Shared/Operations/Commercial/Contract Records/2026/07/02/scan batch 20260702-01.pdf",
+    "Shared/Operations/Commercial/Correspondence Archive/2026/06/30/sent 1706.eml",
+    "Shared/Finance/Close/2026/06 June/3 accruals/AP cutoff + accrual list_7.1 OL.xlsx",
+    "Shared/Finance/AP/Invoice Batches/2026/07/01/batch 20260701-02.pdf",
     "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
   ],
   "shared_world_navigation": true,

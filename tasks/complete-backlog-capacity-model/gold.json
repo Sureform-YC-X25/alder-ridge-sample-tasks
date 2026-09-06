@@ -1,220 +1,220 @@
 {
   "answer": {
-    "2026_07_available_hours": 38520,
-    "2026_07_base_capacity_shortfall": 0,
+    "2026_07_available_hours": 38520.0,
+    "2026_07_base_capacity_shortfall": 0.0,
     "2026_07_capacity_gap_hours": -37607.35,
     "2026_07_capacity_release_status": "Capacity cleared",
-    "2026_07_contingent_subcontract_capacity": 2500,
-    "2026_07_contingent_subcontract_deployed": 0,
-    "2026_07_emergency_overtime_capacity": 1260,
-    "2026_07_emergency_overtime_deployed": 0,
-    "2026_07_incremental_remediation_cost": 0,
-    "2026_07_permitted_overtime_hours": 2520,
-    "2026_07_productive_internal_hours": 31500,
-    "2026_07_remediated_available_hours": 38520,
+    "2026_07_contingent_subcontract_capacity": 2500.0,
+    "2026_07_contingent_subcontract_deployed": 0.0,
+    "2026_07_emergency_overtime_capacity": 1260.0,
+    "2026_07_emergency_overtime_deployed": 0.0,
+    "2026_07_incremental_remediation_cost": 0.0,
+    "2026_07_permitted_overtime_hours": 2520.0,
+    "2026_07_productive_internal_hours": 31500.0,
+    "2026_07_remediated_available_hours": 38520.0,
     "2026_07_required_hours": 912.65,
     "2026_07_revenue_burn": 107692.31,
-    "2026_07_shortfall_after_emergency_overtime": 0,
-    "2026_07_subcontractable_hours": 4500,
-    "2026_07_unresolved_capacity_shortfall": 0,
+    "2026_07_shortfall_after_emergency_overtime": 0.0,
+    "2026_07_subcontractable_hours": 4500.0,
+    "2026_07_unresolved_capacity_shortfall": 0.0,
     "2026_08_available_hours": 38822.4,
-    "2026_08_base_capacity_shortfall": 0,
+    "2026_08_base_capacity_shortfall": 0.0,
     "2026_08_capacity_gap_hours": -36208.87,
     "2026_08_capacity_release_status": "Capacity cleared",
-    "2026_08_contingent_subcontract_capacity": 2500,
-    "2026_08_contingent_subcontract_deployed": 0,
+    "2026_08_contingent_subcontract_capacity": 2500.0,
+    "2026_08_contingent_subcontract_deployed": 0.0,
     "2026_08_emergency_overtime_capacity": 1271.2,
-    "2026_08_emergency_overtime_deployed": 0,
-    "2026_08_incremental_remediation_cost": 0,
+    "2026_08_emergency_overtime_deployed": 0.0,
+    "2026_08_incremental_remediation_cost": 0.0,
     "2026_08_permitted_overtime_hours": 2542.4,
-    "2026_08_productive_internal_hours": 31780,
+    "2026_08_productive_internal_hours": 31780.0,
     "2026_08_remediated_available_hours": 38822.4,
     "2026_08_required_hours": 2613.53,
     "2026_08_revenue_burn": 314702.8,
-    "2026_08_shortfall_after_emergency_overtime": 0,
-    "2026_08_subcontractable_hours": 4500,
-    "2026_08_unresolved_capacity_shortfall": 0,
+    "2026_08_shortfall_after_emergency_overtime": 0.0,
+    "2026_08_subcontractable_hours": 4500.0,
+    "2026_08_unresolved_capacity_shortfall": 0.0,
     "2026_09_available_hours": 39124.8,
-    "2026_09_base_capacity_shortfall": 0,
+    "2026_09_base_capacity_shortfall": 0.0,
     "2026_09_capacity_gap_hours": -34810.38,
     "2026_09_capacity_release_status": "Capacity cleared",
-    "2026_09_contingent_subcontract_capacity": 2500,
-    "2026_09_contingent_subcontract_deployed": 0,
+    "2026_09_contingent_subcontract_capacity": 2500.0,
+    "2026_09_contingent_subcontract_deployed": 0.0,
     "2026_09_emergency_overtime_capacity": 1282.4,
-    "2026_09_emergency_overtime_deployed": 0,
-    "2026_09_incremental_remediation_cost": 0,
+    "2026_09_emergency_overtime_deployed": 0.0,
+    "2026_09_incremental_remediation_cost": 0.0,
     "2026_09_permitted_overtime_hours": 2564.8,
-    "2026_09_productive_internal_hours": 32060,
+    "2026_09_productive_internal_hours": 32060.0,
     "2026_09_remediated_available_hours": 39124.8,
     "2026_09_required_hours": 4314.42,
     "2026_09_revenue_burn": 521713.29,
-    "2026_09_shortfall_after_emergency_overtime": 0,
-    "2026_09_subcontractable_hours": 4500,
-    "2026_09_unresolved_capacity_shortfall": 0,
+    "2026_09_shortfall_after_emergency_overtime": 0.0,
+    "2026_09_subcontractable_hours": 4500.0,
+    "2026_09_unresolved_capacity_shortfall": 0.0,
     "2026_10_available_hours": 39427.2,
-    "2026_10_base_capacity_shortfall": 0,
+    "2026_10_base_capacity_shortfall": 0.0,
     "2026_10_capacity_gap_hours": -32469.13,
     "2026_10_capacity_release_status": "Capacity cleared",
-    "2026_10_contingent_subcontract_capacity": 2500,
-    "2026_10_contingent_subcontract_deployed": 0,
+    "2026_10_contingent_subcontract_capacity": 2500.0,
+    "2026_10_contingent_subcontract_deployed": 0.0,
     "2026_10_emergency_overtime_capacity": 1293.6,
-    "2026_10_emergency_overtime_deployed": 0,
-    "2026_10_incremental_remediation_cost": 0,
+    "2026_10_emergency_overtime_deployed": 0.0,
+    "2026_10_incremental_remediation_cost": 0.0,
     "2026_10_permitted_overtime_hours": 2587.2,
-    "2026_10_productive_internal_hours": 32340,
+    "2026_10_productive_internal_hours": 32340.0,
     "2026_10_remediated_available_hours": 39427.2,
     "2026_10_required_hours": 6958.07,
     "2026_10_revenue_burn": 853168.22,
-    "2026_10_shortfall_after_emergency_overtime": 0,
-    "2026_10_subcontractable_hours": 4500,
-    "2026_10_unresolved_capacity_shortfall": 0,
+    "2026_10_shortfall_after_emergency_overtime": 0.0,
+    "2026_10_subcontractable_hours": 4500.0,
+    "2026_10_unresolved_capacity_shortfall": 0.0,
     "2026_11_available_hours": 39729.6,
-    "2026_11_base_capacity_shortfall": 0,
+    "2026_11_base_capacity_shortfall": 0.0,
     "2026_11_capacity_gap_hours": -30127.89,
     "2026_11_capacity_release_status": "Capacity cleared",
-    "2026_11_contingent_subcontract_capacity": 2500,
-    "2026_11_contingent_subcontract_deployed": 0,
+    "2026_11_contingent_subcontract_capacity": 2500.0,
+    "2026_11_contingent_subcontract_deployed": 0.0,
     "2026_11_emergency_overtime_capacity": 1304.8,
-    "2026_11_emergency_overtime_deployed": 0,
-    "2026_11_incremental_remediation_cost": 0,
+    "2026_11_emergency_overtime_deployed": 0.0,
+    "2026_11_incremental_remediation_cost": 0.0,
     "2026_11_permitted_overtime_hours": 2609.6,
-    "2026_11_productive_internal_hours": 32620,
+    "2026_11_productive_internal_hours": 32620.0,
     "2026_11_remediated_available_hours": 39729.6,
     "2026_11_required_hours": 9601.71,
     "2026_11_revenue_burn": 1184623.15,
-    "2026_11_shortfall_after_emergency_overtime": 0,
-    "2026_11_subcontractable_hours": 4500,
-    "2026_11_unresolved_capacity_shortfall": 0,
-    "2026_12_available_hours": 37008,
-    "2026_12_base_capacity_shortfall": 0,
-    "2026_12_capacity_gap_hours": -23561,
+    "2026_11_shortfall_after_emergency_overtime": 0.0,
+    "2026_11_subcontractable_hours": 4500.0,
+    "2026_11_unresolved_capacity_shortfall": 0.0,
+    "2026_12_available_hours": 37008.0,
+    "2026_12_base_capacity_shortfall": 0.0,
+    "2026_12_capacity_gap_hours": -23561.0,
     "2026_12_capacity_release_status": "Capacity cleared",
-    "2026_12_contingent_subcontract_capacity": 2500,
-    "2026_12_contingent_subcontract_deployed": 0,
-    "2026_12_emergency_overtime_capacity": 1204,
-    "2026_12_emergency_overtime_deployed": 0,
-    "2026_12_incremental_remediation_cost": 0,
-    "2026_12_permitted_overtime_hours": 2408,
-    "2026_12_productive_internal_hours": 30100,
-    "2026_12_remediated_available_hours": 37008,
-    "2026_12_required_hours": 13447,
+    "2026_12_contingent_subcontract_capacity": 2500.0,
+    "2026_12_contingent_subcontract_deployed": 0.0,
+    "2026_12_emergency_overtime_capacity": 1204.0,
+    "2026_12_emergency_overtime_deployed": 0.0,
+    "2026_12_incremental_remediation_cost": 0.0,
+    "2026_12_permitted_overtime_hours": 2408.0,
+    "2026_12_productive_internal_hours": 30100.0,
+    "2026_12_remediated_available_hours": 37008.0,
+    "2026_12_required_hours": 13447.0,
     "2026_12_revenue_burn": 1660274.52,
-    "2026_12_shortfall_after_emergency_overtime": 0,
-    "2026_12_subcontractable_hours": 4500,
-    "2026_12_unresolved_capacity_shortfall": 0,
+    "2026_12_shortfall_after_emergency_overtime": 0.0,
+    "2026_12_subcontractable_hours": 4500.0,
+    "2026_12_unresolved_capacity_shortfall": 0.0,
     "2027_01_available_hours": 37310.4,
-    "2027_01_base_capacity_shortfall": 0,
+    "2027_01_base_capacity_shortfall": 0.0,
     "2027_01_capacity_gap_hours": -17782.09,
     "2027_01_capacity_release_status": "Capacity cleared",
-    "2027_01_contingent_subcontract_capacity": 2500,
-    "2027_01_contingent_subcontract_deployed": 0,
+    "2027_01_contingent_subcontract_capacity": 2500.0,
+    "2027_01_contingent_subcontract_deployed": 0.0,
     "2027_01_emergency_overtime_capacity": 1215.2,
-    "2027_01_emergency_overtime_deployed": 0,
-    "2027_01_incremental_remediation_cost": 0,
+    "2027_01_emergency_overtime_deployed": 0.0,
+    "2027_01_incremental_remediation_cost": 0.0,
     "2027_01_permitted_overtime_hours": 2430.4,
-    "2027_01_productive_internal_hours": 30380,
+    "2027_01_productive_internal_hours": 30380.0,
     "2027_01_remediated_available_hours": 37310.4,
     "2027_01_required_hours": 19528.31,
     "2027_01_revenue_burn": 2444497.31,
-    "2027_01_shortfall_after_emergency_overtime": 0,
-    "2027_01_subcontractable_hours": 4500,
-    "2027_01_unresolved_capacity_shortfall": 0,
+    "2027_01_shortfall_after_emergency_overtime": 0.0,
+    "2027_01_subcontractable_hours": 4500.0,
+    "2027_01_unresolved_capacity_shortfall": 0.0,
     "2027_02_available_hours": 39336.8,
-    "2027_02_base_capacity_shortfall": 0,
+    "2027_02_base_capacity_shortfall": 0.0,
     "2027_02_capacity_gap_hours": -11647.18,
     "2027_02_capacity_release_status": "Capacity cleared",
-    "2027_02_contingent_subcontract_capacity": 4000,
-    "2027_02_contingent_subcontract_deployed": 0,
+    "2027_02_contingent_subcontract_capacity": 4000.0,
+    "2027_02_contingent_subcontract_deployed": 0.0,
     "2027_02_emergency_overtime_capacity": 1338.4,
-    "2027_02_emergency_overtime_deployed": 0,
-    "2027_02_incremental_remediation_cost": 0,
+    "2027_02_emergency_overtime_deployed": 0.0,
+    "2027_02_incremental_remediation_cost": 0.0,
     "2027_02_permitted_overtime_hours": 2676.8,
-    "2027_02_productive_internal_hours": 33460,
+    "2027_02_productive_internal_hours": 33460.0,
     "2027_02_remediated_available_hours": 39336.8,
     "2027_02_required_hours": 27689.62,
     "2027_02_revenue_burn": 3488720.1,
-    "2027_02_shortfall_after_emergency_overtime": 0,
-    "2027_02_subcontractable_hours": 3200,
-    "2027_02_unresolved_capacity_shortfall": 0,
-    "2027_03_available_hours": 38627,
+    "2027_02_shortfall_after_emergency_overtime": 0.0,
+    "2027_02_subcontractable_hours": 3200.0,
+    "2027_02_unresolved_capacity_shortfall": 0.0,
+    "2027_03_available_hours": 38627.0,
     "2027_03_base_capacity_shortfall": 37.72,
     "2027_03_capacity_gap_hours": 37.72,
     "2027_03_capacity_release_status": "Capacity cleared",
-    "2027_03_contingent_subcontract_capacity": 4000,
-    "2027_03_contingent_subcontract_deployed": 0,
+    "2027_03_contingent_subcontract_capacity": 4000.0,
+    "2027_03_contingent_subcontract_deployed": 0.0,
     "2027_03_emergency_overtime_capacity": 1349.6,
     "2027_03_emergency_overtime_deployed": 37.72,
     "2027_03_incremental_remediation_cost": 1602.99,
-    "2027_03_permitted_overtime_hours": 1687,
-    "2027_03_productive_internal_hours": 33740,
+    "2027_03_permitted_overtime_hours": 1687.0,
+    "2027_03_productive_internal_hours": 33740.0,
     "2027_03_remediated_available_hours": 38664.72,
     "2027_03_required_hours": 38664.72,
     "2027_03_revenue_burn": 4940942.89,
-    "2027_03_shortfall_after_emergency_overtime": 0,
-    "2027_03_subcontractable_hours": 3200,
-    "2027_03_unresolved_capacity_shortfall": 0,
-    "2027_04_available_hours": 38921,
+    "2027_03_shortfall_after_emergency_overtime": 0.0,
+    "2027_03_subcontractable_hours": 3200.0,
+    "2027_03_unresolved_capacity_shortfall": 0.0,
+    "2027_04_available_hours": 38921.0,
     "2027_04_base_capacity_shortfall": 14372.67,
     "2027_04_capacity_gap_hours": 14372.67,
     "2027_04_capacity_release_status": "Executive sequencing required",
-    "2027_04_contingent_subcontract_capacity": 4000,
-    "2027_04_contingent_subcontract_deployed": 4000,
+    "2027_04_contingent_subcontract_capacity": 4000.0,
+    "2027_04_contingent_subcontract_deployed": 4000.0,
     "2027_04_emergency_overtime_capacity": 1360.8,
     "2027_04_emergency_overtime_deployed": 1360.8,
-    "2027_04_incremental_remediation_cost": 557834,
-    "2027_04_permitted_overtime_hours": 1701,
-    "2027_04_productive_internal_hours": 34020,
+    "2027_04_incremental_remediation_cost": 557834.0,
+    "2027_04_permitted_overtime_hours": 1701.0,
+    "2027_04_productive_internal_hours": 34020.0,
     "2027_04_remediated_available_hours": 44281.8,
     "2027_04_required_hours": 53293.67,
     "2027_04_revenue_burn": 6868165.68,
     "2027_04_shortfall_after_emergency_overtime": 13011.87,
-    "2027_04_subcontractable_hours": 3200,
+    "2027_04_subcontractable_hours": 3200.0,
     "2027_04_unresolved_capacity_shortfall": 9011.87,
-    "2027_05_available_hours": 40244,
+    "2027_05_available_hours": 40244.0,
     "2027_05_base_capacity_shortfall": 27678.61,
     "2027_05_capacity_gap_hours": 27678.61,
     "2027_05_capacity_release_status": "Executive sequencing required",
-    "2027_05_contingent_subcontract_capacity": 4000,
-    "2027_05_contingent_subcontract_deployed": 4000,
-    "2027_05_emergency_overtime_capacity": 1372,
-    "2027_05_emergency_overtime_deployed": 1372,
-    "2027_05_incremental_remediation_cost": 558310,
-    "2027_05_permitted_overtime_hours": 2744,
-    "2027_05_productive_internal_hours": 34300,
-    "2027_05_remediated_available_hours": 45616,
+    "2027_05_contingent_subcontract_capacity": 4000.0,
+    "2027_05_contingent_subcontract_deployed": 4000.0,
+    "2027_05_emergency_overtime_capacity": 1372.0,
+    "2027_05_emergency_overtime_deployed": 1372.0,
+    "2027_05_incremental_remediation_cost": 558310.0,
+    "2027_05_permitted_overtime_hours": 2744.0,
+    "2027_05_productive_internal_hours": 34300.0,
+    "2027_05_remediated_available_hours": 45616.0,
     "2027_05_required_hours": 67922.61,
     "2027_05_revenue_burn": 8795388.47,
     "2027_05_shortfall_after_emergency_overtime": 26306.61,
-    "2027_05_subcontractable_hours": 3200,
+    "2027_05_subcontractable_hours": 3200.0,
     "2027_05_unresolved_capacity_shortfall": 22306.61,
     "2027_06_available_hours": 40546.4,
     "2027_06_base_capacity_shortfall": 42005.16,
     "2027_06_capacity_gap_hours": 42005.16,
     "2027_06_capacity_release_status": "Executive sequencing required",
-    "2027_06_contingent_subcontract_capacity": 4000,
-    "2027_06_contingent_subcontract_deployed": 4000,
+    "2027_06_contingent_subcontract_capacity": 4000.0,
+    "2027_06_contingent_subcontract_deployed": 4000.0,
     "2027_06_emergency_overtime_capacity": 1383.2,
     "2027_06_emergency_overtime_deployed": 1383.2,
-    "2027_06_incremental_remediation_cost": 558786,
+    "2027_06_incremental_remediation_cost": 558786.0,
     "2027_06_permitted_overtime_hours": 2766.4,
-    "2027_06_productive_internal_hours": 34580,
+    "2027_06_productive_internal_hours": 34580.0,
     "2027_06_remediated_available_hours": 45929.6,
     "2027_06_required_hours": 82551.56,
     "2027_06_revenue_burn": 10722611.26,
     "2027_06_shortfall_after_emergency_overtime": 40621.96,
-    "2027_06_subcontractable_hours": 3200,
+    "2027_06_subcontractable_hours": 3200.0,
     "2027_06_unresolved_capacity_shortfall": 36621.96,
-    "constrained_month_count": 4,
+    "constrained_month_count": 4.0,
     "controlling_capacity_case": "Gross commitment",
-    "execution_2026_07_available_hours": 42280,
+    "execution_2026_07_available_hours": 42280.0,
     "execution_2026_07_capacity_utilization": 0.02158578,
     "execution_2026_07_completed_gross_profit": 25846.15,
     "execution_2026_07_completed_hours": 912.65,
     "execution_2026_07_completed_revenue": 107692.31,
     "execution_2026_07_due_hours": 912.65,
-    "execution_2026_07_ending_deferred_hours": 0,
-    "execution_2026_07_ending_deferred_revenue": 0,
-    "execution_2026_07_liquidated_damages": 0,
+    "execution_2026_07_ending_deferred_hours": 0.0,
+    "execution_2026_07_ending_deferred_revenue": 0.0,
+    "execution_2026_07_liquidated_damages": 0.0,
     "execution_2026_07_release_status": "Capacity cleared",
     "execution_2026_08_available_hours": 42593.6,
     "execution_2026_08_capacity_utilization": 0.06233376,
@@ -222,9 +222,9 @@
     "execution_2026_08_completed_hours": 2655.02,
     "execution_2026_08_completed_revenue": 319930.07,
     "execution_2026_08_due_hours": 2655.02,
-    "execution_2026_08_ending_deferred_hours": 0,
-    "execution_2026_08_ending_deferred_revenue": 0,
-    "execution_2026_08_liquidated_damages": 0,
+    "execution_2026_08_ending_deferred_hours": 0.0,
+    "execution_2026_08_ending_deferred_revenue": 0.0,
+    "execution_2026_08_liquidated_damages": 0.0,
     "execution_2026_08_release_status": "Capacity cleared",
     "execution_2026_09_available_hours": 42907.2,
     "execution_2026_09_capacity_utilization": 0.1024861,
@@ -232,9 +232,9 @@
     "execution_2026_09_completed_hours": 4397.39,
     "execution_2026_09_completed_revenue": 532167.83,
     "execution_2026_09_due_hours": 4397.39,
-    "execution_2026_09_ending_deferred_hours": 0,
-    "execution_2026_09_ending_deferred_revenue": 0,
-    "execution_2026_09_liquidated_damages": 0,
+    "execution_2026_09_ending_deferred_hours": 0.0,
+    "execution_2026_09_ending_deferred_revenue": 0.0,
+    "execution_2026_09_liquidated_damages": 0.0,
     "execution_2026_09_release_status": "Capacity cleared",
     "execution_2026_10_available_hours": 43220.8,
     "execution_2026_10_capacity_utilization": 0.16386844,
@@ -242,9 +242,9 @@
     "execution_2026_10_completed_hours": 7082.53,
     "execution_2026_10_completed_revenue": 868850.04,
     "execution_2026_10_due_hours": 7082.53,
-    "execution_2026_10_ending_deferred_hours": 0,
-    "execution_2026_10_ending_deferred_revenue": 0,
-    "execution_2026_10_liquidated_damages": 0,
+    "execution_2026_10_ending_deferred_hours": 0.0,
+    "execution_2026_10_ending_deferred_revenue": 0.0,
+    "execution_2026_10_liquidated_damages": 0.0,
     "execution_2026_10_release_status": "Capacity cleared",
     "execution_2026_11_available_hours": 43534.4,
     "execution_2026_11_capacity_utilization": 0.22436645,
@@ -252,19 +252,19 @@
     "execution_2026_11_completed_hours": 9767.66,
     "execution_2026_11_completed_revenue": 1205532.25,
     "execution_2026_11_due_hours": 9767.66,
-    "execution_2026_11_ending_deferred_hours": 0,
-    "execution_2026_11_ending_deferred_revenue": 0,
-    "execution_2026_11_liquidated_damages": 0,
+    "execution_2026_11_ending_deferred_hours": 0.0,
+    "execution_2026_11_ending_deferred_revenue": 0.0,
+    "execution_2026_11_liquidated_damages": 0.0,
     "execution_2026_11_release_status": "Capacity cleared",
-    "execution_2026_12_available_hours": 40712,
+    "execution_2026_12_available_hours": 40712.0,
     "execution_2026_12_capacity_utilization": 0.34059939,
     "execution_2026_12_completed_gross_profit": 404805.49,
     "execution_2026_12_completed_hours": 13866.48,
     "execution_2026_12_completed_revenue": 1711857.31,
     "execution_2026_12_due_hours": 13866.48,
-    "execution_2026_12_ending_deferred_hours": 0,
-    "execution_2026_12_ending_deferred_revenue": 0,
-    "execution_2026_12_liquidated_damages": 0,
+    "execution_2026_12_ending_deferred_hours": 0.0,
+    "execution_2026_12_ending_deferred_revenue": 0.0,
+    "execution_2026_12_liquidated_damages": 0.0,
     "execution_2026_12_release_status": "Capacity cleared",
     "execution_2027_01_available_hours": 41025.6,
     "execution_2027_01_capacity_utilization": 0.49846385,
@@ -272,9 +272,9 @@
     "execution_2027_01_completed_hours": 20449.78,
     "execution_2027_01_completed_revenue": 2561039.52,
     "execution_2027_01_due_hours": 20449.78,
-    "execution_2027_01_ending_deferred_hours": 0,
-    "execution_2027_01_ending_deferred_revenue": 0,
-    "execution_2027_01_liquidated_damages": 0,
+    "execution_2027_01_ending_deferred_hours": 0.0,
+    "execution_2027_01_ending_deferred_revenue": 0.0,
+    "execution_2027_01_liquidated_damages": 0.0,
     "execution_2027_01_release_status": "Capacity cleared",
     "execution_2027_02_available_hours": 44675.2,
     "execution_2027_02_capacity_utilization": 0.65166075,
@@ -282,9 +282,9 @@
     "execution_2027_02_completed_hours": 29113.07,
     "execution_2027_02_completed_revenue": 3670221.72,
     "execution_2027_02_due_hours": 29113.07,
-    "execution_2027_02_ending_deferred_hours": 0,
-    "execution_2027_02_ending_deferred_revenue": 0,
-    "execution_2027_02_liquidated_damages": 0,
+    "execution_2027_02_ending_deferred_hours": 0.0,
+    "execution_2027_02_ending_deferred_revenue": 0.0,
+    "execution_2027_02_liquidated_damages": 0.0,
     "execution_2027_02_release_status": "Capacity cleared",
     "execution_2027_03_available_hours": 43976.6,
     "execution_2027_03_capacity_utilization": 0.93899055,
@@ -292,24 +292,24 @@
     "execution_2027_03_completed_hours": 41293.61,
     "execution_2027_03_completed_revenue": 5289403.93,
     "execution_2027_03_due_hours": 41293.61,
-    "execution_2027_03_ending_deferred_hours": 0,
-    "execution_2027_03_ending_deferred_revenue": 0,
-    "execution_2027_03_liquidated_damages": 0,
+    "execution_2027_03_ending_deferred_hours": 0.0,
+    "execution_2027_03_ending_deferred_revenue": 0.0,
+    "execution_2027_03_liquidated_damages": 0.0,
     "execution_2027_03_release_status": "Capacity cleared",
     "execution_2027_04_available_hours": 44281.8,
-    "execution_2027_04_capacity_utilization": 1,
+    "execution_2027_04_capacity_utilization": 1.0,
     "execution_2027_04_completed_gross_profit": 1438105.16,
     "execution_2027_04_completed_hours": 44281.8,
     "execution_2027_04_completed_revenue": 5774304.24,
-    "execution_2027_04_due_hours": 57128,
+    "execution_2027_04_due_hours": 57128.0,
     "execution_2027_04_ending_deferred_hours": 12846.2,
     "execution_2027_04_ending_deferred_revenue": 1609281.9,
-    "execution_2027_04_liquidated_damages": 0,
+    "execution_2027_04_liquidated_damages": 0.0,
     "execution_2027_04_release_status": "Portfolio resequencing required",
-    "execution_2027_05_available_hours": 45616,
-    "execution_2027_05_capacity_utilization": 1,
+    "execution_2027_05_available_hours": 45616.0,
+    "execution_2027_05_capacity_utilization": 1.0,
     "execution_2027_05_completed_gross_profit": 1519282.46,
-    "execution_2027_05_completed_hours": 45616,
+    "execution_2027_05_completed_hours": 45616.0,
     "execution_2027_05_completed_revenue": 6000612.37,
     "execution_2027_05_due_hours": 85808.57,
     "execution_2027_05_ending_deferred_hours": 40192.57,
@@ -317,7 +317,7 @@
     "execution_2027_05_liquidated_damages": 19552.82,
     "execution_2027_05_release_status": "Portfolio resequencing required",
     "execution_2027_06_available_hours": 45929.6,
-    "execution_2027_06_capacity_utilization": 1,
+    "execution_2027_06_capacity_utilization": 1.0,
     "execution_2027_06_completed_gross_profit": 1483247.87,
     "execution_2027_06_completed_hours": 45929.6,
     "execution_2027_06_completed_revenue": 5976030.92,
@@ -326,102 +326,102 @@
     "execution_2027_06_ending_deferred_revenue": 10682357.5,
     "execution_2027_06_liquidated_damages": 60673.68,
     "execution_2027_06_release_status": "Portfolio resequencing required",
-    "execution_p_3101_completed_gross_profit": 2016000,
+    "execution_p_3101_completed_gross_profit": 2016000.0,
     "execution_p_3101_completed_hours": 71186.44,
-    "execution_p_3101_completed_revenue": 8400000,
+    "execution_p_3101_completed_revenue": 8400000.0,
     "execution_p_3101_contract_gross_margin": 0.24,
-    "execution_p_3101_customer_delivery_priority": 1,
-    "execution_p_3101_ending_deferred_hours": 0,
-    "execution_p_3101_ending_deferred_revenue": 0,
-    "execution_p_3101_liquidated_damages": 0,
+    "execution_p_3101_customer_delivery_priority": 2,
+    "execution_p_3101_ending_deferred_hours": 0.0,
+    "execution_p_3101_ending_deferred_revenue": 0.0,
+    "execution_p_3101_liquidated_damages": 0.0,
     "execution_p_3101_monthly_liquidated_damages_rate": 0.006,
-    "execution_p_3101_net_gross_profit_after_damages": 2016000,
+    "execution_p_3101_net_gross_profit_after_damages": 2016000.0,
     "execution_p_3101_release_status": "Capacity cleared",
-    "execution_p_3101_signed_backlog": 8400000,
-    "execution_p_3107_completed_gross_profit": 1518000,
+    "execution_p_3101_signed_backlog": 8400000.0,
+    "execution_p_3107_completed_gross_profit": 1518000.0,
     "execution_p_3107_completed_hours": 54761.9,
-    "execution_p_3107_completed_revenue": 6900000,
+    "execution_p_3107_completed_revenue": 6900000.0,
     "execution_p_3107_contract_gross_margin": 0.22,
-    "execution_p_3107_customer_delivery_priority": 2,
-    "execution_p_3107_ending_deferred_hours": 0,
-    "execution_p_3107_ending_deferred_revenue": 0,
-    "execution_p_3107_liquidated_damages": 0,
+    "execution_p_3107_customer_delivery_priority": 4,
+    "execution_p_3107_ending_deferred_hours": 0.0,
+    "execution_p_3107_ending_deferred_revenue": 0.0,
+    "execution_p_3107_liquidated_damages": 0.0,
     "execution_p_3107_monthly_liquidated_damages_rate": 0.008,
-    "execution_p_3107_net_gross_profit_after_damages": 1518000,
+    "execution_p_3107_net_gross_profit_after_damages": 1518000.0,
     "execution_p_3107_release_status": "Capacity cleared",
-    "execution_p_3107_signed_backlog": 6900000,
-    "execution_p_3114_completed_gross_profit": 1512000,
+    "execution_p_3107_signed_backlog": 6900000.0,
+    "execution_p_3114_completed_gross_profit": 1512000.0,
     "execution_p_3114_completed_hours": 42424.24,
-    "execution_p_3114_completed_revenue": 5600000,
+    "execution_p_3114_completed_revenue": 5600000.0,
     "execution_p_3114_contract_gross_margin": 0.27,
     "execution_p_3114_customer_delivery_priority": 1,
-    "execution_p_3114_ending_deferred_hours": 0,
-    "execution_p_3114_ending_deferred_revenue": 0,
-    "execution_p_3114_liquidated_damages": 0,
+    "execution_p_3114_ending_deferred_hours": 0.0,
+    "execution_p_3114_ending_deferred_revenue": 0.0,
+    "execution_p_3114_liquidated_damages": 0.0,
     "execution_p_3114_monthly_liquidated_damages_rate": 0.007,
-    "execution_p_3114_net_gross_profit_after_damages": 1512000,
+    "execution_p_3114_net_gross_profit_after_damages": 1512000.0,
     "execution_p_3114_release_status": "Capacity cleared",
-    "execution_p_3114_signed_backlog": 5600000,
+    "execution_p_3114_signed_backlog": 5600000.0,
     "execution_p_3122_completed_gross_profit": 438072.19,
     "execution_p_3122_completed_hours": 18253.01,
     "execution_p_3122_completed_revenue": 2190360.96,
     "execution_p_3122_contract_gross_margin": 0.2,
-    "execution_p_3122_customer_delivery_priority": 3,
+    "execution_p_3122_customer_delivery_priority": 6,
     "execution_p_3122_ending_deferred_hours": 21330.33,
     "execution_p_3122_ending_deferred_revenue": 2559639.04,
     "execution_p_3122_liquidated_damages": 17264.21,
     "execution_p_3122_monthly_liquidated_damages_rate": 0.01,
     "execution_p_3122_net_gross_profit_after_damages": 420807.98,
     "execution_p_3122_release_status": "Executive decision required",
-    "execution_p_3122_signed_backlog": 4750000,
-    "execution_p_3130_completed_gross_profit": 1800000,
+    "execution_p_3122_signed_backlog": 4750000.0,
+    "execution_p_3130_completed_gross_profit": 1800000.0,
     "execution_p_3130_completed_hours": 52173.91,
-    "execution_p_3130_completed_revenue": 7200000,
+    "execution_p_3130_completed_revenue": 7200000.0,
     "execution_p_3130_contract_gross_margin": 0.25,
-    "execution_p_3130_customer_delivery_priority": 2,
-    "execution_p_3130_ending_deferred_hours": 0,
-    "execution_p_3130_ending_deferred_revenue": 0,
-    "execution_p_3130_liquidated_damages": 0,
+    "execution_p_3130_customer_delivery_priority": 3,
+    "execution_p_3130_ending_deferred_hours": 0.0,
+    "execution_p_3130_ending_deferred_revenue": 0.0,
+    "execution_p_3130_liquidated_damages": 0.0,
     "execution_p_3130_monthly_liquidated_damages_rate": 0.009,
-    "execution_p_3130_net_gross_profit_after_damages": 1800000,
+    "execution_p_3130_net_gross_profit_after_damages": 1800000.0,
     "execution_p_3130_release_status": "Capacity cleared",
-    "execution_p_3130_signed_backlog": 7200000,
-    "execution_p_3138_completed_gross_profit": 140400,
-    "execution_p_3138_completed_hours": 6240,
-    "execution_p_3138_completed_revenue": 780000,
+    "execution_p_3130_signed_backlog": 7200000.0,
+    "execution_p_3138_completed_gross_profit": 140400.0,
+    "execution_p_3138_completed_hours": 6240.0,
+    "execution_p_3138_completed_revenue": 780000.0,
     "execution_p_3138_contract_gross_margin": 0.18,
-    "execution_p_3138_customer_delivery_priority": 4,
-    "execution_p_3138_ending_deferred_hours": 24960,
-    "execution_p_3138_ending_deferred_revenue": 3120000,
-    "execution_p_3138_liquidated_damages": 31200,
+    "execution_p_3138_customer_delivery_priority": 8,
+    "execution_p_3138_ending_deferred_hours": 24960.0,
+    "execution_p_3138_ending_deferred_revenue": 3120000.0,
+    "execution_p_3138_liquidated_damages": 31200.0,
     "execution_p_3138_monthly_liquidated_damages_rate": 0.012,
-    "execution_p_3138_net_gross_profit_after_damages": 109200,
+    "execution_p_3138_net_gross_profit_after_damages": 109200.0,
     "execution_p_3138_release_status": "Executive decision required",
-    "execution_p_3138_signed_backlog": 3900000,
+    "execution_p_3138_signed_backlog": 3900000.0,
     "execution_p_3145_completed_gross_profit": 854711.65,
     "execution_p_3145_completed_hours": 20326.08,
     "execution_p_3145_completed_revenue": 2947281.54,
     "execution_p_3145_contract_gross_margin": 0.29,
-    "execution_p_3145_customer_delivery_priority": 3,
+    "execution_p_3145_customer_delivery_priority": 5,
     "execution_p_3145_ending_deferred_hours": 14846.33,
     "execution_p_3145_ending_deferred_revenue": 2152718.46,
     "execution_p_3145_liquidated_damages": 5162.29,
     "execution_p_3145_monthly_liquidated_damages_rate": 0.011,
     "execution_p_3145_net_gross_profit_after_damages": 849549.36,
     "execution_p_3145_release_status": "Executive decision required",
-    "execution_p_3145_signed_backlog": 5100000,
-    "execution_p_3152_completed_gross_profit": 0,
-    "execution_p_3152_completed_hours": 0,
-    "execution_p_3152_completed_revenue": 0,
+    "execution_p_3145_signed_backlog": 5100000.0,
+    "execution_p_3152_completed_gross_profit": 0.0,
+    "execution_p_3152_completed_hours": 0.0,
+    "execution_p_3152_completed_revenue": 0.0,
     "execution_p_3152_contract_gross_margin": 0.17,
-    "execution_p_3152_customer_delivery_priority": 4,
+    "execution_p_3152_customer_delivery_priority": 7,
     "execution_p_3152_ending_deferred_hours": 21923.08,
-    "execution_p_3152_ending_deferred_revenue": 2850000,
-    "execution_p_3152_liquidated_damages": 26600,
+    "execution_p_3152_ending_deferred_revenue": 2850000.0,
+    "execution_p_3152_liquidated_damages": 26600.0,
     "execution_p_3152_monthly_liquidated_damages_rate": 0.014,
-    "execution_p_3152_net_gross_profit_after_damages": -26600,
+    "execution_p_3152_net_gross_profit_after_damages": -26600.0,
     "execution_p_3152_release_status": "Executive decision required",
-    "execution_p_3152_signed_backlog": 2850000,
+    "execution_p_3152_signed_backlog": 2850000.0,
     "execution_portfolio_completed_gross_profit": 8279183.84,
     "execution_portfolio_completed_revenue": 34017642.5,
     "execution_portfolio_ending_deferred_hours": 83059.74,
@@ -430,7 +430,7 @@
     "execution_portfolio_liquidated_damages": 80226.5,
     "execution_portfolio_net_gross_profit_after_damages": 8198957.34,
     "execution_portfolio_release_status": "Executive portfolio decision required",
-    "execution_portfolio_revenue_check_delta": 0,
+    "execution_portfolio_revenue_check_delta": 0.0,
     "executive_recovery_decision": "Hold for executive recovery plan",
     "executive_recovery_deferred_gross_profit_at_risk": 2182316.16,
     "executive_recovery_deferred_revenue_at_risk": 10682357.5,
@@ -446,80 +446,80 @@
     "executive_recovery_required_recovery": 365628.18,
     "first_constrained_month": "2027-03",
     "fy27_available_hours": 467617.6,
-    "fy27_backlog_revenue_burn": 41902500,
+    "fy27_backlog_revenue_burn": 41902500.0,
     "fy27_required_hours": 327497.86,
-    "gross_commitment_2026_07_base_capacity_shortfall": 0,
+    "gross_commitment_2026_07_base_capacity_shortfall": 0.0,
     "gross_commitment_2026_07_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2026_07_contingent_subcontract_deployed": 0,
-    "gross_commitment_2026_07_emergency_overtime_deployed": 0,
-    "gross_commitment_2026_07_incremental_remediation_cost": 0,
+    "gross_commitment_2026_07_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2026_07_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2026_07_incremental_remediation_cost": 0.0,
     "gross_commitment_2026_07_required_hours": 912.65,
     "gross_commitment_2026_07_revenue_burn": 107692.31,
-    "gross_commitment_2026_07_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2026_07_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2026_08_base_capacity_shortfall": 0,
+    "gross_commitment_2026_07_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2026_07_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2026_08_base_capacity_shortfall": 0.0,
     "gross_commitment_2026_08_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2026_08_contingent_subcontract_deployed": 0,
-    "gross_commitment_2026_08_emergency_overtime_deployed": 0,
-    "gross_commitment_2026_08_incremental_remediation_cost": 0,
+    "gross_commitment_2026_08_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2026_08_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2026_08_incremental_remediation_cost": 0.0,
     "gross_commitment_2026_08_required_hours": 2655.02,
     "gross_commitment_2026_08_revenue_burn": 319930.07,
-    "gross_commitment_2026_08_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2026_08_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2026_09_base_capacity_shortfall": 0,
+    "gross_commitment_2026_08_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2026_08_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2026_09_base_capacity_shortfall": 0.0,
     "gross_commitment_2026_09_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2026_09_contingent_subcontract_deployed": 0,
-    "gross_commitment_2026_09_emergency_overtime_deployed": 0,
-    "gross_commitment_2026_09_incremental_remediation_cost": 0,
+    "gross_commitment_2026_09_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2026_09_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2026_09_incremental_remediation_cost": 0.0,
     "gross_commitment_2026_09_required_hours": 4397.39,
     "gross_commitment_2026_09_revenue_burn": 532167.83,
-    "gross_commitment_2026_09_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2026_09_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2026_10_base_capacity_shortfall": 0,
+    "gross_commitment_2026_09_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2026_09_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2026_10_base_capacity_shortfall": 0.0,
     "gross_commitment_2026_10_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2026_10_contingent_subcontract_deployed": 0,
-    "gross_commitment_2026_10_emergency_overtime_deployed": 0,
-    "gross_commitment_2026_10_incremental_remediation_cost": 0,
+    "gross_commitment_2026_10_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2026_10_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2026_10_incremental_remediation_cost": 0.0,
     "gross_commitment_2026_10_required_hours": 7082.53,
     "gross_commitment_2026_10_revenue_burn": 868850.04,
-    "gross_commitment_2026_10_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2026_10_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2026_11_base_capacity_shortfall": 0,
+    "gross_commitment_2026_10_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2026_10_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2026_11_base_capacity_shortfall": 0.0,
     "gross_commitment_2026_11_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2026_11_contingent_subcontract_deployed": 0,
-    "gross_commitment_2026_11_emergency_overtime_deployed": 0,
-    "gross_commitment_2026_11_incremental_remediation_cost": 0,
+    "gross_commitment_2026_11_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2026_11_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2026_11_incremental_remediation_cost": 0.0,
     "gross_commitment_2026_11_required_hours": 9767.66,
     "gross_commitment_2026_11_revenue_burn": 1205532.25,
-    "gross_commitment_2026_11_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2026_11_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2026_12_base_capacity_shortfall": 0,
+    "gross_commitment_2026_11_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2026_11_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2026_12_base_capacity_shortfall": 0.0,
     "gross_commitment_2026_12_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2026_12_contingent_subcontract_deployed": 0,
-    "gross_commitment_2026_12_emergency_overtime_deployed": 0,
-    "gross_commitment_2026_12_incremental_remediation_cost": 0,
+    "gross_commitment_2026_12_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2026_12_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2026_12_incremental_remediation_cost": 0.0,
     "gross_commitment_2026_12_required_hours": 13866.48,
     "gross_commitment_2026_12_revenue_burn": 1711857.31,
-    "gross_commitment_2026_12_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2026_12_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2027_01_base_capacity_shortfall": 0,
+    "gross_commitment_2026_12_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2026_12_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2027_01_base_capacity_shortfall": 0.0,
     "gross_commitment_2027_01_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2027_01_contingent_subcontract_deployed": 0,
-    "gross_commitment_2027_01_emergency_overtime_deployed": 0,
-    "gross_commitment_2027_01_incremental_remediation_cost": 0,
+    "gross_commitment_2027_01_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2027_01_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2027_01_incremental_remediation_cost": 0.0,
     "gross_commitment_2027_01_required_hours": 20449.78,
     "gross_commitment_2027_01_revenue_burn": 2561039.52,
-    "gross_commitment_2027_01_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2027_01_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2027_02_base_capacity_shortfall": 0,
+    "gross_commitment_2027_01_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2027_01_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2027_02_base_capacity_shortfall": 0.0,
     "gross_commitment_2027_02_capacity_release_status": "Capacity cleared",
-    "gross_commitment_2027_02_contingent_subcontract_deployed": 0,
-    "gross_commitment_2027_02_emergency_overtime_deployed": 0,
-    "gross_commitment_2027_02_incremental_remediation_cost": 0,
+    "gross_commitment_2027_02_contingent_subcontract_deployed": 0.0,
+    "gross_commitment_2027_02_emergency_overtime_deployed": 0.0,
+    "gross_commitment_2027_02_incremental_remediation_cost": 0.0,
     "gross_commitment_2027_02_required_hours": 29113.07,
     "gross_commitment_2027_02_revenue_burn": 3670221.72,
-    "gross_commitment_2027_02_shortfall_after_emergency_overtime": 0,
-    "gross_commitment_2027_02_unresolved_capacity_shortfall": 0,
+    "gross_commitment_2027_02_shortfall_after_emergency_overtime": 0.0,
+    "gross_commitment_2027_02_unresolved_capacity_shortfall": 0.0,
     "gross_commitment_2027_03_base_capacity_shortfall": 2666.61,
     "gross_commitment_2027_03_capacity_release_status": "Capacity cleared",
     "gross_commitment_2027_03_contingent_subcontract_deployed": 1317.01,
@@ -528,30 +528,30 @@
     "gross_commitment_2027_03_required_hours": 41293.61,
     "gross_commitment_2027_03_revenue_burn": 5289403.93,
     "gross_commitment_2027_03_shortfall_after_emergency_overtime": 1317.01,
-    "gross_commitment_2027_03_unresolved_capacity_shortfall": 0,
-    "gross_commitment_2027_04_base_capacity_shortfall": 18207,
+    "gross_commitment_2027_03_unresolved_capacity_shortfall": 0.0,
+    "gross_commitment_2027_04_base_capacity_shortfall": 18207.0,
     "gross_commitment_2027_04_capacity_release_status": "Executive sequencing required",
-    "gross_commitment_2027_04_contingent_subcontract_deployed": 4000,
+    "gross_commitment_2027_04_contingent_subcontract_deployed": 4000.0,
     "gross_commitment_2027_04_emergency_overtime_deployed": 1360.8,
-    "gross_commitment_2027_04_incremental_remediation_cost": 557834,
-    "gross_commitment_2027_04_required_hours": 57128,
+    "gross_commitment_2027_04_incremental_remediation_cost": 557834.0,
+    "gross_commitment_2027_04_required_hours": 57128.0,
     "gross_commitment_2027_04_revenue_burn": 7383586.14,
     "gross_commitment_2027_04_shortfall_after_emergency_overtime": 16846.2,
     "gross_commitment_2027_04_unresolved_capacity_shortfall": 12846.2,
     "gross_commitment_2027_05_base_capacity_shortfall": 32718.38,
     "gross_commitment_2027_05_capacity_release_status": "Executive sequencing required",
-    "gross_commitment_2027_05_contingent_subcontract_deployed": 4000,
-    "gross_commitment_2027_05_emergency_overtime_deployed": 1372,
-    "gross_commitment_2027_05_incremental_remediation_cost": 558310,
+    "gross_commitment_2027_05_contingent_subcontract_deployed": 4000.0,
+    "gross_commitment_2027_05_emergency_overtime_deployed": 1372.0,
+    "gross_commitment_2027_05_incremental_remediation_cost": 558310.0,
     "gross_commitment_2027_05_required_hours": 72962.38,
     "gross_commitment_2027_05_revenue_burn": 9477768.34,
     "gross_commitment_2027_05_shortfall_after_emergency_overtime": 31346.38,
     "gross_commitment_2027_05_unresolved_capacity_shortfall": 27346.38,
     "gross_commitment_2027_06_base_capacity_shortfall": 48250.36,
     "gross_commitment_2027_06_capacity_release_status": "Executive sequencing required",
-    "gross_commitment_2027_06_contingent_subcontract_deployed": 4000,
+    "gross_commitment_2027_06_contingent_subcontract_deployed": 4000.0,
     "gross_commitment_2027_06_emergency_overtime_deployed": 1383.2,
-    "gross_commitment_2027_06_incremental_remediation_cost": 558786,
+    "gross_commitment_2027_06_incremental_remediation_cost": 558786.0,
     "gross_commitment_2027_06_required_hours": 88796.76,
     "gross_commitment_2027_06_revenue_burn": 11571950.55,
     "gross_commitment_2027_06_shortfall_after_emergency_overtime": 46867.16,
@@ -563,94 +563,94 @@
     "gross_commitment_remediation_cost_variance_to_probability_plan": 220381.49,
     "gross_commitment_required_hours": 348425.32,
     "gross_commitment_required_hours_variance_to_probability_plan": 20927.47,
-    "gross_commitment_revenue_burn": 44700000,
-    "gross_commitment_revenue_variance_to_probability_plan": 2797500,
+    "gross_commitment_revenue_burn": 44700000.0,
+    "gross_commitment_revenue_variance_to_probability_plan": 2797500.0,
     "gross_commitment_unresolved_hours": 83059.74,
     "gross_commitment_unresolved_hours_variance_to_probability_plan": 15119.3,
     "maximum_capacity_shortfall_hours": 42005.16,
     "probability_plan_remediation_cost": 1676532.99,
     "probability_plan_unresolved_hours": 67940.44,
-    "release_bridge_2026_07_deferred_revenue_at_risk": 0,
+    "release_bridge_2026_07_deferred_revenue_at_risk": 0.0,
     "release_bridge_2026_07_execution_net_gross_profit_after_damages": 25846.15,
     "release_bridge_2026_07_gross_commitment_gross_profit_after_remediation": 25846.15,
     "release_bridge_2026_07_gross_commitment_gross_profit_before_remediation": 25846.15,
-    "release_bridge_2026_07_gross_commitment_remediation_cost": 0,
-    "release_bridge_2026_07_incremental_gross_profit_after_remediation": 0,
+    "release_bridge_2026_07_gross_commitment_remediation_cost": 0.0,
+    "release_bridge_2026_07_incremental_gross_profit_after_remediation": 0.0,
     "release_bridge_2026_07_management_release_status": "Capacity cleared",
     "release_bridge_2026_07_probability_plan_gross_profit_after_remediation": 25846.15,
     "release_bridge_2026_07_probability_plan_gross_profit_before_remediation": 25846.15,
-    "release_bridge_2026_07_probability_plan_remediation_cost": 0,
-    "release_bridge_2026_08_deferred_revenue_at_risk": 0,
+    "release_bridge_2026_07_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2026_08_deferred_revenue_at_risk": 0.0,
     "release_bridge_2026_08_execution_net_gross_profit_after_damages": 74692.31,
     "release_bridge_2026_08_gross_commitment_gross_profit_after_remediation": 74692.31,
     "release_bridge_2026_08_gross_commitment_gross_profit_before_remediation": 74692.31,
-    "release_bridge_2026_08_gross_commitment_remediation_cost": 0,
-    "release_bridge_2026_08_incremental_gross_profit_after_remediation": 1150,
+    "release_bridge_2026_08_gross_commitment_remediation_cost": 0.0,
+    "release_bridge_2026_08_incremental_gross_profit_after_remediation": 1150.0,
     "release_bridge_2026_08_management_release_status": "Capacity cleared",
     "release_bridge_2026_08_probability_plan_gross_profit_after_remediation": 73542.31,
     "release_bridge_2026_08_probability_plan_gross_profit_before_remediation": 73542.31,
-    "release_bridge_2026_08_probability_plan_remediation_cost": 0,
-    "release_bridge_2026_09_deferred_revenue_at_risk": 0,
+    "release_bridge_2026_08_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2026_09_deferred_revenue_at_risk": 0.0,
     "release_bridge_2026_09_execution_net_gross_profit_after_damages": 123538.46,
     "release_bridge_2026_09_gross_commitment_gross_profit_after_remediation": 123538.46,
     "release_bridge_2026_09_gross_commitment_gross_profit_before_remediation": 123538.46,
-    "release_bridge_2026_09_gross_commitment_remediation_cost": 0,
-    "release_bridge_2026_09_incremental_gross_profit_after_remediation": 2300,
+    "release_bridge_2026_09_gross_commitment_remediation_cost": 0.0,
+    "release_bridge_2026_09_incremental_gross_profit_after_remediation": 2300.0,
     "release_bridge_2026_09_management_release_status": "Capacity cleared",
     "release_bridge_2026_09_probability_plan_gross_profit_after_remediation": 121238.46,
     "release_bridge_2026_09_probability_plan_gross_profit_before_remediation": 121238.46,
-    "release_bridge_2026_09_probability_plan_remediation_cost": 0,
-    "release_bridge_2026_10_deferred_revenue_at_risk": 0,
+    "release_bridge_2026_09_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2026_10_deferred_revenue_at_risk": 0.0,
     "release_bridge_2026_10_execution_net_gross_profit_after_damages": 205984.62,
     "release_bridge_2026_10_gross_commitment_gross_profit_after_remediation": 205984.62,
     "release_bridge_2026_10_gross_commitment_gross_profit_before_remediation": 205984.62,
-    "release_bridge_2026_10_gross_commitment_remediation_cost": 0,
-    "release_bridge_2026_10_incremental_gross_profit_after_remediation": 3450,
+    "release_bridge_2026_10_gross_commitment_remediation_cost": 0.0,
+    "release_bridge_2026_10_incremental_gross_profit_after_remediation": 3450.0,
     "release_bridge_2026_10_management_release_status": "Capacity cleared",
     "release_bridge_2026_10_probability_plan_gross_profit_after_remediation": 202534.62,
     "release_bridge_2026_10_probability_plan_gross_profit_before_remediation": 202534.62,
-    "release_bridge_2026_10_probability_plan_remediation_cost": 0,
-    "release_bridge_2026_11_deferred_revenue_at_risk": 0,
+    "release_bridge_2026_10_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2026_11_deferred_revenue_at_risk": 0.0,
     "release_bridge_2026_11_execution_net_gross_profit_after_damages": 288430.77,
     "release_bridge_2026_11_gross_commitment_gross_profit_after_remediation": 288430.77,
     "release_bridge_2026_11_gross_commitment_gross_profit_before_remediation": 288430.77,
-    "release_bridge_2026_11_gross_commitment_remediation_cost": 0,
-    "release_bridge_2026_11_incremental_gross_profit_after_remediation": 4600,
+    "release_bridge_2026_11_gross_commitment_remediation_cost": 0.0,
+    "release_bridge_2026_11_incremental_gross_profit_after_remediation": 4600.0,
     "release_bridge_2026_11_management_release_status": "Capacity cleared",
     "release_bridge_2026_11_probability_plan_gross_profit_after_remediation": 283830.77,
     "release_bridge_2026_11_probability_plan_gross_profit_before_remediation": 283830.77,
-    "release_bridge_2026_11_probability_plan_remediation_cost": 0,
-    "release_bridge_2026_12_deferred_revenue_at_risk": 0,
+    "release_bridge_2026_11_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2026_12_deferred_revenue_at_risk": 0.0,
     "release_bridge_2026_12_execution_net_gross_profit_after_damages": 404805.49,
     "release_bridge_2026_12_gross_commitment_gross_profit_after_remediation": 404805.49,
     "release_bridge_2026_12_gross_commitment_gross_profit_before_remediation": 404805.49,
-    "release_bridge_2026_12_gross_commitment_remediation_cost": 0,
+    "release_bridge_2026_12_gross_commitment_remediation_cost": 0.0,
     "release_bridge_2026_12_incremental_gross_profit_after_remediation": 10839.29,
     "release_bridge_2026_12_management_release_status": "Capacity cleared",
     "release_bridge_2026_12_probability_plan_gross_profit_after_remediation": 393966.21,
     "release_bridge_2026_12_probability_plan_gross_profit_before_remediation": 393966.21,
-    "release_bridge_2026_12_probability_plan_remediation_cost": 0,
-    "release_bridge_2027_01_deferred_revenue_at_risk": 0,
+    "release_bridge_2026_12_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2027_01_deferred_revenue_at_risk": 0.0,
     "release_bridge_2027_01_execution_net_gross_profit_after_damages": 606894.51,
     "release_bridge_2027_01_gross_commitment_gross_profit_after_remediation": 606894.51,
     "release_bridge_2027_01_gross_commitment_gross_profit_before_remediation": 606894.51,
-    "release_bridge_2027_01_gross_commitment_remediation_cost": 0,
-    "release_bridge_2027_01_incremental_gross_profit_after_remediation": 25650,
+    "release_bridge_2027_01_gross_commitment_remediation_cost": 0.0,
+    "release_bridge_2027_01_incremental_gross_profit_after_remediation": 25650.0,
     "release_bridge_2027_01_management_release_status": "Capacity cleared",
     "release_bridge_2027_01_probability_plan_gross_profit_after_remediation": 581244.51,
     "release_bridge_2027_01_probability_plan_gross_profit_before_remediation": 581244.51,
-    "release_bridge_2027_01_probability_plan_remediation_cost": 0,
-    "release_bridge_2027_02_deferred_revenue_at_risk": 0,
+    "release_bridge_2027_01_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2027_02_deferred_revenue_at_risk": 0.0,
     "release_bridge_2027_02_execution_net_gross_profit_after_damages": 855783.52,
     "release_bridge_2027_02_gross_commitment_gross_profit_after_remediation": 855783.52,
     "release_bridge_2027_02_gross_commitment_gross_profit_before_remediation": 855783.52,
-    "release_bridge_2027_02_gross_commitment_remediation_cost": 0,
+    "release_bridge_2027_02_gross_commitment_remediation_cost": 0.0,
     "release_bridge_2027_02_incremental_gross_profit_after_remediation": 40460.71,
     "release_bridge_2027_02_management_release_status": "Capacity cleared",
     "release_bridge_2027_02_probability_plan_gross_profit_after_remediation": 815322.8,
     "release_bridge_2027_02_probability_plan_gross_profit_before_remediation": 815322.8,
-    "release_bridge_2027_02_probability_plan_remediation_cost": 0,
-    "release_bridge_2027_03_deferred_revenue_at_risk": 0,
+    "release_bridge_2027_02_probability_plan_remediation_cost": 0.0,
+    "release_bridge_2027_03_deferred_revenue_at_risk": 0.0,
     "release_bridge_2027_03_execution_net_gross_profit_after_damages": 1252572.53,
     "release_bridge_2027_03_gross_commitment_gross_profit_after_remediation": 1030588.05,
     "release_bridge_2027_03_gross_commitment_gross_profit_before_remediation": 1252572.53,
@@ -664,38 +664,38 @@
     "release_bridge_2027_04_execution_net_gross_profit_after_damages": 1438105.16,
     "release_bridge_2027_04_gross_commitment_gross_profit_after_remediation": 1172277.54,
     "release_bridge_2027_04_gross_commitment_gross_profit_before_remediation": 1730111.54,
-    "release_bridge_2027_04_gross_commitment_remediation_cost": 557834,
+    "release_bridge_2027_04_gross_commitment_remediation_cost": 557834.0,
     "release_bridge_2027_04_incremental_gross_profit_after_remediation": 129242.14,
     "release_bridge_2027_04_management_release_status": "Portfolio resequencing required",
     "release_bridge_2027_04_probability_plan_gross_profit_after_remediation": 1043035.4,
     "release_bridge_2027_04_probability_plan_gross_profit_before_remediation": 1600869.4,
-    "release_bridge_2027_04_probability_plan_remediation_cost": 557834,
+    "release_bridge_2027_04_probability_plan_remediation_cost": 557834.0,
     "release_bridge_2027_05_deferred_revenue_at_risk": 5086437.87,
     "release_bridge_2027_05_execution_net_gross_profit_after_damages": 1499729.64,
     "release_bridge_2027_05_gross_commitment_gross_profit_after_remediation": 1649340.55,
     "release_bridge_2027_05_gross_commitment_gross_profit_before_remediation": 2207650.55,
-    "release_bridge_2027_05_gross_commitment_remediation_cost": 558310,
+    "release_bridge_2027_05_gross_commitment_remediation_cost": 558310.0,
     "release_bridge_2027_05_incremental_gross_profit_after_remediation": 173632.86,
     "release_bridge_2027_05_management_release_status": "Portfolio resequencing required",
     "release_bridge_2027_05_probability_plan_gross_profit_after_remediation": 1475707.69,
     "release_bridge_2027_05_probability_plan_gross_profit_before_remediation": 2034017.69,
-    "release_bridge_2027_05_probability_plan_remediation_cost": 558310,
+    "release_bridge_2027_05_probability_plan_remediation_cost": 558310.0,
     "release_bridge_2027_06_deferred_revenue_at_risk": 10682357.5,
     "release_bridge_2027_06_execution_net_gross_profit_after_damages": 1422574.19,
     "release_bridge_2027_06_gross_commitment_gross_profit_after_remediation": 2126403.56,
     "release_bridge_2027_06_gross_commitment_gross_profit_before_remediation": 2685189.56,
-    "release_bridge_2027_06_gross_commitment_remediation_cost": 558786,
+    "release_bridge_2027_06_gross_commitment_remediation_cost": 558786.0,
     "release_bridge_2027_06_incremental_gross_profit_after_remediation": 218023.57,
     "release_bridge_2027_06_management_release_status": "Portfolio resequencing required",
     "release_bridge_2027_06_probability_plan_gross_profit_after_remediation": 1908379.99,
     "release_bridge_2027_06_probability_plan_gross_profit_before_remediation": 2467165.99,
-    "release_bridge_2027_06_probability_plan_remediation_cost": 558786,
+    "release_bridge_2027_06_probability_plan_remediation_cost": 558786.0,
     "release_bridge_deferred_revenue_at_risk": 10682357.5,
     "release_bridge_execution_net_gross_profit_after_damages": 8198957.34,
     "release_bridge_gross_commitment_gross_profit_after_remediation": 8564585.52,
     "release_bridge_management_decision": "Hold for executive portfolio sequencing",
     "release_bridge_probability_plan_gross_profit_after_remediation": 8090767.01,
-    "signed_backlog": 44700000
+    "signed_backlog": 44700000.0
   },
   "artifact": {
     "edit": true,
@@ -816,7 +816,8 @@
       "headline_label": "signed_backlog",
       "id": "formula_lineage__headline_signed_backlog",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -825,7 +826,8 @@
       "headline_label": "fy27_backlog_revenue_burn",
       "id": "formula_lineage__headline_fy27_backlog_revenue_burn",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -834,7 +836,8 @@
       "headline_label": "fy27_required_hours",
       "id": "formula_lineage__headline_fy27_required_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -843,7 +846,8 @@
       "headline_label": "fy27_available_hours",
       "id": "formula_lineage__headline_fy27_available_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -852,7 +856,8 @@
       "headline_label": "constrained_month_count",
       "id": "formula_lineage__headline_constrained_month_count",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -861,7 +866,8 @@
       "headline_label": "first_constrained_month",
       "id": "formula_lineage__headline_first_constrained_month",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -870,7 +876,8 @@
       "headline_label": "maximum_capacity_shortfall_hours",
       "id": "formula_lineage__headline_maximum_capacity_shortfall_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -879,7 +886,8 @@
       "headline_label": "probability_plan_unresolved_hours",
       "id": "formula_lineage__headline_probability_plan_unresolved_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -888,7 +896,8 @@
       "headline_label": "probability_plan_remediation_cost",
       "id": "formula_lineage__headline_probability_plan_remediation_cost",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -897,7 +906,8 @@
       "headline_label": "gross_commitment_revenue_burn",
       "id": "formula_lineage__headline_gross_commitment_revenue_burn",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -906,7 +916,8 @@
       "headline_label": "gross_commitment_required_hours",
       "id": "formula_lineage__headline_gross_commitment_required_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -915,7 +926,8 @@
       "headline_label": "gross_commitment_first_constrained_month",
       "id": "formula_lineage__headline_gross_commitment_first_constrained_month",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -924,7 +936,8 @@
       "headline_label": "gross_commitment_maximum_capacity_shortfall_hours",
       "id": "formula_lineage__headline_gross_commitment_maximum_capacity_shortfall_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -933,7 +946,8 @@
       "headline_label": "gross_commitment_unresolved_hours",
       "id": "formula_lineage__headline_gross_commitment_unresolved_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -942,7 +956,8 @@
       "headline_label": "gross_commitment_remediation_cost",
       "id": "formula_lineage__headline_gross_commitment_remediation_cost",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -951,7 +966,8 @@
       "headline_label": "gross_commitment_revenue_variance_to_probability_plan",
       "id": "formula_lineage__headline_gross_commitment_revenue_variance_to_probability_plan",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -960,7 +976,8 @@
       "headline_label": "gross_commitment_required_hours_variance_to_probability_plan",
       "id": "formula_lineage__headline_gross_commitment_required_hours_variance_to_probability_plan",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -969,7 +986,8 @@
       "headline_label": "gross_commitment_unresolved_hours_variance_to_probability_plan",
       "id": "formula_lineage__headline_gross_commitment_unresolved_hours_variance_to_probability_plan",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -978,7 +996,8 @@
       "headline_label": "gross_commitment_remediation_cost_variance_to_probability_plan",
       "id": "formula_lineage__headline_gross_commitment_remediation_cost_variance_to_probability_plan",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -987,7 +1006,8 @@
       "headline_label": "gross_commitment_release_status",
       "id": "formula_lineage__headline_gross_commitment_release_status",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -996,7 +1016,8 @@
       "headline_label": "controlling_capacity_case",
       "id": "formula_lineage__headline_controlling_capacity_case",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1005,7 +1026,8 @@
       "headline_label": "execution_portfolio_completed_revenue",
       "id": "formula_lineage__headline_execution_portfolio_completed_revenue",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1014,7 +1036,8 @@
       "headline_label": "execution_portfolio_ending_deferred_revenue",
       "id": "formula_lineage__headline_execution_portfolio_ending_deferred_revenue",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1023,7 +1046,8 @@
       "headline_label": "execution_portfolio_revenue_check_delta",
       "id": "formula_lineage__headline_execution_portfolio_revenue_check_delta",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1032,7 +1056,8 @@
       "headline_label": "execution_portfolio_ending_deferred_hours",
       "id": "formula_lineage__headline_execution_portfolio_ending_deferred_hours",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1041,7 +1066,8 @@
       "headline_label": "execution_portfolio_completed_gross_profit",
       "id": "formula_lineage__headline_execution_portfolio_completed_gross_profit",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1050,7 +1076,8 @@
       "headline_label": "execution_portfolio_liquidated_damages",
       "id": "formula_lineage__headline_execution_portfolio_liquidated_damages",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1059,7 +1086,8 @@
       "headline_label": "execution_portfolio_net_gross_profit_after_damages",
       "id": "formula_lineage__headline_execution_portfolio_net_gross_profit_after_damages",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1068,7 +1096,8 @@
       "headline_label": "execution_portfolio_highest_priority_deferred_project",
       "id": "formula_lineage__headline_execution_portfolio_highest_priority_deferred_project",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1077,7 +1106,8 @@
       "headline_label": "execution_portfolio_release_status",
       "id": "formula_lineage__headline_execution_portfolio_release_status",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1086,7 +1116,8 @@
       "headline_label": "release_bridge_probability_plan_gross_profit_after_remediation",
       "id": "formula_lineage__headline_release_bridge_probability_plan_gross_profit_after_remediation",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1095,7 +1126,8 @@
       "headline_label": "release_bridge_gross_commitment_gross_profit_after_remediation",
       "id": "formula_lineage__headline_release_bridge_gross_commitment_gross_profit_after_remediation",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1104,7 +1136,8 @@
       "headline_label": "release_bridge_execution_net_gross_profit_after_damages",
       "id": "formula_lineage__headline_release_bridge_execution_net_gross_profit_after_damages",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1113,7 +1146,8 @@
       "headline_label": "release_bridge_deferred_revenue_at_risk",
       "id": "formula_lineage__headline_release_bridge_deferred_revenue_at_risk",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1122,7 +1156,8 @@
       "headline_label": "release_bridge_management_decision",
       "id": "formula_lineage__headline_release_bridge_management_decision",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1131,7 +1166,8 @@
       "headline_label": "executive_recovery_probability_plan_gp_after_remediation",
       "id": "formula_lineage__headline_executive_recovery_probability_plan_gp_after_remediation",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1140,7 +1176,8 @@
       "headline_label": "executive_recovery_gross_commitment_gp_after_remediation",
       "id": "formula_lineage__headline_executive_recovery_gross_commitment_gp_after_remediation",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1149,7 +1186,8 @@
       "headline_label": "executive_recovery_execution_net_gp_after_damages",
       "id": "formula_lineage__headline_executive_recovery_execution_net_gp_after_damages",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1158,7 +1196,8 @@
       "headline_label": "executive_recovery_gross_commitment_shortfall",
       "id": "formula_lineage__headline_executive_recovery_gross_commitment_shortfall",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1167,7 +1206,8 @@
       "headline_label": "executive_recovery_deferred_revenue_at_risk",
       "id": "formula_lineage__headline_executive_recovery_deferred_revenue_at_risk",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1176,7 +1216,8 @@
       "headline_label": "executive_recovery_deferred_gross_profit_at_risk",
       "id": "formula_lineage__headline_executive_recovery_deferred_gross_profit_at_risk",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1185,7 +1226,8 @@
       "headline_label": "executive_recovery_liquidated_damages",
       "id": "formula_lineage__headline_executive_recovery_liquidated_damages",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1194,7 +1236,8 @@
       "headline_label": "executive_recovery_required_recovery",
       "id": "formula_lineage__headline_executive_recovery_required_recovery",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1203,7 +1246,8 @@
       "headline_label": "executive_recovery_highest_priority_deferred_project",
       "id": "formula_lineage__headline_executive_recovery_highest_priority_deferred_project",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1212,7 +1256,8 @@
       "headline_label": "executive_recovery_decision",
       "id": "formula_lineage__headline_executive_recovery_decision",
       "kind": "xlsx_headline_formula",
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 5
     },
     {
@@ -1336,9 +1381,10 @@
       "id": "headline_values__signed_backlog",
       "kind": "xlsx_label_values",
       "label_values": {
-        "signed_backlog": 44700000
+        "signed_backlog": 44700000.0
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1347,9 +1393,10 @@
       "id": "headline_values__fy27_backlog_revenue_burn",
       "kind": "xlsx_label_values",
       "label_values": {
-        "fy27_backlog_revenue_burn": 41902500
+        "fy27_backlog_revenue_burn": 41902500.0
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1360,7 +1407,8 @@
       "label_values": {
         "fy27_required_hours": 327497.86
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1371,7 +1419,8 @@
       "label_values": {
         "fy27_available_hours": 467617.6
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1380,9 +1429,10 @@
       "id": "headline_values__constrained_month_count",
       "kind": "xlsx_label_values",
       "label_values": {
-        "constrained_month_count": 4
+        "constrained_month_count": 4.0
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1393,7 +1443,8 @@
       "label_values": {
         "first_constrained_month": "2027-03"
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1404,7 +1455,8 @@
       "label_values": {
         "maximum_capacity_shortfall_hours": 42005.16
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1415,7 +1467,8 @@
       "label_values": {
         "probability_plan_unresolved_hours": 67940.44
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1426,7 +1479,8 @@
       "label_values": {
         "probability_plan_remediation_cost": 1676532.99
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1435,9 +1489,10 @@
       "id": "headline_values__gross_commitment_revenue_burn",
       "kind": "xlsx_label_values",
       "label_values": {
-        "gross_commitment_revenue_burn": 44700000
+        "gross_commitment_revenue_burn": 44700000.0
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1448,7 +1503,8 @@
       "label_values": {
         "gross_commitment_required_hours": 348425.32
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1459,7 +1515,8 @@
       "label_values": {
         "gross_commitment_first_constrained_month": "2027-03"
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1470,7 +1527,8 @@
       "label_values": {
         "gross_commitment_maximum_capacity_shortfall_hours": 48250.36
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1481,7 +1539,8 @@
       "label_values": {
         "gross_commitment_unresolved_hours": 83059.74
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1492,7 +1551,8 @@
       "label_values": {
         "gross_commitment_remediation_cost": 1896914.48
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1501,9 +1561,10 @@
       "id": "headline_values__gross_commitment_revenue_variance_to_probability_plan",
       "kind": "xlsx_label_values",
       "label_values": {
-        "gross_commitment_revenue_variance_to_probability_plan": 2797500
+        "gross_commitment_revenue_variance_to_probability_plan": 2797500.0
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1514,7 +1575,8 @@
       "label_values": {
         "gross_commitment_required_hours_variance_to_probability_plan": 20927.47
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1525,7 +1587,8 @@
       "label_values": {
         "gross_commitment_unresolved_hours_variance_to_probability_plan": 15119.3
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1536,7 +1599,8 @@
       "label_values": {
         "gross_commitment_remediation_cost_variance_to_probability_plan": 220381.49
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1547,6 +1611,7 @@
       "label_values": {
         "gross_commitment_release_status": "Executive sequencing required"
       },
+      "objective_hard_gate": true,
       "semantic": true,
       "weight": 10
     },
@@ -1558,7 +1623,8 @@
       "label_values": {
         "controlling_capacity_case": "Gross commitment"
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1569,7 +1635,8 @@
       "label_values": {
         "execution_portfolio_completed_revenue": 34017642.5
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1580,7 +1647,8 @@
       "label_values": {
         "execution_portfolio_ending_deferred_revenue": 10682357.5
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1589,9 +1657,10 @@
       "id": "headline_values__execution_portfolio_revenue_check_delta",
       "kind": "xlsx_label_values",
       "label_values": {
-        "execution_portfolio_revenue_check_delta": 0
+        "execution_portfolio_revenue_check_delta": 0.0
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1602,7 +1671,8 @@
       "label_values": {
         "execution_portfolio_ending_deferred_hours": 83059.74
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1613,7 +1683,8 @@
       "label_values": {
         "execution_portfolio_completed_gross_profit": 8279183.84
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1624,7 +1695,8 @@
       "label_values": {
         "execution_portfolio_liquidated_damages": 80226.5
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1635,7 +1707,8 @@
       "label_values": {
         "execution_portfolio_net_gross_profit_after_damages": 8198957.34
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1646,7 +1719,8 @@
       "label_values": {
         "execution_portfolio_highest_priority_deferred_project": "P-3145"
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1657,6 +1731,7 @@
       "label_values": {
         "execution_portfolio_release_status": "Executive portfolio decision required"
       },
+      "objective_hard_gate": true,
       "semantic": true,
       "weight": 10
     },
@@ -1668,7 +1743,8 @@
       "label_values": {
         "release_bridge_probability_plan_gross_profit_after_remediation": 8090767.01
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1679,7 +1755,8 @@
       "label_values": {
         "release_bridge_gross_commitment_gross_profit_after_remediation": 8564585.52
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1690,7 +1767,8 @@
       "label_values": {
         "release_bridge_execution_net_gross_profit_after_damages": 8198957.34
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1701,7 +1779,8 @@
       "label_values": {
         "release_bridge_deferred_revenue_at_risk": 10682357.5
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1712,6 +1791,7 @@
       "label_values": {
         "release_bridge_management_decision": "Hold for executive portfolio sequencing"
       },
+      "objective_hard_gate": true,
       "semantic": true,
       "weight": 10
     },
@@ -1723,7 +1803,8 @@
       "label_values": {
         "executive_recovery_probability_plan_gp_after_remediation": 8090767.01
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1734,7 +1815,8 @@
       "label_values": {
         "executive_recovery_gross_commitment_gp_after_remediation": 8564585.52
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1745,7 +1827,8 @@
       "label_values": {
         "executive_recovery_execution_net_gp_after_damages": 8198957.34
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1756,7 +1839,8 @@
       "label_values": {
         "executive_recovery_gross_commitment_shortfall": 365628.18
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1767,7 +1851,8 @@
       "label_values": {
         "executive_recovery_deferred_revenue_at_risk": 10682357.5
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1778,7 +1863,8 @@
       "label_values": {
         "executive_recovery_deferred_gross_profit_at_risk": 2182316.16
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1789,7 +1875,8 @@
       "label_values": {
         "executive_recovery_liquidated_damages": 80226.5
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1800,7 +1887,8 @@
       "label_values": {
         "executive_recovery_required_recovery": 365628.18
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1811,7 +1899,8 @@
       "label_values": {
         "executive_recovery_highest_priority_deferred_project": "P-3145"
       },
-      "semantic": false,
+      "objective_hard_gate": true,
+      "semantic": true,
       "weight": 10
     },
     {
@@ -1822,6 +1911,7 @@
       "label_values": {
         "executive_recovery_decision": "Hold for executive recovery plan"
       },
+      "objective_hard_gate": true,
       "semantic": true,
       "weight": 10
     },
@@ -1830,7 +1920,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'burn curve'",
       "id": "model_content__burn_curve",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "burn curve"
       ],
@@ -1841,7 +1931,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'required hours'",
       "id": "model_content__required_hours",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "required hours"
       ],
@@ -1852,7 +1942,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'available hours'",
       "id": "model_content__available_hours",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "available hours"
       ],
@@ -1863,7 +1953,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'overtime'",
       "id": "model_content__overtime",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "overtime"
       ],
@@ -1874,7 +1964,7 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'subcontract'",
       "id": "model_content__subcontract",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "subcontract"
       ],
@@ -1885,20 +1975,9 @@
       "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'capacity gap'",
       "id": "model_content__capacity_gap",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "capacity gap"
-      ],
-      "weight": 3
-    },
-    {
-      "category": "auditability",
-      "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'model status'",
-      "id": "model_content__model_status",
-      "kind": "artifact_tokens",
-      "semantic": false,
-      "tokens": [
-        "model status"
       ],
       "weight": 3
     },
@@ -1940,7 +2019,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'source'",
       "id": "controls__source",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "source"
       ],
@@ -1951,7 +2030,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'period'",
       "id": "controls__period",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "period"
       ],
@@ -1962,7 +2041,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'scenario'",
       "id": "controls__scenario",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "scenario"
       ],
@@ -1973,7 +2052,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'unit'",
       "id": "controls__unit",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "unit"
       ],
@@ -1984,7 +2063,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'version'",
       "id": "controls__version",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "version"
       ],
@@ -1995,7 +2074,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'check'",
       "id": "controls__check",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "check"
       ],
@@ -2006,7 +2085,7 @@
       "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'model status'",
       "id": "controls__model_status",
       "kind": "artifact_tokens",
-      "semantic": false,
+      "semantic": true,
       "tokens": [
         "model status"
       ],

@@ -1,0 +1,49 @@
+record_ref,operating_area,record_id,record_date,record_status,field,value,units,supporting_record,reviewed_through
+OPS-Q2-001,Construction procurement,C-118 / PKG-04,2026-04-18,Released,Vendor commitment,480000.0,USD,Executed buyout PO 74118,2026-07-05
+OPS-Q2-002,Construction procurement,C-118 / PKG-04,2026-04-18,Released,June forecast cost basis,420000.0,USD,June project margin forecast,2026-07-05
+OPS-Q2-003,Construction procurement,C-203 / PKG-11,2026-05-09,Released,Vendor commitment,735000.0,USD,Executed buyout PO 74402,2026-07-05
+OPS-Q2-004,Construction procurement,C-203 / PKG-11,2026-05-09,Released,June forecast cost basis,590000.0,USD,June project margin forecast,2026-07-05
+OPS-Q2-005,Construction procurement,C-226 / PKG-02,2026-06-03,Released,Vendor commitment,365000.0,USD,Executed buyout PO 74661,2026-07-05
+OPS-Q2-006,Construction procurement,C-226 / PKG-02,2026-06-03,Released,June forecast cost basis,280000.0,USD,June project margin forecast,2026-07-05
+OPS-Q2-007,Construction procurement,C-241 / PKG-07,2026-06-27,Released,Vendor commitment,470000.0,USD,Executed buyout PO 74805,2026-07-05
+OPS-Q2-008,Construction procurement,C-241 / PKG-07,2026-06-27,Released,June forecast cost basis,350000.0,USD,June project margin forecast,2026-07-05
+OPS-Q2-009,Construction procurement,C-203 / PKG-11 / quote B,2026-04-21,Superseded,Vendor commitment,695000.0,USD,Vendor quote B retained in procurement file,2026-07-05
+OPS-Q2-010,Construction procurement,C-252 / PKG-03,2026-06-29,Pending approval,Vendor commitment,260000.0,USD,Unsigned vendor proposal,2026-07-05
+OPS-Q2-011,Construction procurement,C-252 / PKG-03,2026-06-29,Pending approval,June forecast cost basis,230000.0,USD,June project margin forecast,2026-07-05
+OPS-Q2-012,Construction procurement,C-263 / PKG-06,2026-07-02,Released,Vendor commitment,190000.0,USD,Executed buyout PO 74917,2026-07-05
+OPS-Q2-013,Construction procurement,C-263 / PKG-06,2026-07-02,Released,June forecast cost basis,170000.0,USD,June project margin forecast,2026-07-05
+OPS-Q2-014,Construction procurement,C-177 / PKG-09,2026-05-28,Cancelled package,Vendor commitment,225000.0,USD,Cancelled procurement package record,2026-07-05
+OPS-Q2-015,Service field operations,Route batch W14,2026-04-10,Posted,Paid route hours,10640.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-016,Service field operations,Route batch W14,2026-04-10,Posted,Completed-route standard hours,9500.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-017,Service field operations,Route batch W18,2026-05-08,Posted,Paid route hours,11120.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-018,Service field operations,Route batch W18,2026-05-08,Posted,Completed-route standard hours,9750.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-019,Service field operations,Route batch W22,2026-06-05,Posted,Paid route hours,10980.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-020,Service field operations,Route batch W22,2026-06-05,Posted,Completed-route standard hours,9680.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-021,Service field operations,Route batch W24,2026-06-19,Posted,Paid route hours,9860.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-022,Service field operations,Route batch W24,2026-06-19,Posted,Completed-route standard hours,8710.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-023,Service field operations,Route batch W26,2026-06-30,Posted,Paid route hours,7440.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-024,Service field operations,Route batch W26,2026-06-30,Posted,Completed-route standard hours,6700.0,hours,Posted payroll and completed-route export,2026-07-05
+OPS-Q2-025,Service field operations,June loaded-cost card,2026-06-30,Approved June rate card,Hourly wages,34.0,USD per hour,June service labor-cost review,2026-07-05
+OPS-Q2-026,Service field operations,June loaded-cost card,2026-06-30,Approved June rate card,Payroll taxes and benefits,9.0,USD per hour,June service labor-cost review,2026-07-05
+OPS-Q2-027,Service field operations,June loaded-cost card,2026-06-30,Approved June rate card,Field vehicle and tools,7.0,USD per hour,June service labor-cost review,2026-07-05
+OPS-Q2-028,Service field operations,Route batch W22 / preliminary,2026-06-02,Superseded preliminary route file,Paid route hours,10950.0,hours,Preliminary route export retained for audit,2026-07-05
+OPS-Q2-029,Service field operations,Route batch W22 / preliminary,2026-06-02,Superseded preliminary route file,Completed-route standard hours,9650.0,hours,Preliminary route export retained for audit,2026-07-05
+OPS-Q2-030,Service field operations,Route batch W27,2026-07-03,Posted,Paid route hours,850.0,hours,July payroll workfile,2026-07-05
+OPS-Q2-031,Service field operations,Route batch W27,2026-07-03,Posted,Completed-route standard hours,800.0,hours,July completed-route file,2026-07-05
+OPS-Q2-032,Service field operations,June safety training,2026-06-16,Posted,Paid non-route hours,780.0,hours,Training attendance and payroll coding review,2026-07-05
+OPS-Q2-033,Controls project accounting,CTL-418,2026-06-12,Approved,Revenue reclassified from install to commissioning,160000.0,USD,Approved June project-status register,2026-07-05
+OPS-Q2-034,Controls project accounting,CTL-421,2026-06-18,Approved,Revenue reclassified from install to commissioning,125000.0,USD,Approved June project-status register,2026-07-05
+OPS-Q2-035,Controls project accounting,CTL-427,2026-06-24,Approved,Revenue reclassified from install to commissioning,105000.0,USD,Approved June project-status register,2026-07-05
+OPS-Q2-036,Controls project accounting,CTL-433,2026-06-29,Approved,Revenue reclassified from install to commissioning,85000.0,USD,Approved June project-status register,2026-07-05
+OPS-Q2-037,Controls project accounting,June margin basis,2026-06-30,Approved June margin basis,Install contribution margin,0.35,decimal ratio,June controls project margin review,2026-07-05
+OPS-Q2-038,Controls project accounting,June margin basis,2026-06-30,Approved June margin basis,Commissioning contribution margin,0.15,decimal ratio,June controls project margin review,2026-07-05
+OPS-Q2-039,Controls project accounting,CTL-439,2026-06-28,Draft scope review,Revenue reclassified from install to commissioning,95000.0,USD,Unsigned project review note,2026-07-05
+OPS-Q2-040,Controls project accounting,CTL-444,2026-07-01,Approved,Revenue reclassified from install to commissioning,110000.0,USD,July project-status register,2026-07-05
+OPS-Q2-041,Controls project accounting,CTL-402,2026-06-07,Reviewed - no change,Revenue reviewed for scope classification,75000.0,USD,June project-status register review,2026-07-05
+OPS-Q2-042,Accounts receivable,INV-78214,2026-07-01,Remittance confirmed,June 30 open invoice balance,120000.0,USD,Customer remittance email and cash application log,2026-07-05
+OPS-Q2-043,Accounts receivable,INV-78302,2026-07-01,Remittance confirmed,June 30 open invoice balance,95000.0,USD,Customer remittance email and cash application log,2026-07-05
+OPS-Q2-044,Accounts receivable,INV-78511,2026-07-02,Remittance confirmed,June 30 open invoice balance,75000.0,USD,Customer remittance email and cash application log,2026-07-05
+OPS-Q2-045,Accounts receivable,INV-78644,2026-07-03,Remittance confirmed,June 30 open invoice balance,70000.0,USD,Customer remittance email and cash application log,2026-07-05
+OPS-Q2-046,Accounts receivable,INV-78088,2026-06-29,Cleared in June,June 30 open invoice balance,85000.0,USD,June bank settlement and cash application log,2026-07-05
+OPS-Q2-047,Accounts receivable,INV-78419,2026-07-02,Disputed; no remittance confirmation,June 30 open invoice balance,65000.0,USD,Customer dispute correspondence,2026-07-05
+OPS-Q2-048,Accounts receivable,INV-78703,2026-07-02,Remittance confirmed,July invoice balance,110000.0,USD,July billing register,2026-07-05

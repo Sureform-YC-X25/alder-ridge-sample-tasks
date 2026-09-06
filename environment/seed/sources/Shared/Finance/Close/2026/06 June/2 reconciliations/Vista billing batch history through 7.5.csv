@@ -1,0 +1,49 @@
+line_ref,accounting_period,posting_state,source_batch,journal_reference,department_code,account,debit,credit,source_module,activity_date
+VBH-001,2026-06,POSTED 7/03 15:40,BC-104,JN-8821,20,4100 Contract revenue - debit / (credit),260000.0,,Vista billing cut-off,2026-07-03
+VBH-002,2026-06,POSTED 7/03 15:40,BC-104,JN-8821,20,5100 Direct job cost - debit / (credit),,145600.0,Vista billing cut-off,2026-07-03
+VBH-003,2026-06,POSTED REVERSAL 7/03 15:41,BC-104,JN-8822,20,4100 Contract revenue - debit / (credit),,260000.0,Vista billing cut-off,2026-07-03
+VBH-004,2026-06,POSTED REVERSAL 7/03 15:41,BC-104,JN-8822,20,5100 Direct job cost - debit / (credit),145600.0,,Vista billing cut-off,2026-07-03
+VBH-005,2026-06,POSTED 7/03 15:42,BC-104,JN-8823,20,4100 Contract revenue - debit / (credit),242740.0,,Vista billing cut-off,2026-07-03
+VBH-006,2026-06,POSTED 7/03 15:42,BC-104,JN-8823,20,5100 Direct job cost - debit / (credit),,135934.4,Vista billing cut-off,2026-07-03
+VBH-007,2026-06,POSTED 7/03 16:05,BC-117,JN-8830,20,4100 Contract revenue - debit / (credit),210000.0,,Vista billing cut-off,2026-07-03
+VBH-008,2026-06,POSTED 7/03 16:05,BC-117,JN-8830,20,5100 Direct job cost - debit / (credit),,117600.0,Vista billing cut-off,2026-07-03
+VBH-009,2026-06,POSTED 7/03 17:10,BC-119,JN-8848,20,4100 Contract revenue - debit / (credit),,70000.0,Vista billing cut-off,2026-07-03
+VBH-010,2026-06,POSTED 7/03 17:10,BC-119,JN-8848,20,5100 Direct job cost - debit / (credit),39200.0,,Vista billing cut-off,2026-07-03
+VBH-011,2026-06,POSTED 7/03 14:51,SV-042,JN-8794,30,4100 Contract revenue - debit / (credit),118000.0,,Vista billing cut-off,2026-07-03
+VBH-012,2026-06,POSTED 7/03 14:51,SV-042,JN-8794,30,5100 Direct job cost - debit / (credit),,58528.0,Vista billing cut-off,2026-07-03
+VBH-013,2026-06,POSTED REVERSAL 7/03 14:52,SV-042,JN-8795,30,4100 Contract revenue - debit / (credit),,118000.0,Vista billing cut-off,2026-07-03
+VBH-014,2026-06,POSTED REVERSAL 7/03 14:52,SV-042,JN-8795,30,5100 Direct job cost - debit / (credit),58528.0,,Vista billing cut-off,2026-07-03
+VBH-015,2026-06,POSTED 7/03 14:53,SV-042,JN-8796,30,4100 Contract revenue - debit / (credit),96360.0,,Vista billing cut-off,2026-07-03
+VBH-016,2026-06,POSTED 7/03 14:53,SV-042,JN-8796,30,5100 Direct job cost - debit / (credit),,47848.0,Vista billing cut-off,2026-07-03
+VBH-017,2026-06,POSTED 7/03 16:18,SV-044,JN-8833,30,4100 Contract revenue - debit / (credit),65000.0,,Vista billing cut-off,2026-07-03
+VBH-018,2026-06,POSTED 7/03 16:18,SV-044,JN-8833,30,5100 Direct job cost - debit / (credit),,32500.0,Vista billing cut-off,2026-07-03
+VBH-019,2026-06,POSTED 7/03 16:37,SV-047,JN-8838,30,4100 Contract revenue - debit / (credit),,20000.0,Vista billing cut-off,2026-07-03
+VBH-020,2026-06,POSTED 7/03 16:37,SV-047,JN-8838,30,5100 Direct job cost - debit / (credit),10500.0,,Vista billing cut-off,2026-07-03
+VBH-021,2026-07,POSTED 7/03 17:25,SV-051,JN-8850,30,4100 Contract revenue - debit / (credit),,50000.0,Vista billing cut-off,2026-07-03
+VBH-022,2026-07,POSTED 7/03 17:25,SV-051,JN-8850,30,5100 Direct job cost - debit / (credit),26250.0,,Vista billing cut-off,2026-07-03
+VBH-023,2026-06,POSTED 7/03 13:25,CT-019,JN-8768,40,4100 Contract revenue - debit / (credit),98000.0,,Vista billing cut-off,2026-07-03
+VBH-024,2026-06,POSTED 7/03 13:25,CT-019,JN-8768,40,5100 Direct job cost - debit / (credit),,59200.0,Vista billing cut-off,2026-07-03
+VBH-025,2026-06,POSTED REVERSAL 7/03 13:26,CT-019,JN-8769,40,4100 Contract revenue - debit / (credit),,98000.0,Vista billing cut-off,2026-07-03
+VBH-026,2026-06,POSTED REVERSAL 7/03 13:26,CT-019,JN-8769,40,5100 Direct job cost - debit / (credit),59200.0,,Vista billing cut-off,2026-07-03
+VBH-027,2026-06,POSTED 7/03 13:27,CT-019,JN-8770,40,4100 Contract revenue - debit / (credit),126880.0,,Vista billing cut-off,2026-07-03
+VBH-028,2026-06,POSTED 7/03 13:27,CT-019,JN-8770,40,5100 Direct job cost - debit / (credit),,76612.4,Vista billing cut-off,2026-07-03
+VBH-029,2026-06,POSTED 7/03 15:08,CT-021,JN-8812,40,4100 Contract revenue - debit / (credit),,30000.0,Vista billing cut-off,2026-07-03
+VBH-030,2026-06,POSTED 7/03 15:08,CT-021,JN-8812,40,5100 Direct job cost - debit / (credit),18000.0,,Vista billing cut-off,2026-07-03
+VBH-031,2026-06,PARKED 7/03 17:58,CT-026,JN-8842,40,4100 Contract revenue - debit / (credit),44000.0,,Vista billing cut-off,2026-07-03
+VBH-032,2026-06,PARKED 7/03 17:58,CT-026,JN-8842,40,5100 Direct job cost - debit / (credit),,26576.0,Vista billing cut-off,2026-07-03
+VBH-033,2026-06,POSTED 7/04 08:12,BC-128,JN-8861,20,4100 Contract revenue - debit / (credit),300000.0,,Vista billing cut-off,2026-07-04
+VBH-034,2026-06,POSTED 7/04 08:12,BC-128,JN-8861,20,5100 Direct job cost - debit / (credit),,168000.0,Vista billing cut-off,2026-07-04
+VBH-035,2026-06,POSTED 7/04 11:46,SV-058,JN-8867,30,4100 Contract revenue - debit / (credit),180000.0,,Vista billing cut-off,2026-07-04
+VBH-036,2026-06,POSTED 7/04 11:46,SV-058,JN-8867,30,5100 Direct job cost - debit / (credit),,90000.0,Vista billing cut-off,2026-07-04
+VBH-037,2026-06,POSTED 7/05 07:18,CT-033,JN-8874,40,4100 Contract revenue - debit / (credit),,120000.0,Vista billing cut-off,2026-07-05
+VBH-038,2026-06,POSTED 7/05 07:18,CT-033,JN-8874,40,5100 Direct job cost - debit / (credit),72000.0,,Vista billing cut-off,2026-07-05
+VBH-039,2026-06,DRAFT 7/05 07:40,BC-130,JN-8878,20,4100 Contract revenue - debit / (credit),315000.0,,Vista billing cut-off,2026-07-05
+VBH-040,2026-06,DRAFT 7/05 07:40,BC-130,JN-8878,20,5100 Direct job cost - debit / (credit),,176400.0,Vista billing cut-off,2026-07-05
+VBH-041,2026-06,VOIDED 7/05 07:52,SV-060,JN-8880,30,4100 Contract revenue - debit / (credit),205000.0,,Vista billing cut-off,2026-07-05
+VBH-042,2026-06,VOIDED 7/05 07:52,SV-060,JN-8880,30,5100 Direct job cost - debit / (credit),,102500.0,Vista billing cut-off,2026-07-05
+VBH-043,2026-07,POSTED 7/05 08:03,CT-035,JN-8883,40,4100 Contract revenue - debit / (credit),225000.0,,Vista billing cut-off,2026-07-05
+VBH-044,2026-07,POSTED 7/05 08:03,CT-035,JN-8883,40,5100 Direct job cost - debit / (credit),,135000.0,Vista billing cut-off,2026-07-05
+VBH-045,2026-06,POSTED 7/03 17:32,BC-126,JN-8857,20,4100 Contract revenue - debit / (credit),180000.0,,Vista billing cut-off,2026-07-03
+VBH-046,2026-06,POSTED 7/03 17:32,BC-126,JN-8857,20,5100 Direct job cost - debit / (credit),,100800.0,Vista billing cut-off,2026-07-03
+VBH-047,2026-06,POSTED REVERSAL 7/03 17:33,BC-126,JN-8858,20,4100 Contract revenue - debit / (credit),,180000.0,Vista billing cut-off,2026-07-03
+VBH-048,2026-06,POSTED REVERSAL 7/03 17:33,BC-126,JN-8858,20,5100 Direct job cost - debit / (credit),100800.0,,Vista billing cut-off,2026-07-03

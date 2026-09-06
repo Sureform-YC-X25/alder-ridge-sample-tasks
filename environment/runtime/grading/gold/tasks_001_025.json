@@ -1,16 +1,21 @@
 {
   "task_001": {
+    "accepted_cost_participation": 0.0,
     "bridge": {
       "billings_change": 79513.55,
-      "close_etc_change": 23107.87,
-      "contract_asset_change": -68625.38,
+      "close_cost_basis_change": 189088.82,
+      "close_etc_change": -63892.13,
+      "contract_asset_change": 26921.36,
       "contract_liability_change": 0.0,
       "current_contract_change": 0.0,
-      "eac_change": 185000.0,
-      "earned_revenue_change": 10888.17,
-      "estimated_margin_change": -185000.0,
-      "margin_rate_change_bps": -334.78,
-      "percent_complete_change_bps": 19.7,
+      "cutoff_accrual_change": 27196.69,
+      "cutoff_credit_memo_change": -0.0,
+      "eac_change": 125196.69,
+      "earned_revenue_change": 106434.91,
+      "estimated_margin_change": -125196.69,
+      "margin_rate_change_bps": -226.56,
+      "net_cutoff_cost_change": 27196.69,
+      "percent_complete_change_bps": 192.61,
       "posted_cost_change": 161892.13
     },
     "close_impact_bridge": {
@@ -18,52 +23,59 @@
       "policy_corrected_status": "controls the preparer workpaper pending Controller review",
       "rows": [
         {
-          "impact": 185000,
+          "impact": 27196.69,
+          "metric": "Cost to date / close basis",
+          "pm_case": 3731500.0,
+          "policy_corrected": 3758696.69,
+          "unit": "dollars"
+        },
+        {
+          "impact": 98000.0,
           "metric": "ETC",
           "pm_case": 584000,
-          "policy_corrected": 769000,
+          "policy_corrected": 682000.0,
           "unit": "dollars"
         },
         {
-          "impact": 185000,
+          "impact": 125196.69,
           "metric": "EAC",
           "pm_case": 4315500.0,
-          "policy_corrected": 4500500.0,
+          "policy_corrected": 4440696.69,
           "unit": "dollars"
         },
         {
-          "impact": -355.43753419382875,
+          "impact": -182.53,
           "metric": "Percent complete",
           "pm_case": 0.86467385007531,
-          "policy_corrected": 0.8291300966559271,
+          "policy_corrected": 0.8464204948886072,
           "unit": "basis_points"
         },
         {
-          "impact": -196414.78139550984,
+          "impact": -100868.05,
           "metric": "Earned revenue",
-          "pm_case": 4778187.695516163,
-          "policy_corrected": 4581772.914120653,
+          "pm_case": 4778187.7,
+          "policy_corrected": 4677319.65,
           "unit": "dollars"
         },
         {
-          "impact": -196414.78139550984,
+          "impact": -100868.05,
           "metric": "Contract asset",
-          "pm_case": 402594.56551616266,
-          "policy_corrected": 206179.78412065282,
+          "pm_case": 402594.57,
+          "policy_corrected": 301726.52,
           "unit": "dollars"
         },
         {
-          "impact": -185000.0,
+          "impact": -125196.69,
           "metric": "Estimated margin",
           "pm_case": 1210500.0,
-          "policy_corrected": 1025500.0,
+          "policy_corrected": 1085303.31,
           "unit": "dollars"
         },
         {
-          "impact": -334.7810351067679,
+          "impact": -226.56,
           "metric": "Margin rate",
           "pm_case": 0.21905537459283386,
-          "policy_corrected": 0.18557727108215707,
+          "policy_corrected": 0.19639944082519,
           "unit": "basis_points"
         }
       ]
@@ -72,7 +84,7 @@
       {
         "amount_or_assumption": 185000.0,
         "authority_status": "Low-confidence PM estimate; not accounting authorization",
-        "close_treatment": "The $185,000 recovery is embedded as an ETC offset and must be restored to remaining cost for the June close.",
+        "close_treatment": "The full $185,000 recovery is embedded as an ETC offset. Reconcile it to the commercial evidence before determining the June correction.",
         "cutoff_or_date": "2026-06-28 16:15",
         "evidence_to_clear": "Revised PM ETC without the unsupported recovery or documented Controller disposition.",
         "source": "PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
@@ -80,8 +92,8 @@
       },
       {
         "amount_or_assumption": 185000.0,
-        "authority_status": "Draft; Contract Included No; recovery disputed and unaccepted",
-        "close_treatment": "Exclude PCO-011 from current contract value and do not net the recovery against ETC.",
+        "authority_status": "Working master export; Draft and Contract Included No for the full PCO-011 position",
+        "close_treatment": "Exclude PCO-011 from customer contract value and do not net the recovery against ETC without an effective resolution.",
         "cutoff_or_date": "2026-06-30",
         "evidence_to_clear": "Executed or accepted resolution plus support for entitlement and collectability.",
         "source": "CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
@@ -89,28 +101,111 @@
       },
       {
         "amount_or_assumption": 185000.0,
-        "authority_status": "Draft internal backcharge packet; concrete trade disputes responsibility; no executed modification",
-        "close_treatment": "Use the packet as probable-cost evidence only; restore $185,000 to ETC and recognize no recovery revenue.",
+        "authority_status": "Draft internal packet through June 24; concrete trade disputes responsibility",
+        "close_treatment": "Use the packet for the gross exposure and chronology; it does not provide an executed recovery.",
         "cutoff_or_date": "2026-06-30",
         "evidence_to_clear": "Counterparty acceptance or enforceable settlement and Controller-approved accounting conclusion.",
-        "source": "2409_PCO11_backcharge backup - draft2.pdf",
+        "source": "2409_commercial working_6.24.pdf",
         "source_key": "pco_backup"
+      },
+      {
+        "amount_or_assumption": 72000.0,
+        "authority_status": "Signed and returned by June 30, but not effective at that cutoff because delivery of CCS-CM-0629-17 to ARM Commercial Records was an operative condition and occurred July 2. The conditional $72,000 adjustment is allocated $27,000 to previously billed work and $45,000 to the remaining unbilled subcontract balance.",
+        "close_treatment": "Do not recognize either conditional credit component at June 30. Reverse the full unsupported PM recovery, include the $185,000 cost exposure after removing the $46,800 already carried across posted cost and base ETC, and keep the subcontract matter out of customer contract value.",
+        "cutoff_or_date": "Cascade signed 2026-06-29; ARM signed 2026-06-30; separate routing transmittal records the 2026-06-29 package release and the 2026-06-30 return of the executed counterpart to both parties; referenced credit memorandum delivered to ARM Commercial Records 2026-07-02 07:41 PT; contract-file scan received 2026-07-02 08:05 PT",
+        "evidence_to_clear": "Document the July 2 effectiveness for subsequent treatment, apply both components to the next subcontract payment application, and continue resolution of the remaining $113,000 working position.",
+        "source": "contract-records scan batch 20260702-01 page 3",
+        "source_key": "executed_credit_agreement"
+      },
+      {
+        "amount_or_assumption": -27000.0,
+        "authority_status": "CCS-CM-0629-17 applies $27,000 against previously billed field-rework items under Payment Application 14, forms part of the June 29 resolution, was received by ARM Commercial Records July 2, and is absent from the June ledger",
+        "close_treatment": "Do not record the $27,000 vendor credit in the June close cost basis or remaining ETC because the resolution's delivery condition was satisfied after June 30.",
+        "cutoff_or_date": "Credit memorandum dated 2026-06-30; contract-file scan received 2026-07-02 07:41 PT",
+        "evidence_to_clear": "Route the effective July 2 credit memorandum to AP for subsequent-period processing and retain the delivery evidence.",
+        "source": "contract-records scan batch 20260702-01 page 1",
+        "source_key": "executed_credit_memo"
+      },
+      {
+        "amount_or_assumption": 33796.69,
+        "authority_status": "Ordinary cumulative mixed-period progress invoice: $46,800 gross billings less $13,003.31 of prior billings leaves $33,796.69 due. Accounting identifies that draw as vendor invoice 88102 / AP-0004287; invoice 88417 itself is unposted. Gross June work is $40,200 and the July 2 line is $6,600.",
+        "close_treatment": "Accrue only the $27,196.69 unbilled June portion, remove that amount and the $13,003.31 prior-billing duplicate from remaining subcontract ETC, leave $6,600 in ETC for July, reconcile the full $46,800 PO to the same cost inside the $185,000 PCO build, and keep the separate AP accrual outside the WIP journal.",
+        "cutoff_or_date": "Invoice lines span 2026-06-22 through 2026-07-02; invoice dated 2026-06-29; AP inbox received 2026-07-01 07:42 PT",
+        "evidence_to_clear": "Post or otherwise approve the separate AP accrual, then retie the WIP close basis to the ledger before WIP posting.",
+        "source": "AP invoice scan batch 20260701-02 page 4 and AP intake queue",
+        "source_key": "late_vendor_invoice"
       },
       {
         "amount_or_assumption": 100.0,
         "authority_status": "Signed controlling accounting policy FIN-REV-04",
-        "close_treatment": "Pending recovery does not increase contract value or reduce ETC; a margin-rate movement over 100 basis points and a disputed recovery require Controller review.",
+        "close_treatment": "A subcontract credit may reduce forecast cost only when its operative conditions are satisfied, without increasing customer contract value. The unsupported recovery and material margin-rate movement require Controller review.",
         "cutoff_or_date": "2024-11-01",
         "evidence_to_clear": "Documented Controller disposition before posting.",
         "source": "Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
         "source_key": "wip_policy"
       }
     ],
+    "commercial_etc_correction": 185000.0,
     "controller_review_required": true,
+    "credit_effective_at_cutoff": false,
+    "credit_effective_date": "2026-07-02 07:41 PT",
+    "cutoff_accrual": 27196.69,
+    "cutoff_accrual_control": {
+      "amount": 33796.69,
+      "ap_inbox_received": "2026-07-01 07:42 PT",
+      "billing_window": "2026-06-22 through 2026-07-02",
+      "control_conclusion": "Invoice 88417 reports $46,800 of gross release billings less $13,003.31 of prior billings, leaving $33,796.69 currently due. Accounting identifies the prior draw as vendor invoice 88102 / AP-0004287. The current invoice is absent from the June posted populations, but its prior draw remains inside the PM snapshot's gross $46,800 forecast amount. Gross June work is $40,200 and the July 2 line is $6,600, so only the unbilled $27,196.69 June portion requires a separate accrual. Remove both the stale $13,003.31 prior-billing duplicate and the $27,196.69 current transfer from ETC, leaving the $6,600 July line there. CCS-CM-0629-17 is also absent from the June ledger and conditionally applies $27,000 against previously billed work. The agreement makes delivery to ARM Commercial Records an operative condition, and the receipt stamp is July 2, so no credit component is recognized in the June close. The July 2 contract-records batch also ties PO-2409-117 to the field-report package identified by the PCO-011 agreement, so remove that duplicate overlay before computing EAC.",
+      "credit_memo_amount": -27000.0,
+      "credit_memo_date": "2026-06-30",
+      "credit_memo_effective_at_cutoff": false,
+      "credit_memo_effective_date": "2026-07-02 07:41 PT",
+      "credit_memo_june_posted_amount": 0.0,
+      "credit_memo_june_posted_job_cost_match_count": 0,
+      "credit_memo_june_posted_journal_match_count": 0,
+      "credit_memo_june_vendor_bill_match_count": 0,
+      "credit_memo_number": "CCS-CM-0629-17",
+      "credit_memo_received": "2026-07-02 07:41 PT",
+      "credit_memo_source": "Shared/Operations/Commercial/Contract Records/2026/07/02/scan batch 20260702-01.pdf",
+      "eac_effect_of_cutoff_transfer": 0.0,
+      "gross_billings_to_date": 46800.0,
+      "gross_june_work_amount": 40200.0,
+      "invoice_date": "2026-06-29",
+      "june_eligible_amount": 27196.69,
+      "june_posted_amount": 0.0,
+      "june_posted_job_cost_match_count": 0,
+      "june_posted_journal_match_count": 0,
+      "june_vendor_bill_match_count": 0,
+      "net_cutoff_cost_adjustment": 27196.69,
+      "pm_etc_duplicate_prior_billing": 13003.31,
+      "pm_subcontract_etc_includes_commitment": true,
+      "post_cutoff_line_amount": 6600.0,
+      "prior_billing_amount": 13003.31,
+      "prior_billing_posted_amount": 13003.31,
+      "prior_billing_posted_job_cost_match_count": 1,
+      "prior_billing_posted_journal_match_count": 1,
+      "prior_billing_vendor_bill_match_count": 1,
+      "prior_internal_document": "AP-0004287",
+      "prior_invoice_number": "88102",
+      "release_boundary": "Project Accounting must approve or post the separate gross AP invoice cutoff, exclude the post-cutoff conditional credit from June, and retie the close cost basis before the Controller releases the WIP entry.",
+      "required_separate_ap_accrual": 27196.69,
+      "required_separate_ap_credit": -0.0,
+      "source": "Shared/Finance/AP/Invoice Batches/2026/07/01/batch 20260701-02.pdf",
+      "transfer_from_remaining_etc": -27196.69,
+      "vendor_invoice_number": "88417",
+      "wip_journal_includes_ap_accrual": false
+    },
+    "cutoff_credit_memo": 27000.0,
+    "cutoff_invoice_face_amount": 33796.69,
+    "cutoff_invoice_gross_amount": 46800.0,
+    "cutoff_invoice_gross_june_work": 40200.0,
+    "cutoff_invoice_prior_billing": 13003.31,
     "disputed_recovery_etc_action": "add_back_to_pm_etc",
+    "documented_current_cost_credit": 27000.0,
+    "documented_remaining_cost_credit": 45000.0,
     "draft_change_contract_treatment": "exclude",
+    "earlier_shared_review_snapshot": "2026-07-01 08:47 PT",
     "etc_composition_schedule": {
-      "basis": "Submitted PM components total $584,000. The three PCO-011 draft-recovery components total $185,000 and are restored to remaining cost, not treated as contract value or recovery revenue. The policy-corrected close ETC is $769,000.",
+      "basis": "Submitted PM components total $584,000 after a $185,000 exposure and equal forecast credit. In the July 2 contract-file batch, the PCO-011 agreement and the separately scanned PO-2409-117 vendor release use the same field-report package; that PO is already carried for $46,800 in base subcontract ETC, so only $138,200 of the gross exposure is incremental to the PM base. Invoice 88417 then deducts a $13,003.31 prior draw already posted as AP-0004287, while the PM snapshot still carries the gross PO; that duplicate leaves ETC. Although the correspondence is signed and returned by June 30, it makes delivery of CCS-CM-0629-17 to ARM Commercial Records an operative condition. The memo was received July 2, so neither the $27,000 previously billed component nor the $45,000 remaining-balance component is effective at the June 30 cutoff. Gross June work under the same PO is $40,200, but $13,003.31 was billed and posted earlier; only the remaining $27,196.69 moves to the June cost basis, and the $6,600 July 2 line stays in ETC. Net ETC correction is $98,000, close ETC is $682,000, and neither the conditional subcontract adjustment nor the cutoff transfer enters customer contract value or recovery revenue.",
       "rows": [
         {
           "finance_correction": 0.0,
@@ -153,36 +248,58 @@
           "source_basis": "Project Forecasts sheet; ARM-2409 submitted PM component."
         },
         {
-          "finance_correction": 83000.0,
-          "key": "recovery_labor",
-          "label": "PCO-011 disputed recovery - labor",
+          "finance_correction": -0.0,
+          "key": "executed_credit_agreement",
+          "label": "June 29 conditional subcontract-credit agreement",
           "pm_etc": 0.0,
-          "policy_corrected_etc": 83000.0,
-          "source_basis": "PCO-011 Attachment A draft recovery position; restore to ETC."
+          "policy_corrected_etc": 0.0,
+          "source_basis": "The correspondence contains both signatures, and the separate routing transmittal records ARM's package release and return of the signed counterpart to both parties by June 30. The agreement also requires Cascade to deliver CCS-CM-0629-17 to ARM Commercial Records. The memo's ordinary July 2 receipt stamp means neither its $27,000 billed-work component nor the $45,000 remaining-balance component is effective at the June 30 cutoff."
         },
         {
-          "finance_correction": 85000.0,
-          "key": "recovery_material_sub",
-          "label": "PCO-011 disputed recovery - material / sub",
+          "finance_correction": -46800.0,
+          "key": "pco_cost_already_in_pm_base",
+          "label": "PCO-011 cost already carried in PM base",
           "pm_etc": 0.0,
-          "policy_corrected_etc": 85000.0,
-          "source_basis": "PCO-011 Attachment A draft recovery position; restore to ETC."
+          "policy_corrected_etc": -46800.0,
+          "source_basis": "The PM Commitment Detail sheet carries PO-2409-117 for $46,800 inside base subcontract ETC. In the July 2 contract-records batch, the PCO-011 agreement identifies field reports FR-2409-118 through FR-2409-121 and a separate Rogue Valley release carries that PO for the same field-report package. Only $138,200 of the $185,000 gross exposure is incremental to the PM base."
         },
         {
-          "finance_correction": 17000.0,
-          "key": "recovery_oh_markup",
-          "label": "PCO-011 disputed recovery - OH / markup",
+          "finance_correction": -13003.31,
+          "key": "prior_billing_duplicated_in_pm_etc",
+          "label": "Prior Rogue Valley billing still carried in PM ETC",
           "pm_etc": 0.0,
-          "policy_corrected_etc": 17000.0,
-          "source_basis": "PCO-011 Attachment A draft recovery position; restore to ETC."
+          "policy_corrected_etc": -13003.31,
+          "source_basis": "Invoice 88417 deducts $13,003.31 of prior billings. The June ledger identifies that draw as vendor invoice 88102 / AP-0004287, while PM Commitment Detail still uses the gross $46,800 PO forecast rather than its $33,796.69 open amount. Remove the prior-billing duplicate from ETC."
+        },
+        {
+          "finance_correction": -27196.69,
+          "key": "late_invoice_transfer",
+          "label": "Unbilled June portion of Rogue Valley invoice 88417 transferred to incurred cost",
+          "pm_etc": 0.0,
+          "policy_corrected_etc": -27196.69,
+          "source_basis": "The release allocates $40,200 to the June 22-28 field window and $6,600 to July 2. Invoice 88417 deducts the $13,003.31 prior draw, already posted as AP-0004287, from $46,800 gross billings. Only the remaining $27,196.69 of June work requires a current cutoff transfer."
+        },
+        {
+          "finance_correction": 185000.0,
+          "key": "unsupported_forecast_recovery",
+          "label": "Unsupported remainder of the PCO-011 forecast credit",
+          "pm_etc": 0.0,
+          "policy_corrected_etc": 185000.0,
+          "source_basis": "Restore the full $185,000 PM forecast credit before separately applying the executed agreement's source-supported current-cost and remaining-cost components."
         }
       ],
       "totals": {
-        "finance_correction": 185000.0,
+        "finance_correction": 98000.0,
         "pm_etc": 584000.0,
-        "policy_corrected_etc": 769000.0
+        "policy_corrected_etc": 682000.0
       }
     },
+    "etc_transfer_to_incurred": -27196.69,
+    "evidence_cutoff": "2026-07-02 08:30 PT",
+    "executed_credit_agreement": 72000.0,
+    "executed_current_cost_credit": 0.0,
+    "executed_remaining_cost_credit": 0.0,
+    "forecast_recovery": 185000.0,
     "full_population_posting_control": {
       "conclusion": "All 23 June ARM-2409 job-cost entries are posted exactly once. The $161,892.13 population reconciles to 23 project expense lines across 13 posted journals and to the recorded AP and payroll offset accounts, with no unmatched, duplicate, orphan, unposted, out-of-balance, or wrong-offset exceptions.",
       "detail_rows": [
@@ -382,21 +499,6 @@
           "variance": 0.0
         },
         {
-          "cost_code": "02-410",
-          "document_number": "AP-0004287",
-          "expense_account": "5030",
-          "expense_debit": 13003.31,
-          "expense_line_id": 43529,
-          "job_cost_amount": 13003.31,
-          "job_cost_entry_id": 15916,
-          "journal_id": 17025,
-          "posting_date": "2026-06-20",
-          "sequence": 14,
-          "source": "AP",
-          "status": "Posted",
-          "variance": 0.0
-        },
-        {
           "cost_code": "01-100",
           "document_number": "PRJ-PAY-ARM-2409-20260621",
           "expense_account": "5110",
@@ -406,7 +508,7 @@
           "job_cost_entry_id": 15928,
           "journal_id": 17036,
           "posting_date": "2026-06-21",
-          "sequence": 15,
+          "sequence": 14,
           "source": "PAY",
           "status": "Posted",
           "variance": 0.0
@@ -421,7 +523,7 @@
           "job_cost_entry_id": 15929,
           "journal_id": 17036,
           "posting_date": "2026-06-21",
-          "sequence": 16,
+          "sequence": 15,
           "source": "PAY",
           "status": "Posted",
           "variance": 0.0
@@ -436,8 +538,23 @@
           "job_cost_entry_id": 15930,
           "journal_id": 17036,
           "posting_date": "2026-06-21",
-          "sequence": 17,
+          "sequence": 16,
           "source": "PAY",
+          "status": "Posted",
+          "variance": 0.0
+        },
+        {
+          "cost_code": "02-210",
+          "document_number": "AP-0004287",
+          "expense_account": "5030",
+          "expense_debit": 13003.31,
+          "expense_line_id": 43529,
+          "job_cost_amount": 13003.31,
+          "job_cost_entry_id": 15916,
+          "journal_id": 17025,
+          "posting_date": "2026-06-25",
+          "sequence": 17,
+          "source": "AP",
           "status": "Posted",
           "variance": 0.0
         },
@@ -689,20 +806,6 @@
           "status": "Posted"
         },
         {
-          "document_number": "AP-0004287",
-          "expense_debits": 13003.31,
-          "expense_line_count": 1,
-          "job_cost_entry_count": 1,
-          "journal_id": 17025,
-          "offset_account": "2000",
-          "offset_credits": 13003.31,
-          "offset_line_id": 43530,
-          "out_of_balance": 0.0,
-          "posting_date": "2026-06-20",
-          "source": "AP",
-          "status": "Posted"
-        },
-        {
           "document_number": "PRJ-PAY-ARM-2409-20260621",
           "expense_debits": 11812.12,
           "expense_line_count": 3,
@@ -714,6 +817,20 @@
           "out_of_balance": -0.0,
           "posting_date": "2026-06-21",
           "source": "PAY",
+          "status": "Posted"
+        },
+        {
+          "document_number": "AP-0004287",
+          "expense_debits": 13003.31,
+          "expense_line_count": 1,
+          "job_cost_entry_count": 1,
+          "journal_id": 17025,
+          "offset_account": "2000",
+          "offset_credits": 13003.31,
+          "offset_line_id": 43530,
+          "out_of_balance": 0.0,
+          "posting_date": "2026-06-25",
+          "source": "AP",
           "status": "Posted"
         },
         {
@@ -807,7 +924,10 @@
         }
       ]
     },
+    "net_cutoff_cost_adjustment": 27196.69,
+    "pco_cost_already_in_pm_base": 46800.0,
     "pm_etc": 584000,
+    "post_cutoff_invoice_line": 6600.0,
     "posting_lineage": {
       "account_controls": [
         {
@@ -1007,6 +1127,7 @@
         }
       ]
     },
+    "prior_billing_duplicated_in_pm_etc": 13003.31,
     "prior_month": {
       "billings": 4296079.58,
       "close_etc": 745892.13,
@@ -1023,138 +1144,107 @@
     "project": {
       "billings": 4375593.13,
       "branch": "Portland",
-      "cost_to_date": 3731500.0,
+      "cost_to_date": 3758696.69,
       "current_contract": 5526000,
-      "earned_revenue": 4581772.91,
-      "estimated_cost_at_completion": 4500500.0,
-      "estimated_cost_to_complete": 769000,
-      "estimated_margin": 850272.91,
-      "estimated_margin_percent": 0.185577,
-      "estimated_total_margin": 1025500.0,
-      "overbilling": 0,
-      "percent_complete": 0.8291300966559271,
+      "cutoff_accrual": 27196.69,
+      "cutoff_credit_memo": -0.0,
+      "cutoff_invoice_face_amount": 33796.69,
+      "cutoff_invoice_gross_amount": 46800.0,
+      "cutoff_invoice_gross_june_work": 40200.0,
+      "cutoff_invoice_prior_billing": 13003.31,
+      "documented_credit_memo": -27000.0,
+      "earned_revenue": 4677319.65,
+      "estimated_cost_at_completion": 4440696.69,
+      "estimated_cost_to_complete": 682000.0,
+      "estimated_margin": 918622.96,
+      "estimated_margin_percent": 0.196399,
+      "estimated_total_margin": 1085303.31,
+      "net_cutoff_cost_adjustment": 27196.69,
+      "overbilling": 0.0,
+      "percent_complete": 0.8464204948886072,
+      "post_cutoff_invoice_line": 6600.0,
+      "posted_cost_to_date": 3731500.0,
       "project_id": "ARM-2409",
       "project_manager": "Priya Raman",
       "project_name": "Northline Cold Storage Expansion",
       "status": "Active",
-      "underbilling": 206179.78
+      "underbilling": 301726.52
     },
     "proposed_journal_bridge": {
-      "basis": "Reverse the final May gross ARM-2409 WIP balance, establish the policy-corrected June 30 gross balance, and show the resulting net June entry.",
-      "stages": [
-        {
-          "basis": "Final May WIP file: contract asset $274,805.16 and no contract liability.",
-          "out_of_balance": 0.0,
-          "rows": [
-            {
-              "account": "1200 Costs and earnings in excess of billings",
-              "account_key": "account_1200",
-              "credit": 274805.16,
-              "debit": 0.0,
-              "description": "Reverse the final May ARM-2409 gross contract asset."
-            },
-            {
-              "account": "2100 Billings in excess of costs and earnings",
-              "account_key": "account_2100",
-              "credit": 0.0,
-              "debit": 0.0,
-              "description": "Reverse the final May ARM-2409 gross contract liability, which is nil."
-            },
-            {
-              "account": "4300 WIP revenue adjustment",
-              "account_key": "account_4300",
-              "credit": 0.0,
-              "debit": 274805.16,
-              "description": "Reverse the balancing final May WIP revenue adjustment."
-            }
-          ],
-          "stage": "Reverse May close",
-          "stage_key": "may_reversal",
-          "total_credits": 274805.16,
-          "total_debits": 274805.16
-        },
-        {
-          "basis": "Policy-corrected June WIP: contract asset $206,179.78 and no contract liability.",
-          "out_of_balance": 0.0,
-          "rows": [
-            {
-              "account": "1200 Costs and earnings in excess of billings",
-              "account_key": "account_1200",
-              "credit": 0.0,
-              "debit": 206179.78,
-              "description": "Establish the policy-corrected June ARM-2409 gross contract asset."
-            },
-            {
-              "account": "2100 Billings in excess of costs and earnings",
-              "account_key": "account_2100",
-              "credit": 0.0,
-              "debit": 0.0,
-              "description": "Establish the policy-corrected June ARM-2409 gross contract liability, which is nil."
-            },
-            {
-              "account": "4300 WIP revenue adjustment",
-              "account_key": "account_4300",
-              "credit": 206179.78,
-              "debit": 0.0,
-              "description": "Record the balancing policy-corrected June WIP revenue adjustment."
-            }
-          ],
-          "stage": "Establish June close",
-          "stage_key": "june_establishment",
-          "total_credits": 206179.78,
-          "total_debits": 206179.78
-        },
-        {
-          "basis": "Net June effect: credit contract asset and debit WIP revenue adjustment $68,625.38; this equals the May-to-June contract-asset decrease.",
-          "out_of_balance": 0.0,
-          "rows": [
-            {
-              "account": "1200 Costs and earnings in excess of billings",
-              "account_key": "account_1200",
-              "credit": 68625.38,
-              "debit": 0.0,
-              "description": "Net June posting effect after reversing May and establishing the policy-corrected June gross balance."
-            },
-            {
-              "account": "2100 Billings in excess of costs and earnings",
-              "account_key": "account_2100",
-              "credit": 0.0,
-              "debit": 0.0,
-              "description": "Net June posting effect after reversing May and establishing the policy-corrected June gross balance."
-            },
-            {
-              "account": "4300 WIP revenue adjustment",
-              "account_key": "account_4300",
-              "credit": 0.0,
-              "debit": 68625.38,
-              "description": "Net June posting effect after reversing May and establishing the policy-corrected June gross balance."
-            }
-          ],
-          "stage": "Net June posting",
-          "stage_key": "net_june",
-          "total_credits": 68625.38,
-          "total_debits": 68625.38
-        }
-      ],
+      "basis": "The May company WIP entry auto-reversed on June 1. The June 30 entry re-establishes the cumulative gross balance, so ARM-2409's proposed contribution is the gross June contract asset rather than the May-to-June balance-sheet change. The separate $27,196.69 current-invoice cutoff is included in the close cost basis but is not a WIP-journal line; the $13,003.31 prior invoice is already posted and requires only removal from the stale gross PM forecast. The conditional $27,000 credit memorandum was delivered after June 30 and is not a June close or WIP-journal line.",
+      "period_effect": {
+        "contract_asset_change": 26921.36,
+        "wip_revenue_adjustment_credit": 26921.36,
+        "wip_revenue_adjustment_debit": 0.0
+      },
+      "posted_reversal": {
+        "posting_date": "2026-06-01",
+        "project_effect_rows": [
+          {
+            "account": "4300 WIP revenue adjustment",
+            "account_key": "account_4300",
+            "credit": 0.0,
+            "debit": 274805.16,
+            "description": "Project-level effect of the posted May WIP auto-reversal."
+          },
+          {
+            "account": "1200 Costs and earnings in excess of billings",
+            "account_key": "account_1200",
+            "credit": 274805.16,
+            "debit": 0.0,
+            "description": "Project-level May contract asset reversed on June 1."
+          }
+        ],
+        "reference": "REV-WIP-2026-05",
+        "status": "Posted"
+      },
+      "proposed_june_contribution": {
+        "out_of_balance": 0.0,
+        "posting_date": "2026-06-30",
+        "rows": [
+          {
+            "account": "1200 Costs and earnings in excess of billings",
+            "account_key": "account_1200",
+            "credit": 0.0,
+            "debit": 301726.52,
+            "description": "Re-establish the gross June ARM-2409 contract asset."
+          },
+          {
+            "account": "4300 WIP revenue adjustment",
+            "account_key": "account_4300",
+            "credit": 301726.52,
+            "debit": 0.0,
+            "description": "Balance the project contribution to the June WIP entry."
+          }
+        ],
+        "total_credits": 301726.52,
+        "total_debits": 301726.52
+      },
       "status": "Proposed and unposted; pending documented Controller approval"
     },
-    "required_etc_adjustment": 185000,
+    "required_etc_adjustment": 98000.0,
     "signoff": {
       "actions": [
         {
-          "action": "Restore $185,000 to remaining ETC, recalculate the June WIP, and retain the support in the close file.",
-          "evidence": "Updated WIP calculation and retained close support.",
+          "action": "Approve or post the separate $27,196.69 current-invoice cutoff, retain the $6,600 July line in ETC, confirm prior invoice 88102 is AP-0004287, remove its stale PM duplicate, exclude CCS-CM-0629-17 from June, and retie the close cost basis before WIP release.",
+          "evidence": "Approved invoice cutoff or posted document plus a cumulative-billing and cost-basis-to-ledger reconciliation showing no duplicate ETC or premature credit.",
+          "owner": "AP / Project Accounting",
+          "status": "Open"
+        },
+        {
+          "action": "Use the net $98,000 ETC correction, carry the $301,726.52 gross project contribution into the consolidated WIP entry, and keep the invoice cutoff outside that WIP journal.",
+          "evidence": "Final schedule-to-entry tie referencing the invoice, prior draw, conditional credit, PM commitment, commercial cost build, correspondence, accounting population, and this memo.",
           "owner": "Finance / Project Accounting",
           "status": "Open"
         },
         {
-          "action": "Keep PCO-011 outside contract value until an executed or accepted resolution and collectability assessment are obtained.",
-          "evidence": "Executed or accepted resolution and documented collectability assessment.",
+          "action": "Document the July 2 effectiveness, apply the $27,000 billed-work credit and $45,000 remaining-balance reduction to the next payment application, and continue resolution of the remaining $113,000 without changing customer contract value.",
+          "evidence": "Commercial Records delivery evidence and payment-application deduction showing both components, plus support for any additional recovery.",
           "owner": "Commercial / Project Team",
           "status": "Open"
         },
         {
-          "action": "Review the 334.78-basis-point decline and disputed recovery treatment; approve or return the workpaper and record documented Controller disposition before any WIP posting.",
+          "action": "Review the 226.56-basis-point decline, invoice cutoff, conditional-credit timing, ETC transfer, forecast-overlap correction, and consolidated entry; approve or return before posting is released.",
           "evidence": "Documented Controller disposition.",
           "owner": "Controller",
           "status": "Pending"
@@ -1162,44 +1252,50 @@
       ],
       "bridge_driver_explanations": {
         "Billings": "June billing activity increased cumulative billings by $79,513.55.",
-        "Contract asset": "The contract asset decreased $68,625.38 because billings growth exceeded earned-revenue growth.",
+        "Contract asset": "The contract asset increased $26,921.36 because earned-revenue growth exceeded billing growth.",
         "Contract liability": "The contract liability remained zero because earned revenue continued to exceed billings.",
-        "Current contract": "No change: executed contract value remained $5,526,000 and PCO-011 was not authorized at the cutoff.",
-        "EAC": "EAC increased $185,000 because the unsupported recovery offset was removed from forecast cost.",
-        "Earned revenue": "Earned revenue increased $10,888.17 because percent complete increased on unchanged executed contract value.",
-        "Estimated margin at completion": "Estimated total margin decreased $185,000 because EAC rose $185,000 while contract value was unchanged.",
-        "Margin rate": "Margin rate decreased 334.78 bps because estimated total margin fell $185,000 on unchanged contract value.",
-        "Percent complete": "Percent complete increased 19.70 bps as posted cost and policy-corrected EAC moved to the June balances.",
-        "Posted cost": "June posting activity increased cost to date by $161,892.13 from the final May close.",
-        "Remaining cost / ETC": "Restoring the $185,000 disputed recovery to the $584,000 PM ETC produced $769,000, a $23,107.87 increase from May."
+        "Cost to date / close basis": "The $27,196.69 unbilled June amount produces a $3,758,696.69 close cost basis, or $189,088.82 above May; the $13,003.31 prior draw is already posted, and the conditional credit is not effective at June 30.",
+        "Current contract": "No change: executed customer contract value remained $5,526,000 and no PCO-011 customer modification exists.",
+        "EAC": "EAC increased $125,196.69 from May because only $138,200 of the $185,000 PCO cost build is incremental to the project base, the conditional $72,000 adjustment is not effective at cutoff, and the stale $13,003.31 PM forecast duplicate is removed; the current-invoice transfer itself has no EAC effect.",
+        "Earned revenue": "Earned revenue increased $106,434.91 because percent complete increased on unchanged executed customer contract value.",
+        "Estimated margin at completion": "Estimated total margin decreased $-125,196.69 because EAC rose by the same amount while customer contract value was unchanged.",
+        "Margin rate": "Margin rate decreased -226.56 bps because estimated total margin fell on unchanged customer contract value.",
+        "Percent complete": "Percent complete increased 192.61 bps as the close cost basis advanced and EAC moved to the policy-corrected June balance.",
+        "Posted cost": "June posted activity increased ledger cost by $161,892.13 from the final May close.",
+        "Remaining cost / ETC": "Reversing the $185,000 forecast credit, removing the $46,800 cost already carried in the project base from the PCO overlay, removing the stale $13,003.31 prior-billing duplicate from PM ETC, moving the $27,196.69 unbilled June amount to incurred cost, retaining $6,600 for July, and applying no conditional credit at cutoff produces $682,000.00 ETC, a $-63,892.13 movement from May."
       },
       "bridge_drivers": {
         "Billings": "Billings from company accounting records at June 30.",
-        "Close ETC": "PM ETC plus the $185,000 finance correction.",
+        "Close ETC": "PM ETC plus the net $98,000 finance correction.",
         "Contract asset": "Earned revenue less billings, presented gross.",
         "Contract liability": "No overbilling in the policy-corrected June case.",
-        "Current contract": "Current contract from company accounting records at June 30; no PCO-011 recovery included.",
-        "EAC": "Posted cost plus policy-corrected remaining ETC.",
+        "Cost to date / close basis": "Posted June job cost already includes Rogue Valley prior invoice 88102 for $13,003.31; add only $27,196.69 of unbilled June work from current invoice 88417. The conditional credit is not effective at June 30.",
+        "Current contract": "Current contract from company accounting records at June 30; the subcontract recovery does not amend the customer contract.",
+        "EAC": "Close cost basis plus policy-corrected remaining ETC.",
         "Earned revenue": "Executed contract value multiplied by percent complete.",
         "Estimated margin at completion": "Executed contract value less EAC.",
-        "Finance ETC correction": "Restore the unsupported disputed recovery to remaining ETC.",
+        "Finance ETC correction": "Restore the $185,000 PM forecast credit, remove the full $46,800 PCO cost already carried in the project base, remove the stale $13,003.31 prior-billing duplicate from PM ETC, and transfer only the $27,196.69 unbilled June amount to incurred cost while retaining the $6,600 July line. Do not apply either conditional credit component at June 30. Net ETC correction is $98,000.",
         "Margin rate": "Estimated margin divided by executed contract value.",
-        "PM ETC": "Latest PM estimate includes a disputed $185,000 recovery assumption.",
-        "Percent complete": "Posted cost divided by policy-corrected EAC under FIN-REV-04.",
+        "PM ETC": "Latest PM estimate includes a full $185,000 recovery assumption; its Commitment Detail sheet forecasts the gross $46,800 PO even though open commitment is $33,796.69 and the $13,003.31 prior draw is already posted.",
+        "Percent complete": "Close cost basis divided by policy-corrected EAC under FIN-REV-04.",
         "Posted cost": "Posted job cost from company accounting records at June 30.",
-        "Remaining cost / ETC": "PM ETC plus the $185,000 finance correction."
+        "Remaining cost / ETC": "PM ETC plus the net $98,000 finance correction."
       },
       "conclusions": {
         "Close and posting status": "Not approved to post. Controller approval is required before any WIP entry is posted.",
         "Close and posting status - support": "This is a preparer sign-off record pending documented Controller disposition.",
         "Contract value treatment": "Exclude the pending recovery from current contract value.",
-        "Contract value treatment - support": "FIN-REV-04 excludes pending recovery revenue until executed or accepted authorization and collectability support exist.",
-        "Controller review": "Controller review required because the disputed recovery is embedded in the PM estimate and the policy-corrected margin declines 334.78 basis points.",
-        "Controller review - support": "The signed WIP policy escalates material margin changes and unsupported commercial assumptions.",
-        "PCO-011 authorization at cutoff": "Draft, disputed, and unaccepted; no executed contract modification exists at June 30.",
-        "PCO-011 authorization at cutoff - support": "The CO log and PCO-011 backup show the $185,000 recovery remains disputed and unaccepted.",
-        "PM ETC treatment": "Add the $185,000 disputed recovery back to the PM estimate and restore it to remaining ETC.",
-        "PM ETC treatment - support": "The PM estimate is $584,000 and embeds the disputed recovery as a cost offset; finance removes that unsupported netting."
+        "Contract value treatment - support": "The correspondence concerns a subcontract balance and is not effective at June 30; it does not amend the Northline customer contract or authorize customer billing.",
+        "Controller review": "Controller review is required because the margin rate declines 226.56 basis points, the PM estimate is low-confidence, and the forecast requires a material source-overlap judgment.",
+        "Controller review - support": "FIN-REV-04 escalates movements over 100 basis points, low-confidence estimates, and disputed recovery assumptions.",
+        "Cutoff invoice treatment": "Accrue only the $27,196.69 unbilled June amount from invoice 88417, remove that amount and the already-posted $13,003.31 PM duplicate from ETC, leave $6,600 for July, and retain only the nonduplicative PCO cost overlay.",
+        "Cutoff invoice treatment - support": "Invoice 88417 and the AP queue show $46,800 gross billings, $13,003.31 of prior billings, and $33,796.69 currently due. Accounting identifies the prior draw as vendor invoice 88102 / AP-0004287 but does not carry current invoice 88417. The release allocates $40,200 gross work to June and $6,600 to July 2, leaving $27,196.69 of unbilled June work to accrue. PM Commitment Detail still forecasts the gross PO amount, and the PCO agreement and vendor release tie the same package together.",
+        "Journal boundary": "Keep the separate gross invoice cutoff outside the WIP journal, exclude the post-cutoff conditional credit from June, and retie the close cost basis before WIP posting.",
+        "Journal boundary - support": "The invoice cutoff records missing positive project cost; the conditional credit has no June entry, and the WIP entry records only the gross June contract-asset contribution and related WIP revenue adjustment.",
+        "PCO-011 authorization at cutoff": "The June 29 correspondence is signed and returned by June 30, but its $72,000 subcontract adjustment is not effective at that cutoff because CCS-CM-0629-17 was not delivered to ARM Commercial Records until July 2. The full $185,000 working recovery remains unsupported for June close purposes.",
+        "PCO-011 authorization at cutoff - support": "The commercial master and packet establish the earlier $185,000 working position. The later agreement makes the referenced credit-memorandum delivery an operative condition; page 1 records Commercial Records receipt on July 2 and states that the memorandum has no independent effect before the agreement conditions are satisfied.",
+        "PM ETC treatment": "Reverse the full $185,000 forecast credit, recognize that the full $46,800 PO in the PCO cost build is already carried across posted cost and PM base ETC, remove the stale $13,003.31 prior-billing duplicate from PM ETC, move the $27,196.69 unbilled June amount to incurred cost, and leave $6,600 for July. Apply neither conditional credit component at June 30.",
+        "PM ETC treatment - support": "The PM estimate embeds a $185,000 exposure and equal credit; Commitment Detail forecasts PO-2409-117 at $46,800 while its open amount is $33,796.69. Invoice 88417 deducts $13,003.31 of prior billings, and the ledger identifies that draw as vendor invoice 88102 / AP-0004287. The PCO-011 agreement and Rogue Valley release use the same field-report package. The agreement's $27,000 billed-work and $45,000 unbilled-balance components remain conditional until delivery of CCS-CM-0629-17, which occurred July 2."
       },
       "evidence_log": [
         {
@@ -1216,24 +1312,36 @@
         },
         {
           "control": "Current PM forecast",
-          "fact": "PM estimate ETC $584,000 includes a disputed recovery assumption of $185,000.",
+          "fact": "PM ETC $584,000 includes a $185,000 exposure and equal forecast credit; Commitment Detail shows PO-2409-117 at $33,796.69 open but $46,800 in PM forecast.",
           "source": "PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
-          "status": "Exception"
+          "status": "Reconcile source overlap"
         },
         {
-          "control": "Commercial authorization and recovery",
-          "fact": "$185,000 recovery is draft, unaccepted, and disputed; it is not an executed contract modification.",
-          "source": "CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx; 2409_PCO11_backcharge backup - draft2.pdf",
+          "control": "Commercial working records",
+          "fact": "The master and packet carry the Draft $185,000 working position, mechanical-rework cost detail, and the concrete trade's dispute.",
+          "source": "CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx; 2409_commercial working_6.24.pdf",
           "status": "Open"
         },
         {
+          "control": "Conditional credit correspondence",
+          "fact": "The agreement contains Cascade's June 29 and ARM's June 30 signatures; the routing record documents ARM's June 29 package release and return of the executed counterpart to both parties June 30. The agreement also conditions effectiveness on delivery of CCS-CM-0629-17 to ARM Commercial Records; page 1 records receipt July 2 and states that it has no independent effect before the agreement conditions are satisfied.",
+          "source": "contract-records scan batch 20260702-01 pages 1 and 3; correspondence archive sent 1706.eml",
+          "status": "Signed / effective after cutoff"
+        },
+        {
+          "control": "Late vendor invoice cutoff",
+          "fact": "Invoice 88417 shows $46,800 gross, $13,003.31 prior billed, and $33,796.69 due; AP-0004287 is the posted prior draw. Release lines assign $40,200 gross work to June and $6,600 to July, leaving $27,196.69 of unbilled June work. PM Commitment Detail still forecasts the gross PO and the PCO/vendor records tie the same package together.",
+          "source": "AP cutoff + accrual list_7.1 OL.xlsx; AP invoice scan batch 20260701-02 page 4; company accounting records through 2026-06-30; PM ETC updates_6.29 530pm_COMBINED_v3.xlsx; contract-records scan batch 20260702-01 pages 3 and 5",
+          "status": "Cumulative-billing, line-cutoff, and source-overlap reconciliation required"
+        },
+        {
           "control": "Revenue-recognition and review policy",
-          "fact": "Exclude pending recovery revenue, include probable unavoidable cost, and escalate material margin changes.",
+          "fact": "Apply persuasive executed cost-recovery evidence to ETC, keep it out of customer contract value, and escalate the remaining uncertainty and material margin movement.",
           "source": "Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
           "status": "Applied"
         }
       ],
-      "recommendation": "Restore the $185,000 disputed recovery to remaining ETC, recalculate the June WIP position, and hold the result for Controller review. The recovery is not an executed contract adjustment and the preparer workpaper is not approved to post.",
+      "recommendation": "Reconcile invoice 88417's $46,800 gross billings to the $13,003.31 prior draw already posted as AP-0004287 and its $33,796.69 current amount due. Accrue only the unbilled $27,196.69 June portion, remove that amount and the stale prior-billing duplicate from ETC, and leave the $6,600 July 2 line there. Do not recognize the conditional $72,000 Cascade adjustment at June 30: its $27,000 credit memorandum was not delivered to ARM Commercial Records until July 2, after the agreement's final operative condition. Reconcile PO-2409-117 to the $185,000 PCO cost build so the $46,800 already carried in PM base cost is not restored a second time. Close with a $3,758,696.69 cost basis, $682,000 ETC, $4,440,696.69 EAC, and $301,726.52 contract asset. Keep PCO-011 out of customer contract value and hold the invoice cutoff and WIP posting for the required review.",
       "review_status": "Pending Controller review"
     },
     "source_reconciliation": {
@@ -1363,11 +1471,11 @@
         },
         {
           "amount": 13003.31,
-          "cost_code": "02-410",
+          "cost_code": "02-210",
           "cost_type": "Material",
           "document_number": "AP-0004287",
           "entry_id": 15916,
-          "posting_date": "2026-06-20",
+          "posting_date": "2026-06-25",
           "rank": 3,
           "source": "AP"
         },
@@ -1548,19 +1656,19 @@
       "basis": "Sensitivity only; pending commercial revenue is not authorized, booked, or included in the June 30 close.",
       "projects": [
         {
-          "close_eac": 7328200.0,
+          "close_eac": 7388200.0,
           "hypothetical_contract": 9460500,
-          "hypothetical_margin": 2132300.0,
-          "hypothetical_margin_rate": 0.2253897785529306,
+          "hypothetical_margin": 2072300.0,
+          "hypothetical_margin_rate": 0.21904761904761905,
           "incremental_margin": 68000,
           "pending_revenue": 68000,
           "project_id": "ARM-2318"
         },
         {
-          "close_eac": 4500500.0,
+          "close_eac": 4440696.69,
           "hypothetical_contract": 5711000,
-          "hypothetical_margin": 1210500.0,
-          "hypothetical_margin_rate": 0.21195937664156891,
+          "hypothetical_margin": 1270303.31,
+          "hypothetical_margin_rate": 0.22243097706181056,
           "incremental_margin": 185000,
           "pending_revenue": 185000,
           "project_id": "ARM-2409"
@@ -1585,20 +1693,20 @@
         }
       ],
       "total": {
-        "close_eac": 29586400.0,
+        "close_eac": 29586596.69,
         "hypothetical_contract": 37916500,
-        "hypothetical_margin": 8330100.0,
-        "hypothetical_margin_rate": 0.21969591075125605,
+        "hypothetical_margin": 8329903.31,
+        "hypothetical_margin_rate": 0.21969072329988262,
         "incremental_margin": 931000,
         "pending_revenue": 931000
       }
     },
     "decision_control": {
-      "close_case_eac": 29586400.0,
-      "close_case_margin": 7399100.0,
-      "close_release_decision": "Hold close release pending controller review of the three flagged jobs.",
+      "close_case_eac": 29586596.69,
+      "close_case_margin": 7398903.31,
+      "close_release_decision": "Release ARM-2318 with monitoring after the completed estimate review; hold ARM-2409, ARM-2417, and ARM-2506 pending Controller review.",
       "largest_overlay_project": "ARM-2417",
-      "margin_impact": -715000.0,
+      "margin_impact": -715196.69,
       "pending_revenue_included": false,
       "pm_case_eac": 28871400.0,
       "pm_case_margin": 8114100.0,
@@ -1611,50 +1719,75 @@
     },
     "decision_rows": [
       {
-        "close_case_eac": 7328200.0,
-        "close_case_margin": 2064300.0,
+        "close_case_eac": 7388200.0,
+        "close_case_margin": 2004300.0,
         "close_disposition": "Release with monitoring",
         "commercial_reference": "PCO-029",
         "controller_review_required": false,
-        "margin_impact": -45000.0,
+        "margin_impact": -105000.0,
         "pending_revenue_included": false,
         "pm_case_eac": 7283200.0,
         "pm_case_margin": 2109300.0,
         "policy_reference": "FIN-REV-04",
         "project_id": "ARM-2318",
-        "required_follow_up": "Monitor the retest closeout; exclude the disputed recovery and carry the probable cost.",
+        "required_follow_up": "Project Accounting and the PM must reconcile the $60,000 invoice-over-forecast variance on CRS-10942 / PO-2318-102, preserve the completed Controller estimate review, and monitor the item through ordinary close sign-off while PCO-029 recovery remains excluded.",
         "required_follow_up_tokens": [
           [
-            "retest"
+            "crs-10942",
+            "crs 10942",
+            "po-2318-102",
+            "po 2318 102"
           ],
           [
-            "monitor",
-            "closeout"
+            "variance",
+            "overrun",
+            "60,000",
+            "60k"
+          ],
+          [
+            "pm",
+            "project accounting"
+          ],
+          [
+            "controller",
+            "review",
+            "sign-off",
+            "signoff",
+            "monitor"
           ]
         ]
       },
       {
-        "close_case_eac": 4500500.0,
-        "close_case_margin": 1025500.0,
+        "close_case_eac": 4440696.69,
+        "close_case_margin": 1085303.31,
         "close_disposition": "Hold for controller review",
         "commercial_reference": "PCO-011",
         "controller_review_required": true,
-        "margin_impact": -185000.0,
+        "margin_impact": -125196.69,
         "pending_revenue_included": false,
         "pm_case_eac": 4315500.0,
         "pm_case_margin": 1210500.0,
         "policy_reference": "FIN-REV-04",
         "project_id": "ARM-2409",
-        "required_follow_up": "Obtain trade acceptance before recognizing the disputed backcharge recovery.",
+        "required_follow_up": "Commercial Records must obtain and review the executed resolution and referenced credit memo, confirm the operative amount and conditions, and update the PCO record before any recovery is recognized.",
         "required_follow_up_tokens": [
           [
-            "backcharge",
-            "recovery"
+            "resolution",
+            "agreement",
+            "credit memo"
           ],
           [
-            "accept",
-            "accepted",
-            "acceptance"
+            "file",
+            "obtain",
+            "review",
+            "confirm"
+          ],
+          [
+            "condition",
+            "effective",
+            "amount",
+            "terms",
+            "commercial records"
           ]
         ]
       },
@@ -1716,92 +1849,104 @@
       {
         "billings": 8702022.7,
         "branch": "Portland",
-        "cost_to_date": 7109400.0,
+        "cost_to_date": 7192150.0,
         "current_contract": 9392500,
-        "earned_revenue": 9112065.65,
-        "estimated_cost_at_completion": 7328200.0,
-        "estimated_cost_to_complete": 218800,
-        "estimated_margin": 2002665.65,
-        "estimated_margin_percent": 0.219782,
-        "estimated_total_margin": 2064300.0,
-        "margin_movement_bps": -47.91,
-        "overbilling": 0,
-        "percent_complete": 0.9701427362790317,
+        "cutoff_cost_adjustment": 82750.0,
+        "earned_revenue": 9143264.78,
+        "estimated_cost_at_completion": 7388200.0,
+        "estimated_cost_to_complete": 196050.0,
+        "estimated_margin": 1951114.78,
+        "estimated_margin_percent": 0.213394,
+        "estimated_total_margin": 2004300.0,
+        "margin_movement_bps": -111.79,
+        "overbilling": 0.0,
+        "percent_complete": 0.9734644433014807,
+        "posted_cost_to_date": 7109400.0,
         "prior_margin_percent": 0.22457279744476977,
         "project_id": "ARM-2318",
         "project_manager": "Maya Chen",
         "project_name": "Columbia Biologics Clean Utilities",
         "status": "Substantially Complete",
-        "underbilling": 410042.95
+        "underbilling": 441242.08
       },
       {
         "billings": 4375593.13,
         "branch": "Portland",
-        "cost_to_date": 3731500.0,
+        "cost_to_date": 3758696.69,
         "current_contract": 5526000,
-        "earned_revenue": 4581772.91,
-        "estimated_cost_at_completion": 4500500.0,
-        "estimated_cost_to_complete": 769000,
-        "estimated_margin": 850272.91,
-        "estimated_margin_percent": 0.185577,
-        "estimated_total_margin": 1025500.0,
-        "margin_movement_bps": -334.78,
-        "overbilling": 0,
-        "percent_complete": 0.8291300966559271,
+        "cutoff_cost_adjustment": 27196.69,
+        "earned_revenue": 4677319.65,
+        "estimated_cost_at_completion": 4440696.69,
+        "estimated_cost_to_complete": 682000.0,
+        "estimated_margin": 918622.96,
+        "estimated_margin_percent": 0.196399,
+        "estimated_total_margin": 1085303.31,
+        "margin_movement_bps": -226.56,
+        "overbilling": 0.0,
+        "percent_complete": 0.8464204948886072,
+        "posted_cost_to_date": 3731500.0,
         "prior_margin_percent": 0.21905537459283386,
         "project_id": "ARM-2409",
         "project_manager": "Priya Raman",
         "project_name": "Northline Cold Storage Expansion",
         "status": "Active",
-        "underbilling": 206179.78
+        "underbilling": 301726.52
       },
       {
         "billings": 6114826.3,
         "branch": "Portland",
-        "cost_to_date": 5209800.0,
+        "cost_to_date": 5228542.36,
         "current_contract": 10487000,
-        "earned_revenue": 6402959.47,
+        "cutoff_cost_adjustment": 18742.36,
+        "earned_revenue": 6425994.25,
         "estimated_cost_at_completion": 8532800.0,
-        "estimated_cost_to_complete": 3323000,
-        "estimated_margin": 1193159.47,
+        "estimated_cost_to_complete": 3304257.64,
+        "estimated_margin": 1197451.89,
         "estimated_margin_percent": 0.186345,
         "estimated_total_margin": 1954200.0,
         "margin_movement_bps": -262.23,
-        "overbilling": 0,
-        "percent_complete": 0.61056159759985,
+        "overbilling": 0.0,
+        "percent_complete": 0.6127581051940747,
+        "posted_cost_to_date": 5209800.0,
         "prior_margin_percent": 0.21256794126060838,
         "project_id": "ARM-2417",
         "project_manager": "Maya Chen",
         "project_name": "Cascade Health Ambulatory Pavilion",
         "status": "Active",
-        "underbilling": 288133.17
+        "underbilling": 311167.95
       },
       {
         "billings": 5135581.06,
         "branch": "Portland",
-        "cost_to_date": 4283900.0,
+        "cost_to_date": 4296860.0,
         "current_contract": 11580000,
-        "earned_revenue": 5377571.79,
+        "cutoff_cost_adjustment": 12960.0,
+        "earned_revenue": 5393840.45,
         "estimated_cost_at_completion": 9224900.0,
-        "estimated_cost_to_complete": 4941000,
-        "estimated_margin": 1093671.79,
+        "estimated_cost_to_complete": 4928040.0,
+        "estimated_margin": 1096980.45,
         "estimated_margin_percent": 0.203377,
         "estimated_total_margin": 2355100.0,
         "margin_movement_bps": -181.34,
-        "overbilling": 0,
-        "percent_complete": 0.46438443777168315,
+        "overbilling": 0.0,
+        "percent_complete": 0.4657893310496591,
+        "posted_cost_to_date": 4283900.0,
         "prior_margin_percent": 0.22151122625215888,
         "project_id": "ARM-2506",
         "project_manager": "Priya Raman",
         "project_name": "Eastbank Data Hall Cooling Expansion",
         "status": "Active",
-        "underbilling": 241990.73
+        "underbilling": 258259.39
       }
     ],
     "review_rows": [
       {
         "controller_review_required": false,
         "cost_amount": 45000,
+        "cutoff_amount": 82750.0,
+        "cutoff_etc_transfer": 22750.0,
+        "cutoff_reference": "CRS-10942 / PO-2318-102",
+        "cutoff_unforecast_amount": 60000.0,
         "netted_claim_or_backcharge": false,
         "project_id": "ARM-2318",
         "reference": "PCO-029",
@@ -1810,6 +1955,10 @@
       {
         "controller_review_required": true,
         "cost_amount": 185000,
+        "cutoff_amount": 27196.69,
+        "cutoff_etc_transfer": 27196.69,
+        "cutoff_reference": "88417 / PO-2409-117",
+        "cutoff_unforecast_amount": 0.0,
         "netted_claim_or_backcharge": true,
         "project_id": "ARM-2409",
         "reference": "PCO-011",
@@ -1818,6 +1967,10 @@
       {
         "controller_review_required": true,
         "cost_amount": 275000,
+        "cutoff_amount": 18742.36,
+        "cutoff_etc_transfer": 18742.36,
+        "cutoff_reference": "NPV-63108 / PO-2417-084",
+        "cutoff_unforecast_amount": 0.0,
         "netted_claim_or_backcharge": false,
         "project_id": "ARM-2417",
         "reference": "PCO-017",
@@ -1826,6 +1979,10 @@
       {
         "controller_review_required": true,
         "cost_amount": 210000,
+        "cutoff_amount": 12960.0,
+        "cutoff_etc_transfer": 12960.0,
+        "cutoff_reference": "WER-240771 / EQ-2506-22",
+        "cutoff_unforecast_amount": 0.0,
         "netted_claim_or_backcharge": false,
         "project_id": "ARM-2506",
         "reference": "PCO-006",
@@ -1835,36 +1992,36 @@
     "source_inputs": [
       {
         "billings": 8702022.7,
-        "cost_to_date": 7109400.0,
+        "cost_to_date": 7192150.0,
         "current_contract": 9392500,
-        "documented_etc_overlay": 45000,
+        "documented_etc_overlay": 22250.0,
         "pm_etc": 173800,
         "prior_close_margin_percent": 0.22457279744476977,
         "project_id": "ARM-2318"
       },
       {
         "billings": 4375593.13,
-        "cost_to_date": 3731500.0,
+        "cost_to_date": 3758696.69,
         "current_contract": 5526000,
-        "documented_etc_overlay": 185000,
+        "documented_etc_overlay": 98000.0,
         "pm_etc": 584000,
         "prior_close_margin_percent": 0.21905537459283386,
         "project_id": "ARM-2409"
       },
       {
         "billings": 6114826.3,
-        "cost_to_date": 5209800.0,
+        "cost_to_date": 5228542.36,
         "current_contract": 10487000,
-        "documented_etc_overlay": 275000,
+        "documented_etc_overlay": 256257.64,
         "pm_etc": 3048000,
         "prior_close_margin_percent": 0.21256794126060838,
         "project_id": "ARM-2417"
       },
       {
         "billings": 5135581.06,
-        "cost_to_date": 4283900.0,
+        "cost_to_date": 4296860.0,
         "current_contract": 11580000,
-        "documented_etc_overlay": 210000,
+        "documented_etc_overlay": 197040.0,
         "pm_etc": 4731000,
         "prior_close_margin_percent": 0.22151122625215888,
         "project_id": "ARM-2506"
@@ -1872,25 +2029,64 @@
     ],
     "totals": {
       "C11": 36985500,
-      "D11": 20334600.0,
+      "D11": 20476249.05,
       "E11": 8536800,
-      "F11": 715000,
-      "G11": 9251800,
-      "H11": 29586400.0,
-      "I11": 0.6872955141551523,
-      "J11": 25474369.82,
+      "F11": 573547.64,
+      "G11": 9110347.64,
+      "H11": 29586596.69,
+      "I11": 0.6920785538311267,
+      "J11": 25640419.13,
       "K11": 24328023.19,
-      "L11": 1146346.63,
-      "M11": 0,
-      "N11": 7399100.0,
-      "O11": 0.2000540752457044,
+      "L11": 1312395.94,
+      "M11": 0.0,
+      "N11": 7398903.31,
+      "O11": 0.2000487572156656,
       "P11": 0.21938597558502657,
-      "Q11": -193.31900339322166
+      "Q11": -193.37218369360977
     }
   },
   "task_015": {
     "cash_interest": 72784.57,
     "cash_taxes": 0.0,
+    "close_basis_control": {
+      "evidence_cutoff": "2026-07-02 10:27 PT",
+      "june_ap_cutoff_items": [
+        {
+          "document_reference": "CRS-10942 / PO-2318-102",
+          "june_expense": 82750.0,
+          "project_id": "ARM-2318"
+        },
+        {
+          "document_reference": "88417 / PO-2409-117",
+          "june_expense": 27196.69,
+          "project_id": "ARM-2409"
+        },
+        {
+          "document_reference": "NPV-63108 / PO-2417-084",
+          "june_expense": 18742.36,
+          "project_id": "ARM-2417"
+        },
+        {
+          "document_reference": "WER-240771 / EQ-2506-22",
+          "june_expense": 12960.0,
+          "project_id": "ARM-2506"
+        },
+        {
+          "document_reference": "PECI-68417",
+          "june_expense": 96000.0,
+          "project_id": "ARM-2522"
+        }
+      ],
+      "pending_ap_cutoff_expense": 237649.05,
+      "posting_sequence": [
+        "pending June AP accrual",
+        "proposed June WIP"
+      ],
+      "pro_forma_ebitda_bridge": "posted adjusted EBITDA less pending June AP cutoff expense plus proposed June WIP adjustment",
+      "project_count": 16,
+      "proposed_wip_adjustment": 1569182.07,
+      "wip_posting_status": "proposed_unposted"
+    },
     "compliant_posted": true,
     "compliant_pro_forma": true,
     "covenant_test_review": [
@@ -1900,10 +2096,10 @@
         "posted_headroom": 2.6264,
         "posted_numerator": 1111666.5,
         "posted_result": 0.3736,
-        "pro_forma_denominator": 4251620.57,
-        "pro_forma_headroom": 2.7385,
+        "pro_forma_denominator": 4306827.89,
+        "pro_forma_headroom": 2.7419,
         "pro_forma_numerator": 1111666.5,
-        "pro_forma_result": 0.2615,
+        "pro_forma_result": 0.2581,
         "threshold": 3.0
       },
       {
@@ -1913,9 +2109,9 @@
         "posted_numerator": 2704794.87,
         "posted_result": 4.8492,
         "pro_forma_denominator": 557784.8,
-        "pro_forma_headroom": 5.9374,
-        "pro_forma_numerator": 3981120.57,
-        "pro_forma_result": 7.1374,
+        "pro_forma_headroom": 6.0364,
+        "pro_forma_numerator": 4036327.89,
+        "pro_forma_result": 7.2364,
         "threshold": 1.2
       },
       {
@@ -1925,9 +2121,9 @@
         "posted_numerator": 9047638.53,
         "posted_result": 9047638.53,
         "pro_forma_denominator": 1.0,
-        "pro_forma_headroom": 7823964.23,
-        "pro_forma_numerator": 10323964.23,
-        "pro_forma_result": 10323964.23,
+        "pro_forma_headroom": 7879171.55,
+        "pro_forma_numerator": 10379171.55,
+        "pro_forma_result": 10379171.55,
         "threshold": 2500000
       }
     ],
@@ -1935,104 +2131,113 @@
       "binding_covenant": "FCCR",
       "fccr": {
         "posted": 2035453.11,
-        "pro_forma": 3311778.81
+        "pro_forma": 3366986.13
       },
       "leverage": {
         "posted": 2604739.37,
-        "pro_forma": 3881065.07
+        "pro_forma": 3936272.39
       },
       "tangible_net_worth": {
         "posted": 6547638.53,
-        "pro_forma": 7823964.23
+        "pro_forma": 7879171.55
       }
     },
     "fccr_numerator_posted": 2704794.87,
-    "fccr_numerator_pro_forma": 3981120.57,
+    "fccr_numerator_pro_forma": 4036327.89,
     "fccr_posted": 4.8492,
-    "fccr_pro_forma": 7.1374,
+    "fccr_pro_forma": 7.2364,
     "fixed_charges": 557784.8,
     "funded_debt": 1111666.5,
     "leverage_posted": 0.3736,
-    "leverage_pro_forma": 0.2615,
+    "leverage_pro_forma": 0.2581,
     "ltm_adjusted_ebitda_posted": 2975294.87,
-    "ltm_adjusted_ebitda_pro_forma": 4251620.57,
+    "ltm_adjusted_ebitda_pro_forma": 4306827.89,
     "ltm_direct_equipment_financing": 600000.0,
     "ltm_fixed_asset_additions": 870500.0,
     "max_leverage": 3.0,
     "min_fccr": 1.2,
     "min_tangible_net_worth": 2500000,
-    "proposed_wip_adjustment": 1276325.7,
+    "pending_ap_cutoff_expense": 237649.05,
+    "proposed_wip_adjustment": 1569182.07,
     "scheduled_principal": 485000.23,
     "tangible_net_worth_posted": 9047638.53,
-    "tangible_net_worth_pro_forma": 10323964.23,
+    "tangible_net_worth_pro_forma": 10379171.55,
     "unfunded_capex": 270500.0,
+    "wip_population_control": {
+      "control_delta": 0.0,
+      "gross_contract_asset": 2195545.23,
+      "gross_contract_liability": 626363.16,
+      "net_wip_position": 1569182.07,
+      "project_count": 16,
+      "proposed_wip_adjustment": 1569182.07
+    },
     "wip_reversal_sensitivity": [
       {
-        "adjusted_ebitda": 3932539.145,
+        "adjusted_ebitda": 3914532.372,
         "compliant": true,
-        "fccr": 6.5653261706,
-        "fccr_deterioration_capacity": 2992697.385,
-        "fccr_numerator": 3662039.145,
-        "leverage": 0.2826841537,
-        "leverage_deterioration_capacity": 3561983.645,
-        "retained_wip_adjustment": 957244.275,
+        "fccr": 6.5330435179,
+        "fccr_deterioration_capacity": 2974690.612,
+        "fccr_numerator": 3644032.372,
+        "leverage": 0.2839844953,
+        "leverage_deterioration_capacity": 3543976.872,
+        "retained_wip_adjustment": 1176886.552,
         "reversal_percent": 0.25,
-        "tangible_net_worth": 10004882.805,
-        "tangible_net_worth_headroom": 7504882.805
+        "tangible_net_worth": 9986876.032,
+        "tangible_net_worth_headroom": 7486876.032
       },
       {
-        "adjusted_ebitda": 3613457.72,
+        "adjusted_ebitda": 3522236.855,
         "compliant": true,
-        "fccr": 5.9932750408,
-        "fccr_deterioration_capacity": 2673615.96,
-        "fccr_numerator": 3342957.72,
-        "leverage": 0.3076461899,
-        "leverage_deterioration_capacity": 3242902.22,
-        "retained_wip_adjustment": 638162.85,
+        "fccr": 5.8297337163,
+        "fccr_deterioration_capacity": 2582395.095,
+        "fccr_numerator": 3251736.855,
+        "leverage": 0.3156137834,
+        "leverage_deterioration_capacity": 3151681.355,
+        "retained_wip_adjustment": 784591.035,
         "reversal_percent": 0.5,
-        "tangible_net_worth": 9685801.38,
-        "tangible_net_worth_headroom": 7185801.38
+        "tangible_net_worth": 9594580.515,
+        "tangible_net_worth_headroom": 7094580.515
       },
       {
-        "adjusted_ebitda": 2975294.87,
+        "adjusted_ebitda": 2737645.82,
         "compliant": true,
-        "fccr": 4.8491727813,
-        "fccr_deterioration_capacity": 2035453.11,
-        "fccr_numerator": 2704794.87,
-        "leverage": 0.3736323788,
-        "leverage_deterioration_capacity": 2604739.37,
+        "fccr": 4.4231141114,
+        "fccr_deterioration_capacity": 1797804.06,
+        "fccr_numerator": 2467145.82,
+        "leverage": 0.406066589,
+        "leverage_deterioration_capacity": 2367090.32,
         "retained_wip_adjustment": 0.0,
         "reversal_percent": 1.0,
-        "tangible_net_worth": 9047638.53,
-        "tangible_net_worth_headroom": 6547638.53
+        "tangible_net_worth": 8809989.48,
+        "tangible_net_worth_headroom": 6309989.48
       }
     ],
     "wip_review": [
       {
-        "close_etc": 218800,
-        "finance_adjustment": 45000,
-        "net_wip_position": 410042.95,
+        "close_etc": 196050.0,
+        "finance_adjustment": 22250.0,
+        "net_wip_position": 441242.08,
         "pm_etc": 173800,
         "project_id": "ARM-2318"
       },
       {
-        "close_etc": 769000,
-        "finance_adjustment": 185000,
-        "net_wip_position": 206179.78,
+        "close_etc": 682000.0,
+        "finance_adjustment": 98000.0,
+        "net_wip_position": 301726.52,
         "pm_etc": 584000,
         "project_id": "ARM-2409"
       },
       {
-        "close_etc": 3323000,
-        "finance_adjustment": 275000,
-        "net_wip_position": 288133.17,
+        "close_etc": 3304257.64,
+        "finance_adjustment": 256257.64,
+        "net_wip_position": 311167.95,
         "pm_etc": 3048000,
         "project_id": "ARM-2417"
       },
       {
-        "close_etc": 4941000,
-        "finance_adjustment": 210000,
-        "net_wip_position": 241990.73,
+        "close_etc": 4928040.0,
+        "finance_adjustment": 197040.0,
+        "net_wip_position": 258259.39,
         "pm_etc": 4731000,
         "project_id": "ARM-2506"
       }

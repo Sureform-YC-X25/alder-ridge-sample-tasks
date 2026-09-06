@@ -229,12 +229,17 @@ def get_project_summary(project_id: str | None = None, as_of_date: str = "2026-0
 def get_job_cost_detail(
     project_id: str,
     as_of_date: str = "2026-06-30",
+    start_date: str | None = None,
     limit: int = 100,
     offset: int = 0,
 ) -> str:
-    """Job-cost transaction detail through an as-of date; page with limit (max 100) and offset."""
+    """Job-cost detail through an as-of date, optionally from a start date; page with limit (max 100) and offset."""
     return json_result(_repo().job_cost_detail(
-        project_id, as_of_date, min(max(limit, 1), 100), max(offset, 0)
+        project_id,
+        as_of_date,
+        min(max(limit, 1), 100),
+        max(offset, 0),
+        start_date,
     ))
 
 

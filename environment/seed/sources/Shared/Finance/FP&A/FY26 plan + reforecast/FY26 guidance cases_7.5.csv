@@ -1,0 +1,16 @@
+case_ref,scenario,case_field,value,units,source_record,record_date
+FPNA-GC-001,Low,Probability,0.2,decimal ratio,FP&A guidance case workbook,2026-06-30
+FPNA-GC-002,Low,Revenue,49800000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-003,Low,Gross margin,0.26,decimal ratio,FP&A guidance case workbook,2026-06-30
+FPNA-GC-004,Low,Operating expense,11350000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-005,Low,Free cash flow,2850000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-006,Base,Probability,0.5,decimal ratio,FP&A guidance case workbook,2026-06-30
+FPNA-GC-007,Base,Revenue,52400000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-008,Base,Gross margin,0.278,decimal ratio,FP&A guidance case workbook,2026-06-30
+FPNA-GC-009,Base,Operating expense,11520000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-010,Base,Free cash flow,3650000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-011,High,Probability,0.3,decimal ratio,FP&A guidance case workbook,2026-06-30
+FPNA-GC-012,High,Revenue,54600000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-013,High,Gross margin,0.291,decimal ratio,FP&A guidance case workbook,2026-06-30
+FPNA-GC-014,High,Operating expense,11680000.0,USD,FP&A guidance case workbook,2026-06-30
+FPNA-GC-015,High,Free cash flow,4150000.0,USD,FP&A guidance case workbook,2026-06-30

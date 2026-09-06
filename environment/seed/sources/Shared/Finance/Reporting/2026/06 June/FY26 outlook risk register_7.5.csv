@@ -1,0 +1,13 @@
+risk_ref,fiscal_period,risk_item,risk_field,value,units,owner_record,record_date
+FIN-RISK-001,FY26,Helix schedule slip,Revenue impact,-1100000.0,USD,Signed guidance risk register / COO,2026-06-30
+FIN-RISK-002,FY26,Helix schedule slip,EBITDA impact,-420000.0,USD,Signed guidance risk register / COO,2026-06-30
+FIN-RISK-003,FY26,Helix schedule slip,Probability,0.35,decimal ratio,Signed guidance risk register / COO,2026-06-30
+FIN-RISK-004,FY26,Service renewal upside,Revenue impact,620000.0,USD,Signed guidance risk register / VP Service,2026-06-30
+FIN-RISK-005,FY26,Service renewal upside,EBITDA impact,330000.0,USD,Signed guidance risk register / VP Service,2026-06-30
+FIN-RISK-006,FY26,Service renewal upside,Probability,0.55,decimal ratio,Signed guidance risk register / VP Service,2026-06-30
+FIN-RISK-007,FY26,Copper escalation,Revenue impact,0.0,USD,Signed guidance risk register / VP Procurement,2026-06-30
+FIN-RISK-008,FY26,Copper escalation,EBITDA impact,-280000.0,USD,Signed guidance risk register / VP Procurement,2026-06-30
+FIN-RISK-009,FY26,Copper escalation,Probability,0.65,decimal ratio,Signed guidance risk register / VP Procurement,2026-06-30
+FIN-RISK-010,FY26,Controls commissioning,Revenue impact,450000.0,USD,Signed guidance risk register / VP Controls,2026-06-30
+FIN-RISK-011,FY26,Controls commissioning,EBITDA impact,190000.0,USD,Signed guidance risk register / VP Controls,2026-06-30
+FIN-RISK-012,FY26,Controls commissioning,Probability,0.6,decimal ratio,Signed guidance risk register / VP Controls,2026-06-30

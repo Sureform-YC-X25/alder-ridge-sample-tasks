@@ -17,6 +17,10 @@ jobs:
           version: "0.11.29"
           enable-cache: true
       - run: uv python install 3.12
+      - run: uv lock --project environment --check
       - run: uv sync --project environment --frozen
       - run: uv run --project environment python environment/validate.py
-      - run: uv run --project environment python -c "import runtime.env, runtime.tasks; assert len(runtime.tasks.tasks) == 12"
+      - run: uv run --project environment python scripts/build_seed_inventory.py --check
+      - run: uv run --project environment python -m compileall -q environment/runtime environment/validate.py environment/grade.py
+      - run: uv run --project environment python -c "import runtime.env, runtime.tasks; assert len(runtime.tasks.tasks) == 5"
+      - run: uv run --project environment python environment/runtime/build_agent_runtime.py

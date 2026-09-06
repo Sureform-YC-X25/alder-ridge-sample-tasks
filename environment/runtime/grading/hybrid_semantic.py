@@ -6,11 +6,114 @@ from typing import Any, Mapping
 from runtime.grading.rubric import apply_reward_policy, attach_default_policy
 
 
-HYBRID_TASKS = frozenset(f"task_{number:03d}" for number in range(1, 101))
+HYBRID_TASKS = frozenset(
+    {"task_001", "task_004", "task_015", "task_035", "task_068"}
+)
 # Backward-compatible import for the pilot workflow.  The implementation is
 # now benchmark-wide, but keeping the old name avoids breaking archived replay
 # commands and already-published workflow files.
 PILOT_TASKS = HYBRID_TASKS
+
+
+def _apply_task_001_semantic_coherence(
+    criteria_by_id: Mapping[str, dict[str, Any]],
+    audit_by_id: Mapping[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Resolve only strict logical contradictions among Task001 verdicts.
+
+    These rules do not parse business wording. They operate after the scoped
+    semantic judge has interpreted that wording and only where one adjudicated
+    criterion necessarily entails another narrower criterion, or where two
+    independently failed authority criteria contradict a claimed correct use
+    of the same controlling source.
+    """
+
+    adjustments: list[dict[str, Any]] = []
+
+    def value(criterion_id: str) -> bool:
+        row = criteria_by_id.get(criterion_id)
+        return bool(row and row.get("value"))
+
+    def hard_gate(criterion_id: str) -> bool:
+        row = audit_by_id.get(criterion_id)
+        return bool(row and row.get("hard_gate_met"))
+
+    def override(
+        criterion_id: str,
+        *,
+        final_met: bool,
+        rule: str,
+        reason: str,
+        depends_on: tuple[str, ...],
+    ) -> None:
+        criterion = criteria_by_id.get(criterion_id)
+        audit = audit_by_id.get(criterion_id)
+        if criterion is None or audit is None:
+            return
+        previous = bool(criterion.get("value"))
+        if previous == final_met:
+            return
+        criterion["value"] = int(final_met)
+        criterion["grading_method"] = (
+            "deterministic_gate_semantic_judge_and_logical_coherence"
+        )
+        criterion["evidence"] = (
+            f"{criterion.get('evidence', '')}; logical_coherence={rule}: {reason}"
+        ).strip("; ")
+        audit["pre_coherence_final_met"] = previous
+        audit["final_met"] = final_met
+        audit["coherence_rule"] = rule
+        audit["coherence_reason"] = reason
+        audit["coherence_depends_on"] = list(depends_on)
+        adjustments.append({
+            "criterion_id": criterion_id,
+            "pre_coherence_final_met": previous,
+            "final_met": final_met,
+            "rule": rule,
+            "reason": reason,
+            "depends_on": list(depends_on),
+        })
+
+    # The broader June-eligible allocation criterion explicitly requires the
+    # complete $46,800 gross / $13,003.31 prior / $33,796.69 due source
+    # reconciliation. Once that criterion is semantically MET, failing the
+    # narrower source-amount criterion is a judge inconsistency, not a
+    # difference in the submitted work.
+    source_amount = "population__cutoff_invoice__source_amount"
+    june_eligible = "population__cutoff_invoice__june_eligible_amount"
+    if value(june_eligible) and not value(source_amount) and hard_gate(source_amount):
+        override(
+            source_amount,
+            final_met=True,
+            rule="task001_invoice_allocation_entails_source_reconciliation_v1",
+            reason=(
+                "the semantically MET June-eligible allocation necessarily includes "
+                "the complete cumulative invoice source reconciliation"
+            ),
+            depends_on=(june_eligible,),
+        )
+
+    # Correct use of the executed-credit source requires the same operative
+    # condition and cutoff chronology tested by both authority criteria. A MET
+    # source-use verdict cannot coexist with both of those semantic predicates
+    # being UNMET. This removes no credit merely because a downstream numeric
+    # calculation is wrong; it addresses the shared authority proposition only.
+    executed_source = "source__executed_credit"
+    authority = "commercial__authority_at_cutoff"
+    record_conflict = "commercial__record_conflict"
+    if value(executed_source) and not value(authority) and not value(record_conflict):
+        override(
+            executed_source,
+            final_met=False,
+            rule="task001_executed_source_requires_authority_resolution_v1",
+            reason=(
+                "both semantic authority predicates reject the operative cutoff "
+                "treatment required by this source-use criterion"
+            ),
+            depends_on=(authority, record_conflict),
+        )
+
+    return adjustments
 
 
 def semantic_requirement(
@@ -115,11 +218,26 @@ def apply_semantic_judgments(
             }
         )
 
+    audit_by_id = {
+        str(row.get("criterion_id")): row
+        for row in audit
+        if isinstance(row, dict)
+    }
+    coherence_adjustments = (
+        _apply_task_001_semantic_coherence(criteria_by_id, audit_by_id)
+        if str(review.get("task_id") or "") == "task_001"
+        else []
+    )
+
     updated["semantic_review_result"] = {
         "mode": "environment_aligned_hybrid_semantic_v3",
         "judge_model": judge_model,
         "criteria": audit,
         "policy": "semantic MET is accepted only when its deterministic hard gate also passes",
+        "logical_coherence": {
+            "version": "task001-strict-entailment-v1" if coherence_adjustments else None,
+            "adjustments": coherence_adjustments,
+        },
     }
     task_id = str(review.get("task_id") or "unknown")
     return apply_reward_policy(task_id, attach_default_policy(updated))

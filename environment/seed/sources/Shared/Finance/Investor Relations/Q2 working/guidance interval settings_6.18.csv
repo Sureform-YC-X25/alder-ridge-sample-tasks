@@ -1,0 +1,5 @@
+policy_ref,fiscal_period,policy_field,value_or_method,units,policy_record,effective_date
+IR-POL-001,FY26,Minimum guidance confidence,0.7,decimal ratio,Investor guidance interval policy,2026-06-18
+IR-POL-002,FY26,Revenue rounding increment,500000.0,USD,Investor guidance interval policy,2026-06-18
+IR-POL-003,FY26,EBITDA rounding increment,250000.0,USD,Investor guidance interval policy,2026-06-18
+IR-POL-004,FY26,Interval selection metric,Revenue,classification,Investor guidance interval policy,2026-06-18

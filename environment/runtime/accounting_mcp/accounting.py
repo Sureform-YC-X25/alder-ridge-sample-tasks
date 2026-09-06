@@ -474,7 +474,8 @@ class AccountingRepository:
             return self._rows(
                 conn.execute(
                     f"""
-                    SELECT jh.posting_date, jh.source, jh.reference, jh.memo,
+                    SELECT jh.id AS journal_id, jl.id AS journal_line_id,
+                           jh.posting_date, jh.source, jh.reference, jh.memo,
                            jl.account_code, a.name AS account_name,
                            jl.department_code, jl.project_id, jl.cost_code,
                            ROUND(jl.debit,2) AS debit, ROUND(jl.credit,2) AS credit,
@@ -522,20 +523,28 @@ class AccountingRepository:
         as_of_date: str,
         limit: int = 5000,
         offset: int = 0,
+        start_date: str | None = None,
     ) -> list[dict[str, Any]]:
+        clauses = ["j.project_id=?", "j.posting_date<=?"]
+        params: list[Any] = [project_id, as_of_date]
+        if start_date:
+            clauses.append("j.posting_date>=?")
+            params.append(start_date)
+        params.extend([min(max(limit, 1), 10000), max(offset, 0)])
         with self._connect() as conn:
             return self._rows(
                 conn.execute(
-                    """
-                    SELECT j.posting_date, j.document_number, j.source,
+                    f"""
+                    SELECT j.id AS job_cost_entry_id,
+                           j.posting_date, j.document_number, j.source,
                            j.cost_code, cc.name AS cost_code_name, j.vendor_id,
                            j.employee_id, ROUND(j.units,2) AS units,
                            ROUND(j.amount,2) AS amount, j.description
                     FROM job_cost_entries j JOIN cost_codes cc ON cc.code=j.cost_code
-                    WHERE j.project_id=? AND j.posting_date<=?
+                    WHERE {' AND '.join(clauses)}
                     ORDER BY j.posting_date,j.id LIMIT ? OFFSET ?
                     """,
-                    (project_id, as_of_date, min(max(limit, 1), 10000), max(offset, 0)),
+                    params,
                 )
             )
 
