@@ -40,7 +40,7 @@ Open `tasks/` to review the five assignments. Open `environment/seed/sources/` t
 ## Run the environment
 
 ```bash
-docker build -f environment/Dockerfile -t alder-ridge-sample-tasks:2.0.0 .
+docker build -f environment/Dockerfile -t alder-ridge-sample-tasks:2.0.0 environment
 docker run --rm \
   --cap-add SYS_ADMIN \
   --security-opt seccomp=unconfined \

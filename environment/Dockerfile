@@ -25,14 +25,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-COPY environment/pyproject.toml environment/uv.lock README.md LICENSE /app/
+COPY pyproject.toml uv.lock /app/
 RUN pip install --no-cache-dir uv==0.11.29 \
     && uv lock --check \
     && uv sync --frozen --no-dev --no-editable --no-install-project \
     && rm -rf /root/.cache
 
-COPY environment/runtime /app/runtime
-COPY environment/seed /app/seed
+COPY runtime /app/runtime
+COPY seed /app/seed
 
 RUN uv lock --check \
     && uv sync --frozen --no-dev --no-editable \

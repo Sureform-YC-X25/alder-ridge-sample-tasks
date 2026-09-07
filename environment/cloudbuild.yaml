@@ -6,7 +6,7 @@ steps:
       - environment/Dockerfile
       - --tag
       - ${_IMAGE_URI}
-      - .
+      - environment
 images:
   - ${_IMAGE_URI}
 options:
