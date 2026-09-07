@@ -31,15 +31,7 @@ _SEMANTIC_CREDENTIALS = {
     "openai_api_key": os.environ.pop("OPENAI_API_KEY", None),
 }
 
-DEFAULT_ENVIRONMENT_NAME = "sample-alder-ridge-corporate-finance-environment"
-ENVIRONMENT_NAME = os.environ.get(
-    "ALDER_RIDGE_ENV_NAME",
-    DEFAULT_ENVIRONMENT_NAME,
-).strip()
-if not ENVIRONMENT_NAME:
-    raise RuntimeError("ALDER_RIDGE_ENV_NAME must not be empty")
-
-env = Environment(name=ENVIRONMENT_NAME)
+env = Environment("sample-alder-ridge-corporate-finance-environment")
 WORKSPACE = IsolatedWorkspace(
     RUNTIME_ROOT,
     mounts=agent_runtime_mounts(),
