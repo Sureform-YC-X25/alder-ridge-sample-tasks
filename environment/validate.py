@@ -47,8 +47,8 @@ EXPECTED = {
     "task_001": {
         "slug": "arm-2409-wip-backcharge",
         "prompt_sha256": "2d532c8ddb41e1d16ead95a58966655166c8560258c2654f0635d44869e974f2",
-        "grading_revision": "weighted-atomic-hybrid-v51-prior-rate-precision",
-        "catalog_revision": "task-001-conditional-credit-effectiveness-v42",
+        "grading_revision": "weighted-atomic-hybrid-v52-release-boundary-semantic-fidelity",
+        "catalog_revision": "task-001-conditional-credit-effectiveness-v43",
         "criteria": 94,
         "semantic": 87,
         "weight": 720,
@@ -56,8 +56,8 @@ EXPECTED = {
     "task_004": {
         "slug": "complete-june-wip-risk-template",
         "prompt_sha256": "a840cb78e51fcaab2076ac996e960c482188287c61194eefc2cbcf26a61bd223",
-        "grading_revision": "weighted-atomic-hybrid-v18-close-status-release-judgment",
-        "catalog_revision": "task-004-close-status-release-judgment-v14",
+        "grading_revision": "weighted-atomic-hybrid-v19-source-action-conjunct-fidelity",
+        "catalog_revision": "task-004-close-status-release-judgment-v15",
         "criteria": 98,
         "semantic": 98,
         "weight": 927,
@@ -267,6 +267,7 @@ def main() -> int:
         assert metadata["grading_revision"] == expected["grading_revision"]
         assert metadata["grading_contract"]["id"] == expected["catalog_revision"]
         assert TASK_GRADING_REVISIONS[task.task_id]["id"] == expected["catalog_revision"]
+        assert metadata["grading_contract"] == TASK_GRADING_REVISIONS[task.task_id]
         assert (folder / "prompt.md").read_text(encoding="utf-8") == (
             f"# {task.title}\n\n{task.prompt.rstrip()}\n"
         )
@@ -277,6 +278,7 @@ def main() -> int:
         assert rubric["task_id"] == task.task_id
         assert rubric["grading_revision"] == expected["grading_revision"]
         assert rubric["grading_contract"]["id"] == expected["catalog_revision"]
+        assert rubric["grading_contract"] == TASK_GRADING_REVISIONS[task.task_id]
         assert rubric["criterion_count"] == len(rubric["criteria"]) == expected["criteria"]
         assert rubric["semantic_criterion_count"] == expected["semantic"]
         assert sum(int(row["weight"]) for row in rubric["criteria"]) == expected["weight"]

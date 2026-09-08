@@ -76,8 +76,8 @@ SAMPLE_TASK_IDS = frozenset(
 
 TASK_GRADING_REVISIONS = {
     "task_001": {
-        "id": "task-001-conditional-credit-effectiveness-v42",
-        "effective_date": "2026-09-02",
+        "id": "task-001-conditional-credit-effectiveness-v43",
+        "effective_date": "2026-09-08",
         "basis": (
             "outcome-only professional request, explicit July 2 evidence cutoff, and neutral four-page controller memo; "
             "case facts remain discoverable in ordinary accounting, forecast, commercial, "
@@ -128,12 +128,14 @@ TASK_GRADING_REVISIONS = {
             "objectively instead of being rescued by an alternate or sensitivity value, "
             "rate gates reject unrelated bare counts, strict semantic entailments reconcile "
             "logically incompatible criterion verdicts, and source-use prompts require the "
-            "actual controlling association rather than a headline source citation"
+            "actual controlling association rather than a headline source citation; an output-first Opus audit "
+            "also makes the distributed posting-release boundary explicit so equivalent project-contribution, "
+            "consolidated-schedule tie, unposted-status, and pending-Controller-review wording receives credit"
         ),
     },
     "task_004": {
-        "id": "task-004-close-status-release-judgment-v14",
-        "effective_date": "2026-09-03",
+        "id": "task-004-close-status-release-judgment-v15",
+        "effective_date": "2026-09-08",
         "basis": (
             "an outcome-only business prompt and neutral two-sheet starter require unprompted discovery "
             "of four project judgments from ordinary PM, commercial, policy, prior-close, and accounting "
@@ -154,7 +156,10 @@ TASK_GRADING_REVISIONS = {
             "project on the same hold; this deepens the existing release judgment without changing the prompt, "
             "starter, requested deliverable, monetary answer, or criterion inventory; "
             "linear section normalization gives the cutoff-adjusted close and release judgment business-"
-            "material priority while preserving proportional, uncapped criterion-level signal"
+            "material priority while preserving proportional, uncapped criterion-level signal; an output-first "
+            "Opus audit additionally makes the source-authority and owned-action conjuncts explicit, accepts "
+            "PCO-006 and DB-27 as names for the same pricing matter, and prevents partial source or action work "
+            "from receiving full semantic credit"
         ),
     },
     "task_011": {
@@ -2978,6 +2983,12 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
                         if project_id == "ARM-2409" else {}
                     ),
                     "policy_authority": "signed WIP policy FIN-REV-04",
+                    "required_conjuncts": (
+                        "Full credit requires identifiable support for all of the commercial matter, the "
+                        "project's June invoice cutoff/reference (or its ordinary AP/invoice-batch source), "
+                        "and the signed FIN-REV-04 policy authority. Generic project summaries, job-cost, WIP, "
+                        "or trial-balance citations do not substitute for a missing cutoff or policy authority."
+                    ),
                     "equivalence_rule": (
                         "Accept abbreviations, invoice/PO references, filenames, and ordinary reference variants when the "
                         "commercial, cutoff, and policy authorities remain identifiable. Do not require full paths."
@@ -3009,10 +3020,18 @@ def _grade_task_004(workspace_root: Path) -> dict[str, Any]:
                         "executed resolution and referenced credit memo, verifying its terms/effective "
                         "amount, and updating the commercial record is the supported action; do not "
                         "require another signature or trade acceptance already evidenced by the routing "
-                        "email. For ARM-2506, assigning the PM or Commercial owner to obtain, finalize, or approve "
-                        "DB-27 pricing is sufficient; do not require the authored verb. For ARM-2417, pursuing an owner/CM decision, a written "
+                        "email. For ARM-2506, PCO-006 is the commercial record for the same DB-27 pricing matter: "
+                        "assigning the PM, Estimating, or Commercial owner to complete, obtain, finalize, route, or "
+                        "approve PCO-006 or DB-27 pricing satisfies the commercial follow-up; do not require the "
+                        "authored identifier or verb. For ARM-2417, pursuing an owner/CM decision, a written "
                         "validity extension, or confirmation of current work direction is a professional equivalent "
                         "way to resolve the unexecuted directive; do not require the authored phrase."
+                    ),
+                    "required_conjuncts": (
+                        "Full credit requires both (1) the project-specific commercial/evidence follow-up and "
+                        "responsible owner and (2) an owned June invoice-cutoff decision or preparation step for "
+                        "the project's cutoff item. The second component may come from one clearly scoped shared "
+                        "portfolio AP action supplied in the evidence; do not pass on the commercial action alone."
                     ),
                     "shared_cutoff_action_rule": (
                         "One clearly scoped portfolio-wide AP/Finance action covering all four June invoice-cutoff "
@@ -7553,6 +7572,15 @@ def _grade_task_001_v27(workspace_root: Path, answer: Any) -> dict[str, Any]:
                 "must first tie it.' Correctness of the proposed amount, period-effect "
                 "bridge, and separate cutoff accounting is scored by the neighboring "
                 "journal criteria and must not erase an otherwise explicit posting boundary."
+            ),
+            "distributed_equivalence_examples": (
+                "Taken together, wording that this is a single-project contribution only, that the "
+                "consolidated entry remains a separate Controller action, that no journal has been "
+                "created or posted and nothing authorizes posting, and an owned completion step whose "
+                "evidence is an updated WIP schedule tie-out plus Controller review satisfies this "
+                "criterion. Do not require one sentence to repeat the sequence, the word documented, "
+                "or the literal phrase before release when those controls are unambiguously distributed "
+                "across the scoped recommendation, posting conclusion, status, and action evidence."
             ),
         },
         evidence_scope="posting conclusion, recommendation, and review status",

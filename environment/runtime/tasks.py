@@ -5,8 +5,8 @@ from runtime.task_catalog import TASKS
 
 
 GRADING_REVISIONS = {
-    "task_001": "weighted-atomic-hybrid-v51-prior-rate-precision",
-    "task_004": "weighted-atomic-hybrid-v18-close-status-release-judgment",
+    "task_001": "weighted-atomic-hybrid-v52-release-boundary-semantic-fidelity",
+    "task_004": "weighted-atomic-hybrid-v19-source-action-conjunct-fidelity",
     "task_015": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
     "task_035": "weighted-atomic-hybrid-v24-semantic-metric-association",
     "task_068": "weighted-atomic-hybrid-v28-risk-basis-and-semantic-association",

@@ -166,12 +166,12 @@
   "task_count": 5,
   "tasks": {
     "task_001": {
-      "grading_revision": "weighted-atomic-hybrid-v51-prior-rate-precision",
+      "grading_revision": "weighted-atomic-hybrid-v52-release-boundary-semantic-fidelity",
       "prompt_sha256": "2d532c8ddb41e1d16ead95a58966655166c8560258c2654f0635d44869e974f2",
       "slug": "arm-2409-wip-backcharge"
     },
     "task_004": {
-      "grading_revision": "weighted-atomic-hybrid-v18-close-status-release-judgment",
+      "grading_revision": "weighted-atomic-hybrid-v19-source-action-conjunct-fidelity",
       "prompt_sha256": "a840cb78e51fcaab2076ac996e960c482188287c61194eefc2cbcf26a61bd223",
       "slug": "complete-june-wip-risk-template"
     },
