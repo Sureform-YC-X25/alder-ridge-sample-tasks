@@ -5305,6 +5305,28 @@ def _task_035_numeric_literal_matches(
 
 
 def _task_035_render_fact_row(sheet, value_sheet, row_number: int) -> str:
+    header_rows: list[tuple[int, list[str]]] = []
+    for candidate_row in range(1, row_number):
+        header_cells: list[str] = []
+        populated_cells = 0
+        for cell in sheet[candidate_row]:
+            if cell.value not in (None, ""):
+                populated_cells += 1
+            if isinstance(cell.value, str) and not cell.value.startswith("="):
+                value = cell.value.strip()
+                if value:
+                    header_cells.append(f"{cell.coordinate}={value!r}")
+        # Ordinary schedule headers contain multiple textual fields. Requiring
+        # text in at least half the populated cells avoids treating monthly data
+        # rows as headers while preserving table context for numeric totals.
+        if len(header_cells) >= 2 and len(header_cells) * 2 >= populated_cells:
+            header_rows.append((candidate_row, header_cells))
+    # Keep the nearest three qualifying header rows in their original order.
+    header_context = "\n".join(
+        f"SHEET {sheet.title} HEADER ROW {candidate_row}: "
+        + " | ".join(header_cells)
+        for candidate_row, header_cells in header_rows[-3:]
+    )
     parts: list[str] = []
     for cell in sheet[row_number]:
         cached = value_sheet[cell.coordinate].value
@@ -5317,7 +5339,40 @@ def _task_035_render_fact_row(sheet, value_sheet, row_number: int) -> str:
             parts.append(f"{cell.coordinate}=FORMULA({formula})=>{cached!r}")
         else:
             parts.append(f"{cell.coordinate}={cell.value!r}")
-    return f"SHEET {sheet.title} ROW {row_number}: " + " | ".join(parts)
+    fact_row = f"SHEET {sheet.title} ROW {row_number}: " + " | ".join(parts)
+    return f"{header_context}\n{fact_row}" if header_context else fact_row
+
+
+def _task_035_exact_text_candidate_matches(actual: Any, expected: Any) -> bool:
+    """Recognize objective project IDs and ordinary year-month displays."""
+
+    if actual in (None, ""):
+        return False
+    expected_text = str(expected).strip()
+    actual_text = str(actual).strip()
+    if (
+        date_matches(actual, expected)
+        or _normalize(actual) == _normalize(expected)
+        or expected_text.casefold() in actual_text.casefold()
+    ):
+        return True
+    month_match = re.fullmatch(r"(\d{4})-(\d{2})", expected_text)
+    if not month_match:
+        return False
+    year, month_number = month_match.groups()
+    month_index = int(month_number)
+    if not 1 <= month_index <= 12:
+        return False
+    month_names = (
+        "january", "february", "march", "april", "may", "june",
+        "july", "august", "september", "october", "november", "december",
+    )
+    month_name = month_names[month_index - 1]
+    normalized_actual = _normalize(actual_text)
+    return year in normalized_actual and any(
+        token in normalized_actual
+        for token in (month_name, month_name[:3], month_number)
+    )
 
 
 def _task_035_semantic_fact_evidence(
@@ -5412,12 +5467,8 @@ def _task_035_semantic_fact_evidence(
                             for literal in _TASK_092_NUMERIC_LITERAL_PATTERN.findall(cached)
                         )
                 elif exact_text and cached not in (None, ""):
-                    expected_text = str(expected).casefold()
-                    actual_text = str(cached).casefold()
-                    matched = (
-                        date_matches(cached, expected)
-                        or _normalize(cached) == _normalize(expected)
-                        or expected_text in actual_text
+                    matched = _task_035_exact_text_candidate_matches(
+                        cached, expected
                     )
                 if matched:
                     matched_coordinates.append(cell.coordinate)
@@ -5690,6 +5741,39 @@ _TASK_068_SLIDES_BY_CRITERION = {
 
 
 _TASK_068_NUMERIC_ASSOCIATION_RULES = {
+    "q2_approved_plan_adjusted_ebitda": (
+        "Judge the local Q2 actual-versus-plan schedule together with its cited "
+        "planning authority. Accept any concise professional plan, budget, target, "
+        "or AOP heading for adjusted EBITDA when the surrounding schedule and "
+        "source context establish the approved basis and no competing GAAP or "
+        "other EBITDA basis is shown. Do not require every modifier to be repeated "
+        "in the value cell or column heading."
+    ),
+    "construction_q2_approved_plan_adjusted_ebitda": (
+        "For the Construction row, judge the Q2 actual-versus-plan schedule together "
+        "with its cited planning authority. Accept any concise professional plan, "
+        "budget, target, or AOP heading for adjusted EBITDA when context establishes "
+        "the approved basis and no competing EBITDA basis is shown."
+    ),
+    "service_q2_approved_plan_adjusted_ebitda": (
+        "For the Service row, judge the Q2 actual-versus-plan schedule together with "
+        "its cited planning authority. Accept any concise professional plan, budget, "
+        "target, or AOP heading for adjusted EBITDA when context establishes the "
+        "approved basis and no competing EBITDA basis is shown."
+    ),
+    "controls_q2_approved_plan_adjusted_ebitda": (
+        "For the Controls row, judge the Q2 actual-versus-plan schedule together with "
+        "its cited planning authority. Accept any concise professional plan, budget, "
+        "target, or AOP heading for adjusted EBITDA when context establishes the "
+        "approved basis and no competing EBITDA basis is shown."
+    ),
+    "posted_ytd_revenue": (
+        "At a June 30 reporting date, accept ordinary cumulative-period wording such "
+        "as YTD, H1, first half, or six months for revenue when the slide or cited "
+        "source/control context identifies the actuals as posted accounting and no "
+        "conflicting reporting basis is shown. Do not require `posted` and the period "
+        "label to be repeated beside the number."
+    ),
     "service_labor_productivity_impact": (
         "This is the gross adverse Q2 labor-productivity impact derived from "
         "excess paid hours and the applicable loaded hourly cost. Evaluate it "

@@ -76,7 +76,7 @@ SAMPLE_TASK_IDS = frozenset(
 
 TASK_GRADING_REVISIONS = {
     "task_001": {
-        "id": "task-001-conditional-credit-effectiveness-v43",
+        "id": "task-001-conditional-credit-effectiveness-v44",
         "effective_date": "2026-09-08",
         "basis": (
             "outcome-only professional request, explicit July 2 evidence cutoff, and neutral four-page controller memo; "
@@ -128,13 +128,14 @@ TASK_GRADING_REVISIONS = {
             "objectively instead of being rescued by an alternate or sensitivity value, "
             "rate gates reject unrelated bare counts, strict semantic entailments reconcile "
             "logically incompatible criterion verdicts, and source-use prompts require the "
-            "actual controlling association rather than a headline source citation; an output-first Opus audit "
+            "actual controlling association rather than a headline source citation; the no-simulated-approval "
+            "criterion remains material but no longer erases otherwise valid finance signal; an output-first Opus audit "
             "also makes the distributed posting-release boundary explicit so equivalent project-contribution, "
             "consolidated-schedule tie, unposted-status, and pending-Controller-review wording receives credit"
         ),
     },
     "task_004": {
-        "id": "task-004-close-status-release-judgment-v15",
+        "id": "task-004-close-status-release-judgment-v16",
         "effective_date": "2026-09-08",
         "basis": (
             "an outcome-only business prompt and neutral two-sheet starter require unprompted discovery "
@@ -156,7 +157,8 @@ TASK_GRADING_REVISIONS = {
             "project on the same hold; this deepens the existing release judgment without changing the prompt, "
             "starter, requested deliverable, monetary answer, or criterion inventory; "
             "linear section normalization gives the cutoff-adjusted close and release judgment business-"
-            "material priority while preserving proportional, uncapped criterion-level signal; an output-first "
+            "material priority while preserving proportional, uncapped criterion-level signal; recoverable "
+            "scope violations reduce earned reward without erasing finance signal; an output-first "
             "Opus audit additionally makes the source-authority and owned-action conjuncts explicit, accepts "
             "PCO-006 and DB-27 as names for the same pricing matter, and prevents partial source or action work "
             "from receiving full semantic credit"
@@ -214,7 +216,7 @@ TASK_GRADING_REVISIONS = {
             "materiality-weighted proportional scoring without reward caps"
         ),
     },
-    "task_015": {"basis":"a concise objective-led lender request requires independent discovery and reperformance from the executed agreement, posted accounting records, ordinary June AP cutoff evidence, and the current proposed-WIP support; the July 2 close-pro-forma basis follows the source-supported posting sequence and does not import an older WIP snapshot. Exact values are unit-scoped deterministic hard gates, aligned text-box matrices retain their visible row and column associations for criterion-scoped semantic review, and a binding-covenant conclusion requires its four like-for-like capacity prerequisites. The untouched five-slide starter receives zero credit, correct alternate layouts and normal units remain gradeable, central finance work dominates presentation mechanics, and all reward is proportional without task-level or section-level score caps","effective_date":"2026-09-04","id":"task-015-current-close-covenant-v14"},
+    "task_015": {"basis":"a concise objective-led lender request requires independent discovery and reperformance from the executed agreement, posted accounting records, ordinary June AP cutoff evidence, and the current proposed-WIP support; the July 2 close-pro-forma basis follows the source-supported posting sequence and does not import an older WIP snapshot. The prompt now makes the single-deck work boundary and unposted slide disclosure explicit without revealing the finance answer. Exact values are unit-scoped deterministic hard gates, aligned text-box matrices retain their visible row and column associations for criterion-scoped semantic review, and a binding-covenant conclusion requires its four like-for-like capacity prerequisites. The untouched five-slide starter receives zero credit, correct alternate layouts and normal units remain gradeable, central finance work dominates presentation mechanics, recoverable unposted-draft or protected-file scope violations reduce earned reward proportionally and block strict pass, and destructive integrity failures alone erase reward","effective_date":"2026-09-08","id":"task-015-current-close-covenant-v15"},
     "task_016": {
         "id": "task-016-controller-journal-package-v15",
         "effective_date": "2026-08-13",
@@ -359,7 +361,7 @@ TASK_GRADING_REVISIONS = {
             "deterministic repeatability"
         ),
     },
-    "task_035": {"basis":"a concise business objective and neutral working model require source-version reconciliation, unit-aware signed-backlog and capacity analysis, priority-based execution, contract and earnings consequences, and a management recommendation without announcing the hidden difficulty; exact magnitudes, date/project facts, and formula results retain deterministic hard gates while every editable metric, period, scenario, sign, label, and decision association receives criterion-scoped semantic review, so finite aliases cannot reject correct professional wording or rescue a right value attached to the wrong business fact; hidden tie-breaks are eliminated and all sections score proportionally without reward caps","effective_date":"2026-09-04","id":"task-035-authentic-backlog-capacity-decision-v13"},
+    "task_035": {"basis":"a concise business objective and neutral working model require source-version reconciliation, unit-aware signed-backlog and capacity analysis, priority-based execution, contract and earnings consequences, and a management recommendation without announcing the hidden difficulty; exact magnitudes, date/project facts, and formula results retain deterministic hard gates while every editable metric, period, scenario, sign, label, and decision association receives criterion-scoped semantic review, so finite aliases cannot reject correct professional wording or rescue a right value attached to the wrong business fact; criterion evidence now preserves the visible table headers needed to interpret formula-linked totals under ordinary professional labels; hidden tie-breaks are eliminated and all sections score proportionally without reward caps","effective_date":"2026-09-08","id":"task-035-authentic-backlog-capacity-decision-v14"},
     "task_037": {
         "id": "task-037-professional-capital-model-v2",
         "effective_date": "2026-08-26",
@@ -411,14 +413,16 @@ TASK_GRADING_REVISIONS = {
             "numerically different; exact finance magnitudes are deterministic hard gates "
             "while edited labels, placement, sign conventions, actual-versus-plan roles, "
             "close-basis association, and business meaning receive criterion-scoped semantic "
-            "review; the posted-to-current bridge, business-unit gross impacts, aggregate "
+            "review; ordinary Q2 plan EBITDA headers and June 30 H1 actual shorthand are "
+            "accepted when the surrounding schedule unambiguously establishes the approved, "
+            "adjusted, posted, and YTD basis; the posted-to-current bridge, business-unit gross impacts, aggregate "
             "mitigation, signed-register probability-weighted downside ranking, and action "
             "narrative have criterion-specific semantic routes; "
             "accounting and decision work carry eighty percent of reward; seeded content "
             "earns no deliverable credit; and all criteria score proportionally without caps"
         ),
-        "effective_date": "2026-09-05",
-        "id": "task-068-authentic-executive-performance-decision-v20",
+        "effective_date": "2026-09-08",
+        "id": "task-068-authentic-executive-performance-decision-v21",
     },
     "task_072": {
         "id": "task-072-management-narrative-equivalence-v1",
@@ -6060,7 +6064,6 @@ def _grade_task_001_v27(workspace_root: Path, answer: Any) -> dict[str, Any]:
         f"prohibited_signature={prohibited_signature}",
         category="integrity",
         weight=10,
-        failure_cap=0.0,
     )
 
     # June close calculation. Only objective values are deterministic.

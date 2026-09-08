@@ -47,8 +47,8 @@ EXPECTED = {
     "task_001": {
         "slug": "arm-2409-wip-backcharge",
         "prompt_sha256": "2d532c8ddb41e1d16ead95a58966655166c8560258c2654f0635d44869e974f2",
-        "grading_revision": "weighted-atomic-hybrid-v52-release-boundary-semantic-fidelity",
-        "catalog_revision": "task-001-conditional-credit-effectiveness-v43",
+        "grading_revision": "weighted-atomic-hybrid-v53-proportional-integrity",
+        "catalog_revision": "task-001-conditional-credit-effectiveness-v44",
         "criteria": 94,
         "semantic": 87,
         "weight": 720,
@@ -56,17 +56,17 @@ EXPECTED = {
     "task_004": {
         "slug": "complete-june-wip-risk-template",
         "prompt_sha256": "a840cb78e51fcaab2076ac996e960c482188287c61194eefc2cbcf26a61bd223",
-        "grading_revision": "weighted-atomic-hybrid-v19-source-action-conjunct-fidelity",
-        "catalog_revision": "task-004-close-status-release-judgment-v15",
+        "grading_revision": "weighted-atomic-hybrid-v20-proportional-integrity",
+        "catalog_revision": "task-004-close-status-release-judgment-v16",
         "criteria": 98,
         "semantic": 98,
         "weight": 927,
     },
     "task_015": {
         "slug": "append-q2-covenant-slide",
-        "prompt_sha256": "50bd7291c15dedc6c661af0a67220c602e0803a2069407d67273321a6a0bf573",
-        "grading_revision": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
-        "catalog_revision": "task-015-current-close-covenant-v14",
+        "prompt_sha256": "554e4c82f7aa37896ed79e85858695c908e80e4aa4c4e3fc61673734d2f4833a",
+        "grading_revision": "weighted-atomic-hybrid-v20-proportional-integrity-and-prompt-boundary",
+        "catalog_revision": "task-015-current-close-covenant-v15",
         "criteria": 74,
         "semantic": 65,
         "weight": 518,
@@ -74,8 +74,8 @@ EXPECTED = {
     "task_035": {
         "slug": "complete-backlog-capacity-model",
         "prompt_sha256": "4e40f6100f92c1026099662397793453ec6b37ee7225393f8c7c1bcf5dee6cb6",
-        "grading_revision": "weighted-atomic-hybrid-v24-semantic-metric-association",
-        "catalog_revision": "task-035-authentic-backlog-capacity-decision-v13",
+        "grading_revision": "weighted-atomic-hybrid-v25-header-context-semantic-association",
+        "catalog_revision": "task-035-authentic-backlog-capacity-decision-v14",
         "criteria": 130,
         "semantic": 106,
         "weight": 807,
@@ -83,8 +83,8 @@ EXPECTED = {
     "task_068": {
         "slug": "complete-executive-performance-deck",
         "prompt_sha256": "c195103cee0a52c1dfd3a0fa84098d72b2725672c5067171c62cdf323fbf45ae",
-        "grading_revision": "weighted-atomic-hybrid-v28-risk-basis-and-semantic-association",
-        "catalog_revision": "task-068-authentic-executive-performance-decision-v20",
+        "grading_revision": "weighted-atomic-hybrid-v29-professional-plan-and-ytd-association",
+        "catalog_revision": "task-068-authentic-executive-performance-decision-v21",
         "criteria": 88,
         "semantic": 87,
         "weight": 628,
@@ -288,11 +288,7 @@ def main() -> int:
             for row in rubric["criteria"]
             if row.get("failure_cap") is not None
         }
-        assert capped == (
-            {"artifact__no_simulated_controller_signature": 0.0}
-            if task.task_id == "task_001"
-            else {}
-        )
+        assert capped == {}
         assert packaged_gold == runtime_gold[task.task_id]
         assert source_manifest == dependencies["tasks"][task.task_id]
         for relative in source_manifest["minimum_source_artifacts"]:

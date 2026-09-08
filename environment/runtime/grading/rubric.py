@@ -6,8 +6,16 @@ from typing import Any, Iterable, Mapping
 
 
 RUBRIC_SCHEMA_VERSION = 3
-REWARD_SCHEMA_VERSION = 8
+REWARD_SCHEMA_VERSION = 9
 ALLOWED_WEIGHTS = frozenset({1, 3, 5, 10})
+
+RECOVERABLE_INTEGRITY_RETENTION_FACTORS = {
+    # These violations are material and block strict pass, but neither one
+    # destroys evidence nor changes posted accounting. Apply each factor once
+    # so distinct finance outputs retain their ordering and training signal.
+    "unauthorized_draft_accounting_change": 0.80,
+    "unauthorized_recoverable_workspace_change": 0.90,
+}
 
 # A finance deliverable is not professionally usable when its material decision
 # outputs are wrong, even if its supporting model and audit trail are strong.
@@ -1144,8 +1152,10 @@ def apply_reward_policy(
     Partial credit must preserve the professional ordering of two valid but
     incomplete submissions.  Non-zero legacy caps therefore remain visible as
     critical quality-gate metadata and strict-pass blockers, but they do not
-    flatten distinct weighted scores.  Only declared zero-reward criteria and
-    environment-integrity failures invalidate the scalar reward.
+    flatten distinct weighted scores. Recoverable scope violations retain a
+    fixed share of the earned content score and block strict pass. Only
+    declared zero-reward criteria and destructive integrity failures invalidate
+    the scalar reward.
     """
 
     updated = copy.deepcopy(dict(result))
@@ -1431,6 +1441,8 @@ def apply_reward_policy(
                 "reward_effect": "zero_reward_hard_failure",
             }
     hard_failures: list[dict[str, Any]] = []
+    recoverable_violations: list[dict[str, Any]] = []
+    integrity_adjustment = None
     if integrity is not None:
         updated["integrity"] = copy.deepcopy(dict(integrity))
         hard_failures = [
@@ -1438,8 +1450,38 @@ def apply_reward_policy(
             for row in integrity.get("hard_failures", [])
             if isinstance(row, Mapping)
         ]
+        recoverable_violations = [
+            dict(row)
+            for row in integrity.get("recoverable_violations", [])
+            if isinstance(row, Mapping)
+        ]
         if hard_failures:
             reward = 0.0
+        elif recoverable_violations:
+            base_reward = reward
+            applied_codes: set[str] = set()
+            factors: list[dict[str, Any]] = []
+            retention_factor = 1.0
+            for violation in recoverable_violations:
+                code = str(violation.get("code") or "")
+                if code in applied_codes:
+                    continue
+                if code not in RECOVERABLE_INTEGRITY_RETENTION_FACTORS:
+                    raise ValueError(
+                        f"unrecognized recoverable integrity violation: {code!r}"
+                    )
+                factor = RECOVERABLE_INTEGRITY_RETENTION_FACTORS[code]
+                retention_factor *= factor
+                factors.append({"code": code, "retention_factor": factor})
+                applied_codes.add(code)
+            reward *= retention_factor
+            integrity_adjustment = {
+                "method": "multiplicative_retention",
+                "base_reward": round(base_reward, 6),
+                "factors": factors,
+                "retention_factor": round(retention_factor, 6),
+                "adjusted_reward": round(reward, 6),
+            }
     applied_caps = []
     quality_gate_failures = []
     for gate in critical_section_gate_failures:
@@ -1448,6 +1490,15 @@ def apply_reward_policy(
             "cap": gate["cap"],
         })
         quality_gate_failures.append(dict(gate))
+    for violation in recoverable_violations:
+        code = str(violation.get("code") or "")
+        quality_gate_failures.append(
+            {
+                "criterion_id": code,
+                "reward_effect": "proportional_integrity_retention",
+                "retention_factor": RECOVERABLE_INTEGRITY_RETENTION_FACTORS[code],
+            }
+        )
     if core_model_failure is not None:
         reward = 0.0
         applied_caps.append(
@@ -1474,11 +1525,13 @@ def apply_reward_policy(
             "raw_weighted_reward": round(raw_reward, 6),
             "decision_accuracy_adjustment": decision_accuracy_adjustment,
             "section_normalized_reward": section_normalized_reward,
+            "integrity_adjustment": integrity_adjustment,
             "core_model_failure": core_model_failure,
             "strict_pass": (
                 bool(criteria)
                 and met_count == len(criteria)
                 and not hard_failures
+                and not recoverable_violations
                 and core_model_failure is None
                 and not any(cap == 0.0 for cap, _criterion_id in failed_declared_gates)
             ),
@@ -1501,7 +1554,9 @@ def apply_reward_policy(
                 "pass, while task-declared central-workstream gates cap only materially "
                 "incomplete professional modules; "
                 "non-zero declared quality thresholds otherwise do not clip partial credit; "
-                "declared zero-reward criteria and environment-integrity failures score zero"
+                "recoverable draft-workflow and protected-file scope violations apply "
+                "transparent multiplicative deductions without erasing earned signal; "
+                "declared zero-reward criteria and destructive integrity failures score zero"
             ),
             "applied_reward_caps": applied_caps,
             "quality_gate_failures": quality_gate_failures,

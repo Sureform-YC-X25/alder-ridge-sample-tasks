@@ -522,11 +522,11 @@
   "criterion_count": 74,
   "deterministic_verifier": "environment/runtime/grading/apex.py",
   "grading_contract": {
-    "basis": "a concise objective-led lender request requires independent discovery and reperformance from the executed agreement, posted accounting records, ordinary June AP cutoff evidence, and the current proposed-WIP support; the July 2 close-pro-forma basis follows the source-supported posting sequence and does not import an older WIP snapshot. Exact values are unit-scoped deterministic hard gates, aligned text-box matrices retain their visible row and column associations for criterion-scoped semantic review, and a binding-covenant conclusion requires its four like-for-like capacity prerequisites. The untouched five-slide starter receives zero credit, correct alternate layouts and normal units remain gradeable, central finance work dominates presentation mechanics, and all reward is proportional without task-level or section-level score caps",
-    "effective_date": "2026-09-04",
-    "id": "task-015-current-close-covenant-v14"
+    "basis": "a concise objective-led lender request requires independent discovery and reperformance from the executed agreement, posted accounting records, ordinary June AP cutoff evidence, and the current proposed-WIP support; the July 2 close-pro-forma basis follows the source-supported posting sequence and does not import an older WIP snapshot. The prompt now makes the single-deck work boundary and unposted slide disclosure explicit without revealing the finance answer. Exact values are unit-scoped deterministic hard gates, aligned text-box matrices retain their visible row and column associations for criterion-scoped semantic review, and a binding-covenant conclusion requires its four like-for-like capacity prerequisites. The untouched five-slide starter receives zero credit, correct alternate layouts and normal units remain gradeable, central finance work dominates presentation mechanics, recoverable unposted-draft or protected-file scope violations reduce earned reward proportionally and block strict pass, and destructive integrity failures alone erase reward",
+    "effective_date": "2026-09-08",
+    "id": "task-015-current-close-covenant-v15"
   },
-  "grading_revision": "weighted-atomic-hybrid-v19-aligned-matrix-unit-scoping",
+  "grading_revision": "weighted-atomic-hybrid-v20-proportional-integrity-and-prompt-boundary",
   "integrity_verifier": "environment/runtime/grading/integrity.py",
   "reference_contract": null,
   "reward_policy": "environment/runtime/grading/rubric.py",

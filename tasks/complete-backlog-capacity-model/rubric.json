@@ -914,11 +914,11 @@
   "criterion_count": 130,
   "deterministic_verifier": "environment/runtime/grading/corporate_finance.py",
   "grading_contract": {
-    "basis": "a concise business objective and neutral working model require source-version reconciliation, unit-aware signed-backlog and capacity analysis, priority-based execution, contract and earnings consequences, and a management recommendation without announcing the hidden difficulty; exact magnitudes, date/project facts, and formula results retain deterministic hard gates while every editable metric, period, scenario, sign, label, and decision association receives criterion-scoped semantic review, so finite aliases cannot reject correct professional wording or rescue a right value attached to the wrong business fact; hidden tie-breaks are eliminated and all sections score proportionally without reward caps",
-    "effective_date": "2026-09-04",
-    "id": "task-035-authentic-backlog-capacity-decision-v13"
+    "basis": "a concise business objective and neutral working model require source-version reconciliation, unit-aware signed-backlog and capacity analysis, priority-based execution, contract and earnings consequences, and a management recommendation without announcing the hidden difficulty; exact magnitudes, date/project facts, and formula results retain deterministic hard gates while every editable metric, period, scenario, sign, label, and decision association receives criterion-scoped semantic review, so finite aliases cannot reject correct professional wording or rescue a right value attached to the wrong business fact; criterion evidence now preserves the visible table headers needed to interpret formula-linked totals under ordinary professional labels; hidden tie-breaks are eliminated and all sections score proportionally without reward caps",
+    "effective_date": "2026-09-08",
+    "id": "task-035-authentic-backlog-capacity-decision-v14"
   },
-  "grading_revision": "weighted-atomic-hybrid-v24-semantic-metric-association",
+  "grading_revision": "weighted-atomic-hybrid-v25-header-context-semantic-association",
   "integrity_verifier": "environment/runtime/grading/integrity.py",
   "reference_contract": null,
   "reward_policy": "environment/runtime/grading/rubric.py",
