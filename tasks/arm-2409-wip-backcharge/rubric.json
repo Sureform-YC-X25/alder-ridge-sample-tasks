@@ -667,7 +667,7 @@
     "effective_date": "2026-09-02",
     "id": "task-001-conditional-credit-effectiveness-v42"
   },
-  "grading_revision": "weighted-atomic-hybrid-v50-primary-field-and-semantic-coherence",
+  "grading_revision": "weighted-atomic-hybrid-v51-prior-rate-precision",
   "integrity_verifier": "environment/runtime/grading/integrity.py",
   "reference_contract": null,
   "reward_policy": "environment/runtime/grading/rubric.py",

@@ -11,7 +11,7 @@
     "effective_date": "2026-09-02",
     "id": "task-001-conditional-credit-effectiveness-v42"
   },
-  "grading_revision": "weighted-atomic-hybrid-v50-primary-field-and-semantic-coherence",
+  "grading_revision": "weighted-atomic-hybrid-v51-prior-rate-precision",
   "output_mode": "document_edit",
   "prompt": "Please finalize the ARM-2409 June WIP sign-off memorandum at `Shared/Finance/Close/2026/06 June/4 WIP/ARM-2409 June WIP controller sign-off - WORKING.docx`.\n\nPrepare a review-ready June 30 recommendation from records available through July 2 and the current close support. Reconcile the project to final May WIP and posted June activity, quantify its proposed June WIP contribution, and document unresolved matters, owners, and evidence needed for Controller disposition.\n\nComplete only the working memorandum and save it in place. Do not post a journal, imply Controller approval, change another close file, or create support exports. A brief completion note is enough.\n",
   "prompt_sha256": "2d532c8ddb41e1d16ead95a58966655166c8560258c2654f0635d44869e974f2",

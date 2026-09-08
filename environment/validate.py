@@ -47,7 +47,7 @@ EXPECTED = {
     "task_001": {
         "slug": "arm-2409-wip-backcharge",
         "prompt_sha256": "2d532c8ddb41e1d16ead95a58966655166c8560258c2654f0635d44869e974f2",
-        "grading_revision": "weighted-atomic-hybrid-v50-primary-field-and-semantic-coherence",
+        "grading_revision": "weighted-atomic-hybrid-v51-prior-rate-precision",
         "catalog_revision": "task-001-conditional-credit-effectiveness-v42",
         "criteria": 94,
         "semantic": 87,

@@ -6327,6 +6327,11 @@ def _grade_task_001_v27(workspace_root: Path, answer: Any) -> dict[str, Any]:
             row,
             ("may",),
             float(may_value),
+            # Decimal-fraction rate targets need rate precision, not the
+            # generic two-cent currency tolerance. Otherwise a visibly wrong
+            # two-decimal percentage can receive credit merely because it is
+            # within two percentage points of the target.
+            abs_tol=(.00005 if key == "margin_rate" else .02),
         )
         if key == "margin_rate":
             add_bps(
