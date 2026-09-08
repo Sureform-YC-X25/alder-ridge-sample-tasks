@@ -11,7 +11,7 @@
     "effective_date": "2026-09-08",
     "id": "task-068-authentic-executive-performance-decision-v21"
   },
-  "grading_revision": "weighted-atomic-hybrid-v29-professional-plan-and-ytd-association",
+  "grading_revision": "weighted-atomic-hybrid-v30-recursive-ppt-evidence",
   "output_mode": "presentation_edit",
   "prompt": "Please finalize the June executive performance review at\n`Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx` for the leadership meeting.\n\nGive leadership a source-backed view of Q2 performance, liquidity, outlook, and the resulting guidance recommendation. Reconcile the accounting records to the planning records, explain the material drivers and risks, and make the recommendation and accountable next steps auditable.\n\nPreserve the nine-slide template, master, section order, and title slide. Keep the deck readable and source-footnoted, render-check it, and save it in place. Do not create separate deliverables or temporary exports in the shared workspace.",
   "prompt_sha256": "c195103cee0a52c1dfd3a0fa84098d72b2725672c5067171c62cdf323fbf45ae",

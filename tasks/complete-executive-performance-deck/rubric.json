@@ -624,7 +624,7 @@
     "effective_date": "2026-09-08",
     "id": "task-068-authentic-executive-performance-decision-v21"
   },
-  "grading_revision": "weighted-atomic-hybrid-v29-professional-plan-and-ytd-association",
+  "grading_revision": "weighted-atomic-hybrid-v30-recursive-ppt-evidence",
   "integrity_verifier": "environment/runtime/grading/integrity.py",
   "reference_contract": null,
   "reward_policy": "environment/runtime/grading/rubric.py",
