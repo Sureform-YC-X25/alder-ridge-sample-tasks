@@ -5304,7 +5304,9 @@ def _task_035_numeric_literal_matches(
     )
 
 
-def _task_035_render_fact_row(sheet, value_sheet, row_number: int) -> str:
+def _task_035_render_header_context(sheet, row_number: int) -> str:
+    """Render the nearest visible table headers above a Task035 output row."""
+
     header_rows: list[tuple[int, list[str]]] = []
     for candidate_row in range(1, row_number):
         header_cells: list[str] = []
@@ -5327,6 +5329,11 @@ def _task_035_render_fact_row(sheet, value_sheet, row_number: int) -> str:
         + " | ".join(header_cells)
         for candidate_row, header_cells in header_rows[-3:]
     )
+    return header_context
+
+
+def _task_035_render_fact_row(sheet, value_sheet, row_number: int) -> str:
+    header_context = _task_035_render_header_context(sheet, row_number)
     parts: list[str] = []
     for cell in sheet[row_number]:
         cached = value_sheet[cell.coordinate].value
@@ -5341,6 +5348,122 @@ def _task_035_render_fact_row(sheet, value_sheet, row_number: int) -> str:
             parts.append(f"{cell.coordinate}={cell.value!r}")
     fact_row = f"SHEET {sheet.title} ROW {row_number}: " + " | ".join(parts)
     return f"{header_context}\n{fact_row}" if header_context else fact_row
+
+
+def _task_035_compact_formula_row(sheet, value_sheet, row_number: int) -> str:
+    """Keep a formula row interpretable without letting long formulas crowd out peers."""
+
+    row = sheet[row_number]
+    cached_cells: list[str] = []
+    formula_coordinates: list[str] = []
+    source_linked_count = 0
+    formula_examples: list[str] = []
+    for cell in row:
+        cached = value_sheet[cell.coordinate].value
+        if cached not in (None, ""):
+            rendered = repr(cached)
+            if len(rendered) > 120:
+                rendered = rendered[:117] + "..."
+            cached_cells.append(f"{cell.coordinate}={rendered}")
+        if not (isinstance(cell.value, str) and cell.value.startswith("=")):
+            continue
+        if cached is None:
+            continue
+        formula_coordinates.append(cell.coordinate)
+        if _is_source_linked_formula(cell.value):
+            source_linked_count += 1
+        if len(formula_examples) < 3:
+            formula = cell.value
+            if len(formula) > 180:
+                formula = formula[:177] + "..."
+            formula_examples.append(
+                f"{cell.coordinate}=FORMULA({formula})=>{cached!r}"
+            )
+    cached_text = " | ".join(cached_cells[:16])
+    return (
+        f"SHEET {sheet.title} ROW {row_number}: {cached_text}; "
+        f"CALCULATED_FORMULA_CELLS={formula_coordinates!r}; "
+        f"SOURCE_LINKED_FORMULA_COUNT={source_linked_count}; "
+        f"FORMULA_EXAMPLES={formula_examples!r}"
+    )[:850]
+
+
+def _task_035_scenario_context_evidence(workbook, values, label: str) -> str:
+    """Supply ordinary workbook rows that establish a scenario basis."""
+
+    normalized_label = _normalize(label)
+    controlling_case = normalized_label == "controlling capacity case"
+    needs_probability = "probability plan" in normalized_label or controlling_case
+    needs_gross = "gross commitment" in normalized_label or controlling_case
+    if not (needs_probability or needs_gross):
+        return ""
+
+    terms: list[str] = []
+    preferred: list[str] = []
+    if needs_probability:
+        terms.extend(("risk adjusted", "execution probability", "probability weighted", "probability plan"))
+        preferred.extend(("Revenue Burn", "Gap Analysis", "Checks"))
+    if needs_gross:
+        terms.extend(("gross commitment", "full signed backlog", "100 signed backlog", "without probability"))
+        preferred.extend(("Gap Analysis", "Revenue Burn", "Checks"))
+    sheet_order = tuple(dict.fromkeys((*preferred, *_task_035_output_sheet_names(workbook))))
+    sheet_rank = {name: index for index, name in enumerate(sheet_order)}
+
+    candidates: list[tuple[int, int, int, str, int]] = []
+    for sheet_name in sheet_order:
+        if sheet_name not in workbook.sheetnames:
+            continue
+        sheet = workbook[sheet_name]
+        value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
+        for row_number in range(1, sheet.max_row + 1):
+            formula_values = [
+                cell.value for cell in sheet[row_number]
+                if isinstance(cell.value, str) and cell.value.startswith("=")
+            ]
+            if not formula_values:
+                continue
+            source_text = " | ".join(
+                str(cell.value) for cell in sheet[row_number]
+                if cell.value not in (None, "")
+            )
+            cached_text = " | ".join(
+                str(value_sheet[cell.coordinate].value) for cell in sheet[row_number]
+                if value_sheet[cell.coordinate].value not in (None, "")
+            )
+            normalized_row = _normalize(f"{source_text} {cached_text}")
+            overlap = sum(term in normalized_row for term in terms)
+            if not overlap:
+                continue
+            total_bonus = int(any(token in normalized_row for token in ("total", "tie", "check")))
+            candidates.append((sheet_rank[sheet_name], -total_bonus, -overlap, sheet_name, row_number))
+
+    candidates.sort()
+    selected: list[str] = []
+    selected_by_sheet: dict[str, int] = {}
+    emitted_headers: set[tuple[str, str]] = set()
+    used = 0
+    for _rank, _total, _overlap, sheet_name, row_number in candidates:
+        if selected_by_sheet.get(sheet_name, 0) >= 2:
+            continue
+        sheet = workbook[sheet_name]
+        value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
+        header = _task_035_render_header_context(sheet, row_number)
+        header_key = (sheet_name, header)
+        parts: list[str] = []
+        if header and header_key not in emitted_headers:
+            parts.append(header[:900])
+        parts.append(_task_035_compact_formula_row(sheet, value_sheet, row_number))
+        rendered = "\n".join(parts)
+        if selected and used + len(rendered) + 1 > 3_800:
+            continue
+        selected.append(rendered)
+        used += len(rendered) + 1
+        selected_by_sheet[sheet_name] = selected_by_sheet.get(sheet_name, 0) + 1
+        if header:
+            emitted_headers.add(header_key)
+        if len(selected) >= 6:
+            break
+    return "\n".join(selected)
 
 
 def _task_035_exact_text_candidate_matches(actual: Any, expected: Any) -> bool:
@@ -5513,6 +5636,16 @@ def _task_035_semantic_fact_evidence(
         aliases=_TASK_035_LABEL_ALIASES.get(label, ()),
     )
     evidence_parts = []
+    scenario_context = _task_035_scenario_context_evidence(
+        workbook,
+        values,
+        label,
+    )
+    if scenario_context:
+        evidence_parts.append(
+            "SCENARIO-BASIS ROWS (context only; association remains semantic):\n"
+            + scenario_context
+        )
     if lexical_evidence != "required labeled output row is missing":
         evidence_parts.append("VETTED-LABEL ROWS (evidence only; not a wording gate):\n" + lexical_evidence)
     evidence_parts.append(
@@ -5661,7 +5794,8 @@ def _task_035_formula_row_evidence(
         for token in _normalize(concept).split()
         if token not in {"a", "or", "the", "and", "formula", "driven", "completed"}
     )
-    rows: list[tuple[int, int, str]] = []
+    preferred_set = set(preferred)
+    rows: list[tuple[int, int, int, str, int]] = []
     formula_result_count = 0
     sequence = 0
     for sheet_name in sheet_names:
@@ -5678,7 +5812,7 @@ def _task_035_formula_row_evidence(
                 if cached is None:
                     continue
                 formula_result_count += 1
-                formula_cells.append(f"{cell.coordinate}={cell.value}=>{cached!r}")
+                formula_cells.append(cell.coordinate)
             if not formula_cells:
                 continue
             populated = [
@@ -5689,27 +5823,47 @@ def _task_035_formula_row_evidence(
             row_text = " | ".join(populated[:16])
             normalized_row = _normalize(row_text)
             relevance = sum(term in normalized_row for term in concept_terms)
-            rows.append(
-                (
-                    -relevance,
-                    sequence,
-                    f"{sheet_name} row {row[0].row}: {row_text}; formulas={formula_cells[:8]!r}",
-                )
+            sheet_priority = (
+                0
+                if sheet_name in preferred_set
+                else 1
+                if sheet.sheet_state == "visible"
+                else 2
             )
+            rows.append((sheet_priority, -relevance, sequence, sheet_name, row[0].row))
             sequence += 1
     rows.sort()
     selected: list[str] = []
+    emitted_headers: set[tuple[str, str]] = set()
     used = 0
-    for _relevance, _sequence, row_text in rows:
+    preferred_rows_available = sum(row[3] in preferred_set for row in rows)
+    preferred_rows_selected = 0
+    for _sheet_priority, _relevance, _sequence, sheet_name, row_number in rows:
+        sheet = workbook[sheet_name]
+        value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
+        header = _task_035_render_header_context(sheet, row_number)
+        header_key = (sheet_name, header)
+        parts: list[str] = []
+        if header and header_key not in emitted_headers:
+            parts.append(header[:900])
+        parts.append(_task_035_compact_formula_row(sheet, value_sheet, row_number))
+        row_text = "\n".join(parts)
         if selected and used + len(row_text) + 1 > 12_000:
             continue
         selected.append(row_text)
         used += len(row_text) + 1
+        if header:
+            emitted_headers.add(header_key)
+        if sheet_name in preferred_set:
+            preferred_rows_selected += 1
+        if len(selected) >= 36:
+            break
     submitted = "\n".join(selected) or "No calculated formula rows were found on an output sheet."
     completed = formula_result_count > 0
     gate_evidence = (
         f"calculated output formula cells={formula_result_count}; "
-        f"submitted formula rows={len(selected)}"
+        f"submitted formula rows={len(selected)}; "
+        f"preferred formula rows included={preferred_rows_selected}/{preferred_rows_available}"
     )
     return submitted, completed, gate_evidence
 
@@ -7378,6 +7532,33 @@ def _hybrid_semantic_review(
                             "same business meaning."
                         ),
                     }
+                    normalized_label = _normalize(label)
+                    probability_scenario = "probability plan" in normalized_label
+                    gross_scenario = "gross commitment" in normalized_label
+                    if probability_scenario:
+                        reference_context["probability_plan_definition"] = (
+                            "The probability plan is the execution-probability-adjusted, "
+                            "risk-adjusted signed-backlog view. A visibly source-linked "
+                            "risk-adjusted or execution-probability schedule is sufficient; "
+                            "the literal phrase 'probability plan' is not required."
+                        )
+                    if gross_scenario:
+                        reference_context["gross_commitment_definition"] = (
+                            "The gross-commitment case is 100% of signed customer backlog "
+                            "without an execution-probability reduction. It is distinct from "
+                            "the risk-adjusted probability plan."
+                        )
+                    execution_revenue_check = (
+                        label == "execution_portfolio_revenue_check_delta"
+                    )
+                    if execution_revenue_check:
+                        reference_context["execution_portfolio_revenue_check_definition"] = (
+                            "This control reconciles execution-portfolio completed revenue plus "
+                            "execution-portfolio ending deferred revenue to gross signed backlog "
+                            "or contract value. A generic tie between probability-weighted or "
+                            "risk-adjusted revenue and its planning source is a different control "
+                            "and is insufficient even when that different check also equals zero."
+                        )
                     requirement = (
                         f"Evaluate only whether the submitted workbook clearly associates the "
                         f"deterministically verified fact with {label.replace('_', ' ')} for the correct "
@@ -7391,9 +7572,36 @@ def _hybrid_semantic_review(
                             " The exact fact must be the calculated result of the source-linked formula "
                             "identified by the deterministic hard gate."
                         )
+                    if probability_scenario:
+                        requirement += (
+                            " Treat a visibly linked risk-adjusted signed-backlog or execution-probability "
+                            "schedule as an ordinary professional expression of the probability plan; do "
+                            "not require those literal words in the output label."
+                        )
+                    if gross_scenario:
+                        requirement += (
+                            " Treat only a full signed-backlog view without probability reduction as the "
+                            "gross-commitment case; do not confuse it with the risk-adjusted plan."
+                        )
+                    if execution_revenue_check:
+                        requirement += (
+                            " This exact zero must be the execution-portfolio revenue bridge: completed "
+                            "revenue plus ending deferred revenue reconciled to gross signed backlog or "
+                            "contract value. Reject a zero from a probability-plan or risk-adjusted "
+                            "revenue-source tie because that is a different control."
+                        )
                 else:
                     reference_context = _task_035_status_reference(label, expected)
                     reference_context["formula_required"] = require_formula
+                    if label == "controlling_capacity_case":
+                        reference_context["probability_plan_definition"] = (
+                            "The probability plan is the execution-probability-adjusted, "
+                            "risk-adjusted signed-backlog planning view."
+                        )
+                        reference_context["gross_commitment_definition"] = (
+                            "The gross-commitment case is 100% of signed customer backlog "
+                            "without execution-probability reduction."
+                        )
                     requirement = (
                         f"Evaluate only whether the submitted value for {label!r} expresses "
                         "the correct operational decision under the supplied answer key. Accept "
@@ -7406,6 +7614,12 @@ def _hybrid_semantic_review(
                         requirement += (
                             " The decision must be the calculated result of a source-linked workbook "
                             "formula; a static label or unrelated formula is insufficient."
+                        )
+                    if label == "controlling_capacity_case":
+                        requirement += (
+                            " Select gross commitment only when the output establishes the full 100% "
+                            "signed-backlog exposure as binding. A risk-adjusted or execution-"
+                            "probability plan alone does not establish that controlling case."
                         )
                 evidence_scope = (
                     f"authored output rows containing exact fact or decision candidates for {label!r}; "

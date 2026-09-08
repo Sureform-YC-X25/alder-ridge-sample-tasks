@@ -74,8 +74,8 @@ EXPECTED = {
     "task_035": {
         "slug": "complete-backlog-capacity-model",
         "prompt_sha256": "4e40f6100f92c1026099662397793453ec6b37ee7225393f8c7c1bcf5dee6cb6",
-        "grading_revision": "weighted-atomic-hybrid-v25-header-context-semantic-association",
-        "catalog_revision": "task-035-authentic-backlog-capacity-decision-v14",
+        "grading_revision": "weighted-atomic-hybrid-v26-preferred-sheet-scenario-lineage",
+        "catalog_revision": "task-035-authentic-backlog-capacity-decision-v15",
         "criteria": 130,
         "semantic": 106,
         "weight": 807,

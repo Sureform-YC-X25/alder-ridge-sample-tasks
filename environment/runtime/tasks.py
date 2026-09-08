@@ -8,7 +8,7 @@ GRADING_REVISIONS = {
     "task_001": "weighted-atomic-hybrid-v53-proportional-integrity",
     "task_004": "weighted-atomic-hybrid-v20-proportional-integrity",
     "task_015": "weighted-atomic-hybrid-v20-proportional-integrity-and-prompt-boundary",
-    "task_035": "weighted-atomic-hybrid-v25-header-context-semantic-association",
+    "task_035": "weighted-atomic-hybrid-v26-preferred-sheet-scenario-lineage",
     "task_068": "weighted-atomic-hybrid-v29-professional-plan-and-ytd-association",
 }
 
