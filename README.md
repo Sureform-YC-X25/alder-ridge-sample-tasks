@@ -2,15 +2,13 @@
 
 A runnable five-task company environment for evaluating agents on long-horizon corporate-finance work. Alder Ridge Mechanical is a simulated specialty mechanical contractor with project-based accounting, percentage-of-completion revenue recognition, WIP, change orders, service operations, treasury, and contractor-accounting records.
 
-The sample contains exactly these assignments:
+The sample contains these assignments:
 
 - Task 001 — ARM-2409 June WIP controller sign-off memorandum
 - Task 004 — four-project June WIP risk review
 - Task 015 — Q2 covenant-headroom slide
 - Task 035 — FY27 backlog burn and labor-capacity model
 - Task 068 — June executive performance review
-
-The five tasks share one coherent company world. There are no task-specific duplicate versions of company records or private seed overlays. The complete 144-file source world and one accounting snapshot are reset into an isolated workspace for every run.
 
 All tasks and source files were authored by domain experts and informed by Sureform's partner engagements with a specialty mechanical contractor. Alder Ridge Mechanical, including its personnel, counterparties, communications, transactions, and records, is simulated. The package does not contain identifiable client, partner, employee, insurance, banking, or customer data.
 
