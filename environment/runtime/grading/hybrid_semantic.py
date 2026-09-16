@@ -54,17 +54,18 @@ def _apply_task_001_semantic_coherence(
         if previous == final_met:
             return
         criterion["value"] = int(final_met)
-        criterion["grading_method"] = (
-            "deterministic_gate_semantic_judge_and_logical_coherence"
-        )
+        prior_method = str(criterion.get("grading_method") or "criterion_review")
+        criterion["grading_method"] = f"{prior_method}_with_logical_consistency"
         criterion["evidence"] = (
-            f"{criterion.get('evidence', '')}; logical_coherence={rule}: {reason}"
-        ).strip("; ")
+            f"{criterion.get('evidence', '')}. Logical consistency adjustment: {reason}"
+        ).strip(". ")
         audit["pre_coherence_final_met"] = previous
         audit["final_met"] = final_met
         audit["coherence_rule"] = rule
         audit["coherence_reason"] = reason
         audit["coherence_depends_on"] = list(depends_on)
+        audit["decision_source_before_coherence"] = audit.get("decision_source")
+        audit["decision_source"] = "deterministic_logical_consistency"
         adjustments.append({
             "criterion_id": criterion_id,
             "pre_coherence_final_met": previous,
@@ -149,6 +150,82 @@ def semantic_requirement(
     return requirement
 
 
+def _decision_presentation(
+    *,
+    hard_gate_met: bool,
+    semantic_met: bool,
+    hard_gate_evidence: str,
+    reason: str,
+    response_id: Any,
+    judge_model: str,
+) -> tuple[str, str, str, bool]:
+    """Return truthful viewer metadata without changing a grading decision.
+
+    A null response ID proves that no criterion-level LLM response exists.  In
+    that case the public evidence must not name a model or call the local result
+    a semantic-judge decision.  The raw audit fields remain available in
+    ``semantic_review_result`` for reproducibility.
+    """
+
+    status = "MET" if hard_gate_met and semantic_met else "UNMET"
+    gate_evidence = str(hard_gate_evidence or "").strip()
+    decision_reason = str(reason or "").strip()
+    judge_invoked = bool(str(response_id or "").strip())
+
+    if judge_invoked:
+        explanation = decision_reason or "the judge returned no explanation"
+        evidence = f"LLM semantic review: {status} ({judge_model}) — {explanation}"
+        if not hard_gate_met:
+            prerequisite = gate_evidence or "the deterministic prerequisite failed"
+            evidence = (
+                f"Deterministic prerequisite: UNMET — {prerequisite}. "
+                f"{evidence}"
+            )
+        return (
+            "llm_semantic_judge_with_deterministic_prerequisite",
+            evidence,
+            "llm_semantic_judge",
+            True,
+        )
+
+    if not hard_gate_met:
+        prefix = "deterministic hard gate failed:"
+        explanation = decision_reason
+        if explanation.casefold().startswith(prefix):
+            explanation = explanation[len(prefix):].strip()
+        explanation = explanation or gate_evidence or "the required objective check failed"
+        return (
+            "deterministic_hard_gate",
+            f"Deterministic check: UNMET — {explanation}",
+            "deterministic_hard_gate",
+            False,
+        )
+
+    if decision_reason.casefold() == "deterministic professional association matched":
+        return (
+            "deterministic_professional_association",
+            "Deterministic check: MET — the required fact was present and correctly associated",
+            "deterministic_professional_association",
+            False,
+        )
+
+    if decision_reason.casefold() == "semantic judge returned no verdict":
+        return (
+            "semantic_review_no_verdict",
+            "Semantic review: UNMET — no verdict was returned after the deterministic prerequisite passed",
+            "semantic_review_no_verdict",
+            False,
+        )
+
+    explanation = decision_reason or "a local judgment was supplied without a provider response"
+    return (
+        "local_semantic_judgment",
+        f"Local semantic result: {status} — {explanation}",
+        "local_semantic_judgment",
+        False,
+    )
+
+
 def apply_semantic_judgments(
     result: Mapping[str, Any],
     judgments: Mapping[str, Any],
@@ -200,11 +277,18 @@ def apply_semantic_judgments(
         final_met = hard_gate_met and semantic_met
         lexical_value = int(bool(criterion.get("value")))
         criterion["value"] = int(final_met)
-        criterion["grading_method"] = "deterministic_gate_and_semantic_judge"
-        criterion["evidence"] = (
-            f"hard_gate={hard_gate_met}: {item.get('hard_gate_evidence', '')}; "
-            f"semantic_judge={'MET' if semantic_met else 'UNMET'} ({judge_model}): {reason}; "
-            f"legacy_lexical_match={lexical_value}"
+        (
+            criterion["grading_method"],
+            criterion["evidence"],
+            decision_source,
+            judge_invoked,
+        ) = _decision_presentation(
+            hard_gate_met=hard_gate_met,
+            semantic_met=semantic_met,
+            hard_gate_evidence=str(item.get("hard_gate_evidence") or ""),
+            reason=reason,
+            response_id=response_id,
+            judge_model=judge_model,
         )
         audit.append(
             {
@@ -215,6 +299,8 @@ def apply_semantic_judgments(
                 "legacy_lexical_match": lexical_value,
                 "reason": reason,
                 "response_id": response_id,
+                "decision_source": decision_source,
+                "judge_invoked": judge_invoked,
             }
         )
 
@@ -233,7 +319,10 @@ def apply_semantic_judgments(
         "mode": "environment_aligned_hybrid_semantic_v3",
         "judge_model": judge_model,
         "criteria": audit,
-        "policy": "semantic MET is accepted only when its deterministic hard gate also passes",
+        "policy": (
+            "Every criterion retains its deterministic prerequisite. The per-criterion "
+            "decision_source and judge_invoked fields identify whether an LLM was actually used."
+        ),
         "logical_coherence": {
             "version": "task001-strict-entailment-v1" if coherence_adjustments else None,
             "adjustments": coherence_adjustments,
