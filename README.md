@@ -21,7 +21,7 @@ environment/
   seed/
     accounting.db       simulated company accounting system
     ACCOUNTING_MCP.md   accounting records and MCP tool reference
-    controls/           verifier configuration and source maps
+    controls/           
     sources/            seed files (spreadsheets, documents, etc.)
 
 tasks/
