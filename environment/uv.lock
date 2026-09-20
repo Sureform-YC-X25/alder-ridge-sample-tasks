@@ -15,8 +15,8 @@ wheels = [
 ]
 
 [[package]]
-name = "alder-ridge-sample-tasks"
-version = "2.0.0"
+name = "alder-ridge-5-sample-tasks"
+version = "1.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "fastmcp" },

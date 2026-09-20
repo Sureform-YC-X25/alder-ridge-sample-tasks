@@ -11,8 +11,8 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.0.1
         with:
           version: "0.11.29"
           enable-cache: true
@@ -20,7 +20,6 @@ jobs:
       - run: uv lock --project environment --check
       - run: uv sync --project environment --frozen
       - run: uv run --project environment python environment/validate.py
-      - run: uv run --project environment python scripts/build_seed_inventory.py --check
       - run: uv run --project environment python -m compileall -q environment/runtime environment/validate.py environment/grade.py
       - run: uv run --project environment python -c "import runtime.env, runtime.tasks; assert len(runtime.tasks.tasks) == 5"
       - run: uv run --project environment python environment/runtime/build_agent_runtime.py

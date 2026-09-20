@@ -9,7 +9,7 @@ GRADING_REVISIONS = {
     "task_004": "weighted-atomic-hybrid-v20-proportional-integrity",
     "task_015": "weighted-atomic-hybrid-v20-proportional-integrity-and-prompt-boundary",
     "task_035": "weighted-atomic-hybrid-v26-preferred-sheet-scenario-lineage",
-    "task_068": "weighted-atomic-hybrid-v30-recursive-ppt-evidence",
+    "task_068": "weighted-atomic-hybrid-v36-stable-canonical-plan-cells",
 }
 
 tasks = []

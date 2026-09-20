@@ -1,0 +1,105 @@
+name: Deploy five-task sample environment
+
+on:
+  workflow_dispatch:
+    inputs:
+      expected_commit:
+        description: Exact reviewed commit to deploy
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: alder-ridge-five-task-sample-deploy
+  cancel-in-progress: false
+
+env:
+  HUD_API_KEY: ${{ secrets.HUD_API_KEY }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  EXPECTED_REGISTRY_ID: d54bca55-6f24-4de1-bd35-33bd00f88072
+  EXPECTED_REGISTRY_NAME: sample-alder-ridge-corporate-finance-environment
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.0.1
+        with:
+          version: "0.11.29"
+          enable-cache: true
+      - run: uv python install 3.12
+      - name: Prove the exact reviewed package and credentials
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "${{ inputs.expected_commit }}"
+          test -n "$HUD_API_KEY"
+          test -n "$OPENAI_API_KEY"
+          test "$(git status --short)" = ""
+      - name: Install and validate the frozen five-task package
+        run: |
+          set -euo pipefail
+          uv lock --project environment --check
+          uv sync --project environment --frozen
+          uv run --project environment python environment/validate.py
+          uv run --project environment python -m compileall -q \
+            environment/runtime environment/validate.py environment/grade.py
+          uv run --project environment python -c \
+            "import runtime.env, runtime.tasks; assert len(runtime.tasks.tasks) == 5"
+      - name: Deploy only the five-task runtime to the existing sample registry
+        run: |
+          set -euo pipefail
+          uv run --project environment hud deploy environment --no-env \
+            --env HUD_API_KEY="$HUD_API_KEY" \
+            --env OPENAI_API_KEY="$OPENAI_API_KEY"
+      - name: Prove the terminal registry manifest and idle state
+        run: |
+          uv run --project environment python - <<'PY'
+          import asyncio
+          import json
+          import os
+
+          from hud.utils.platform import PlatformClient
+
+
+          async def main() -> None:
+              client = PlatformClient.from_settings()
+              registry = await client.aget(
+                  f"/registry/{os.environ['EXPECTED_REGISTRY_ID']}"
+              )
+              latest = registry.get("latest_build") or {}
+              tasks = (latest.get("manifest") or {}).get("tasks") or []
+              task_ids = [row.get("id") for row in tasks]
+              expected = ["task_001", "task_004", "task_015", "task_035", "task_068"]
+              running = await client.aget(
+                  "/environments/usage", params={"status": "running"}
+              )
+              result = {
+                  "registry_id": registry.get("id"),
+                  "registry_name": registry.get("name"),
+                  "build_id": latest.get("id"),
+                  "build_version": latest.get("version"),
+                  "build_status": latest.get("status"),
+                  "task_ids": task_ids,
+                  "active_environments": (running.get("summary") or {}).get(
+                      "active_count"
+                  ),
+              }
+              if result != {
+                  "registry_id": os.environ["EXPECTED_REGISTRY_ID"],
+                  "registry_name": os.environ["EXPECTED_REGISTRY_NAME"],
+                  "build_id": latest.get("id"),
+                  "build_version": latest.get("version"),
+                  "build_status": "succeeded",
+                  "task_ids": expected,
+                  "active_environments": 0,
+              }:
+                  raise SystemExit(f"Unexpected terminal sample registry: {result}")
+              print(json.dumps(result, indent=2))
+
+
+          asyncio.run(main())
+          PY

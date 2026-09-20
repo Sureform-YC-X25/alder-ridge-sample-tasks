@@ -83,8 +83,8 @@ EXPECTED = {
     "task_068": {
         "slug": "complete-executive-performance-deck",
         "prompt_sha256": "c195103cee0a52c1dfd3a0fa84098d72b2725672c5067171c62cdf323fbf45ae",
-        "grading_revision": "weighted-atomic-hybrid-v30-recursive-ppt-evidence",
-        "catalog_revision": "task-068-authentic-executive-performance-decision-v21",
+        "grading_revision": "weighted-atomic-hybrid-v36-stable-canonical-plan-cells",
+        "catalog_revision": "task-068-authentic-executive-performance-decision-v22",
         "criteria": 88,
         "semantic": 87,
         "weight": 628,
@@ -96,7 +96,7 @@ EXPECTED_ACCOUNTING_SHA256 = (
 EXPECTED_CANONICAL_SOURCE_COMMIT = (
     "d03ed15caa1f66008ab767fbd203f656a32425eb"
 )
-EXPECTED_SOURCE_COUNT = 144
+EXPECTED_SOURCE_COUNT = 51
 TASK_FILE_SET = {
     "gold.json",
     "prompt.md",
@@ -108,7 +108,6 @@ CONTROL_FILE_SET = {
     "corporate_finance_shared_workbook_data.json",
     "corporate_finance_source_map.json",
     "corporate_finance_template_inputs.json",
-    "fact_registry.json",
     "file_registry.json",
     "task_source_dependencies.json",
 }
@@ -201,10 +200,17 @@ def main() -> int:
     assert set(load_apex_gold()) == set(SELECTED[:3])
     assert set(load_corporate_finance_gold()) == set(SELECTED[3:])
     assert set(dependencies["tasks"]) == expected_ids
-    assert set(_json(CONTROLS_ROOT / "corporate_finance_source_map.json")["tasks"]) == {
+    corporate_source_map = _json(
+        CONTROLS_ROOT / "corporate_finance_source_map.json"
+    )["tasks"]
+    assert set(corporate_source_map) == {
         "task_035",
         "task_068",
     }
+    assert all(
+        corporate_source_map[task_id] == dependencies["tasks"][task_id]
+        for task_id in corporate_source_map
+    )
     assert set(_json(CONTROLS_ROOT / "corporate_finance_template_inputs.json")) == {
         "task_035"
     }
@@ -214,7 +220,8 @@ def main() -> int:
         ]
     ) == {"task_035", "task_068"}
 
-    assert manifest["complete_shared_company_world_included"] is True
+    assert manifest["complete_shared_company_world_included"] is False
+    assert manifest["complete_five_task_source_world_included"] is True
     assert manifest["container_includes_complete_seed_world"] is True
     assert manifest["other_task_definitions_included"] is False
     assert manifest["non_sample_task_seed_overlays_included"] is False
@@ -230,8 +237,42 @@ def main() -> int:
     assert len(registered_sources) == EXPECTED_SOURCE_COUNT
     assert set(actual_sources) == set(registered_sources) == set(manifest["source_files"])
     assert manifest["source_file_count"] == EXPECTED_SOURCE_COUNT
+    required_sources = {
+        relative
+        for record in dependencies["tasks"].values()
+        for relative in record["minimum_source_artifacts"]
+    }
+    assert required_sources == set(actual_sources)
     for relative, source in actual_sources.items():
         assert _sha256(source) == registered_sources[relative]["sha256"], relative
+
+    unresolved_control_sources: list[tuple[str, str]] = []
+
+    def check_control_sources(value: Any, origin: str) -> None:
+        if isinstance(value, dict):
+            for nested in value.values():
+                check_control_sources(nested, origin)
+        elif isinstance(value, list):
+            for nested in value:
+                check_control_sources(nested, origin)
+        elif isinstance(value, str) and value.startswith(("Shared/", "Requests/")):
+            if value not in actual_sources:
+                unresolved_control_sources.append((origin, value))
+
+    for control in sorted(CONTROLS_ROOT.glob("*.json")):
+        check_control_sources(_json(control), control.name)
+    assert unresolved_control_sources == [], unresolved_control_sources
+
+    packaged_task_ids: set[str] = set()
+    for path in REPOSITORY_ROOT.rglob("*"):
+        if not path.is_file() or SOURCES_ROOT in path.parents:
+            continue
+        if path.suffix.casefold() not in {".json", ".md", ".py", ".toml", ".yaml", ".yml"}:
+            continue
+        packaged_task_ids.update(
+            re.findall(r"\btask_[0-9]{3}\b", path.read_text(encoding="utf-8", errors="ignore"))
+        )
+    assert packaged_task_ids == expected_ids
 
     accounting_sha = _sha256(SEED_ROOT / "accounting.db")
     assert accounting_sha == EXPECTED_ACCOUNTING_SHA256
@@ -304,7 +345,7 @@ def main() -> int:
         blank_scores[task.task_id] = result["reward"]
 
     try:
-        grade_apex_task("task_027", "", SOURCES_ROOT)
+        grade_apex_task("removed_task", "", SOURCES_ROOT)
     except KeyError:
         pass
     else:
