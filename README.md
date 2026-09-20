@@ -4,11 +4,11 @@ A runnable five-task company environment for evaluating agents on long-horizon c
 
 The sample contains:
 
-- Task 001 — ARM-2409 June WIP controller sign-off memorandum
-- Task 004 — four-project June WIP risk review
-- Task 015 — Q2 covenant-headroom slide
-- Task 035 — FY27 backlog burn and labor-capacity model
-- Task 068 — June executive performance review
+- ARM-2409 June WIP controller sign-off memorandum
+- four-project June WIP risk review
+- Q2 covenant-headroom slide
+- FY27 backlog burn and labor-capacity model
+- June executive performance review
 
 All tasks and source files were authored by domain experts and informed by Sureform's partner engagements with a specialty mechanical contractor. Alder Ridge Mechanical, including its personnel, counterparties, communications, transactions, and records, is simulated. The package does not contain identifiable client, partner, employee, insurance, banking, or customer data.
 
